@@ -1,4 +1,5 @@
 import User from '../models/user.model';
+import bcrypt from "bcrypt";
 
 //get all users
 export const getAllUsers = async () => {
@@ -8,10 +9,12 @@ export const getAllUsers = async () => {
 
 //create new user
 export const userRegistration = async (body) => {
+  const saltRounds = 10;
+  const hasedPassword = bcrypt.hashSync(body.password,saltRounds);
+  body.password = hasedPassword;
   const data = await User.create(body);       //create is mangoose query method -create(doc(s), [callback]): create document object and save it to database; callback has error and doc(s) arguments
   return data;    //create object and save it to database
 }; 
-
 
 
 //update single user

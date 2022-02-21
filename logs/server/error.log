@@ -194,3 +194,95 @@ error:
     method - POST 
     IP - ::ffff:127.0.0.1
    {"timestamp":"2022-02-21T11:41:29.854Z"}
+error: 
+    status - 500 
+    message - ValidationError: User validation failed: password: Cast to string failed for value "Promise { <pending> }" (type Promise) at path "password"
+    at model.Document.invalidate (C:\Users\anand\Desktop\fundoo-Notes\node_modules\mongoose\lib\document.js:2782:32)
+    at model.$set (C:\Users\anand\Desktop\fundoo-Notes\node_modules\mongoose\lib\document.js:1349:12)
+    at model.$set (C:\Users\anand\Desktop\fundoo-Notes\node_modules\mongoose\lib\document.js:1058:16)
+    at model.Document (C:\Users\anand\Desktop\fundoo-Notes\node_modules\mongoose\lib\document.js:148:12)
+    at model.Model (C:\Users\anand\Desktop\fundoo-Notes\node_modules\mongoose\lib\model.js:106:12)
+    at new model (C:\Users\anand\Desktop\fundoo-Notes\node_modules\mongoose\lib\model.js:4911:15)
+    at C:\Users\anand\Desktop\fundoo-Notes\node_modules\mongoose\lib\model.js:3157:22
+    at C:\Users\anand\Desktop\fundoo-Notes\node_modules\mongoose\lib\model.js:3193:7
+    at Array.forEach (<anonymous>)
+    at C:\Users\anand\Desktop\fundoo-Notes\node_modules\mongoose\lib\model.js:3192:15
+    at C:\Users\anand\Desktop\fundoo-Notes\node_modules\mongoose\lib\helpers\promiseOrCallback.js:32:5
+    at new Promise (<anonymous>)
+    at promiseOrCallback (C:\Users\anand\Desktop\fundoo-Notes\node_modules\mongoose\lib\helpers\promiseOrCallback.js:31:10)
+    at Mongoose._promiseOrCallback (C:\Users\anand\Desktop\fundoo-Notes\node_modules\mongoose\lib\index.js:1149:10)
+    at Function.create (C:\Users\anand\Desktop\fundoo-Notes\node_modules\mongoose\lib\model.js:3127:23)
+    at _callee2$ (C:\Users\anand\Desktop\fundoo-Notes\build\services\user.service.js:60:37) 
+    url - /api/v1/users/userregister 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-02-21T13:28:06.494Z"}
+error: 
+    status - 500 
+    message - ValidationError: User validation failed: password: Cast to string failed for value "Promise { <pending> }" (type Promise) at path "password"
+    at model.Document.invalidate (C:\Users\anand\Desktop\fundoo-Notes\node_modules\mongoose\lib\document.js:2782:32)
+    at model.$set (C:\Users\anand\Desktop\fundoo-Notes\node_modules\mongoose\lib\document.js:1349:12)
+    at model.$set (C:\Users\anand\Desktop\fundoo-Notes\node_modules\mongoose\lib\document.js:1058:16)
+    at model.Document (C:\Users\anand\Desktop\fundoo-Notes\node_modules\mongoose\lib\document.js:148:12)
+    at model.Model (C:\Users\anand\Desktop\fundoo-Notes\node_modules\mongoose\lib\model.js:106:12)
+    at new model (C:\Users\anand\Desktop\fundoo-Notes\node_modules\mongoose\lib\model.js:4911:15)
+    at C:\Users\anand\Desktop\fundoo-Notes\node_modules\mongoose\lib\model.js:3157:22
+    at C:\Users\anand\Desktop\fundoo-Notes\node_modules\mongoose\lib\model.js:3193:7
+    at Array.forEach (<anonymous>)
+    at C:\Users\anand\Desktop\fundoo-Notes\node_modules\mongoose\lib\model.js:3192:15
+    at C:\Users\anand\Desktop\fundoo-Notes\node_modules\mongoose\lib\helpers\promiseOrCallback.js:32:5
+    at new Promise (<anonymous>)
+    at promiseOrCallback (C:\Users\anand\Desktop\fundoo-Notes\node_modules\mongoose\lib\helpers\promiseOrCallback.js:31:10)
+    at Mongoose._promiseOrCallback (C:\Users\anand\Desktop\fundoo-Notes\node_modules\mongoose\lib\index.js:1149:10)
+    at Function.create (C:\Users\anand\Desktop\fundoo-Notes\node_modules\mongoose\lib\model.js:3127:23)
+    at _callee2$ (C:\Users\anand\Desktop\fundoo-Notes\build\services\user.service.js:60:37) 
+    url - /api/v1/users/userregister 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-02-21T13:28:36.937Z"}
+error: 
+    status - 500 
+    message - ValidationError: User validation failed: password: Cast to string failed for value "Promise { <pending> }" (type Promise) at path "password"
+    at model.Document.invalidate (C:\Users\anand\Desktop\fundoo-Notes\node_modules\mongoose\lib\document.js:2782:32)
+    at model.$set (C:\Users\anand\Desktop\fundoo-Notes\node_modules\mongoose\lib\document.js:1349:12)
+    at model.$set (C:\Users\anand\Desktop\fundoo-Notes\node_modules\mongoose\lib\document.js:1058:16)
+    at model.Document (C:\Users\anand\Desktop\fundoo-Notes\node_modules\mongoose\lib\document.js:148:12)
+    at model.Model (C:\Users\anand\Desktop\fundoo-Notes\node_modules\mongoose\lib\model.js:106:12)
+    at new model (C:\Users\anand\Desktop\fundoo-Notes\node_modules\mongoose\lib\model.js:4911:15)
+    at C:\Users\anand\Desktop\fundoo-Notes\node_modules\mongoose\lib\model.js:3157:22
+    at C:\Users\anand\Desktop\fundoo-Notes\node_modules\mongoose\lib\model.js:3193:7
+    at Array.forEach (<anonymous>)
+    at C:\Users\anand\Desktop\fundoo-Notes\node_modules\mongoose\lib\model.js:3192:15
+    at C:\Users\anand\Desktop\fundoo-Notes\node_modules\mongoose\lib\helpers\promiseOrCallback.js:32:5
+    at new Promise (<anonymous>)
+    at promiseOrCallback (C:\Users\anand\Desktop\fundoo-Notes\node_modules\mongoose\lib\helpers\promiseOrCallback.js:31:10)
+    at Mongoose._promiseOrCallback (C:\Users\anand\Desktop\fundoo-Notes\node_modules\mongoose\lib\index.js:1149:10)
+    at Function.create (C:\Users\anand\Desktop\fundoo-Notes\node_modules\mongoose\lib\model.js:3127:23)
+    at _callee2$ (C:\Users\anand\Desktop\fundoo-Notes\build\services\user.service.js:60:37) 
+    url - /api/v1/users/userregister 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-02-21T13:28:37.990Z"}
+error: 
+    status - 500 
+    message - ValidationError: User validation failed: password: Cast to string failed for value "Promise { <pending> }" (type Promise) at path "password"
+    at model.Document.invalidate (C:\Users\anand\Desktop\fundoo-Notes\node_modules\mongoose\lib\document.js:2782:32)
+    at model.$set (C:\Users\anand\Desktop\fundoo-Notes\node_modules\mongoose\lib\document.js:1349:12)
+    at model.$set (C:\Users\anand\Desktop\fundoo-Notes\node_modules\mongoose\lib\document.js:1058:16)
+    at model.Document (C:\Users\anand\Desktop\fundoo-Notes\node_modules\mongoose\lib\document.js:148:12)
+    at model.Model (C:\Users\anand\Desktop\fundoo-Notes\node_modules\mongoose\lib\model.js:106:12)
+    at new model (C:\Users\anand\Desktop\fundoo-Notes\node_modules\mongoose\lib\model.js:4911:15)
+    at C:\Users\anand\Desktop\fundoo-Notes\node_modules\mongoose\lib\model.js:3157:22
+    at C:\Users\anand\Desktop\fundoo-Notes\node_modules\mongoose\lib\model.js:3193:7
+    at Array.forEach (<anonymous>)
+    at C:\Users\anand\Desktop\fundoo-Notes\node_modules\mongoose\lib\model.js:3192:15
+    at C:\Users\anand\Desktop\fundoo-Notes\node_modules\mongoose\lib\helpers\promiseOrCallback.js:32:5
+    at new Promise (<anonymous>)
+    at promiseOrCallback (C:\Users\anand\Desktop\fundoo-Notes\node_modules\mongoose\lib\helpers\promiseOrCallback.js:31:10)
+    at Mongoose._promiseOrCallback (C:\Users\anand\Desktop\fundoo-Notes\node_modules\mongoose\lib\index.js:1149:10)
+    at Function.create (C:\Users\anand\Desktop\fundoo-Notes\node_modules\mongoose\lib\model.js:3127:23)
+    at _callee2$ (C:\Users\anand\Desktop\fundoo-Notes\build\services\user.service.js:60:37) 
+    url - /api/v1/users/userregister 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-02-21T13:28:39.835Z"}
