@@ -1,0 +1,199 @@
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-21T10:43:47.076Z"}
+info: Connected to the database. {"timestamp":"2022-02-21T10:43:47.591Z"}
+error: 
+      status - 400
+      message - Authorization token is required 
+      url - /api/v1/users/userregister 
+      method - GET 
+      IP - ::1
+     {"timestamp":"2022-02-21T10:43:59.236Z"}
+error: 
+      status - 400
+      message - Authorization token is required 
+      url - /api/v1/users/userregister 
+      method - GET 
+      IP - ::1
+     {"timestamp":"2022-02-21T10:48:10.815Z"}
+error: 
+    status - 500 
+    message - TypeError: _joi.default.string(...).unique is not a function
+    at newUserValidator (C:\Users\anand\Desktop\fundoo-Notes\build\validators\user.validator.js:16:39)
+    at Layer.handle [as handle_request] (C:\Users\anand\Desktop\fundoo-Notes\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\anand\Desktop\fundoo-Notes\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (C:\Users\anand\Desktop\fundoo-Notes\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (C:\Users\anand\Desktop\fundoo-Notes\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\anand\Desktop\fundoo-Notes\node_modules\express\lib\router\index.js:281:22
+    at Function.process_params (C:\Users\anand\Desktop\fundoo-Notes\node_modules\express\lib\router\index.js:341:12)
+    at next (C:\Users\anand\Desktop\fundoo-Notes\node_modules\express\lib\router\index.js:275:10)
+    at Function.handle (C:\Users\anand\Desktop\fundoo-Notes\node_modules\express\lib\router\index.js:174:3)
+    at router (C:\Users\anand\Desktop\fundoo-Notes\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (C:\Users\anand\Desktop\fundoo-Notes\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\anand\Desktop\fundoo-Notes\node_modules\express\lib\router\index.js:323:13)
+    at C:\Users\anand\Desktop\fundoo-Notes\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (C:\Users\anand\Desktop\fundoo-Notes\node_modules\express\lib\router\index.js:341:12)
+    at next (C:\Users\anand\Desktop\fundoo-Notes\node_modules\express\lib\router\index.js:275:10)
+    at Function.handle (C:\Users\anand\Desktop\fundoo-Notes\node_modules\express\lib\router\index.js:174:3) 
+    url - /api/v1/users/userregister 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-02-21T10:53:33.734Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-21T11:37:41.342Z"}
+info: Connected to the database. {"timestamp":"2022-02-21T11:37:41.420Z"}
+error: 
+    status - 500 
+    message - TypeError: _joi.default.string(...).unique is not a function
+    at newUserValidator (C:\Users\anand\Desktop\fundoo-Notes\build\validators\user.validator.js:16:39)
+    at Layer.handle [as handle_request] (C:\Users\anand\Desktop\fundoo-Notes\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\anand\Desktop\fundoo-Notes\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (C:\Users\anand\Desktop\fundoo-Notes\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (C:\Users\anand\Desktop\fundoo-Notes\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\anand\Desktop\fundoo-Notes\node_modules\express\lib\router\index.js:281:22
+    at Function.process_params (C:\Users\anand\Desktop\fundoo-Notes\node_modules\express\lib\router\index.js:341:12)
+    at next (C:\Users\anand\Desktop\fundoo-Notes\node_modules\express\lib\router\index.js:275:10)
+    at Function.handle (C:\Users\anand\Desktop\fundoo-Notes\node_modules\express\lib\router\index.js:174:3)
+    at router (C:\Users\anand\Desktop\fundoo-Notes\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (C:\Users\anand\Desktop\fundoo-Notes\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\anand\Desktop\fundoo-Notes\node_modules\express\lib\router\index.js:323:13)
+    at C:\Users\anand\Desktop\fundoo-Notes\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (C:\Users\anand\Desktop\fundoo-Notes\node_modules\express\lib\router\index.js:341:12)
+    at next (C:\Users\anand\Desktop\fundoo-Notes\node_modules\express\lib\router\index.js:275:10)
+    at Function.handle (C:\Users\anand\Desktop\fundoo-Notes\node_modules\express\lib\router\index.js:174:3) 
+    url - /api/v1/users/userregister 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-02-21T11:38:31.580Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-21T11:39:48.992Z"}
+info: Connected to the database. {"timestamp":"2022-02-21T11:39:49.016Z"}
+error: 
+    status - 500 
+    message - TypeError: _joi.default.string(...).unique is not a function
+    at newUserValidator (C:\Users\anand\Desktop\fundoo-Notes\build\validators\user.validator.js:16:39)
+    at Layer.handle [as handle_request] (C:\Users\anand\Desktop\fundoo-Notes\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\anand\Desktop\fundoo-Notes\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (C:\Users\anand\Desktop\fundoo-Notes\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (C:\Users\anand\Desktop\fundoo-Notes\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\anand\Desktop\fundoo-Notes\node_modules\express\lib\router\index.js:281:22
+    at Function.process_params (C:\Users\anand\Desktop\fundoo-Notes\node_modules\express\lib\router\index.js:341:12)
+    at next (C:\Users\anand\Desktop\fundoo-Notes\node_modules\express\lib\router\index.js:275:10)
+    at Function.handle (C:\Users\anand\Desktop\fundoo-Notes\node_modules\express\lib\router\index.js:174:3)
+    at router (C:\Users\anand\Desktop\fundoo-Notes\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (C:\Users\anand\Desktop\fundoo-Notes\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\anand\Desktop\fundoo-Notes\node_modules\express\lib\router\index.js:323:13)
+    at C:\Users\anand\Desktop\fundoo-Notes\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (C:\Users\anand\Desktop\fundoo-Notes\node_modules\express\lib\router\index.js:341:12)
+    at next (C:\Users\anand\Desktop\fundoo-Notes\node_modules\express\lib\router\index.js:275:10)
+    at Function.handle (C:\Users\anand\Desktop\fundoo-Notes\node_modules\express\lib\router\index.js:174:3) 
+    url - /api/v1/users/userregister 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-02-21T11:39:56.456Z"}
+error: 
+    status - 500 
+    message - TypeError: _joi.default.string(...).unique is not a function
+    at newUserValidator (C:\Users\anand\Desktop\fundoo-Notes\build\validators\user.validator.js:16:39)
+    at Layer.handle [as handle_request] (C:\Users\anand\Desktop\fundoo-Notes\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\anand\Desktop\fundoo-Notes\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (C:\Users\anand\Desktop\fundoo-Notes\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (C:\Users\anand\Desktop\fundoo-Notes\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\anand\Desktop\fundoo-Notes\node_modules\express\lib\router\index.js:281:22
+    at Function.process_params (C:\Users\anand\Desktop\fundoo-Notes\node_modules\express\lib\router\index.js:341:12)
+    at next (C:\Users\anand\Desktop\fundoo-Notes\node_modules\express\lib\router\index.js:275:10)
+    at Function.handle (C:\Users\anand\Desktop\fundoo-Notes\node_modules\express\lib\router\index.js:174:3)
+    at router (C:\Users\anand\Desktop\fundoo-Notes\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (C:\Users\anand\Desktop\fundoo-Notes\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\anand\Desktop\fundoo-Notes\node_modules\express\lib\router\index.js:323:13)
+    at C:\Users\anand\Desktop\fundoo-Notes\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (C:\Users\anand\Desktop\fundoo-Notes\node_modules\express\lib\router\index.js:341:12)
+    at next (C:\Users\anand\Desktop\fundoo-Notes\node_modules\express\lib\router\index.js:275:10)
+    at Function.handle (C:\Users\anand\Desktop\fundoo-Notes\node_modules\express\lib\router\index.js:174:3) 
+    url - /api/v1/users/userregister 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-02-21T11:39:58.092Z"}
+error: 
+    status - 500 
+    message - TypeError: _joi.default.string(...).unique is not a function
+    at newUserValidator (C:\Users\anand\Desktop\fundoo-Notes\build\validators\user.validator.js:16:39)
+    at Layer.handle [as handle_request] (C:\Users\anand\Desktop\fundoo-Notes\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\anand\Desktop\fundoo-Notes\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (C:\Users\anand\Desktop\fundoo-Notes\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (C:\Users\anand\Desktop\fundoo-Notes\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\anand\Desktop\fundoo-Notes\node_modules\express\lib\router\index.js:281:22
+    at Function.process_params (C:\Users\anand\Desktop\fundoo-Notes\node_modules\express\lib\router\index.js:341:12)
+    at next (C:\Users\anand\Desktop\fundoo-Notes\node_modules\express\lib\router\index.js:275:10)
+    at Function.handle (C:\Users\anand\Desktop\fundoo-Notes\node_modules\express\lib\router\index.js:174:3)
+    at router (C:\Users\anand\Desktop\fundoo-Notes\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (C:\Users\anand\Desktop\fundoo-Notes\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\anand\Desktop\fundoo-Notes\node_modules\express\lib\router\index.js:323:13)
+    at C:\Users\anand\Desktop\fundoo-Notes\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (C:\Users\anand\Desktop\fundoo-Notes\node_modules\express\lib\router\index.js:341:12)
+    at next (C:\Users\anand\Desktop\fundoo-Notes\node_modules\express\lib\router\index.js:275:10)
+    at Function.handle (C:\Users\anand\Desktop\fundoo-Notes\node_modules\express\lib\router\index.js:174:3) 
+    url - /api/v1/users/userregister 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-02-21T11:39:58.990Z"}
+error: 
+    status - 500 
+    message - TypeError: _joi.default.string(...).unique is not a function
+    at newUserValidator (C:\Users\anand\Desktop\fundoo-Notes\build\validators\user.validator.js:16:39)
+    at Layer.handle [as handle_request] (C:\Users\anand\Desktop\fundoo-Notes\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\anand\Desktop\fundoo-Notes\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (C:\Users\anand\Desktop\fundoo-Notes\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (C:\Users\anand\Desktop\fundoo-Notes\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\anand\Desktop\fundoo-Notes\node_modules\express\lib\router\index.js:281:22
+    at Function.process_params (C:\Users\anand\Desktop\fundoo-Notes\node_modules\express\lib\router\index.js:341:12)
+    at next (C:\Users\anand\Desktop\fundoo-Notes\node_modules\express\lib\router\index.js:275:10)
+    at Function.handle (C:\Users\anand\Desktop\fundoo-Notes\node_modules\express\lib\router\index.js:174:3)
+    at router (C:\Users\anand\Desktop\fundoo-Notes\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (C:\Users\anand\Desktop\fundoo-Notes\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\anand\Desktop\fundoo-Notes\node_modules\express\lib\router\index.js:323:13)
+    at C:\Users\anand\Desktop\fundoo-Notes\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (C:\Users\anand\Desktop\fundoo-Notes\node_modules\express\lib\router\index.js:341:12)
+    at next (C:\Users\anand\Desktop\fundoo-Notes\node_modules\express\lib\router\index.js:275:10)
+    at Function.handle (C:\Users\anand\Desktop\fundoo-Notes\node_modules\express\lib\router\index.js:174:3) 
+    url - /api/v1/users/userregister 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-02-21T11:39:59.673Z"}
+error: 
+    status - 500 
+    message - TypeError: _joi.default.string(...).unique is not a function
+    at newUserValidator (C:\Users\anand\Desktop\fundoo-Notes\build\validators\user.validator.js:16:39)
+    at Layer.handle [as handle_request] (C:\Users\anand\Desktop\fundoo-Notes\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\anand\Desktop\fundoo-Notes\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (C:\Users\anand\Desktop\fundoo-Notes\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (C:\Users\anand\Desktop\fundoo-Notes\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\anand\Desktop\fundoo-Notes\node_modules\express\lib\router\index.js:281:22
+    at Function.process_params (C:\Users\anand\Desktop\fundoo-Notes\node_modules\express\lib\router\index.js:341:12)
+    at next (C:\Users\anand\Desktop\fundoo-Notes\node_modules\express\lib\router\index.js:275:10)
+    at Function.handle (C:\Users\anand\Desktop\fundoo-Notes\node_modules\express\lib\router\index.js:174:3)
+    at router (C:\Users\anand\Desktop\fundoo-Notes\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (C:\Users\anand\Desktop\fundoo-Notes\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\anand\Desktop\fundoo-Notes\node_modules\express\lib\router\index.js:323:13)
+    at C:\Users\anand\Desktop\fundoo-Notes\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (C:\Users\anand\Desktop\fundoo-Notes\node_modules\express\lib\router\index.js:341:12)
+    at next (C:\Users\anand\Desktop\fundoo-Notes\node_modules\express\lib\router\index.js:275:10)
+    at Function.handle (C:\Users\anand\Desktop\fundoo-Notes\node_modules\express\lib\router\index.js:174:3) 
+    url - /api/v1/users/userregister 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-02-21T11:40:01.539Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-21T11:41:14.800Z"}
+info: Connected to the database. {"timestamp":"2022-02-21T11:41:14.828Z"}
+error: 
+    status - 500 
+    message - ValidationError: "firsName" is required 
+    url - /api/v1/users/userregister 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-02-21T11:41:28.797Z"}
+error: 
+    status - 500 
+    message - ValidationError: "firsName" is required 
+    url - /api/v1/users/userregister 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-02-21T11:41:29.854Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-21T11:42:03.553Z"}
+info: Connected to the database. {"timestamp":"2022-02-21T11:42:03.580Z"}
