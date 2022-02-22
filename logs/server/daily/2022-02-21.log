@@ -291,3 +291,34 @@ error:
     method - POST 
     IP - ::ffff:127.0.0.1
    {"timestamp":"2022-02-21T13:28:39.835Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-21T13:30:02.785Z"}
+info: Connected to the database. {"timestamp":"2022-02-21T13:30:02.811Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-21T13:54:06.765Z"}
+info: Connected to the database. {"timestamp":"2022-02-21T13:54:06.788Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-21T16:53:37.793Z"}
+info: Connected to the database. {"timestamp":"2022-02-21T16:53:37.824Z"}
+error: 
+    status - 500 
+    message - TypeError: _joi.default.string(...).required(...).unique is not a function
+    at newUserValidator (C:\Users\anand\Desktop\fundoo-Notes\build\validators\user.validator.js:16:50)
+    at Layer.handle [as handle_request] (C:\Users\anand\Desktop\fundoo-Notes\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\anand\Desktop\fundoo-Notes\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (C:\Users\anand\Desktop\fundoo-Notes\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (C:\Users\anand\Desktop\fundoo-Notes\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\anand\Desktop\fundoo-Notes\node_modules\express\lib\router\index.js:281:22
+    at Function.process_params (C:\Users\anand\Desktop\fundoo-Notes\node_modules\express\lib\router\index.js:341:12)
+    at next (C:\Users\anand\Desktop\fundoo-Notes\node_modules\express\lib\router\index.js:275:10)
+    at Function.handle (C:\Users\anand\Desktop\fundoo-Notes\node_modules\express\lib\router\index.js:174:3)
+    at router (C:\Users\anand\Desktop\fundoo-Notes\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (C:\Users\anand\Desktop\fundoo-Notes\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\anand\Desktop\fundoo-Notes\node_modules\express\lib\router\index.js:323:13)
+    at C:\Users\anand\Desktop\fundoo-Notes\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (C:\Users\anand\Desktop\fundoo-Notes\node_modules\express\lib\router\index.js:341:12)
+    at next (C:\Users\anand\Desktop\fundoo-Notes\node_modules\express\lib\router\index.js:275:10)
+    at Function.handle (C:\Users\anand\Desktop\fundoo-Notes\node_modules\express\lib\router\index.js:174:3) 
+    url - /api/v1/users/userregister 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-02-21T16:54:38.051Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-21T16:55:54.510Z"}
+info: Connected to the database. {"timestamp":"2022-02-21T16:55:54.541Z"}

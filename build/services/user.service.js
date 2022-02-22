@@ -5,7 +5,7 @@ var _interopRequireDefault = require("@babel/runtime/helpers/interopRequireDefau
 Object.defineProperty(exports, "__esModule", {
   value: true
 });
-exports.userRegistration = exports.updateUser = exports.getUser = exports.getAllUsers = exports.deleteUser = void 0;
+exports.userRegistration = exports.updateUser = exports.login = exports.getUser = exports.getAllUsers = exports.deleteUser = void 0;
 
 var _regenerator = _interopRequireDefault(require("@babel/runtime/regenerator"));
 
@@ -15,6 +15,7 @@ var _user = _interopRequireDefault(require("../models/user.model"));
 
 var _bcrypt = _interopRequireDefault(require("bcrypt"));
 
+// import jwt from 'jsonwebtoken';
 //get all users
 var getAllUsers = /*#__PURE__*/function () {
   var _ref = (0, _asyncToGenerator2["default"])( /*#__PURE__*/_regenerator["default"].mark(function _callee() {
@@ -74,30 +75,59 @@ var userRegistration = /*#__PURE__*/function () {
   return function userRegistration(_x) {
     return _ref2.apply(this, arguments);
   };
-}(); //update single user
+}(); // login user;
 
 
 exports.userRegistration = userRegistration;
 
-var updateUser = /*#__PURE__*/function () {
-  var _ref3 = (0, _asyncToGenerator2["default"])( /*#__PURE__*/_regenerator["default"].mark(function _callee3(_id, body) {
-    var data;
+var login = /*#__PURE__*/function () {
+  var _ref3 = (0, _asyncToGenerator2["default"])( /*#__PURE__*/_regenerator["default"].mark(function _callee3(body) {
+    var user, validPassword1, jwt, token;
     return _regenerator["default"].wrap(function _callee3$(_context3) {
       while (1) {
         switch (_context3.prev = _context3.next) {
           case 0:
             _context3.next = 2;
-            return _user["default"].findByIdAndUpdate({
-              _id: _id
-            }, body, {
-              "new": true
+            return _user["default"].findOne({
+              emailID: body.emailID
             });
 
           case 2:
-            data = _context3.sent;
-            return _context3.abrupt("return", data);
+            user = _context3.sent;
+            console.log(user);
 
-          case 4:
+            if (!(user != null)) {
+              _context3.next = 17;
+              break;
+            }
+
+            validPassword1 = _bcrypt["default"].compareSync(body.password, user.password);
+            console.log(body.password);
+            console.log(user.password);
+
+            if (!validPassword1) {
+              _context3.next = 14;
+              break;
+            }
+
+            jwt = require('jsonwebtoken');
+            token = jwt.sign({
+              "emailID": user.emailID,
+              "id": user._id
+            }, 'process.env.SECRET_CODE');
+            return _context3.abrupt("return", token);
+
+          case 14:
+            throw new Error('password does not match');
+
+          case 15:
+            _context3.next = 18;
+            break;
+
+          case 17:
+            throw new Error('User is not Registered');
+
+          case 18:
           case "end":
             return _context3.stop();
         }
@@ -105,27 +135,34 @@ var updateUser = /*#__PURE__*/function () {
     }, _callee3);
   }));
 
-  return function updateUser(_x2, _x3) {
+  return function login(_x2) {
     return _ref3.apply(this, arguments);
   };
-}(); //delete single user
+}(); //sdjfhaldjflakjf
+//update single user
 
 
-exports.updateUser = updateUser;
+exports.login = login;
 
-var deleteUser = /*#__PURE__*/function () {
-  var _ref4 = (0, _asyncToGenerator2["default"])( /*#__PURE__*/_regenerator["default"].mark(function _callee4(id) {
+var updateUser = /*#__PURE__*/function () {
+  var _ref4 = (0, _asyncToGenerator2["default"])( /*#__PURE__*/_regenerator["default"].mark(function _callee4(_id, body) {
+    var data;
     return _regenerator["default"].wrap(function _callee4$(_context4) {
       while (1) {
         switch (_context4.prev = _context4.next) {
           case 0:
             _context4.next = 2;
-            return _user["default"].findByIdAndDelete(id);
+            return _user["default"].findByIdAndUpdate({
+              _id: _id
+            }, body, {
+              "new": true
+            });
 
           case 2:
-            return _context4.abrupt("return", '');
+            data = _context4.sent;
+            return _context4.abrupt("return", data);
 
-          case 3:
+          case 4:
           case "end":
             return _context4.stop();
         }
@@ -133,29 +170,27 @@ var deleteUser = /*#__PURE__*/function () {
     }, _callee4);
   }));
 
-  return function deleteUser(_x4) {
+  return function updateUser(_x3, _x4) {
     return _ref4.apply(this, arguments);
   };
-}(); //get single user
+}(); //delete single user
 
 
-exports.deleteUser = deleteUser;
+exports.updateUser = updateUser;
 
-var getUser = /*#__PURE__*/function () {
+var deleteUser = /*#__PURE__*/function () {
   var _ref5 = (0, _asyncToGenerator2["default"])( /*#__PURE__*/_regenerator["default"].mark(function _callee5(id) {
-    var data;
     return _regenerator["default"].wrap(function _callee5$(_context5) {
       while (1) {
         switch (_context5.prev = _context5.next) {
           case 0:
             _context5.next = 2;
-            return _user["default"].findById(id);
+            return _user["default"].findByIdAndDelete(id);
 
           case 2:
-            data = _context5.sent;
-            return _context5.abrupt("return", data);
+            return _context5.abrupt("return", '');
 
-          case 4:
+          case 3:
           case "end":
             return _context5.stop();
         }
@@ -163,8 +198,38 @@ var getUser = /*#__PURE__*/function () {
     }, _callee5);
   }));
 
-  return function getUser(_x5) {
+  return function deleteUser(_x5) {
     return _ref5.apply(this, arguments);
+  };
+}(); //get single user
+
+
+exports.deleteUser = deleteUser;
+
+var getUser = /*#__PURE__*/function () {
+  var _ref6 = (0, _asyncToGenerator2["default"])( /*#__PURE__*/_regenerator["default"].mark(function _callee6(id) {
+    var data;
+    return _regenerator["default"].wrap(function _callee6$(_context6) {
+      while (1) {
+        switch (_context6.prev = _context6.next) {
+          case 0:
+            _context6.next = 2;
+            return _user["default"].findById(id);
+
+          case 2:
+            data = _context6.sent;
+            return _context6.abrupt("return", data);
+
+          case 4:
+          case "end":
+            return _context6.stop();
+        }
+      }
+    }, _callee6);
+  }));
+
+  return function getUser(_x6) {
+    return _ref6.apply(this, arguments);
   };
 }();
 

@@ -26,9 +26,9 @@ var router = _express["default"].Router(); //route to get all users
 
 router.get('', userController.getAllUsers); //route to create a new user
 
-router.post('/userregister', _user2.newUserValidator, userController.userRegistration); //for login
-// router.get('/userlogin', userController.userlogin);
-//route to get a single user by their user id
+router.post('/userregister', _user2.newUserValidator, userController.userRegistration); // // for login
+
+router.get('/login', userController.login); //route to get a single user by their user id
 
 router.get('/:_id', _auth.userAuth, userController.getUser); //route to update a single user by their user id
 
