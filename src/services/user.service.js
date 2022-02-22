@@ -32,9 +32,9 @@ export const login = async  (body)=>{
    console.log(body.password);
    console.log(user.password);
    if(validPassword1 ){
-    // var jwt = require('jsonwebtoken');
-    // const token = jwt.sign({"emailID": user.emailID,"id":user._id},'process.env.SECRET_CODE');
-    // return token;
+    var jwt = require('jsonwebtoken');
+    const token = jwt.sign({"emailID": user.emailID,"id":user._id},'process.env.SECRET_CODE');
+    return token;
    }
    else{
      throw new Error('password does not match');

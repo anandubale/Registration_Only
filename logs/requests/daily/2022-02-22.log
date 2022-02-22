@@ -192,3 +192,11 @@ info: ::ffff:127.0.0.1 - - [22/Feb/2022:06:15:12 +0000] "GET /api/v1/users/login
 
 info: ::ffff:127.0.0.1 - - [22/Feb/2022:06:16:55 +0000] "GET /api/v1/users/login HTTP/1.1" 200 246 "-" "Thunder Client (https://www.thunderclient.com)"
 
+info: ::ffff:127.0.0.1 - - [22/Feb/2022:06:21:04 +0000] "GET /api/v1/users/login HTTP/1.1" 500 58 "-" "Thunder Client (https://www.thunderclient.com)"
+
+info: ::ffff:127.0.0.1 - - [22/Feb/2022:08:31:39 +0000] "GET /api/v1/users/login HTTP/1.1" 200 246 "-" "Thunder Client (https://www.thunderclient.com)"
+
+info: ::ffff:127.0.0.1 - - [22/Feb/2022:08:31:45 +0000] "GET /api/v1/users/login HTTP/1.1" 500 58 "-" "Thunder Client (https://www.thunderclient.com)"
+
+info: ::ffff:127.0.0.1 - - [22/Feb/2022:08:31:51 +0000] "GET /api/v1/users/login HTTP/1.1" 200 246 "-" "Thunder Client (https://www.thunderclient.com)"
+
