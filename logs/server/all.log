@@ -671,3 +671,34 @@ error:
    {"timestamp":"2022-02-22T06:15:12.973Z"}
 info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-22T06:16:36.933Z"}
 info: Connected to the database. {"timestamp":"2022-02-22T06:16:36.962Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-22T06:20:55.270Z"}
+info: Connected to the database. {"timestamp":"2022-02-22T06:20:55.297Z"}
+error: 
+    status - 500 
+    message - Error: password does not match
+    at _callee3$ (C:\Users\anand\Desktop\fundoo-Notes\build\services\user.service.js:121:19)
+    at tryCatch (C:\Users\anand\Desktop\fundoo-Notes\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (C:\Users\anand\Desktop\fundoo-Notes\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (C:\Users\anand\Desktop\fundoo-Notes\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (C:\Users\anand\Desktop\fundoo-Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\anand\Desktop\fundoo-Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/users/login 
+    method - GET 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-02-22T06:21:04.607Z"}
+error: 
+    status - 500 
+    message - Error: password does not match
+    at _callee3$ (C:\Users\anand\Desktop\fundoo-Notes\build\services\user.service.js:121:19)
+    at tryCatch (C:\Users\anand\Desktop\fundoo-Notes\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (C:\Users\anand\Desktop\fundoo-Notes\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (C:\Users\anand\Desktop\fundoo-Notes\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (C:\Users\anand\Desktop\fundoo-Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\anand\Desktop\fundoo-Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/users/login 
+    method - GET 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-02-22T08:31:45.894Z"}
