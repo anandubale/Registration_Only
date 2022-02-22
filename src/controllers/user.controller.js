@@ -9,7 +9,6 @@ import * as UserService from '../services/user.service';
  */
 
 
-
 export const getAllUsers = async (req, res, next) => {
   try {
     const data = await UserService.getAllUsers();
@@ -67,24 +66,21 @@ export const userRegistration = async (req, res, next) => {
 };
 
 
+export const login = async (req, res, next) => {
+  try {
+    const data = await UserService.login(req.body);  
+    res.status(HttpStatus.OK).json({
+      code: HttpStatus.OK,
+      data: data,
+      message: 'login Successfully'
+    }); 
+  } catch (error) {
+    next(error);
+  }
+};
 
 
 
-// export const userlogin = async (req, res, next) => {
-//   try { 
-//     // const data = await UserService.userlogin(req.body);
-//     // res.status(HttpStatus.CREATED).json({
-//     //   code: HttpStatus.CREATED,
-//     //   data: data,
-//     //   message: 'User created successfully'
-//     // });
-
-
- 
-//   } catch (error) {
-//     next(error);
-//   }
-// };
 
 
 /**

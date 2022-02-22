@@ -7,7 +7,7 @@ var _typeof = require("@babel/runtime/helpers/typeof");
 Object.defineProperty(exports, "__esModule", {
   value: true
 });
-exports.userRegistration = exports.updateUser = exports.getUser = exports.getAllUsers = exports.deleteUser = void 0;
+exports.userRegistration = exports.updateUser = exports.login = exports.getUser = exports.getAllUsers = exports.deleteUser = void 0;
 
 var _regenerator = _interopRequireDefault(require("@babel/runtime/regenerator"));
 
@@ -161,30 +161,11 @@ var userRegistration = /*#__PURE__*/function () {
   return function userRegistration(_x7, _x8, _x9) {
     return _ref3.apply(this, arguments);
   };
-}(); // export const userlogin = async (req, res, next) => {
-//   try { 
-//     // const data = await UserService.userlogin(req.body);
-//     // res.status(HttpStatus.CREATED).json({
-//     //   code: HttpStatus.CREATED,
-//     //   data: data,
-//     //   message: 'User created successfully'
-//     // });
-//   } catch (error) {
-//     next(error);
-//   }
-// };
-
-/**
- * Controller to update a user
- * @param  {object} req - request object
- * @param {object} res - response object
- * @param {Function} next
- */
-
+}();
 
 exports.userRegistration = userRegistration;
 
-var updateUser = /*#__PURE__*/function () {
+var login = /*#__PURE__*/function () {
   var _ref4 = (0, _asyncToGenerator2["default"])( /*#__PURE__*/_regenerator["default"].mark(function _callee4(req, res, next) {
     var data;
     return _regenerator["default"].wrap(function _callee4$(_context4) {
@@ -193,14 +174,14 @@ var updateUser = /*#__PURE__*/function () {
           case 0:
             _context4.prev = 0;
             _context4.next = 3;
-            return UserService.updateUser(req.params._id, req.body);
+            return UserService.login(req.body);
 
           case 3:
             data = _context4.sent;
-            res.status(_httpStatusCodes["default"].ACCEPTED).json({
-              code: _httpStatusCodes["default"].ACCEPTED,
+            res.status(_httpStatusCodes["default"].OK).json({
+              code: _httpStatusCodes["default"].OK,
               data: data,
-              message: 'User updated successfully'
+              message: 'login Successfully'
             });
             _context4.next = 10;
             break;
@@ -218,8 +199,56 @@ var updateUser = /*#__PURE__*/function () {
     }, _callee4, null, [[0, 7]]);
   }));
 
-  return function updateUser(_x10, _x11, _x12) {
+  return function login(_x10, _x11, _x12) {
     return _ref4.apply(this, arguments);
+  };
+}();
+/**
+ * Controller to update a user
+ * @param  {object} req - request object
+ * @param {object} res - response object
+ * @param {Function} next
+ */
+
+
+exports.login = login;
+
+var updateUser = /*#__PURE__*/function () {
+  var _ref5 = (0, _asyncToGenerator2["default"])( /*#__PURE__*/_regenerator["default"].mark(function _callee5(req, res, next) {
+    var data;
+    return _regenerator["default"].wrap(function _callee5$(_context5) {
+      while (1) {
+        switch (_context5.prev = _context5.next) {
+          case 0:
+            _context5.prev = 0;
+            _context5.next = 3;
+            return UserService.updateUser(req.params._id, req.body);
+
+          case 3:
+            data = _context5.sent;
+            res.status(_httpStatusCodes["default"].ACCEPTED).json({
+              code: _httpStatusCodes["default"].ACCEPTED,
+              data: data,
+              message: 'User updated successfully'
+            });
+            _context5.next = 10;
+            break;
+
+          case 7:
+            _context5.prev = 7;
+            _context5.t0 = _context5["catch"](0);
+            next(_context5.t0);
+
+          case 10:
+          case "end":
+            return _context5.stop();
+        }
+      }
+    }, _callee5, null, [[0, 7]]);
+  }));
+
+  return function updateUser(_x13, _x14, _x15) {
+    return _ref5.apply(this, arguments);
   };
 }();
 /**
@@ -233,13 +262,13 @@ var updateUser = /*#__PURE__*/function () {
 exports.updateUser = updateUser;
 
 var deleteUser = /*#__PURE__*/function () {
-  var _ref5 = (0, _asyncToGenerator2["default"])( /*#__PURE__*/_regenerator["default"].mark(function _callee5(req, res, next) {
-    return _regenerator["default"].wrap(function _callee5$(_context5) {
+  var _ref6 = (0, _asyncToGenerator2["default"])( /*#__PURE__*/_regenerator["default"].mark(function _callee6(req, res, next) {
+    return _regenerator["default"].wrap(function _callee6$(_context6) {
       while (1) {
-        switch (_context5.prev = _context5.next) {
+        switch (_context6.prev = _context6.next) {
           case 0:
-            _context5.prev = 0;
-            _context5.next = 3;
+            _context6.prev = 0;
+            _context6.next = 3;
             return UserService.deleteUser(req.params._id);
 
           case 3:
@@ -248,24 +277,24 @@ var deleteUser = /*#__PURE__*/function () {
               data: [],
               message: 'User deleted successfully'
             });
-            _context5.next = 9;
+            _context6.next = 9;
             break;
 
           case 6:
-            _context5.prev = 6;
-            _context5.t0 = _context5["catch"](0);
-            next(_context5.t0);
+            _context6.prev = 6;
+            _context6.t0 = _context6["catch"](0);
+            next(_context6.t0);
 
           case 9:
           case "end":
-            return _context5.stop();
+            return _context6.stop();
         }
       }
-    }, _callee5, null, [[0, 6]]);
+    }, _callee6, null, [[0, 6]]);
   }));
 
-  return function deleteUser(_x13, _x14, _x15) {
-    return _ref5.apply(this, arguments);
+  return function deleteUser(_x16, _x17, _x18) {
+    return _ref6.apply(this, arguments);
   };
 }();
 

@@ -300,3 +300,374 @@ error:
     method - POST 
     IP - ::ffff:127.0.0.1
    {"timestamp":"2022-02-21T13:28:39.835Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-21T13:30:02.785Z"}
+info: Connected to the database. {"timestamp":"2022-02-21T13:30:02.811Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-21T13:54:06.765Z"}
+info: Connected to the database. {"timestamp":"2022-02-21T13:54:06.788Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-21T16:53:37.793Z"}
+info: Connected to the database. {"timestamp":"2022-02-21T16:53:37.824Z"}
+error: 
+    status - 500 
+    message - TypeError: _joi.default.string(...).required(...).unique is not a function
+    at newUserValidator (C:\Users\anand\Desktop\fundoo-Notes\build\validators\user.validator.js:16:50)
+    at Layer.handle [as handle_request] (C:\Users\anand\Desktop\fundoo-Notes\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\anand\Desktop\fundoo-Notes\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (C:\Users\anand\Desktop\fundoo-Notes\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (C:\Users\anand\Desktop\fundoo-Notes\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\anand\Desktop\fundoo-Notes\node_modules\express\lib\router\index.js:281:22
+    at Function.process_params (C:\Users\anand\Desktop\fundoo-Notes\node_modules\express\lib\router\index.js:341:12)
+    at next (C:\Users\anand\Desktop\fundoo-Notes\node_modules\express\lib\router\index.js:275:10)
+    at Function.handle (C:\Users\anand\Desktop\fundoo-Notes\node_modules\express\lib\router\index.js:174:3)
+    at router (C:\Users\anand\Desktop\fundoo-Notes\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (C:\Users\anand\Desktop\fundoo-Notes\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\anand\Desktop\fundoo-Notes\node_modules\express\lib\router\index.js:323:13)
+    at C:\Users\anand\Desktop\fundoo-Notes\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (C:\Users\anand\Desktop\fundoo-Notes\node_modules\express\lib\router\index.js:341:12)
+    at next (C:\Users\anand\Desktop\fundoo-Notes\node_modules\express\lib\router\index.js:275:10)
+    at Function.handle (C:\Users\anand\Desktop\fundoo-Notes\node_modules\express\lib\router\index.js:174:3) 
+    url - /api/v1/users/userregister 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-02-21T16:54:38.051Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-21T16:55:54.510Z"}
+info: Connected to the database. {"timestamp":"2022-02-21T16:55:54.541Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-22T02:42:35.762Z"}
+info: Connected to the database. {"timestamp":"2022-02-22T02:42:35.886Z"}
+error: 
+      status - 400
+      message - Authorization token is required 
+      url - /api/v1/users/login 
+      method - GET 
+      IP - ::ffff:127.0.0.1
+     {"timestamp":"2022-02-22T02:43:32.494Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-22T02:49:30.378Z"}
+info: Connected to the database. {"timestamp":"2022-02-22T02:49:30.403Z"}
+error: 
+    status - 500 
+    message - ReferenceError: done is not defined
+    at _callee3$ (C:\Users\anand\Desktop\fundoo-Notes\build\services\user.service.js:113:25)
+    at tryCatch (C:\Users\anand\Desktop\fundoo-Notes\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (C:\Users\anand\Desktop\fundoo-Notes\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (C:\Users\anand\Desktop\fundoo-Notes\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (C:\Users\anand\Desktop\fundoo-Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\anand\Desktop\fundoo-Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/users/login 
+    method - GET 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-02-22T02:49:43.443Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-22T02:50:21.320Z"}
+info: Connected to the database. {"timestamp":"2022-02-22T02:50:21.343Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-22T02:51:17.306Z"}
+info: Connected to the database. {"timestamp":"2022-02-22T02:51:17.332Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-22T02:52:14.064Z"}
+info: Connected to the database. {"timestamp":"2022-02-22T02:52:14.093Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-22T04:30:59.246Z"}
+info: Connected to the database. {"timestamp":"2022-02-22T04:30:59.383Z"}
+error: 
+    status - 500 
+    message - Error: User is not Registered
+    at _callee3$ (C:\Users\anand\Desktop\fundoo-Notes\build\services\user.service.js:123:19)
+    at tryCatch (C:\Users\anand\Desktop\fundoo-Notes\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (C:\Users\anand\Desktop\fundoo-Notes\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (C:\Users\anand\Desktop\fundoo-Notes\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (C:\Users\anand\Desktop\fundoo-Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\anand\Desktop\fundoo-Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/users/login 
+    method - GET 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-02-22T04:31:12.814Z"}
+error: 
+    status - 500 
+    message - ValidationError: "password" length must be at least 10 characters long 
+    url - /api/v1/users/userregister 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-02-22T04:32:23.141Z"}
+error: 
+    status - 500 
+    message - Error: User is not Registered
+    at _callee3$ (C:\Users\anand\Desktop\fundoo-Notes\build\services\user.service.js:123:19)
+    at tryCatch (C:\Users\anand\Desktop\fundoo-Notes\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (C:\Users\anand\Desktop\fundoo-Notes\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (C:\Users\anand\Desktop\fundoo-Notes\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (C:\Users\anand\Desktop\fundoo-Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\anand\Desktop\fundoo-Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/users/login 
+    method - GET 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-02-22T04:32:48.887Z"}
+error: 
+    status - 500 
+    message - Error: User is not Registered
+    at _callee3$ (C:\Users\anand\Desktop\fundoo-Notes\build\services\user.service.js:123:19)
+    at tryCatch (C:\Users\anand\Desktop\fundoo-Notes\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (C:\Users\anand\Desktop\fundoo-Notes\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (C:\Users\anand\Desktop\fundoo-Notes\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (C:\Users\anand\Desktop\fundoo-Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\anand\Desktop\fundoo-Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/users/login 
+    method - GET 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-02-22T04:32:52.108Z"}
+error: 
+    status - 500 
+    message - Error: User is not Registered
+    at _callee3$ (C:\Users\anand\Desktop\fundoo-Notes\build\services\user.service.js:123:19)
+    at tryCatch (C:\Users\anand\Desktop\fundoo-Notes\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (C:\Users\anand\Desktop\fundoo-Notes\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (C:\Users\anand\Desktop\fundoo-Notes\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (C:\Users\anand\Desktop\fundoo-Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\anand\Desktop\fundoo-Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/users/login 
+    method - GET 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-02-22T04:32:52.981Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-22T04:33:23.396Z"}
+info: Connected to the database. {"timestamp":"2022-02-22T04:33:23.427Z"}
+error: 
+    status - 500 
+    message - ReferenceError: hasedPassword is not defined
+    at _callee3$ (C:\Users\anand\Desktop\fundoo-Notes\build\services\user.service.js:102:56)
+    at tryCatch (C:\Users\anand\Desktop\fundoo-Notes\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (C:\Users\anand\Desktop\fundoo-Notes\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (C:\Users\anand\Desktop\fundoo-Notes\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (C:\Users\anand\Desktop\fundoo-Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\anand\Desktop\fundoo-Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/users/login 
+    method - GET 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-02-22T04:33:32.170Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-22T04:34:29.336Z"}
+info: Connected to the database. {"timestamp":"2022-02-22T04:34:29.381Z"}
+error: uncaughtException: data and hash arguments required
+Error: data and hash arguments required
+    at Object.compare (C:\Users\anand\Desktop\fundoo-Notes\node_modules\bcrypt\bcrypt.js:208:17)
+    at C:\Users\anand\Desktop\fundoo-Notes\node_modules\bcrypt\promises.js:29:12
+    at new Promise (<anonymous>)
+    at Object.module.exports.promise (C:\Users\anand\Desktop\fundoo-Notes\node_modules\bcrypt\promises.js:20:12)
+    at Object.compare (C:\Users\anand\Desktop\fundoo-Notes\node_modules\bcrypt\bcrypt.js:204:25)
+    at _callee3$ (C:\Users\anand\Desktop\fundoo-Notes\build\services\user.service.js:102:48)
+    at tryCatch (C:\Users\anand\Desktop\fundoo-Notes\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (C:\Users\anand\Desktop\fundoo-Notes\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (C:\Users\anand\Desktop\fundoo-Notes\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (C:\Users\anand\Desktop\fundoo-Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\anand\Desktop\fundoo-Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) {"date":"Tue Feb 22 2022 10:04:37 GMT+0530 (India Standard Time)","error":{},"exception":true,"os":{"loadavg":[0,0,0],"uptime":691102},"process":{"argv":["C:\\Program Files\\nodejs\\node.exe","C:\\Users\\anand\\Desktop\\fundoo-Notes\\build\\index.js"],"cwd":"C:\\Users\\anand\\Desktop\\fundoo-Notes","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18366693,"external":24912380,"heapTotal":58310656,"heapUsed":23738072,"rss":68444160},"pid":5444,"uid":null,"version":"v16.13.2"},"stack":"Error: data and hash arguments required\n    at Object.compare (C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\bcrypt\\bcrypt.js:208:17)\n    at C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\bcrypt\\promises.js:29:12\n    at new Promise (<anonymous>)\n    at Object.module.exports.promise (C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\bcrypt\\promises.js:20:12)\n    at Object.compare (C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\bcrypt\\bcrypt.js:204:25)\n    at _callee3$ (C:\\Users\\anand\\Desktop\\fundoo-Notes\\build\\services\\user.service.js:102:48)\n    at tryCatch (C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\regenerator-runtime\\runtime.js:63:40)\n    at Generator.invoke [as _invoke] (C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\regenerator-runtime\\runtime.js:294:22)\n    at Generator.next (C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\regenerator-runtime\\runtime.js:119:21)\n    at asyncGeneratorStep (C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js:3:24)\n    at _next (C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js:25:9)\n    at processTicksAndRejections (node:internal/process/task_queues:96:5)","timestamp":"2022-02-22T04:34:37.399Z","trace":[{"column":17,"file":"C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\bcrypt\\bcrypt.js","function":"Object.compare","line":208,"method":"compare","native":false},{"column":12,"file":"C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\bcrypt\\promises.js","function":null,"line":29,"method":null,"native":false},{"column":null,"file":null,"function":"new Promise","line":null,"method":null,"native":false},{"column":12,"file":"C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\bcrypt\\promises.js","function":"Object.module.exports.promise","line":20,"method":"promise","native":false},{"column":25,"file":"C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\bcrypt\\bcrypt.js","function":"Object.compare","line":204,"method":"compare","native":false},{"column":48,"file":"C:\\Users\\anand\\Desktop\\fundoo-Notes\\build\\services\\user.service.js","function":"_callee3$","line":102,"method":null,"native":false},{"column":40,"file":"C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\regenerator-runtime\\runtime.js","function":"tryCatch","line":63,"method":null,"native":false},{"column":22,"file":"C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\regenerator-runtime\\runtime.js","function":"Generator.invoke [as _invoke]","line":294,"method":"invoke [as _invoke]","native":false},{"column":21,"file":"C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\regenerator-runtime\\runtime.js","function":"Generator.next","line":119,"method":"next","native":false},{"column":24,"file":"C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js","function":"asyncGeneratorStep","line":3,"method":null,"native":false},{"column":9,"file":"C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js","function":"_next","line":25,"method":null,"native":false},{"column":5,"file":"node:internal/process/task_queues","function":"processTicksAndRejections","line":96,"method":null,"native":false}]}
+error: 
+    status - 500 
+    message - ReferenceError: jwt is not defined
+    at _callee3$ (C:\Users\anand\Desktop\fundoo-Notes\build\services\user.service.js:109:13)
+    at tryCatch (C:\Users\anand\Desktop\fundoo-Notes\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (C:\Users\anand\Desktop\fundoo-Notes\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (C:\Users\anand\Desktop\fundoo-Notes\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (C:\Users\anand\Desktop\fundoo-Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\anand\Desktop\fundoo-Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/users/login 
+    method - GET 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-02-22T04:34:37.420Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-22T04:47:13.849Z"}
+info: Connected to the database. {"timestamp":"2022-02-22T04:47:13.872Z"}
+error: 
+    status - 500 
+    message - ReferenceError: jwt is not defined
+    at _callee3$ (C:\Users\anand\Desktop\fundoo-Notes\build\services\user.service.js:109:13)
+    at tryCatch (C:\Users\anand\Desktop\fundoo-Notes\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (C:\Users\anand\Desktop\fundoo-Notes\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (C:\Users\anand\Desktop\fundoo-Notes\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (C:\Users\anand\Desktop\fundoo-Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\anand\Desktop\fundoo-Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/users/login 
+    method - GET 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-02-22T04:47:35.626Z"}
+error: 
+    status - 500 
+    message - ReferenceError: jwt is not defined
+    at _callee3$ (C:\Users\anand\Desktop\fundoo-Notes\build\services\user.service.js:109:13)
+    at tryCatch (C:\Users\anand\Desktop\fundoo-Notes\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (C:\Users\anand\Desktop\fundoo-Notes\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (C:\Users\anand\Desktop\fundoo-Notes\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (C:\Users\anand\Desktop\fundoo-Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\anand\Desktop\fundoo-Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/users/login 
+    method - GET 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-02-22T04:47:37.102Z"}
+error: 
+    status - 500 
+    message - ReferenceError: jwt is not defined
+    at _callee3$ (C:\Users\anand\Desktop\fundoo-Notes\build\services\user.service.js:109:13)
+    at tryCatch (C:\Users\anand\Desktop\fundoo-Notes\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (C:\Users\anand\Desktop\fundoo-Notes\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (C:\Users\anand\Desktop\fundoo-Notes\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (C:\Users\anand\Desktop\fundoo-Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\anand\Desktop\fundoo-Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/users/login 
+    method - GET 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-02-22T04:54:06.132Z"}
+error: 
+    status - 500 
+    message - ReferenceError: jwt is not defined
+    at _callee3$ (C:\Users\anand\Desktop\fundoo-Notes\build\services\user.service.js:109:13)
+    at tryCatch (C:\Users\anand\Desktop\fundoo-Notes\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (C:\Users\anand\Desktop\fundoo-Notes\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (C:\Users\anand\Desktop\fundoo-Notes\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (C:\Users\anand\Desktop\fundoo-Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\anand\Desktop\fundoo-Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/users/login 
+    method - GET 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-02-22T04:54:07.496Z"}
+error: 
+    status - 500 
+    message - ReferenceError: jwt is not defined
+    at _callee3$ (C:\Users\anand\Desktop\fundoo-Notes\build\services\user.service.js:109:13)
+    at tryCatch (C:\Users\anand\Desktop\fundoo-Notes\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (C:\Users\anand\Desktop\fundoo-Notes\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (C:\Users\anand\Desktop\fundoo-Notes\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (C:\Users\anand\Desktop\fundoo-Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\anand\Desktop\fundoo-Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/users/login 
+    method - GET 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-02-22T04:54:08.121Z"}
+error: 
+    status - 500 
+    message - ReferenceError: jwt is not defined
+    at _callee3$ (C:\Users\anand\Desktop\fundoo-Notes\build\services\user.service.js:109:13)
+    at tryCatch (C:\Users\anand\Desktop\fundoo-Notes\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (C:\Users\anand\Desktop\fundoo-Notes\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (C:\Users\anand\Desktop\fundoo-Notes\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (C:\Users\anand\Desktop\fundoo-Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\anand\Desktop\fundoo-Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/users/login 
+    method - GET 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-02-22T04:54:08.534Z"}
+error: 
+    status - 500 
+    message - ReferenceError: jwt is not defined
+    at _callee3$ (C:\Users\anand\Desktop\fundoo-Notes\build\services\user.service.js:109:13)
+    at tryCatch (C:\Users\anand\Desktop\fundoo-Notes\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (C:\Users\anand\Desktop\fundoo-Notes\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (C:\Users\anand\Desktop\fundoo-Notes\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (C:\Users\anand\Desktop\fundoo-Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\anand\Desktop\fundoo-Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/users/login 
+    method - GET 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-02-22T04:54:08.874Z"}
+error: 
+    status - 500 
+    message - ReferenceError: jwt is not defined
+    at _callee3$ (C:\Users\anand\Desktop\fundoo-Notes\build\services\user.service.js:109:13)
+    at tryCatch (C:\Users\anand\Desktop\fundoo-Notes\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (C:\Users\anand\Desktop\fundoo-Notes\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (C:\Users\anand\Desktop\fundoo-Notes\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (C:\Users\anand\Desktop\fundoo-Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\anand\Desktop\fundoo-Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/users/login 
+    method - GET 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-02-22T04:55:25.327Z"}
+error: 
+    status - 500 
+    message - ReferenceError: jwt is not defined
+    at _callee3$ (C:\Users\anand\Desktop\fundoo-Notes\build\services\user.service.js:109:13)
+    at tryCatch (C:\Users\anand\Desktop\fundoo-Notes\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (C:\Users\anand\Desktop\fundoo-Notes\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (C:\Users\anand\Desktop\fundoo-Notes\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (C:\Users\anand\Desktop\fundoo-Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\anand\Desktop\fundoo-Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/users/login 
+    method - GET 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-02-22T04:55:26.499Z"}
+error: 
+    status - 500 
+    message - ReferenceError: jwt is not defined
+    at _callee3$ (C:\Users\anand\Desktop\fundoo-Notes\build\services\user.service.js:109:13)
+    at tryCatch (C:\Users\anand\Desktop\fundoo-Notes\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (C:\Users\anand\Desktop\fundoo-Notes\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (C:\Users\anand\Desktop\fundoo-Notes\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (C:\Users\anand\Desktop\fundoo-Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\anand\Desktop\fundoo-Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/users/login 
+    method - GET 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-02-22T04:55:27.294Z"}
+error: 
+    status - 500 
+    message - ReferenceError: jwt is not defined
+    at _callee3$ (C:\Users\anand\Desktop\fundoo-Notes\build\services\user.service.js:109:13)
+    at tryCatch (C:\Users\anand\Desktop\fundoo-Notes\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (C:\Users\anand\Desktop\fundoo-Notes\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (C:\Users\anand\Desktop\fundoo-Notes\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (C:\Users\anand\Desktop\fundoo-Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\anand\Desktop\fundoo-Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/users/login 
+    method - GET 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-02-22T04:57:20.683Z"}
+error: 
+    status - 500 
+    message - ReferenceError: jwt is not defined
+    at _callee3$ (C:\Users\anand\Desktop\fundoo-Notes\build\services\user.service.js:109:13)
+    at tryCatch (C:\Users\anand\Desktop\fundoo-Notes\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (C:\Users\anand\Desktop\fundoo-Notes\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (C:\Users\anand\Desktop\fundoo-Notes\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (C:\Users\anand\Desktop\fundoo-Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\anand\Desktop\fundoo-Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/users/login 
+    method - GET 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-02-22T04:58:05.764Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-22T05:07:47.775Z"}
+info: Connected to the database. {"timestamp":"2022-02-22T05:07:47.810Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-22T05:36:19.717Z"}
+info: Connected to the database. {"timestamp":"2022-02-22T05:36:19.744Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-22T06:09:52.580Z"}
+info: Connected to the database. {"timestamp":"2022-02-22T06:09:52.608Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-22T06:10:45.459Z"}
+info: Connected to the database. {"timestamp":"2022-02-22T06:10:45.493Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-22T06:12:25.651Z"}
+info: Connected to the database. {"timestamp":"2022-02-22T06:12:25.689Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-22T06:13:46.718Z"}
+info: Connected to the database. {"timestamp":"2022-02-22T06:13:46.748Z"}
+error: 
+    status - 500 
+    message - Error: User is not Registered
+    at _callee3$ (C:\Users\anand\Desktop\fundoo-Notes\build\services\user.service.js:128:19)
+    at tryCatch (C:\Users\anand\Desktop\fundoo-Notes\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (C:\Users\anand\Desktop\fundoo-Notes\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (C:\Users\anand\Desktop\fundoo-Notes\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (C:\Users\anand\Desktop\fundoo-Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\anand\Desktop\fundoo-Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/users/login 
+    method - GET 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-02-22T06:15:12.973Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-22T06:16:36.933Z"}
+info: Connected to the database. {"timestamp":"2022-02-22T06:16:36.962Z"}
