@@ -1,6 +1,6 @@
 import User from '../models/user.model';
 import bcrypt from "bcrypt";
-// import jwt from 'jsonwebtoken';
+import jwt from 'jsonwebtoken';
 
 //get all users
 
@@ -13,7 +13,7 @@ export const getAllUsers = async () => {
 //create new user
 export const userRegistration = async (body) => {
   const saltRounds = 10;
-  const hasedPassword = bcrypt.hashSync(body.password,saltRounds);
+  const hasedPassword = bcrypt.hashSync(body.password,saltRounds); //if use await - then use bcrypt.hashSync
   body.password = hasedPassword;
   const data = await User.create(body);       //create is mangoose query method -create(doc(s), [callback]): create document object and save it to database; callback has error and doc(s) arguments
   return data;    //create object and save it to database
@@ -22,17 +22,17 @@ export const userRegistration = async (body) => {
 
 // login user;
 
-
+                      //emailID + password = body
 export const login = async  (body)=>{                            
   const user = await User.findOne({emailID: body.emailID})
-  console.log(user);
+  //                               emailId: anandubale11@gmail.com
+
+
 
  if(user != null){
-   const validPassword1 = bcrypt.compareSync(body.password,user.password);
-   console.log(body.password);
-   console.log(user.password);
-   if(validPassword1 ){
-    var jwt = require('jsonwebtoken');
+   const validPassword = bcrypt.compareSync(body.password,user.password);
+   if(validPassword ){
+    // var jwt = require('jsonwebtoken');
     const token = jwt.sign({"emailID": user.emailID,"id":user._id},'process.env.SECRET_CODE');
     return token;
    }
@@ -45,7 +45,6 @@ export const login = async  (body)=>{
  }
 }
 
-//sdjfhaldjflakjf
 
 //update single user
 export const updateUser = async (_id, body) => {

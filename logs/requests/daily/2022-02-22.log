@@ -200,3 +200,11 @@ info: ::ffff:127.0.0.1 - - [22/Feb/2022:08:31:45 +0000] "GET /api/v1/users/login
 
 info: ::ffff:127.0.0.1 - - [22/Feb/2022:08:31:51 +0000] "GET /api/v1/users/login HTTP/1.1" 200 246 "-" "Thunder Client (https://www.thunderclient.com)"
 
+info: ::ffff:127.0.0.1 - - [22/Feb/2022:11:37:22 +0000] "POST /api/v1/users/userregister HTTP/1.1" 500 90 "-" "Thunder Client (https://www.thunderclient.com)"
+
+info: ::ffff:127.0.0.1 - - [22/Feb/2022:11:37:28 +0000] "POST /api/v1/users/userregister HTTP/1.1" 201 330 "-" "Thunder Client (https://www.thunderclient.com)"
+
+info: ::ffff:127.0.0.1 - - [22/Feb/2022:11:37:52 +0000] "GET /api/v1/users/login HTTP/1.1" 200 249 "-" "Thunder Client (https://www.thunderclient.com)"
+
+info: ::ffff:127.0.0.1 - - [22/Feb/2022:11:38:00 +0000] "GET /api/v1/users/login HTTP/1.1" 500 58 "-" "Thunder Client (https://www.thunderclient.com)"
+
