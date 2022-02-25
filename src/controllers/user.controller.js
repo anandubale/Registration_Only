@@ -11,6 +11,7 @@ import * as UserService from '../services/user.service';
 
 export const getAllUsers = async (req, res, next) => {
   try {
+
     const data = await UserService.getAllUsers();
     res.status(HttpStatus.OK).json({
       code: HttpStatus.OK,
@@ -54,6 +55,7 @@ export const getUser = async (req, res, next) => {
 
 export const userRegistration = async (req, res, next) => {
   try {
+    console.log("content of request",req);
     const data = await UserService.userRegistration(req.body);  //it will get the data and tell him to wait till loacding and save it in data.
     res.status(HttpStatus.CREATED).json({
       code: HttpStatus.CREATED,
@@ -80,8 +82,12 @@ export const login = async (req, res, next) => {
 };
 
 
-
-
+//arrow function with 3 argument 
+//try {
+  //1.data 
+  //2.res.status().json({code: ,data: , message: })
+//}
+//catch(error){next(error)}
 
 /**
  * Controller to update a user
@@ -113,7 +119,7 @@ export const deleteUser = async (req, res, next) => {
     await UserService.deleteUser(req.params._id);
     res.status(HttpStatus.OK).json({
       code: HttpStatus.OK,
-      data: [],
+      data: [], 
       message: 'User deleted successfully'
     });
   } catch (error) {

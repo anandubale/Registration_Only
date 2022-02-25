@@ -15,7 +15,8 @@ var _user = _interopRequireDefault(require("../models/user.model"));
 
 var _bcrypt = _interopRequireDefault(require("bcrypt"));
 
-// import jwt from 'jsonwebtoken';
+var _jsonwebtoken = _interopRequireDefault(require("jsonwebtoken"));
+
 //get all users
 var getAllUsers = /*#__PURE__*/function () {
   var _ref = (0, _asyncToGenerator2["default"])( /*#__PURE__*/_regenerator["default"].mark(function _callee() {
@@ -55,7 +56,8 @@ var userRegistration = /*#__PURE__*/function () {
         switch (_context2.prev = _context2.next) {
           case 0:
             saltRounds = 10;
-            hasedPassword = _bcrypt["default"].hashSync(body.password, saltRounds);
+            hasedPassword = _bcrypt["default"].hashSync(body.password, saltRounds); //if use await - then use bcrypt.hashSync
+
             body.password = hasedPassword;
             _context2.next = 5;
             return _user["default"].create(body);
@@ -76,13 +78,14 @@ var userRegistration = /*#__PURE__*/function () {
     return _ref2.apply(this, arguments);
   };
 }(); // login user;
+//emailID + password = body
 
 
 exports.userRegistration = userRegistration;
 
 var login = /*#__PURE__*/function () {
   var _ref3 = (0, _asyncToGenerator2["default"])( /*#__PURE__*/_regenerator["default"].mark(function _callee3(body) {
-    var user, validPassword1, jwt, token;
+    var user, validPassword, token;
     return _regenerator["default"].wrap(function _callee3$(_context3) {
       while (1) {
         switch (_context3.prev = _context3.next) {
@@ -94,40 +97,37 @@ var login = /*#__PURE__*/function () {
 
           case 2:
             user = _context3.sent;
-            console.log(user);
 
             if (!(user != null)) {
-              _context3.next = 17;
+              _context3.next = 13;
               break;
             }
 
-            validPassword1 = _bcrypt["default"].compareSync(body.password, user.password);
-            console.log(body.password);
-            console.log(user.password);
+            validPassword = _bcrypt["default"].compareSync(body.password, user.password);
 
-            if (!validPassword1) {
-              _context3.next = 14;
+            if (!validPassword) {
+              _context3.next = 10;
               break;
             }
 
-            jwt = require('jsonwebtoken');
-            token = jwt.sign({
+            // var jwt = require('jsonwebtoken');
+            token = _jsonwebtoken["default"].sign({
               "emailID": user.emailID,
               "id": user._id
             }, 'process.env.SECRET_CODE');
             return _context3.abrupt("return", token);
 
-          case 14:
+          case 10:
             throw new Error('password does not match');
 
-          case 15:
-            _context3.next = 18;
+          case 11:
+            _context3.next = 14;
             break;
 
-          case 17:
+          case 13:
             throw new Error('User is not Registered');
 
-          case 18:
+          case 14:
           case "end":
             return _context3.stop();
         }
@@ -138,8 +138,7 @@ var login = /*#__PURE__*/function () {
   return function login(_x2) {
     return _ref3.apply(this, arguments);
   };
-}(); //sdjfhaldjflakjf
-//update single user
+}(); //update single user
 
 
 exports.login = login;

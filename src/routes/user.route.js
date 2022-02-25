@@ -6,10 +6,7 @@ import { userAuth } from '../middlewares/auth.middleware';
 const router = express.Router();
  
 //route to get all users
-router.get('', userController.getAllUsers);
-
-
-    
+router.get('/getallusers', userController.getAllUsers);
 
 //route to create a new user
 router.post('/userregister', newUserValidator, userController.userRegistration);

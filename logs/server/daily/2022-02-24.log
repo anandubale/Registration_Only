@@ -1,0 +1,828 @@
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-24T02:53:05.773Z"}
+info: Connected to the database. {"timestamp":"2022-02-24T02:53:05.871Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-24T03:21:55.610Z"}
+info: Connected to the database. {"timestamp":"2022-02-24T03:21:55.641Z"}
+error: 
+    status - 500 
+    message - CastError: Cast to ObjectId failed for value "allnotes" (type string) at path "_id" for model "Note"
+    at model.Query.exec (C:\Users\anand\Desktop\fundoo-Notes\node_modules\mongoose\lib\query.js:4498:21)
+    at model.Query.Query.then (C:\Users\anand\Desktop\fundoo-Notes\node_modules\mongoose\lib\query.js:4592:15)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/note/allnotes 
+    method - GET 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-02-24T04:16:14.415Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-24T05:47:39.270Z"}
+info: Connected to the database. {"timestamp":"2022-02-24T05:47:39.294Z"}
+error: 
+    status - 500 
+    message - CastError: Cast to ObjectId failed for value "allnotes" (type string) at path "_id" for model "Note"
+    at model.Query.exec (C:\Users\anand\Desktop\fundoo-Notes\node_modules\mongoose\lib\query.js:4498:21)
+    at model.Query.Query.then (C:\Users\anand\Desktop\fundoo-Notes\node_modules\mongoose\lib\query.js:4592:15)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/note/allnotes 
+    method - GET 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-02-24T05:48:08.196Z"}
+error: 
+    status - 500 
+    message - SyntaxError: Unexpected string in JSON at position 93
+    at JSON.parse (<anonymous>)
+    at parse (C:\Users\anand\Desktop\fundoo-Notes\node_modules\body-parser\lib\types\json.js:89:19)
+    at C:\Users\anand\Desktop\fundoo-Notes\node_modules\body-parser\lib\read.js:121:18
+    at invokeCallback (C:\Users\anand\Desktop\fundoo-Notes\node_modules\raw-body\index.js:224:16)
+    at done (C:\Users\anand\Desktop\fundoo-Notes\node_modules\raw-body\index.js:213:7)
+    at IncomingMessage.onEnd (C:\Users\anand\Desktop\fundoo-Notes\node_modules\raw-body\index.js:273:7)
+    at IncomingMessage.emit (node:events:402:35)
+    at endReadableNT (node:internal/streams/readable:1343:12)
+    at processTicksAndRejections (node:internal/process/task_queues:83:21) 
+    url - /api/v1/note/ 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-02-24T05:52:03.686Z"}
+error: 
+    status - 500 
+    message - SyntaxError: Unexpected string in JSON at position 93
+    at JSON.parse (<anonymous>)
+    at parse (C:\Users\anand\Desktop\fundoo-Notes\node_modules\body-parser\lib\types\json.js:89:19)
+    at C:\Users\anand\Desktop\fundoo-Notes\node_modules\body-parser\lib\read.js:121:18
+    at invokeCallback (C:\Users\anand\Desktop\fundoo-Notes\node_modules\raw-body\index.js:224:16)
+    at done (C:\Users\anand\Desktop\fundoo-Notes\node_modules\raw-body\index.js:213:7)
+    at IncomingMessage.onEnd (C:\Users\anand\Desktop\fundoo-Notes\node_modules\raw-body\index.js:273:7)
+    at IncomingMessage.emit (node:events:402:35)
+    at endReadableNT (node:internal/streams/readable:1343:12)
+    at processTicksAndRejections (node:internal/process/task_queues:83:21) 
+    url - /api/v1/note/ 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-02-24T05:52:11.365Z"}
+error: 
+    status - 500 
+    message - ReferenceError: re is not defined
+    at _callee6$ (C:\Users\anand\Desktop\fundoo-Notes\build\controllers\note.controller.js:245:44)
+    at tryCatch (C:\Users\anand\Desktop\fundoo-Notes\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (C:\Users\anand\Desktop\fundoo-Notes\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (C:\Users\anand\Desktop\fundoo-Notes\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (C:\Users\anand\Desktop\fundoo-Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\anand\Desktop\fundoo-Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at C:\Users\anand\Desktop\fundoo-Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at C:\Users\anand\Desktop\fundoo-Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12
+    at MakeArchive (C:\Users\anand\Desktop\fundoo-Notes\build\controllers\note.controller.js:269:18)
+    at Layer.handle [as handle_request] (C:\Users\anand\Desktop\fundoo-Notes\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\anand\Desktop\fundoo-Notes\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (C:\Users\anand\Desktop\fundoo-Notes\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (C:\Users\anand\Desktop\fundoo-Notes\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\anand\Desktop\fundoo-Notes\node_modules\express\lib\router\index.js:281:22
+    at param (C:\Users\anand\Desktop\fundoo-Notes\node_modules\express\lib\router\index.js:360:14) 
+    url - /api/v1/note/archive/62171d15780805339437cddf 
+    method - PUT 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-02-24T05:53:11.237Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-24T05:53:48.395Z"}
+info: Connected to the database. {"timestamp":"2022-02-24T05:53:48.419Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-24T05:58:54.413Z"}
+info: Connected to the database. {"timestamp":"2022-02-24T05:58:54.438Z"}
+error: 
+    status - 500 
+    message - ReferenceError: _id is not defined
+    at _callee6$ (C:\Users\anand\Desktop\fundoo-Notes\build\services\note.service.js:174:20)
+    at tryCatch (C:\Users\anand\Desktop\fundoo-Notes\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (C:\Users\anand\Desktop\fundoo-Notes\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (C:\Users\anand\Desktop\fundoo-Notes\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (C:\Users\anand\Desktop\fundoo-Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\anand\Desktop\fundoo-Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at C:\Users\anand\Desktop\fundoo-Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at Object.<anonymous> (C:\Users\anand\Desktop\fundoo-Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12)
+    at Object.MakeArchive (C:\Users\anand\Desktop\fundoo-Notes\build\services\note.service.js:195:18)
+    at _callee6$ (C:\Users\anand\Desktop\fundoo-Notes\build\controllers\note.controller.js:245:32)
+    at tryCatch (C:\Users\anand\Desktop\fundoo-Notes\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (C:\Users\anand\Desktop\fundoo-Notes\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (C:\Users\anand\Desktop\fundoo-Notes\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (C:\Users\anand\Desktop\fundoo-Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\anand\Desktop\fundoo-Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9) 
+    url - /api/v1/note/archive/62171d15780805339437cddf 
+    method - PUT 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-02-24T05:59:19.917Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-24T05:59:50.884Z"}
+info: Connected to the database. {"timestamp":"2022-02-24T05:59:50.908Z"}
+error: 
+    status - 500 
+    message - ReferenceError: body is not defined
+    at _callee6$ (C:\Users\anand\Desktop\fundoo-Notes\build\services\note.service.js:175:16)
+    at tryCatch (C:\Users\anand\Desktop\fundoo-Notes\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (C:\Users\anand\Desktop\fundoo-Notes\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (C:\Users\anand\Desktop\fundoo-Notes\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (C:\Users\anand\Desktop\fundoo-Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\anand\Desktop\fundoo-Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at C:\Users\anand\Desktop\fundoo-Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at Object.<anonymous> (C:\Users\anand\Desktop\fundoo-Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12)
+    at Object.MakeArchive (C:\Users\anand\Desktop\fundoo-Notes\build\services\note.service.js:195:18)
+    at _callee6$ (C:\Users\anand\Desktop\fundoo-Notes\build\controllers\note.controller.js:245:32)
+    at tryCatch (C:\Users\anand\Desktop\fundoo-Notes\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (C:\Users\anand\Desktop\fundoo-Notes\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (C:\Users\anand\Desktop\fundoo-Notes\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (C:\Users\anand\Desktop\fundoo-Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\anand\Desktop\fundoo-Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9) 
+    url - /api/v1/note/archive/62171d15780805339437cddf 
+    method - PUT 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-02-24T05:59:54.845Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-24T06:00:22.850Z"}
+info: Connected to the database. {"timestamp":"2022-02-24T06:00:22.874Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-24T06:04:30.545Z"}
+info: Connected to the database. {"timestamp":"2022-02-24T06:04:30.569Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-24T06:06:41.390Z"}
+info: Connected to the database. {"timestamp":"2022-02-24T06:06:41.412Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot set properties of undefined (setting 'isArchived')
+    at _callee6$ (C:\Users\anand\Desktop\fundoo-Notes\build\services\note.service.js:177:43)
+    at tryCatch (C:\Users\anand\Desktop\fundoo-Notes\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (C:\Users\anand\Desktop\fundoo-Notes\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (C:\Users\anand\Desktop\fundoo-Notes\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (C:\Users\anand\Desktop\fundoo-Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\anand\Desktop\fundoo-Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/note/archive/62171d15780805339437cddf 
+    method - PUT 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-02-24T06:07:04.324Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot set properties of undefined (setting 'isArchived')
+    at _callee6$ (C:\Users\anand\Desktop\fundoo-Notes\build\services\note.service.js:177:43)
+    at tryCatch (C:\Users\anand\Desktop\fundoo-Notes\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (C:\Users\anand\Desktop\fundoo-Notes\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (C:\Users\anand\Desktop\fundoo-Notes\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (C:\Users\anand\Desktop\fundoo-Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\anand\Desktop\fundoo-Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/note/archive/62171d15780805339437cddf 
+    method - PUT 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-02-24T06:07:58.065Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-24T06:10:11.879Z"}
+info: Connected to the database. {"timestamp":"2022-02-24T06:10:11.902Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-24T06:10:44.214Z"}
+info: Connected to the database. {"timestamp":"2022-02-24T06:10:44.240Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-24T06:11:21.987Z"}
+info: Connected to the database. {"timestamp":"2022-02-24T06:11:22.011Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-24T06:14:07.347Z"}
+info: Connected to the database. {"timestamp":"2022-02-24T06:14:07.369Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot set properties of undefined (setting 'isArchived')
+    at _callee6$ (C:\Users\anand\Desktop\fundoo-Notes\build\services\note.service.js:175:32)
+    at tryCatch (C:\Users\anand\Desktop\fundoo-Notes\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (C:\Users\anand\Desktop\fundoo-Notes\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (C:\Users\anand\Desktop\fundoo-Notes\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (C:\Users\anand\Desktop\fundoo-Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\anand\Desktop\fundoo-Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at C:\Users\anand\Desktop\fundoo-Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at Object.<anonymous> (C:\Users\anand\Desktop\fundoo-Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12)
+    at Object.MakeArchive (C:\Users\anand\Desktop\fundoo-Notes\build\services\note.service.js:191:18)
+    at _callee6$ (C:\Users\anand\Desktop\fundoo-Notes\build\controllers\note.controller.js:245:32)
+    at tryCatch (C:\Users\anand\Desktop\fundoo-Notes\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (C:\Users\anand\Desktop\fundoo-Notes\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (C:\Users\anand\Desktop\fundoo-Notes\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (C:\Users\anand\Desktop\fundoo-Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\anand\Desktop\fundoo-Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9) 
+    url - /api/v1/note/archive/62171d15780805339437cddf 
+    method - PUT 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-02-24T06:14:13.241Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-24T06:40:02.484Z"}
+info: Connected to the database. {"timestamp":"2022-02-24T06:40:02.525Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-24T06:41:19.543Z"}
+info: Connected to the database. {"timestamp":"2022-02-24T06:41:19.570Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-24T06:42:58.622Z"}
+info: Connected to the database. {"timestamp":"2022-02-24T06:42:58.645Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-24T06:54:02.620Z"}
+info: Connected to the database. {"timestamp":"2022-02-24T06:54:02.644Z"}
+error: 
+      status - 400
+      message - Authorization token is required 
+      url - /api/v1/note/auth/6216fa0dc393083e7ce7d646 
+      method - GET 
+      IP - ::ffff:127.0.0.1
+     {"timestamp":"2022-02-24T06:54:40.958Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-24T13:51:51.344Z"}
+info: Connected to the database. {"timestamp":"2022-02-24T13:51:51.427Z"}
+error: 
+    status - 500 
+    message - ReferenceError: body is not defined
+    at _callee6$ (C:\Users\anand\Desktop\fundoo-Notes\build\services\note.service.js:176:16)
+    at tryCatch (C:\Users\anand\Desktop\fundoo-Notes\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (C:\Users\anand\Desktop\fundoo-Notes\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (C:\Users\anand\Desktop\fundoo-Notes\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (C:\Users\anand\Desktop\fundoo-Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\anand\Desktop\fundoo-Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at C:\Users\anand\Desktop\fundoo-Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at Object.<anonymous> (C:\Users\anand\Desktop\fundoo-Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12)
+    at Object.MakeArchive (C:\Users\anand\Desktop\fundoo-Notes\build\services\note.service.js:193:18)
+    at _callee6$ (C:\Users\anand\Desktop\fundoo-Notes\build\controllers\note.controller.js:246:32)
+    at tryCatch (C:\Users\anand\Desktop\fundoo-Notes\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (C:\Users\anand\Desktop\fundoo-Notes\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (C:\Users\anand\Desktop\fundoo-Notes\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (C:\Users\anand\Desktop\fundoo-Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\anand\Desktop\fundoo-Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9) 
+    url - /api/v1/note/archive/6216fa0dc393083e7ce7d646 
+    method - PUT 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-02-24T13:51:58.549Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-24T13:52:31.195Z"}
+info: Connected to the database. {"timestamp":"2022-02-24T13:52:31.217Z"}
+error: 
+    status - 500 
+    message - ReferenceError: $set is not defined
+    at _callee6$ (C:\Users\anand\Desktop\fundoo-Notes\build\services\note.service.js:176:16)
+    at tryCatch (C:\Users\anand\Desktop\fundoo-Notes\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (C:\Users\anand\Desktop\fundoo-Notes\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (C:\Users\anand\Desktop\fundoo-Notes\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (C:\Users\anand\Desktop\fundoo-Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\anand\Desktop\fundoo-Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at C:\Users\anand\Desktop\fundoo-Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at Object.<anonymous> (C:\Users\anand\Desktop\fundoo-Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12)
+    at Object.MakeArchive (C:\Users\anand\Desktop\fundoo-Notes\build\services\note.service.js:193:18)
+    at _callee6$ (C:\Users\anand\Desktop\fundoo-Notes\build\controllers\note.controller.js:246:32)
+    at tryCatch (C:\Users\anand\Desktop\fundoo-Notes\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (C:\Users\anand\Desktop\fundoo-Notes\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (C:\Users\anand\Desktop\fundoo-Notes\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (C:\Users\anand\Desktop\fundoo-Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\anand\Desktop\fundoo-Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9) 
+    url - /api/v1/note/archive/6216fa0dc393083e7ce7d646 
+    method - PUT 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-02-24T13:52:36.530Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-24T13:53:46.113Z"}
+info: Connected to the database. {"timestamp":"2022-02-24T13:53:46.137Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read properties of undefined (reading 'body')
+    at _callee6$ (C:\Users\anand\Desktop\fundoo-Notes\build\services\note.service.js:176:25)
+    at tryCatch (C:\Users\anand\Desktop\fundoo-Notes\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (C:\Users\anand\Desktop\fundoo-Notes\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (C:\Users\anand\Desktop\fundoo-Notes\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (C:\Users\anand\Desktop\fundoo-Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\anand\Desktop\fundoo-Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at C:\Users\anand\Desktop\fundoo-Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at Object.<anonymous> (C:\Users\anand\Desktop\fundoo-Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12)
+    at Object.MakeArchive (C:\Users\anand\Desktop\fundoo-Notes\build\services\note.service.js:195:18)
+    at _callee6$ (C:\Users\anand\Desktop\fundoo-Notes\build\controllers\note.controller.js:246:32)
+    at tryCatch (C:\Users\anand\Desktop\fundoo-Notes\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (C:\Users\anand\Desktop\fundoo-Notes\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (C:\Users\anand\Desktop\fundoo-Notes\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (C:\Users\anand\Desktop\fundoo-Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\anand\Desktop\fundoo-Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9) 
+    url - /api/v1/note/archive/6216fa0dc393083e7ce7d646 
+    method - PUT 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-02-24T13:53:54.703Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-24T13:55:51.156Z"}
+info: Connected to the database. {"timestamp":"2022-02-24T13:55:51.187Z"}
+error: 
+    status - 500 
+    message - ReferenceError: re is not defined
+    at _callee7$ (C:\Users\anand\Desktop\fundoo-Notes\build\controllers\note.controller.js:284:43)
+    at tryCatch (C:\Users\anand\Desktop\fundoo-Notes\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (C:\Users\anand\Desktop\fundoo-Notes\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (C:\Users\anand\Desktop\fundoo-Notes\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (C:\Users\anand\Desktop\fundoo-Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\anand\Desktop\fundoo-Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at C:\Users\anand\Desktop\fundoo-Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at C:\Users\anand\Desktop\fundoo-Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12
+    at DeleteNote (C:\Users\anand\Desktop\fundoo-Notes\build\controllers\note.controller.js:308:18)
+    at Layer.handle [as handle_request] (C:\Users\anand\Desktop\fundoo-Notes\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\anand\Desktop\fundoo-Notes\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (C:\Users\anand\Desktop\fundoo-Notes\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (C:\Users\anand\Desktop\fundoo-Notes\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\anand\Desktop\fundoo-Notes\node_modules\express\lib\router\index.js:281:22
+    at param (C:\Users\anand\Desktop\fundoo-Notes\node_modules\express\lib\router\index.js:360:14) 
+    url - /api/v1/note/delete/62178ee2b60ac7435c602c9f 
+    method - PUT 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-02-24T14:02:15.803Z"}
+error: 
+    status - 500 
+    message - ReferenceError: re is not defined
+    at _callee7$ (C:\Users\anand\Desktop\fundoo-Notes\build\controllers\note.controller.js:284:43)
+    at tryCatch (C:\Users\anand\Desktop\fundoo-Notes\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (C:\Users\anand\Desktop\fundoo-Notes\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (C:\Users\anand\Desktop\fundoo-Notes\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (C:\Users\anand\Desktop\fundoo-Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\anand\Desktop\fundoo-Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at C:\Users\anand\Desktop\fundoo-Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at C:\Users\anand\Desktop\fundoo-Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12
+    at DeleteNote (C:\Users\anand\Desktop\fundoo-Notes\build\controllers\note.controller.js:308:18)
+    at Layer.handle [as handle_request] (C:\Users\anand\Desktop\fundoo-Notes\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\anand\Desktop\fundoo-Notes\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (C:\Users\anand\Desktop\fundoo-Notes\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (C:\Users\anand\Desktop\fundoo-Notes\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\anand\Desktop\fundoo-Notes\node_modules\express\lib\router\index.js:281:22
+    at param (C:\Users\anand\Desktop\fundoo-Notes\node_modules\express\lib\router\index.js:360:14) 
+    url - /api/v1/note/delete/62178ee2b60ac7435c602c9f 
+    method - PUT 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-02-24T14:02:52.744Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-24T14:04:02.533Z"}
+info: Connected to the database. {"timestamp":"2022-02-24T14:04:02.558Z"}
+error: 
+    status - 500 
+    message - CastError: Cast to ObjectId failed for value "{ id: '62178ee2b60ac7435c602c9f' }" (type Object) at path "_id" for model "Note"
+    at model.Query.exec (C:\Users\anand\Desktop\fundoo-Notes\node_modules\mongoose\lib\query.js:4498:21)
+    at model.Query.Query.then (C:\Users\anand\Desktop\fundoo-Notes\node_modules\mongoose\lib\query.js:4592:15)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/note/delete/62178ee2b60ac7435c602c9f 
+    method - PUT 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-02-24T14:04:12.866Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-24T14:05:46.468Z"}
+info: Connected to the database. {"timestamp":"2022-02-24T14:05:46.493Z"}
+error: 
+    status - 500 
+    message - CastError: Cast to ObjectId failed for value "allnotes" (type string) at path "_id" for model "Note"
+    at model.Query.exec (C:\Users\anand\Desktop\fundoo-Notes\node_modules\mongoose\lib\query.js:4498:21)
+    at model.Query.Query.then (C:\Users\anand\Desktop\fundoo-Notes\node_modules\mongoose\lib\query.js:4592:15)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/note/allnotes 
+    method - GET 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-02-24T14:10:25.798Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-24T14:14:01.784Z"}
+info: Connected to the database. {"timestamp":"2022-02-24T14:14:01.808Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-24T14:28:03.600Z"}
+info: Connected to the database. {"timestamp":"2022-02-24T14:28:03.626Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-24T14:29:39.881Z"}
+info: Connected to the database. {"timestamp":"2022-02-24T14:29:39.906Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-24T14:38:05.062Z"}
+info: Connected to the database. {"timestamp":"2022-02-24T14:38:05.084Z"}
+error: 
+    status - 500 
+    message - SyntaxError: Unexpected token } in JSON at position 154
+    at JSON.parse (<anonymous>)
+    at parse (C:\Users\anand\Desktop\fundoo-Notes\node_modules\body-parser\lib\types\json.js:89:19)
+    at C:\Users\anand\Desktop\fundoo-Notes\node_modules\body-parser\lib\read.js:121:18
+    at invokeCallback (C:\Users\anand\Desktop\fundoo-Notes\node_modules\raw-body\index.js:224:16)
+    at done (C:\Users\anand\Desktop\fundoo-Notes\node_modules\raw-body\index.js:213:7)
+    at IncomingMessage.onEnd (C:\Users\anand\Desktop\fundoo-Notes\node_modules\raw-body\index.js:273:7)
+    at IncomingMessage.emit (node:events:402:35)
+    at endReadableNT (node:internal/streams/readable:1343:12)
+    at processTicksAndRejections (node:internal/process/task_queues:83:21) 
+    url - /api/v1/note/ 
+    method - PUT 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-02-24T14:39:46.025Z"}
+error: 
+    status - 500 
+    message - SyntaxError: Unexpected token } in JSON at position 154
+    at JSON.parse (<anonymous>)
+    at parse (C:\Users\anand\Desktop\fundoo-Notes\node_modules\body-parser\lib\types\json.js:89:19)
+    at C:\Users\anand\Desktop\fundoo-Notes\node_modules\body-parser\lib\read.js:121:18
+    at invokeCallback (C:\Users\anand\Desktop\fundoo-Notes\node_modules\raw-body\index.js:224:16)
+    at done (C:\Users\anand\Desktop\fundoo-Notes\node_modules\raw-body\index.js:213:7)
+    at IncomingMessage.onEnd (C:\Users\anand\Desktop\fundoo-Notes\node_modules\raw-body\index.js:273:7)
+    at IncomingMessage.emit (node:events:402:35)
+    at endReadableNT (node:internal/streams/readable:1343:12)
+    at processTicksAndRejections (node:internal/process/task_queues:83:21) 
+    url - /api/v1/note/ 
+    method - GET 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-02-24T14:39:52.090Z"}
+error: 
+    status - 500 
+    message - SyntaxError: Unexpected token } in JSON at position 154
+    at JSON.parse (<anonymous>)
+    at parse (C:\Users\anand\Desktop\fundoo-Notes\node_modules\body-parser\lib\types\json.js:89:19)
+    at C:\Users\anand\Desktop\fundoo-Notes\node_modules\body-parser\lib\read.js:121:18
+    at invokeCallback (C:\Users\anand\Desktop\fundoo-Notes\node_modules\raw-body\index.js:224:16)
+    at done (C:\Users\anand\Desktop\fundoo-Notes\node_modules\raw-body\index.js:213:7)
+    at IncomingMessage.onEnd (C:\Users\anand\Desktop\fundoo-Notes\node_modules\raw-body\index.js:273:7)
+    at IncomingMessage.emit (node:events:402:35)
+    at endReadableNT (node:internal/streams/readable:1343:12)
+    at processTicksAndRejections (node:internal/process/task_queues:83:21) 
+    url - /api/v1/note/ 
+    method - GET 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-02-24T14:39:53.527Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-24T14:41:22.734Z"}
+info: Connected to the database. {"timestamp":"2022-02-24T14:41:22.761Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-24T15:43:53.288Z"}
+info: Connected to the database. {"timestamp":"2022-02-24T15:43:53.317Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-24T15:49:51.982Z"}
+info: Connected to the database. {"timestamp":"2022-02-24T15:49:52.005Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-24T16:20:23.289Z"}
+info: Connected to the database. {"timestamp":"2022-02-24T16:20:23.313Z"}
+error: 
+    status - 500 
+    message - CastError: Cast to ObjectId failed for value "auth" (type string) at path "_id" for model "Note"
+    at model.Query.exec (C:\Users\anand\Desktop\fundoo-Notes\node_modules\mongoose\lib\query.js:4498:21)
+    at model.Query.Query.then (C:\Users\anand\Desktop\fundoo-Notes\node_modules\mongoose\lib\query.js:4592:15)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/note/auth/ 
+    method - GET 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-02-24T16:20:40.324Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-24T16:22:23.520Z"}
+info: Connected to the database. {"timestamp":"2022-02-24T16:22:23.546Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-24T16:23:01.429Z"}
+info: Connected to the database. {"timestamp":"2022-02-24T16:23:01.452Z"}
+error: 
+    status - 500 
+    message - JsonWebTokenError: invalid signature
+    at C:\Users\anand\Desktop\fundoo-Notes\node_modules\jsonwebtoken\verify.js:133:19
+    at getSecret (C:\Users\anand\Desktop\fundoo-Notes\node_modules\jsonwebtoken\verify.js:90:14)
+    at Object.module.exports [as verify] (C:\Users\anand\Desktop\fundoo-Notes\node_modules\jsonwebtoken\verify.js:94:10)
+    at _callee2$ (C:\Users\anand\Desktop\fundoo-Notes\build\middlewares\auth.middleware.js:119:45)
+    at tryCatch (C:\Users\anand\Desktop\fundoo-Notes\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (C:\Users\anand\Desktop\fundoo-Notes\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (C:\Users\anand\Desktop\fundoo-Notes\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (C:\Users\anand\Desktop\fundoo-Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\anand\Desktop\fundoo-Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at C:\Users\anand\Desktop\fundoo-Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at C:\Users\anand\Desktop\fundoo-Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12
+    at NoteAuth (C:\Users\anand\Desktop\fundoo-Notes\build\middlewares\auth.middleware.js:144:18)
+    at Layer.handle [as handle_request] (C:\Users\anand\Desktop\fundoo-Notes\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\anand\Desktop\fundoo-Notes\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (C:\Users\anand\Desktop\fundoo-Notes\node_modules\express\lib\router\route.js:112:3) 
+    url - /api/v1/note/auth/ 
+    method - GET 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-02-24T16:23:10.033Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-24T16:24:09.986Z"}
+info: Connected to the database. {"timestamp":"2022-02-24T16:24:10.008Z"}
+error: 
+    status - 500 
+    message - JsonWebTokenError: invalid signature
+    at C:\Users\anand\Desktop\fundoo-Notes\node_modules\jsonwebtoken\verify.js:133:19
+    at getSecret (C:\Users\anand\Desktop\fundoo-Notes\node_modules\jsonwebtoken\verify.js:90:14)
+    at Object.module.exports [as verify] (C:\Users\anand\Desktop\fundoo-Notes\node_modules\jsonwebtoken\verify.js:94:10)
+    at _callee2$ (C:\Users\anand\Desktop\fundoo-Notes\build\middlewares\auth.middleware.js:120:45)
+    at tryCatch (C:\Users\anand\Desktop\fundoo-Notes\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (C:\Users\anand\Desktop\fundoo-Notes\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (C:\Users\anand\Desktop\fundoo-Notes\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (C:\Users\anand\Desktop\fundoo-Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\anand\Desktop\fundoo-Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at C:\Users\anand\Desktop\fundoo-Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at C:\Users\anand\Desktop\fundoo-Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12
+    at NoteAuth (C:\Users\anand\Desktop\fundoo-Notes\build\middlewares\auth.middleware.js:145:18)
+    at Layer.handle [as handle_request] (C:\Users\anand\Desktop\fundoo-Notes\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\anand\Desktop\fundoo-Notes\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (C:\Users\anand\Desktop\fundoo-Notes\node_modules\express\lib\router\route.js:112:3) 
+    url - /api/v1/note/auth/ 
+    method - GET 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-02-24T16:40:56.503Z"}
+error: 
+    status - 500 
+    message - JsonWebTokenError: invalid signature
+    at C:\Users\anand\Desktop\fundoo-Notes\node_modules\jsonwebtoken\verify.js:133:19
+    at getSecret (C:\Users\anand\Desktop\fundoo-Notes\node_modules\jsonwebtoken\verify.js:90:14)
+    at Object.module.exports [as verify] (C:\Users\anand\Desktop\fundoo-Notes\node_modules\jsonwebtoken\verify.js:94:10)
+    at _callee2$ (C:\Users\anand\Desktop\fundoo-Notes\build\middlewares\auth.middleware.js:120:45)
+    at tryCatch (C:\Users\anand\Desktop\fundoo-Notes\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (C:\Users\anand\Desktop\fundoo-Notes\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (C:\Users\anand\Desktop\fundoo-Notes\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (C:\Users\anand\Desktop\fundoo-Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\anand\Desktop\fundoo-Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at C:\Users\anand\Desktop\fundoo-Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at C:\Users\anand\Desktop\fundoo-Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12
+    at NoteAuth (C:\Users\anand\Desktop\fundoo-Notes\build\middlewares\auth.middleware.js:145:18)
+    at Layer.handle [as handle_request] (C:\Users\anand\Desktop\fundoo-Notes\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\anand\Desktop\fundoo-Notes\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (C:\Users\anand\Desktop\fundoo-Notes\node_modules\express\lib\router\route.js:112:3) 
+    url - /api/v1/note/auth/ 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2022-02-24T16:44:39.299Z"}
+error: 
+    status - 500 
+    message - JsonWebTokenError: invalid signature
+    at C:\Users\anand\Desktop\fundoo-Notes\node_modules\jsonwebtoken\verify.js:133:19
+    at getSecret (C:\Users\anand\Desktop\fundoo-Notes\node_modules\jsonwebtoken\verify.js:90:14)
+    at Object.module.exports [as verify] (C:\Users\anand\Desktop\fundoo-Notes\node_modules\jsonwebtoken\verify.js:94:10)
+    at _callee2$ (C:\Users\anand\Desktop\fundoo-Notes\build\middlewares\auth.middleware.js:120:45)
+    at tryCatch (C:\Users\anand\Desktop\fundoo-Notes\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (C:\Users\anand\Desktop\fundoo-Notes\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (C:\Users\anand\Desktop\fundoo-Notes\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (C:\Users\anand\Desktop\fundoo-Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\anand\Desktop\fundoo-Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at C:\Users\anand\Desktop\fundoo-Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at C:\Users\anand\Desktop\fundoo-Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12
+    at NoteAuth (C:\Users\anand\Desktop\fundoo-Notes\build\middlewares\auth.middleware.js:145:18)
+    at Layer.handle [as handle_request] (C:\Users\anand\Desktop\fundoo-Notes\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\anand\Desktop\fundoo-Notes\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (C:\Users\anand\Desktop\fundoo-Notes\node_modules\express\lib\router\route.js:112:3) 
+    url - /api/v1/note/auth/ 
+    method - GET 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-02-24T16:56:47.379Z"}
+error: 
+    status - 500 
+    message - JsonWebTokenError: invalid signature
+    at C:\Users\anand\Desktop\fundoo-Notes\node_modules\jsonwebtoken\verify.js:133:19
+    at getSecret (C:\Users\anand\Desktop\fundoo-Notes\node_modules\jsonwebtoken\verify.js:90:14)
+    at Object.module.exports [as verify] (C:\Users\anand\Desktop\fundoo-Notes\node_modules\jsonwebtoken\verify.js:94:10)
+    at _callee2$ (C:\Users\anand\Desktop\fundoo-Notes\build\middlewares\auth.middleware.js:120:45)
+    at tryCatch (C:\Users\anand\Desktop\fundoo-Notes\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (C:\Users\anand\Desktop\fundoo-Notes\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (C:\Users\anand\Desktop\fundoo-Notes\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (C:\Users\anand\Desktop\fundoo-Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\anand\Desktop\fundoo-Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at C:\Users\anand\Desktop\fundoo-Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at C:\Users\anand\Desktop\fundoo-Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12
+    at NoteAuth (C:\Users\anand\Desktop\fundoo-Notes\build\middlewares\auth.middleware.js:145:18)
+    at Layer.handle [as handle_request] (C:\Users\anand\Desktop\fundoo-Notes\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\anand\Desktop\fundoo-Notes\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (C:\Users\anand\Desktop\fundoo-Notes\node_modules\express\lib\router\route.js:112:3) 
+    url - /api/v1/note/auth/ 
+    method - GET 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-02-24T16:56:50.513Z"}
+error: 
+    status - 500 
+    message - JsonWebTokenError: invalid signature
+    at C:\Users\anand\Desktop\fundoo-Notes\node_modules\jsonwebtoken\verify.js:133:19
+    at getSecret (C:\Users\anand\Desktop\fundoo-Notes\node_modules\jsonwebtoken\verify.js:90:14)
+    at Object.module.exports [as verify] (C:\Users\anand\Desktop\fundoo-Notes\node_modules\jsonwebtoken\verify.js:94:10)
+    at _callee2$ (C:\Users\anand\Desktop\fundoo-Notes\build\middlewares\auth.middleware.js:120:45)
+    at tryCatch (C:\Users\anand\Desktop\fundoo-Notes\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (C:\Users\anand\Desktop\fundoo-Notes\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (C:\Users\anand\Desktop\fundoo-Notes\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (C:\Users\anand\Desktop\fundoo-Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\anand\Desktop\fundoo-Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at C:\Users\anand\Desktop\fundoo-Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at C:\Users\anand\Desktop\fundoo-Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12
+    at NoteAuth (C:\Users\anand\Desktop\fundoo-Notes\build\middlewares\auth.middleware.js:145:18)
+    at Layer.handle [as handle_request] (C:\Users\anand\Desktop\fundoo-Notes\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\anand\Desktop\fundoo-Notes\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (C:\Users\anand\Desktop\fundoo-Notes\node_modules\express\lib\router\route.js:112:3) 
+    url - /api/v1/note/auth/ 
+    method - GET 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-02-24T16:56:51.447Z"}
+error: 
+    status - 500 
+    message - JsonWebTokenError: invalid signature
+    at C:\Users\anand\Desktop\fundoo-Notes\node_modules\jsonwebtoken\verify.js:133:19
+    at getSecret (C:\Users\anand\Desktop\fundoo-Notes\node_modules\jsonwebtoken\verify.js:90:14)
+    at Object.module.exports [as verify] (C:\Users\anand\Desktop\fundoo-Notes\node_modules\jsonwebtoken\verify.js:94:10)
+    at _callee2$ (C:\Users\anand\Desktop\fundoo-Notes\build\middlewares\auth.middleware.js:120:45)
+    at tryCatch (C:\Users\anand\Desktop\fundoo-Notes\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (C:\Users\anand\Desktop\fundoo-Notes\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (C:\Users\anand\Desktop\fundoo-Notes\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (C:\Users\anand\Desktop\fundoo-Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\anand\Desktop\fundoo-Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at C:\Users\anand\Desktop\fundoo-Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at C:\Users\anand\Desktop\fundoo-Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12
+    at NoteAuth (C:\Users\anand\Desktop\fundoo-Notes\build\middlewares\auth.middleware.js:145:18)
+    at Layer.handle [as handle_request] (C:\Users\anand\Desktop\fundoo-Notes\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\anand\Desktop\fundoo-Notes\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (C:\Users\anand\Desktop\fundoo-Notes\node_modules\express\lib\router\route.js:112:3) 
+    url - /api/v1/note/auth/ 
+    method - GET 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-02-24T16:56:52.243Z"}
+error: 
+    status - 500 
+    message - JsonWebTokenError: invalid signature
+    at C:\Users\anand\Desktop\fundoo-Notes\node_modules\jsonwebtoken\verify.js:133:19
+    at getSecret (C:\Users\anand\Desktop\fundoo-Notes\node_modules\jsonwebtoken\verify.js:90:14)
+    at Object.module.exports [as verify] (C:\Users\anand\Desktop\fundoo-Notes\node_modules\jsonwebtoken\verify.js:94:10)
+    at _callee2$ (C:\Users\anand\Desktop\fundoo-Notes\build\middlewares\auth.middleware.js:120:45)
+    at tryCatch (C:\Users\anand\Desktop\fundoo-Notes\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (C:\Users\anand\Desktop\fundoo-Notes\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (C:\Users\anand\Desktop\fundoo-Notes\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (C:\Users\anand\Desktop\fundoo-Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\anand\Desktop\fundoo-Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at C:\Users\anand\Desktop\fundoo-Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at C:\Users\anand\Desktop\fundoo-Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12
+    at NoteAuth (C:\Users\anand\Desktop\fundoo-Notes\build\middlewares\auth.middleware.js:145:18)
+    at Layer.handle [as handle_request] (C:\Users\anand\Desktop\fundoo-Notes\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\anand\Desktop\fundoo-Notes\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (C:\Users\anand\Desktop\fundoo-Notes\node_modules\express\lib\router\route.js:112:3) 
+    url - /api/v1/note/auth/ 
+    method - GET 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-02-24T16:56:52.961Z"}
+error: 
+    status - 500 
+    message - JsonWebTokenError: invalid signature
+    at C:\Users\anand\Desktop\fundoo-Notes\node_modules\jsonwebtoken\verify.js:133:19
+    at getSecret (C:\Users\anand\Desktop\fundoo-Notes\node_modules\jsonwebtoken\verify.js:90:14)
+    at Object.module.exports [as verify] (C:\Users\anand\Desktop\fundoo-Notes\node_modules\jsonwebtoken\verify.js:94:10)
+    at _callee2$ (C:\Users\anand\Desktop\fundoo-Notes\build\middlewares\auth.middleware.js:120:45)
+    at tryCatch (C:\Users\anand\Desktop\fundoo-Notes\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (C:\Users\anand\Desktop\fundoo-Notes\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (C:\Users\anand\Desktop\fundoo-Notes\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (C:\Users\anand\Desktop\fundoo-Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\anand\Desktop\fundoo-Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at C:\Users\anand\Desktop\fundoo-Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at C:\Users\anand\Desktop\fundoo-Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12
+    at NoteAuth (C:\Users\anand\Desktop\fundoo-Notes\build\middlewares\auth.middleware.js:145:18)
+    at Layer.handle [as handle_request] (C:\Users\anand\Desktop\fundoo-Notes\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\anand\Desktop\fundoo-Notes\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (C:\Users\anand\Desktop\fundoo-Notes\node_modules\express\lib\router\route.js:112:3) 
+    url - /api/v1/note/auth/ 
+    method - GET 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-02-24T16:56:53.973Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-24T17:03:21.928Z"}
+info: Connected to the database. {"timestamp":"2022-02-24T17:03:21.952Z"}
+error: 
+    status - 500 
+    message - JsonWebTokenError: invalid signature
+    at C:\Users\anand\Desktop\fundoo-Notes\node_modules\jsonwebtoken\verify.js:133:19
+    at getSecret (C:\Users\anand\Desktop\fundoo-Notes\node_modules\jsonwebtoken\verify.js:90:14)
+    at Object.module.exports [as verify] (C:\Users\anand\Desktop\fundoo-Notes\node_modules\jsonwebtoken\verify.js:94:10)
+    at _callee2$ (C:\Users\anand\Desktop\fundoo-Notes\build\middlewares\auth.middleware.js:119:45)
+    at tryCatch (C:\Users\anand\Desktop\fundoo-Notes\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (C:\Users\anand\Desktop\fundoo-Notes\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (C:\Users\anand\Desktop\fundoo-Notes\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (C:\Users\anand\Desktop\fundoo-Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\anand\Desktop\fundoo-Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at C:\Users\anand\Desktop\fundoo-Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at C:\Users\anand\Desktop\fundoo-Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12
+    at NoteAuth (C:\Users\anand\Desktop\fundoo-Notes\build\middlewares\auth.middleware.js:144:18)
+    at Layer.handle [as handle_request] (C:\Users\anand\Desktop\fundoo-Notes\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\anand\Desktop\fundoo-Notes\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (C:\Users\anand\Desktop\fundoo-Notes\node_modules\express\lib\router\route.js:112:3) 
+    url - /api/v1/note/auth/ 
+    method - GET 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-02-24T17:03:39.379Z"}
+error: 
+    status - 500 
+    message - JsonWebTokenError: invalid signature
+    at C:\Users\anand\Desktop\fundoo-Notes\node_modules\jsonwebtoken\verify.js:133:19
+    at getSecret (C:\Users\anand\Desktop\fundoo-Notes\node_modules\jsonwebtoken\verify.js:90:14)
+    at Object.module.exports [as verify] (C:\Users\anand\Desktop\fundoo-Notes\node_modules\jsonwebtoken\verify.js:94:10)
+    at _callee2$ (C:\Users\anand\Desktop\fundoo-Notes\build\middlewares\auth.middleware.js:119:45)
+    at tryCatch (C:\Users\anand\Desktop\fundoo-Notes\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (C:\Users\anand\Desktop\fundoo-Notes\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (C:\Users\anand\Desktop\fundoo-Notes\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (C:\Users\anand\Desktop\fundoo-Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\anand\Desktop\fundoo-Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at C:\Users\anand\Desktop\fundoo-Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at C:\Users\anand\Desktop\fundoo-Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12
+    at NoteAuth (C:\Users\anand\Desktop\fundoo-Notes\build\middlewares\auth.middleware.js:144:18)
+    at Layer.handle [as handle_request] (C:\Users\anand\Desktop\fundoo-Notes\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\anand\Desktop\fundoo-Notes\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (C:\Users\anand\Desktop\fundoo-Notes\node_modules\express\lib\router\route.js:112:3) 
+    url - /api/v1/note/auth/ 
+    method - GET 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-02-24T17:03:40.487Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-24T17:06:32.818Z"}
+info: Connected to the database. {"timestamp":"2022-02-24T17:06:32.843Z"}
+error: 
+    status - 500 
+    message - CastError: Cast to ObjectId failed for value "auth" (type string) at path "_id" for model "Note"
+    at model.Query.exec (C:\Users\anand\Desktop\fundoo-Notes\node_modules\mongoose\lib\query.js:4498:21)
+    at model.Query.Query.then (C:\Users\anand\Desktop\fundoo-Notes\node_modules\mongoose\lib\query.js:4592:15)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/note/auth/ 
+    method - GET 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-02-24T17:06:39.429Z"}
+info: Connected to the database. {"timestamp":"2022-02-24T17:08:06.900Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-24T17:08:48.740Z"}
+info: Connected to the database. {"timestamp":"2022-02-24T17:08:48.761Z"}
+error: 
+    status - 500 
+    message - CastError: Cast to ObjectId failed for value "auth" (type string) at path "_id" for model "Note"
+    at model.Query.exec (C:\Users\anand\Desktop\fundoo-Notes\node_modules\mongoose\lib\query.js:4498:21)
+    at model.Query.Query.then (C:\Users\anand\Desktop\fundoo-Notes\node_modules\mongoose\lib\query.js:4592:15)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/note/auth/ 
+    method - GET 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-02-24T17:08:54.695Z"}
+error: 
+    status - 500 
+    message - CastError: Cast to ObjectId failed for value "auth" (type string) at path "_id" for model "Note"
+    at model.Query.exec (C:\Users\anand\Desktop\fundoo-Notes\node_modules\mongoose\lib\query.js:4498:21)
+    at model.Query.Query.then (C:\Users\anand\Desktop\fundoo-Notes\node_modules\mongoose\lib\query.js:4592:15)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/note/auth/ 
+    method - GET 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-02-24T17:09:03.241Z"}
+error: 
+    status - 500 
+    message - CastError: Cast to ObjectId failed for value "auth" (type string) at path "_id" for model "Note"
+    at model.Query.exec (C:\Users\anand\Desktop\fundoo-Notes\node_modules\mongoose\lib\query.js:4498:21)
+    at model.Query.Query.then (C:\Users\anand\Desktop\fundoo-Notes\node_modules\mongoose\lib\query.js:4592:15)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/note/auth/ 
+    method - GET 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-02-24T17:09:04.776Z"}
+error: 
+    status - 500 
+    message - CastError: Cast to ObjectId failed for value "auth" (type string) at path "_id" for model "Note"
+    at model.Query.exec (C:\Users\anand\Desktop\fundoo-Notes\node_modules\mongoose\lib\query.js:4498:21)
+    at model.Query.Query.then (C:\Users\anand\Desktop\fundoo-Notes\node_modules\mongoose\lib\query.js:4592:15)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/note/auth/ 
+    method - GET 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-02-24T17:09:05.654Z"}
+error: 
+    status - 500 
+    message - CastError: Cast to ObjectId failed for value "auth" (type string) at path "_id" for model "Note"
+    at model.Query.exec (C:\Users\anand\Desktop\fundoo-Notes\node_modules\mongoose\lib\query.js:4498:21)
+    at model.Query.Query.then (C:\Users\anand\Desktop\fundoo-Notes\node_modules\mongoose\lib\query.js:4592:15)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/note/auth/ 
+    method - GET 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-02-24T17:09:05.883Z"}
+error: 
+    status - 500 
+    message - CastError: Cast to ObjectId failed for value "auth" (type string) at path "_id" for model "Note"
+    at model.Query.exec (C:\Users\anand\Desktop\fundoo-Notes\node_modules\mongoose\lib\query.js:4498:21)
+    at model.Query.Query.then (C:\Users\anand\Desktop\fundoo-Notes\node_modules\mongoose\lib\query.js:4592:15)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/note/auth/ 
+    method - GET 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-02-24T17:09:06.071Z"}
+error: 
+    status - 500 
+    message - CastError: Cast to ObjectId failed for value "auth" (type string) at path "_id" for model "Note"
+    at model.Query.exec (C:\Users\anand\Desktop\fundoo-Notes\node_modules\mongoose\lib\query.js:4498:21)
+    at model.Query.Query.then (C:\Users\anand\Desktop\fundoo-Notes\node_modules\mongoose\lib\query.js:4592:15)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/note/auth/ 
+    method - GET 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-02-24T17:09:06.303Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-24T17:10:20.563Z"}
+info: Connected to the database. {"timestamp":"2022-02-24T17:10:20.594Z"}
+error: 
+    status - 500 
+    message - JsonWebTokenError: invalid signature
+    at C:\Users\anand\Desktop\fundoo-Notes\node_modules\jsonwebtoken\verify.js:133:19
+    at getSecret (C:\Users\anand\Desktop\fundoo-Notes\node_modules\jsonwebtoken\verify.js:90:14)
+    at Object.module.exports [as verify] (C:\Users\anand\Desktop\fundoo-Notes\node_modules\jsonwebtoken\verify.js:94:10)
+    at _callee2$ (C:\Users\anand\Desktop\fundoo-Notes\build\middlewares\auth.middleware.js:119:45)
+    at tryCatch (C:\Users\anand\Desktop\fundoo-Notes\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (C:\Users\anand\Desktop\fundoo-Notes\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (C:\Users\anand\Desktop\fundoo-Notes\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (C:\Users\anand\Desktop\fundoo-Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\anand\Desktop\fundoo-Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at C:\Users\anand\Desktop\fundoo-Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at C:\Users\anand\Desktop\fundoo-Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12
+    at NoteAuth (C:\Users\anand\Desktop\fundoo-Notes\build\middlewares\auth.middleware.js:144:18)
+    at Layer.handle [as handle_request] (C:\Users\anand\Desktop\fundoo-Notes\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\anand\Desktop\fundoo-Notes\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (C:\Users\anand\Desktop\fundoo-Notes\node_modules\express\lib\router\route.js:112:3) 
+    url - /api/v1/note/auth/ 
+    method - GET 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-02-24T17:10:30.450Z"}
+error: 
+    status - 500 
+    message - JsonWebTokenError: invalid signature
+    at C:\Users\anand\Desktop\fundoo-Notes\node_modules\jsonwebtoken\verify.js:133:19
+    at getSecret (C:\Users\anand\Desktop\fundoo-Notes\node_modules\jsonwebtoken\verify.js:90:14)
+    at Object.module.exports [as verify] (C:\Users\anand\Desktop\fundoo-Notes\node_modules\jsonwebtoken\verify.js:94:10)
+    at _callee2$ (C:\Users\anand\Desktop\fundoo-Notes\build\middlewares\auth.middleware.js:119:45)
+    at tryCatch (C:\Users\anand\Desktop\fundoo-Notes\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (C:\Users\anand\Desktop\fundoo-Notes\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (C:\Users\anand\Desktop\fundoo-Notes\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (C:\Users\anand\Desktop\fundoo-Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\anand\Desktop\fundoo-Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at C:\Users\anand\Desktop\fundoo-Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at C:\Users\anand\Desktop\fundoo-Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12
+    at NoteAuth (C:\Users\anand\Desktop\fundoo-Notes\build\middlewares\auth.middleware.js:144:18)
+    at Layer.handle [as handle_request] (C:\Users\anand\Desktop\fundoo-Notes\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\anand\Desktop\fundoo-Notes\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (C:\Users\anand\Desktop\fundoo-Notes\node_modules\express\lib\router\route.js:112:3) 
+    url - /api/v1/note/auth/ 
+    method - GET 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-02-24T17:10:33.876Z"}

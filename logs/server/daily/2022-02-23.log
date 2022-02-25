@@ -1,0 +1,539 @@
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-23T03:33:26.280Z"}
+info: Connected to the database. {"timestamp":"2022-02-23T03:33:26.659Z"}
+error: 
+    status - 500 
+    message - ValidationError: "emailID" is required 
+    url - /api/v1/users/userregister 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-02-23T03:36:00.904Z"}
+error: 
+      status - 11000
+      message - E11000 duplicate key error collection: user.users index: emailID_1 dup key: { emailID: "anand@gmail.com" } 
+      url - /api/v1/users/userregister 
+      method - POST 
+      IP - ::ffff:127.0.0.1
+     {"timestamp":"2022-02-23T03:37:23.028Z"}
+error: 
+    status - 500 
+    message - RangeError [ERR_HTTP_INVALID_STATUS_CODE]: Invalid status code: 11000
+    at new NodeError (node:internal/errors:371:5)
+    at ServerResponse.writeHead (node:_http_server:274:11)
+    at ServerResponse.writeHead (C:\Users\anand\Desktop\fundoo-Notes\node_modules\on-headers\index.js:44:26)
+    at ServerResponse._implicitHeader (node:_http_server:265:8)
+    at write_ (node:_http_outgoing:766:9)
+    at ServerResponse.end (node:_http_outgoing:855:5)
+    at ServerResponse.send (C:\Users\anand\Desktop\fundoo-Notes\node_modules\express\lib\response.js:221:10)
+    at ServerResponse.json (C:\Users\anand\Desktop\fundoo-Notes\node_modules\express\lib\response.js:267:15)
+    at appErrorHandler (C:\Users\anand\Desktop\fundoo-Notes\build\middlewares\error.middleware.js:43:26)
+    at Layer.handle_error (C:\Users\anand\Desktop\fundoo-Notes\node_modules\express\lib\router\layer.js:71:5)
+    at trim_prefix (C:\Users\anand\Desktop\fundoo-Notes\node_modules\express\lib\router\index.js:321:13)
+    at C:\Users\anand\Desktop\fundoo-Notes\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (C:\Users\anand\Desktop\fundoo-Notes\node_modules\express\lib\router\index.js:341:12)
+    at Immediate.next (C:\Users\anand\Desktop\fundoo-Notes\node_modules\express\lib\router\index.js:275:10)
+    at Immediate._onImmediate (C:\Users\anand\Desktop\fundoo-Notes\node_modules\express\lib\router\index.js:641:15)
+    at processImmediate (node:internal/timers:466:21) 
+    url - /api/v1/users/userregister 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-02-23T03:37:23.055Z"}
+error: 
+      status - 11000
+      message - E11000 duplicate key error collection: user.users index: emailID_1 dup key: { emailID: "anandubale@gmail.com" } 
+      url - /api/v1/users/userregister 
+      method - POST 
+      IP - ::ffff:127.0.0.1
+     {"timestamp":"2022-02-23T03:37:53.618Z"}
+error: 
+    status - 500 
+    message - RangeError [ERR_HTTP_INVALID_STATUS_CODE]: Invalid status code: 11000
+    at new NodeError (node:internal/errors:371:5)
+    at ServerResponse.writeHead (node:_http_server:274:11)
+    at ServerResponse.writeHead (C:\Users\anand\Desktop\fundoo-Notes\node_modules\on-headers\index.js:44:26)
+    at ServerResponse._implicitHeader (node:_http_server:265:8)
+    at write_ (node:_http_outgoing:766:9)
+    at ServerResponse.end (node:_http_outgoing:855:5)
+    at ServerResponse.send (C:\Users\anand\Desktop\fundoo-Notes\node_modules\express\lib\response.js:221:10)
+    at ServerResponse.json (C:\Users\anand\Desktop\fundoo-Notes\node_modules\express\lib\response.js:267:15)
+    at appErrorHandler (C:\Users\anand\Desktop\fundoo-Notes\build\middlewares\error.middleware.js:43:26)
+    at Layer.handle_error (C:\Users\anand\Desktop\fundoo-Notes\node_modules\express\lib\router\layer.js:71:5)
+    at trim_prefix (C:\Users\anand\Desktop\fundoo-Notes\node_modules\express\lib\router\index.js:321:13)
+    at C:\Users\anand\Desktop\fundoo-Notes\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (C:\Users\anand\Desktop\fundoo-Notes\node_modules\express\lib\router\index.js:341:12)
+    at Immediate.next (C:\Users\anand\Desktop\fundoo-Notes\node_modules\express\lib\router\index.js:275:10)
+    at Immediate._onImmediate (C:\Users\anand\Desktop\fundoo-Notes\node_modules\express\lib\router\index.js:641:15)
+    at processImmediate (node:internal/timers:466:21) 
+    url - /api/v1/users/userregister 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-02-23T03:37:53.621Z"}
+error: 
+      status - 11000
+      message - E11000 duplicate key error collection: user.users index: emailID_1 dup key: { emailID: "anandubale@gmail.com" } 
+      url - /api/v1/users/userregister 
+      method - POST 
+      IP - ::ffff:127.0.0.1
+     {"timestamp":"2022-02-23T03:38:44.172Z"}
+error: 
+    status - 500 
+    message - RangeError [ERR_HTTP_INVALID_STATUS_CODE]: Invalid status code: 11000
+    at new NodeError (node:internal/errors:371:5)
+    at ServerResponse.writeHead (node:_http_server:274:11)
+    at ServerResponse.writeHead (C:\Users\anand\Desktop\fundoo-Notes\node_modules\on-headers\index.js:44:26)
+    at ServerResponse._implicitHeader (node:_http_server:265:8)
+    at write_ (node:_http_outgoing:766:9)
+    at ServerResponse.end (node:_http_outgoing:855:5)
+    at ServerResponse.send (C:\Users\anand\Desktop\fundoo-Notes\node_modules\express\lib\response.js:221:10)
+    at ServerResponse.json (C:\Users\anand\Desktop\fundoo-Notes\node_modules\express\lib\response.js:267:15)
+    at appErrorHandler (C:\Users\anand\Desktop\fundoo-Notes\build\middlewares\error.middleware.js:43:26)
+    at Layer.handle_error (C:\Users\anand\Desktop\fundoo-Notes\node_modules\express\lib\router\layer.js:71:5)
+    at trim_prefix (C:\Users\anand\Desktop\fundoo-Notes\node_modules\express\lib\router\index.js:321:13)
+    at C:\Users\anand\Desktop\fundoo-Notes\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (C:\Users\anand\Desktop\fundoo-Notes\node_modules\express\lib\router\index.js:341:12)
+    at Immediate.next (C:\Users\anand\Desktop\fundoo-Notes\node_modules\express\lib\router\index.js:275:10)
+    at Immediate._onImmediate (C:\Users\anand\Desktop\fundoo-Notes\node_modules\express\lib\router\index.js:641:15)
+    at processImmediate (node:internal/timers:466:21) 
+    url - /api/v1/users/userregister 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-02-23T03:38:44.174Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-23T03:39:08.311Z"}
+info: Connected to the database. {"timestamp":"2022-02-23T03:39:08.337Z"}
+error: 
+      status - 11000
+      message - E11000 duplicate key error collection: user.users index: emailID_1 dup key: { emailID: "anandubale@gmail.com" } 
+      url - /api/v1/users/userregister 
+      method - POST 
+      IP - ::ffff:127.0.0.1
+     {"timestamp":"2022-02-23T03:39:16.787Z"}
+error: 
+    status - 500 
+    message - RangeError [ERR_HTTP_INVALID_STATUS_CODE]: Invalid status code: 11000
+    at new NodeError (node:internal/errors:371:5)
+    at ServerResponse.writeHead (node:_http_server:274:11)
+    at ServerResponse.writeHead (C:\Users\anand\Desktop\fundoo-Notes\node_modules\on-headers\index.js:44:26)
+    at ServerResponse._implicitHeader (node:_http_server:265:8)
+    at write_ (node:_http_outgoing:766:9)
+    at ServerResponse.end (node:_http_outgoing:855:5)
+    at ServerResponse.send (C:\Users\anand\Desktop\fundoo-Notes\node_modules\express\lib\response.js:221:10)
+    at ServerResponse.json (C:\Users\anand\Desktop\fundoo-Notes\node_modules\express\lib\response.js:267:15)
+    at appErrorHandler (C:\Users\anand\Desktop\fundoo-Notes\build\middlewares\error.middleware.js:43:26)
+    at Layer.handle_error (C:\Users\anand\Desktop\fundoo-Notes\node_modules\express\lib\router\layer.js:71:5)
+    at trim_prefix (C:\Users\anand\Desktop\fundoo-Notes\node_modules\express\lib\router\index.js:321:13)
+    at C:\Users\anand\Desktop\fundoo-Notes\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (C:\Users\anand\Desktop\fundoo-Notes\node_modules\express\lib\router\index.js:341:12)
+    at Immediate.next (C:\Users\anand\Desktop\fundoo-Notes\node_modules\express\lib\router\index.js:275:10)
+    at Immediate._onImmediate (C:\Users\anand\Desktop\fundoo-Notes\node_modules\express\lib\router\index.js:641:15)
+    at processImmediate (node:internal/timers:466:21) 
+    url - /api/v1/users/userregister 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-02-23T03:39:16.800Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-23T05:20:09.571Z"}
+info: Connected to the database. {"timestamp":"2022-02-23T05:20:09.603Z"}
+error: 
+    status - 500 
+    message - ValidationError: Note validation failed: Descreption: Path `Descreption` is required., Title: Path `Title` is required.
+    at model.Document.invalidate (C:\Users\anand\Desktop\fundoo-Notes\node_modules\mongoose\lib\document.js:2782:32)
+    at C:\Users\anand\Desktop\fundoo-Notes\node_modules\mongoose\lib\document.js:2574:17
+    at C:\Users\anand\Desktop\fundoo-Notes\node_modules\mongoose\lib\schematype.js:1273:9
+    at processTicksAndRejections (node:internal/process/task_queues:78:11) 
+    url - /api/v1/note/createnote 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-02-23T05:23:43.824Z"}
+error: 
+    status - 500 
+    message - ValidationError: Note validation failed: Descreption: Path `Descreption` is required., Title: Path `Title` is required.
+    at model.Document.invalidate (C:\Users\anand\Desktop\fundoo-Notes\node_modules\mongoose\lib\document.js:2782:32)
+    at C:\Users\anand\Desktop\fundoo-Notes\node_modules\mongoose\lib\document.js:2574:17
+    at C:\Users\anand\Desktop\fundoo-Notes\node_modules\mongoose\lib\schematype.js:1273:9
+    at processTicksAndRejections (node:internal/process/task_queues:78:11) 
+    url - /api/v1/note/createnote 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-02-23T05:30:19.952Z"}
+error: 
+    status - 500 
+    message - ValidationError: Note validation failed: Descreption: Path `Descreption` is required., Title: Path `Title` is required.
+    at model.Document.invalidate (C:\Users\anand\Desktop\fundoo-Notes\node_modules\mongoose\lib\document.js:2782:32)
+    at C:\Users\anand\Desktop\fundoo-Notes\node_modules\mongoose\lib\document.js:2574:17
+    at C:\Users\anand\Desktop\fundoo-Notes\node_modules\mongoose\lib\schematype.js:1273:9
+    at processTicksAndRejections (node:internal/process/task_queues:78:11) 
+    url - /api/v1/note/createnote 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-02-23T05:33:57.916Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-23T05:45:24.626Z"}
+info: Connected to the database. {"timestamp":"2022-02-23T05:45:24.649Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-23T05:47:06.329Z"}
+info: Connected to the database. {"timestamp":"2022-02-23T05:47:06.352Z"}
+error: 
+    status - 500 
+    message - ValidationError: "color" is not allowed 
+    url - /api/v1/note/createnote 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-02-23T05:47:14.836Z"}
+error: 
+    status - 500 
+    message - ValidationError: Note validation failed: Descreption: Path `Descreption` is required., Title: Path `Title` is required.
+    at model.Document.invalidate (C:\Users\anand\Desktop\fundoo-Notes\node_modules\mongoose\lib\document.js:2782:32)
+    at C:\Users\anand\Desktop\fundoo-Notes\node_modules\mongoose\lib\document.js:2574:17
+    at C:\Users\anand\Desktop\fundoo-Notes\node_modules\mongoose\lib\schematype.js:1273:9
+    at processTicksAndRejections (node:internal/process/task_queues:78:11) 
+    url - /api/v1/note/createnote 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-02-23T05:47:26.787Z"}
+error: 
+    status - 500 
+    message - ValidationError: "color" is not allowed 
+    url - /api/v1/note/createnote 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-02-23T05:49:46.638Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-23T05:50:10.952Z"}
+info: Connected to the database. {"timestamp":"2022-02-23T05:50:10.974Z"}
+error: 
+    status - 500 
+    message - ValidationError: Note validation failed: Descreption: Path `Descreption` is required., Title: Path `Title` is required.
+    at model.Document.invalidate (C:\Users\anand\Desktop\fundoo-Notes\node_modules\mongoose\lib\document.js:2782:32)
+    at C:\Users\anand\Desktop\fundoo-Notes\node_modules\mongoose\lib\document.js:2574:17
+    at C:\Users\anand\Desktop\fundoo-Notes\node_modules\mongoose\lib\schematype.js:1273:9
+    at processTicksAndRejections (node:internal/process/task_queues:78:11) 
+    url - /api/v1/note/createnote 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-02-23T05:50:21.567Z"}
+error: 
+    status - 500 
+    message - ValidationError: Note validation failed: Descreption: Path `Descreption` is required., Title: Path `Title` is required.
+    at model.Document.invalidate (C:\Users\anand\Desktop\fundoo-Notes\node_modules\mongoose\lib\document.js:2782:32)
+    at C:\Users\anand\Desktop\fundoo-Notes\node_modules\mongoose\lib\document.js:2574:17
+    at C:\Users\anand\Desktop\fundoo-Notes\node_modules\mongoose\lib\schematype.js:1273:9
+    at processTicksAndRejections (node:internal/process/task_queues:78:11) 
+    url - /api/v1/note/createnote 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-02-23T06:17:44.045Z"}
+error: 
+    status - 500 
+    message - ValidationError: Note validation failed: Descreption: Path `Descreption` is required., Title: Path `Title` is required.
+    at model.Document.invalidate (C:\Users\anand\Desktop\fundoo-Notes\node_modules\mongoose\lib\document.js:2782:32)
+    at C:\Users\anand\Desktop\fundoo-Notes\node_modules\mongoose\lib\document.js:2574:17
+    at C:\Users\anand\Desktop\fundoo-Notes\node_modules\mongoose\lib\schematype.js:1273:9
+    at processTicksAndRejections (node:internal/process/task_queues:78:11) 
+    url - /api/v1/note/createnote 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-02-23T06:17:44.910Z"}
+error: 
+    status - 500 
+    message - ValidationError: Note validation failed: Descreption: Path `Descreption` is required., Title: Path `Title` is required.
+    at model.Document.invalidate (C:\Users\anand\Desktop\fundoo-Notes\node_modules\mongoose\lib\document.js:2782:32)
+    at C:\Users\anand\Desktop\fundoo-Notes\node_modules\mongoose\lib\document.js:2574:17
+    at C:\Users\anand\Desktop\fundoo-Notes\node_modules\mongoose\lib\schematype.js:1273:9
+    at processTicksAndRejections (node:internal/process/task_queues:78:11) 
+    url - /api/v1/note/createnote 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-02-23T06:17:45.719Z"}
+error: 
+    status - 500 
+    message - ValidationError: Note validation failed: Descreption: Path `Descreption` is required., Title: Path `Title` is required.
+    at model.Document.invalidate (C:\Users\anand\Desktop\fundoo-Notes\node_modules\mongoose\lib\document.js:2782:32)
+    at C:\Users\anand\Desktop\fundoo-Notes\node_modules\mongoose\lib\document.js:2574:17
+    at C:\Users\anand\Desktop\fundoo-Notes\node_modules\mongoose\lib\schematype.js:1273:9
+    at processTicksAndRejections (node:internal/process/task_queues:78:11) 
+    url - /api/v1/note/createnote 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-02-23T06:20:04.241Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-23T06:20:27.452Z"}
+info: Connected to the database. {"timestamp":"2022-02-23T06:20:27.473Z"}
+error: 
+    status - 500 
+    message - ValidationError: Note validation failed: Descreption: Path `Descreption` is required., Title: Path `Title` is required.
+    at model.Document.invalidate (C:\Users\anand\Desktop\fundoo-Notes\node_modules\mongoose\lib\document.js:2782:32)
+    at C:\Users\anand\Desktop\fundoo-Notes\node_modules\mongoose\lib\document.js:2574:17
+    at C:\Users\anand\Desktop\fundoo-Notes\node_modules\mongoose\lib\schematype.js:1273:9
+    at processTicksAndRejections (node:internal/process/task_queues:78:11) 
+    url - /api/v1/note/createnote 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-02-23T06:20:32.301Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-23T06:27:57.040Z"}
+info: Connected to the database. {"timestamp":"2022-02-23T06:27:57.064Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-23T06:31:05.881Z"}
+info: Connected to the database. {"timestamp":"2022-02-23T06:31:05.905Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-23T07:25:31.694Z"}
+info: Connected to the database. {"timestamp":"2022-02-23T07:25:31.738Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-23T07:49:33.553Z"}
+info: Connected to the database. {"timestamp":"2022-02-23T07:49:33.576Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-23T07:50:46.756Z"}
+info: Connected to the database. {"timestamp":"2022-02-23T07:50:46.780Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-23T08:13:51.945Z"}
+info: Connected to the database. {"timestamp":"2022-02-23T08:13:51.968Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-23T10:21:56.627Z"}
+info: Connected to the database. {"timestamp":"2022-02-23T10:21:56.663Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-23T10:52:18.601Z"}
+info: Connected to the database. {"timestamp":"2022-02-23T10:52:18.639Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-23T11:38:01.072Z"}
+info: Connected to the database. {"timestamp":"2022-02-23T11:38:01.172Z"}
+error: 
+    status - 500 
+    message - TypeError: req.status is not a function
+    at _callee4$ (C:\Users\anand\Desktop\fundoo-Notes\build\controllers\note.controller.js:167:17)
+    at tryCatch (C:\Users\anand\Desktop\fundoo-Notes\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (C:\Users\anand\Desktop\fundoo-Notes\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (C:\Users\anand\Desktop\fundoo-Notes\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (C:\Users\anand\Desktop\fundoo-Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\anand\Desktop\fundoo-Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/note/6215d3f9fd849145bcb68db3 
+    method - DELETE 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-02-23T11:40:45.239Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-23T11:42:11.650Z"}
+info: Connected to the database. {"timestamp":"2022-02-23T11:42:11.703Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-23T11:43:01.717Z"}
+info: Connected to the database. {"timestamp":"2022-02-23T11:43:01.740Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-23T11:43:33.496Z"}
+info: Connected to the database. {"timestamp":"2022-02-23T11:43:33.521Z"}
+error: 
+    status - 500 
+    message - TypeError: req.status is not a function
+    at _callee4$ (C:\Users\anand\Desktop\fundoo-Notes\build\controllers\note.controller.js:167:17)
+    at tryCatch (C:\Users\anand\Desktop\fundoo-Notes\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (C:\Users\anand\Desktop\fundoo-Notes\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (C:\Users\anand\Desktop\fundoo-Notes\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (C:\Users\anand\Desktop\fundoo-Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\anand\Desktop\fundoo-Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/note/6215d3f9fd849145bcb68db3 
+    method - DELETE 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-02-23T11:44:13.916Z"}
+error: 
+    status - 500 
+    message - TypeError: req.status is not a function
+    at _callee4$ (C:\Users\anand\Desktop\fundoo-Notes\build\controllers\note.controller.js:167:17)
+    at tryCatch (C:\Users\anand\Desktop\fundoo-Notes\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (C:\Users\anand\Desktop\fundoo-Notes\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (C:\Users\anand\Desktop\fundoo-Notes\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (C:\Users\anand\Desktop\fundoo-Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\anand\Desktop\fundoo-Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/note/6215d3f9fd849145bcb68db3 
+    method - DELETE 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-02-23T11:44:14.997Z"}
+error: 
+    status - 500 
+    message - TypeError: req.status is not a function
+    at _callee4$ (C:\Users\anand\Desktop\fundoo-Notes\build\controllers\note.controller.js:167:17)
+    at tryCatch (C:\Users\anand\Desktop\fundoo-Notes\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (C:\Users\anand\Desktop\fundoo-Notes\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (C:\Users\anand\Desktop\fundoo-Notes\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (C:\Users\anand\Desktop\fundoo-Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\anand\Desktop\fundoo-Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/note/6215d3f9fd849145bcb68db3 
+    method - DELETE 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-02-23T11:44:15.906Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-23T11:46:03.519Z"}
+info: Connected to the database. {"timestamp":"2022-02-23T11:46:03.542Z"}
+error: 
+    status - 500 
+    message - RangeError [ERR_HTTP_INVALID_STATUS_CODE]: Invalid status code: undefined
+    at new NodeError (node:internal/errors:371:5)
+    at ServerResponse.writeHead (node:_http_server:274:11)
+    at ServerResponse.writeHead (C:\Users\anand\Desktop\fundoo-Notes\node_modules\on-headers\index.js:44:26)
+    at ServerResponse._implicitHeader (node:_http_server:265:8)
+    at write_ (node:_http_outgoing:766:9)
+    at ServerResponse.end (node:_http_outgoing:855:5)
+    at ServerResponse.send (C:\Users\anand\Desktop\fundoo-Notes\node_modules\express\lib\response.js:221:10)
+    at ServerResponse.json (C:\Users\anand\Desktop\fundoo-Notes\node_modules\express\lib\response.js:267:15)
+    at _callee4$ (C:\Users\anand\Desktop\fundoo-Notes\build\controllers\note.controller.js:167:56)
+    at tryCatch (C:\Users\anand\Desktop\fundoo-Notes\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (C:\Users\anand\Desktop\fundoo-Notes\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (C:\Users\anand\Desktop\fundoo-Notes\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (C:\Users\anand\Desktop\fundoo-Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\anand\Desktop\fundoo-Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/note/6215d3f9fd849145bcb68db3 
+    method - DELETE 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-02-23T11:46:16.639Z"}
+error: 
+    status - 500 
+    message - RangeError [ERR_HTTP_INVALID_STATUS_CODE]: Invalid status code: undefined
+    at new NodeError (node:internal/errors:371:5)
+    at ServerResponse.writeHead (node:_http_server:274:11)
+    at ServerResponse.writeHead (C:\Users\anand\Desktop\fundoo-Notes\node_modules\on-headers\index.js:44:26)
+    at ServerResponse._implicitHeader (node:_http_server:265:8)
+    at write_ (node:_http_outgoing:766:9)
+    at ServerResponse.end (node:_http_outgoing:855:5)
+    at ServerResponse.send (C:\Users\anand\Desktop\fundoo-Notes\node_modules\express\lib\response.js:221:10)
+    at ServerResponse.json (C:\Users\anand\Desktop\fundoo-Notes\node_modules\express\lib\response.js:267:15)
+    at _callee4$ (C:\Users\anand\Desktop\fundoo-Notes\build\controllers\note.controller.js:167:56)
+    at tryCatch (C:\Users\anand\Desktop\fundoo-Notes\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (C:\Users\anand\Desktop\fundoo-Notes\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (C:\Users\anand\Desktop\fundoo-Notes\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (C:\Users\anand\Desktop\fundoo-Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\anand\Desktop\fundoo-Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/note/6215d3f9fd849145bcb68db3 
+    method - DELETE 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-02-23T11:47:17.937Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-23T11:49:23.491Z"}
+info: Connected to the database. {"timestamp":"2022-02-23T11:49:23.514Z"}
+error: 
+    status - 500 
+    message - CastError: Cast to ObjectId failed for value "create" (type string) at path "_id" for model "Note"
+    at model.Query.exec (C:\Users\anand\Desktop\fundoo-Notes\node_modules\mongoose\lib\query.js:4498:21)
+    at model.Query.Query.then (C:\Users\anand\Desktop\fundoo-Notes\node_modules\mongoose\lib\query.js:4592:15)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/note/create 
+    method - GET 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-02-23T11:51:58.266Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-23T12:38:53.056Z"}
+info: Connected to the database. {"timestamp":"2022-02-23T12:38:53.081Z"}
+error: 
+    status - 500 
+    message - ReferenceError: _id is not defined
+    at _callee4$ (C:\Users\anand\Desktop\fundoo-Notes\build\services\note.service.js:116:20)
+    at tryCatch (C:\Users\anand\Desktop\fundoo-Notes\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (C:\Users\anand\Desktop\fundoo-Notes\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (C:\Users\anand\Desktop\fundoo-Notes\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (C:\Users\anand\Desktop\fundoo-Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\anand\Desktop\fundoo-Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at C:\Users\anand\Desktop\fundoo-Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at Object.<anonymous> (C:\Users\anand\Desktop\fundoo-Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12)
+    at Object.updateById (C:\Users\anand\Desktop\fundoo-Notes\build\services\note.service.js:134:18)
+    at _callee4$ (C:\Users\anand\Desktop\fundoo-Notes\build\controllers\note.controller.js:164:32)
+    at tryCatch (C:\Users\anand\Desktop\fundoo-Notes\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (C:\Users\anand\Desktop\fundoo-Notes\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (C:\Users\anand\Desktop\fundoo-Notes\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (C:\Users\anand\Desktop\fundoo-Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\anand\Desktop\fundoo-Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9) 
+    url - /api/v1/note/62162b3c8d84732448b08189 
+    method - PUT 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-02-23T12:40:55.065Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-23T12:41:47.576Z"}
+info: Connected to the database. {"timestamp":"2022-02-23T12:41:47.599Z"}
+error: 
+    status - 500 
+    message - ReferenceError: _id is not defined
+    at _callee4$ (C:\Users\anand\Desktop\fundoo-Notes\build\services\note.service.js:116:20)
+    at tryCatch (C:\Users\anand\Desktop\fundoo-Notes\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (C:\Users\anand\Desktop\fundoo-Notes\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (C:\Users\anand\Desktop\fundoo-Notes\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (C:\Users\anand\Desktop\fundoo-Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\anand\Desktop\fundoo-Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at C:\Users\anand\Desktop\fundoo-Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at Object.<anonymous> (C:\Users\anand\Desktop\fundoo-Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12)
+    at Object.updateById (C:\Users\anand\Desktop\fundoo-Notes\build\services\note.service.js:134:18)
+    at _callee4$ (C:\Users\anand\Desktop\fundoo-Notes\build\controllers\note.controller.js:164:32)
+    at tryCatch (C:\Users\anand\Desktop\fundoo-Notes\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (C:\Users\anand\Desktop\fundoo-Notes\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (C:\Users\anand\Desktop\fundoo-Notes\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (C:\Users\anand\Desktop\fundoo-Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\anand\Desktop\fundoo-Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9) 
+    url - /api/v1/note/62162b3c8d84732448b08189 
+    method - PUT 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-02-23T12:41:59.465Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-23T12:43:05.229Z"}
+info: Connected to the database. {"timestamp":"2022-02-23T12:43:05.253Z"}
+error: 
+    status - 500 
+    message - ReferenceError: _id is not defined
+    at _callee4$ (C:\Users\anand\Desktop\fundoo-Notes\build\services\note.service.js:116:20)
+    at tryCatch (C:\Users\anand\Desktop\fundoo-Notes\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (C:\Users\anand\Desktop\fundoo-Notes\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (C:\Users\anand\Desktop\fundoo-Notes\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (C:\Users\anand\Desktop\fundoo-Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\anand\Desktop\fundoo-Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at C:\Users\anand\Desktop\fundoo-Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at Object.<anonymous> (C:\Users\anand\Desktop\fundoo-Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12)
+    at Object.updateById (C:\Users\anand\Desktop\fundoo-Notes\build\services\note.service.js:134:18)
+    at _callee4$ (C:\Users\anand\Desktop\fundoo-Notes\build\controllers\note.controller.js:164:32)
+    at tryCatch (C:\Users\anand\Desktop\fundoo-Notes\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (C:\Users\anand\Desktop\fundoo-Notes\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (C:\Users\anand\Desktop\fundoo-Notes\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (C:\Users\anand\Desktop\fundoo-Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\anand\Desktop\fundoo-Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9) 
+    url - /api/v1/note/62162b3c8d84732448b08189 
+    method - PUT 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-02-23T12:43:12.475Z"}
+error: 
+    status - 500 
+    message - ReferenceError: _id is not defined
+    at _callee4$ (C:\Users\anand\Desktop\fundoo-Notes\build\services\note.service.js:116:20)
+    at tryCatch (C:\Users\anand\Desktop\fundoo-Notes\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (C:\Users\anand\Desktop\fundoo-Notes\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (C:\Users\anand\Desktop\fundoo-Notes\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (C:\Users\anand\Desktop\fundoo-Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\anand\Desktop\fundoo-Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at C:\Users\anand\Desktop\fundoo-Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at Object.<anonymous> (C:\Users\anand\Desktop\fundoo-Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12)
+    at Object.updateById (C:\Users\anand\Desktop\fundoo-Notes\build\services\note.service.js:134:18)
+    at _callee4$ (C:\Users\anand\Desktop\fundoo-Notes\build\controllers\note.controller.js:164:32)
+    at tryCatch (C:\Users\anand\Desktop\fundoo-Notes\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (C:\Users\anand\Desktop\fundoo-Notes\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (C:\Users\anand\Desktop\fundoo-Notes\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (C:\Users\anand\Desktop\fundoo-Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\anand\Desktop\fundoo-Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9) 
+    url - /api/v1/note/62160a04a3516e3590eda92b 
+    method - PUT 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-02-23T12:43:56.965Z"}
+error: 
+    status - 500 
+    message - ReferenceError: _id is not defined
+    at _callee4$ (C:\Users\anand\Desktop\fundoo-Notes\build\services\note.service.js:116:20)
+    at tryCatch (C:\Users\anand\Desktop\fundoo-Notes\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (C:\Users\anand\Desktop\fundoo-Notes\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (C:\Users\anand\Desktop\fundoo-Notes\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (C:\Users\anand\Desktop\fundoo-Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\anand\Desktop\fundoo-Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at C:\Users\anand\Desktop\fundoo-Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at Object.<anonymous> (C:\Users\anand\Desktop\fundoo-Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12)
+    at Object.updateById (C:\Users\anand\Desktop\fundoo-Notes\build\services\note.service.js:134:18)
+    at _callee4$ (C:\Users\anand\Desktop\fundoo-Notes\build\controllers\note.controller.js:164:32)
+    at tryCatch (C:\Users\anand\Desktop\fundoo-Notes\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (C:\Users\anand\Desktop\fundoo-Notes\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (C:\Users\anand\Desktop\fundoo-Notes\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (C:\Users\anand\Desktop\fundoo-Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\anand\Desktop\fundoo-Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9) 
+    url - /api/v1/note/62162b3c8d84732448b08189 
+    method - PUT 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-02-23T12:44:34.475Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-23T12:45:11.033Z"}
+info: Connected to the database. {"timestamp":"2022-02-23T12:45:11.059Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-23T12:50:17.353Z"}
+info: Connected to the database. {"timestamp":"2022-02-23T12:50:17.376Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-23T12:52:16.845Z"}
+info: Connected to the database. {"timestamp":"2022-02-23T12:52:16.868Z"}
+error: 
+    status - 500 
+    message - ValidationError: "UserID" is not allowed 
+    url - /api/v1/note/createnote 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-02-23T12:55:41.531Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-23T12:56:58.014Z"}
+info: Connected to the database. {"timestamp":"2022-02-23T12:56:58.037Z"}
