@@ -14,7 +14,8 @@ import * as NoteService from '../services/note.service';
 
 export const create = async (req, res, next) => {
   try {
-
+    req.body.UserID = req.body.data.id; //its a user id automatically created one
+    console.log(req.body.UserID)
     const tokenToCreatedData = await NoteService.createNotes(req.body);
     res.status(HttpStatus.OK).json({
       code: HttpStatus.OK,
@@ -26,27 +27,12 @@ export const create = async (req, res, next) => {
   }
 };
 
-// export const CreateAuth =  async (req,res,next) =>{
-//   try {
-
-//     const authentication = await NoteService.Auth(req.body);
-//     res.status(HttpStatus.OK).json({
-//       code:HttpStatus.OK,
-//       data:authentication,
-//       message: 'authentication is done!'
-//     })
-//   } catch (error) {
-//     next(error);
-//   }
-// }
-
-
-
 
  export const AllUsers = async (req, res, next) => {
     try {
-  
-      const AllUserdata = await NoteService.AllUsers();
+      
+      req.body.UserID = req.body.data.id;
+      const AllUserdata = await NoteService.AllUsers(req.body.UserID);
       res.status(HttpStatus.OK).json({
         code: HttpStatus.OK,
         data: AllUserdata,                
@@ -62,7 +48,8 @@ export const create = async (req, res, next) => {
 
 export const getUserById = async(req,res,next)=>{
   try {
-    const dataById = await NoteService.getUserById(req.params._id);
+    req.body.UserID = req.body.data.id; //its a user id automatically created one
+    const dataById = await NoteService.getUserById(req.params._id, req.body.UserID);
     res.status(HttpStatus.OK).json({
       code:HttpStatus.OK,
       data: dataById,
@@ -75,8 +62,9 @@ export const getUserById = async(req,res,next)=>{
 
 
 export const updateById = async(req,res,next)=>{
-  try {
-    const updatedData = await NoteService.updateById(req.params._id ,req.body);
+  try { 
+    req.body.UserID = req.body.data.id; 
+    const updatedData = await NoteService.updateById(req.params._id,req.body);
     res.status(HttpStatus.OK).json({
       code:HttpStatus.OK,
       data:updatedData,
@@ -90,11 +78,12 @@ export const updateById = async(req,res,next)=>{
 //delete note
 
 export const deleteUser = async(req,res,next)=>{
-  try { 
-   await NoteService.deleteUser(req.params._id);
+  try {   
+    req.body.UserID = req.body.data.id;
+   await NoteService.deleteUser(req.params._id, req.body.UserID);
    res.status(HttpStatus.OK).json({
      code:HttpStatus.OK,
-     data: [],                                                                   //why?
+     data: [],                                                                  
      message:"Successfully deleted note"
    })
   } catch (error) {
@@ -106,7 +95,8 @@ export const deleteUser = async(req,res,next)=>{
 
 export const MakeArchive = async(req,res,next)=>{
   try {
-    const returnData = await NoteService.MakeArchive(req.params._id,req.body);
+    req.body.UserID = req.body.data.id;
+    const returnData = await NoteService.MakeArchive(req.body);
     res.status(HttpStatus.OK).json({
       code:HttpStatus.OK,
       data:returnData,
@@ -118,13 +108,14 @@ export const MakeArchive = async(req,res,next)=>{
 }
 
 
-export const DeleteNote = async(req,res,next)=>{
+export const TrashNote = async(req,res,next)=>{
   try {
-    const CheckChanges = await NoteService.DeleteNote(req.params._id,req.body);
+    req.body.UserID = req.body.data.id;
+    const CheckChanges = await NoteService.TrashNote(req.body);
     res.status(HttpStatus.OK).json({
       code:HttpStatus.OK,
       data:CheckChanges,
-      message:"Note is Deleted"
+      message:"Note is trashed"
     })
   } catch (error) {
     next(error)

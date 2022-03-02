@@ -1,0 +1,1498 @@
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-28T02:48:33.648Z"}
+info: Connected to the database. {"timestamp":"2022-02-28T02:48:34.245Z"}
+error: 
+    status - 500 
+    message - ReferenceError: ID is not defined
+    at _callee4$ (C:\Users\anand\Desktop\fundoo-Notes\build\services\note.service.js:127:19)
+    at tryCatch (C:\Users\anand\Desktop\fundoo-Notes\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (C:\Users\anand\Desktop\fundoo-Notes\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (C:\Users\anand\Desktop\fundoo-Notes\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (C:\Users\anand\Desktop\fundoo-Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\anand\Desktop\fundoo-Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at C:\Users\anand\Desktop\fundoo-Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at Object.<anonymous> (C:\Users\anand\Desktop\fundoo-Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12)
+    at Object.updateById (C:\Users\anand\Desktop\fundoo-Notes\build\services\note.service.js:145:18)
+    at _callee4$ (C:\Users\anand\Desktop\fundoo-Notes\build\controllers\note.controller.js:172:32)
+    at tryCatch (C:\Users\anand\Desktop\fundoo-Notes\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (C:\Users\anand\Desktop\fundoo-Notes\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (C:\Users\anand\Desktop\fundoo-Notes\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (C:\Users\anand\Desktop\fundoo-Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\anand\Desktop\fundoo-Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9) 
+    url - /api/v1/note/auth/621c381d1b33ef4afc72d4ea 
+    method - PUT 
+    IP - ::1
+   {"timestamp":"2022-02-28T04:26:15.629Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-28T05:50:05.174Z"}
+info: Connected to the database. {"timestamp":"2022-02-28T05:50:05.250Z"}
+error: 
+    status - 500 
+    message - ReferenceError: UserID is not defined
+    at _callee4$ (C:\Users\anand\Desktop\fundoo-Notes\src\services\/note.service.js:41:13)
+    at tryCatch (C:\Users\anand\Desktop\fundoo-Notes\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (C:\Users\anand\Desktop\fundoo-Notes\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (C:\Users\anand\Desktop\fundoo-Notes\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (C:\Users\anand\Desktop\fundoo-Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\anand\Desktop\fundoo-Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at C:\Users\anand\Desktop\fundoo-Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at Object.<anonymous> (C:\Users\anand\Desktop\fundoo-Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12)
+    at Object.updateById (C:\Users\anand\Desktop\fundoo-Notes\src\services\/note.service.js:34:24)
+    at _callee4$ (C:\Users\anand\Desktop\fundoo-Notes\src\controllers\/note.controller.js:68:43)
+    at tryCatch (C:\Users\anand\Desktop\fundoo-Notes\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (C:\Users\anand\Desktop\fundoo-Notes\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (C:\Users\anand\Desktop\fundoo-Notes\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (C:\Users\anand\Desktop\fundoo-Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\anand\Desktop\fundoo-Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9) 
+    url - /api/v1/note/auth/621c381d1b33ef4afc72d4ea 
+    method - PUT 
+    IP - ::1
+   {"timestamp":"2022-02-28T05:50:27.035Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-28T05:51:59.243Z"}
+info: Connected to the database. {"timestamp":"2022-02-28T05:51:59.278Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-28T05:52:08.092Z"}
+info: Connected to the database. {"timestamp":"2022-02-28T05:52:08.114Z"}
+error: 
+    status - 500 
+    message - MongooseError: Callback must be a function, got [object Object]
+    at Function.Model.$handleCallbackError (C:\Users\anand\Desktop\fundoo-Notes\node_modules\mongoose\lib\model.js:5067:11)
+    at Function.findByIdAndUpdate (C:\Users\anand\Desktop\fundoo-Notes\node_modules\mongoose\lib\model.js:2694:19)
+    at _callee4$ (C:\Users\anand\Desktop\fundoo-Notes\src\services\/note.service.js:35:36)
+    at tryCatch (C:\Users\anand\Desktop\fundoo-Notes\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (C:\Users\anand\Desktop\fundoo-Notes\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (C:\Users\anand\Desktop\fundoo-Notes\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (C:\Users\anand\Desktop\fundoo-Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\anand\Desktop\fundoo-Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at C:\Users\anand\Desktop\fundoo-Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at Object.<anonymous> (C:\Users\anand\Desktop\fundoo-Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12)
+    at Object.updateById (C:\Users\anand\Desktop\fundoo-Notes\src\services\/note.service.js:34:24)
+    at _callee4$ (C:\Users\anand\Desktop\fundoo-Notes\src\controllers\/note.controller.js:68:43)
+    at tryCatch (C:\Users\anand\Desktop\fundoo-Notes\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (C:\Users\anand\Desktop\fundoo-Notes\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (C:\Users\anand\Desktop\fundoo-Notes\node_modules\regenerator-runtime\runtime.js:119:21) 
+    url - /api/v1/note/auth/621c381d1b33ef4afc72d4ea 
+    method - PUT 
+    IP - ::1
+   {"timestamp":"2022-02-28T05:52:12.264Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-28T05:54:47.761Z"}
+info: Connected to the database. {"timestamp":"2022-02-28T05:54:47.786Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-28T05:55:04.142Z"}
+info: Connected to the database. {"timestamp":"2022-02-28T05:55:04.165Z"}
+error: 
+    status - 500 
+    message - ReferenceError: UserID is not defined
+    at _callee4$ (C:\Users\anand\Desktop\fundoo-Notes\src\services\/note.service.js:41:13)
+    at tryCatch (C:\Users\anand\Desktop\fundoo-Notes\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (C:\Users\anand\Desktop\fundoo-Notes\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (C:\Users\anand\Desktop\fundoo-Notes\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (C:\Users\anand\Desktop\fundoo-Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\anand\Desktop\fundoo-Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at C:\Users\anand\Desktop\fundoo-Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at Object.<anonymous> (C:\Users\anand\Desktop\fundoo-Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12)
+    at Object.updateById (C:\Users\anand\Desktop\fundoo-Notes\src\services\/note.service.js:34:24)
+    at _callee4$ (C:\Users\anand\Desktop\fundoo-Notes\src\controllers\/note.controller.js:68:43)
+    at tryCatch (C:\Users\anand\Desktop\fundoo-Notes\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (C:\Users\anand\Desktop\fundoo-Notes\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (C:\Users\anand\Desktop\fundoo-Notes\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (C:\Users\anand\Desktop\fundoo-Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\anand\Desktop\fundoo-Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9) 
+    url - /api/v1/note/auth/621c381d1b33ef4afc72d4ea 
+    method - PUT 
+    IP - ::1
+   {"timestamp":"2022-02-28T05:55:10.558Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-28T05:55:32.748Z"}
+info: Connected to the database. {"timestamp":"2022-02-28T05:55:32.773Z"}
+error: 
+    status - 500 
+    message - ReferenceError: UserID is not defined
+    at _callee4$ (C:\Users\anand\Desktop\fundoo-Notes\src\services\/note.service.js:41:13)
+    at tryCatch (C:\Users\anand\Desktop\fundoo-Notes\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (C:\Users\anand\Desktop\fundoo-Notes\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (C:\Users\anand\Desktop\fundoo-Notes\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (C:\Users\anand\Desktop\fundoo-Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\anand\Desktop\fundoo-Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at C:\Users\anand\Desktop\fundoo-Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at Object.<anonymous> (C:\Users\anand\Desktop\fundoo-Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12)
+    at Object.updateById (C:\Users\anand\Desktop\fundoo-Notes\src\services\/note.service.js:34:24)
+    at _callee4$ (C:\Users\anand\Desktop\fundoo-Notes\src\controllers\/note.controller.js:68:43)
+    at tryCatch (C:\Users\anand\Desktop\fundoo-Notes\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (C:\Users\anand\Desktop\fundoo-Notes\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (C:\Users\anand\Desktop\fundoo-Notes\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (C:\Users\anand\Desktop\fundoo-Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\anand\Desktop\fundoo-Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9) 
+    url - /api/v1/note/auth/621c381d1b33ef4afc72d4ea 
+    method - PUT 
+    IP - ::1
+   {"timestamp":"2022-02-28T05:55:36.763Z"}
+error: 
+    status - 500 
+    message - ReferenceError: UserID is not defined
+    at _callee4$ (C:\Users\anand\Desktop\fundoo-Notes\src\services\/note.service.js:41:13)
+    at tryCatch (C:\Users\anand\Desktop\fundoo-Notes\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (C:\Users\anand\Desktop\fundoo-Notes\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (C:\Users\anand\Desktop\fundoo-Notes\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (C:\Users\anand\Desktop\fundoo-Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\anand\Desktop\fundoo-Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at C:\Users\anand\Desktop\fundoo-Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at Object.<anonymous> (C:\Users\anand\Desktop\fundoo-Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12)
+    at Object.updateById (C:\Users\anand\Desktop\fundoo-Notes\src\services\/note.service.js:34:24)
+    at _callee4$ (C:\Users\anand\Desktop\fundoo-Notes\src\controllers\/note.controller.js:68:43)
+    at tryCatch (C:\Users\anand\Desktop\fundoo-Notes\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (C:\Users\anand\Desktop\fundoo-Notes\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (C:\Users\anand\Desktop\fundoo-Notes\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (C:\Users\anand\Desktop\fundoo-Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\anand\Desktop\fundoo-Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9) 
+    url - /api/v1/note/auth/621c381d1b33ef4afc72d4ea 
+    method - PUT 
+    IP - ::1
+   {"timestamp":"2022-02-28T05:55:39.197Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-28T05:56:29.010Z"}
+info: Connected to the database. {"timestamp":"2022-02-28T05:56:29.034Z"}
+error: 
+    status - 500 
+    message - ReferenceError: UserID is not defined
+    at _callee4$ (C:\Users\anand\Desktop\fundoo-Notes\src\services\/note.service.js:37:17)
+    at tryCatch (C:\Users\anand\Desktop\fundoo-Notes\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (C:\Users\anand\Desktop\fundoo-Notes\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (C:\Users\anand\Desktop\fundoo-Notes\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (C:\Users\anand\Desktop\fundoo-Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\anand\Desktop\fundoo-Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at C:\Users\anand\Desktop\fundoo-Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at Object.<anonymous> (C:\Users\anand\Desktop\fundoo-Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12)
+    at Object.updateById (C:\Users\anand\Desktop\fundoo-Notes\src\services\/note.service.js:34:24)
+    at _callee4$ (C:\Users\anand\Desktop\fundoo-Notes\src\controllers\/note.controller.js:68:43)
+    at tryCatch (C:\Users\anand\Desktop\fundoo-Notes\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (C:\Users\anand\Desktop\fundoo-Notes\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (C:\Users\anand\Desktop\fundoo-Notes\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (C:\Users\anand\Desktop\fundoo-Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\anand\Desktop\fundoo-Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9) 
+    url - /api/v1/note/auth/621c381d1b33ef4afc72d4ea 
+    method - PUT 
+    IP - ::1
+   {"timestamp":"2022-02-28T05:56:38.647Z"}
+error: 
+    status - 500 
+    message - ReferenceError: UserID is not defined
+    at _callee4$ (C:\Users\anand\Desktop\fundoo-Notes\src\services\/note.service.js:37:17)
+    at tryCatch (C:\Users\anand\Desktop\fundoo-Notes\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (C:\Users\anand\Desktop\fundoo-Notes\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (C:\Users\anand\Desktop\fundoo-Notes\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (C:\Users\anand\Desktop\fundoo-Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\anand\Desktop\fundoo-Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at C:\Users\anand\Desktop\fundoo-Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at Object.<anonymous> (C:\Users\anand\Desktop\fundoo-Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12)
+    at Object.updateById (C:\Users\anand\Desktop\fundoo-Notes\src\services\/note.service.js:34:24)
+    at _callee4$ (C:\Users\anand\Desktop\fundoo-Notes\src\controllers\/note.controller.js:68:43)
+    at tryCatch (C:\Users\anand\Desktop\fundoo-Notes\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (C:\Users\anand\Desktop\fundoo-Notes\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (C:\Users\anand\Desktop\fundoo-Notes\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (C:\Users\anand\Desktop\fundoo-Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\anand\Desktop\fundoo-Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9) 
+    url - /api/v1/note/auth/621c381d1b33ef4afc72d4ea 
+    method - PUT 
+    IP - ::1
+   {"timestamp":"2022-02-28T05:56:42.868Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-28T08:13:28.194Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-28T08:14:18.224Z"}
+error: Could not connect to the database. connect ECONNREFUSED 127.0.0.1:27017 {"reason":{"commonWireVersion":null,"compatibilityError":null,"compatible":true,"heartbeatFrequencyMS":10000,"localThresholdMS":15,"logicalSessionTimeoutMinutes":null,"maxElectionId":null,"maxSetVersion":null,"servers":{},"setName":null,"stale":false,"type":"Single"},"stack":"MongooseServerSelectionError: connect ECONNREFUSED 127.0.0.1:27017\n    at NativeConnection.Connection.openUri (C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\mongoose\\lib\\connection.js:847:32)\n    at C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\mongoose\\lib\\index.js:351:10\n    at C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\mongoose\\lib\\helpers\\promiseOrCallback.js:32:5\n    at new Promise (<anonymous>)\n    at promiseOrCallback (C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\mongoose\\lib\\helpers\\promiseOrCallback.js:31:10)\n    at Mongoose._promiseOrCallback (C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\mongoose\\lib\\index.js:1149:10)\n    at Mongoose.connect (C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\mongoose\\lib\\index.js:350:20)\n    at _callee$ (C:\\Users\\anand\\Desktop\\fundoo-Notes\\src\\config\\/database.js:12:20)\n    at tryCatch (C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\regenerator-runtime\\runtime.js:63:40)\n    at Generator.invoke [as _invoke] (C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\regenerator-runtime\\runtime.js:294:22)\n    at Generator.next (C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\regenerator-runtime\\runtime.js:119:21)\n    at asyncGeneratorStep (C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js:3:24)\n    at _next (C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js:25:9)\n    at C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js:32:7\n    at new Promise (<anonymous>)\n    at C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js:21:12","timestamp":"2022-02-28T08:14:48.243Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-28T08:16:00.388Z"}
+error: Could not connect to the database. connect ECONNREFUSED 127.0.0.1:27017 {"reason":{"commonWireVersion":null,"compatibilityError":null,"compatible":true,"heartbeatFrequencyMS":10000,"localThresholdMS":15,"logicalSessionTimeoutMinutes":null,"maxElectionId":null,"maxSetVersion":null,"servers":{},"setName":null,"stale":false,"type":"Single"},"stack":"MongooseServerSelectionError: connect ECONNREFUSED 127.0.0.1:27017\n    at NativeConnection.Connection.openUri (C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\mongoose\\lib\\connection.js:847:32)\n    at C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\mongoose\\lib\\index.js:351:10\n    at C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\mongoose\\lib\\helpers\\promiseOrCallback.js:32:5\n    at new Promise (<anonymous>)\n    at promiseOrCallback (C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\mongoose\\lib\\helpers\\promiseOrCallback.js:31:10)\n    at Mongoose._promiseOrCallback (C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\mongoose\\lib\\index.js:1149:10)\n    at Mongoose.connect (C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\mongoose\\lib\\index.js:350:20)\n    at _callee$ (C:\\Users\\anand\\Desktop\\fundoo-Notes\\src\\config\\/database.js:12:20)\n    at tryCatch (C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\regenerator-runtime\\runtime.js:63:40)\n    at Generator.invoke [as _invoke] (C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\regenerator-runtime\\runtime.js:294:22)\n    at Generator.next (C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\regenerator-runtime\\runtime.js:119:21)\n    at asyncGeneratorStep (C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js:3:24)\n    at _next (C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js:25:9)\n    at C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js:32:7\n    at new Promise (<anonymous>)\n    at C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js:21:12","timestamp":"2022-02-28T08:16:30.397Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-28T08:21:21.351Z"}
+error: Could not connect to the database. connect ECONNREFUSED 127.0.0.1:27017 {"reason":{"commonWireVersion":null,"compatibilityError":null,"compatible":true,"heartbeatFrequencyMS":10000,"localThresholdMS":15,"logicalSessionTimeoutMinutes":null,"maxElectionId":null,"maxSetVersion":null,"servers":{},"setName":null,"stale":false,"type":"Single"},"stack":"MongooseServerSelectionError: connect ECONNREFUSED 127.0.0.1:27017\n    at NativeConnection.Connection.openUri (C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\mongoose\\lib\\connection.js:847:32)\n    at C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\mongoose\\lib\\index.js:351:10\n    at C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\mongoose\\lib\\helpers\\promiseOrCallback.js:32:5\n    at new Promise (<anonymous>)\n    at promiseOrCallback (C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\mongoose\\lib\\helpers\\promiseOrCallback.js:31:10)\n    at Mongoose._promiseOrCallback (C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\mongoose\\lib\\index.js:1149:10)\n    at Mongoose.connect (C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\mongoose\\lib\\index.js:350:20)\n    at _callee$ (C:\\Users\\anand\\Desktop\\fundoo-Notes\\src\\config\\/database.js:12:20)\n    at tryCatch (C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\regenerator-runtime\\runtime.js:63:40)\n    at Generator.invoke [as _invoke] (C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\regenerator-runtime\\runtime.js:294:22)\n    at Generator.next (C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\regenerator-runtime\\runtime.js:119:21)\n    at asyncGeneratorStep (C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js:3:24)\n    at _next (C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js:25:9)\n    at C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js:32:7\n    at new Promise (<anonymous>)\n    at C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js:21:12","timestamp":"2022-02-28T08:21:51.407Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-28T08:22:48.292Z"}
+error: Could not connect to the database. connect ECONNREFUSED 127.0.0.1:27017 {"reason":{"commonWireVersion":null,"compatibilityError":null,"compatible":true,"heartbeatFrequencyMS":10000,"localThresholdMS":15,"logicalSessionTimeoutMinutes":null,"maxElectionId":null,"maxSetVersion":null,"servers":{},"setName":null,"stale":false,"type":"Single"},"stack":"MongooseServerSelectionError: connect ECONNREFUSED 127.0.0.1:27017\n    at NativeConnection.Connection.openUri (C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\mongoose\\lib\\connection.js:847:32)\n    at C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\mongoose\\lib\\index.js:351:10\n    at C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\mongoose\\lib\\helpers\\promiseOrCallback.js:32:5\n    at new Promise (<anonymous>)\n    at promiseOrCallback (C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\mongoose\\lib\\helpers\\promiseOrCallback.js:31:10)\n    at Mongoose._promiseOrCallback (C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\mongoose\\lib\\index.js:1149:10)\n    at Mongoose.connect (C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\mongoose\\lib\\index.js:350:20)\n    at _callee$ (C:\\Users\\anand\\Desktop\\fundoo-Notes\\src\\config\\/database.js:12:20)\n    at tryCatch (C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\regenerator-runtime\\runtime.js:63:40)\n    at Generator.invoke [as _invoke] (C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\regenerator-runtime\\runtime.js:294:22)\n    at Generator.next (C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\regenerator-runtime\\runtime.js:119:21)\n    at asyncGeneratorStep (C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js:3:24)\n    at _next (C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js:25:9)\n    at C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js:32:7\n    at new Promise (<anonymous>)\n    at C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js:21:12","timestamp":"2022-02-28T08:23:18.296Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-28T08:26:47.745Z"}
+error: Could not connect to the database. connect ECONNREFUSED 127.0.0.1:27017 {"reason":{"commonWireVersion":null,"compatibilityError":null,"compatible":true,"heartbeatFrequencyMS":10000,"localThresholdMS":15,"logicalSessionTimeoutMinutes":null,"maxElectionId":null,"maxSetVersion":null,"servers":{},"setName":null,"stale":false,"type":"Single"},"stack":"MongooseServerSelectionError: connect ECONNREFUSED 127.0.0.1:27017\n    at NativeConnection.Connection.openUri (C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\mongoose\\lib\\connection.js:847:32)\n    at C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\mongoose\\lib\\index.js:351:10\n    at C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\mongoose\\lib\\helpers\\promiseOrCallback.js:32:5\n    at new Promise (<anonymous>)\n    at promiseOrCallback (C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\mongoose\\lib\\helpers\\promiseOrCallback.js:31:10)\n    at Mongoose._promiseOrCallback (C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\mongoose\\lib\\index.js:1149:10)\n    at Mongoose.connect (C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\mongoose\\lib\\index.js:350:20)\n    at _callee$ (C:\\Users\\anand\\Desktop\\fundoo-Notes\\src\\config\\/database.js:12:20)\n    at tryCatch (C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\regenerator-runtime\\runtime.js:63:40)\n    at Generator.invoke [as _invoke] (C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\regenerator-runtime\\runtime.js:294:22)\n    at Generator.next (C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\regenerator-runtime\\runtime.js:119:21)\n    at asyncGeneratorStep (C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js:3:24)\n    at _next (C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js:25:9)\n    at C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js:32:7\n    at new Promise (<anonymous>)\n    at C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js:21:12","timestamp":"2022-02-28T08:27:17.760Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-28T09:21:36.281Z"}
+info: Connected to the database. {"timestamp":"2022-02-28T09:21:36.356Z"}
+error: 
+    status - 500 
+    message - Error: email is not registered
+    at _callee4$ (C:\Users\anand\Desktop\fundoo-Notes\src\services\/user.service.js:55:11)
+    at tryCatch (C:\Users\anand\Desktop\fundoo-Notes\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (C:\Users\anand\Desktop\fundoo-Notes\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (C:\Users\anand\Desktop\fundoo-Notes\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (C:\Users\anand\Desktop\fundoo-Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\anand\Desktop\fundoo-Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/users/forget 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2022-02-28T09:24:52.643Z"}
+error: 
+    status - 500 
+    message - SyntaxError: Unexpected token } in JSON at position 33
+    at JSON.parse (<anonymous>)
+    at parse (C:\Users\anand\Desktop\fundoo-Notes\node_modules\body-parser\lib\types\json.js:89:19)
+    at C:\Users\anand\Desktop\fundoo-Notes\node_modules\body-parser\lib\read.js:121:18
+    at invokeCallback (C:\Users\anand\Desktop\fundoo-Notes\node_modules\raw-body\index.js:224:16)
+    at done (C:\Users\anand\Desktop\fundoo-Notes\node_modules\raw-body\index.js:213:7)
+    at IncomingMessage.onEnd (C:\Users\anand\Desktop\fundoo-Notes\node_modules\raw-body\index.js:273:7)
+    at IncomingMessage.emit (node:events:402:35)
+    at IncomingMessage.emit (node:domain:475:12)
+    at endReadableNT (node:internal/streams/readable:1343:12)
+    at processTicksAndRejections (node:internal/process/task_queues:83:21) 
+    url - /api/v1/users/forget 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2022-02-28T09:25:13.117Z"}
+error: 
+    status - 500 
+    message - Error: email is not registered
+    at _callee4$ (C:\Users\anand\Desktop\fundoo-Notes\src\services\/user.service.js:55:11)
+    at tryCatch (C:\Users\anand\Desktop\fundoo-Notes\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (C:\Users\anand\Desktop\fundoo-Notes\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (C:\Users\anand\Desktop\fundoo-Notes\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (C:\Users\anand\Desktop\fundoo-Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\anand\Desktop\fundoo-Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/users/forget 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2022-02-28T09:25:31.565Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-28T09:26:08.935Z"}
+info: Connected to the database. {"timestamp":"2022-02-28T09:26:08.964Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read properties of null (reading 'emailID')
+    at _callee4$ (C:\Users\anand\Desktop\fundoo-Notes\src\services\/user.service.js:49:17)
+    at tryCatch (C:\Users\anand\Desktop\fundoo-Notes\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (C:\Users\anand\Desktop\fundoo-Notes\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (C:\Users\anand\Desktop\fundoo-Notes\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (C:\Users\anand\Desktop\fundoo-Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\anand\Desktop\fundoo-Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/users/forget 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2022-02-28T09:26:09.157Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-28T09:27:12.146Z"}
+info: Connected to the database. {"timestamp":"2022-02-28T09:27:12.168Z"}
+error: 
+    status - 500 
+    message - ReferenceError: log is not defined
+    at _callee4$ (C:\Users\anand\Desktop\fundoo-Notes\src\services\/user.service.js:49:3)
+    at tryCatch (C:\Users\anand\Desktop\fundoo-Notes\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (C:\Users\anand\Desktop\fundoo-Notes\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (C:\Users\anand\Desktop\fundoo-Notes\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (C:\Users\anand\Desktop\fundoo-Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\anand\Desktop\fundoo-Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/users/forget 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2022-02-28T09:27:15.485Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-28T09:29:05.339Z"}
+info: Connected to the database. {"timestamp":"2022-02-28T09:29:05.362Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-28T09:29:27.359Z"}
+info: Connected to the database. {"timestamp":"2022-02-28T09:29:27.383Z"}
+error: 
+    status - 500 
+    message - ReferenceError: log is not defined
+    at _callee4$ (C:\Users\anand\Desktop\fundoo-Notes\src\services\/user.service.js:49:3)
+    at tryCatch (C:\Users\anand\Desktop\fundoo-Notes\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (C:\Users\anand\Desktop\fundoo-Notes\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (C:\Users\anand\Desktop\fundoo-Notes\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (C:\Users\anand\Desktop\fundoo-Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\anand\Desktop\fundoo-Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/users/forget 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2022-02-28T09:29:31.683Z"}
+error: 
+    status - 500 
+    message - ReferenceError: log is not defined
+    at _callee4$ (C:\Users\anand\Desktop\fundoo-Notes\src\services\/user.service.js:49:3)
+    at tryCatch (C:\Users\anand\Desktop\fundoo-Notes\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (C:\Users\anand\Desktop\fundoo-Notes\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (C:\Users\anand\Desktop\fundoo-Notes\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (C:\Users\anand\Desktop\fundoo-Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\anand\Desktop\fundoo-Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/users/forget 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2022-02-28T09:29:33.365Z"}
+error: 
+    status - 500 
+    message - ReferenceError: log is not defined
+    at _callee4$ (C:\Users\anand\Desktop\fundoo-Notes\src\services\/user.service.js:49:3)
+    at tryCatch (C:\Users\anand\Desktop\fundoo-Notes\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (C:\Users\anand\Desktop\fundoo-Notes\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (C:\Users\anand\Desktop\fundoo-Notes\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (C:\Users\anand\Desktop\fundoo-Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\anand\Desktop\fundoo-Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/users/forget 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2022-02-28T09:29:34.273Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-28T09:29:48.968Z"}
+info: Connected to the database. {"timestamp":"2022-02-28T09:29:49.014Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-28T09:30:33.000Z"}
+info: Connected to the database. {"timestamp":"2022-02-28T09:30:33.026Z"}
+error: 
+    status - 500 
+    message - ReferenceError: log is not defined
+    at _callee4$ (C:\Users\anand\Desktop\fundoo-Notes\src\services\/user.service.js:49:3)
+    at tryCatch (C:\Users\anand\Desktop\fundoo-Notes\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (C:\Users\anand\Desktop\fundoo-Notes\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (C:\Users\anand\Desktop\fundoo-Notes\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (C:\Users\anand\Desktop\fundoo-Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\anand\Desktop\fundoo-Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/users/forget 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2022-02-28T09:30:34.708Z"}
+error: 
+    status - 500 
+    message - ReferenceError: log is not defined
+    at _callee4$ (C:\Users\anand\Desktop\fundoo-Notes\src\services\/user.service.js:49:3)
+    at tryCatch (C:\Users\anand\Desktop\fundoo-Notes\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (C:\Users\anand\Desktop\fundoo-Notes\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (C:\Users\anand\Desktop\fundoo-Notes\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (C:\Users\anand\Desktop\fundoo-Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\anand\Desktop\fundoo-Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/users/forget 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2022-02-28T09:30:38.814Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-28T09:31:14.340Z"}
+info: Connected to the database. {"timestamp":"2022-02-28T09:31:14.362Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read properties of null (reading 'emailID')
+    at _callee4$ (C:\Users\anand\Desktop\fundoo-Notes\src\services\/user.service.js:50:17)
+    at tryCatch (C:\Users\anand\Desktop\fundoo-Notes\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (C:\Users\anand\Desktop\fundoo-Notes\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (C:\Users\anand\Desktop\fundoo-Notes\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (C:\Users\anand\Desktop\fundoo-Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\anand\Desktop\fundoo-Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/users/forget 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2022-02-28T09:31:26.456Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-28T09:33:32.240Z"}
+info: Connected to the database. {"timestamp":"2022-02-28T09:33:32.262Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read properties of null (reading 'emailID')
+    at _callee4$ (C:\Users\anand\Desktop\fundoo-Notes\src\services\/user.service.js:51:17)
+    at tryCatch (C:\Users\anand\Desktop\fundoo-Notes\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (C:\Users\anand\Desktop\fundoo-Notes\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (C:\Users\anand\Desktop\fundoo-Notes\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (C:\Users\anand\Desktop\fundoo-Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\anand\Desktop\fundoo-Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/users/forget 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2022-02-28T09:33:35.859Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-28T09:34:46.278Z"}
+info: Connected to the database. {"timestamp":"2022-02-28T09:34:46.303Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read properties of null (reading 'emaiID')
+    at _callee4$ (C:\Users\anand\Desktop\fundoo-Notes\src\services\/user.service.js:50:17)
+    at tryCatch (C:\Users\anand\Desktop\fundoo-Notes\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (C:\Users\anand\Desktop\fundoo-Notes\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (C:\Users\anand\Desktop\fundoo-Notes\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (C:\Users\anand\Desktop\fundoo-Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\anand\Desktop\fundoo-Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/users/forget 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2022-02-28T09:34:49.332Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-28T09:35:15.765Z"}
+info: Connected to the database. {"timestamp":"2022-02-28T09:35:15.786Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-28T09:35:57.607Z"}
+info: Connected to the database. {"timestamp":"2022-02-28T09:35:57.637Z"}
+error: 
+    status - 500 
+    message - Error: emailID is null
+    at _callee4$ (C:\Users\anand\Desktop\fundoo-Notes\src\services\/user.service.js:50:11)
+    at tryCatch (C:\Users\anand\Desktop\fundoo-Notes\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (C:\Users\anand\Desktop\fundoo-Notes\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (C:\Users\anand\Desktop\fundoo-Notes\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (C:\Users\anand\Desktop\fundoo-Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\anand\Desktop\fundoo-Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/users/forget 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2022-02-28T09:36:00.130Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-28T09:36:13.955Z"}
+info: Connected to the database. {"timestamp":"2022-02-28T09:36:13.980Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-28T09:37:38.647Z"}
+info: Connected to the database. {"timestamp":"2022-02-28T09:37:38.673Z"}
+error: 
+    status - 500 
+    message - SyntaxError: Unexpected string in JSON at position 106
+    at JSON.parse (<anonymous>)
+    at parse (C:\Users\anand\Desktop\fundoo-Notes\node_modules\body-parser\lib\types\json.js:89:19)
+    at C:\Users\anand\Desktop\fundoo-Notes\node_modules\body-parser\lib\read.js:121:18
+    at invokeCallback (C:\Users\anand\Desktop\fundoo-Notes\node_modules\raw-body\index.js:224:16)
+    at done (C:\Users\anand\Desktop\fundoo-Notes\node_modules\raw-body\index.js:213:7)
+    at IncomingMessage.onEnd (C:\Users\anand\Desktop\fundoo-Notes\node_modules\raw-body\index.js:273:7)
+    at IncomingMessage.emit (node:events:402:35)
+    at IncomingMessage.emit (node:domain:475:12)
+    at endReadableNT (node:internal/streams/readable:1343:12)
+    at processTicksAndRejections (node:internal/process/task_queues:83:21) 
+    url - /api/v1/users/userregister 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-02-28T09:39:20.911Z"}
+error: 
+    status - 500 
+    message - ValidationError: "password" length must be at least 10 characters long 
+    url - /api/v1/users/userregister 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-02-28T09:39:27.198Z"}
+error: 
+    status - 500 
+    message - SyntaxError: Unexpected token } in JSON at position 51
+    at JSON.parse (<anonymous>)
+    at parse (C:\Users\anand\Desktop\fundoo-Notes\node_modules\body-parser\lib\types\json.js:89:19)
+    at C:\Users\anand\Desktop\fundoo-Notes\node_modules\body-parser\lib\read.js:121:18
+    at invokeCallback (C:\Users\anand\Desktop\fundoo-Notes\node_modules\raw-body\index.js:224:16)
+    at done (C:\Users\anand\Desktop\fundoo-Notes\node_modules\raw-body\index.js:213:7)
+    at IncomingMessage.onEnd (C:\Users\anand\Desktop\fundoo-Notes\node_modules\raw-body\index.js:273:7)
+    at IncomingMessage.emit (node:events:402:35)
+    at IncomingMessage.emit (node:domain:475:12)
+    at endReadableNT (node:internal/streams/readable:1343:12)
+    at processTicksAndRejections (node:internal/process/task_queues:83:21) 
+    url - /api/v1/users/forget 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2022-02-28T09:40:13.072Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read properties of null (reading 'emaiID')
+    at _callee4$ (C:\Users\anand\Desktop\fundoo-Notes\src\services\/user.service.js:49:17)
+    at tryCatch (C:\Users\anand\Desktop\fundoo-Notes\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (C:\Users\anand\Desktop\fundoo-Notes\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (C:\Users\anand\Desktop\fundoo-Notes\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (C:\Users\anand\Desktop\fundoo-Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\anand\Desktop\fundoo-Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/users/forget 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2022-02-28T09:40:18.915Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-28T09:41:05.191Z"}
+info: Connected to the database. {"timestamp":"2022-02-28T09:41:05.236Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read properties of null (reading 'emaiID')
+    at _callee4$ (C:\Users\anand\Desktop\fundoo-Notes\src\services\/user.service.js:49:17)
+    at tryCatch (C:\Users\anand\Desktop\fundoo-Notes\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (C:\Users\anand\Desktop\fundoo-Notes\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (C:\Users\anand\Desktop\fundoo-Notes\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (C:\Users\anand\Desktop\fundoo-Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\anand\Desktop\fundoo-Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/users/forget 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2022-02-28T09:42:08.127Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-28T09:42:37.722Z"}
+info: Connected to the database. {"timestamp":"2022-02-28T09:42:37.750Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-28T09:44:14.324Z"}
+info: Connected to the database. {"timestamp":"2022-02-28T09:44:14.347Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-28T09:47:57.499Z"}
+info: Connected to the database. {"timestamp":"2022-02-28T09:47:57.550Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-28T09:48:03.242Z"}
+info: Connected to the database. {"timestamp":"2022-02-28T09:48:03.281Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read properties of null (reading 'emaiID')
+    at _callee4$ (C:\Users\anand\Desktop\fundoo-Notes\src\services\/user.service.js:49:17)
+    at tryCatch (C:\Users\anand\Desktop\fundoo-Notes\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (C:\Users\anand\Desktop\fundoo-Notes\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (C:\Users\anand\Desktop\fundoo-Notes\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (C:\Users\anand\Desktop\fundoo-Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\anand\Desktop\fundoo-Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/users/forget 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2022-02-28T09:48:35.987Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-28T09:49:12.198Z"}
+info: Connected to the database. {"timestamp":"2022-02-28T09:49:12.221Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read properties of null (reading 'emailID')
+    at _callee4$ (C:\Users\anand\Desktop\fundoo-Notes\src\services\/user.service.js:49:17)
+    at tryCatch (C:\Users\anand\Desktop\fundoo-Notes\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (C:\Users\anand\Desktop\fundoo-Notes\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (C:\Users\anand\Desktop\fundoo-Notes\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (C:\Users\anand\Desktop\fundoo-Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\anand\Desktop\fundoo-Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/users/forget 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2022-02-28T09:49:35.130Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-28T09:50:34.815Z"}
+info: Connected to the database. {"timestamp":"2022-02-28T09:50:34.840Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read properties of null (reading 'emailID')
+    at _callee4$ (C:\Users\anand\Desktop\fundoo-Notes\src\services\/user.service.js:50:17)
+    at tryCatch (C:\Users\anand\Desktop\fundoo-Notes\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (C:\Users\anand\Desktop\fundoo-Notes\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (C:\Users\anand\Desktop\fundoo-Notes\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (C:\Users\anand\Desktop\fundoo-Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\anand\Desktop\fundoo-Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/users/forget 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2022-02-28T09:50:43.773Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read properties of null (reading 'emailID')
+    at _callee4$ (C:\Users\anand\Desktop\fundoo-Notes\src\services\/user.service.js:50:17)
+    at tryCatch (C:\Users\anand\Desktop\fundoo-Notes\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (C:\Users\anand\Desktop\fundoo-Notes\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (C:\Users\anand\Desktop\fundoo-Notes\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (C:\Users\anand\Desktop\fundoo-Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\anand\Desktop\fundoo-Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/users/forget 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2022-02-28T09:50:45.988Z"}
+error: 
+    status - 500 
+    message - SyntaxError: Unexpected string in JSON at position 48
+    at JSON.parse (<anonymous>)
+    at parse (C:\Users\anand\Desktop\fundoo-Notes\node_modules\body-parser\lib\types\json.js:89:19)
+    at C:\Users\anand\Desktop\fundoo-Notes\node_modules\body-parser\lib\read.js:121:18
+    at invokeCallback (C:\Users\anand\Desktop\fundoo-Notes\node_modules\raw-body\index.js:224:16)
+    at done (C:\Users\anand\Desktop\fundoo-Notes\node_modules\raw-body\index.js:213:7)
+    at IncomingMessage.onEnd (C:\Users\anand\Desktop\fundoo-Notes\node_modules\raw-body\index.js:273:7)
+    at IncomingMessage.emit (node:events:402:35)
+    at IncomingMessage.emit (node:domain:475:12)
+    at endReadableNT (node:internal/streams/readable:1343:12)
+    at processTicksAndRejections (node:internal/process/task_queues:83:21) 
+    url - /api/v1/users/login 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2022-02-28T09:51:26.523Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read properties of null (reading 'emailID')
+    at _callee4$ (C:\Users\anand\Desktop\fundoo-Notes\src\services\/user.service.js:50:17)
+    at tryCatch (C:\Users\anand\Desktop\fundoo-Notes\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (C:\Users\anand\Desktop\fundoo-Notes\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (C:\Users\anand\Desktop\fundoo-Notes\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (C:\Users\anand\Desktop\fundoo-Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\anand\Desktop\fundoo-Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/users/forget 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2022-02-28T09:51:51.269Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-28T09:53:47.739Z"}
+info: Connected to the database. {"timestamp":"2022-02-28T09:53:47.761Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-28T09:54:05.512Z"}
+info: Connected to the database. {"timestamp":"2022-02-28T09:54:05.537Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read properties of null (reading 'emailID')
+    at _callee4$ (C:\Users\anand\Desktop\fundoo-Notes\src\services\/user.service.js:51:11)
+    at tryCatch (C:\Users\anand\Desktop\fundoo-Notes\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (C:\Users\anand\Desktop\fundoo-Notes\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (C:\Users\anand\Desktop\fundoo-Notes\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (C:\Users\anand\Desktop\fundoo-Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\anand\Desktop\fundoo-Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/users/forget 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2022-02-28T09:54:20.943Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-28T09:54:33.365Z"}
+info: Connected to the database. {"timestamp":"2022-02-28T09:54:33.388Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-28T09:54:52.136Z"}
+info: Connected to the database. {"timestamp":"2022-02-28T09:54:52.162Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read properties of null (reading 'emailID')
+    at _callee4$ (C:\Users\anand\Desktop\fundoo-Notes\src\services\/user.service.js:51:11)
+    at tryCatch (C:\Users\anand\Desktop\fundoo-Notes\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (C:\Users\anand\Desktop\fundoo-Notes\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (C:\Users\anand\Desktop\fundoo-Notes\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (C:\Users\anand\Desktop\fundoo-Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\anand\Desktop\fundoo-Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/users/forget 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2022-02-28T09:55:01.408Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-28T09:58:12.491Z"}
+info: Connected to the database. {"timestamp":"2022-02-28T09:58:12.516Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read properties of null (reading 'emailID')
+    at _callee4$ (C:\Users\anand\Desktop\fundoo-Notes\src\services\/user.service.js:51:27)
+    at tryCatch (C:\Users\anand\Desktop\fundoo-Notes\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (C:\Users\anand\Desktop\fundoo-Notes\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (C:\Users\anand\Desktop\fundoo-Notes\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (C:\Users\anand\Desktop\fundoo-Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\anand\Desktop\fundoo-Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/users/forget 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2022-02-28T09:58:23.259Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-28T10:00:38.228Z"}
+info: Connected to the database. {"timestamp":"2022-02-28T10:00:38.269Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-28T10:01:30.253Z"}
+info: Connected to the database. {"timestamp":"2022-02-28T10:01:30.273Z"}
+error: 
+    status - 500 
+    message - Error: email is not registered
+    at _callee4$ (C:\Users\anand\Desktop\fundoo-Notes\src\services\/user.service.js:57:11)
+    at tryCatch (C:\Users\anand\Desktop\fundoo-Notes\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (C:\Users\anand\Desktop\fundoo-Notes\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (C:\Users\anand\Desktop\fundoo-Notes\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (C:\Users\anand\Desktop\fundoo-Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\anand\Desktop\fundoo-Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/users/forget 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2022-02-28T10:01:38.689Z"}
+error: 
+    status - 500 
+    message - Error: email is not registered
+    at _callee4$ (C:\Users\anand\Desktop\fundoo-Notes\src\services\/user.service.js:57:11)
+    at tryCatch (C:\Users\anand\Desktop\fundoo-Notes\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (C:\Users\anand\Desktop\fundoo-Notes\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (C:\Users\anand\Desktop\fundoo-Notes\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (C:\Users\anand\Desktop\fundoo-Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\anand\Desktop\fundoo-Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/users/forget 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2022-02-28T10:02:59.520Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-28T10:03:15.192Z"}
+info: Connected to the database. {"timestamp":"2022-02-28T10:03:15.215Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-28T10:03:22.750Z"}
+info: Connected to the database. {"timestamp":"2022-02-28T10:03:22.772Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read properties of null (reading 'emailID')
+    at _callee4$ (C:\Users\anand\Desktop\fundoo-Notes\src\services\/user.service.js:51:27)
+    at tryCatch (C:\Users\anand\Desktop\fundoo-Notes\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (C:\Users\anand\Desktop\fundoo-Notes\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (C:\Users\anand\Desktop\fundoo-Notes\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (C:\Users\anand\Desktop\fundoo-Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\anand\Desktop\fundoo-Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/users/forget 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2022-02-28T10:03:35.798Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-28T10:04:05.127Z"}
+info: Connected to the database. {"timestamp":"2022-02-28T10:04:05.152Z"}
+error: 
+    status - 500 
+    message - Error: data and hash arguments required
+    at Object.compareSync (C:\Users\anand\Desktop\fundoo-Notes\node_modules\bcrypt\bcrypt.js:166:15)
+    at _callee3$ (C:\Users\anand\Desktop\fundoo-Notes\src\services\/user.service.js:32:33)
+    at tryCatch (C:\Users\anand\Desktop\fundoo-Notes\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (C:\Users\anand\Desktop\fundoo-Notes\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (C:\Users\anand\Desktop\fundoo-Notes\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (C:\Users\anand\Desktop\fundoo-Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\anand\Desktop\fundoo-Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/users/login 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2022-02-28T10:04:34.073Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read properties of null (reading 'emailID')
+    at _callee4$ (C:\Users\anand\Desktop\fundoo-Notes\src\services\/user.service.js:52:27)
+    at tryCatch (C:\Users\anand\Desktop\fundoo-Notes\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (C:\Users\anand\Desktop\fundoo-Notes\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (C:\Users\anand\Desktop\fundoo-Notes\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (C:\Users\anand\Desktop\fundoo-Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\anand\Desktop\fundoo-Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/users/forget 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2022-02-28T10:05:59.173Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-28T10:06:37.884Z"}
+info: Connected to the database. {"timestamp":"2022-02-28T10:06:37.906Z"}
+error: 
+    status - 500 
+    message - Error: email is not registered
+    at _callee4$ (C:\Users\anand\Desktop\fundoo-Notes\src\services\/user.service.js:58:11)
+    at tryCatch (C:\Users\anand\Desktop\fundoo-Notes\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (C:\Users\anand\Desktop\fundoo-Notes\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (C:\Users\anand\Desktop\fundoo-Notes\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (C:\Users\anand\Desktop\fundoo-Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\anand\Desktop\fundoo-Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/users/forget 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2022-02-28T10:06:43.998Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-28T10:06:58.289Z"}
+info: Connected to the database. {"timestamp":"2022-02-28T10:06:58.311Z"}
+error: 
+    status - 500 
+    message - Error: password does not match
+    at _callee3$ (C:\Users\anand\Desktop\fundoo-Notes\src\services\/user.service.js:38:12)
+    at tryCatch (C:\Users\anand\Desktop\fundoo-Notes\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (C:\Users\anand\Desktop\fundoo-Notes\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (C:\Users\anand\Desktop\fundoo-Notes\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (C:\Users\anand\Desktop\fundoo-Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\anand\Desktop\fundoo-Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/users/login 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2022-02-28T10:12:27.177Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-28T10:16:09.965Z"}
+info: Connected to the database. {"timestamp":"2022-02-28T10:16:09.996Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-28T10:16:18.161Z"}
+info: Connected to the database. {"timestamp":"2022-02-28T10:16:18.182Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-28T10:23:48.987Z"}
+info: Connected to the database. {"timestamp":"2022-02-28T10:23:49.014Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-28T10:23:56.187Z"}
+info: Connected to the database. {"timestamp":"2022-02-28T10:23:56.210Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-28T10:28:11.140Z"}
+info: Connected to the database. {"timestamp":"2022-02-28T10:28:11.168Z"}
+error: 
+    status - 500 
+    message - SyntaxError: Unexpected token } in JSON at position 61
+    at JSON.parse (<anonymous>)
+    at parse (C:\Users\anand\Desktop\fundoo-Notes\node_modules\body-parser\lib\types\json.js:89:19)
+    at C:\Users\anand\Desktop\fundoo-Notes\node_modules\body-parser\lib\read.js:121:18
+    at invokeCallback (C:\Users\anand\Desktop\fundoo-Notes\node_modules\raw-body\index.js:224:16)
+    at done (C:\Users\anand\Desktop\fundoo-Notes\node_modules\raw-body\index.js:213:7)
+    at IncomingMessage.onEnd (C:\Users\anand\Desktop\fundoo-Notes\node_modules\raw-body\index.js:273:7)
+    at IncomingMessage.emit (node:events:402:35)
+    at IncomingMessage.emit (node:domain:475:12)
+    at endReadableNT (node:internal/streams/readable:1343:12)
+    at processTicksAndRejections (node:internal/process/task_queues:83:21) 
+    url - /api/v1/users/forget 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2022-02-28T10:28:28.374Z"}
+error: 
+    status - 500 
+    message - Error: email is not registered
+    at _callee4$ (C:\Users\anand\Desktop\fundoo-Notes\src\services\/user.service.js:58:11)
+    at tryCatch (C:\Users\anand\Desktop\fundoo-Notes\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (C:\Users\anand\Desktop\fundoo-Notes\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (C:\Users\anand\Desktop\fundoo-Notes\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (C:\Users\anand\Desktop\fundoo-Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\anand\Desktop\fundoo-Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/users/forget 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2022-02-28T10:28:32.591Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-28T10:28:49.213Z"}
+info: Connected to the database. {"timestamp":"2022-02-28T10:28:49.239Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read properties of null (reading 'emailID')
+    at _callee4$ (C:\Users\anand\Desktop\fundoo-Notes\src\services\/user.service.js:52:27)
+    at tryCatch (C:\Users\anand\Desktop\fundoo-Notes\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (C:\Users\anand\Desktop\fundoo-Notes\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (C:\Users\anand\Desktop\fundoo-Notes\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (C:\Users\anand\Desktop\fundoo-Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\anand\Desktop\fundoo-Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/users/forget 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2022-02-28T10:28:54.471Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-28T10:31:19.768Z"}
+info: Connected to the database. {"timestamp":"2022-02-28T10:31:19.793Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-28T10:31:27.320Z"}
+info: Connected to the database. {"timestamp":"2022-02-28T10:31:27.346Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-28T10:31:43.793Z"}
+info: Connected to the database. {"timestamp":"2022-02-28T10:31:43.830Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read properties of null (reading 'emailID')
+    at _callee4$ (C:\Users\anand\Desktop\fundoo-Notes\src\services\/user.service.js:52:27)
+    at tryCatch (C:\Users\anand\Desktop\fundoo-Notes\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (C:\Users\anand\Desktop\fundoo-Notes\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (C:\Users\anand\Desktop\fundoo-Notes\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (C:\Users\anand\Desktop\fundoo-Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\anand\Desktop\fundoo-Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/users/forget 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2022-02-28T10:32:08.404Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read properties of null (reading 'emailID')
+    at _callee4$ (C:\Users\anand\Desktop\fundoo-Notes\src\services\/user.service.js:52:27)
+    at tryCatch (C:\Users\anand\Desktop\fundoo-Notes\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (C:\Users\anand\Desktop\fundoo-Notes\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (C:\Users\anand\Desktop\fundoo-Notes\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (C:\Users\anand\Desktop\fundoo-Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\anand\Desktop\fundoo-Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/users/forget 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2022-02-28T10:32:12.417Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-28T10:33:14.895Z"}
+info: Connected to the database. {"timestamp":"2022-02-28T10:33:14.931Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read properties of null (reading 'emailID')
+    at _callee4$ (C:\Users\anand\Desktop\fundoo-Notes\src\services\/user.service.js:52:27)
+    at tryCatch (C:\Users\anand\Desktop\fundoo-Notes\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (C:\Users\anand\Desktop\fundoo-Notes\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (C:\Users\anand\Desktop\fundoo-Notes\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (C:\Users\anand\Desktop\fundoo-Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\anand\Desktop\fundoo-Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/users/forget 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2022-02-28T10:33:28.535Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-28T10:35:05.608Z"}
+info: Connected to the database. {"timestamp":"2022-02-28T10:35:05.639Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-28T10:35:12.276Z"}
+info: Connected to the database. {"timestamp":"2022-02-28T10:35:12.304Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-28T10:35:29.296Z"}
+info: Connected to the database. {"timestamp":"2022-02-28T10:35:29.329Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read properties of null (reading 'emailID')
+    at _callee4$ (C:\Users\anand\Desktop\fundoo-Notes\src\services\/user.service.js:52:27)
+    at tryCatch (C:\Users\anand\Desktop\fundoo-Notes\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (C:\Users\anand\Desktop\fundoo-Notes\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (C:\Users\anand\Desktop\fundoo-Notes\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (C:\Users\anand\Desktop\fundoo-Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\anand\Desktop\fundoo-Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/users/forget 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2022-02-28T10:35:34.783Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read properties of null (reading 'emailID')
+    at _callee4$ (C:\Users\anand\Desktop\fundoo-Notes\src\services\/user.service.js:52:27)
+    at tryCatch (C:\Users\anand\Desktop\fundoo-Notes\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (C:\Users\anand\Desktop\fundoo-Notes\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (C:\Users\anand\Desktop\fundoo-Notes\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (C:\Users\anand\Desktop\fundoo-Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\anand\Desktop\fundoo-Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/users/forget 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2022-02-28T10:35:36.875Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-28T10:36:25.218Z"}
+info: Connected to the database. {"timestamp":"2022-02-28T10:36:25.249Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-28T10:36:33.376Z"}
+info: Connected to the database. {"timestamp":"2022-02-28T10:36:33.401Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read properties of null (reading 'emailID')
+    at _callee4$ (C:\Users\anand\Desktop\fundoo-Notes\src\services\/user.service.js:52:11)
+    at tryCatch (C:\Users\anand\Desktop\fundoo-Notes\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (C:\Users\anand\Desktop\fundoo-Notes\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (C:\Users\anand\Desktop\fundoo-Notes\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (C:\Users\anand\Desktop\fundoo-Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\anand\Desktop\fundoo-Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/users/forget 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2022-02-28T10:36:48.457Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read properties of null (reading 'emailID')
+    at _callee4$ (C:\Users\anand\Desktop\fundoo-Notes\src\services\/user.service.js:52:11)
+    at tryCatch (C:\Users\anand\Desktop\fundoo-Notes\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (C:\Users\anand\Desktop\fundoo-Notes\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (C:\Users\anand\Desktop\fundoo-Notes\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (C:\Users\anand\Desktop\fundoo-Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\anand\Desktop\fundoo-Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/users/forget 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2022-02-28T10:36:51.116Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-28T10:37:31.874Z"}
+info: Connected to the database. {"timestamp":"2022-02-28T10:37:31.902Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read properties of null (reading 'emailID')
+    at _callee4$ (C:\Users\anand\Desktop\fundoo-Notes\src\services\/user.service.js:51:11)
+    at tryCatch (C:\Users\anand\Desktop\fundoo-Notes\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (C:\Users\anand\Desktop\fundoo-Notes\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (C:\Users\anand\Desktop\fundoo-Notes\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (C:\Users\anand\Desktop\fundoo-Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\anand\Desktop\fundoo-Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/users/forget 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2022-02-28T10:39:33.586Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-28T10:40:22.220Z"}
+info: Connected to the database. {"timestamp":"2022-02-28T10:40:22.247Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-28T10:40:30.822Z"}
+info: Connected to the database. {"timestamp":"2022-02-28T10:40:30.844Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read properties of null (reading 'emailID')
+    at _callee4$ (C:\Users\anand\Desktop\fundoo-Notes\src\services\/user.service.js:51:17)
+    at tryCatch (C:\Users\anand\Desktop\fundoo-Notes\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (C:\Users\anand\Desktop\fundoo-Notes\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (C:\Users\anand\Desktop\fundoo-Notes\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (C:\Users\anand\Desktop\fundoo-Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\anand\Desktop\fundoo-Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/users/forget 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2022-02-28T10:40:38.692Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-28T10:40:54.998Z"}
+info: Connected to the database. {"timestamp":"2022-02-28T10:40:55.026Z"}
+error: 
+    status - 500 
+    message - TypeError: _sendMailTo is not a function
+    at _callee4$ (C:\Users\anand\Desktop\fundoo-Notes\src\services\/user.service.js:53:24)
+    at tryCatch (C:\Users\anand\Desktop\fundoo-Notes\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (C:\Users\anand\Desktop\fundoo-Notes\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (C:\Users\anand\Desktop\fundoo-Notes\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (C:\Users\anand\Desktop\fundoo-Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\anand\Desktop\fundoo-Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/users/forget 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2022-02-28T10:41:17.441Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-28T10:42:39.627Z"}
+info: Connected to the database. {"timestamp":"2022-02-28T10:42:39.650Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-28T10:43:02.034Z"}
+info: Connected to the database. {"timestamp":"2022-02-28T10:43:02.062Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-28T10:47:26.466Z"}
+info: Connected to the database. {"timestamp":"2022-02-28T10:47:26.489Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-28T10:49:49.416Z"}
+info: Connected to the database. {"timestamp":"2022-02-28T10:49:49.445Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-28T10:50:54.425Z"}
+info: Connected to the database. {"timestamp":"2022-02-28T10:50:54.449Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-28T10:51:00.720Z"}
+info: Connected to the database. {"timestamp":"2022-02-28T10:51:00.752Z"}
+error: 
+    status - 500 
+    message - TypeError: (0 , _helper.default) is not a function
+    at _callee4$ (C:\Users\anand\Desktop\fundoo-Notes\src\services\/user.service.js:51:26)
+    at tryCatch (C:\Users\anand\Desktop\fundoo-Notes\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (C:\Users\anand\Desktop\fundoo-Notes\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (C:\Users\anand\Desktop\fundoo-Notes\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (C:\Users\anand\Desktop\fundoo-Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\anand\Desktop\fundoo-Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/users/forget 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2022-02-28T10:51:02.407Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-28T10:51:30.145Z"}
+info: Connected to the database. {"timestamp":"2022-02-28T10:51:30.181Z"}
+error: 
+    status - 500 
+    message - TypeError: (0 , _helper.default) is not a function
+    at _callee4$ (C:\Users\anand\Desktop\fundoo-Notes\src\services\/user.service.js:51:26)
+    at tryCatch (C:\Users\anand\Desktop\fundoo-Notes\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (C:\Users\anand\Desktop\fundoo-Notes\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (C:\Users\anand\Desktop\fundoo-Notes\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (C:\Users\anand\Desktop\fundoo-Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\anand\Desktop\fundoo-Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/users/forget 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2022-02-28T10:51:34.955Z"}
+error: 
+    status - 500 
+    message - TypeError: (0 , _helper.default) is not a function
+    at _callee4$ (C:\Users\anand\Desktop\fundoo-Notes\src\services\/user.service.js:51:26)
+    at tryCatch (C:\Users\anand\Desktop\fundoo-Notes\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (C:\Users\anand\Desktop\fundoo-Notes\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (C:\Users\anand\Desktop\fundoo-Notes\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (C:\Users\anand\Desktop\fundoo-Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\anand\Desktop\fundoo-Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/users/forget 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2022-02-28T10:51:36.806Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-28T10:53:51.338Z"}
+info: Connected to the database. {"timestamp":"2022-02-28T10:53:51.375Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-28T10:53:57.521Z"}
+info: Connected to the database. {"timestamp":"2022-02-28T10:53:57.557Z"}
+error: 
+    status - 500 
+    message - TypeError: (0 , _helper.default) is not a function
+    at _callee4$ (C:\Users\anand\Desktop\fundoo-Notes\src\services\/user.service.js:52:26)
+    at tryCatch (C:\Users\anand\Desktop\fundoo-Notes\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (C:\Users\anand\Desktop\fundoo-Notes\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (C:\Users\anand\Desktop\fundoo-Notes\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (C:\Users\anand\Desktop\fundoo-Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\anand\Desktop\fundoo-Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/users/forget 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2022-02-28T10:54:30.652Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-28T10:57:16.562Z"}
+info: Connected to the database. {"timestamp":"2022-02-28T10:57:16.599Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-28T10:57:28.118Z"}
+info: Connected to the database. {"timestamp":"2022-02-28T10:57:28.148Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-28T10:57:56.141Z"}
+info: Connected to the database. {"timestamp":"2022-02-28T10:57:56.172Z"}
+error: 
+    status - 500 
+    message - TypeError: (0 , _helper.default) is not a function
+    at _callee4$ (C:\Users\anand\Desktop\fundoo-Notes\src\services\/user.service.js:52:26)
+    at tryCatch (C:\Users\anand\Desktop\fundoo-Notes\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (C:\Users\anand\Desktop\fundoo-Notes\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (C:\Users\anand\Desktop\fundoo-Notes\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (C:\Users\anand\Desktop\fundoo-Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\anand\Desktop\fundoo-Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/users/forget 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2022-02-28T10:58:05.256Z"}
+error: 
+    status - 500 
+    message - TypeError: (0 , _helper.default) is not a function
+    at _callee4$ (C:\Users\anand\Desktop\fundoo-Notes\src\services\/user.service.js:52:26)
+    at tryCatch (C:\Users\anand\Desktop\fundoo-Notes\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (C:\Users\anand\Desktop\fundoo-Notes\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (C:\Users\anand\Desktop\fundoo-Notes\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (C:\Users\anand\Desktop\fundoo-Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\anand\Desktop\fundoo-Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/users/forget 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2022-02-28T10:58:06.888Z"}
+error: 
+    status - 500 
+    message - TypeError: (0 , _helper.default) is not a function
+    at _callee4$ (C:\Users\anand\Desktop\fundoo-Notes\src\services\/user.service.js:52:26)
+    at tryCatch (C:\Users\anand\Desktop\fundoo-Notes\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (C:\Users\anand\Desktop\fundoo-Notes\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (C:\Users\anand\Desktop\fundoo-Notes\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (C:\Users\anand\Desktop\fundoo-Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\anand\Desktop\fundoo-Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/users/forget 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2022-02-28T10:58:07.775Z"}
+error: 
+    status - 500 
+    message - TypeError: (0 , _helper.default) is not a function
+    at _callee4$ (C:\Users\anand\Desktop\fundoo-Notes\src\services\/user.service.js:52:26)
+    at tryCatch (C:\Users\anand\Desktop\fundoo-Notes\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (C:\Users\anand\Desktop\fundoo-Notes\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (C:\Users\anand\Desktop\fundoo-Notes\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (C:\Users\anand\Desktop\fundoo-Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\anand\Desktop\fundoo-Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/users/forget 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2022-02-28T10:58:08.714Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-28T11:00:14.529Z"}
+info: Connected to the database. {"timestamp":"2022-02-28T11:00:14.567Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-28T11:00:58.331Z"}
+info: Connected to the database. {"timestamp":"2022-02-28T11:00:58.353Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-28T11:02:32.811Z"}
+info: Connected to the database. {"timestamp":"2022-02-28T11:02:32.848Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-28T11:03:01.803Z"}
+info: Connected to the database. {"timestamp":"2022-02-28T11:03:01.836Z"}
+error: 
+    status - 500 
+    message - TypeError: (0 , _helper.default) is not a function
+    at _callee4$ (C:\Users\anand\Desktop\fundoo-Notes\src\services\/user.service.js:55:26)
+    at tryCatch (C:\Users\anand\Desktop\fundoo-Notes\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (C:\Users\anand\Desktop\fundoo-Notes\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (C:\Users\anand\Desktop\fundoo-Notes\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (C:\Users\anand\Desktop\fundoo-Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\anand\Desktop\fundoo-Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/users/forget 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2022-02-28T11:03:02.872Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-28T11:03:19.251Z"}
+info: Connected to the database. {"timestamp":"2022-02-28T11:03:19.298Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-28T11:04:18.666Z"}
+info: Connected to the database. {"timestamp":"2022-02-28T11:04:18.694Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-28T11:04:28.567Z"}
+info: Connected to the database. {"timestamp":"2022-02-28T11:04:28.596Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-28T11:09:20.512Z"}
+info: Connected to the database. {"timestamp":"2022-02-28T11:09:20.542Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-28T11:10:13.954Z"}
+info: Connected to the database. {"timestamp":"2022-02-28T11:10:13.988Z"}
+error: Invalid login: 535-5.7.8 Username and Password not accepted. Learn more at
+535 5.7.8  https://support.google.com/mail/?p=BadCredentials z13-20020a63e10d000000b003733d6c90e4sm9811408pgh.82 - gsmtp {"code":"EAUTH","command":"AUTH PLAIN","response":"535-5.7.8 Username and Password not accepted. Learn more at\n535 5.7.8  https://support.google.com/mail/?p=BadCredentials z13-20020a63e10d000000b003733d6c90e4sm9811408pgh.82 - gsmtp","responseCode":535,"timestamp":"2022-02-28T11:10:24.023Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-28T11:13:42.121Z"}
+info: Connected to the database. {"timestamp":"2022-02-28T11:13:42.144Z"}
+error: Missing credentials for "PLAIN" {"code":"EAUTH","command":"API","timestamp":"2022-02-28T11:14:06.512Z"}
+error: Missing credentials for "PLAIN" {"code":"EAUTH","command":"API","timestamp":"2022-02-28T11:14:38.118Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-28T11:14:48.678Z"}
+info: Connected to the database. {"timestamp":"2022-02-28T11:14:48.706Z"}
+error: Invalid login: 535-5.7.8 Username and Password not accepted. Learn more at
+535 5.7.8  https://support.google.com/mail/?p=BadCredentials o7-20020a63f147000000b00373facf1083sm9887699pgk.57 - gsmtp {"code":"EAUTH","command":"AUTH PLAIN","response":"535-5.7.8 Username and Password not accepted. Learn more at\n535 5.7.8  https://support.google.com/mail/?p=BadCredentials o7-20020a63f147000000b00373facf1083sm9887699pgk.57 - gsmtp","responseCode":535,"timestamp":"2022-02-28T11:15:00.043Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-28T11:19:32.065Z"}
+info: Connected to the database. {"timestamp":"2022-02-28T11:19:32.087Z"}
+error: 
+    status - 500 
+    message - Error: email is not registered
+    at _callee4$ (C:\Users\anand\Desktop\fundoo-Notes\src\services\/user.service.js:57:11)
+    at tryCatch (C:\Users\anand\Desktop\fundoo-Notes\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (C:\Users\anand\Desktop\fundoo-Notes\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (C:\Users\anand\Desktop\fundoo-Notes\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (C:\Users\anand\Desktop\fundoo-Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\anand\Desktop\fundoo-Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/users/forget 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2022-02-28T11:19:35.379Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-28T11:19:51.193Z"}
+info: Connected to the database. {"timestamp":"2022-02-28T11:19:51.215Z"}
+error: Invalid login: 535-5.7.8 Username and Password not accepted. Learn more at
+535 5.7.8  https://support.google.com/mail/?p=BadCredentials j2-20020a056a00174200b004e132cba37bsm14243465pfc.45 - gsmtp {"code":"EAUTH","command":"AUTH PLAIN","response":"535-5.7.8 Username and Password not accepted. Learn more at\n535 5.7.8  https://support.google.com/mail/?p=BadCredentials j2-20020a056a00174200b004e132cba37bsm14243465pfc.45 - gsmtp","responseCode":535,"timestamp":"2022-02-28T11:19:56.106Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-28T11:26:05.651Z"}
+info: Connected to the database. {"timestamp":"2022-02-28T11:26:05.676Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-28T11:26:11.459Z"}
+info: Connected to the database. {"timestamp":"2022-02-28T11:26:11.484Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-28T11:26:44.641Z"}
+info: Connected to the database. {"timestamp":"2022-02-28T11:26:44.666Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-28T11:51:20.214Z"}
+info: Connected to the database. {"timestamp":"2022-02-28T11:51:20.256Z"}
+error: 
+    status - 500 
+    message - Error: User is not Registered
+    at _callee3$ (C:\Users\anand\Desktop\fundoo-Notes\src\services\/user.service.js:41:9)
+    at tryCatch (C:\Users\anand\Desktop\fundoo-Notes\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (C:\Users\anand\Desktop\fundoo-Notes\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (C:\Users\anand\Desktop\fundoo-Notes\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (C:\Users\anand\Desktop\fundoo-Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\anand\Desktop\fundoo-Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/users/login 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2022-02-28T12:17:28.016Z"}
+error: 
+    status - 500 
+    message - Error: User is not Registered
+    at _callee3$ (C:\Users\anand\Desktop\fundoo-Notes\src\services\/user.service.js:41:9)
+    at tryCatch (C:\Users\anand\Desktop\fundoo-Notes\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (C:\Users\anand\Desktop\fundoo-Notes\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (C:\Users\anand\Desktop\fundoo-Notes\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (C:\Users\anand\Desktop\fundoo-Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\anand\Desktop\fundoo-Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/users/login 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2022-02-28T12:18:22.956Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-28T12:19:00.974Z"}
+info: Connected to the database. {"timestamp":"2022-02-28T12:19:01.002Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-28T12:19:16.247Z"}
+info: Connected to the database. {"timestamp":"2022-02-28T12:19:16.267Z"}
+error: 
+      status - 11000
+      message - E11000 duplicate key error collection: user.users index: emailID_1 dup key: { emailID: "nanan66398@naluzotan.com" } 
+      url - /api/v1/users/register 
+      method - POST 
+      IP - ::1
+     {"timestamp":"2022-02-28T12:19:24.377Z"}
+error: 
+    status - 500 
+    message - RangeError: Invalid status code: 11000
+    at new NodeError (node:internal/errors:371:5)
+    at ServerResponse.writeHead (node:_http_server:274:11)
+    at ServerResponse.writeHead (C:\Users\anand\Desktop\fundoo-Notes\node_modules\on-headers\index.js:44:26)
+    at ServerResponse._implicitHeader (node:_http_server:265:8)
+    at write_ (node:_http_outgoing:766:9)
+    at ServerResponse.end (node:_http_outgoing:855:5)
+    at ServerResponse.send (C:\Users\anand\Desktop\fundoo-Notes\node_modules\express\lib\response.js:221:10)
+    at ServerResponse.json (C:\Users\anand\Desktop\fundoo-Notes\node_modules\express\lib\response.js:267:15)
+    at appErrorHandler (C:\Users\anand\Desktop\fundoo-Notes\src\middlewares\/error.middleware.js:36:26)
+    at Layer.handle_error (C:\Users\anand\Desktop\fundoo-Notes\node_modules\express\lib\router\layer.js:71:5)
+    at trim_prefix (C:\Users\anand\Desktop\fundoo-Notes\node_modules\express\lib\router\index.js:321:13)
+    at C:\Users\anand\Desktop\fundoo-Notes\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (C:\Users\anand\Desktop\fundoo-Notes\node_modules\express\lib\router\index.js:341:12)
+    at next (C:\Users\anand\Desktop\fundoo-Notes\node_modules\express\lib\router\index.js:275:10)
+    at C:\Users\anand\Desktop\fundoo-Notes\node_modules\express\lib\router\index.js:641:15
+    at next (C:\Users\anand\Desktop\fundoo-Notes\node_modules\express\lib\router\index.js:260:14) 
+    url - /api/v1/users/register 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-02-28T12:19:24.396Z"}
+error: 
+    status - 500 
+    message - Error: User is not Registered
+    at _callee3$ (C:\Users\anand\Desktop\fundoo-Notes\src\services\/user.service.js:41:9)
+    at tryCatch (C:\Users\anand\Desktop\fundoo-Notes\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (C:\Users\anand\Desktop\fundoo-Notes\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (C:\Users\anand\Desktop\fundoo-Notes\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (C:\Users\anand\Desktop\fundoo-Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\anand\Desktop\fundoo-Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/users/login 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2022-02-28T12:19:47.720Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-28T12:20:13.937Z"}
+info: Connected to the database. {"timestamp":"2022-02-28T12:20:13.960Z"}
+error: 
+    status - 500 
+    message - Error: User is not Registered
+    at _callee3$ (C:\Users\anand\Desktop\fundoo-Notes\src\services\/user.service.js:41:9)
+    at tryCatch (C:\Users\anand\Desktop\fundoo-Notes\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (C:\Users\anand\Desktop\fundoo-Notes\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (C:\Users\anand\Desktop\fundoo-Notes\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (C:\Users\anand\Desktop\fundoo-Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\anand\Desktop\fundoo-Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/users/login 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2022-02-28T12:20:19.142Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-28T12:21:16.387Z"}
+info: Connected to the database. {"timestamp":"2022-02-28T12:21:16.409Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read properties of null (reading 'emailID')
+    at _callee3$ (C:\Users\anand\Desktop\fundoo-Notes\src\services\/user.service.js:30:10)
+    at tryCatch (C:\Users\anand\Desktop\fundoo-Notes\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (C:\Users\anand\Desktop\fundoo-Notes\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (C:\Users\anand\Desktop\fundoo-Notes\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (C:\Users\anand\Desktop\fundoo-Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\anand\Desktop\fundoo-Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/users/login 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2022-02-28T12:21:23.777Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-28T12:21:37.882Z"}
+info: Connected to the database. {"timestamp":"2022-02-28T12:21:37.904Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-28T12:22:04.330Z"}
+info: Connected to the database. {"timestamp":"2022-02-28T12:22:04.357Z"}
+error: 
+    status - 500 
+    message - Error: User is not Registered
+    at _callee3$ (C:\Users\anand\Desktop\fundoo-Notes\src\services\/user.service.js:41:9)
+    at tryCatch (C:\Users\anand\Desktop\fundoo-Notes\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (C:\Users\anand\Desktop\fundoo-Notes\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (C:\Users\anand\Desktop\fundoo-Notes\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (C:\Users\anand\Desktop\fundoo-Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\anand\Desktop\fundoo-Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/users/login 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2022-02-28T12:22:07.399Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-28T12:22:43.867Z"}
+info: Connected to the database. {"timestamp":"2022-02-28T12:22:43.890Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read properties of null (reading 'emailID')
+    at _callee3$ (C:\Users\anand\Desktop\fundoo-Notes\src\services\/user.service.js:29:20)
+    at tryCatch (C:\Users\anand\Desktop\fundoo-Notes\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (C:\Users\anand\Desktop\fundoo-Notes\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (C:\Users\anand\Desktop\fundoo-Notes\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (C:\Users\anand\Desktop\fundoo-Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\anand\Desktop\fundoo-Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/users/login 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2022-02-28T12:22:48.904Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-28T12:24:24.071Z"}
+info: Connected to the database. {"timestamp":"2022-02-28T12:24:24.096Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-28T12:24:30.700Z"}
+info: Connected to the database. {"timestamp":"2022-02-28T12:24:30.729Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-28T12:24:51.692Z"}
+info: Connected to the database. {"timestamp":"2022-02-28T12:24:51.720Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read properties of null (reading 'emailID')
+    at _callee3$ (C:\Users\anand\Desktop\fundoo-Notes\src\services\/user.service.js:29:36)
+    at tryCatch (C:\Users\anand\Desktop\fundoo-Notes\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (C:\Users\anand\Desktop\fundoo-Notes\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (C:\Users\anand\Desktop\fundoo-Notes\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (C:\Users\anand\Desktop\fundoo-Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\anand\Desktop\fundoo-Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/users/login 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2022-02-28T12:24:56.300Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-28T12:25:24.457Z"}
+info: Connected to the database. {"timestamp":"2022-02-28T12:25:24.486Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-28T12:25:36.756Z"}
+info: Connected to the database. {"timestamp":"2022-02-28T12:25:36.780Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read properties of null (reading 'emailID')
+    at _callee3$ (C:\Users\anand\Desktop\fundoo-Notes\src\services\/user.service.js:29:20)
+    at tryCatch (C:\Users\anand\Desktop\fundoo-Notes\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (C:\Users\anand\Desktop\fundoo-Notes\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (C:\Users\anand\Desktop\fundoo-Notes\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (C:\Users\anand\Desktop\fundoo-Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\anand\Desktop\fundoo-Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/users/login 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2022-02-28T12:25:39.547Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read properties of null (reading 'emailID')
+    at _callee3$ (C:\Users\anand\Desktop\fundoo-Notes\src\services\/user.service.js:29:20)
+    at tryCatch (C:\Users\anand\Desktop\fundoo-Notes\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (C:\Users\anand\Desktop\fundoo-Notes\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (C:\Users\anand\Desktop\fundoo-Notes\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (C:\Users\anand\Desktop\fundoo-Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\anand\Desktop\fundoo-Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/users/login 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2022-02-28T12:26:20.754Z"}
+error: 
+    status - 500 
+    message - ValidationError: "firstName" is required 
+    url - /api/v1/users/register 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-02-28T12:31:03.587Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read properties of null (reading 'emailID')
+    at _callee3$ (C:\Users\anand\Desktop\fundoo-Notes\src\services\/user.service.js:29:20)
+    at tryCatch (C:\Users\anand\Desktop\fundoo-Notes\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (C:\Users\anand\Desktop\fundoo-Notes\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (C:\Users\anand\Desktop\fundoo-Notes\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (C:\Users\anand\Desktop\fundoo-Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\anand\Desktop\fundoo-Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/users/login 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2022-02-28T12:31:13.645Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-28T12:32:22.687Z"}
+info: Connected to the database. {"timestamp":"2022-02-28T12:32:22.711Z"}
+error: 
+    status - 500 
+    message - Error: User is not Registered
+    at _callee3$ (C:\Users\anand\Desktop\fundoo-Notes\src\services\/user.service.js:40:9)
+    at tryCatch (C:\Users\anand\Desktop\fundoo-Notes\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (C:\Users\anand\Desktop\fundoo-Notes\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (C:\Users\anand\Desktop\fundoo-Notes\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (C:\Users\anand\Desktop\fundoo-Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\anand\Desktop\fundoo-Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/users/login 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2022-02-28T12:32:25.306Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-28T12:34:33.567Z"}
+info: Connected to the database. {"timestamp":"2022-02-28T12:34:33.592Z"}
+error: 
+    status - 500 
+    message - Error: User is not Registered
+    at _callee3$ (C:\Users\anand\Desktop\fundoo-Notes\src\services\/user.service.js:30:11)
+    at tryCatch (C:\Users\anand\Desktop\fundoo-Notes\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (C:\Users\anand\Desktop\fundoo-Notes\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (C:\Users\anand\Desktop\fundoo-Notes\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (C:\Users\anand\Desktop\fundoo-Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\anand\Desktop\fundoo-Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/users/login 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2022-02-28T12:34:35.936Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-28T12:35:05.807Z"}
+info: Connected to the database. {"timestamp":"2022-02-28T12:35:05.839Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-28T12:39:57.715Z"}
+info: Connected to the database. {"timestamp":"2022-02-28T12:39:57.765Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-28T12:40:20.147Z"}
+info: Connected to the database. {"timestamp":"2022-02-28T12:40:20.201Z"}
+error: 
+    status - 500 
+    message - SyntaxError: Unexpected token } in JSON at position 57
+    at JSON.parse (<anonymous>)
+    at parse (C:\Users\anand\Desktop\fundoo-Notes\node_modules\body-parser\lib\types\json.js:89:19)
+    at C:\Users\anand\Desktop\fundoo-Notes\node_modules\body-parser\lib\read.js:121:18
+    at invokeCallback (C:\Users\anand\Desktop\fundoo-Notes\node_modules\raw-body\index.js:224:16)
+    at done (C:\Users\anand\Desktop\fundoo-Notes\node_modules\raw-body\index.js:213:7)
+    at IncomingMessage.onEnd (C:\Users\anand\Desktop\fundoo-Notes\node_modules\raw-body\index.js:273:7)
+    at IncomingMessage.emit (node:events:402:35)
+    at IncomingMessage.emit (node:domain:475:12)
+    at endReadableNT (node:internal/streams/readable:1343:12)
+    at processTicksAndRejections (node:internal/process/task_queues:83:21) 
+    url - /api/v1/users/forget 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2022-02-28T12:41:36.648Z"}
+info: undefined {"accepted":["anandubale11@gmail.com"],"envelope":{"from":"","to":["anandubale11@gmail.com"]},"envelopeTime":1613,"messageId":"<06dcf1b6-9452-28e0-7464-2bb74abdd01f@LAPTOP>","messageSize":549,"messageTime":1167,"rejected":[],"response":"250 2.0.0 OK  1646051968 r12-20020a63a54c000000b00376047bf784sm10050599pgu.23 - gsmtp","timestamp":"2022-02-28T12:41:51.058Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-28T12:44:00.275Z"}
+info: Connected to the database. {"timestamp":"2022-02-28T12:44:00.320Z"}
+info: undefined {"accepted":["anandubale11@gmail.com"],"envelope":{"from":"","to":["anandubale11@gmail.com"]},"envelopeTime":1459,"messageId":"<93d02a88-5ab8-7bac-56f4-aaf523224551@LAPTOP>","messageSize":549,"messageTime":1126,"rejected":[],"response":"250 2.0.0 OK  1646052130 v21-20020a056a00149500b004e15a113300sm14033249pfu.198 - gsmtp","timestamp":"2022-02-28T12:44:32.605Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-28T12:46:28.281Z"}
+info: Connected to the database. {"timestamp":"2022-02-28T12:46:28.319Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-28T12:46:44.027Z"}
+info: Connected to the database. {"timestamp":"2022-02-28T12:46:44.082Z"}
+info: undefined {"accepted":["anandubale11@gmail.com"],"envelope":{"from":"","to":["anandubale11@gmail.com"]},"envelopeTime":1353,"messageId":"<b08faeaf-6538-af2d-946c-6c667a1f531a@LAPTOP>","messageSize":549,"messageTime":1427,"rejected":[],"response":"250 2.0.0 OK  1646052274 bh11-20020a056a00308b00b004f40144cf76sm4877574pfb.142 - gsmtp","timestamp":"2022-02-28T12:46:57.504Z"}
+info: undefined {"accepted":["anandubale11@gmail.com"],"envelope":{"from":"","to":["anandubale11@gmail.com"]},"envelopeTime":1187,"messageId":"<8a9c99ec-e0f9-01f6-1c05-fb647986610f@LAPTOP>","messageSize":549,"messageTime":1029,"rejected":[],"response":"250 2.0.0 OK  1646052361 q8-20020a056a00088800b004bca31c8e56sm14303943pfj.115 - gsmtp","timestamp":"2022-02-28T12:48:23.523Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-28T12:55:55.851Z"}
+info: Connected to the database. {"timestamp":"2022-02-28T12:55:55.882Z"}
+info: undefined {"accepted":["anandubale11@gmail.com"],"envelope":{"from":"","to":["anandubale11@gmail.com"]},"envelopeTime":995,"messageId":"<afff3c73-7731-3eab-75ff-047be9b6c08a@LAPTOP>","messageSize":549,"messageTime":1258,"rejected":[],"response":"250 2.0.0 OK  1646052817 t41-20020a056a0013a900b004e167af0c0dsm14171239pfg.89 - gsmtp","timestamp":"2022-02-28T12:56:00.526Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-28T12:56:59.960Z"}
+info: Connected to the database. {"timestamp":"2022-02-28T12:56:59.987Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-28T12:58:02.509Z"}
+info: Connected to the database. {"timestamp":"2022-02-28T12:58:02.533Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-28T12:59:45.664Z"}
+info: Connected to the database. {"timestamp":"2022-02-28T12:59:45.686Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-28T13:02:28.607Z"}
+info: Connected to the database. {"timestamp":"2022-02-28T13:02:28.630Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-28T13:02:45.622Z"}
+info: Connected to the database. {"timestamp":"2022-02-28T13:02:45.648Z"}
+error: getaddrinfo ENOTFOUND naluzotan.com {"code":"EDNS","command":"CONN","errno":-3008,"hostname":"naluzotan.com","syscall":"getaddrinfo","timestamp":"2022-02-28T13:02:50.407Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-02-28T13:04:38.855Z"}
+info: Connected to the database. {"timestamp":"2022-02-28T13:04:38.882Z"}

@@ -22,15 +22,15 @@ function _getRequireWildcardCache(nodeInterop) { if (typeof WeakMap !== "functio
 function _interopRequireWildcard(obj, nodeInterop) { if (!nodeInterop && obj && obj.__esModule) { return obj; } if (obj === null || _typeof(obj) !== "object" && typeof obj !== "function") { return { "default": obj }; } var cache = _getRequireWildcardCache(nodeInterop); if (cache && cache.has(obj)) { return cache.get(obj); } var newObj = {}; var hasPropertyDescriptor = Object.defineProperty && Object.getOwnPropertyDescriptor; for (var key in obj) { if (key !== "default" && Object.prototype.hasOwnProperty.call(obj, key)) { var desc = hasPropertyDescriptor ? Object.getOwnPropertyDescriptor(obj, key) : null; if (desc && (desc.get || desc.set)) { Object.defineProperty(newObj, key, desc); } else { newObj[key] = obj[key]; } } } newObj["default"] = obj; if (cache) { cache.set(obj, newObj); } return newObj; }
 
 var router = _express["default"].Router(); //route to get all users
+// router.get('/getallusers', userController.getAllUsers);
+//route to create a new user
 
-
-router.get('/getallusers', userController.getAllUsers); //route to create a new user
 
 router.post('/userregister', _user2.newUserValidator, userController.userRegistration); // // for login
 
 router.get('/login', userController.login); //route to get a single user by their user id
-
-router.get('/:_id', _auth.userAuth, userController.getUser); //route to update a single user by their user id
+// router.get('/:_id', userAuth, userController.getUser);
+//route to update a single user by their user id
 
 router.put('/:_id', userController.updateUser); //route to delete a single user by their user id
 

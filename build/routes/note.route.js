@@ -24,21 +24,23 @@ function _interopRequireWildcard(obj, nodeInterop) { if (!nodeInterop && obj && 
 var noteRouter = _express["default"].Router(); //create note:
 
 
-noteRouter.post('', _note2.newNoteValidator, noteController.create); //authentification for Created Post:
+noteRouter.post('', _auth.userAuth, noteController.create); //get all notes 
 
-noteRouter.get('/auth/', _auth.NoteAuth); //get all notes 
+noteRouter.get('/auth', _auth.userAuth, noteController.AllUsers); //get note by id
 
-noteRouter.get('', noteController.AllUsers); //get note by id
+noteRouter.get('/auth/:_id', _auth.userAuth, noteController.getUserById); //update using put
 
-noteRouter.get('/:_id', noteController.getUserById); //update using put
+noteRouter.put('/auth/:_id', _auth.userAuth, noteController.updateById); //delete by id:
 
-noteRouter.put('/:_id', noteController.updateById); //delete by id:
-
-noteRouter["delete"]('/:_id', noteController.deleteUser); //understadinf user authentification:
+noteRouter["delete"]('/auth/:_id', _auth.userAuth, noteController.deleteUser); //understadinf user authentification:
 // noteRouter.get('/auth/:_id',noteController.getUser, userAuth );
 //have to change is arcive to true by id
 
 noteRouter.put('/archive/:_id', noteController.MakeArchive);
 noteRouter.put('/delete/:_id', noteController.DeleteNote);
-var _default = noteRouter;
+var _default = noteRouter; //functions that have access to the 
+//request object ( req )
+//the response object ( res )
+//next middleware function in the application's request-response cycle.
+
 exports["default"] = _default;

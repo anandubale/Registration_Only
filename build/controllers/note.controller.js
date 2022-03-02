@@ -38,48 +38,39 @@ var create = /*#__PURE__*/function () {
         switch (_context.prev = _context.next) {
           case 0:
             _context.prev = 0;
-            _context.next = 3;
+            req.body.UserID = req.body.data.id; //its a user id automatically created one
+
+            console.log(req.body.UserID);
+            _context.next = 5;
             return NoteService.createNotes(req.body);
 
-          case 3:
+          case 5:
             tokenToCreatedData = _context.sent;
             res.status(_httpStatusCodes["default"].OK).json({
               code: _httpStatusCodes["default"].OK,
               data: tokenToCreatedData,
               message: 'note added'
             });
-            _context.next = 10;
+            _context.next = 12;
             break;
 
-          case 7:
-            _context.prev = 7;
+          case 9:
+            _context.prev = 9;
             _context.t0 = _context["catch"](0);
             next(_context.t0);
 
-          case 10:
+          case 12:
           case "end":
             return _context.stop();
         }
       }
-    }, _callee, null, [[0, 7]]);
+    }, _callee, null, [[0, 9]]);
   }));
 
   return function create(_x, _x2, _x3) {
     return _ref.apply(this, arguments);
   };
-}(); // export const CreateAuth =  async (req,res,next) =>{
-//   try {
-//     const authentication = await NoteService.Auth(req.body);
-//     res.status(HttpStatus.OK).json({
-//       code:HttpStatus.OK,
-//       data:authentication,
-//       message: 'authentication is done!'
-//     })
-//   } catch (error) {
-//     next(error);
-//   }
-// }
-
+}();
 
 exports.create = create;
 
@@ -91,30 +82,31 @@ var AllUsers = /*#__PURE__*/function () {
         switch (_context2.prev = _context2.next) {
           case 0:
             _context2.prev = 0;
-            _context2.next = 3;
-            return NoteService.AllUsers();
+            req.body.UserID = req.body.data.id;
+            _context2.next = 4;
+            return NoteService.AllUsers(req.body.UserID);
 
-          case 3:
+          case 4:
             AllUserdata = _context2.sent;
             res.status(_httpStatusCodes["default"].OK).json({
               code: _httpStatusCodes["default"].OK,
               data: AllUserdata,
               message: 'All notes fetched successfully'
             });
-            _context2.next = 10;
+            _context2.next = 11;
             break;
 
-          case 7:
-            _context2.prev = 7;
+          case 8:
+            _context2.prev = 8;
             _context2.t0 = _context2["catch"](0);
             next(_context2.t0);
 
-          case 10:
+          case 11:
           case "end":
             return _context2.stop();
         }
       }
-    }, _callee2, null, [[0, 7]]);
+    }, _callee2, null, [[0, 8]]);
   }));
 
   return function AllUsers(_x4, _x5, _x6) {
@@ -133,30 +125,32 @@ var getUserById = /*#__PURE__*/function () {
         switch (_context3.prev = _context3.next) {
           case 0:
             _context3.prev = 0;
-            _context3.next = 3;
-            return NoteService.getUserById(req.params._id);
+            req.body.UserID = req.body.data.id; //its a user id automatically created one
 
-          case 3:
+            _context3.next = 4;
+            return NoteService.getUserById(req.params._id, req.body.UserID);
+
+          case 4:
             dataById = _context3.sent;
             res.status(_httpStatusCodes["default"].OK).json({
               code: _httpStatusCodes["default"].OK,
               data: dataById,
               message: "Successfully found the note"
             });
-            _context3.next = 10;
+            _context3.next = 11;
             break;
 
-          case 7:
-            _context3.prev = 7;
+          case 8:
+            _context3.prev = 8;
             _context3.t0 = _context3["catch"](0);
             next(_context3.t0);
 
-          case 10:
+          case 11:
           case "end":
             return _context3.stop();
         }
       }
-    }, _callee3, null, [[0, 7]]);
+    }, _callee3, null, [[0, 8]]);
   }));
 
   return function getUserById(_x7, _x8, _x9) {
@@ -215,30 +209,30 @@ var deleteUser = /*#__PURE__*/function () {
         switch (_context5.prev = _context5.next) {
           case 0:
             _context5.prev = 0;
-            _context5.next = 3;
-            return NoteService.deleteUser(req.params._id);
+            req.body.UserID = req.body.data.id;
+            _context5.next = 4;
+            return NoteService.deleteUser(req.params._id, req.body.UserID);
 
-          case 3:
+          case 4:
             res.status(_httpStatusCodes["default"].OK).json({
               code: _httpStatusCodes["default"].OK,
               data: [],
-              //why?
               message: "Successfully deleted note"
             });
-            _context5.next = 9;
+            _context5.next = 10;
             break;
 
-          case 6:
-            _context5.prev = 6;
+          case 7:
+            _context5.prev = 7;
             _context5.t0 = _context5["catch"](0);
             next(_context5.t0);
 
-          case 9:
+          case 10:
           case "end":
             return _context5.stop();
         }
       }
-    }, _callee5, null, [[0, 6]]);
+    }, _callee5, null, [[0, 7]]);
   }));
 
   return function deleteUser(_x13, _x14, _x15) {
@@ -257,7 +251,7 @@ var MakeArchive = /*#__PURE__*/function () {
           case 0:
             _context6.prev = 0;
             _context6.next = 3;
-            return NoteService.MakeArchive(req.params._id, req.body);
+            return NoteService.MakeArchive(req.params._id);
 
           case 3:
             returnData = _context6.sent;
@@ -298,7 +292,7 @@ var DeleteNote = /*#__PURE__*/function () {
           case 0:
             _context7.prev = 0;
             _context7.next = 3;
-            return NoteService.DeleteNote(req.params._id, req.body);
+            return NoteService.DeleteNote(req.params._id);
 
           case 3:
             CheckChanges = _context7.sent;
