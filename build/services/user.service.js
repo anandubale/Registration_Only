@@ -114,7 +114,7 @@ var login = /*#__PURE__*/function () {
             token = _jsonwebtoken["default"].sign({
               "emailID": user.emailID,
               "id": user._id
-            }, 'process.env.SECRET_CODE');
+            }, process.env.SECRET_CODE);
             return _context3.abrupt("return", token);
 
           case 10:

@@ -1,0 +1,300 @@
+info: ::1 - - [01/Mar/2022:07:33:27 +0000] "POST /api/v1/users/register HTTP/1.1" 500 90 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [01/Mar/2022:07:33:37 +0000] "POST /api/v1/users/register HTTP/1.1" 201 321 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [01/Mar/2022:07:33:51 +0000] "GET /api/v1/users/login HTTP/1.1" 200 241 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [01/Mar/2022:07:34:21 +0000] "GET /api/v1/users/forget HTTP/1.1" 200 64 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [01/Mar/2022:07:37:48 +0000] "GET /api/v1/users/forget HTTP/1.1" 200 64 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [01/Mar/2022:07:37:49 +0000] "GET /api/v1/users/forget HTTP/1.1" 200 64 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [01/Mar/2022:07:37:49 +0000] "GET /api/v1/users/forget HTTP/1.1" 200 64 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [01/Mar/2022:07:37:50 +0000] "GET /api/v1/users/forget HTTP/1.1" 200 64 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [01/Mar/2022:07:38:41 +0000] "GET /api/v1/users/forget HTTP/1.1" 200 64 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [01/Mar/2022:07:38:42 +0000] "GET /api/v1/users/forget HTTP/1.1" 200 64 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [01/Mar/2022:07:38:43 +0000] "GET /api/v1/users/forget HTTP/1.1" 200 64 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [01/Mar/2022:07:41:43 +0000] "GET /api/v1/users/getallusers HTTP/1.1" 500 63 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [01/Mar/2022:07:43:02 +0000] "GET /api/v1/users/getallusers HTTP/1.1" 200 4312 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [01/Mar/2022:07:45:21 +0000] "GET /api/v1/forget HTTP/1.1" 404 47 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [01/Mar/2022:07:45:30 +0000] "GET /api/v1/users/forget HTTP/1.1" 200 64 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [01/Mar/2022:07:51:46 +0000] "GET /api/v1/users/forget HTTP/1.1" 500 85 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [01/Mar/2022:07:53:05 +0000] "GET /api/v1/users/forget HTTP/1.1" 200 64 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [01/Mar/2022:08:02:00 +0000] "GET /api/v1/users/forget HTTP/1.1" 200 64 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [01/Mar/2022:08:08:55 +0000] "GET /eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbElEIjoiYW5hbmR1YmFsZTExQGdtYWlsLmNvbSIsImlkIjoiNjIxMzdhY2Y0YmEwOWQyNjA4NzcxNWNmIiwiaWF0IjoxNjQ2MTIxNzIwfQ.TCoU265hBsUzrtNjeUH_Ehb8zxc7MKgptqWSfqednPs HTTP/1.1" 404 47 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.12 Safari/537.36"
+
+info: ::1 - - [01/Mar/2022:08:08:57 +0000] "GET /favicon.ico HTTP/1.1" 404 47 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.12 Safari/537.36"
+
+info: ::1 - - [01/Mar/2022:12:31:33 +0000] "GET /api/v1/users/login HTTP/1.1" 200 241 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [01/Mar/2022:12:34:35 +0000] "POST /api/v1/note HTTP/1.1" 400 57 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [01/Mar/2022:12:35:53 +0000] "GET /api/v1/users/login HTTP/1.1" 200 241 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [01/Mar/2022:12:36:47 +0000] "POST /api/v1/note HTTP/1.1" 400 57 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [01/Mar/2022:12:47:51 +0000] "PUT /api/v1/note/reset HTTP/1.1" 404 47 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [01/Mar/2022:12:48:19 +0000] "PUT /api/v1/users/reset HTTP/1.1" 400 57 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [01/Mar/2022:12:53:04 +0000] "PUT /api/v1/users/reset HTTP/1.1" 500 56 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [01/Mar/2022:12:55:10 +0000] "PUT /api/v1/users/reset HTTP/1.1" 500 160 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [01/Mar/2022:12:55:57 +0000] "PUT /api/v1/users/reset HTTP/1.1" 500 160 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [01/Mar/2022:12:56:00 +0000] "PUT /api/v1/users/reset HTTP/1.1" 500 160 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [01/Mar/2022:12:57:29 +0000] "PUT /api/v1/users/reset HTTP/1.1" 500 56 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [01/Mar/2022:13:00:48 +0000] "PUT /api/v1/users/reset HTTP/1.1" 500 160 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [01/Mar/2022:13:02:36 +0000] "PUT /api/v1/users/reset HTTP/1.1" 500 147 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [01/Mar/2022:13:02:39 +0000] "PUT /api/v1/users/reset HTTP/1.1" 500 147 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [01/Mar/2022:13:06:56 +0000] "GET /eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbElEIjoiYW5hbmR1YmFsZTExQGdtYWlsLmNvbSIsImlkIjoiNjIxMzdhY2Y0YmEwOWQyNjA4NzcxNWNmIiwiaWF0IjoxNjQ2MTIxNzIwfQ.TCoU265hBsUzrtNjeUH_Ehb8zxc7MKgptqWSfqednPs HTTP/1.1" 404 47 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.12 Safari/537.36"
+
+info: ::1 - - [01/Mar/2022:13:50:19 +0000] "PUT /api/v1/users/reset/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbElEIjoiYW5hbmR1YmFsZTExQGdtYWlsLmNvbSIsImlkIjoiNjIxMzdhY2Y0YmEwOWQyNjA4NzcxNWNmIiwiaWF0IjoxNjQ2MTIxNzIwfQ.TCoU265hBsUzrtNjeUH_Ehb8zxc7MKgptqWSfqednPs HTTP/1.1" 400 56 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [01/Mar/2022:13:51:02 +0000] "PUT /api/v1/users/reset HTTP/1.1" 500 56 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [01/Mar/2022:13:52:46 +0000] "PUT /api/v1/users/reset HTTP/1.1" 500 160 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [01/Mar/2022:14:00:12 +0000] "PUT /api/v1/users/reset HTTP/1.1" 500 58 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [01/Mar/2022:14:01:45 +0000] "PUT /api/v1/users/reset HTTP/1.1" 500 58 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [01/Mar/2022:14:01:48 +0000] "PUT /api/v1/users/reset HTTP/1.1" 500 58 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [01/Mar/2022:14:01:49 +0000] "PUT /api/v1/users/reset HTTP/1.1" 500 58 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [01/Mar/2022:14:02:15 +0000] "PUT /api/v1/users/reset HTTP/1.1" 500 160 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [01/Mar/2022:14:05:59 +0000] "PUT /api/v1/users/reset HTTP/1.1" 500 160 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [01/Mar/2022:14:12:17 +0000] "GET /api/v1/users/login HTTP/1.1" 500 58 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [01/Mar/2022:14:12:41 +0000] "GET /api/v1/users/login HTTP/1.1" 500 58 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [01/Mar/2022:14:13:07 +0000] "GET /api/v1/users/login HTTP/1.1" 500 58 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [01/Mar/2022:14:13:17 +0000] "GET /api/v1/users HTTP/1.1" 404 47 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [01/Mar/2022:14:13:44 +0000] "GET /api/v1/users HTTP/1.1" 200 4312 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [01/Mar/2022:14:14:29 +0000] "GET /api/v1/users/login HTTP/1.1" 500 58 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [01/Mar/2022:14:19:57 +0000] "POST /api/v1/users/register HTTP/1.1" 201 326 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [01/Mar/2022:14:20:32 +0000] "POST /api/v1/users/register HTTP/1.1" 500 60 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [01/Mar/2022:14:20:42 +0000] "GET /api/v1/users/login HTTP/1.1" 200 246 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [01/Mar/2022:14:30:40 +0000] "POST /api/v1/note HTTP/1.1" 200 291 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [01/Mar/2022:15:20:04 +0000] "PUT /api/v1/note/621e2e10d3222c2ed82b40c7 HTTP/1.1" 200 350 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [01/Mar/2022:15:35:24 +0000] "PUT /api/v1/note/archive/621e2e10d3222c2ed82b40c7 HTTP/1.1" 200 305 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [01/Mar/2022:15:35:55 +0000] "GET /api/v1/note/621e2e10d3222c2ed82b40c7 HTTP/1.1" 200 316 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [01/Mar/2022:15:37:40 +0000] "POST /api/v1/note HTTP/1.1" 200 297 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [01/Mar/2022:15:38:06 +0000] "PUT /api/v1/note/archive/621e3dc432885022d86450d2 HTTP/1.1" 200 303 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [01/Mar/2022:15:38:56 +0000] "PUT /api/v1/note HTTP/1.1" 404 47 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [01/Mar/2022:15:39:08 +0000] "POST /api/v1/note HTTP/1.1" 200 334 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [01/Mar/2022:15:39:49 +0000] "PUT /api/v1/note/archive/621e3e1c32885022d86450d5 HTTP/1.1" 200 340 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [01/Mar/2022:15:39:51 +0000] "PUT /api/v1/note/archive/621e3e1c32885022d86450d5 HTTP/1.1" 200 340 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [01/Mar/2022:15:39:52 +0000] "PUT /api/v1/note/archive/621e3e1c32885022d86450d5 HTTP/1.1" 200 340 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [01/Mar/2022:15:39:56 +0000] "PUT /api/v1/note/archive/621e3e1c32885022d86450d5 HTTP/1.1" 200 340 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [01/Mar/2022:15:40:01 +0000] "PUT /api/v1/note/archive/621e3e1c32885022d86450d5 HTTP/1.1" 200 340 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [01/Mar/2022:15:41:05 +0000] "PUT /api/v1/note/archive/621e3e1c32885022d86450d5 HTTP/1.1" 500 83 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [01/Mar/2022:15:41:22 +0000] "PUT /api/v1/note/archive/621e3e1c32885022d86450d5 HTTP/1.1" 200 340 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [01/Mar/2022:15:41:25 +0000] "PUT /api/v1/note/archive/621e3e1c32885022d86450d5 HTTP/1.1" 200 340 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [01/Mar/2022:15:41:27 +0000] "PUT /api/v1/note/archive/621e3e1c32885022d86450d5 HTTP/1.1" 200 340 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [01/Mar/2022:15:41:29 +0000] "PUT /api/v1/note/archive/621e3e1c32885022d86450d5 HTTP/1.1" 200 340 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [01/Mar/2022:15:43:53 +0000] "PUT /api/v1/note/archive/621e3e1c32885022d86450d5 HTTP/1.1" 200 340 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [01/Mar/2022:15:43:56 +0000] "PUT /api/v1/note/archive/621e3e1c32885022d86450d5 HTTP/1.1" 200 340 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [01/Mar/2022:15:43:57 +0000] "PUT /api/v1/note/archive/621e3e1c32885022d86450d5 HTTP/1.1" 200 340 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [01/Mar/2022:15:43:58 +0000] "PUT /api/v1/note/archive/621e3e1c32885022d86450d5 HTTP/1.1" 200 340 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [01/Mar/2022:15:50:10 +0000] "PUT /api/v1/note/archive/621e3e1c32885022d86450d5 HTTP/1.1" 500 178 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [01/Mar/2022:15:53:51 +0000] "PUT /api/v1/note/archive/621e3e1c32885022d86450d5 HTTP/1.1" 500 160 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [01/Mar/2022:15:53:54 +0000] "PUT /api/v1/note/archive/621e3e1c32885022d86450d5 HTTP/1.1" 500 160 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [01/Mar/2022:15:53:55 +0000] "PUT /api/v1/note/archive/621e3e1c32885022d86450d5 HTTP/1.1" 500 160 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [01/Mar/2022:15:53:56 +0000] "PUT /api/v1/note/archive/621e3e1c32885022d86450d5 HTTP/1.1" 500 160 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [01/Mar/2022:15:53:56 +0000] "PUT /api/v1/note/archive/621e3e1c32885022d86450d5 HTTP/1.1" 500 160 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [01/Mar/2022:15:53:57 +0000] "PUT /api/v1/note/archive/621e3e1c32885022d86450d5 HTTP/1.1" 500 160 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [01/Mar/2022:15:53:58 +0000] "PUT /api/v1/note/archive/621e3e1c32885022d86450d5 HTTP/1.1" 500 160 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [01/Mar/2022:15:54:00 +0000] "PUT /api/v1/note/archive/621e3e1c32885022d86450d5 HTTP/1.1" 500 160 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [01/Mar/2022:15:54:00 +0000] "PUT /api/v1/note/archive/621e3e1c32885022d86450d5 HTTP/1.1" 500 160 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [01/Mar/2022:15:58:35 +0000] "PUT /api/v1/note/archive/621e3e1c32885022d86450d5 HTTP/1.1" 500 140 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [01/Mar/2022:16:24:42 +0000] "GET /api/v1/note/login HTTP/1.1" 500 174 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [01/Mar/2022:16:24:51 +0000] "GET /api/v1/users/login HTTP/1.1" 200 246 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [01/Mar/2022:16:26:12 +0000] "PUT /api/v1/users/reset HTTP/1.1" 400 57 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [01/Mar/2022:16:27:49 +0000] "GET /api/v1/users/forget HTTP/1.1" 200 64 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [01/Mar/2022:16:30:14 +0000] "PUT /api/v1/users/forget HTTP/1.1" 404 47 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [01/Mar/2022:16:30:31 +0000] "PUT /api/v1/users/reset HTTP/1.1" 500 160 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [01/Mar/2022:16:38:46 +0000] "PUT /api/v1/users/reset HTTP/1.1" 404 47 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [01/Mar/2022:16:38:51 +0000] "PUT /api/v1/users/reset HTTP/1.1" 404 47 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [01/Mar/2022:16:39:11 +0000] "PUT /api/v1/users/reset/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbElEIjoiYW5hbmR1YmFsZTExQGdtYWlsLmNvbSIsImlkIjoiNjIxMzdhY2Y0YmEwOWQyNjA4NzcxNWNmIiwiaWF0IjoxNjQ2MTUyMDY5fQ.LRBI_ofySWTBjGYZyFeDZXbS1MF7w4RwpF8fInQALNs HTTP/1.1" 400 56 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [01/Mar/2022:16:39:23 +0000] "PUT /api/v1/users/reset/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbElEIjoiYW5hbmR1YmFsZTExQGdtYWlsLmNvbSIsImlkIjoiNjIxMzdhY2Y0YmEwOWQyNjA4NzcxNWNmIiwiaWF0IjoxNjQ2MTUyMDY5fQ.LRBI_ofySWTBjGYZyFeDZXbS1MF7w4RwpF8fInQALNs HTTP/1.1" 400 56 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [01/Mar/2022:16:39:24 +0000] "PUT /api/v1/users/reset/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbElEIjoiYW5hbmR1YmFsZTExQGdtYWlsLmNvbSIsImlkIjoiNjIxMzdhY2Y0YmEwOWQyNjA4NzcxNWNmIiwiaWF0IjoxNjQ2MTUyMDY5fQ.LRBI_ofySWTBjGYZyFeDZXbS1MF7w4RwpF8fInQALNs HTTP/1.1" 400 56 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [01/Mar/2022:16:39:39 +0000] "PUT /api/v1/users/reset/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbElEIjoiYW5hbmR1YmFsZTExQGdtYWlsLmNvbSIsImlkIjoiNjIxMzdhY2Y0YmEwOWQyNjA4NzcxNWNmIiwiaWF0IjoxNjQ2MTUyMDY5fQ.LRBI_ofySWTBjGYZyFeDZXbS1MF7w4RwpF8fInQALNs HTTP/1.1" 500 58 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [01/Mar/2022:16:40:41 +0000] "PUT /api/v1/users/reset/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbElEIjoiYW5hbmR1YmFsZTExQGdtYWlsLmNvbSIsImlkIjoiNjIxMzdhY2Y0YmEwOWQyNjA4NzcxNWNmIiwiaWF0IjoxNjQ2MTUyMDY5fQ.LRBI_ofySWTBjGYZyFeDZXbS1MF7w4RwpF8fInQALNs HTTP/1.1" 500 140 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [01/Mar/2022:16:41:11 +0000] "PUT /api/v1/users/reset/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbElEIjoiYW5hbmR1YmFsZTExQGdtYWlsLmNvbSIsImlkIjoiNjIxMzdhY2Y0YmEwOWQyNjA4NzcxNWNmIiwiaWF0IjoxNjQ2MTUyMDY5fQ.LRBI_ofySWTBjGYZyFeDZXbS1MF7w4RwpF8fInQALNs HTTP/1.1" 500 58 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [01/Mar/2022:16:41:43 +0000] "PUT /api/v1/users/reset/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbElEIjoiYW5hbmR1YmFsZTExQGdtYWlsLmNvbSIsImlkIjoiNjIxMzdhY2Y0YmEwOWQyNjA4NzcxNWNmIiwiaWF0IjoxNjQ2MTUyMDY5fQ.LRBI_ofySWTBjGYZyFeDZXbS1MF7w4RwpF8fInQALNs HTTP/1.1" 500 140 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [01/Mar/2022:16:42:13 +0000] "PUT /api/v1/users/reset HTTP/1.1" 500 140 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [01/Mar/2022:16:42:15 +0000] "PUT /api/v1/users/reset HTTP/1.1" 500 140 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [01/Mar/2022:16:42:16 +0000] "PUT /api/v1/users/reset HTTP/1.1" 500 140 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [01/Mar/2022:16:44:34 +0000] "PUT /api/v1/users/reset HTTP/1.1" 500 140 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [01/Mar/2022:16:44:55 +0000] "PUT /api/v1/users/reset HTTP/1.1" 500 140 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [01/Mar/2022:16:46:11 +0000] "PUT /api/v1/users/reset HTTP/1.1" 500 140 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [01/Mar/2022:16:49:26 +0000] "PUT /api/v1/users/reset HTTP/1.1" 500 54 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [01/Mar/2022:16:49:45 +0000] "PUT /api/v1/users/reset HTTP/1.1" 500 183 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [01/Mar/2022:16:50:24 +0000] "PUT /api/v1/users/reset HTTP/1.1" 500 182 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [01/Mar/2022:16:51:00 +0000] "PUT /api/v1/users/reset HTTP/1.1" 500 183 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [01/Mar/2022:16:51:02 +0000] "PUT /api/v1/users/reset HTTP/1.1" 500 183 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [01/Mar/2022:16:51:55 +0000] "PUT /api/v1/users/reset HTTP/1.1" 500 49 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [01/Mar/2022:16:53:07 +0000] "PUT /api/v1/users/reset HTTP/1.1" 500 160 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [01/Mar/2022:16:55:04 +0000] "PUT /api/v1/users/reset HTTP/1.1" 500 160 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [01/Mar/2022:16:57:18 +0000] "PUT /api/v1/users/reset HTTP/1.1" 500 160 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [01/Mar/2022:16:57:48 +0000] "PUT /api/v1/users/reset HTTP/1.1" 500 49 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [01/Mar/2022:16:59:13 +0000] "PUT /api/v1/users/reset HTTP/1.1" 500 143 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [01/Mar/2022:17:00:05 +0000] "PUT /api/v1/users/reset HTTP/1.1" 500 160 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [01/Mar/2022:17:04:55 +0000] "PUT /api/v1/users/reset HTTP/1.1" 500 160 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [01/Mar/2022:17:05:19 +0000] "PUT /api/v1/users/reset HTTP/1.1" 500 49 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [01/Mar/2022:17:07:32 +0000] "PUT /api/v1/users/reset HTTP/1.1" 500 55 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [01/Mar/2022:17:10:38 +0000] "PUT /api/v1/users/reset HTTP/1.1" 200 328 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [01/Mar/2022:17:11:45 +0000] "PUT /api/v1/users/reset HTTP/1.1" 200 328 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [01/Mar/2022:17:12:53 +0000] "PUT /api/v1/users/reset HTTP/1.1" 200 328 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [01/Mar/2022:17:14:09 +0000] "PUT /api/v1/users/reset HTTP/1.1" 200 328 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [01/Mar/2022:17:19:23 +0000] "GET /api/v1/users HTTP/1.1" 200 4580 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [01/Mar/2022:17:20:07 +0000] "GET /api/v1/notes/621e2b8de19d9834685ebc76 HTTP/1.1" 404 47 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [01/Mar/2022:17:20:43 +0000] "GET /api/v1/note/all/621e2b8de19d9834685ebc76 HTTP/1.1" 404 47 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [01/Mar/2022:17:21:45 +0000] "GET /api/v1/users HTTP/1.1" 200 4580 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [01/Mar/2022:17:22:40 +0000] "GET /api/v1/login HTTP/1.1" 404 47 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [01/Mar/2022:17:22:53 +0000] "GET /api/v1/users/login HTTP/1.1" 500 57 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [01/Mar/2022:17:25:39 +0000] "POST /api/v1/users HTTP/1.1" 404 47 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [01/Mar/2022:17:26:25 +0000] "POST /api/v1/users HTTP/1.1" 404 47 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [01/Mar/2022:17:27:01 +0000] "POST /api/v1/users/ HTTP/1.1" 404 47 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [01/Mar/2022:17:28:00 +0000] "POST /api/v1/users HTTP/1.1" 404 47 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [01/Mar/2022:17:31:00 +0000] "GET /api/v1/all HTTP/1.1" 404 47 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [01/Mar/2022:17:31:17 +0000] "GET /api/v1/note/all HTTP/1.1" 400 57 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [01/Mar/2022:17:32:21 +0000] "POST /api/v1/users/all HTTP/1.1" 404 47 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [01/Mar/2022:17:32:33 +0000] "POST /api/v1/users/ HTTP/1.1" 404 47 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [01/Mar/2022:17:32:34 +0000] "POST /api/v1/users/ HTTP/1.1" 404 47 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [01/Mar/2022:17:32:37 +0000] "POST /api/v1/users/ HTTP/1.1" 404 47 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [01/Mar/2022:17:34:29 +0000] "POST /api/v1/users/register HTTP/1.1" 201 324 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [01/Mar/2022:17:34:53 +0000] "GET /api/v1/users/login HTTP/1.1" 200 241 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [01/Mar/2022:17:35:56 +0000] "GET /api/v1/users/forget HTTP/1.1" 200 64 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [01/Mar/2022:17:39:17 +0000] "GET /api/v1/users/reset HTTP/1.1" 404 47 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [01/Mar/2022:17:39:29 +0000] "PUT /api/v1/users/reset HTTP/1.1" 200 328 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [01/Mar/2022:17:41:29 +0000] "GET /eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbElEIjoiYW5hbmR1YmFsZTExQGdtYWlsLmNvbSIsImlkIjoiNjIxMzdhY2Y0YmEwOWQyNjA4NzcxNWNmIiwiaWF0IjoxNjQ2MTU2MTU2fQ.cbA3FbkV7BS6la3p6pi_2MesNTicBW7Icyrr2EZ63FQ HTTP/1.1" 404 47 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.12 Safari/537.36"
+
+info: ::1 - - [01/Mar/2022:17:42:50 +0000] "GET /api/v1/users/forget HTTP/1.1" 200 64 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [01/Mar/2022:17:43:18 +0000] "GET /eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbElEIjoiYW5hbmR1YmFsZTExQGdtYWlsLmNvbSIsImlkIjoiNjIxMzdhY2Y0YmEwOWQyNjA4NzcxNWNmIiwiaWF0IjoxNjQ2MTU2NTcwfQ.f5fBVjGm9yY2lmkTnjxdvv61wI5CSA7XGOKqWe2cmxw HTTP/1.1" 404 47 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.12 Safari/537.36"
+

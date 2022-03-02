@@ -1,6 +1,7 @@
 import User from '../models/user.model';
 import bcrypt from "bcrypt";
 import jwt from 'jsonwebtoken';
+import {sendMailTo} from '../utils/helper.js';
 
 //get all users
 
@@ -25,15 +26,11 @@ export const userRegistration = async (body) => {
                       //emailID + password = body
 export const login = async  (body)=>{                            
   const user = await User.findOne({emailID: body.emailID})
-  //                               emailId: anandubale11@gmail.com
-
-
-
- if(user != null){
+ 
+  if(user != null){
    const validPassword = bcrypt.compareSync(body.password,user.password);
    if(validPassword ){
-    // var jwt = require('jsonwebtoken');
-    const token = jwt.sign({"emailID": user.emailID,"id":user._id},'process.env.SECRET_CODE');
+    const token = jwt.sign({"emailID": user.emailID,"id":user._id}, process.env.SECRET_CODE1);
     return token;
    }
    else{
@@ -42,32 +39,41 @@ export const login = async  (body)=>{
  }
  else{
   throw new Error('User is not Registered');
- }
+
+}
 }
 
 
-//update single user
-export const updateUser = async (_id, body) => {
-  const data = await User.findByIdAndUpdate(
-    {
-      _id
-    },
-    body,
-    {
-      new: true
-    }
-  );
-  return data;
-};
 
-//delete single user
-export const deleteUser = async (id) => {
-  await User.findByIdAndDelete(id);
-  return '';
-};
 
-//get single user
-export const getUser = async (id) => {
-  const data = await User.findById(id);
-  return data;
-};
+export const forgetPassword = async (body) => {
+
+  const storedData = await User.findOne({email: body.emailID})
+  if(storedData.emailID != null ){
+    const token = jwt.sign({"emailID": storedData.emailID,"id":storedData._id},process.env.SECRET_CODE2 );
+    const generateMail = sendMailTo(storedData.emailID, token);
+    return generateMail;
+  }
+  else{
+    throw new Error("email is not registered")
+  }
+}
+
+
+
+// export const resetPassword = async (body) => {
+// const resetPass = await User.findByIdAndUpdate( body.UserID,
+//   body,
+//     {
+//         $set: { password: body.password },
+//     }
+//   );
+//   body,
+//   {
+//     new :true 
+//   }
+// console.log("Changed Password: " + resetPass.password);
+//   const hashP = bcrypt.hashSync(resetPass.password ,10);
+//   resetPass.password = hashP;
+//   return resetPass;
+// }

@@ -30,4 +30,3 @@ const noteSchema = new Schema(
 
  export default model('Note', noteSchema);
 
-
