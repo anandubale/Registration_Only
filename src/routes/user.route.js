@@ -20,7 +20,7 @@ router.get('/login', userController.login);
 router.get('/forget',userController.forgetPassword)
 
 
-// router.put('/reset',userAuth2,userController.resetPassword)
+router.put('/reset',userAuth2,userController.resetPassword)
 
 
 export default router;

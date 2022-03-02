@@ -61,19 +61,22 @@ export const forgetPassword = async (body) => {
 
 
 
-// export const resetPassword = async (body) => {
-// const resetPass = await User.findByIdAndUpdate( body.UserID,
-//   body,
-//     {
-//         $set: { password: body.password },
-//     }
-//   );
-//   body,
-//   {
-//     new :true 
-//   }
-// console.log("Changed Password: " + resetPass.password);
-//   const hashP = bcrypt.hashSync(resetPass.password ,10);
-//   resetPass.password = hashP;
-//   return resetPass;
-// }
+export const resetPassword = async (body) => {
+const resetPass = await User.findByIdAndUpdate( body.UserID,
+  body,
+    {
+        $set: { password: body.password },
+    }
+  );
+  body,
+  {
+    new :true 
+  }
+console.log("Changed Password: " + resetPass.password);
+  const hashP = bcrypt.hashSync(resetPass.password ,10);
+  resetPass.password = hashP;
+  return resetPass;
+}
+
+
+

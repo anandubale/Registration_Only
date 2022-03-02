@@ -69,22 +69,22 @@ export const forgetPassword = async (req,res,next)=>{
 
 
 
-// export const resetPassword = async (req,res,next) => {
-//   try {
-//     req.body.UserID = req.body.data.id;
-//     console.log(req.body);
-//     console.log(req.body.password);
-//     const resetPasswordData = await UserService.resetPassword(req.body);
-//     res.status(HttpStatus.OK).json({
-//       code: HttpStatus.OK,
-//       data : resetPasswordData,
-//       message: "password reset successfully"
-//     })
-//   } catch (error) {
-//     next(error);
-//   }
+export const resetPassword = async (req,res,next) => {
+  try {
+    req.body.UserID = req.body.data.id;
+    console.log(req.body);
+    console.log(req.body.password);
+    const resetPasswordData = await UserService.resetPassword(req.body);
+    res.status(HttpStatus.OK).json({
+      code: HttpStatus.OK,
+      data : resetPasswordData,
+      message: "password reset successfully"
+    })
+  } catch (error) {
+    next(error);
+  }
 
-// }
+}
 
 
 
