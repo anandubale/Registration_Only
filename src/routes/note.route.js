@@ -1,31 +1,33 @@
 import express from 'express';
 import * as noteController from '../controllers/note.controller';
 import { newNoteValidator } from '../validators/note.validator';
-import { userAuth1 } from '../middlewares/auth.middleware';
+import { NoteAuthentication } from '../middlewares/auth.middleware';
 
 
 const noteRouter = express.Router();
 
 //create note:
-noteRouter.post('/', userAuth1,noteController.create);
+noteRouter.post('', NoteAuthentication,noteController.create);
 
 //get all notes 
-noteRouter.get('/all',userAuth1, noteController.AllUsers);
+noteRouter.get('',NoteAuthentication, noteController.AllUsers);
 
 //get note by id
-noteRouter.get('/:_id',userAuth1,noteController.getUserById);
+noteRouter.get('/:_id',NoteAuthentication,noteController.getUserById);
 
 //update using put
-noteRouter.put('/:_id', userAuth1,noteController.updateById);
+noteRouter.put('/:_id', NoteAuthentication,noteController.updateById);
 
 //delete by id:
 
-noteRouter.delete('/:_id', userAuth1,noteController.deleteUser);
+noteRouter.delete('/:_id', NoteAuthentication,noteController.deleteNote);
 
 //have to change is arcive to true by id
-noteRouter.put('/archive/:_id',userAuth1,noteController.MakeArchive)
+noteRouter.put('/archive/:_id',NoteAuthentication,noteController.MakeArchive)
 
 //have to change is trash to true by id
-noteRouter.put('/trash/:_id',noteController.TrashNote)
+noteRouter.put('/trash/:_id',NoteAuthentication,noteController.TrashNote)
 
 export default noteRouter;
+
+

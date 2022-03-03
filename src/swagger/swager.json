@@ -1,0 +1,615 @@
+{   
+    "swagger" : "2.0",
+    "info" : 
+    {
+        "version" : "v1",
+        "title" :  "Fundoo Notes",
+        "descreption" :  "Create Notes and Customiz those"
+    },
+
+    "host" : "localhost:3000",
+    "basePath" : "/api/v1/",
+    "tags" : 
+    [
+        {
+            "name" : "Express-CLI",
+            "descreption" : "Creating User"
+        }
+    ],
+    "schemes" : 
+    [
+        "http"
+    ],
+    "consumes" : 
+    [
+        "application/json"
+    ],
+    "produces" : 
+    [
+        "application/json"
+    ],
+    "paths": 
+    {
+        "/users/register": 
+        {
+            "post": 
+            {
+                "tags": ["REGISTER AND LOGIN"],
+                "description": "Register User",
+                "parameters": 
+                [
+                    {
+                        "name": "Register",
+                        "in": "body",
+                        "description": "Enter deatails to Register New User",
+                        "required" : false,
+                        "schema": 
+                        {
+                            "$ref": "#/definitions/Register"
+                        }
+                    }
+                ],
+                "produces": 
+                [
+                    "application/json"
+                ],
+                "responses": 
+                {
+                    "201": 
+                    {
+                        "description": "New user is created"
+                    },
+                    "500": 
+                    {
+                        "description": "Internal server error"
+                    }
+                }
+            },
+
+            "security": [
+                {
+                  "JWT": []
+                }
+              ]
+
+        },
+
+        "/users/login": 
+        {
+
+            "post": 
+            {
+                "tags": ["REGISTER AND LOGIN"],
+                "description": "Log in User",
+                "parameters": 
+                [
+                    {
+                        "name": "Login",
+                        "in": "body",
+                        "description": "log in user using emailID and password",
+                        "schema": 
+                        {
+                            "$ref": "#/definitions/loging"
+                        }
+                    }
+                ],
+                "produces": 
+                [
+                    "application/json"
+                ],
+                "responses": 
+                {
+                    "201": 
+                    {
+                        "description": "New user is created"
+                    },
+                    "500": 
+                    {
+                        "description": "Internal server error"
+                    }
+                }
+            }
+        },
+
+    
+        "/users/forget": 
+        {
+            "post": 
+            {
+                "tags": ["REGISTER AND LOGIN"],
+                "description": "forget Password",
+                "parameters": 
+                [
+                    {
+                        "name": "Forget Password",
+                        "in": "body",
+                        "description": "Enter email Id of which you have forgot password",
+                        "schema": 
+                        {
+                            "$ref": "#/definitions/forget"
+                        }
+                    }
+                ],
+                "produces": 
+                [
+                    "application/json"
+                ],
+                "responses": 
+                {
+                    "201": 
+                    {
+                        "description": "New user is created"
+                    },
+                    "500": 
+                    {
+                        "description": "Internal server error"
+                    }
+                }
+            }
+        },
+
+        "/users/reset": 
+        {
+            "put": 
+            {
+                "tags": ["REGISTER AND LOGIN"],
+                "description": "Reset Password",
+                "parameters": 
+                [
+                    {
+                        "name": "Reset Password",
+                        "in": "body",
+                        "description": "Enter New password you want to change to",
+                        "schema": 
+                        {
+                            "$ref": "#/definitions/reset"
+                        }
+                    }
+                ],
+                "produces": 
+                [
+                    "application/json"
+                ],
+                "responses": 
+                {
+                    "201": 
+                    {
+                        "description": "New user is created"
+                    },
+                    "500": 
+                    {
+                        "description": "Internal server error"
+                    }
+                },
+                "security": [
+                    {
+                      "JWT": []
+                    }
+                  ]
+            }
+        },
+
+        "/note": 
+        {
+            "post": 
+            {
+                "tags": ["NOTE API'S"],
+                "description": "Create Notes",
+                "parameters": 
+                [
+                    {
+                        "name": "CREATE NOTES",
+                        "in": "body",
+                        "description": "Create your Note",
+                        "schema": 
+                        {
+                            "$ref": "#/definitions/create_Note"
+                        }
+                    }
+                ],
+                "produces": 
+                [
+                    "application/json"
+                ],
+                "responses": 
+                {
+                    "201": 
+                    {
+                        "description": "New user is created"
+                    },
+                    "500": 
+                    {
+                        "description": "Internal server error"
+                    }
+                },
+                "security": [
+                    {
+                      "JWT": []
+                    }
+                  ]
+            },
+
+            "get": 
+            {
+                "tags": ["NOTE API'S"],
+                "description": "Get All Notes",
+                "parameters": 
+                [
+                    {
+                        "name": "get all",
+                        "in": "body",
+                        "description": "Get all your notes Using token"
+                    }
+                ],
+                "produces": 
+                [
+                    "application/json"
+                ],
+                "responses": 
+                {
+                    "201": 
+                    {
+                        "description": "New user is created"
+                    },
+                    "500": 
+                    {
+                        "description": "Internal server error"
+                    }
+                },
+                "security": [
+                    {
+                      "JWT": []
+                    }
+                  ]
+            }
+
+
+        },
+
+     
+
+        "/note/{_id}": 
+        {
+            "get": 
+            {
+                "tags": ["NOTE API'S"],
+                "description": "GET NOTE BY ID",
+                "parameters": 
+                [
+                    {
+                        "name": "_id",
+                        "in": "path",
+                        "description": "Get specific note using NoteID and Token"
+                    }
+                ],
+                "produces": 
+                [
+                    "application/json"
+                ],
+                "responses": 
+                {
+                    "201": 
+                    {
+                        "description": "New user is created"
+                    },
+                    "500": 
+                    {
+                        "description": "Internal server error"
+                    }
+                },
+                "security": [
+                    {
+                      "JWT": []
+                    }
+                  ]
+            },
+
+            "put": 
+            {
+                "tags": ["NOTE API'S"],
+                "description": "UPDATE NOTE",
+                "parameters": 
+                [   
+                    {
+                        "name": "_id",
+                        "in": "path",
+                        "description": "Update specific note using NoteID and Token"
+                        
+                    },
+
+                    {
+                        "name": "Update",
+                        "in": "body",
+                        "description": "Update specific note using NoteID and Token",
+                        "schema": 
+                        {
+                            "$ref": "#/definitions/create_Note"
+                        }
+                    }
+                ],
+                "produces": 
+                [
+                    "application/json"
+                ],
+                "responses": 
+                {
+                    "201": 
+                    {
+                        "description": "New user is created"
+                    },
+                    "500": 
+                    {
+                        "description": "Internal server error"
+                    }
+                },
+                "security": [
+                    {
+                      "JWT": []
+                    }
+                  ]
+            },
+
+            "delete": 
+            {
+                "tags": ["NOTE API'S"],
+                "description": "DELETE NOTE",
+                "parameters": 
+                [
+                    {
+                        "name": "_id",
+                        "in": "path",
+                        "description": "Delete Note Using NoteID and token"
+                        
+                    }
+                ],
+                "produces": 
+                [
+                    "application/json"
+                ],
+                "responses": 
+                {
+                    "201": 
+                    {
+                        "description": "New user is created"
+                    },
+                    "500": 
+                    {
+                        "description": "Internal server error"
+                    }
+                },
+                "security": [
+                    {
+                      "JWT": []
+                    }
+                  ]
+            }
+
+
+        },
+
+       
+       
+
+        "/note/archive/{_id}": 
+        {
+            "put": 
+            {
+                "tags": ["NOTE API'S"],
+                "description": "MAKE ARCHIVE",
+                "parameters": 
+                [
+                    {
+                        "name": "_id",
+                        "in": "path",
+                        "description": "Archive note using NoteID and token"
+                        
+                    }
+                ],
+                "produces": 
+                [
+                    "application/json"
+                ],
+                "responses": 
+                {
+                    "201": 
+                    {
+                        "description": "New user is created"
+                    },
+                    "500": 
+                    {
+                        "description": "Internal server error"
+                    }
+                },
+                "security": [
+                    {
+                      "JWT": []
+                    }
+                  ]
+    
+            }
+            
+        },
+        "/note/trash/{_id}": 
+        {
+            "put": 
+            {
+                "tags": ["NOTE API'S"],
+                "description": "TRASH NOTE",
+                "parameters": 
+                [
+                    {
+                        "name": "_id",
+                        "in": "path",
+                        "description": "Trash note using NoteID and token"
+                       
+                    }
+                ],
+                "produces": 
+                [
+                    "application/json"
+                ],
+                "responses": 
+                {
+                    "201": 
+                    {
+                        "description": "New user is created"
+                    },
+                    "500": 
+                    {
+                        "description": "Internal server error"
+                    }
+                },
+
+                "security": [
+                    {
+                      "JWT": []
+                    }
+                  ]
+            }
+            
+
+
+        }
+
+
+        
+    },
+    "securityDefinitions": {
+        "JWT": {
+          "type": "apiKey",
+          "name": "Authorization",
+          "in": "header"
+        }
+      },
+
+    "definitions": 
+    {
+        "Register": 
+        {
+            "type": "object",
+            "properties": 
+            {
+                "firstName": 
+                {
+                    "type": "string"
+                },
+                "lastName": 
+                {
+                    "type": "string"
+                },
+                "emailID": 
+                {
+                    "type": "string"
+                },
+                "password": 
+                {
+                    "type": "string"
+                }
+            }
+        },
+        "loging":
+        {
+          "type": "object",
+
+                "properties":
+                {
+                    "emailID": 
+                    {
+                        "type": "string"
+                    },
+                    "password": 
+                    {
+                        "type": "string"
+                    }
+                }
+
+        },
+
+        "forget":
+        {
+          "type": "object",
+
+                "properties":
+                {
+                    "emailID": 
+                    {
+                        "type": "string"
+                    }
+                    
+                }
+        },
+        
+        "reset":
+        {
+          "type": "object",
+
+                "properties":
+                {
+                    "password": 
+                    {
+                        "type": "string"
+                    }
+                    
+                }
+
+
+        },
+
+        "create_Note":
+        {
+          "type": "object",
+
+                "properties":
+                {
+                    "Title": 
+                    {
+                        "type": "string"
+                    },
+                    "Descreption": 
+                    {
+                        "type": "string"
+                    },
+                    "color": 
+                    {
+                        "type": "string"
+                    }
+                }
+
+        }
+        
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

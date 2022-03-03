@@ -5,7 +5,7 @@ var _interopRequireDefault = require("@babel/runtime/helpers/interopRequireDefau
 Object.defineProperty(exports, "__esModule", {
   value: true
 });
-exports.updateById = exports.getUserById = exports.deleteUser = exports.createNotes = exports.MakeArchive = exports.DeleteNote = exports.AllUsers = void 0;
+exports.updateById = exports.getUserById = exports.deleteUser = exports.createNotes = exports.TrashNote = exports.MakeArchive = exports.AllUsers = void 0;
 
 var _regenerator = _interopRequireDefault(require("@babel/runtime/regenerator"));
 
@@ -124,7 +124,7 @@ var updateById = /*#__PURE__*/function () {
           case 0:
             _context4.next = 2;
             return _note["default"].findByIdAndUpdate({
-              ID: ID
+              _id: _id
             }, body, {
               "new": true
             });
@@ -169,13 +169,12 @@ var deleteUser = /*#__PURE__*/function () {
   return function deleteUser(_x7) {
     return _ref5.apply(this, arguments);
   };
-}(); //archive using Id; -working
-
+}();
 
 exports.deleteUser = deleteUser;
 
 var MakeArchive = /*#__PURE__*/function () {
-  var _ref6 = (0, _asyncToGenerator2["default"])( /*#__PURE__*/_regenerator["default"].mark(function _callee6(_id) {
+  var _ref6 = (0, _asyncToGenerator2["default"])( /*#__PURE__*/_regenerator["default"].mark(function _callee6(body) {
     var SendingItToArchieve;
     return _regenerator["default"].wrap(function _callee6$(_context6) {
       while (1) {
@@ -183,18 +182,21 @@ var MakeArchive = /*#__PURE__*/function () {
           case 0:
             _context6.next = 2;
             return _note["default"].findByIdAndUpdate({
-              _id: _id
-            }, {
+              UserID: body.UserID,
+              body: body,
               $set: {
-                isArchived: true
+                isDeleted: true
               }
             });
 
           case 2:
             SendingItToArchieve = _context6.sent;
+            body, {
+              "new": true
+            };
             return _context6.abrupt("return", SendingItToArchieve);
 
-          case 4:
+          case 5:
           case "end":
             return _context6.stop();
         }
@@ -205,32 +207,34 @@ var MakeArchive = /*#__PURE__*/function () {
   return function MakeArchive(_x8) {
     return _ref6.apply(this, arguments);
   };
-}(); //delete true --> working
-
+}();
 
 exports.MakeArchive = MakeArchive;
 
-var DeleteNote = /*#__PURE__*/function () {
-  var _ref7 = (0, _asyncToGenerator2["default"])( /*#__PURE__*/_regenerator["default"].mark(function _callee7(_id) {
-    var DeletingIt;
+var TrashNote = /*#__PURE__*/function () {
+  var _ref7 = (0, _asyncToGenerator2["default"])( /*#__PURE__*/_regenerator["default"].mark(function _callee7(body) {
+    var TrashingIt;
     return _regenerator["default"].wrap(function _callee7$(_context7) {
       while (1) {
         switch (_context7.prev = _context7.next) {
           case 0:
             _context7.next = 2;
             return _note["default"].findByIdAndUpdate({
-              _id: _id
-            }, {
+              UserID: body.UserID,
+              body: body,
               $set: {
                 isDeleted: true
               }
             });
 
           case 2:
-            DeletingIt = _context7.sent;
-            return _context7.abrupt("return", DeletingIt);
+            TrashingIt = _context7.sent;
+            body, {
+              "new": true
+            };
+            return _context7.abrupt("return", TrashingIt);
 
-          case 4:
+          case 5:
           case "end":
             return _context7.stop();
         }
@@ -238,9 +242,9 @@ var DeleteNote = /*#__PURE__*/function () {
     }, _callee7);
   }));
 
-  return function DeleteNote(_x9) {
+  return function TrashNote(_x9) {
     return _ref7.apply(this, arguments);
   };
 }();
 
-exports.DeleteNote = DeleteNote;
+exports.TrashNote = TrashNote;

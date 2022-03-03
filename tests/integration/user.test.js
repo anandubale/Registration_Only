@@ -24,18 +24,31 @@ describe('User APIs Test', () => {
     }
 
     done();
-  });
+  }); 
 
-  describe('GET /users', () => {
-    it('should return empty array', (done) => {
+  
+  
+  const obj = {
+  firstName : "Anand",
+  lastName : "Ubale",
+  emailID : "anandubale11@gmail.com",
+  password : "1234567890"
+ }
+
+  const path = "localhost:3000/api/v1";
+  describe(`POST /users`, () => {
+    it('should register user', (done) => {
       request(app)
-        .get('/api/v1/users')
+        .post('localhost:3000/api/v1/users/register')
+        .send(obj)
         .end((err, res) => {
           expect(res.statusCode).to.be.equal(200);
-          expect(res.body.data).to.be.an('array');
+          expect(res.body.data).to.be.an(obj);
 
           done();
         });
     });
   });
+
 });
+ 

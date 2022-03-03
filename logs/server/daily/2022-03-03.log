@@ -1,0 +1,1211 @@
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-03-03T02:40:17.743Z"}
+info: Connected to the database. {"timestamp":"2022-03-03T02:40:17.843Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-03-03T02:42:06.273Z"}
+info: Connected to the database. {"timestamp":"2022-03-03T02:42:06.377Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-03-03T02:43:32.040Z"}
+info: Connected to the database. {"timestamp":"2022-03-03T02:43:32.072Z"}
+error: 
+    status - 500 
+    message - ValidationError: "password" length must be at least 10 characters long 
+    url - /api/v1/users/register 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-03-03T02:43:58.769Z"}
+error: 
+    status - 500 
+    message - ValidationError: "password" length must be at least 10 characters long 
+    url - /api/v1/users/register 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-03-03T02:44:01.216Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-03-03T02:46:19.324Z"}
+info: Connected to the database. {"timestamp":"2022-03-03T02:46:19.353Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-03-03T02:50:04.155Z"}
+info: Connected to the database. {"timestamp":"2022-03-03T02:50:04.180Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-03-03T02:50:41.763Z"}
+info: Connected to the database. {"timestamp":"2022-03-03T02:50:41.871Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-03-03T03:02:54.313Z"}
+info: Connected to the database. {"timestamp":"2022-03-03T03:02:54.340Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-03-03T03:05:34.975Z"}
+info: Connected to the database. {"timestamp":"2022-03-03T03:05:35.005Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-03-03T03:09:29.572Z"}
+info: Connected to the database. {"timestamp":"2022-03-03T03:09:29.600Z"}
+info: undefined {"accepted":["anandubale11@gmail.com"],"envelope":{"from":"","to":["anandubale11@gmail.com"]},"envelopeTime":904,"messageId":"<14661246-a29d-0b12-19c3-385e58491bd4@LAPTOP>","messageSize":549,"messageTime":699,"rejected":[],"response":"250 2.0.0 OK  1646277223 t12-20020a056a0021cc00b004e105f259e8sm588719pfj.152 - gsmtp","timestamp":"2022-03-03T03:16:08.575Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-03-03T03:26:40.160Z"}
+info: Connected to the database. {"timestamp":"2022-03-03T03:26:40.189Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-03-03T04:03:32.931Z"}
+info: Connected to the database. {"timestamp":"2022-03-03T04:03:32.958Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-03-03T04:08:50.878Z"}
+info: Connected to the database. {"timestamp":"2022-03-03T04:08:50.903Z"}
+info: Connected to the database. {"timestamp":"2022-03-03T04:08:51.166Z"}
+info: Connected to the database. {"timestamp":"2022-03-03T04:09:58.260Z"}
+error: 
+    status - 500 
+    message - CastError: Cast to ObjectId failed for value "{ _id: 'reset' }" (type Object) at path "_id" for model "User"
+    at model.Query.exec (c:\Users\anand\Desktop\fundoo-Notes\node_modules\mongoose\lib\query.js:4498:21)
+    at model.Query.Query.then (c:\Users\anand\Desktop\fundoo-Notes\node_modules\mongoose\lib\query.js:4592:15)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/users/reset 
+    method - PUT 
+    IP - ::1
+   {"timestamp":"2022-03-03T04:11:07.060Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-03-03T04:17:56.422Z"}
+info: Connected to the database. {"timestamp":"2022-03-03T04:17:56.462Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-03-03T06:19:04.490Z"}
+info: Connected to the database. {"timestamp":"2022-03-03T06:19:04.514Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-03-03T06:19:32.304Z"}
+info: Connected to the database. {"timestamp":"2022-03-03T06:19:32.332Z"}
+info: Connected to the database. {"timestamp":"2022-03-03T06:19:35.142Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-03-03T06:20:03.158Z"}
+info: Connected to the database. {"timestamp":"2022-03-03T06:20:03.193Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-03-03T06:20:28.132Z"}
+info: Connected to the database. {"timestamp":"2022-03-03T06:20:28.165Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-03-03T06:20:41.514Z"}
+info: Connected to the database. {"timestamp":"2022-03-03T06:20:41.543Z"}
+error: 
+      status - 400
+      message - Authorization token is incorrect 
+      url - /api/v1/note 
+      method - POST 
+      IP - ::1
+     {"timestamp":"2022-03-03T06:22:02.835Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-03-03T06:23:20.155Z"}
+info: Connected to the database. {"timestamp":"2022-03-03T06:23:20.260Z"}
+error: 
+      status - 400
+      message - Authorization token is incorrect 
+      url - /api/v1/note 
+      method - POST 
+      IP - ::1
+     {"timestamp":"2022-03-03T06:23:23.858Z"}
+error: 
+      status - 400
+      message - Authorization token is incorrect 
+      url - /api/v1/note 
+      method - POST 
+      IP - ::1
+     {"timestamp":"2022-03-03T06:23:25.108Z"}
+error: 
+      status - 400
+      message - Authorization token is incorrect 
+      url - /api/v1/note 
+      method - POST 
+      IP - ::1
+     {"timestamp":"2022-03-03T06:23:26.273Z"}
+error: 
+      status - 400
+      message - Authorization token is incorrect 
+      url - /api/v1/note 
+      method - POST 
+      IP - ::1
+     {"timestamp":"2022-03-03T06:23:27.304Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-03-03T06:24:32.731Z"}
+info: Connected to the database. {"timestamp":"2022-03-03T06:24:32.770Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-03-03T06:24:49.403Z"}
+info: Connected to the database. {"timestamp":"2022-03-03T06:24:49.453Z"}
+error: 
+    status - 500 
+    message - ValidationError: Note validation failed: Descreption: Path `Descreption` is required., Title: Path `Title` is required.
+    at model.Document.invalidate (C:\Users\anand\Desktop\fundoo-Notes\node_modules\mongoose\lib\document.js:2782:32)
+    at C:\Users\anand\Desktop\fundoo-Notes\node_modules\mongoose\lib\document.js:2574:17
+    at C:\Users\anand\Desktop\fundoo-Notes\node_modules\mongoose\lib\schematype.js:1273:9
+    at processTicksAndRejections (node:internal/process/task_queues:78:11) 
+    url - /api/v1/note 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-03-03T06:25:02.985Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-03-03T06:26:30.132Z"}
+info: Connected to the database. {"timestamp":"2022-03-03T06:26:30.185Z"}
+error: 
+    status - 500 
+    message - ValidationError: Note validation failed: Descreption: Path `Descreption` is required., Title: Path `Title` is required.
+    at model.Document.invalidate (C:\Users\anand\Desktop\fundoo-Notes\node_modules\mongoose\lib\document.js:2782:32)
+    at C:\Users\anand\Desktop\fundoo-Notes\node_modules\mongoose\lib\document.js:2574:17
+    at C:\Users\anand\Desktop\fundoo-Notes\node_modules\mongoose\lib\schematype.js:1273:9
+    at processTicksAndRejections (node:internal/process/task_queues:78:11) 
+    url - /api/v1/note 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-03-03T06:27:15.623Z"}
+error: 
+    status - 500 
+    message - Error: User is not Registered
+    at _callee3$ (C:\Users\anand\Desktop\fundoo-Notes\src\services\/user.service.js:40:9)
+    at tryCatch (C:\Users\anand\Desktop\fundoo-Notes\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (C:\Users\anand\Desktop\fundoo-Notes\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (C:\Users\anand\Desktop\fundoo-Notes\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (C:\Users\anand\Desktop\fundoo-Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\anand\Desktop\fundoo-Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/users/login 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2022-03-03T06:28:14.073Z"}
+error: 
+      status - 11000
+      message - E11000 duplicate key error collection: user.users index: emailID_1 dup key: { emailID: "monty@gmail.com" } 
+      url - /api/v1/users/register 
+      method - POST 
+      IP - ::1
+     {"timestamp":"2022-03-03T06:30:12.995Z"}
+error: 
+    status - 500 
+    message - RangeError: Invalid status code: 11000
+    at new NodeError (node:internal/errors:371:5)
+    at ServerResponse.writeHead (node:_http_server:274:11)
+    at ServerResponse.writeHead (C:\Users\anand\Desktop\fundoo-Notes\node_modules\on-headers\index.js:44:26)
+    at ServerResponse._implicitHeader (node:_http_server:265:8)
+    at write_ (node:_http_outgoing:766:9)
+    at ServerResponse.end (node:_http_outgoing:855:5)
+    at ServerResponse.send (C:\Users\anand\Desktop\fundoo-Notes\node_modules\express\lib\response.js:221:10)
+    at ServerResponse.json (C:\Users\anand\Desktop\fundoo-Notes\node_modules\express\lib\response.js:267:15)
+    at appErrorHandler (C:\Users\anand\Desktop\fundoo-Notes\src\middlewares\/error.middleware.js:36:26)
+    at Layer.handle_error (C:\Users\anand\Desktop\fundoo-Notes\node_modules\express\lib\router\layer.js:71:5)
+    at trim_prefix (C:\Users\anand\Desktop\fundoo-Notes\node_modules\express\lib\router\index.js:321:13)
+    at C:\Users\anand\Desktop\fundoo-Notes\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (C:\Users\anand\Desktop\fundoo-Notes\node_modules\express\lib\router\index.js:341:12)
+    at next (C:\Users\anand\Desktop\fundoo-Notes\node_modules\express\lib\router\index.js:275:10)
+    at C:\Users\anand\Desktop\fundoo-Notes\node_modules\express\lib\router\index.js:641:15
+    at next (C:\Users\anand\Desktop\fundoo-Notes\node_modules\express\lib\router\index.js:260:14) 
+    url - /api/v1/users/register 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-03-03T06:30:13.026Z"}
+error: 
+    status - 500 
+    message - ValidationError: Note validation failed: Descreption: Path `Descreption` is required., Title: Path `Title` is required.
+    at model.Document.invalidate (C:\Users\anand\Desktop\fundoo-Notes\node_modules\mongoose\lib\document.js:2782:32)
+    at C:\Users\anand\Desktop\fundoo-Notes\node_modules\mongoose\lib\document.js:2574:17
+    at C:\Users\anand\Desktop\fundoo-Notes\node_modules\mongoose\lib\schematype.js:1273:9
+    at processTicksAndRejections (node:internal/process/task_queues:78:11) 
+    url - /api/v1/note 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-03-03T06:34:14.138Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-03-03T06:37:13.583Z"}
+info: Connected to the database. {"timestamp":"2022-03-03T06:37:13.608Z"}
+error: 
+    status - 500 
+    message - ValidationError: Note validation failed: Descreption: Path `Descreption` is required., Title: Path `Title` is required.
+    at model.Document.invalidate (C:\Users\anand\Desktop\fundoo-Notes\node_modules\mongoose\lib\document.js:2782:32)
+    at C:\Users\anand\Desktop\fundoo-Notes\node_modules\mongoose\lib\document.js:2574:17
+    at C:\Users\anand\Desktop\fundoo-Notes\node_modules\mongoose\lib\schematype.js:1273:9
+    at processTicksAndRejections (node:internal/process/task_queues:78:11) 
+    url - /api/v1/note 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-03-03T06:37:17.610Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-03-03T06:37:45.645Z"}
+info: Connected to the database. {"timestamp":"2022-03-03T06:37:45.675Z"}
+error: 
+    status - 500 
+    message - ValidationError: Note validation failed: Descreption: Path `Descreption` is required., Title: Path `Title` is required.
+    at model.Document.invalidate (C:\Users\anand\Desktop\fundoo-Notes\node_modules\mongoose\lib\document.js:2782:32)
+    at C:\Users\anand\Desktop\fundoo-Notes\node_modules\mongoose\lib\document.js:2574:17
+    at C:\Users\anand\Desktop\fundoo-Notes\node_modules\mongoose\lib\schematype.js:1273:9
+    at processTicksAndRejections (node:internal/process/task_queues:78:11) 
+    url - /api/v1/note 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-03-03T06:37:47.560Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-03-03T06:38:13.649Z"}
+info: Connected to the database. {"timestamp":"2022-03-03T06:38:13.676Z"}
+error: 
+    status - 500 
+    message - ValidationError: Note validation failed: Descreption: Path `Descreption` is required., Title: Path `Title` is required.
+    at model.Document.invalidate (C:\Users\anand\Desktop\fundoo-Notes\node_modules\mongoose\lib\document.js:2782:32)
+    at C:\Users\anand\Desktop\fundoo-Notes\node_modules\mongoose\lib\document.js:2574:17
+    at C:\Users\anand\Desktop\fundoo-Notes\node_modules\mongoose\lib\schematype.js:1273:9
+    at processTicksAndRejections (node:internal/process/task_queues:78:11) 
+    url - /api/v1/note 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-03-03T06:38:17.083Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-03-03T06:39:02.793Z"}
+info: Connected to the database. {"timestamp":"2022-03-03T06:39:02.822Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-03-03T06:41:31.654Z"}
+info: Connected to the database. {"timestamp":"2022-03-03T06:41:31.687Z"}
+error: 
+    status - 500 
+    message - ValidationError: Note validation failed: Descreption: Path `Descreption` is required., Title: Path `Title` is required.
+    at model.Document.invalidate (C:\Users\anand\Desktop\fundoo-Notes\node_modules\mongoose\lib\document.js:2782:32)
+    at C:\Users\anand\Desktop\fundoo-Notes\node_modules\mongoose\lib\document.js:2574:17
+    at C:\Users\anand\Desktop\fundoo-Notes\node_modules\mongoose\lib\schematype.js:1273:9
+    at processTicksAndRejections (node:internal/process/task_queues:78:11) 
+    url - /api/v1/note 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-03-03T06:41:34.714Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-03-03T06:45:07.012Z"}
+info: Connected to the database. {"timestamp":"2022-03-03T06:45:07.038Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-03-03T06:49:59.920Z"}
+info: Connected to the database. {"timestamp":"2022-03-03T06:49:59.946Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-03-03T06:50:34.103Z"}
+info: Connected to the database. {"timestamp":"2022-03-03T06:50:34.131Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-03-03T06:50:39.421Z"}
+info: Connected to the database. {"timestamp":"2022-03-03T06:50:39.448Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-03-03T06:51:23.624Z"}
+info: Connected to the database. {"timestamp":"2022-03-03T06:51:23.650Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-03-03T06:52:02.898Z"}
+info: Connected to the database. {"timestamp":"2022-03-03T06:52:02.977Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-03-03T06:52:17.898Z"}
+info: Connected to the database. {"timestamp":"2022-03-03T06:52:17.926Z"}
+error: 
+    status - 500 
+    message - Error: Can't use $set
+    at ObjectId.SchemaType.castForQuery (C:\Users\anand\Desktop\fundoo-Notes\node_modules\mongoose\lib\schematype.js:1586:13)
+    at ObjectId.SchemaType.castForQueryWrapper (C:\Users\anand\Desktop\fundoo-Notes\node_modules\mongoose\lib\schematype.js:1558:22)
+    at cast (C:\Users\anand\Desktop\fundoo-Notes\node_modules\mongoose\lib\cast.js:311:39)
+    at model.Query.Query.cast (C:\Users\anand\Desktop\fundoo-Notes\node_modules\mongoose\lib\query.js:4937:12)
+    at castQuery (C:\Users\anand\Desktop\fundoo-Notes\node_modules\mongoose\lib\query.js:4738:18)
+    at model.Query.Query._findAndModify (C:\Users\anand\Desktop\fundoo-Notes\node_modules\mongoose\lib\query.js:3598:23)
+    at model.Query.<anonymous> (C:\Users\anand\Desktop\fundoo-Notes\node_modules\mongoose\lib\query.js:3164:8)
+    at model.Query._wrappedThunk [as _findOneAndUpdate] (C:\Users\anand\Desktop\fundoo-Notes\node_modules\mongoose\lib\helpers\query\wrapThunk.js:16:8)
+    at C:\Users\anand\Desktop\fundoo-Notes\node_modules\kareem\index.js:279:20
+    at _next (C:\Users\anand\Desktop\fundoo-Notes\node_modules\kareem\index.js:103:16)
+    at C:\Users\anand\Desktop\fundoo-Notes\node_modules\kareem\index.js:508:38
+    at processTicksAndRejections (node:internal/process/task_queues:78:11) 
+    url - /api/v1/note/archive/62206571f0e8862498d77ee9 
+    method - PUT 
+    IP - ::1
+   {"timestamp":"2022-03-03T06:56:26.912Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-03-03T06:57:15.145Z"}
+info: Connected to the database. {"timestamp":"2022-03-03T06:57:15.166Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-03-03T06:57:37.940Z"}
+info: Connected to the database. {"timestamp":"2022-03-03T06:57:37.966Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-03-03T06:57:49.833Z"}
+info: Connected to the database. {"timestamp":"2022-03-03T06:57:49.865Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-03-03T06:58:08.083Z"}
+info: Connected to the database. {"timestamp":"2022-03-03T06:58:08.109Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-03-03T06:59:23.478Z"}
+info: Connected to the database. {"timestamp":"2022-03-03T06:59:23.501Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-03-03T07:00:41.695Z"}
+info: Connected to the database. {"timestamp":"2022-03-03T07:00:41.720Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-03-03T07:01:04.627Z"}
+info: Connected to the database. {"timestamp":"2022-03-03T07:01:04.660Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-03-03T07:01:30.314Z"}
+info: Connected to the database. {"timestamp":"2022-03-03T07:01:30.353Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-03-03T07:02:22.983Z"}
+info: Connected to the database. {"timestamp":"2022-03-03T07:02:23.009Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-03-03T07:05:44.314Z"}
+info: Connected to the database. {"timestamp":"2022-03-03T07:05:44.339Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-03-03T07:06:07.395Z"}
+info: Connected to the database. {"timestamp":"2022-03-03T07:06:07.424Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-03-03T07:07:58.629Z"}
+info: Connected to the database. {"timestamp":"2022-03-03T07:07:58.653Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-03-03T07:08:10.077Z"}
+info: Connected to the database. {"timestamp":"2022-03-03T07:08:10.101Z"}
+error: 
+    status - 500 
+    message - ReferenceError: body is not defined
+    at _callee6$ (C:\Users\anand\Desktop\fundoo-Notes\src\services\/note.service.js:56:17)
+    at tryCatch (C:\Users\anand\Desktop\fundoo-Notes\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (C:\Users\anand\Desktop\fundoo-Notes\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (C:\Users\anand\Desktop\fundoo-Notes\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (C:\Users\anand\Desktop\fundoo-Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\anand\Desktop\fundoo-Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at C:\Users\anand\Desktop\fundoo-Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at Object.<anonymous> (C:\Users\anand\Desktop\fundoo-Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12)
+    at Object.MakeArchive (C:\Users\anand\Desktop\fundoo-Notes\src\services\/note.service.js:55:25)
+    at _callee6$ (C:\Users\anand\Desktop\fundoo-Notes\src\controllers\/note.controller.js:98:42)
+    at tryCatch (C:\Users\anand\Desktop\fundoo-Notes\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (C:\Users\anand\Desktop\fundoo-Notes\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (C:\Users\anand\Desktop\fundoo-Notes\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (C:\Users\anand\Desktop\fundoo-Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\anand\Desktop\fundoo-Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9) 
+    url - /api/v1/note/archive/62206571f0e8862498d77ee9 
+    method - PUT 
+    IP - ::1
+   {"timestamp":"2022-03-03T07:08:14.758Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-03-03T07:08:28.400Z"}
+info: Connected to the database. {"timestamp":"2022-03-03T07:08:28.423Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-03-03T07:09:09.230Z"}
+info: Connected to the database. {"timestamp":"2022-03-03T07:09:09.261Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-03-03T07:12:30.621Z"}
+info: Connected to the database. {"timestamp":"2022-03-03T07:12:30.644Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-03-03T07:13:11.203Z"}
+info: Connected to the database. {"timestamp":"2022-03-03T07:13:11.228Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-03-03T07:13:23.137Z"}
+info: Connected to the database. {"timestamp":"2022-03-03T07:13:23.168Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-03-03T07:13:52.482Z"}
+info: Connected to the database. {"timestamp":"2022-03-03T07:13:52.507Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-03-03T07:15:04.080Z"}
+info: Connected to the database. {"timestamp":"2022-03-03T07:15:04.106Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-03-03T07:22:00.203Z"}
+info: Connected to the database. {"timestamp":"2022-03-03T07:22:00.234Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-03-03T07:22:39.846Z"}
+info: Connected to the database. {"timestamp":"2022-03-03T07:22:39.878Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-03-03T07:40:21.638Z"}
+info: Connected to the database. {"timestamp":"2022-03-03T07:40:21.695Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-03-03T07:40:27.828Z"}
+info: Connected to the database. {"timestamp":"2022-03-03T07:40:27.858Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-03-03T07:40:38.913Z"}
+info: Connected to the database. {"timestamp":"2022-03-03T07:40:38.964Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read properties of null (reading '1')
+    at firstchar (C:\Users\anand\Desktop\fundoo-Notes\node_modules\body-parser\lib\types\json.js:176:37)
+    at parse (C:\Users\anand\Desktop\fundoo-Notes\node_modules\body-parser\lib\types\json.js:79:19)
+    at C:\Users\anand\Desktop\fundoo-Notes\node_modules\body-parser\lib\read.js:121:18
+    at invokeCallback (C:\Users\anand\Desktop\fundoo-Notes\node_modules\raw-body\index.js:224:16)
+    at done (C:\Users\anand\Desktop\fundoo-Notes\node_modules\raw-body\index.js:213:7)
+    at IncomingMessage.onEnd (C:\Users\anand\Desktop\fundoo-Notes\node_modules\raw-body\index.js:273:7)
+    at IncomingMessage.emit (node:events:402:35)
+    at IncomingMessage.emit (node:domain:475:12)
+    at endReadableNT (node:internal/streams/readable:1343:12)
+    at processTicksAndRejections (node:internal/process/task_queues:83:21) 
+    url - /api/v1/note/archive/62206571f0e8862498d77ee9 
+    method - PUT 
+    IP - ::1
+   {"timestamp":"2022-03-03T07:40:43.460Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read properties of null (reading '1')
+    at firstchar (C:\Users\anand\Desktop\fundoo-Notes\node_modules\body-parser\lib\types\json.js:176:37)
+    at parse (C:\Users\anand\Desktop\fundoo-Notes\node_modules\body-parser\lib\types\json.js:79:19)
+    at C:\Users\anand\Desktop\fundoo-Notes\node_modules\body-parser\lib\read.js:121:18
+    at invokeCallback (C:\Users\anand\Desktop\fundoo-Notes\node_modules\raw-body\index.js:224:16)
+    at done (C:\Users\anand\Desktop\fundoo-Notes\node_modules\raw-body\index.js:213:7)
+    at IncomingMessage.onEnd (C:\Users\anand\Desktop\fundoo-Notes\node_modules\raw-body\index.js:273:7)
+    at IncomingMessage.emit (node:events:402:35)
+    at IncomingMessage.emit (node:domain:475:12)
+    at endReadableNT (node:internal/streams/readable:1343:12)
+    at processTicksAndRejections (node:internal/process/task_queues:83:21) 
+    url - /api/v1/note/archive/62206571f0e8862498d77ee9 
+    method - PUT 
+    IP - ::1
+   {"timestamp":"2022-03-03T07:40:48.043Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-03-03T07:41:14.567Z"}
+info: Connected to the database. {"timestamp":"2022-03-03T07:41:14.600Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read properties of null (reading '1')
+    at firstchar (C:\Users\anand\Desktop\fundoo-Notes\node_modules\body-parser\lib\types\json.js:176:37)
+    at parse (C:\Users\anand\Desktop\fundoo-Notes\node_modules\body-parser\lib\types\json.js:79:19)
+    at C:\Users\anand\Desktop\fundoo-Notes\node_modules\body-parser\lib\read.js:121:18
+    at invokeCallback (C:\Users\anand\Desktop\fundoo-Notes\node_modules\raw-body\index.js:224:16)
+    at done (C:\Users\anand\Desktop\fundoo-Notes\node_modules\raw-body\index.js:213:7)
+    at IncomingMessage.onEnd (C:\Users\anand\Desktop\fundoo-Notes\node_modules\raw-body\index.js:273:7)
+    at IncomingMessage.emit (node:events:402:35)
+    at IncomingMessage.emit (node:domain:475:12)
+    at endReadableNT (node:internal/streams/readable:1343:12)
+    at processTicksAndRejections (node:internal/process/task_queues:83:21) 
+    url - /api/v1/note/archive/62206571f0e8862498d77ee9 
+    method - PUT 
+    IP - ::1
+   {"timestamp":"2022-03-03T07:41:18.950Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-03-03T07:41:48.906Z"}
+info: Connected to the database. {"timestamp":"2022-03-03T07:41:48.932Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-03-03T07:42:08.124Z"}
+info: Connected to the database. {"timestamp":"2022-03-03T07:42:08.165Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-03-03T07:42:18.609Z"}
+info: Connected to the database. {"timestamp":"2022-03-03T07:42:18.637Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read properties of null (reading '1')
+    at firstchar (C:\Users\anand\Desktop\fundoo-Notes\node_modules\body-parser\lib\types\json.js:176:37)
+    at parse (C:\Users\anand\Desktop\fundoo-Notes\node_modules\body-parser\lib\types\json.js:79:19)
+    at C:\Users\anand\Desktop\fundoo-Notes\node_modules\body-parser\lib\read.js:121:18
+    at invokeCallback (C:\Users\anand\Desktop\fundoo-Notes\node_modules\raw-body\index.js:224:16)
+    at done (C:\Users\anand\Desktop\fundoo-Notes\node_modules\raw-body\index.js:213:7)
+    at IncomingMessage.onEnd (C:\Users\anand\Desktop\fundoo-Notes\node_modules\raw-body\index.js:273:7)
+    at IncomingMessage.emit (node:events:402:35)
+    at IncomingMessage.emit (node:domain:475:12)
+    at endReadableNT (node:internal/streams/readable:1343:12)
+    at processTicksAndRejections (node:internal/process/task_queues:83:21) 
+    url - /api/v1/note/archive/62206571f0e8862498d77ee9 
+    method - PUT 
+    IP - ::1
+   {"timestamp":"2022-03-03T07:42:21.822Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-03-03T07:42:36.887Z"}
+info: Connected to the database. {"timestamp":"2022-03-03T07:42:36.915Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-03-03T07:42:50.309Z"}
+info: Connected to the database. {"timestamp":"2022-03-03T07:42:50.338Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-03-03T07:43:34.436Z"}
+info: Connected to the database. {"timestamp":"2022-03-03T07:43:34.467Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read properties of null (reading '1')
+    at firstchar (C:\Users\anand\Desktop\fundoo-Notes\node_modules\body-parser\lib\types\json.js:176:37)
+    at parse (C:\Users\anand\Desktop\fundoo-Notes\node_modules\body-parser\lib\types\json.js:79:19)
+    at C:\Users\anand\Desktop\fundoo-Notes\node_modules\body-parser\lib\read.js:121:18
+    at invokeCallback (C:\Users\anand\Desktop\fundoo-Notes\node_modules\raw-body\index.js:224:16)
+    at done (C:\Users\anand\Desktop\fundoo-Notes\node_modules\raw-body\index.js:213:7)
+    at IncomingMessage.onEnd (C:\Users\anand\Desktop\fundoo-Notes\node_modules\raw-body\index.js:273:7)
+    at IncomingMessage.emit (node:events:402:35)
+    at IncomingMessage.emit (node:domain:475:12)
+    at endReadableNT (node:internal/streams/readable:1343:12)
+    at processTicksAndRejections (node:internal/process/task_queues:83:21) 
+    url - /api/v1/note/archive/62206571f0e8862498d77ee9 
+    method - PUT 
+    IP - ::1
+   {"timestamp":"2022-03-03T07:43:42.414Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read properties of null (reading '1')
+    at firstchar (C:\Users\anand\Desktop\fundoo-Notes\node_modules\body-parser\lib\types\json.js:176:37)
+    at parse (C:\Users\anand\Desktop\fundoo-Notes\node_modules\body-parser\lib\types\json.js:79:19)
+    at C:\Users\anand\Desktop\fundoo-Notes\node_modules\body-parser\lib\read.js:121:18
+    at invokeCallback (C:\Users\anand\Desktop\fundoo-Notes\node_modules\raw-body\index.js:224:16)
+    at done (C:\Users\anand\Desktop\fundoo-Notes\node_modules\raw-body\index.js:213:7)
+    at IncomingMessage.onEnd (C:\Users\anand\Desktop\fundoo-Notes\node_modules\raw-body\index.js:273:7)
+    at IncomingMessage.emit (node:events:402:35)
+    at IncomingMessage.emit (node:domain:475:12)
+    at endReadableNT (node:internal/streams/readable:1343:12)
+    at processTicksAndRejections (node:internal/process/task_queues:83:21) 
+    url - /api/v1/note/archive/62206571f0e8862498d77ee9 
+    method - PUT 
+    IP - ::1
+   {"timestamp":"2022-03-03T07:43:43.433Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read properties of null (reading '1')
+    at firstchar (C:\Users\anand\Desktop\fundoo-Notes\node_modules\body-parser\lib\types\json.js:176:37)
+    at parse (C:\Users\anand\Desktop\fundoo-Notes\node_modules\body-parser\lib\types\json.js:79:19)
+    at C:\Users\anand\Desktop\fundoo-Notes\node_modules\body-parser\lib\read.js:121:18
+    at invokeCallback (C:\Users\anand\Desktop\fundoo-Notes\node_modules\raw-body\index.js:224:16)
+    at done (C:\Users\anand\Desktop\fundoo-Notes\node_modules\raw-body\index.js:213:7)
+    at IncomingMessage.onEnd (C:\Users\anand\Desktop\fundoo-Notes\node_modules\raw-body\index.js:273:7)
+    at IncomingMessage.emit (node:events:402:35)
+    at IncomingMessage.emit (node:domain:475:12)
+    at endReadableNT (node:internal/streams/readable:1343:12)
+    at processTicksAndRejections (node:internal/process/task_queues:83:21) 
+    url - /api/v1/note/archive/62206571f0e8862498d77ee9 
+    method - PUT 
+    IP - ::1
+   {"timestamp":"2022-03-03T07:43:44.347Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-03-03T07:44:05.122Z"}
+info: Connected to the database. {"timestamp":"2022-03-03T07:44:05.150Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read properties of null (reading '1')
+    at firstchar (C:\Users\anand\Desktop\fundoo-Notes\node_modules\body-parser\lib\types\json.js:176:37)
+    at parse (C:\Users\anand\Desktop\fundoo-Notes\node_modules\body-parser\lib\types\json.js:79:19)
+    at C:\Users\anand\Desktop\fundoo-Notes\node_modules\body-parser\lib\read.js:121:18
+    at invokeCallback (C:\Users\anand\Desktop\fundoo-Notes\node_modules\raw-body\index.js:224:16)
+    at done (C:\Users\anand\Desktop\fundoo-Notes\node_modules\raw-body\index.js:213:7)
+    at IncomingMessage.onEnd (C:\Users\anand\Desktop\fundoo-Notes\node_modules\raw-body\index.js:273:7)
+    at IncomingMessage.emit (node:events:402:35)
+    at IncomingMessage.emit (node:domain:475:12)
+    at endReadableNT (node:internal/streams/readable:1343:12)
+    at processTicksAndRejections (node:internal/process/task_queues:83:21) 
+    url - /api/v1/note/archive/62206571f0e8862498d77ee9 
+    method - PUT 
+    IP - ::1
+   {"timestamp":"2022-03-03T07:44:36.019Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-03-03T07:45:11.338Z"}
+info: Connected to the database. {"timestamp":"2022-03-03T07:45:11.372Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-03-03T07:45:22.047Z"}
+info: Connected to the database. {"timestamp":"2022-03-03T07:45:22.073Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-03-03T07:45:34.079Z"}
+info: Connected to the database. {"timestamp":"2022-03-03T07:45:34.118Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-03-03T07:46:07.518Z"}
+info: Connected to the database. {"timestamp":"2022-03-03T07:46:07.552Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read properties of null (reading '1')
+    at firstchar (C:\Users\anand\Desktop\fundoo-Notes\node_modules\body-parser\lib\types\json.js:176:37)
+    at parse (C:\Users\anand\Desktop\fundoo-Notes\node_modules\body-parser\lib\types\json.js:79:19)
+    at C:\Users\anand\Desktop\fundoo-Notes\node_modules\body-parser\lib\read.js:121:18
+    at invokeCallback (C:\Users\anand\Desktop\fundoo-Notes\node_modules\raw-body\index.js:224:16)
+    at done (C:\Users\anand\Desktop\fundoo-Notes\node_modules\raw-body\index.js:213:7)
+    at IncomingMessage.onEnd (C:\Users\anand\Desktop\fundoo-Notes\node_modules\raw-body\index.js:273:7)
+    at IncomingMessage.emit (node:events:402:35)
+    at IncomingMessage.emit (node:domain:475:12)
+    at endReadableNT (node:internal/streams/readable:1343:12)
+    at processTicksAndRejections (node:internal/process/task_queues:83:21) 
+    url - /api/v1/note/archive/62206571f0e8862498d77ee9 
+    method - PUT 
+    IP - ::1
+   {"timestamp":"2022-03-03T07:46:10.298Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-03-03T08:28:14.125Z"}
+info: Connected to the database. {"timestamp":"2022-03-03T08:28:14.152Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-03-03T08:29:16.448Z"}
+info: Connected to the database. {"timestamp":"2022-03-03T08:29:16.471Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-03-03T08:29:40.608Z"}
+info: Connected to the database. {"timestamp":"2022-03-03T08:29:40.641Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-03-03T08:30:03.843Z"}
+info: Connected to the database. {"timestamp":"2022-03-03T08:30:03.869Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-03-03T08:31:37.318Z"}
+info: Connected to the database. {"timestamp":"2022-03-03T08:31:37.349Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-03-03T08:31:54.607Z"}
+info: Connected to the database. {"timestamp":"2022-03-03T08:31:54.633Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-03-03T08:32:44.435Z"}
+info: Connected to the database. {"timestamp":"2022-03-03T08:32:44.469Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-03-03T08:33:11.528Z"}
+info: Connected to the database. {"timestamp":"2022-03-03T08:33:11.555Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-03-03T08:33:18.624Z"}
+info: Connected to the database. {"timestamp":"2022-03-03T08:33:18.648Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-03-03T08:36:37.962Z"}
+info: Connected to the database. {"timestamp":"2022-03-03T08:36:37.993Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-03-03T08:36:55.190Z"}
+info: Connected to the database. {"timestamp":"2022-03-03T08:36:55.211Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-03-03T08:36:59.564Z"}
+info: Connected to the database. {"timestamp":"2022-03-03T08:36:59.588Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-03-03T08:37:09.227Z"}
+info: Connected to the database. {"timestamp":"2022-03-03T08:37:09.258Z"}
+info: undefined {"accepted":["shelarswapnil@gmail.com"],"envelope":{"from":"","to":["shelarswapnil@gmail.com"]},"envelopeTime":1365,"messageId":"<a5ed663d-7d41-5474-af12-1c5b7ff15edb@LAPTOP>","messageSize":552,"messageTime":1195,"rejected":[],"response":"250 2.0.0 OK  1646296548 x15-20020a056e02194f00b002c609855ea5sm897594ilu.34 - gsmtp","timestamp":"2022-03-03T08:38:13.321Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-03-03T08:39:47.038Z"}
+info: Connected to the database. {"timestamp":"2022-03-03T08:39:47.060Z"}
+error: 
+      status - 400
+      message - Authorization token is incorrect 
+      url - /api/v1/users/reset 
+      method - PUT 
+      IP - ::1
+     {"timestamp":"2022-03-03T08:41:04.126Z"}
+info: undefined {"accepted":["shelarswapnil@gmail.com"],"envelope":{"from":"","to":["shelarswapnil@gmail.com"]},"envelopeTime":986,"messageId":"<d91cfd85-7185-23ea-fc05-5543ad18bea9@LAPTOP>","messageSize":552,"messageTime":769,"rejected":[],"response":"250 2.0.0 OK  1646296777 t15-20020a92dc0f000000b002c2258e154fsm1441962iln.1 - gsmtp","timestamp":"2022-03-03T08:42:02.364Z"}
+info: undefined {"accepted":["shelarswapnil@gmail.com"],"envelope":{"from":"","to":["shelarswapnil@gmail.com"]},"envelopeTime":959,"messageId":"<05b01895-b057-e109-fe17-0b15d604fc0b@LAPTOP>","messageSize":552,"messageTime":723,"rejected":[],"response":"250 2.0.0 OK  1646296779 r9-20020a056e0219c900b002c5ffafa701sm1448089ill.79 - gsmtp","timestamp":"2022-03-03T08:42:04.522Z"}
+error: 
+      status - 400
+      message - Authorization token is incorrect 
+      url - /api/v1/users/reset 
+      method - PUT 
+      IP - ::1
+     {"timestamp":"2022-03-03T08:43:38.288Z"}
+error: 
+    status - 500 
+    message - Error: password does not match
+    at _callee3$ (C:\Users\anand\Desktop\fundoo-Notes\src\services\/user.service.js:36:12)
+    at tryCatch (C:\Users\anand\Desktop\fundoo-Notes\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (C:\Users\anand\Desktop\fundoo-Notes\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (C:\Users\anand\Desktop\fundoo-Notes\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (C:\Users\anand\Desktop\fundoo-Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\anand\Desktop\fundoo-Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/users/login 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-03-03T08:45:35.155Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-03-03T08:47:31.677Z"}
+info: Connected to the database. {"timestamp":"2022-03-03T08:47:31.704Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-03-03T08:55:05.358Z"}
+info: Connected to the database. {"timestamp":"2022-03-03T08:55:05.384Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-03-03T09:04:54.566Z"}
+info: Connected to the database. {"timestamp":"2022-03-03T09:04:54.586Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-03-03T09:10:43.150Z"}
+info: Connected to the database. {"timestamp":"2022-03-03T09:10:43.174Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-03-03T09:23:32.036Z"}
+info: Connected to the database. {"timestamp":"2022-03-03T09:23:40.362Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-03-03T09:34:41.727Z"}
+info: Connected to the database. {"timestamp":"2022-03-03T09:34:49.691Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-03-03T09:35:34.651Z"}
+info: Connected to the database. {"timestamp":"2022-03-03T09:35:42.691Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-03-03T09:36:13.451Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-03-03T09:36:45.524Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-03-03T09:37:53.016Z"}
+info: Connected to the database. {"timestamp":"2022-03-03T09:38:01.212Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-03-03T09:45:17.838Z"}
+info: Connected to the database. {"timestamp":"2022-03-03T09:45:25.804Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-03-03T10:17:49.599Z"}
+info: Connected to the database. {"timestamp":"2022-03-03T10:17:49.626Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read properties of null (reading '1')
+    at firstchar (C:\Users\anand\Desktop\fundoo-Notes\node_modules\body-parser\lib\types\json.js:176:37)
+    at parse (C:\Users\anand\Desktop\fundoo-Notes\node_modules\body-parser\lib\types\json.js:79:19)
+    at C:\Users\anand\Desktop\fundoo-Notes\node_modules\body-parser\lib\read.js:121:18
+    at invokeCallback (C:\Users\anand\Desktop\fundoo-Notes\node_modules\raw-body\index.js:224:16)
+    at done (C:\Users\anand\Desktop\fundoo-Notes\node_modules\raw-body\index.js:213:7)
+    at IncomingMessage.onEnd (C:\Users\anand\Desktop\fundoo-Notes\node_modules\raw-body\index.js:273:7)
+    at IncomingMessage.emit (node:events:402:35)
+    at IncomingMessage.emit (node:domain:475:12)
+    at endReadableNT (node:internal/streams/readable:1343:12)
+    at processTicksAndRejections (node:internal/process/task_queues:83:21) 
+    url - /api/v1/note/archive/62206571f0e8862498d77ee9 
+    method - PUT 
+    IP - ::1
+   {"timestamp":"2022-03-03T10:17:59.951Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read properties of null (reading '1')
+    at firstchar (C:\Users\anand\Desktop\fundoo-Notes\node_modules\body-parser\lib\types\json.js:176:37)
+    at parse (C:\Users\anand\Desktop\fundoo-Notes\node_modules\body-parser\lib\types\json.js:79:19)
+    at C:\Users\anand\Desktop\fundoo-Notes\node_modules\body-parser\lib\read.js:121:18
+    at invokeCallback (C:\Users\anand\Desktop\fundoo-Notes\node_modules\raw-body\index.js:224:16)
+    at done (C:\Users\anand\Desktop\fundoo-Notes\node_modules\raw-body\index.js:213:7)
+    at IncomingMessage.onEnd (C:\Users\anand\Desktop\fundoo-Notes\node_modules\raw-body\index.js:273:7)
+    at IncomingMessage.emit (node:events:402:35)
+    at IncomingMessage.emit (node:domain:475:12)
+    at endReadableNT (node:internal/streams/readable:1343:12)
+    at processTicksAndRejections (node:internal/process/task_queues:83:21) 
+    url - /api/v1/note/archive/62206571f0e8862498d77ee9 
+    method - PUT 
+    IP - ::1
+   {"timestamp":"2022-03-03T10:18:01.312Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-03-03T10:18:24.783Z"}
+info: Connected to the database. {"timestamp":"2022-03-03T10:18:24.808Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read properties of null (reading '1')
+    at firstchar (C:\Users\anand\Desktop\fundoo-Notes\node_modules\body-parser\lib\types\json.js:176:37)
+    at parse (C:\Users\anand\Desktop\fundoo-Notes\node_modules\body-parser\lib\types\json.js:79:19)
+    at C:\Users\anand\Desktop\fundoo-Notes\node_modules\body-parser\lib\read.js:121:18
+    at invokeCallback (C:\Users\anand\Desktop\fundoo-Notes\node_modules\raw-body\index.js:224:16)
+    at done (C:\Users\anand\Desktop\fundoo-Notes\node_modules\raw-body\index.js:213:7)
+    at IncomingMessage.onEnd (C:\Users\anand\Desktop\fundoo-Notes\node_modules\raw-body\index.js:273:7)
+    at IncomingMessage.emit (node:events:402:35)
+    at IncomingMessage.emit (node:domain:475:12)
+    at endReadableNT (node:internal/streams/readable:1343:12)
+    at processTicksAndRejections (node:internal/process/task_queues:83:21) 
+    url - /api/v1/note/archive/62206571f0e8862498d77ee9 
+    method - PUT 
+    IP - ::1
+   {"timestamp":"2022-03-03T10:18:26.764Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-03-03T10:18:53.101Z"}
+info: Connected to the database. {"timestamp":"2022-03-03T10:18:53.142Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-03-03T10:19:06.020Z"}
+info: Connected to the database. {"timestamp":"2022-03-03T10:19:06.059Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-03-03T10:20:25.771Z"}
+info: Connected to the database. {"timestamp":"2022-03-03T10:20:25.800Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read properties of null (reading '1')
+    at firstchar (C:\Users\anand\Desktop\fundoo-Notes\node_modules\body-parser\lib\types\json.js:176:37)
+    at parse (C:\Users\anand\Desktop\fundoo-Notes\node_modules\body-parser\lib\types\json.js:79:19)
+    at C:\Users\anand\Desktop\fundoo-Notes\node_modules\body-parser\lib\read.js:121:18
+    at invokeCallback (C:\Users\anand\Desktop\fundoo-Notes\node_modules\raw-body\index.js:224:16)
+    at done (C:\Users\anand\Desktop\fundoo-Notes\node_modules\raw-body\index.js:213:7)
+    at IncomingMessage.onEnd (C:\Users\anand\Desktop\fundoo-Notes\node_modules\raw-body\index.js:273:7)
+    at IncomingMessage.emit (node:events:402:35)
+    at IncomingMessage.emit (node:domain:475:12)
+    at endReadableNT (node:internal/streams/readable:1343:12)
+    at processTicksAndRejections (node:internal/process/task_queues:83:21) 
+    url - /api/v1/note/archive/62206571f0e8862498d77ee9 
+    method - PUT 
+    IP - ::1
+   {"timestamp":"2022-03-03T10:20:30.975Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read properties of null (reading '1')
+    at firstchar (C:\Users\anand\Desktop\fundoo-Notes\node_modules\body-parser\lib\types\json.js:176:37)
+    at parse (C:\Users\anand\Desktop\fundoo-Notes\node_modules\body-parser\lib\types\json.js:79:19)
+    at C:\Users\anand\Desktop\fundoo-Notes\node_modules\body-parser\lib\read.js:121:18
+    at invokeCallback (C:\Users\anand\Desktop\fundoo-Notes\node_modules\raw-body\index.js:224:16)
+    at done (C:\Users\anand\Desktop\fundoo-Notes\node_modules\raw-body\index.js:213:7)
+    at IncomingMessage.onEnd (C:\Users\anand\Desktop\fundoo-Notes\node_modules\raw-body\index.js:273:7)
+    at IncomingMessage.emit (node:events:402:35)
+    at IncomingMessage.emit (node:domain:475:12)
+    at endReadableNT (node:internal/streams/readable:1343:12)
+    at processTicksAndRejections (node:internal/process/task_queues:83:21) 
+    url - /api/v1/note/archive/62206571f0e8862498d77ee9 
+    method - PUT 
+    IP - ::1
+   {"timestamp":"2022-03-03T10:20:33.019Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-03-03T10:21:32.931Z"}
+info: Connected to the database. {"timestamp":"2022-03-03T10:21:32.965Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-03-03T10:21:40.305Z"}
+info: Connected to the database. {"timestamp":"2022-03-03T10:21:40.339Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-03-03T10:21:48.803Z"}
+info: Connected to the database. {"timestamp":"2022-03-03T10:21:48.837Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read properties of null (reading '1')
+    at firstchar (C:\Users\anand\Desktop\fundoo-Notes\node_modules\body-parser\lib\types\json.js:176:37)
+    at parse (C:\Users\anand\Desktop\fundoo-Notes\node_modules\body-parser\lib\types\json.js:79:19)
+    at C:\Users\anand\Desktop\fundoo-Notes\node_modules\body-parser\lib\read.js:121:18
+    at invokeCallback (C:\Users\anand\Desktop\fundoo-Notes\node_modules\raw-body\index.js:224:16)
+    at done (C:\Users\anand\Desktop\fundoo-Notes\node_modules\raw-body\index.js:213:7)
+    at IncomingMessage.onEnd (C:\Users\anand\Desktop\fundoo-Notes\node_modules\raw-body\index.js:273:7)
+    at IncomingMessage.emit (node:events:402:35)
+    at IncomingMessage.emit (node:domain:475:12)
+    at endReadableNT (node:internal/streams/readable:1343:12)
+    at processTicksAndRejections (node:internal/process/task_queues:83:21) 
+    url - /api/v1/note/archive/62206571f0e8862498d77ee9 
+    method - PUT 
+    IP - ::1
+   {"timestamp":"2022-03-03T10:21:52.376Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-03-03T10:22:36.755Z"}
+info: Connected to the database. {"timestamp":"2022-03-03T10:22:36.789Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read properties of null (reading '1')
+    at firstchar (C:\Users\anand\Desktop\fundoo-Notes\node_modules\body-parser\lib\types\json.js:176:37)
+    at parse (C:\Users\anand\Desktop\fundoo-Notes\node_modules\body-parser\lib\types\json.js:79:19)
+    at C:\Users\anand\Desktop\fundoo-Notes\node_modules\body-parser\lib\read.js:121:18
+    at invokeCallback (C:\Users\anand\Desktop\fundoo-Notes\node_modules\raw-body\index.js:224:16)
+    at done (C:\Users\anand\Desktop\fundoo-Notes\node_modules\raw-body\index.js:213:7)
+    at IncomingMessage.onEnd (C:\Users\anand\Desktop\fundoo-Notes\node_modules\raw-body\index.js:273:7)
+    at IncomingMessage.emit (node:events:402:35)
+    at IncomingMessage.emit (node:domain:475:12)
+    at endReadableNT (node:internal/streams/readable:1343:12)
+    at processTicksAndRejections (node:internal/process/task_queues:83:21) 
+    url - /api/v1/note/archive/62206571f0e8862498d77ee9 
+    method - PUT 
+    IP - ::1
+   {"timestamp":"2022-03-03T10:22:37.712Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-03-03T10:25:17.996Z"}
+info: Connected to the database. {"timestamp":"2022-03-03T10:25:18.024Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-03-03T10:25:51.766Z"}
+info: Connected to the database. {"timestamp":"2022-03-03T10:25:51.794Z"}
+error: 
+    status - 500 
+    message - Error: Can't use $set
+    at ObjectId.SchemaType.castForQuery (C:\Users\anand\Desktop\fundoo-Notes\node_modules\mongoose\lib\schematype.js:1586:13)
+    at ObjectId.SchemaType.castForQueryWrapper (C:\Users\anand\Desktop\fundoo-Notes\node_modules\mongoose\lib\schematype.js:1558:22)
+    at cast (C:\Users\anand\Desktop\fundoo-Notes\node_modules\mongoose\lib\cast.js:311:39)
+    at model.Query.Query.cast (C:\Users\anand\Desktop\fundoo-Notes\node_modules\mongoose\lib\query.js:4937:12)
+    at castQuery (C:\Users\anand\Desktop\fundoo-Notes\node_modules\mongoose\lib\query.js:4738:18)
+    at model.Query.Query._findAndModify (C:\Users\anand\Desktop\fundoo-Notes\node_modules\mongoose\lib\query.js:3598:23)
+    at model.Query.<anonymous> (C:\Users\anand\Desktop\fundoo-Notes\node_modules\mongoose\lib\query.js:3164:8)
+    at model.Query._wrappedThunk [as _findOneAndUpdate] (C:\Users\anand\Desktop\fundoo-Notes\node_modules\mongoose\lib\helpers\query\wrapThunk.js:16:8)
+    at C:\Users\anand\Desktop\fundoo-Notes\node_modules\kareem\index.js:279:20
+    at _next (C:\Users\anand\Desktop\fundoo-Notes\node_modules\kareem\index.js:103:16)
+    at C:\Users\anand\Desktop\fundoo-Notes\node_modules\kareem\index.js:508:38
+    at processTicksAndRejections (node:internal/process/task_queues:78:11) 
+    url - /api/v1/note/archive/62209723003c341d9c015747 
+    method - PUT 
+    IP - ::1
+   {"timestamp":"2022-03-03T10:27:03.648Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-03-03T10:27:30.798Z"}
+info: Connected to the database. {"timestamp":"2022-03-03T10:27:30.824Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-03-03T10:28:26.351Z"}
+info: Connected to the database. {"timestamp":"2022-03-03T10:28:26.380Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-03-03T10:28:44.372Z"}
+info: Connected to the database. {"timestamp":"2022-03-03T10:28:44.394Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-03-03T10:29:02.325Z"}
+info: Connected to the database. {"timestamp":"2022-03-03T10:29:02.353Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-03-03T10:29:32.819Z"}
+info: Connected to the database. {"timestamp":"2022-03-03T10:29:32.845Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-03-03T10:30:42.769Z"}
+info: Connected to the database. {"timestamp":"2022-03-03T10:30:42.831Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-03-03T10:30:58.775Z"}
+info: Connected to the database. {"timestamp":"2022-03-03T10:30:58.801Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-03-03T10:31:14.722Z"}
+info: Connected to the database. {"timestamp":"2022-03-03T10:31:14.753Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-03-03T10:31:28.130Z"}
+info: Connected to the database. {"timestamp":"2022-03-03T10:31:28.159Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-03-03T10:32:00.430Z"}
+info: Connected to the database. {"timestamp":"2022-03-03T10:32:00.456Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-03-03T10:32:54.730Z"}
+info: Connected to the database. {"timestamp":"2022-03-03T10:32:54.756Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-03-03T10:33:43.022Z"}
+info: Connected to the database. {"timestamp":"2022-03-03T10:33:43.058Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-03-03T10:33:54.627Z"}
+info: Connected to the database. {"timestamp":"2022-03-03T10:33:54.654Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-03-03T10:43:16.304Z"}
+info: Connected to the database. {"timestamp":"2022-03-03T10:43:16.331Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-03-03T10:55:05.476Z"}
+info: Connected to the database. {"timestamp":"2022-03-03T10:55:05.499Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-03-03T11:12:36.828Z"}
+info: Connected to the database. {"timestamp":"2022-03-03T11:12:36.855Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-03-03T11:15:38.336Z"}
+info: Connected to the database. {"timestamp":"2022-03-03T11:15:38.371Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-03-03T11:15:55.762Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-03-03T11:16:29.884Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-03-03T11:18:58.271Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-03-03T11:53:05.140Z"}
+info: Connected to the database. {"timestamp":"2022-03-03T11:53:05.168Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-03-03T11:53:45.791Z"}
+info: Connected to the database. {"timestamp":"2022-03-03T11:53:45.819Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-03-03T11:56:35.517Z"}
+info: Connected to the database. {"timestamp":"2022-03-03T11:56:35.545Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-03-03T11:56:59.800Z"}
+info: Connected to the database. {"timestamp":"2022-03-03T11:56:59.836Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-03-03T11:57:38.421Z"}
+info: Connected to the database. {"timestamp":"2022-03-03T11:57:38.450Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-03-03T11:59:42.003Z"}
+info: Connected to the database. {"timestamp":"2022-03-03T11:59:42.033Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-03-03T12:01:18.682Z"}
+info: Connected to the database. {"timestamp":"2022-03-03T12:01:18.711Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-03-03T12:03:05.112Z"}
+info: Connected to the database. {"timestamp":"2022-03-03T12:03:05.136Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-03-03T12:03:52.868Z"}
+info: Connected to the database. {"timestamp":"2022-03-03T12:03:52.893Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-03-03T12:05:18.983Z"}
+info: Connected to the database. {"timestamp":"2022-03-03T12:05:19.009Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-03-03T12:13:58.039Z"}
+info: Connected to the database. {"timestamp":"2022-03-03T12:13:58.066Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-03-03T12:15:39.454Z"}
+info: Connected to the database. {"timestamp":"2022-03-03T12:15:39.482Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-03-03T13:35:11.872Z"}
+info: Connected to the database. {"timestamp":"2022-03-03T13:35:11.905Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-03-03T13:35:37.612Z"}
+info: Connected to the database. {"timestamp":"2022-03-03T13:35:37.651Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-03-03T13:36:07.783Z"}
+info: Connected to the database. {"timestamp":"2022-03-03T13:36:07.812Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-03-03T13:36:19.308Z"}
+error: Could not connect to the database. querySrv ECONNREFUSED _mongodb._tcp.demo.aoloa.mongodb.net {"code":"ECONNREFUSED","hostname":"_mongodb._tcp.demo.aoloa.mongodb.net","stack":"Error: querySrv ECONNREFUSED _mongodb._tcp.demo.aoloa.mongodb.net\n    at QueryReqWrap.onresolve [as oncomplete] (node:dns:213:19)","syscall":"querySrv","timestamp":"2022-03-03T13:36:19.397Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-03-03T13:37:16.224Z"}
+error: Could not connect to the database. querySrv ECONNREFUSED _mongodb._tcp.demo.aoloa.mongodb.net {"code":"ECONNREFUSED","hostname":"_mongodb._tcp.demo.aoloa.mongodb.net","stack":"Error: querySrv ECONNREFUSED _mongodb._tcp.demo.aoloa.mongodb.net\n    at QueryReqWrap.onresolve [as oncomplete] (node:dns:213:19)","syscall":"querySrv","timestamp":"2022-03-03T13:37:16.243Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-03-03T13:38:15.390Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-03-03T13:41:11.342Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-03-03T13:44:52.427Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-03-03T13:47:44.268Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-03-03T13:49:21.723Z"}
+info: Connected to the database. {"timestamp":"2022-03-03T13:49:21.751Z"}
+info: undefined {"accepted":["mayur@gmail.com"],"envelope":{"from":"","to":["mayur@gmail.com"]},"envelopeTime":1425,"messageId":"<ab2240b7-2a6e-84c1-b14a-72c740b0b67a@LAPTOP>","messageSize":532,"messageTime":1024,"rejected":[],"response":"250 2.0.0 OK  1646315896 p2-20020a92d682000000b002c291ae0e1bsm2324907iln.23 - gsmtp","timestamp":"2022-03-03T14:00:40.168Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-03-03T14:05:13.760Z"}
+info: Connected to the database. {"timestamp":"2022-03-03T14:05:13.788Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-03-03T14:05:29.004Z"}
+info: Connected to the database. {"timestamp":"2022-03-03T14:05:29.033Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-03-03T14:06:23.375Z"}
+info: Connected to the database. {"timestamp":"2022-03-03T14:06:23.399Z"}
+error: 
+    status - 500 
+    message - CastError: Cast to ObjectId failed for value "{ _id: ':NoteID', UserID: '6220c9bbfa064505e46160a5' }" (type Object) at path "_id" for model "Note"
+    at model.Query.exec (C:\Users\anand\Desktop\fundoo-Notes\node_modules\mongoose\lib\query.js:4498:21)
+    at model.Query.Query.then (C:\Users\anand\Desktop\fundoo-Notes\node_modules\mongoose\lib\query.js:4592:15)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/note/:NoteID 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2022-03-03T14:07:36.575Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read properties of null (reading '1')
+    at firstchar (C:\Users\anand\Desktop\fundoo-Notes\node_modules\body-parser\lib\types\json.js:176:37)
+    at parse (C:\Users\anand\Desktop\fundoo-Notes\node_modules\body-parser\lib\types\json.js:79:19)
+    at C:\Users\anand\Desktop\fundoo-Notes\node_modules\body-parser\lib\read.js:121:18
+    at invokeCallback (C:\Users\anand\Desktop\fundoo-Notes\node_modules\raw-body\index.js:224:16)
+    at done (C:\Users\anand\Desktop\fundoo-Notes\node_modules\raw-body\index.js:213:7)
+    at IncomingMessage.onEnd (C:\Users\anand\Desktop\fundoo-Notes\node_modules\raw-body\index.js:273:7)
+    at IncomingMessage.emit (node:events:402:35)
+    at IncomingMessage.emit (node:domain:475:12)
+    at endReadableNT (node:internal/streams/readable:1343:12)
+    at processTicksAndRejections (node:internal/process/task_queues:83:21) 
+    url - /api/v1/note/62209723003c341d9c015747 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2022-03-03T14:08:15.912Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read properties of null (reading '1')
+    at firstchar (C:\Users\anand\Desktop\fundoo-Notes\node_modules\body-parser\lib\types\json.js:176:37)
+    at parse (C:\Users\anand\Desktop\fundoo-Notes\node_modules\body-parser\lib\types\json.js:79:19)
+    at C:\Users\anand\Desktop\fundoo-Notes\node_modules\body-parser\lib\read.js:121:18
+    at invokeCallback (C:\Users\anand\Desktop\fundoo-Notes\node_modules\raw-body\index.js:224:16)
+    at done (C:\Users\anand\Desktop\fundoo-Notes\node_modules\raw-body\index.js:213:7)
+    at IncomingMessage.onEnd (C:\Users\anand\Desktop\fundoo-Notes\node_modules\raw-body\index.js:273:7)
+    at IncomingMessage.emit (node:events:402:35)
+    at IncomingMessage.emit (node:domain:475:12)
+    at endReadableNT (node:internal/streams/readable:1343:12)
+    at processTicksAndRejections (node:internal/process/task_queues:83:21) 
+    url - /api/v1/note/6220ca82fa064505e46160ab 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2022-03-03T14:08:50.594Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-03-03T14:09:18.862Z"}
+info: Connected to the database. {"timestamp":"2022-03-03T14:09:18.893Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-03-03T14:09:49.866Z"}
+info: Connected to the database. {"timestamp":"2022-03-03T14:09:49.894Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read properties of null (reading '1')
+    at firstchar (C:\Users\anand\Desktop\fundoo-Notes\node_modules\body-parser\lib\types\json.js:176:37)
+    at parse (C:\Users\anand\Desktop\fundoo-Notes\node_modules\body-parser\lib\types\json.js:79:19)
+    at C:\Users\anand\Desktop\fundoo-Notes\node_modules\body-parser\lib\read.js:121:18
+    at invokeCallback (C:\Users\anand\Desktop\fundoo-Notes\node_modules\raw-body\index.js:224:16)
+    at done (C:\Users\anand\Desktop\fundoo-Notes\node_modules\raw-body\index.js:213:7)
+    at IncomingMessage.onEnd (C:\Users\anand\Desktop\fundoo-Notes\node_modules\raw-body\index.js:273:7)
+    at IncomingMessage.emit (node:events:402:35)
+    at IncomingMessage.emit (node:domain:475:12)
+    at endReadableNT (node:internal/streams/readable:1343:12)
+    at processTicksAndRejections (node:internal/process/task_queues:83:21) 
+    url - /api/v1/note/6220ca82fa064505e46160ab 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2022-03-03T14:09:50.628Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read properties of null (reading '1')
+    at firstchar (C:\Users\anand\Desktop\fundoo-Notes\node_modules\body-parser\lib\types\json.js:176:37)
+    at parse (C:\Users\anand\Desktop\fundoo-Notes\node_modules\body-parser\lib\types\json.js:79:19)
+    at C:\Users\anand\Desktop\fundoo-Notes\node_modules\body-parser\lib\read.js:121:18
+    at invokeCallback (C:\Users\anand\Desktop\fundoo-Notes\node_modules\raw-body\index.js:224:16)
+    at done (C:\Users\anand\Desktop\fundoo-Notes\node_modules\raw-body\index.js:213:7)
+    at IncomingMessage.onEnd (C:\Users\anand\Desktop\fundoo-Notes\node_modules\raw-body\index.js:273:7)
+    at IncomingMessage.emit (node:events:402:35)
+    at IncomingMessage.emit (node:domain:475:12)
+    at endReadableNT (node:internal/streams/readable:1343:12)
+    at processTicksAndRejections (node:internal/process/task_queues:83:21) 
+    url - /api/v1/note/6220ca82fa064505e46160ab 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2022-03-03T14:09:51.712Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read properties of null (reading '1')
+    at firstchar (C:\Users\anand\Desktop\fundoo-Notes\node_modules\body-parser\lib\types\json.js:176:37)
+    at parse (C:\Users\anand\Desktop\fundoo-Notes\node_modules\body-parser\lib\types\json.js:79:19)
+    at C:\Users\anand\Desktop\fundoo-Notes\node_modules\body-parser\lib\read.js:121:18
+    at invokeCallback (C:\Users\anand\Desktop\fundoo-Notes\node_modules\raw-body\index.js:224:16)
+    at done (C:\Users\anand\Desktop\fundoo-Notes\node_modules\raw-body\index.js:213:7)
+    at IncomingMessage.onEnd (C:\Users\anand\Desktop\fundoo-Notes\node_modules\raw-body\index.js:273:7)
+    at IncomingMessage.emit (node:events:402:35)
+    at IncomingMessage.emit (node:domain:475:12)
+    at endReadableNT (node:internal/streams/readable:1343:12)
+    at processTicksAndRejections (node:internal/process/task_queues:83:21) 
+    url - /api/v1/note/6220ca82fa064505e46160ab 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2022-03-03T14:09:52.897Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-03-03T14:10:13.118Z"}
+info: Connected to the database. {"timestamp":"2022-03-03T14:10:13.151Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-03-03T14:10:36.542Z"}
+info: Connected to the database. {"timestamp":"2022-03-03T14:10:36.584Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read properties of null (reading '1')
+    at firstchar (C:\Users\anand\Desktop\fundoo-Notes\node_modules\body-parser\lib\types\json.js:176:37)
+    at parse (C:\Users\anand\Desktop\fundoo-Notes\node_modules\body-parser\lib\types\json.js:79:19)
+    at C:\Users\anand\Desktop\fundoo-Notes\node_modules\body-parser\lib\read.js:121:18
+    at invokeCallback (C:\Users\anand\Desktop\fundoo-Notes\node_modules\raw-body\index.js:224:16)
+    at done (C:\Users\anand\Desktop\fundoo-Notes\node_modules\raw-body\index.js:213:7)
+    at IncomingMessage.onEnd (C:\Users\anand\Desktop\fundoo-Notes\node_modules\raw-body\index.js:273:7)
+    at IncomingMessage.emit (node:events:402:35)
+    at IncomingMessage.emit (node:domain:475:12)
+    at endReadableNT (node:internal/streams/readable:1343:12)
+    at processTicksAndRejections (node:internal/process/task_queues:83:21) 
+    url - /api/v1/note/6220ca82fa064505e46160ab 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2022-03-03T14:10:39.632Z"}
+error: 
+    status - 500 
+    message - CastError: Cast to ObjectId failed for value "{ _id: ':NoteID', UserID: '6220c9bbfa064505e46160a5' }" (type Object) at path "_id" for model "Note"
+    at model.Query.exec (C:\Users\anand\Desktop\fundoo-Notes\node_modules\mongoose\lib\query.js:4498:21)
+    at model.Query.Query.then (C:\Users\anand\Desktop\fundoo-Notes\node_modules\mongoose\lib\query.js:4592:15)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/note/:NoteID 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2022-03-03T14:11:02.192Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-03-03T14:12:11.203Z"}
+info: Connected to the database. {"timestamp":"2022-03-03T14:12:11.248Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read properties of null (reading '1')
+    at firstchar (C:\Users\anand\Desktop\fundoo-Notes\node_modules\body-parser\lib\types\json.js:176:37)
+    at parse (C:\Users\anand\Desktop\fundoo-Notes\node_modules\body-parser\lib\types\json.js:79:19)
+    at C:\Users\anand\Desktop\fundoo-Notes\node_modules\body-parser\lib\read.js:121:18
+    at invokeCallback (C:\Users\anand\Desktop\fundoo-Notes\node_modules\raw-body\index.js:224:16)
+    at done (C:\Users\anand\Desktop\fundoo-Notes\node_modules\raw-body\index.js:213:7)
+    at IncomingMessage.onEnd (C:\Users\anand\Desktop\fundoo-Notes\node_modules\raw-body\index.js:273:7)
+    at IncomingMessage.emit (node:events:402:35)
+    at IncomingMessage.emit (node:domain:475:12)
+    at endReadableNT (node:internal/streams/readable:1343:12)
+    at processTicksAndRejections (node:internal/process/task_queues:83:21) 
+    url - /api/v1/note/6220ca82fa064505e46160ab 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2022-03-03T14:12:12.587Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read properties of null (reading '1')
+    at firstchar (C:\Users\anand\Desktop\fundoo-Notes\node_modules\body-parser\lib\types\json.js:176:37)
+    at parse (C:\Users\anand\Desktop\fundoo-Notes\node_modules\body-parser\lib\types\json.js:79:19)
+    at C:\Users\anand\Desktop\fundoo-Notes\node_modules\body-parser\lib\read.js:121:18
+    at invokeCallback (C:\Users\anand\Desktop\fundoo-Notes\node_modules\raw-body\index.js:224:16)
+    at done (C:\Users\anand\Desktop\fundoo-Notes\node_modules\raw-body\index.js:213:7)
+    at IncomingMessage.onEnd (C:\Users\anand\Desktop\fundoo-Notes\node_modules\raw-body\index.js:273:7)
+    at IncomingMessage.emit (node:events:402:35)
+    at IncomingMessage.emit (node:domain:475:12)
+    at endReadableNT (node:internal/streams/readable:1343:12)
+    at processTicksAndRejections (node:internal/process/task_queues:83:21) 
+    url - /api/v1/note/6220ca82fa064505e46160ab 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2022-03-03T14:14:49.392Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-03-03T14:15:30.170Z"}
+info: Connected to the database. {"timestamp":"2022-03-03T14:15:30.242Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read properties of null (reading '1')
+    at firstchar (C:\Users\anand\Desktop\fundoo-Notes\node_modules\body-parser\lib\types\json.js:176:37)
+    at parse (C:\Users\anand\Desktop\fundoo-Notes\node_modules\body-parser\lib\types\json.js:79:19)
+    at C:\Users\anand\Desktop\fundoo-Notes\node_modules\body-parser\lib\read.js:121:18
+    at invokeCallback (C:\Users\anand\Desktop\fundoo-Notes\node_modules\raw-body\index.js:224:16)
+    at done (C:\Users\anand\Desktop\fundoo-Notes\node_modules\raw-body\index.js:213:7)
+    at IncomingMessage.onEnd (C:\Users\anand\Desktop\fundoo-Notes\node_modules\raw-body\index.js:273:7)
+    at IncomingMessage.emit (node:events:402:35)
+    at IncomingMessage.emit (node:domain:475:12)
+    at endReadableNT (node:internal/streams/readable:1343:12)
+    at processTicksAndRejections (node:internal/process/task_queues:83:21) 
+    url - /api/v1/note/6220ca82fa064505e46160ab 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2022-03-03T14:15:36.143Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-03-03T14:15:58.600Z"}
+info: Connected to the database. {"timestamp":"2022-03-03T14:15:58.626Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-03-03T14:17:30.535Z"}
+info: Connected to the database. {"timestamp":"2022-03-03T14:17:30.560Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-03-03T14:17:40.503Z"}
+info: Connected to the database. {"timestamp":"2022-03-03T14:17:40.529Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-03-03T14:17:55.477Z"}
+info: Connected to the database. {"timestamp":"2022-03-03T14:17:55.508Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read properties of null (reading '1')
+    at firstchar (C:\Users\anand\Desktop\fundoo-Notes\node_modules\body-parser\lib\types\json.js:176:37)
+    at parse (C:\Users\anand\Desktop\fundoo-Notes\node_modules\body-parser\lib\types\json.js:79:19)
+    at C:\Users\anand\Desktop\fundoo-Notes\node_modules\body-parser\lib\read.js:121:18
+    at invokeCallback (C:\Users\anand\Desktop\fundoo-Notes\node_modules\raw-body\index.js:224:16)
+    at done (C:\Users\anand\Desktop\fundoo-Notes\node_modules\raw-body\index.js:213:7)
+    at IncomingMessage.onEnd (C:\Users\anand\Desktop\fundoo-Notes\node_modules\raw-body\index.js:273:7)
+    at IncomingMessage.emit (node:events:402:35)
+    at IncomingMessage.emit (node:domain:475:12)
+    at endReadableNT (node:internal/streams/readable:1343:12)
+    at processTicksAndRejections (node:internal/process/task_queues:83:21) 
+    url - /api/v1/note/6220ca82fa064505e46160ab 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2022-03-03T14:18:01.956Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read properties of null (reading '1')
+    at firstchar (C:\Users\anand\Desktop\fundoo-Notes\node_modules\body-parser\lib\types\json.js:176:37)
+    at parse (C:\Users\anand\Desktop\fundoo-Notes\node_modules\body-parser\lib\types\json.js:79:19)
+    at C:\Users\anand\Desktop\fundoo-Notes\node_modules\body-parser\lib\read.js:121:18
+    at invokeCallback (C:\Users\anand\Desktop\fundoo-Notes\node_modules\raw-body\index.js:224:16)
+    at done (C:\Users\anand\Desktop\fundoo-Notes\node_modules\raw-body\index.js:213:7)
+    at IncomingMessage.onEnd (C:\Users\anand\Desktop\fundoo-Notes\node_modules\raw-body\index.js:273:7)
+    at IncomingMessage.emit (node:events:402:35)
+    at IncomingMessage.emit (node:domain:475:12)
+    at endReadableNT (node:internal/streams/readable:1343:12)
+    at processTicksAndRejections (node:internal/process/task_queues:83:21) 
+    url - /api/v1/note/6220ca82fa064505e46160ab 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2022-03-03T14:18:12.722Z"}
+error: 
+    status - 500 
+    message - CastError: Cast to ObjectId failed for value "{ _id: ':NoteID', UserID: '6220c9bbfa064505e46160a5' }" (type Object) at path "_id" for model "Note"
+    at model.Query.exec (C:\Users\anand\Desktop\fundoo-Notes\node_modules\mongoose\lib\query.js:4498:21)
+    at model.Query.Query.then (C:\Users\anand\Desktop\fundoo-Notes\node_modules\mongoose\lib\query.js:4592:15)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/note/:NoteID 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2022-03-03T14:18:24.435Z"}
+error: 
+    status - 500 
+    message - CastError: Cast to ObjectId failed for value "{ _id: ':_id', UserID: '6220c9bbfa064505e46160a5' }" (type Object) at path "_id" for model "Note"
+    at model.Query.exec (C:\Users\anand\Desktop\fundoo-Notes\node_modules\mongoose\lib\query.js:4498:21)
+    at model.Query.Query.then (C:\Users\anand\Desktop\fundoo-Notes\node_modules\mongoose\lib\query.js:4592:15)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/note/:_id 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2022-03-03T14:19:38.605Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-03-03T14:20:34.333Z"}
+info: Connected to the database. {"timestamp":"2022-03-03T14:20:34.370Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-03-03T14:20:41.904Z"}
+info: Connected to the database. {"timestamp":"2022-03-03T14:20:41.930Z"}
+error: 
+    status - 500 
+    message - CastError: Cast to ObjectId failed for value ":_id" (type string) at path "_id" for model "Note"
+    at model.Query.exec (C:\Users\anand\Desktop\fundoo-Notes\node_modules\mongoose\lib\query.js:4498:21)
+    at model.Query.Query.then (C:\Users\anand\Desktop\fundoo-Notes\node_modules\mongoose\lib\query.js:4592:15)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/note/:_id 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2022-03-03T14:20:47.671Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-03-03T14:21:28.841Z"}
+info: Connected to the database. {"timestamp":"2022-03-03T14:21:28.872Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read properties of null (reading '1')
+    at firstchar (C:\Users\anand\Desktop\fundoo-Notes\node_modules\body-parser\lib\types\json.js:176:37)
+    at parse (C:\Users\anand\Desktop\fundoo-Notes\node_modules\body-parser\lib\types\json.js:79:19)
+    at C:\Users\anand\Desktop\fundoo-Notes\node_modules\body-parser\lib\read.js:121:18
+    at invokeCallback (C:\Users\anand\Desktop\fundoo-Notes\node_modules\raw-body\index.js:224:16)
+    at done (C:\Users\anand\Desktop\fundoo-Notes\node_modules\raw-body\index.js:213:7)
+    at IncomingMessage.onEnd (C:\Users\anand\Desktop\fundoo-Notes\node_modules\raw-body\index.js:273:7)
+    at IncomingMessage.emit (node:events:402:35)
+    at IncomingMessage.emit (node:domain:475:12)
+    at endReadableNT (node:internal/streams/readable:1343:12)
+    at processTicksAndRejections (node:internal/process/task_queues:83:21) 
+    url - /api/v1/note/6220ca82fa064505e46160ab 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2022-03-03T14:21:38.963Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read properties of null (reading '1')
+    at firstchar (C:\Users\anand\Desktop\fundoo-Notes\node_modules\body-parser\lib\types\json.js:176:37)
+    at parse (C:\Users\anand\Desktop\fundoo-Notes\node_modules\body-parser\lib\types\json.js:79:19)
+    at C:\Users\anand\Desktop\fundoo-Notes\node_modules\body-parser\lib\read.js:121:18
+    at invokeCallback (C:\Users\anand\Desktop\fundoo-Notes\node_modules\raw-body\index.js:224:16)
+    at done (C:\Users\anand\Desktop\fundoo-Notes\node_modules\raw-body\index.js:213:7)
+    at IncomingMessage.onEnd (C:\Users\anand\Desktop\fundoo-Notes\node_modules\raw-body\index.js:273:7)
+    at IncomingMessage.emit (node:events:402:35)
+    at IncomingMessage.emit (node:domain:475:12)
+    at endReadableNT (node:internal/streams/readable:1343:12)
+    at processTicksAndRejections (node:internal/process/task_queues:83:21) 
+    url - /api/v1/note/6220ca82fa064505e46160ab 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2022-03-03T14:21:51.466Z"}
+error: 
+    status - 500 
+    message - CastError: Cast to ObjectId failed for value "{ _id: ':_id', UserID: '6220c9bbfa064505e46160a5' }" (type Object) at path "_id" for model "Note"
+    at model.Query.exec (C:\Users\anand\Desktop\fundoo-Notes\node_modules\mongoose\lib\query.js:4498:21)
+    at model.Query.Query.then (C:\Users\anand\Desktop\fundoo-Notes\node_modules\mongoose\lib\query.js:4592:15)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/note/:_id 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2022-03-03T14:22:05.444Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-03-03T14:22:49.625Z"}
+info: Connected to the database. {"timestamp":"2022-03-03T14:22:49.650Z"}
+error: 
+    status - 500 
+    message - CastError: Cast to ObjectId failed for value "{ _id: ':_id', UserID: '6220c9bbfa064505e46160a5' }" (type Object) at path "_id" for model "Note"
+    at model.Query.exec (C:\Users\anand\Desktop\fundoo-Notes\node_modules\mongoose\lib\query.js:4498:21)
+    at model.Query.Query.then (C:\Users\anand\Desktop\fundoo-Notes\node_modules\mongoose\lib\query.js:4592:15)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/note/:_id 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2022-03-03T14:22:52.405Z"}
+error: 
+    status - 500 
+    message - CastError: Cast to ObjectId failed for value "{ _id: ':NoteID', UserID: undefined }" (type Object) at path "_id" for model "Note"
+    at model.Query.exec (C:\Users\anand\Desktop\fundoo-Notes\node_modules\mongoose\lib\query.js:4498:21)
+    at model.Query.Query.then (C:\Users\anand\Desktop\fundoo-Notes\node_modules\mongoose\lib\query.js:4592:15)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/note/archive/:NoteID 
+    method - PUT 
+    IP - ::1
+   {"timestamp":"2022-03-03T14:23:25.914Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-03-03T14:24:35.855Z"}
+info: Connected to the database. {"timestamp":"2022-03-03T14:24:35.883Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-03-03T14:24:44.382Z"}
+info: Connected to the database. {"timestamp":"2022-03-03T14:24:44.421Z"}
+error: 
+    status - 500 
+    message - CastError: Cast to ObjectId failed for value "{ _id: ':_id', UserID: undefined }" (type Object) at path "_id" for model "Note"
+    at model.Query.exec (C:\Users\anand\Desktop\fundoo-Notes\node_modules\mongoose\lib\query.js:4498:21)
+    at model.Query.Query.then (C:\Users\anand\Desktop\fundoo-Notes\node_modules\mongoose\lib\query.js:4592:15)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/note/archive/:_id 
+    method - PUT 
+    IP - ::1
+   {"timestamp":"2022-03-03T14:25:48.217Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-03-03T14:29:39.484Z"}
+info: Connected to the database. {"timestamp":"2022-03-03T14:29:39.508Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-03-03T14:29:58.316Z"}
+info: Connected to the database. {"timestamp":"2022-03-03T14:29:58.344Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-03-03T14:30:03.048Z"}
+info: Connected to the database. {"timestamp":"2022-03-03T14:30:03.073Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-03-03T14:33:11.266Z"}
+info: Connected to the database. {"timestamp":"2022-03-03T14:33:11.292Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-03-03T14:33:19.766Z"}
+info: Connected to the database. {"timestamp":"2022-03-03T14:33:19.799Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-03-03T14:33:44.796Z"}
+info: Connected to the database. {"timestamp":"2022-03-03T14:33:44.823Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-03-03T14:34:08.692Z"}
+info: Connected to the database. {"timestamp":"2022-03-03T14:34:08.720Z"}
+error: 
+    status - 500 
+    message - CastError: Cast to ObjectId failed for value "{ _id: '{_id}', UserID: undefined }" (type Object) at path "_id" for model "Note"
+    at model.Query.exec (C:\Users\anand\Desktop\fundoo-Notes\node_modules\mongoose\lib\query.js:4498:21)
+    at model.Query.Query.then (C:\Users\anand\Desktop\fundoo-Notes\node_modules\mongoose\lib\query.js:4592:15)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/note/%7B_id%7D 
+    method - DELETE 
+    IP - ::1
+   {"timestamp":"2022-03-03T14:37:08.883Z"}
