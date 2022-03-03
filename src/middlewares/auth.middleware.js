@@ -16,6 +16,7 @@ import { log } from 'winston';
 export const NoteAuthentication = async (req, res, next) => {
   try {
     let bearerToken = req.header('Authorization')
+    console.log("1");
     //checking if bearer is not defined 
     if (!bearerToken)
       throw {
@@ -27,10 +28,11 @@ export const NoteAuthentication = async (req, res, next) => {
       //choosing the second from string - second thing will have SECRET_CODE
       
     bearerToken = bearerToken.split(' ')[1]
+    console.log("2");
 
     // header + creditials + secret 
 
-    jwt.verify(bearerToken, process.env.FORGET_PASS_CODE,(err,verifedtoken)=>{
+    jwt.verify(bearerToken, process.env.NOTE_SECRET_CODE,(err,verifedtoken)=>{
       if (err)
       throw {
         code: HttpStatus.BAD_REQUEST,
@@ -39,10 +41,9 @@ export const NoteAuthentication = async (req, res, next) => {
       else{
         // req.body['data'] = verifedtoken; //this verified token will have email id ,id
         // console.log(req.body.data);
-
-        req.body = verifedtoken;
-        req.body['UserID'] = verifedtoken.id;
-        console.log(req.body.UserID);
+        console.log("3");
+        req.body['data'] = verifedtoken;  //this verified token will have email id ,id
+        console.log(req.body.data);
         next();
 
       }

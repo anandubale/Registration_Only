@@ -4,7 +4,7 @@ import jwt from 'jsonwebtoken';
 
 //to create user using Note.create()
 
-export const createNotes = async(body)=> { 
+export const createNotes = async(body)=> {
     const Notebody = await Note.create(body);
     return Notebody;
 }
@@ -23,7 +23,7 @@ export const AllUsers = async (UserID) => {
 //Using tow Parameters ->working
 export const getUserById = async(_id,UserID)=>{
     const dataById = await Note.findById({_id, UserID});
-    console.log(dataById);
+    console.log(dataById)
     return dataById; 
 }
 
@@ -46,38 +46,28 @@ export const updateById = async(_id,body)=>{
 
 //delete user using id: working
 
-export const deleteUser = async(ID)=>{
-    await Note.findByIdAndDelete(ID);                   
+export const deleteNote = async(_id,body)=>{
+    await Note.findByIdAndDelete({_id : _id,
+        UserID : body.UserID} );                   
 }
 
 
 
-export const MakeArchive = async(body)=>{
-    const SendingItToArchieve = await Note.findByIdAndUpdate({UserID :body.UserID,
-        body,
-            $set: { isDeleted: true }
-        
-    });
-    body,
-    {
-        new : true
-    } 
-
+export const MakeArchive = async(_id,body)=>{
+    const SendingItToArchieve = await Note.findByIdAndUpdate({_id : _id,
+        UserID : body.UserID}, 
+        {$set : {isArchived :true}}
+    
+);
     return SendingItToArchieve ;
 }
    
 
-export const TrashNote = async(body)=>{
-    const TrashingIt = await Note.findByIdAndUpdate({UserID : body.UserID,
-        body,
-        $set: { isDeleted: true }
-    
-    });
-    body,
-    {
-        new : true
-    }
-
+export const  TrashNote = async(_id,body)=>{
+    const TrashingIt = await Note.findByIdAndUpdate({_id : _id,
+        UserID : body.UserID}, 
+        {$set : {isDeleted :true}}
+    );
     return TrashingIt; 
 }
 

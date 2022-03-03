@@ -13,11 +13,10 @@ router.post('/register', newUserValidator, userController.userRegistration);
 
 
 // // for login
-router.get('/login', userController.login);
+router.post('/login', userController.login);
 
 
-
-router.get('/forget',userController.forgetPassword)
+router.post('/forget',userController.forgetPassword)
 
 
 router.put('/reset',PassAuth,userController.resetPassword)

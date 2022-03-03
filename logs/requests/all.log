@@ -3531,3 +3531,778 @@ SyntaxError: C:\Users\anand\Desktop\fundoo-Notes\src\services\note.service.js: U
     at Parser.parseMaybeConditional (C:\Users\anand\Desktop\fundoo-Notes\node_modules\@babel\parser\src\parser\expression.js:356:23)
     at Parser.parseMaybeAssign (C:\Users\anand\Desktop\fundoo-Notes\node_modules\@babel\parser\src\parser\expression.js:303:21)
     at C:\Users\anand\Desktop\fundoo-Notes\node_modules\@babel\parser\src\parser\expression.js:257:12 {"date":"Thu Mar 03 2022 08:39:10 GMT+0530 (India Standard Time)","error":{"code":"BABEL_PARSE_ERROR","loc":{"column":8,"index":1533,"line":73},"pos":1533,"reasonCode":"UnexpectedToken"},"exception":true,"os":{"loadavg":[0,0,0],"uptime":64189},"process":{"argv":["node","C:\\Users\\anand\\Desktop\\fundoo-Notes\\src\\index.js"],"cwd":"C:\\Users\\anand\\Desktop\\fundoo-Notes","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18315702,"external":26998721,"heapTotal":135196672,"heapUsed":113177664,"rss":171175936},"pid":5360,"uid":null,"version":"v16.13.2"},"stack":"SyntaxError: C:\\Users\\anand\\Desktop\\fundoo-Notes\\src\\services\\note.service.js: Unexpected token (73:8)\n\n\u001b[0m \u001b[90m 71 |\u001b[39m     \u001b[36mconst\u001b[39m \u001b[33mTrashingIt\u001b[39m \u001b[33m=\u001b[39m \u001b[36mawait\u001b[39m \u001b[33mNote\u001b[39m\u001b[33m.\u001b[39mfindByIdAndUpdate({\u001b[33mUserID\u001b[39m \u001b[33m:\u001b[39m body\u001b[33m.\u001b[39m\u001b[33mUserID\u001b[39m\u001b[33m,\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 72 |\u001b[39m         body\u001b[33m,\u001b[39m\u001b[0m\n\u001b[0m\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 73 |\u001b[39m         {   \u001b[0m\n\u001b[0m \u001b[90m    |\u001b[39m         \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 74 |\u001b[39m             $set\u001b[33m:\u001b[39m { isDeleted\u001b[33m:\u001b[39m \u001b[36mtrue\u001b[39m }\u001b[0m\n\u001b[0m \u001b[90m 75 |\u001b[39m         }\u001b[0m\n\u001b[0m \u001b[90m 76 |\u001b[39m\u001b[0m\n    at Parser._raise (C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\@babel\\parser\\src\\parser\\error.js:150:45)\n    at Parser.raiseWithData (C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\@babel\\parser\\src\\parser\\error.js:145:17)\n    at Parser.raise (C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\@babel\\parser\\src\\parser\\error.js:89:17)\n    at Parser.unexpected (C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\@babel\\parser\\src\\parser\\util.js:174:16)\n    at Parser.parsePropertyName (C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\@babel\\parser\\src\\parser\\expression.js:2306:24)\n    at Parser.parsePropertyDefinition (C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\@babel\\parser\\src\\parser\\expression.js:2053:22)\n    at Parser.parseObjectLike (C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\@babel\\parser\\src\\parser\\expression.js:1958:21)\n    at Parser.parseExprAtom (C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\@babel\\parser\\src\\parser\\expression.js:1150:21)\n    at Parser.parseExprSubscripts (C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\@babel\\parser\\src\\parser\\expression.js:682:23)\n    at Parser.parseUpdate (C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\@babel\\parser\\src\\parser\\expression.js:662:21)\n    at Parser.parseMaybeUnary (C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\@babel\\parser\\src\\parser\\expression.js:633:23)\n    at Parser.parseMaybeUnaryOrPrivate (C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\@babel\\parser\\src\\parser\\expression.js:388:14)\n    at Parser.parseExprOps (C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\@babel\\parser\\src\\parser\\expression.js:398:23)\n    at Parser.parseMaybeConditional (C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\@babel\\parser\\src\\parser\\expression.js:356:23)\n    at Parser.parseMaybeAssign (C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\@babel\\parser\\src\\parser\\expression.js:303:21)\n    at C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\@babel\\parser\\src\\parser\\expression.js:257:12","trace":[{"column":45,"file":"C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\@babel\\parser\\src\\parser\\error.js","function":"Parser._raise","line":150,"method":"_raise","native":false},{"column":17,"file":"C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\@babel\\parser\\src\\parser\\error.js","function":"Parser.raiseWithData","line":145,"method":"raiseWithData","native":false},{"column":17,"file":"C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\@babel\\parser\\src\\parser\\error.js","function":"Parser.raise","line":89,"method":"raise","native":false},{"column":16,"file":"C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\@babel\\parser\\src\\parser\\util.js","function":"Parser.unexpected","line":174,"method":"unexpected","native":false},{"column":24,"file":"C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\@babel\\parser\\src\\parser\\expression.js","function":"Parser.parsePropertyName","line":2306,"method":"parsePropertyName","native":false},{"column":22,"file":"C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\@babel\\parser\\src\\parser\\expression.js","function":"Parser.parsePropertyDefinition","line":2053,"method":"parsePropertyDefinition","native":false},{"column":21,"file":"C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\@babel\\parser\\src\\parser\\expression.js","function":"Parser.parseObjectLike","line":1958,"method":"parseObjectLike","native":false},{"column":21,"file":"C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\@babel\\parser\\src\\parser\\expression.js","function":"Parser.parseExprAtom","line":1150,"method":"parseExprAtom","native":false},{"column":23,"file":"C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\@babel\\parser\\src\\parser\\expression.js","function":"Parser.parseExprSubscripts","line":682,"method":"parseExprSubscripts","native":false},{"column":21,"file":"C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\@babel\\parser\\src\\parser\\expression.js","function":"Parser.parseUpdate","line":662,"method":"parseUpdate","native":false},{"column":23,"file":"C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\@babel\\parser\\src\\parser\\expression.js","function":"Parser.parseMaybeUnary","line":633,"method":"parseMaybeUnary","native":false},{"column":14,"file":"C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\@babel\\parser\\src\\parser\\expression.js","function":"Parser.parseMaybeUnaryOrPrivate","line":388,"method":"parseMaybeUnaryOrPrivate","native":false},{"column":23,"file":"C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\@babel\\parser\\src\\parser\\expression.js","function":"Parser.parseExprOps","line":398,"method":"parseExprOps","native":false},{"column":23,"file":"C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\@babel\\parser\\src\\parser\\expression.js","function":"Parser.parseMaybeConditional","line":356,"method":"parseMaybeConditional","native":false},{"column":21,"file":"C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\@babel\\parser\\src\\parser\\expression.js","function":"Parser.parseMaybeAssign","line":303,"method":"parseMaybeAssign","native":false},{"column":12,"file":"C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\@babel\\parser\\src\\parser\\expression.js","function":null,"line":257,"method":null,"native":false}]}
+info: ::1 - - [03/Mar/2022:03:16:04 +0000] "GET /api/v1/users/forget HTTP/1.1" 200 64 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [03/Mar/2022:03:17:33 +0000] "PUT /api/v1/users/reset HTTP/1.1" 200 328 "-" "PostmanRuntime/7.29.0"
+
+error: uncaughtException: listen EADDRINUSE: address already in use :::3000
+Error: listen EADDRINUSE: address already in use :::3000
+    at Server.setupListenHandle [as _listen2] (node:net:1334:16)
+    at listenInCluster (node:net:1382:12)
+    at Server.listen (node:net:1469:7)
+    at Function.listen (C:\Users\anand\Desktop\fundoo-Notes\node_modules\express\lib\application.js:618:24)
+    at Object.<anonymous> (C:\Users\anand\Desktop\fundoo-Notes\src\/index.js:41:5)
+    at Module._compile (node:internal/modules/cjs/loader:1101:14)
+    at Module._compile (C:\Users\anand\Desktop\fundoo-Notes\node_modules\pirates\lib\index.js:136:24)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1153:10)
+    at Object.newLoader [as .js] (C:\Users\anand\Desktop\fundoo-Notes\node_modules\pirates\lib\index.js:141:7)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)
+    at Object.<anonymous> (C:\Users\anand\Desktop\fundoo-Notes\node_modules\@babel\node\lib\_babel-node.js:176:21)
+    at Module._compile (node:internal/modules/cjs/loader:1101:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1153:10)
+    at Module.load (node:internal/modules/cjs/loader:981:32) {"date":"Thu Mar 03 2022 09:38:51 GMT+0530 (India Standard Time)","error":{"address":"::","code":"EADDRINUSE","errno":-4091,"port":3000,"syscall":"listen"},"exception":true,"os":{"loadavg":[0,0,0],"uptime":67769},"process":{"argv":["node","C:\\Users\\anand\\Desktop\\fundoo-Notes\\src\\index.js"],"cwd":"C:\\Users\\anand\\Desktop\\fundoo-Notes","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18389221,"external":25407520,"heapTotal":125501440,"heapUsed":104251600,"rss":163434496},"pid":15144,"uid":null,"version":"v16.13.2"},"stack":"Error: listen EADDRINUSE: address already in use :::3000\n    at Server.setupListenHandle [as _listen2] (node:net:1334:16)\n    at listenInCluster (node:net:1382:12)\n    at Server.listen (node:net:1469:7)\n    at Function.listen (C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\express\\lib\\application.js:618:24)\n    at Object.<anonymous> (C:\\Users\\anand\\Desktop\\fundoo-Notes\\src\\/index.js:41:5)\n    at Module._compile (node:internal/modules/cjs/loader:1101:14)\n    at Module._compile (C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\pirates\\lib\\index.js:136:24)\n    at Module._extensions..js (node:internal/modules/cjs/loader:1153:10)\n    at Object.newLoader [as .js] (C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\pirates\\lib\\index.js:141:7)\n    at Module.load (node:internal/modules/cjs/loader:981:32)\n    at Function.Module._load (node:internal/modules/cjs/loader:822:12)\n    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)\n    at Object.<anonymous> (C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\@babel\\node\\lib\\_babel-node.js:176:21)\n    at Module._compile (node:internal/modules/cjs/loader:1101:14)\n    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1153:10)\n    at Module.load (node:internal/modules/cjs/loader:981:32)","trace":[{"column":16,"file":"node:net","function":"Server.setupListenHandle [as _listen2]","line":1334,"method":"setupListenHandle [as _listen2]","native":false},{"column":12,"file":"node:net","function":"listenInCluster","line":1382,"method":null,"native":false},{"column":7,"file":"node:net","function":"Server.listen","line":1469,"method":"listen","native":false},{"column":24,"file":"C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\express\\lib\\application.js","function":"Function.listen","line":618,"method":"listen","native":false},{"column":5,"file":"C:\\Users\\anand\\Desktop\\fundoo-Notes\\src\\/index.js","function":null,"line":41,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1101,"method":"_compile","native":false},{"column":24,"file":"C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\pirates\\lib\\index.js","function":"Module._compile","line":136,"method":"_compile","native":false},{"column":10,"file":"node:internal/modules/cjs/loader","function":"Module._extensions..js","line":1153,"method":".js","native":false},{"column":7,"file":"C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\pirates\\lib\\index.js","function":"Object.newLoader [as .js]","line":141,"method":"js]","native":false},{"column":32,"file":"node:internal/modules/cjs/loader","function":"Module.load","line":981,"method":"load","native":false},{"column":12,"file":"node:internal/modules/cjs/loader","function":"Module._load","line":822,"method":"_load","native":false},{"column":12,"file":"node:internal/modules/run_main","function":"Function.executeUserEntryPoint [as runMain]","line":81,"method":"executeUserEntryPoint [as runMain]","native":false},{"column":21,"file":"C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\@babel\\node\\lib\\_babel-node.js","function":null,"line":176,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1101,"method":"_compile","native":false},{"column":10,"file":"node:internal/modules/cjs/loader","function":"Module._extensions..js","line":1153,"method":".js","native":false},{"column":32,"file":"node:internal/modules/cjs/loader","function":"Module.load","line":981,"method":"load","native":false}]}
+error: uncaughtException: listen EADDRINUSE: address already in use :::3000
+Error: listen EADDRINUSE: address already in use :::3000
+    at Server.setupListenHandle [as _listen2] (node:net:1334:16)
+    at listenInCluster (node:net:1382:12)
+    at Server.listen (node:net:1469:7)
+    at Function.listen (C:\Users\anand\Desktop\fundoo-Notes\node_modules\express\lib\application.js:618:24)
+    at Object.<anonymous> (C:\Users\anand\Desktop\fundoo-Notes\src\/index.js:41:5)
+    at Module._compile (node:internal/modules/cjs/loader:1101:14)
+    at Module._compile (C:\Users\anand\Desktop\fundoo-Notes\node_modules\pirates\lib\index.js:136:24)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1153:10)
+    at Object.newLoader [as .js] (C:\Users\anand\Desktop\fundoo-Notes\node_modules\pirates\lib\index.js:141:7)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)
+    at Object.<anonymous> (C:\Users\anand\Desktop\fundoo-Notes\node_modules\@babel\node\lib\_babel-node.js:176:21)
+    at Module._compile (node:internal/modules/cjs/loader:1101:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1153:10)
+    at Module.load (node:internal/modules/cjs/loader:981:32) {"date":"Thu Mar 03 2022 09:39:58 GMT+0530 (India Standard Time)","error":{"address":"::","code":"EADDRINUSE","errno":-4091,"port":3000,"syscall":"listen"},"exception":true,"os":{"loadavg":[0,0,0],"uptime":67836},"process":{"argv":["node","C:\\Users\\anand\\Desktop\\fundoo-Notes\\src\\index.js"],"cwd":"C:\\Users\\anand\\Desktop\\fundoo-Notes","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18397413,"external":25407520,"heapTotal":126025728,"heapUsed":103873208,"rss":165830656},"pid":16468,"uid":null,"version":"v16.13.2"},"stack":"Error: listen EADDRINUSE: address already in use :::3000\n    at Server.setupListenHandle [as _listen2] (node:net:1334:16)\n    at listenInCluster (node:net:1382:12)\n    at Server.listen (node:net:1469:7)\n    at Function.listen (C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\express\\lib\\application.js:618:24)\n    at Object.<anonymous> (C:\\Users\\anand\\Desktop\\fundoo-Notes\\src\\/index.js:41:5)\n    at Module._compile (node:internal/modules/cjs/loader:1101:14)\n    at Module._compile (C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\pirates\\lib\\index.js:136:24)\n    at Module._extensions..js (node:internal/modules/cjs/loader:1153:10)\n    at Object.newLoader [as .js] (C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\pirates\\lib\\index.js:141:7)\n    at Module.load (node:internal/modules/cjs/loader:981:32)\n    at Function.Module._load (node:internal/modules/cjs/loader:822:12)\n    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)\n    at Object.<anonymous> (C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\@babel\\node\\lib\\_babel-node.js:176:21)\n    at Module._compile (node:internal/modules/cjs/loader:1101:14)\n    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1153:10)\n    at Module.load (node:internal/modules/cjs/loader:981:32)","trace":[{"column":16,"file":"node:net","function":"Server.setupListenHandle [as _listen2]","line":1334,"method":"setupListenHandle [as _listen2]","native":false},{"column":12,"file":"node:net","function":"listenInCluster","line":1382,"method":null,"native":false},{"column":7,"file":"node:net","function":"Server.listen","line":1469,"method":"listen","native":false},{"column":24,"file":"C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\express\\lib\\application.js","function":"Function.listen","line":618,"method":"listen","native":false},{"column":5,"file":"C:\\Users\\anand\\Desktop\\fundoo-Notes\\src\\/index.js","function":null,"line":41,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1101,"method":"_compile","native":false},{"column":24,"file":"C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\pirates\\lib\\index.js","function":"Module._compile","line":136,"method":"_compile","native":false},{"column":10,"file":"node:internal/modules/cjs/loader","function":"Module._extensions..js","line":1153,"method":".js","native":false},{"column":7,"file":"C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\pirates\\lib\\index.js","function":"Object.newLoader [as .js]","line":141,"method":"js]","native":false},{"column":32,"file":"node:internal/modules/cjs/loader","function":"Module.load","line":981,"method":"load","native":false},{"column":12,"file":"node:internal/modules/cjs/loader","function":"Module._load","line":822,"method":"_load","native":false},{"column":12,"file":"node:internal/modules/run_main","function":"Function.executeUserEntryPoint [as runMain]","line":81,"method":"executeUserEntryPoint [as runMain]","native":false},{"column":21,"file":"C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\@babel\\node\\lib\\_babel-node.js","function":null,"line":176,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1101,"method":"_compile","native":false},{"column":10,"file":"node:internal/modules/cjs/loader","function":"Module._extensions..js","line":1153,"method":".js","native":false},{"column":32,"file":"node:internal/modules/cjs/loader","function":"Module.load","line":981,"method":"load","native":false}]}
+info: ::1 - - [03/Mar/2022:04:11:07 +0000] "PUT /api/v1/users/reset HTTP/1.1" 500 138 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [03/Mar/2022:04:12:07 +0000] "GET /api/v1/users/forget HTTP/1.1" 404 47 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [03/Mar/2022:04:12:39 +0000] "GET /api/v1/users/forget HTTP/1.1" 404 47 "-" "PostmanRuntime/7.29.0"
+
+error: uncaughtException: listen EADDRINUSE: address already in use :::3000
+Error: listen EADDRINUSE: address already in use :::3000
+    at Server.setupListenHandle [as _listen2] (node:net:1334:16)
+    at listenInCluster (node:net:1382:12)
+    at Server.listen (node:net:1469:7)
+    at Function.listen (C:\Users\anand\Desktop\fundoo-Notes\node_modules\express\lib\application.js:618:24)
+    at Object.<anonymous> (C:\Users\anand\Desktop\fundoo-Notes\src\/index.js:41:5)
+    at Module._compile (node:internal/modules/cjs/loader:1101:14)
+    at Module._compile (C:\Users\anand\Desktop\fundoo-Notes\node_modules\pirates\lib\index.js:136:24)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1153:10)
+    at Object.newLoader [as .js] (C:\Users\anand\Desktop\fundoo-Notes\node_modules\pirates\lib\index.js:141:7)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)
+    at Object.<anonymous> (C:\Users\anand\Desktop\fundoo-Notes\node_modules\@babel\node\lib\_babel-node.js:176:21)
+    at Module._compile (node:internal/modules/cjs/loader:1101:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1153:10)
+    at Module.load (node:internal/modules/cjs/loader:981:32) {"date":"Thu Mar 03 2022 11:49:35 GMT+0530 (India Standard Time)","error":{"address":"::","code":"EADDRINUSE","errno":-4091,"port":3000,"syscall":"listen"},"exception":true,"os":{"loadavg":[0,0,0],"uptime":75613},"process":{"argv":["node","C:\\Users\\anand\\Desktop\\fundoo-Notes\\src\\index.js"],"cwd":"C:\\Users\\anand\\Desktop\\fundoo-Notes","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18381027,"external":25024155,"heapTotal":130965504,"heapUsed":105794536,"rss":169656320},"pid":3028,"uid":null,"version":"v16.13.2"},"stack":"Error: listen EADDRINUSE: address already in use :::3000\n    at Server.setupListenHandle [as _listen2] (node:net:1334:16)\n    at listenInCluster (node:net:1382:12)\n    at Server.listen (node:net:1469:7)\n    at Function.listen (C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\express\\lib\\application.js:618:24)\n    at Object.<anonymous> (C:\\Users\\anand\\Desktop\\fundoo-Notes\\src\\/index.js:41:5)\n    at Module._compile (node:internal/modules/cjs/loader:1101:14)\n    at Module._compile (C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\pirates\\lib\\index.js:136:24)\n    at Module._extensions..js (node:internal/modules/cjs/loader:1153:10)\n    at Object.newLoader [as .js] (C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\pirates\\lib\\index.js:141:7)\n    at Module.load (node:internal/modules/cjs/loader:981:32)\n    at Function.Module._load (node:internal/modules/cjs/loader:822:12)\n    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)\n    at Object.<anonymous> (C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\@babel\\node\\lib\\_babel-node.js:176:21)\n    at Module._compile (node:internal/modules/cjs/loader:1101:14)\n    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1153:10)\n    at Module.load (node:internal/modules/cjs/loader:981:32)","trace":[{"column":16,"file":"node:net","function":"Server.setupListenHandle [as _listen2]","line":1334,"method":"setupListenHandle [as _listen2]","native":false},{"column":12,"file":"node:net","function":"listenInCluster","line":1382,"method":null,"native":false},{"column":7,"file":"node:net","function":"Server.listen","line":1469,"method":"listen","native":false},{"column":24,"file":"C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\express\\lib\\application.js","function":"Function.listen","line":618,"method":"listen","native":false},{"column":5,"file":"C:\\Users\\anand\\Desktop\\fundoo-Notes\\src\\/index.js","function":null,"line":41,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1101,"method":"_compile","native":false},{"column":24,"file":"C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\pirates\\lib\\index.js","function":"Module._compile","line":136,"method":"_compile","native":false},{"column":10,"file":"node:internal/modules/cjs/loader","function":"Module._extensions..js","line":1153,"method":".js","native":false},{"column":7,"file":"C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\pirates\\lib\\index.js","function":"Object.newLoader [as .js]","line":141,"method":"js]","native":false},{"column":32,"file":"node:internal/modules/cjs/loader","function":"Module.load","line":981,"method":"load","native":false},{"column":12,"file":"node:internal/modules/cjs/loader","function":"Module._load","line":822,"method":"_load","native":false},{"column":12,"file":"node:internal/modules/run_main","function":"Function.executeUserEntryPoint [as runMain]","line":81,"method":"executeUserEntryPoint [as runMain]","native":false},{"column":21,"file":"C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\@babel\\node\\lib\\_babel-node.js","function":null,"line":176,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1101,"method":"_compile","native":false},{"column":10,"file":"node:internal/modules/cjs/loader","function":"Module._extensions..js","line":1153,"method":".js","native":false},{"column":32,"file":"node:internal/modules/cjs/loader","function":"Module.load","line":981,"method":"load","native":false}]}
+info: ::1 - - [03/Mar/2022:06:20:52 +0000] "POST /api/v1/users/register HTTP/1.1" 201 320 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [03/Mar/2022:06:21:16 +0000] "GET /api/v1/users/login HTTP/1.1" 200 238 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [03/Mar/2022:06:22:02 +0000] "POST /api/v1/note HTTP/1.1" 400 57 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [03/Mar/2022:06:23:23 +0000] "POST /api/v1/note HTTP/1.1" 400 57 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [03/Mar/2022:06:23:25 +0000] "POST /api/v1/note HTTP/1.1" 400 57 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [03/Mar/2022:06:23:26 +0000] "POST /api/v1/note HTTP/1.1" 400 57 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [03/Mar/2022:06:23:27 +0000] "POST /api/v1/note HTTP/1.1" 400 57 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [03/Mar/2022:06:25:03 +0000] "POST /api/v1/note HTTP/1.1" 500 137 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [03/Mar/2022:06:27:15 +0000] "POST /api/v1/note HTTP/1.1" 500 137 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [03/Mar/2022:06:27:48 +0000] "GET /api/v1/users/login HTTP/1.1" 200 238 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [03/Mar/2022:06:28:14 +0000] "GET /api/v1/users/login HTTP/1.1" 500 57 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [03/Mar/2022:06:30:05 +0000] "GET /api/v1/users/register HTTP/1.1" 404 47 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [03/Mar/2022:06:30:13 +0000] "POST /api/v1/users/register HTTP/1.1" 500 61 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [03/Mar/2022:06:30:25 +0000] "POST /api/v1/users/register HTTP/1.1" 201 321 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [03/Mar/2022:06:30:47 +0000] "GET /api/v1/users/login HTTP/1.1" 200 240 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [03/Mar/2022:06:34:14 +0000] "POST /api/v1/note HTTP/1.1" 500 137 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [03/Mar/2022:06:37:17 +0000] "POST /api/v1/note HTTP/1.1" 500 137 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [03/Mar/2022:06:37:47 +0000] "POST /api/v1/note HTTP/1.1" 500 137 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [03/Mar/2022:06:38:17 +0000] "POST /api/v1/note HTTP/1.1" 500 137 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [03/Mar/2022:06:41:34 +0000] "POST /api/v1/note HTTP/1.1" 500 137 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [03/Mar/2022:06:51:30 +0000] "POST /api/v1/note HTTP/1.1" 200 303 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [03/Mar/2022:06:53:18 +0000] "GET /api/v1/note HTTP/1.1" 200 325 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [03/Mar/2022:06:54:03 +0000] "PUT /api/v1/note/62206571f0e8862498d77ee9 HTTP/1.1" 200 364 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [03/Mar/2022:06:54:19 +0000] "GET /api/v1/note/62206571f0e8862498d77ee9 HTTP/1.1" 200 330 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [03/Mar/2022:06:56:26 +0000] "PUT /api/v1/note/archive/62206571f0e8862498d77ee9 HTTP/1.1" 500 49 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [03/Mar/2022:06:57:20 +0000] "PUT /api/v1/note/archive/62206571f0e8862498d77ee9 HTTP/1.1" 200 53 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [03/Mar/2022:06:58:10 +0000] "PUT /api/v1/note/archive/62206571f0e8862498d77ee9 HTTP/1.1" 200 53 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [03/Mar/2022:06:59:29 +0000] "PUT /api/v1/note/archive/62206571f0e8862498d77ee9 HTTP/1.1" 200 53 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [03/Mar/2022:07:08:14 +0000] "PUT /api/v1/note/archive/62206571f0e8862498d77ee9 HTTP/1.1" 500 54 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [03/Mar/2022:07:08:32 +0000] "PUT /api/v1/note/archive/62206571f0e8862498d77ee9 HTTP/1.1" 200 319 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [03/Mar/2022:07:08:35 +0000] "PUT /api/v1/note/archive/62206571f0e8862498d77ee9 HTTP/1.1" 200 319 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [03/Mar/2022:07:08:36 +0000] "PUT /api/v1/note/archive/62206571f0e8862498d77ee9 HTTP/1.1" 200 319 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [03/Mar/2022:07:08:37 +0000] "PUT /api/v1/note/archive/62206571f0e8862498d77ee9 HTTP/1.1" 200 319 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [03/Mar/2022:07:08:38 +0000] "PUT /api/v1/note/archive/62206571f0e8862498d77ee9 HTTP/1.1" 200 319 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [03/Mar/2022:07:08:38 +0000] "PUT /api/v1/note/archive/62206571f0e8862498d77ee9 HTTP/1.1" 200 319 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [03/Mar/2022:07:08:39 +0000] "PUT /api/v1/note/archive/62206571f0e8862498d77ee9 HTTP/1.1" 200 319 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [03/Mar/2022:07:12:37 +0000] "PUT /api/v1/note/archive/62206571f0e8862498d77ee9 HTTP/1.1" 200 319 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [03/Mar/2022:07:12:40 +0000] "PUT /api/v1/note/archive/62206571f0e8862498d77ee9 HTTP/1.1" 200 319 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [03/Mar/2022:07:12:41 +0000] "PUT /api/v1/note/archive/62206571f0e8862498d77ee9 HTTP/1.1" 200 319 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [03/Mar/2022:07:12:42 +0000] "PUT /api/v1/note/archive/62206571f0e8862498d77ee9 HTTP/1.1" 200 319 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [03/Mar/2022:07:12:43 +0000] "PUT /api/v1/note/archive/62206571f0e8862498d77ee9 HTTP/1.1" 200 319 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [03/Mar/2022:07:12:43 +0000] "PUT /api/v1/note/archive/62206571f0e8862498d77ee9 HTTP/1.1" 200 319 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [03/Mar/2022:07:12:44 +0000] "PUT /api/v1/note/archive/62206571f0e8862498d77ee9 HTTP/1.1" 200 319 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [03/Mar/2022:07:12:47 +0000] "PUT /api/v1/note/archive/62206571f0e8862498d77ee9 HTTP/1.1" 200 319 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [03/Mar/2022:07:13:30 +0000] "PUT /api/v1/note/archive/62206571f0e8862498d77ee9 HTTP/1.1" 200 319 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [03/Mar/2022:07:13:31 +0000] "PUT /api/v1/note/archive/62206571f0e8862498d77ee9 HTTP/1.1" 200 319 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [03/Mar/2022:07:13:32 +0000] "PUT /api/v1/note/archive/62206571f0e8862498d77ee9 HTTP/1.1" 200 319 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [03/Mar/2022:07:13:35 +0000] "PUT /api/v1/note/archive/62206571f0e8862498d77ee9 HTTP/1.1" 200 319 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [03/Mar/2022:07:13:36 +0000] "PUT /api/v1/note/archive/62206571f0e8862498d77ee9 HTTP/1.1" 200 319 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [03/Mar/2022:07:13:37 +0000] "PUT /api/v1/note/archive/62206571f0e8862498d77ee9 HTTP/1.1" 200 319 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [03/Mar/2022:07:13:37 +0000] "PUT /api/v1/note/archive/62206571f0e8862498d77ee9 HTTP/1.1" 200 319 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [03/Mar/2022:07:13:56 +0000] "PUT /api/v1/note/archive/62206571f0e8862498d77ee9 HTTP/1.1" 200 319 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [03/Mar/2022:07:13:57 +0000] "PUT /api/v1/note/archive/62206571f0e8862498d77ee9 HTTP/1.1" 200 319 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [03/Mar/2022:07:13:58 +0000] "PUT /api/v1/note/archive/62206571f0e8862498d77ee9 HTTP/1.1" 200 319 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [03/Mar/2022:07:13:58 +0000] "PUT /api/v1/note/archive/62206571f0e8862498d77ee9 HTTP/1.1" 200 319 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [03/Mar/2022:07:13:58 +0000] "PUT /api/v1/note/archive/62206571f0e8862498d77ee9 HTTP/1.1" 200 319 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [03/Mar/2022:07:13:59 +0000] "PUT /api/v1/note/archive/62206571f0e8862498d77ee9 HTTP/1.1" 200 319 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [03/Mar/2022:07:13:59 +0000] "PUT /api/v1/note/archive/62206571f0e8862498d77ee9 HTTP/1.1" 200 319 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [03/Mar/2022:07:13:59 +0000] "PUT /api/v1/note/archive/62206571f0e8862498d77ee9 HTTP/1.1" 200 319 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [03/Mar/2022:07:14:00 +0000] "PUT /api/v1/note/archive/62206571f0e8862498d77ee9 HTTP/1.1" 200 319 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [03/Mar/2022:07:14:00 +0000] "PUT /api/v1/note/archive/62206571f0e8862498d77ee9 HTTP/1.1" 200 319 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [03/Mar/2022:07:14:00 +0000] "PUT /api/v1/note/archive/62206571f0e8862498d77ee9 HTTP/1.1" 200 319 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [03/Mar/2022:07:14:01 +0000] "PUT /api/v1/note/archive/62206571f0e8862498d77ee9 HTTP/1.1" 200 319 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [03/Mar/2022:07:14:01 +0000] "PUT /api/v1/note/archive/62206571f0e8862498d77ee9 HTTP/1.1" 200 319 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [03/Mar/2022:07:14:02 +0000] "PUT /api/v1/note/archive/62206571f0e8862498d77ee9 HTTP/1.1" 200 319 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [03/Mar/2022:07:22:56 +0000] "PUT /api/v1/note/archive/62206571f0e8862498d77ee9 HTTP/1.1" 200 319 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [03/Mar/2022:07:23:02 +0000] "PUT /api/v1/note/archive/62206571f0e8862498d77ee9 HTTP/1.1" 200 319 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [03/Mar/2022:07:29:46 +0000] "POST /api/v1/note HTTP/1.1" 200 276 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [03/Mar/2022:07:30:12 +0000] "PUT /api/v1/note/archive/62206e6a2d8f370d04f634c5 HTTP/1.1" 200 282 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [03/Mar/2022:07:30:14 +0000] "PUT /api/v1/note/archive/62206e6a2d8f370d04f634c5 HTTP/1.1" 200 282 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [03/Mar/2022:07:30:16 +0000] "PUT /api/v1/note/archive/62206e6a2d8f370d04f634c5 HTTP/1.1" 200 282 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [03/Mar/2022:07:30:20 +0000] "PUT /api/v1/note/archive/62206e6a2d8f370d04f634c5 HTTP/1.1" 200 282 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [03/Mar/2022:07:30:21 +0000] "PUT /api/v1/note/archive/62206e6a2d8f370d04f634c5 HTTP/1.1" 200 282 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [03/Mar/2022:07:30:22 +0000] "PUT /api/v1/note/archive/62206e6a2d8f370d04f634c5 HTTP/1.1" 200 282 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [03/Mar/2022:07:30:24 +0000] "PUT /api/v1/note/archive/62206e6a2d8f370d04f634c5 HTTP/1.1" 200 282 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [03/Mar/2022:07:30:46 +0000] "PUT /api/v1/note/archive/62206e6a2d8f370d04f634c5 HTTP/1.1" 200 282 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [03/Mar/2022:07:31:04 +0000] "PUT /api/v1/note/archive/62206571f0e8862498d77ee9 HTTP/1.1" 200 319 "-" "PostmanRuntime/7.29.0"
+
+error: uncaughtException: C:\Users\anand\Desktop\fundoo-Notes\src\services\note.service.js: Unexpected token, expected "," (59:22)
+
+[0m [90m 57 |[39m     [36mconst[39m [33mSendingItToArchieve[39m [33m=[39m [36mawait[39m [33mNote[39m[33m.[39mfindByIdAndUpdate({_id} [33m,[39m[0m
+[0m [90m 58 |[39m       {[0m
+[0m[31m[1m>[22m[39m[90m 59 |[39m           $set [33m:[39m {body[33m.[39misArchived [33m:[39m[36mtrue[39m}[0m
+[0m [90m    |[39m                       [31m[1m^[22m[39m[0m
+[0m [90m 60 |[39m       }  [0m
+[0m [90m 61 |[39m     )[33m;[39m[0m
+[0m [90m 62 |[39m     [36mreturn[39m [33mSendingItToArchieve[39m [33m;[39m[0m
+SyntaxError: C:\Users\anand\Desktop\fundoo-Notes\src\services\note.service.js: Unexpected token, expected "," (59:22)
+
+[0m [90m 57 |[39m     [36mconst[39m [33mSendingItToArchieve[39m [33m=[39m [36mawait[39m [33mNote[39m[33m.[39mfindByIdAndUpdate({_id} [33m,[39m[0m
+[0m [90m 58 |[39m       {[0m
+[0m[31m[1m>[22m[39m[90m 59 |[39m           $set [33m:[39m {body[33m.[39misArchived [33m:[39m[36mtrue[39m}[0m
+[0m [90m    |[39m                       [31m[1m^[22m[39m[0m
+[0m [90m 60 |[39m       }  [0m
+[0m [90m 61 |[39m     )[33m;[39m[0m
+[0m [90m 62 |[39m     [36mreturn[39m [33mSendingItToArchieve[39m [33m;[39m[0m
+    at Parser._raise (C:\Users\anand\Desktop\fundoo-Notes\node_modules\@babel\parser\src\parser\error.js:150:45)
+    at Parser.raiseWithData (C:\Users\anand\Desktop\fundoo-Notes\node_modules\@babel\parser\src\parser\error.js:145:17)
+    at Parser.raise (C:\Users\anand\Desktop\fundoo-Notes\node_modules\@babel\parser\src\parser\error.js:89:17)
+    at Parser.unexpected (C:\Users\anand\Desktop\fundoo-Notes\node_modules\@babel\parser\src\parser\util.js:174:16)
+    at Parser.expect (C:\Users\anand\Desktop\fundoo-Notes\node_modules\@babel\parser\src\parser\util.js:150:28)
+    at Parser.parseObjectLike (C:\Users\anand\Desktop\fundoo-Notes\node_modules\@babel\parser\src\parser\expression.js:1947:14)
+    at Parser.parseExprAtom (C:\Users\anand\Desktop\fundoo-Notes\node_modules\@babel\parser\src\parser\expression.js:1150:21)
+    at Parser.parseExprSubscripts (C:\Users\anand\Desktop\fundoo-Notes\node_modules\@babel\parser\src\parser\expression.js:682:23)
+    at Parser.parseUpdate (C:\Users\anand\Desktop\fundoo-Notes\node_modules\@babel\parser\src\parser\expression.js:662:21)
+    at Parser.parseMaybeUnary (C:\Users\anand\Desktop\fundoo-Notes\node_modules\@babel\parser\src\parser\expression.js:633:23)
+    at Parser.parseMaybeUnaryOrPrivate (C:\Users\anand\Desktop\fundoo-Notes\node_modules\@babel\parser\src\parser\expression.js:388:14)
+    at Parser.parseExprOps (C:\Users\anand\Desktop\fundoo-Notes\node_modules\@babel\parser\src\parser\expression.js:398:23)
+    at Parser.parseMaybeConditional (C:\Users\anand\Desktop\fundoo-Notes\node_modules\@babel\parser\src\parser\expression.js:356:23)
+    at Parser.parseMaybeAssign (C:\Users\anand\Desktop\fundoo-Notes\node_modules\@babel\parser\src\parser\expression.js:303:21)
+    at callback (C:\Users\anand\Desktop\fundoo-Notes\node_modules\@babel\parser\src\parser\expression.js:257:12)
+    at Parser.allowInAnd (C:\Users\anand\Desktop\fundoo-Notes\node_modules\@babel\parser\src\parser\expression.js:2963:12) {"date":"Thu Mar 03 2022 13:15:45 GMT+0530 (India Standard Time)","error":{"code":"BABEL_PARSE_ERROR","loc":{"column":22,"index":1250,"line":59},"pos":1250,"reasonCode":"UnexpectedToken"},"exception":true,"os":{"loadavg":[0,0,0],"uptime":80783},"process":{"argv":["node","C:\\Users\\anand\\Desktop\\fundoo-Notes\\src\\index.js"],"cwd":"C:\\Users\\anand\\Desktop\\fundoo-Notes","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18315814,"external":26982330,"heapTotal":134934528,"heapUsed":112863944,"rss":173318144},"pid":13908,"uid":null,"version":"v16.13.2"},"stack":"SyntaxError: C:\\Users\\anand\\Desktop\\fundoo-Notes\\src\\services\\note.service.js: Unexpected token, expected \",\" (59:22)\n\n\u001b[0m \u001b[90m 57 |\u001b[39m     \u001b[36mconst\u001b[39m \u001b[33mSendingItToArchieve\u001b[39m \u001b[33m=\u001b[39m \u001b[36mawait\u001b[39m \u001b[33mNote\u001b[39m\u001b[33m.\u001b[39mfindByIdAndUpdate({_id} \u001b[33m,\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 58 |\u001b[39m       {\u001b[0m\n\u001b[0m\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 59 |\u001b[39m           $set \u001b[33m:\u001b[39m {body\u001b[33m.\u001b[39misArchived \u001b[33m:\u001b[39m\u001b[36mtrue\u001b[39m}\u001b[0m\n\u001b[0m \u001b[90m    |\u001b[39m                       \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 60 |\u001b[39m       }  \u001b[0m\n\u001b[0m \u001b[90m 61 |\u001b[39m     )\u001b[33m;\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 62 |\u001b[39m     \u001b[36mreturn\u001b[39m \u001b[33mSendingItToArchieve\u001b[39m \u001b[33m;\u001b[39m\u001b[0m\n    at Parser._raise (C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\@babel\\parser\\src\\parser\\error.js:150:45)\n    at Parser.raiseWithData (C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\@babel\\parser\\src\\parser\\error.js:145:17)\n    at Parser.raise (C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\@babel\\parser\\src\\parser\\error.js:89:17)\n    at Parser.unexpected (C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\@babel\\parser\\src\\parser\\util.js:174:16)\n    at Parser.expect (C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\@babel\\parser\\src\\parser\\util.js:150:28)\n    at Parser.parseObjectLike (C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\@babel\\parser\\src\\parser\\expression.js:1947:14)\n    at Parser.parseExprAtom (C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\@babel\\parser\\src\\parser\\expression.js:1150:21)\n    at Parser.parseExprSubscripts (C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\@babel\\parser\\src\\parser\\expression.js:682:23)\n    at Parser.parseUpdate (C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\@babel\\parser\\src\\parser\\expression.js:662:21)\n    at Parser.parseMaybeUnary (C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\@babel\\parser\\src\\parser\\expression.js:633:23)\n    at Parser.parseMaybeUnaryOrPrivate (C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\@babel\\parser\\src\\parser\\expression.js:388:14)\n    at Parser.parseExprOps (C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\@babel\\parser\\src\\parser\\expression.js:398:23)\n    at Parser.parseMaybeConditional (C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\@babel\\parser\\src\\parser\\expression.js:356:23)\n    at Parser.parseMaybeAssign (C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\@babel\\parser\\src\\parser\\expression.js:303:21)\n    at callback (C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\@babel\\parser\\src\\parser\\expression.js:257:12)\n    at Parser.allowInAnd (C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\@babel\\parser\\src\\parser\\expression.js:2963:12)","trace":[{"column":45,"file":"C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\@babel\\parser\\src\\parser\\error.js","function":"Parser._raise","line":150,"method":"_raise","native":false},{"column":17,"file":"C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\@babel\\parser\\src\\parser\\error.js","function":"Parser.raiseWithData","line":145,"method":"raiseWithData","native":false},{"column":17,"file":"C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\@babel\\parser\\src\\parser\\error.js","function":"Parser.raise","line":89,"method":"raise","native":false},{"column":16,"file":"C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\@babel\\parser\\src\\parser\\util.js","function":"Parser.unexpected","line":174,"method":"unexpected","native":false},{"column":28,"file":"C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\@babel\\parser\\src\\parser\\util.js","function":"Parser.expect","line":150,"method":"expect","native":false},{"column":14,"file":"C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\@babel\\parser\\src\\parser\\expression.js","function":"Parser.parseObjectLike","line":1947,"method":"parseObjectLike","native":false},{"column":21,"file":"C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\@babel\\parser\\src\\parser\\expression.js","function":"Parser.parseExprAtom","line":1150,"method":"parseExprAtom","native":false},{"column":23,"file":"C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\@babel\\parser\\src\\parser\\expression.js","function":"Parser.parseExprSubscripts","line":682,"method":"parseExprSubscripts","native":false},{"column":21,"file":"C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\@babel\\parser\\src\\parser\\expression.js","function":"Parser.parseUpdate","line":662,"method":"parseUpdate","native":false},{"column":23,"file":"C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\@babel\\parser\\src\\parser\\expression.js","function":"Parser.parseMaybeUnary","line":633,"method":"parseMaybeUnary","native":false},{"column":14,"file":"C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\@babel\\parser\\src\\parser\\expression.js","function":"Parser.parseMaybeUnaryOrPrivate","line":388,"method":"parseMaybeUnaryOrPrivate","native":false},{"column":23,"file":"C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\@babel\\parser\\src\\parser\\expression.js","function":"Parser.parseExprOps","line":398,"method":"parseExprOps","native":false},{"column":23,"file":"C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\@babel\\parser\\src\\parser\\expression.js","function":"Parser.parseMaybeConditional","line":356,"method":"parseMaybeConditional","native":false},{"column":21,"file":"C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\@babel\\parser\\src\\parser\\expression.js","function":"Parser.parseMaybeAssign","line":303,"method":"parseMaybeAssign","native":false},{"column":12,"file":"C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\@babel\\parser\\src\\parser\\expression.js","function":"callback","line":257,"method":null,"native":false},{"column":12,"file":"C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\@babel\\parser\\src\\parser\\expression.js","function":"Parser.allowInAnd","line":2963,"method":"allowInAnd","native":false}]}
+info: ::1 - - [03/Mar/2022:08:30:17 +0000] "GET /api-docs/ HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.12 Safari/537.36"
+
+info: ::1 - - [03/Mar/2022:08:30:18 +0000] "GET /api-docs/swagger-ui.css HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.12 Safari/537.36"
+
+info: ::1 - - [03/Mar/2022:08:30:18 +0000] "GET /api-docs/swagger-ui-init.js HTTP/1.1" 200 10826 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.12 Safari/537.36"
+
+info: ::1 - - [03/Mar/2022:08:30:18 +0000] "GET /api-docs/swagger-ui-bundle.js HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.12 Safari/537.36"
+
+info: ::1 - - [03/Mar/2022:08:30:18 +0000] "GET /api-docs/swagger-ui-standalone-preset.js HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.12 Safari/537.36"
+
+info: ::1 - - [03/Mar/2022:08:30:18 +0000] "GET /api-docs/favicon-32x32.png HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.12 Safari/537.36"
+
+info: ::1 - - [03/Mar/2022:08:33:46 +0000] "POST /api/v1/users/register HTTP/1.1" 201 321 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.12 Safari/537.36"
+
+info: ::1 - - [03/Mar/2022:08:34:17 +0000] "GET /api-docs/ HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.12 Safari/537.36"
+
+info: ::1 - - [03/Mar/2022:08:34:17 +0000] "GET /api-docs/swagger-ui.css HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.12 Safari/537.36"
+
+info: ::1 - - [03/Mar/2022:08:34:17 +0000] "GET /api-docs/swagger-ui-bundle.js HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.12 Safari/537.36"
+
+info: ::1 - - [03/Mar/2022:08:34:17 +0000] "GET /api-docs/swagger-ui-init.js HTTP/1.1" 200 10794 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.12 Safari/537.36"
+
+info: ::1 - - [03/Mar/2022:08:34:17 +0000] "GET /api-docs/swagger-ui-standalone-preset.js HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.12 Safari/537.36"
+
+info: ::1 - - [03/Mar/2022:08:34:18 +0000] "GET /api-docs/favicon-32x32.png HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.12 Safari/537.36"
+
+info: ::1 - - [03/Mar/2022:08:34:59 +0000] "POST /api/v1/users/register HTTP/1.1" 201 330 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.12 Safari/537.36"
+
+info: ::1 - - [03/Mar/2022:08:35:24 +0000] "POST /api/v1/users/login HTTP/1.1" 200 249 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.12 Safari/537.36"
+
+info: ::1 - - [03/Mar/2022:08:37:50 +0000] "GET /api-docs/ HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.12 Safari/537.36"
+
+info: ::1 - - [03/Mar/2022:08:37:50 +0000] "GET /api-docs/swagger-ui.css HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.12 Safari/537.36"
+
+info: ::1 - - [03/Mar/2022:08:37:50 +0000] "GET /api-docs/swagger-ui-init.js HTTP/1.1" 200 10795 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.12 Safari/537.36"
+
+info: ::1 - - [03/Mar/2022:08:37:50 +0000] "GET /api-docs/swagger-ui-standalone-preset.js HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.12 Safari/537.36"
+
+info: ::1 - - [03/Mar/2022:08:37:50 +0000] "GET /api-docs/swagger-ui-bundle.js HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.12 Safari/537.36"
+
+info: ::1 - - [03/Mar/2022:08:37:50 +0000] "GET /api-docs/favicon-32x32.png HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.12 Safari/537.36"
+
+info: ::1 - - [03/Mar/2022:08:38:08 +0000] "POST /api/v1/users/forget HTTP/1.1" 200 64 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.12 Safari/537.36"
+
+info: ::1 - - [03/Mar/2022:08:39:51 +0000] "GET /api-docs/ HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.12 Safari/537.36"
+
+info: ::1 - - [03/Mar/2022:08:39:51 +0000] "GET /api-docs/swagger-ui.css HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.12 Safari/537.36"
+
+info: ::1 - - [03/Mar/2022:08:39:51 +0000] "GET /api-docs/swagger-ui-init.js HTTP/1.1" 200 10884 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.12 Safari/537.36"
+
+info: ::1 - - [03/Mar/2022:08:39:51 +0000] "GET /api-docs/swagger-ui-standalone-preset.js HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.12 Safari/537.36"
+
+info: ::1 - - [03/Mar/2022:08:39:51 +0000] "GET /api-docs/swagger-ui-bundle.js HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.12 Safari/537.36"
+
+info: ::1 - - [03/Mar/2022:08:39:52 +0000] "GET /api-docs/favicon-32x32.png HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.12 Safari/537.36"
+
+info: ::1 - - [03/Mar/2022:08:40:04 +0000] "GET /api-docs/ HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.12 Safari/537.36"
+
+info: ::1 - - [03/Mar/2022:08:40:04 +0000] "GET /api-docs/swagger-ui.css HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.12 Safari/537.36"
+
+info: ::1 - - [03/Mar/2022:08:40:04 +0000] "GET /api-docs/swagger-ui-bundle.js HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.12 Safari/537.36"
+
+info: ::1 - - [03/Mar/2022:08:40:04 +0000] "GET /api-docs/swagger-ui-init.js HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.12 Safari/537.36"
+
+info: ::1 - - [03/Mar/2022:08:40:04 +0000] "GET /api-docs/swagger-ui-standalone-preset.js HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.12 Safari/537.36"
+
+info: ::1 - - [03/Mar/2022:08:40:04 +0000] "GET /api-docs/favicon-32x32.png HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.12 Safari/537.36"
+
+info: ::1 - - [03/Mar/2022:08:41:04 +0000] "PUT /api/v1/users/reset HTTP/1.1" 400 57 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.12 Safari/537.36"
+
+info: ::1 - - [03/Mar/2022:08:41:59 +0000] "POST /api/v1/users/forget HTTP/1.1" 200 64 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.12 Safari/537.36"
+
+info: ::1 - - [03/Mar/2022:08:42:01 +0000] "POST /api/v1/users/forget HTTP/1.1" 200 64 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.12 Safari/537.36"
+
+info: ::1 - - [03/Mar/2022:08:43:38 +0000] "PUT /api/v1/users/reset HTTP/1.1" 400 57 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.12 Safari/537.36"
+
+info: ::1 - - [03/Mar/2022:08:44:32 +0000] "PUT /api/v1/users/reset HTTP/1.1" 200 332 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.12 Safari/537.36"
+
+info: ::1 - - [03/Mar/2022:08:45:35 +0000] "POST /api/v1/users/login HTTP/1.1" 500 58 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.12 Safari/537.36"
+
+info: ::1 - - [03/Mar/2022:08:46:11 +0000] "POST /api/v1/users/login HTTP/1.1" 200 249 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.12 Safari/537.36"
+
+info: ::1 - - [03/Mar/2022:08:47:49 +0000] "GET /api-docs/ HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.12 Safari/537.36"
+
+info: ::1 - - [03/Mar/2022:08:47:49 +0000] "GET /api-docs/swagger-ui.css HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.12 Safari/537.36"
+
+info: ::1 - - [03/Mar/2022:08:47:49 +0000] "GET /api-docs/swagger-ui-bundle.js HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.12 Safari/537.36"
+
+info: ::1 - - [03/Mar/2022:08:47:49 +0000] "GET /api-docs/swagger-ui-init.js HTTP/1.1" 200 11487 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.12 Safari/537.36"
+
+info: ::1 - - [03/Mar/2022:08:47:49 +0000] "GET /api-docs/swagger-ui-standalone-preset.js HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.12 Safari/537.36"
+
+info: ::1 - - [03/Mar/2022:08:47:50 +0000] "GET /api-docs/favicon-32x32.png HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.12 Safari/537.36"
+
+info: ::1 - - [03/Mar/2022:08:48:36 +0000] "POST /api/v1/note HTTP/1.1" 200 274 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.12 Safari/537.36"
+
+info: ::ffff:127.0.0.1 - - [03/Mar/2022:08:55:05 +0000] "GET /api-docs/ HTTP/1.1" 200 3102 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.12 Safari/537.36"
+
+info: ::ffff:127.0.0.1 - - [03/Mar/2022:08:55:05 +0000] "GET /api-docs/swagger-ui.css HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.12 Safari/537.36"
+
+info: ::ffff:127.0.0.1 - - [03/Mar/2022:08:55:05 +0000] "GET /api-docs/swagger-ui-bundle.js HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.12 Safari/537.36"
+
+info: ::ffff:127.0.0.1 - - [03/Mar/2022:08:55:05 +0000] "GET /api-docs/swagger-ui-standalone-preset.js HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.12 Safari/537.36"
+
+info: ::ffff:127.0.0.1 - - [03/Mar/2022:08:55:05 +0000] "GET /api-docs/swagger-ui-init.js HTTP/1.1" 200 11238 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.12 Safari/537.36"
+
+info: ::ffff:127.0.0.1 - - [03/Mar/2022:08:55:06 +0000] "GET /api-docs/favicon-32x32.png HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.12 Safari/537.36"
+
+info: ::1 - - [03/Mar/2022:09:04:54 +0000] "GET /api-docs/ HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.12 Safari/537.36"
+
+info: ::1 - - [03/Mar/2022:09:04:54 +0000] "GET /api-docs/swagger-ui.css HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.12 Safari/537.36"
+
+info: ::1 - - [03/Mar/2022:09:04:54 +0000] "GET /api-docs/swagger-ui-bundle.js HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.12 Safari/537.36"
+
+info: ::1 - - [03/Mar/2022:09:04:54 +0000] "GET /api-docs/swagger-ui-init.js HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.12 Safari/537.36"
+
+info: ::1 - - [03/Mar/2022:09:04:54 +0000] "GET /api-docs/swagger-ui-standalone-preset.js HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.12 Safari/537.36"
+
+info: ::1 - - [03/Mar/2022:09:04:55 +0000] "GET /api-docs/favicon-32x32.png HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.12 Safari/537.36"
+
+info: ::1 - - [03/Mar/2022:09:10:43 +0000] "GET /api-docs/ HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.12 Safari/537.36"
+
+info: ::1 - - [03/Mar/2022:09:10:43 +0000] "GET /api-docs/swagger-ui.css HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.12 Safari/537.36"
+
+info: ::1 - - [03/Mar/2022:09:10:43 +0000] "GET /api-docs/swagger-ui-init.js HTTP/1.1" 200 11258 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.12 Safari/537.36"
+
+info: ::1 - - [03/Mar/2022:09:10:43 +0000] "GET /api-docs/swagger-ui-bundle.js HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.12 Safari/537.36"
+
+info: ::1 - - [03/Mar/2022:09:10:43 +0000] "GET /api-docs/swagger-ui-standalone-preset.js HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.12 Safari/537.36"
+
+info: ::1 - - [03/Mar/2022:09:10:43 +0000] "GET /api-docs/favicon-32x32.png HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.12 Safari/537.36"
+
+info: ::ffff:127.0.0.1 - - [03/Mar/2022:09:23:41 +0000] "GET /api/v1/users HTTP/1.1" 200 74 "-" "node-superagent/3.8.3"
+
+error: uncaughtException: Cannot read properties of undefined (reading 'statusCode')
+TypeError: Cannot read properties of undefined (reading 'statusCode')
+    at Test.<anonymous> (C:\Users\anand\Desktop\fundoo-Notes\tests\integration\/user.test.js:47:22)
+    at Test.assert (C:\Users\anand\Desktop\fundoo-Notes\node_modules\supertest\lib\test.js:181:6)
+    at Server.localAssert (C:\Users\anand\Desktop\fundoo-Notes\node_modules\supertest\lib\test.js:131:12)
+    at Object.onceWrapper (node:events:509:28)
+    at Server.emit (node:events:390:28)
+    at emitCloseNT (node:net:1681:8)
+    at processTicksAndRejections (node:internal/process/task_queues:82:21) {"date":"Thu Mar 03 2022 15:04:46 GMT+0530 (India Standard Time)","error":{},"exception":true,"os":{"loadavg":[0,0,0],"uptime":87325},"process":{"argv":["C:\\Program Files\\nodejs\\node.exe","C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\mocha\\bin\\mocha","--exit","--recursive","--require","@babel/register","--timeout=5000","tests/**/*.js"],"cwd":"C:\\Users\\anand\\Desktop\\fundoo-Notes","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18344901,"external":21763849,"heapTotal":156794880,"heapUsed":125484104,"rss":190648320},"pid":700,"uid":null,"version":"v16.13.2"},"stack":"TypeError: Cannot read properties of undefined (reading 'statusCode')\n    at Test.<anonymous> (C:\\Users\\anand\\Desktop\\fundoo-Notes\\tests\\integration\\/user.test.js:47:22)\n    at Test.assert (C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\supertest\\lib\\test.js:181:6)\n    at Server.localAssert (C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\supertest\\lib\\test.js:131:12)\n    at Object.onceWrapper (node:events:509:28)\n    at Server.emit (node:events:390:28)\n    at emitCloseNT (node:net:1681:8)\n    at processTicksAndRejections (node:internal/process/task_queues:82:21)","trace":[{"column":22,"file":"C:\\Users\\anand\\Desktop\\fundoo-Notes\\tests\\integration\\/user.test.js","function":null,"line":47,"method":null,"native":false},{"column":6,"file":"C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\supertest\\lib\\test.js","function":"Test.assert","line":181,"method":"assert","native":false},{"column":12,"file":"C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\supertest\\lib\\test.js","function":"Server.localAssert","line":131,"method":"localAssert","native":false},{"column":28,"file":"node:events","function":"Object.onceWrapper","line":509,"method":"onceWrapper","native":false},{"column":28,"file":"node:events","function":"Server.emit","line":390,"method":"emit","native":false},{"column":8,"file":"node:net","function":"emitCloseNT","line":1681,"method":null,"native":false},{"column":21,"file":"node:internal/process/task_queues","function":"processTicksAndRejections","line":82,"method":null,"native":false}]}
+error: uncaughtException: Cannot read properties of undefined (reading 'statusCode')
+TypeError: Cannot read properties of undefined (reading 'statusCode')
+    at Test.<anonymous> (C:\Users\anand\Desktop\fundoo-Notes\tests\integration\/user.test.js:47:22)
+    at Test.assert (C:\Users\anand\Desktop\fundoo-Notes\node_modules\supertest\lib\test.js:181:6)
+    at Server.localAssert (C:\Users\anand\Desktop\fundoo-Notes\node_modules\supertest\lib\test.js:131:12)
+    at Object.onceWrapper (node:events:509:28)
+    at Server.emit (node:events:390:28)
+    at emitCloseNT (node:net:1681:8)
+    at processTicksAndRejections (node:internal/process/task_queues:82:21) {"date":"Thu Mar 03 2022 15:05:39 GMT+0530 (India Standard Time)","error":{},"exception":true,"os":{"loadavg":[0,0,0],"uptime":87378},"process":{"argv":["C:\\Program Files\\nodejs\\node.exe","C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\mocha\\bin\\mocha","--exit","--recursive","--require","@babel/register","--timeout=5000","tests/**/*.js"],"cwd":"C:\\Users\\anand\\Desktop\\fundoo-Notes","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18344901,"external":21763849,"heapTotal":157442048,"heapUsed":127726984,"rss":192106496},"pid":12720,"uid":null,"version":"v16.13.2"},"stack":"TypeError: Cannot read properties of undefined (reading 'statusCode')\n    at Test.<anonymous> (C:\\Users\\anand\\Desktop\\fundoo-Notes\\tests\\integration\\/user.test.js:47:22)\n    at Test.assert (C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\supertest\\lib\\test.js:181:6)\n    at Server.localAssert (C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\supertest\\lib\\test.js:131:12)\n    at Object.onceWrapper (node:events:509:28)\n    at Server.emit (node:events:390:28)\n    at emitCloseNT (node:net:1681:8)\n    at processTicksAndRejections (node:internal/process/task_queues:82:21)","trace":[{"column":22,"file":"C:\\Users\\anand\\Desktop\\fundoo-Notes\\tests\\integration\\/user.test.js","function":null,"line":47,"method":null,"native":false},{"column":6,"file":"C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\supertest\\lib\\test.js","function":"Test.assert","line":181,"method":"assert","native":false},{"column":12,"file":"C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\supertest\\lib\\test.js","function":"Server.localAssert","line":131,"method":"localAssert","native":false},{"column":28,"file":"node:events","function":"Object.onceWrapper","line":509,"method":"onceWrapper","native":false},{"column":28,"file":"node:events","function":"Server.emit","line":390,"method":"emit","native":false},{"column":8,"file":"node:net","function":"emitCloseNT","line":1681,"method":null,"native":false},{"column":21,"file":"node:internal/process/task_queues","function":"processTicksAndRejections","line":82,"method":null,"native":false}]}
+error: uncaughtException: Cannot read properties of undefined (reading 'statusCode')
+TypeError: Cannot read properties of undefined (reading 'statusCode')
+    at Test.<anonymous> (C:\Users\anand\Desktop\fundoo-Notes\tests\integration\/user.test.js:34:22)
+    at Test.assert (C:\Users\anand\Desktop\fundoo-Notes\node_modules\supertest\lib\test.js:181:6)
+    at Server.localAssert (C:\Users\anand\Desktop\fundoo-Notes\node_modules\supertest\lib\test.js:131:12)
+    at Object.onceWrapper (node:events:509:28)
+    at Server.emit (node:events:390:28)
+    at emitCloseNT (node:net:1681:8)
+    at processTicksAndRejections (node:internal/process/task_queues:82:21) {"date":"Thu Mar 03 2022 15:06:13 GMT+0530 (India Standard Time)","error":{},"exception":true,"os":{"loadavg":[0,0,0],"uptime":87411},"process":{"argv":["C:\\Program Files\\nodejs\\node.exe","C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\mocha\\bin\\mocha","--exit","--recursive","--require","@babel/register","--timeout=5000","tests/**/*.js"],"cwd":"C:\\Users\\anand\\Desktop\\fundoo-Notes","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18367128,"external":21737586,"heapTotal":156917760,"heapUsed":129247240,"rss":189931520},"pid":16760,"uid":null,"version":"v16.13.2"},"stack":"TypeError: Cannot read properties of undefined (reading 'statusCode')\n    at Test.<anonymous> (C:\\Users\\anand\\Desktop\\fundoo-Notes\\tests\\integration\\/user.test.js:34:22)\n    at Test.assert (C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\supertest\\lib\\test.js:181:6)\n    at Server.localAssert (C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\supertest\\lib\\test.js:131:12)\n    at Object.onceWrapper (node:events:509:28)\n    at Server.emit (node:events:390:28)\n    at emitCloseNT (node:net:1681:8)\n    at processTicksAndRejections (node:internal/process/task_queues:82:21)","trace":[{"column":22,"file":"C:\\Users\\anand\\Desktop\\fundoo-Notes\\tests\\integration\\/user.test.js","function":null,"line":34,"method":null,"native":false},{"column":6,"file":"C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\supertest\\lib\\test.js","function":"Test.assert","line":181,"method":"assert","native":false},{"column":12,"file":"C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\supertest\\lib\\test.js","function":"Server.localAssert","line":131,"method":"localAssert","native":false},{"column":28,"file":"node:events","function":"Object.onceWrapper","line":509,"method":"onceWrapper","native":false},{"column":28,"file":"node:events","function":"Server.emit","line":390,"method":"emit","native":false},{"column":8,"file":"node:net","function":"emitCloseNT","line":1681,"method":null,"native":false},{"column":21,"file":"node:internal/process/task_queues","function":"processTicksAndRejections","line":82,"method":null,"native":false}]}
+info: ::ffff:127.0.0.1 - - [03/Mar/2022:09:36:45 +0000] "POST /users/register HTTP/1.1" 404 47 "-" "node-superagent/3.8.3"
+
+error: uncaughtException: expected 404 to equal 200
+AssertionError: expected 404 to equal 200
+    at Test.<anonymous> (C:\Users\anand\Desktop\fundoo-Notes\tests\integration\/user.test.js:34:40)
+    at Test.assert (C:\Users\anand\Desktop\fundoo-Notes\node_modules\supertest\lib\test.js:181:6)
+    at Server.localAssert (C:\Users\anand\Desktop\fundoo-Notes\node_modules\supertest\lib\test.js:131:12)
+    at Object.onceWrapper (node:events:509:28)
+    at Server.emit (node:events:390:28)
+    at emitCloseNT (node:net:1681:8)
+    at processTicksAndRejections (node:internal/process/task_queues:82:21) {"date":"Thu Mar 03 2022 15:06:45 GMT+0530 (India Standard Time)","error":{"actual":404,"expected":200,"message":"expected 404 to equal 200","name":"AssertionError","operator":"strictEqual","showDiff":true,"stack":"AssertionError: expected 404 to equal 200\n    at Test.<anonymous> (C:\\Users\\anand\\Desktop\\fundoo-Notes\\tests\\integration\\/user.test.js:34:40)\n    at Test.assert (C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\supertest\\lib\\test.js:181:6)\n    at Server.localAssert (C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\supertest\\lib\\test.js:131:12)\n    at Object.onceWrapper (node:events:509:28)\n    at Server.emit (node:events:390:28)\n    at emitCloseNT (node:net:1681:8)\n    at processTicksAndRejections (node:internal/process/task_queues:82:21)"},"exception":true,"os":{"loadavg":[0,0,0],"uptime":87444},"process":{"argv":["C:\\Program Files\\nodejs\\node.exe","C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\mocha\\bin\\mocha","--exit","--recursive","--require","@babel/register","--timeout=5000","tests/**/*.js"],"cwd":"C:\\Users\\anand\\Desktop\\fundoo-Notes","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18454974,"external":21825432,"heapTotal":157179904,"heapUsed":130421600,"rss":190746624},"pid":12968,"uid":null,"version":"v16.13.2"},"stack":"AssertionError: expected 404 to equal 200\n    at Test.<anonymous> (C:\\Users\\anand\\Desktop\\fundoo-Notes\\tests\\integration\\/user.test.js:34:40)\n    at Test.assert (C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\supertest\\lib\\test.js:181:6)\n    at Server.localAssert (C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\supertest\\lib\\test.js:131:12)\n    at Object.onceWrapper (node:events:509:28)\n    at Server.emit (node:events:390:28)\n    at emitCloseNT (node:net:1681:8)\n    at processTicksAndRejections (node:internal/process/task_queues:82:21)","trace":[{"column":40,"file":"C:\\Users\\anand\\Desktop\\fundoo-Notes\\tests\\integration\\/user.test.js","function":null,"line":34,"method":null,"native":false},{"column":6,"file":"C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\supertest\\lib\\test.js","function":"Test.assert","line":181,"method":"assert","native":false},{"column":12,"file":"C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\supertest\\lib\\test.js","function":"Server.localAssert","line":131,"method":"localAssert","native":false},{"column":28,"file":"node:events","function":"Object.onceWrapper","line":509,"method":"onceWrapper","native":false},{"column":28,"file":"node:events","function":"Server.emit","line":390,"method":"emit","native":false},{"column":8,"file":"node:net","function":"emitCloseNT","line":1681,"method":null,"native":false},{"column":21,"file":"node:internal/process/task_queues","function":"processTicksAndRejections","line":82,"method":null,"native":false}]}
+info: ::ffff:127.0.0.1 - - [03/Mar/2022:09:38:02 +0000] "GET /api/v1/users HTTP/1.1" 200 74 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [03/Mar/2022:09:45:26 +0000] "GET /api/v1/users HTTP/1.1" 200 74 "-" "node-superagent/3.8.3"
+
+info: ::1 - - [03/Mar/2022:10:23:31 +0000] "POST /api/v1/note HTTP/1.1" 200 258 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [03/Mar/2022:10:24:34 +0000] "PUT /api/v1/note/archive/62209723003c341d9c015747 HTTP/1.1" 200 264 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [03/Mar/2022:10:24:43 +0000] "PUT /api/v1/note/archive/62209723003c341d9c015747 HTTP/1.1" 200 264 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [03/Mar/2022:10:24:45 +0000] "PUT /api/v1/note/archive/62209723003c341d9c015747 HTTP/1.1" 200 264 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [03/Mar/2022:10:25:24 +0000] "PUT /api/v1/note/archive/62209723003c341d9c015747 HTTP/1.1" 200 264 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [03/Mar/2022:10:25:26 +0000] "PUT /api/v1/note/archive/62209723003c341d9c015747 HTTP/1.1" 200 264 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [03/Mar/2022:10:25:27 +0000] "PUT /api/v1/note/archive/62209723003c341d9c015747 HTTP/1.1" 200 264 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [03/Mar/2022:10:27:03 +0000] "PUT /api/v1/note/archive/62209723003c341d9c015747 HTTP/1.1" 500 49 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [03/Mar/2022:10:27:33 +0000] "PUT /api/v1/note/archive/62209723003c341d9c015747 HTTP/1.1" 200 264 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [03/Mar/2022:10:27:37 +0000] "PUT /api/v1/note/archive/62209723003c341d9c015747 HTTP/1.1" 200 282 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [03/Mar/2022:10:27:38 +0000] "PUT /api/v1/note/archive/62209723003c341d9c015747 HTTP/1.1" 200 282 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [03/Mar/2022:10:29:13 +0000] "PUT /api/v1/note/trash/62209723003c341d9c015747 HTTP/1.1" 200 281 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [03/Mar/2022:10:29:18 +0000] "PUT /api/v1/note/trash/62209723003c341d9c015747 HTTP/1.1" 200 281 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [03/Mar/2022:10:29:36 +0000] "PUT /api/v1/note/trash/62209723003c341d9c015747 HTTP/1.1" 200 281 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [03/Mar/2022:10:29:45 +0000] "PUT /api/v1/note/trash/62209723003c341d9c015747 HTTP/1.1" 200 298 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [03/Mar/2022:10:31:31 +0000] "PUT /api/v1/note/archive/62209723003c341d9c015747 HTTP/1.1" 200 299 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [03/Mar/2022:10:31:40 +0000] "PUT /api/v1/note/archive/62209723003c341d9c015747 HTTP/1.1" 200 300 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [03/Mar/2022:10:32:19 +0000] "PUT /api/v1/note/archive/62209723003c341d9c015747 HTTP/1.1" 200 300 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [03/Mar/2022:10:32:23 +0000] "PUT /api/v1/note/archive/62209723003c341d9c015747 HTTP/1.1" 200 300 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [03/Mar/2022:10:32:34 +0000] "PUT /api/v1/note/trash/62209723003c341d9c015747 HTTP/1.1" 200 299 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [03/Mar/2022:10:32:40 +0000] "PUT /api/v1/note/trash/62209723003c341d9c015747 HTTP/1.1" 200 300 "-" "PostmanRuntime/7.29.0"
+
+error: uncaughtException: Route.delete() requires a callback function but got a [object Undefined]
+Error: Route.delete() requires a callback function but got a [object Undefined]
+    at Route.<computed> [as delete] (C:\Users\anand\Desktop\fundoo-Notes\node_modules\express\lib\router\route.js:202:15)
+    at Function.proto.<computed> [as delete] (C:\Users\anand\Desktop\fundoo-Notes\node_modules\express\lib\router\index.js:516:19)
+    at Object.<anonymous> (C:\Users\anand\Desktop\fundoo-Notes\src\routes\/note.route.js:23:1)
+    at Module._compile (node:internal/modules/cjs/loader:1101:14)
+    at Module._compile (C:\Users\anand\Desktop\fundoo-Notes\node_modules\pirates\lib\index.js:136:24)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1153:10)
+    at Object.newLoader [as .js] (C:\Users\anand\Desktop\fundoo-Notes\node_modules\pirates\lib\index.js:141:7)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at Object.<anonymous> (C:\Users\anand\Desktop\fundoo-Notes\src\routes\/index.js:5:1)
+    at Module._compile (node:internal/modules/cjs/loader:1101:14)
+    at Module._compile (C:\Users\anand\Desktop\fundoo-Notes\node_modules\pirates\lib\index.js:136:24)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1153:10)
+    at Object.newLoader [as .js] (C:\Users\anand\Desktop\fundoo-Notes\node_modules\pirates\lib\index.js:141:7) {"date":"Thu Mar 03 2022 16:03:29 GMT+0530 (India Standard Time)","error":{},"exception":true,"os":{"loadavg":[0,0,0],"uptime":90848},"process":{"argv":["node","C:\\Users\\anand\\Desktop\\fundoo-Notes\\src\\index.js"],"cwd":"C:\\Users\\anand\\Desktop\\fundoo-Notes","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18339215,"external":25362856,"heapTotal":125763584,"heapUsed":96149768,"rss":163004416},"pid":12788,"uid":null,"version":"v16.13.2"},"stack":"Error: Route.delete() requires a callback function but got a [object Undefined]\n    at Route.<computed> [as delete] (C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\express\\lib\\router\\route.js:202:15)\n    at Function.proto.<computed> [as delete] (C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\express\\lib\\router\\index.js:516:19)\n    at Object.<anonymous> (C:\\Users\\anand\\Desktop\\fundoo-Notes\\src\\routes\\/note.route.js:23:1)\n    at Module._compile (node:internal/modules/cjs/loader:1101:14)\n    at Module._compile (C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\pirates\\lib\\index.js:136:24)\n    at Module._extensions..js (node:internal/modules/cjs/loader:1153:10)\n    at Object.newLoader [as .js] (C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\pirates\\lib\\index.js:141:7)\n    at Module.load (node:internal/modules/cjs/loader:981:32)\n    at Function.Module._load (node:internal/modules/cjs/loader:822:12)\n    at Module.require (node:internal/modules/cjs/loader:1005:19)\n    at require (node:internal/modules/cjs/helpers:102:18)\n    at Object.<anonymous> (C:\\Users\\anand\\Desktop\\fundoo-Notes\\src\\routes\\/index.js:5:1)\n    at Module._compile (node:internal/modules/cjs/loader:1101:14)\n    at Module._compile (C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\pirates\\lib\\index.js:136:24)\n    at Module._extensions..js (node:internal/modules/cjs/loader:1153:10)\n    at Object.newLoader [as .js] (C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\pirates\\lib\\index.js:141:7)","trace":[{"column":15,"file":"C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\express\\lib\\router\\route.js","function":"Route.<computed> [as delete]","line":202,"method":"<computed> [as delete]","native":false},{"column":19,"file":"C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\express\\lib\\router\\index.js","function":"Function.proto.<computed> [as delete]","line":516,"method":"<computed> [as delete]","native":false},{"column":1,"file":"C:\\Users\\anand\\Desktop\\fundoo-Notes\\src\\routes\\/note.route.js","function":null,"line":23,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1101,"method":"_compile","native":false},{"column":24,"file":"C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\pirates\\lib\\index.js","function":"Module._compile","line":136,"method":"_compile","native":false},{"column":10,"file":"node:internal/modules/cjs/loader","function":"Module._extensions..js","line":1153,"method":".js","native":false},{"column":7,"file":"C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\pirates\\lib\\index.js","function":"Object.newLoader [as .js]","line":141,"method":"js]","native":false},{"column":32,"file":"node:internal/modules/cjs/loader","function":"Module.load","line":981,"method":"load","native":false},{"column":12,"file":"node:internal/modules/cjs/loader","function":"Module._load","line":822,"method":"_load","native":false},{"column":19,"file":"node:internal/modules/cjs/loader","function":"Module.require","line":1005,"method":"require","native":false},{"column":18,"file":"node:internal/modules/cjs/helpers","function":"require","line":102,"method":null,"native":false},{"column":1,"file":"C:\\Users\\anand\\Desktop\\fundoo-Notes\\src\\routes\\/index.js","function":null,"line":5,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1101,"method":"_compile","native":false},{"column":24,"file":"C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\pirates\\lib\\index.js","function":"Module._compile","line":136,"method":"_compile","native":false},{"column":10,"file":"node:internal/modules/cjs/loader","function":"Module._extensions..js","line":1153,"method":".js","native":false},{"column":7,"file":"C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\pirates\\lib\\index.js","function":"Object.newLoader [as .js]","line":141,"method":"js]","native":false}]}
+info: ::1 - - [03/Mar/2022:10:43:27 +0000] "PUT /api/v1/note/trash/62209723003c341d9c015747 HTTP/1.1" 200 300 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [03/Mar/2022:10:43:30 +0000] "PUT /api/v1/note/trash/62209723003c341d9c015747 HTTP/1.1" 200 299 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [03/Mar/2022:10:43:36 +0000] "PUT /api/v1/note/archive/62209723003c341d9c015747 HTTP/1.1" 200 300 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [03/Mar/2022:10:43:39 +0000] "PUT /api/v1/note/archive/62209723003c341d9c015747 HTTP/1.1" 200 299 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [03/Mar/2022:11:08:27 +0000] "DELETE /api/v1/note/delete/62209723003c341d9c015747 HTTP/1.1" 404 47 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [03/Mar/2022:11:08:47 +0000] "DELETE /api/v1/note/62209723003c341d9c015747 HTTP/1.1" 200 60 "-" "PostmanRuntime/7.29.0"
+
+error: uncaughtException: Cannot read properties of undefined (reading 'statusCode')
+TypeError: Cannot read properties of undefined (reading 'statusCode')
+    at Test.<anonymous> (C:\Users\anand\Desktop\fundoo-Notes\tests\integration\/user.test.js:54:22)
+    at Test.assert (C:\Users\anand\Desktop\fundoo-Notes\node_modules\supertest\lib\test.js:181:6)
+    at Server.localAssert (C:\Users\anand\Desktop\fundoo-Notes\node_modules\supertest\lib\test.js:131:12)
+    at Object.onceWrapper (node:events:509:28)
+    at Server.emit (node:events:390:28)
+    at emitCloseNT (node:net:1681:8)
+    at processTicksAndRejections (node:internal/process/task_queues:82:21) {"date":"Thu Mar 03 2022 16:46:00 GMT+0530 (India Standard Time)","error":{},"exception":true,"os":{"loadavg":[0,0,0],"uptime":93399},"process":{"argv":["C:\\Program Files\\nodejs\\node.exe","C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\mocha\\bin\\mocha","--exit","--recursive","--require","@babel/register","--timeout=5000","tests/**/*.js"],"cwd":"C:\\Users\\anand\\Desktop\\fundoo-Notes","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18393391,"external":21764234,"heapTotal":156917760,"heapUsed":130780600,"rss":190701568},"pid":4964,"uid":null,"version":"v16.13.2"},"stack":"TypeError: Cannot read properties of undefined (reading 'statusCode')\n    at Test.<anonymous> (C:\\Users\\anand\\Desktop\\fundoo-Notes\\tests\\integration\\/user.test.js:54:22)\n    at Test.assert (C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\supertest\\lib\\test.js:181:6)\n    at Server.localAssert (C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\supertest\\lib\\test.js:131:12)\n    at Object.onceWrapper (node:events:509:28)\n    at Server.emit (node:events:390:28)\n    at emitCloseNT (node:net:1681:8)\n    at processTicksAndRejections (node:internal/process/task_queues:82:21)","trace":[{"column":22,"file":"C:\\Users\\anand\\Desktop\\fundoo-Notes\\tests\\integration\\/user.test.js","function":null,"line":54,"method":null,"native":false},{"column":6,"file":"C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\supertest\\lib\\test.js","function":"Test.assert","line":181,"method":"assert","native":false},{"column":12,"file":"C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\supertest\\lib\\test.js","function":"Server.localAssert","line":131,"method":"localAssert","native":false},{"column":28,"file":"node:events","function":"Object.onceWrapper","line":509,"method":"onceWrapper","native":false},{"column":28,"file":"node:events","function":"Server.emit","line":390,"method":"emit","native":false},{"column":8,"file":"node:net","function":"emitCloseNT","line":1681,"method":null,"native":false},{"column":21,"file":"node:internal/process/task_queues","function":"processTicksAndRejections","line":82,"method":null,"native":false}]}
+error: uncaughtException: Cannot read properties of undefined (reading 'statusCode')
+TypeError: Cannot read properties of undefined (reading 'statusCode')
+    at Test.<anonymous> (C:\Users\anand\Desktop\fundoo-Notes\tests\integration\/user.test.js:54:22)
+    at Test.assert (C:\Users\anand\Desktop\fundoo-Notes\node_modules\supertest\lib\test.js:181:6)
+    at Server.localAssert (C:\Users\anand\Desktop\fundoo-Notes\node_modules\supertest\lib\test.js:131:12)
+    at Object.onceWrapper (node:events:509:28)
+    at Server.emit (node:events:390:28)
+    at emitCloseNT (node:net:1681:8)
+    at processTicksAndRejections (node:internal/process/task_queues:82:21) {"date":"Thu Mar 03 2022 16:46:29 GMT+0530 (India Standard Time)","error":{},"exception":true,"os":{"loadavg":[0,0,0],"uptime":93428},"process":{"argv":["C:\\Program Files\\nodejs\\node.exe","C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\mocha\\bin\\mocha","--exit","--recursive","--require","@babel/register","--timeout=5000","tests/**/*.js"],"cwd":"C:\\Users\\anand\\Desktop\\fundoo-Notes","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18310446,"external":21737971,"heapTotal":157319168,"heapUsed":124000520,"rss":191602688},"pid":11768,"uid":null,"version":"v16.13.2"},"stack":"TypeError: Cannot read properties of undefined (reading 'statusCode')\n    at Test.<anonymous> (C:\\Users\\anand\\Desktop\\fundoo-Notes\\tests\\integration\\/user.test.js:54:22)\n    at Test.assert (C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\supertest\\lib\\test.js:181:6)\n    at Server.localAssert (C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\supertest\\lib\\test.js:131:12)\n    at Object.onceWrapper (node:events:509:28)\n    at Server.emit (node:events:390:28)\n    at emitCloseNT (node:net:1681:8)\n    at processTicksAndRejections (node:internal/process/task_queues:82:21)","trace":[{"column":22,"file":"C:\\Users\\anand\\Desktop\\fundoo-Notes\\tests\\integration\\/user.test.js","function":null,"line":54,"method":null,"native":false},{"column":6,"file":"C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\supertest\\lib\\test.js","function":"Test.assert","line":181,"method":"assert","native":false},{"column":12,"file":"C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\supertest\\lib\\test.js","function":"Server.localAssert","line":131,"method":"localAssert","native":false},{"column":28,"file":"node:events","function":"Object.onceWrapper","line":509,"method":"onceWrapper","native":false},{"column":28,"file":"node:events","function":"Server.emit","line":390,"method":"emit","native":false},{"column":8,"file":"node:net","function":"emitCloseNT","line":1681,"method":null,"native":false},{"column":21,"file":"node:internal/process/task_queues","function":"processTicksAndRejections","line":82,"method":null,"native":false}]}
+error: uncaughtException: Cannot read properties of undefined (reading 'statusCode')
+TypeError: Cannot read properties of undefined (reading 'statusCode')
+    at Test.<anonymous> (C:\Users\anand\Desktop\fundoo-Notes\tests\integration\/user.test.js:54:22)
+    at Test.assert (C:\Users\anand\Desktop\fundoo-Notes\node_modules\supertest\lib\test.js:181:6)
+    at Server.localAssert (C:\Users\anand\Desktop\fundoo-Notes\node_modules\supertest\lib\test.js:131:12)
+    at Object.onceWrapper (node:events:509:28)
+    at Server.emit (node:events:390:28)
+    at emitCloseNT (node:net:1681:8)
+    at processTicksAndRejections (node:internal/process/task_queues:82:21) {"date":"Thu Mar 03 2022 16:48:58 GMT+0530 (India Standard Time)","error":{},"exception":true,"os":{"loadavg":[0,0,0],"uptime":93576},"process":{"argv":["C:\\Program Files\\nodejs\\node.exe","C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\mocha\\bin\\mocha","--exit","--recursive","--require","@babel/register","--timeout=5000","tests/**/*.js"],"cwd":"C:\\Users\\anand\\Desktop\\fundoo-Notes","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18310446,"external":21737971,"heapTotal":157843456,"heapUsed":124008392,"rss":190091264},"pid":8576,"uid":null,"version":"v16.13.2"},"stack":"TypeError: Cannot read properties of undefined (reading 'statusCode')\n    at Test.<anonymous> (C:\\Users\\anand\\Desktop\\fundoo-Notes\\tests\\integration\\/user.test.js:54:22)\n    at Test.assert (C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\supertest\\lib\\test.js:181:6)\n    at Server.localAssert (C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\supertest\\lib\\test.js:131:12)\n    at Object.onceWrapper (node:events:509:28)\n    at Server.emit (node:events:390:28)\n    at emitCloseNT (node:net:1681:8)\n    at processTicksAndRejections (node:internal/process/task_queues:82:21)","trace":[{"column":22,"file":"C:\\Users\\anand\\Desktop\\fundoo-Notes\\tests\\integration\\/user.test.js","function":null,"line":54,"method":null,"native":false},{"column":6,"file":"C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\supertest\\lib\\test.js","function":"Test.assert","line":181,"method":"assert","native":false},{"column":12,"file":"C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\supertest\\lib\\test.js","function":"Server.localAssert","line":131,"method":"localAssert","native":false},{"column":28,"file":"node:events","function":"Object.onceWrapper","line":509,"method":"onceWrapper","native":false},{"column":28,"file":"node:events","function":"Server.emit","line":390,"method":"emit","native":false},{"column":8,"file":"node:net","function":"emitCloseNT","line":1681,"method":null,"native":false},{"column":21,"file":"node:internal/process/task_queues","function":"processTicksAndRejections","line":82,"method":null,"native":false}]}
+info: ::1 - - [03/Mar/2022:11:53:19 +0000] "GET /api-docs/ HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.12 Safari/537.36"
+
+info: ::1 - - [03/Mar/2022:11:53:19 +0000] "GET /api-docs/swagger-ui.css HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.12 Safari/537.36"
+
+info: ::1 - - [03/Mar/2022:11:53:19 +0000] "GET /api-docs/swagger-ui-bundle.js HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.12 Safari/537.36"
+
+info: ::1 - - [03/Mar/2022:11:53:19 +0000] "GET /api-docs/swagger-ui-init.js HTTP/1.1" 200 11290 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.12 Safari/537.36"
+
+info: ::1 - - [03/Mar/2022:11:53:19 +0000] "GET /api-docs/swagger-ui-standalone-preset.js HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.12 Safari/537.36"
+
+info: ::1 - - [03/Mar/2022:11:53:20 +0000] "GET /api-docs/favicon-32x32.png HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.12 Safari/537.36"
+
+info: ::1 - - [03/Mar/2022:11:53:49 +0000] "GET /api-docs/ HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.12 Safari/537.36"
+
+info: ::1 - - [03/Mar/2022:11:53:49 +0000] "GET /api-docs/swagger-ui.css HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.12 Safari/537.36"
+
+info: ::1 - - [03/Mar/2022:11:53:49 +0000] "GET /api-docs/swagger-ui-bundle.js HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.12 Safari/537.36"
+
+info: ::1 - - [03/Mar/2022:11:53:49 +0000] "GET /api-docs/swagger-ui-standalone-preset.js HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.12 Safari/537.36"
+
+info: ::1 - - [03/Mar/2022:11:53:49 +0000] "GET /api-docs/swagger-ui-init.js HTTP/1.1" 200 11291 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.12 Safari/537.36"
+
+info: ::1 - - [03/Mar/2022:11:53:50 +0000] "GET /api-docs/favicon-32x32.png HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.12 Safari/537.36"
+
+info: ::1 - - [03/Mar/2022:11:56:43 +0000] "GET /api-docs/ HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.12 Safari/537.36"
+
+info: ::1 - - [03/Mar/2022:11:56:43 +0000] "GET /api-docs/swagger-ui.css HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.12 Safari/537.36"
+
+info: ::1 - - [03/Mar/2022:11:56:43 +0000] "GET /api-docs/swagger-ui-bundle.js HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.12 Safari/537.36"
+
+info: ::1 - - [03/Mar/2022:11:56:43 +0000] "GET /api-docs/swagger-ui-init.js HTTP/1.1" 200 11291 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.12 Safari/537.36"
+
+info: ::1 - - [03/Mar/2022:11:56:43 +0000] "GET /api-docs/swagger-ui-standalone-preset.js HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.12 Safari/537.36"
+
+info: ::1 - - [03/Mar/2022:11:56:43 +0000] "GET /api-docs/favicon-32x32.png HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.12 Safari/537.36"
+
+info: ::1 - - [03/Mar/2022:11:59:49 +0000] "GET /api-docs/ HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.12 Safari/537.36"
+
+info: ::1 - - [03/Mar/2022:11:59:49 +0000] "GET /api-docs/swagger-ui.css HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.12 Safari/537.36"
+
+info: ::1 - - [03/Mar/2022:11:59:49 +0000] "GET /api-docs/swagger-ui-init.js HTTP/1.1" 200 11208 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.12 Safari/537.36"
+
+info: ::1 - - [03/Mar/2022:11:59:49 +0000] "GET /api-docs/swagger-ui-standalone-preset.js HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.12 Safari/537.36"
+
+info: ::1 - - [03/Mar/2022:11:59:49 +0000] "GET /api-docs/swagger-ui-bundle.js HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.12 Safari/537.36"
+
+info: ::1 - - [03/Mar/2022:11:59:50 +0000] "GET /api-docs/favicon-32x32.png HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.12 Safari/537.36"
+
+info: ::1 - - [03/Mar/2022:12:04:09 +0000] "GET /api-docs/ HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.12 Safari/537.36"
+
+info: ::1 - - [03/Mar/2022:12:04:09 +0000] "GET /api-docs/swagger-ui.css HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.12 Safari/537.36"
+
+info: ::1 - - [03/Mar/2022:12:04:09 +0000] "GET /api-docs/swagger-ui-bundle.js HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.12 Safari/537.36"
+
+info: ::1 - - [03/Mar/2022:12:04:09 +0000] "GET /api-docs/swagger-ui-init.js HTTP/1.1" 200 11208 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.12 Safari/537.36"
+
+info: ::1 - - [03/Mar/2022:12:04:09 +0000] "GET /api-docs/swagger-ui-standalone-preset.js HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.12 Safari/537.36"
+
+info: ::1 - - [03/Mar/2022:12:04:10 +0000] "GET /api-docs/favicon-32x32.png HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.12 Safari/537.36"
+
+info: ::1 - - [03/Mar/2022:12:05:20 +0000] "GET /api-docs/ HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.12 Safari/537.36"
+
+info: ::1 - - [03/Mar/2022:12:05:20 +0000] "GET /api-docs/swagger-ui.css HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.12 Safari/537.36"
+
+info: ::1 - - [03/Mar/2022:12:05:20 +0000] "GET /api-docs/swagger-ui-bundle.js HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.12 Safari/537.36"
+
+info: ::1 - - [03/Mar/2022:12:05:20 +0000] "GET /api-docs/swagger-ui-init.js HTTP/1.1" 200 11369 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.12 Safari/537.36"
+
+info: ::1 - - [03/Mar/2022:12:05:20 +0000] "GET /api-docs/swagger-ui-standalone-preset.js HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.12 Safari/537.36"
+
+info: ::1 - - [03/Mar/2022:12:05:21 +0000] "GET /api-docs/favicon-32x32.png HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.12 Safari/537.36"
+
+info: ::ffff:127.0.0.1 - - [03/Mar/2022:13:36:19 +0000] "POST /users/register HTTP/1.1" 404 47 "-" "node-superagent/3.8.3"
+
+error: uncaughtException: expected 404 to equal 200
+AssertionError: expected 404 to equal 200
+    at Test.<anonymous> (C:\Users\anand\Desktop\fundoo-Notes\tests\integration\/user.test.js:56:40)
+    at Test.assert (C:\Users\anand\Desktop\fundoo-Notes\node_modules\supertest\lib\test.js:181:6)
+    at Server.localAssert (C:\Users\anand\Desktop\fundoo-Notes\node_modules\supertest\lib\test.js:131:12)
+    at Object.onceWrapper (node:events:509:28)
+    at Server.emit (node:events:390:28)
+    at emitCloseNT (node:net:1681:8)
+    at processTicksAndRejections (node:internal/process/task_queues:82:21) {"date":"Thu Mar 03 2022 19:06:19 GMT+0530 (India Standard Time)","error":{"actual":404,"expected":200,"message":"expected 404 to equal 200","name":"AssertionError","operator":"strictEqual","showDiff":true,"stack":"AssertionError: expected 404 to equal 200\n    at Test.<anonymous> (C:\\Users\\anand\\Desktop\\fundoo-Notes\\tests\\integration\\/user.test.js:56:40)\n    at Test.assert (C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\supertest\\lib\\test.js:181:6)\n    at Server.localAssert (C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\supertest\\lib\\test.js:131:12)\n    at Object.onceWrapper (node:events:509:28)\n    at Server.emit (node:events:390:28)\n    at emitCloseNT (node:net:1681:8)\n    at processTicksAndRejections (node:internal/process/task_queues:82:21)"},"exception":true,"os":{"loadavg":[0,0,0],"uptime":101817},"process":{"argv":["C:\\Program Files\\nodejs\\node.exe","C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\mocha\\bin\\mocha","--exit","--recursive","--require","@babel/register","--timeout=5000","tests/**/*.js"],"cwd":"C:\\Users\\anand\\Desktop\\fundoo-Notes","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18398370,"external":21826067,"heapTotal":157581312,"heapUsed":125090472,"rss":191057920},"pid":15056,"uid":null,"version":"v16.13.2"},"stack":"AssertionError: expected 404 to equal 200\n    at Test.<anonymous> (C:\\Users\\anand\\Desktop\\fundoo-Notes\\tests\\integration\\/user.test.js:56:40)\n    at Test.assert (C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\supertest\\lib\\test.js:181:6)\n    at Server.localAssert (C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\supertest\\lib\\test.js:131:12)\n    at Object.onceWrapper (node:events:509:28)\n    at Server.emit (node:events:390:28)\n    at emitCloseNT (node:net:1681:8)\n    at processTicksAndRejections (node:internal/process/task_queues:82:21)","trace":[{"column":40,"file":"C:\\Users\\anand\\Desktop\\fundoo-Notes\\tests\\integration\\/user.test.js","function":null,"line":56,"method":null,"native":false},{"column":6,"file":"C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\supertest\\lib\\test.js","function":"Test.assert","line":181,"method":"assert","native":false},{"column":12,"file":"C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\supertest\\lib\\test.js","function":"Server.localAssert","line":131,"method":"localAssert","native":false},{"column":28,"file":"node:events","function":"Object.onceWrapper","line":509,"method":"onceWrapper","native":false},{"column":28,"file":"node:events","function":"Server.emit","line":390,"method":"emit","native":false},{"column":8,"file":"node:net","function":"emitCloseNT","line":1681,"method":null,"native":false},{"column":21,"file":"node:internal/process/task_queues","function":"processTicksAndRejections","line":82,"method":null,"native":false}]}
+info: ::ffff:127.0.0.1 - - [03/Mar/2022:13:37:16 +0000] "POST /users/register HTTP/1.1" 404 47 "-" "node-superagent/3.8.3"
+
+error: uncaughtException: expected 404 to equal 200
+AssertionError: expected 404 to equal 200
+    at Test.<anonymous> (C:\Users\anand\Desktop\fundoo-Notes\tests\integration\/user.test.js:56:40)
+    at Test.assert (C:\Users\anand\Desktop\fundoo-Notes\node_modules\supertest\lib\test.js:181:6)
+    at Server.localAssert (C:\Users\anand\Desktop\fundoo-Notes\node_modules\supertest\lib\test.js:131:12)
+    at Object.onceWrapper (node:events:509:28)
+    at Server.emit (node:events:390:28)
+    at emitCloseNT (node:net:1681:8)
+    at processTicksAndRejections (node:internal/process/task_queues:82:21) {"date":"Thu Mar 03 2022 19:07:16 GMT+0530 (India Standard Time)","error":{"actual":404,"expected":200,"message":"expected 404 to equal 200","name":"AssertionError","operator":"strictEqual","showDiff":true,"stack":"AssertionError: expected 404 to equal 200\n    at Test.<anonymous> (C:\\Users\\anand\\Desktop\\fundoo-Notes\\tests\\integration\\/user.test.js:56:40)\n    at Test.assert (C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\supertest\\lib\\test.js:181:6)\n    at Server.localAssert (C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\supertest\\lib\\test.js:131:12)\n    at Object.onceWrapper (node:events:509:28)\n    at Server.emit (node:events:390:28)\n    at emitCloseNT (node:net:1681:8)\n    at processTicksAndRejections (node:internal/process/task_queues:82:21)"},"exception":true,"os":{"loadavg":[0,0,0],"uptime":101874},"process":{"argv":["C:\\Program Files\\nodejs\\node.exe","C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\mocha\\bin\\mocha","--exit","--recursive","--require","@babel/register","--timeout=5000","tests/**/*.js"],"cwd":"C:\\Users\\anand\\Desktop\\fundoo-Notes","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18398370,"external":21826067,"heapTotal":157843456,"heapUsed":125091760,"rss":191234048},"pid":13736,"uid":null,"version":"v16.13.2"},"stack":"AssertionError: expected 404 to equal 200\n    at Test.<anonymous> (C:\\Users\\anand\\Desktop\\fundoo-Notes\\tests\\integration\\/user.test.js:56:40)\n    at Test.assert (C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\supertest\\lib\\test.js:181:6)\n    at Server.localAssert (C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\supertest\\lib\\test.js:131:12)\n    at Object.onceWrapper (node:events:509:28)\n    at Server.emit (node:events:390:28)\n    at emitCloseNT (node:net:1681:8)\n    at processTicksAndRejections (node:internal/process/task_queues:82:21)","trace":[{"column":40,"file":"C:\\Users\\anand\\Desktop\\fundoo-Notes\\tests\\integration\\/user.test.js","function":null,"line":56,"method":null,"native":false},{"column":6,"file":"C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\supertest\\lib\\test.js","function":"Test.assert","line":181,"method":"assert","native":false},{"column":12,"file":"C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\supertest\\lib\\test.js","function":"Server.localAssert","line":131,"method":"localAssert","native":false},{"column":28,"file":"node:events","function":"Object.onceWrapper","line":509,"method":"onceWrapper","native":false},{"column":28,"file":"node:events","function":"Server.emit","line":390,"method":"emit","native":false},{"column":8,"file":"node:net","function":"emitCloseNT","line":1681,"method":null,"native":false},{"column":21,"file":"node:internal/process/task_queues","function":"processTicksAndRejections","line":82,"method":null,"native":false}]}
+info: ::ffff:127.0.0.1 - - [03/Mar/2022:13:38:15 +0000] "POST /users/register HTTP/1.1" 404 47 "-" "node-superagent/3.8.3"
+
+error: uncaughtException: expected 404 to equal 200
+AssertionError: expected 404 to equal 200
+    at Test.<anonymous> (C:\Users\anand\Desktop\fundoo-Notes\tests\integration\/user.test.js:57:40)
+    at Test.assert (C:\Users\anand\Desktop\fundoo-Notes\node_modules\supertest\lib\test.js:181:6)
+    at Server.localAssert (C:\Users\anand\Desktop\fundoo-Notes\node_modules\supertest\lib\test.js:131:12)
+    at Object.onceWrapper (node:events:509:28)
+    at Server.emit (node:events:390:28)
+    at emitCloseNT (node:net:1681:8)
+    at processTicksAndRejections (node:internal/process/task_queues:82:21) {"date":"Thu Mar 03 2022 19:08:15 GMT+0530 (India Standard Time)","error":{"actual":404,"expected":200,"message":"expected 404 to equal 200","name":"AssertionError","operator":"strictEqual","showDiff":true,"stack":"AssertionError: expected 404 to equal 200\n    at Test.<anonymous> (C:\\Users\\anand\\Desktop\\fundoo-Notes\\tests\\integration\\/user.test.js:57:40)\n    at Test.assert (C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\supertest\\lib\\test.js:181:6)\n    at Server.localAssert (C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\supertest\\lib\\test.js:131:12)\n    at Object.onceWrapper (node:events:509:28)\n    at Server.emit (node:events:390:28)\n    at emitCloseNT (node:net:1681:8)\n    at processTicksAndRejections (node:internal/process/task_queues:82:21)"},"exception":true,"os":{"loadavg":[0,0,0],"uptime":101933},"process":{"argv":["C:\\Program Files\\nodejs\\node.exe","C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\mocha\\bin\\mocha","--exit","--recursive","--require","@babel/register","--timeout=5000","tests/**/*.js"],"cwd":"C:\\Users\\anand\\Desktop\\fundoo-Notes","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18398370,"external":21826067,"heapTotal":157581312,"heapUsed":125096104,"rss":191049728},"pid":14828,"uid":null,"version":"v16.13.2"},"stack":"AssertionError: expected 404 to equal 200\n    at Test.<anonymous> (C:\\Users\\anand\\Desktop\\fundoo-Notes\\tests\\integration\\/user.test.js:57:40)\n    at Test.assert (C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\supertest\\lib\\test.js:181:6)\n    at Server.localAssert (C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\supertest\\lib\\test.js:131:12)\n    at Object.onceWrapper (node:events:509:28)\n    at Server.emit (node:events:390:28)\n    at emitCloseNT (node:net:1681:8)\n    at processTicksAndRejections (node:internal/process/task_queues:82:21)","trace":[{"column":40,"file":"C:\\Users\\anand\\Desktop\\fundoo-Notes\\tests\\integration\\/user.test.js","function":null,"line":57,"method":null,"native":false},{"column":6,"file":"C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\supertest\\lib\\test.js","function":"Test.assert","line":181,"method":"assert","native":false},{"column":12,"file":"C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\supertest\\lib\\test.js","function":"Server.localAssert","line":131,"method":"localAssert","native":false},{"column":28,"file":"node:events","function":"Object.onceWrapper","line":509,"method":"onceWrapper","native":false},{"column":28,"file":"node:events","function":"Server.emit","line":390,"method":"emit","native":false},{"column":8,"file":"node:net","function":"emitCloseNT","line":1681,"method":null,"native":false},{"column":21,"file":"node:internal/process/task_queues","function":"processTicksAndRejections","line":82,"method":null,"native":false}]}
+info: ::ffff:127.0.0.1 - - [03/Mar/2022:13:41:11 +0000] "POST /users/register HTTP/1.1" 404 47 "-" "node-superagent/3.8.3"
+
+error: uncaughtException: expected 404 to equal 200
+AssertionError: expected 404 to equal 200
+    at Test.<anonymous> (C:\Users\anand\Desktop\fundoo-Notes\tests\integration\/user.test.js:45:40)
+    at Test.assert (C:\Users\anand\Desktop\fundoo-Notes\node_modules\supertest\lib\test.js:181:6)
+    at Server.localAssert (C:\Users\anand\Desktop\fundoo-Notes\node_modules\supertest\lib\test.js:131:12)
+    at Object.onceWrapper (node:events:509:28)
+    at Server.emit (node:events:390:28)
+    at emitCloseNT (node:net:1681:8)
+    at processTicksAndRejections (node:internal/process/task_queues:82:21) {"date":"Thu Mar 03 2022 19:11:11 GMT+0530 (India Standard Time)","error":{"actual":404,"expected":200,"message":"expected 404 to equal 200","name":"AssertionError","operator":"strictEqual","showDiff":true,"stack":"AssertionError: expected 404 to equal 200\n    at Test.<anonymous> (C:\\Users\\anand\\Desktop\\fundoo-Notes\\tests\\integration\\/user.test.js:45:40)\n    at Test.assert (C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\supertest\\lib\\test.js:181:6)\n    at Server.localAssert (C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\supertest\\lib\\test.js:131:12)\n    at Object.onceWrapper (node:events:509:28)\n    at Server.emit (node:events:390:28)\n    at emitCloseNT (node:net:1681:8)\n    at processTicksAndRejections (node:internal/process/task_queues:82:21)"},"exception":true,"os":{"loadavg":[0,0,0],"uptime":102109},"process":{"argv":["C:\\Program Files\\nodejs\\node.exe","C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\mocha\\bin\\mocha","--exit","--recursive","--require","@babel/register","--timeout=5000","tests/**/*.js"],"cwd":"C:\\Users\\anand\\Desktop\\fundoo-Notes","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18398370,"external":21826067,"heapTotal":157581312,"heapUsed":124904128,"rss":192425984},"pid":716,"uid":null,"version":"v16.13.2"},"stack":"AssertionError: expected 404 to equal 200\n    at Test.<anonymous> (C:\\Users\\anand\\Desktop\\fundoo-Notes\\tests\\integration\\/user.test.js:45:40)\n    at Test.assert (C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\supertest\\lib\\test.js:181:6)\n    at Server.localAssert (C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\supertest\\lib\\test.js:131:12)\n    at Object.onceWrapper (node:events:509:28)\n    at Server.emit (node:events:390:28)\n    at emitCloseNT (node:net:1681:8)\n    at processTicksAndRejections (node:internal/process/task_queues:82:21)","trace":[{"column":40,"file":"C:\\Users\\anand\\Desktop\\fundoo-Notes\\tests\\integration\\/user.test.js","function":null,"line":45,"method":null,"native":false},{"column":6,"file":"C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\supertest\\lib\\test.js","function":"Test.assert","line":181,"method":"assert","native":false},{"column":12,"file":"C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\supertest\\lib\\test.js","function":"Server.localAssert","line":131,"method":"localAssert","native":false},{"column":28,"file":"node:events","function":"Object.onceWrapper","line":509,"method":"onceWrapper","native":false},{"column":28,"file":"node:events","function":"Server.emit","line":390,"method":"emit","native":false},{"column":8,"file":"node:net","function":"emitCloseNT","line":1681,"method":null,"native":false},{"column":21,"file":"node:internal/process/task_queues","function":"processTicksAndRejections","line":82,"method":null,"native":false}]}
+info: ::ffff:127.0.0.1 - - [03/Mar/2022:13:44:52 +0000] "POST /register HTTP/1.1" 404 47 "-" "node-superagent/3.8.3"
+
+error: uncaughtException: expected 404 to equal 200
+AssertionError: expected 404 to equal 200
+    at Test.<anonymous> (C:\Users\anand\Desktop\fundoo-Notes\tests\integration\/user.test.js:45:40)
+    at Test.assert (C:\Users\anand\Desktop\fundoo-Notes\node_modules\supertest\lib\test.js:181:6)
+    at Server.localAssert (C:\Users\anand\Desktop\fundoo-Notes\node_modules\supertest\lib\test.js:131:12)
+    at Object.onceWrapper (node:events:509:28)
+    at Server.emit (node:events:390:28)
+    at emitCloseNT (node:net:1681:8)
+    at processTicksAndRejections (node:internal/process/task_queues:82:21) {"date":"Thu Mar 03 2022 19:14:52 GMT+0530 (India Standard Time)","error":{"actual":404,"expected":200,"message":"expected 404 to equal 200","name":"AssertionError","operator":"strictEqual","showDiff":true,"stack":"AssertionError: expected 404 to equal 200\n    at Test.<anonymous> (C:\\Users\\anand\\Desktop\\fundoo-Notes\\tests\\integration\\/user.test.js:45:40)\n    at Test.assert (C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\supertest\\lib\\test.js:181:6)\n    at Server.localAssert (C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\supertest\\lib\\test.js:131:12)\n    at Object.onceWrapper (node:events:509:28)\n    at Server.emit (node:events:390:28)\n    at emitCloseNT (node:net:1681:8)\n    at processTicksAndRejections (node:internal/process/task_queues:82:21)"},"exception":true,"os":{"loadavg":[0,0,0],"uptime":102331},"process":{"argv":["C:\\Program Files\\nodejs\\node.exe","C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\mocha\\bin\\mocha","--exit","--recursive","--require","@babel/register","--timeout=5000","tests/**/*.js"],"cwd":"C:\\Users\\anand\\Desktop\\fundoo-Notes","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18398364,"external":21826061,"heapTotal":157581312,"heapUsed":124995704,"rss":190529536},"pid":18392,"uid":null,"version":"v16.13.2"},"stack":"AssertionError: expected 404 to equal 200\n    at Test.<anonymous> (C:\\Users\\anand\\Desktop\\fundoo-Notes\\tests\\integration\\/user.test.js:45:40)\n    at Test.assert (C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\supertest\\lib\\test.js:181:6)\n    at Server.localAssert (C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\supertest\\lib\\test.js:131:12)\n    at Object.onceWrapper (node:events:509:28)\n    at Server.emit (node:events:390:28)\n    at emitCloseNT (node:net:1681:8)\n    at processTicksAndRejections (node:internal/process/task_queues:82:21)","trace":[{"column":40,"file":"C:\\Users\\anand\\Desktop\\fundoo-Notes\\tests\\integration\\/user.test.js","function":null,"line":45,"method":null,"native":false},{"column":6,"file":"C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\supertest\\lib\\test.js","function":"Test.assert","line":181,"method":"assert","native":false},{"column":12,"file":"C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\supertest\\lib\\test.js","function":"Server.localAssert","line":131,"method":"localAssert","native":false},{"column":28,"file":"node:events","function":"Object.onceWrapper","line":509,"method":"onceWrapper","native":false},{"column":28,"file":"node:events","function":"Server.emit","line":390,"method":"emit","native":false},{"column":8,"file":"node:net","function":"emitCloseNT","line":1681,"method":null,"native":false},{"column":21,"file":"node:internal/process/task_queues","function":"processTicksAndRejections","line":82,"method":null,"native":false}]}
+info: ::ffff:127.0.0.1 - - [03/Mar/2022:13:47:44 +0000] "POST /:55272localhost/api/v1/users/register HTTP/1.1" 404 47 "-" "node-superagent/3.8.3"
+
+error: uncaughtException: expected 404 to equal 200
+AssertionError: expected 404 to equal 200
+    at Test.<anonymous> (C:\Users\anand\Desktop\fundoo-Notes\tests\integration\/user.test.js:45:40)
+    at Test.assert (C:\Users\anand\Desktop\fundoo-Notes\node_modules\supertest\lib\test.js:181:6)
+    at Server.localAssert (C:\Users\anand\Desktop\fundoo-Notes\node_modules\supertest\lib\test.js:131:12)
+    at Object.onceWrapper (node:events:509:28)
+    at Server.emit (node:events:390:28)
+    at emitCloseNT (node:net:1681:8)
+    at processTicksAndRejections (node:internal/process/task_queues:82:21) {"date":"Thu Mar 03 2022 19:17:44 GMT+0530 (India Standard Time)","error":{"actual":404,"expected":200,"message":"expected 404 to equal 200","name":"AssertionError","operator":"strictEqual","showDiff":true,"stack":"AssertionError: expected 404 to equal 200\n    at Test.<anonymous> (C:\\Users\\anand\\Desktop\\fundoo-Notes\\tests\\integration\\/user.test.js:45:40)\n    at Test.assert (C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\supertest\\lib\\test.js:181:6)\n    at Server.localAssert (C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\supertest\\lib\\test.js:131:12)\n    at Object.onceWrapper (node:events:509:28)\n    at Server.emit (node:events:390:28)\n    at emitCloseNT (node:net:1681:8)\n    at processTicksAndRejections (node:internal/process/task_queues:82:21)"},"exception":true,"os":{"loadavg":[0,0,0],"uptime":102502},"process":{"argv":["C:\\Program Files\\nodejs\\node.exe","C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\mocha\\bin\\mocha","--exit","--recursive","--require","@babel/register","--timeout=5000","tests/**/*.js"],"cwd":"C:\\Users\\anand\\Desktop\\fundoo-Notes","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18398392,"external":21826089,"heapTotal":157581312,"heapUsed":124923872,"rss":190246912},"pid":16500,"uid":null,"version":"v16.13.2"},"stack":"AssertionError: expected 404 to equal 200\n    at Test.<anonymous> (C:\\Users\\anand\\Desktop\\fundoo-Notes\\tests\\integration\\/user.test.js:45:40)\n    at Test.assert (C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\supertest\\lib\\test.js:181:6)\n    at Server.localAssert (C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\supertest\\lib\\test.js:131:12)\n    at Object.onceWrapper (node:events:509:28)\n    at Server.emit (node:events:390:28)\n    at emitCloseNT (node:net:1681:8)\n    at processTicksAndRejections (node:internal/process/task_queues:82:21)","trace":[{"column":40,"file":"C:\\Users\\anand\\Desktop\\fundoo-Notes\\tests\\integration\\/user.test.js","function":null,"line":45,"method":null,"native":false},{"column":6,"file":"C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\supertest\\lib\\test.js","function":"Test.assert","line":181,"method":"assert","native":false},{"column":12,"file":"C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\supertest\\lib\\test.js","function":"Server.localAssert","line":131,"method":"localAssert","native":false},{"column":28,"file":"node:events","function":"Object.onceWrapper","line":509,"method":"onceWrapper","native":false},{"column":28,"file":"node:events","function":"Server.emit","line":390,"method":"emit","native":false},{"column":8,"file":"node:net","function":"emitCloseNT","line":1681,"method":null,"native":false},{"column":21,"file":"node:internal/process/task_queues","function":"processTicksAndRejections","line":82,"method":null,"native":false}]}
+info: ::1 - - [03/Mar/2022:13:59:23 +0000] "POST /api/v1/users/register HTTP/1.1" 201 321 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.12 Safari/537.36"
+
+info: ::1 - - [03/Mar/2022:13:59:57 +0000] "POST /api/v1/users/login HTTP/1.1" 200 238 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.12 Safari/537.36"
+
+info: ::1 - - [03/Mar/2022:14:00:35 +0000] "POST /api/v1/users/forget HTTP/1.1" 200 64 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.12 Safari/537.36"
+
+info: ::1 - - [03/Mar/2022:14:01:13 +0000] "PUT /api/v1/users/reset HTTP/1.1" 200 323 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.12 Safari/537.36"
+
+info: ::1 - - [03/Mar/2022:14:01:36 +0000] "POST /api/v1/users/login HTTP/1.1" 200 238 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.12 Safari/537.36"
+
+info: ::1 - - [03/Mar/2022:14:02:42 +0000] "POST /api/v1/note HTTP/1.1" 200 271 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.12 Safari/537.36"
+
+info: ::1 - - [03/Mar/2022:14:03:12 +0000] "GET /api/v1/note:NoteID HTTP/1.1" 404 47 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.12 Safari/537.36"
+
+info: ::1 - - [03/Mar/2022:14:06:28 +0000] "GET /api-docs/ HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.12 Safari/537.36"
+
+info: ::1 - - [03/Mar/2022:14:06:28 +0000] "GET /api-docs/swagger-ui.css HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.12 Safari/537.36"
+
+info: ::1 - - [03/Mar/2022:14:06:29 +0000] "GET /api-docs/swagger-ui-init.js HTTP/1.1" 200 11373 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.12 Safari/537.36"
+
+info: ::1 - - [03/Mar/2022:14:06:29 +0000] "GET /api-docs/swagger-ui-bundle.js HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.12 Safari/537.36"
+
+info: ::1 - - [03/Mar/2022:14:06:29 +0000] "GET /api-docs/swagger-ui-standalone-preset.js HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.12 Safari/537.36"
+
+info: ::1 - - [03/Mar/2022:14:06:29 +0000] "GET /api-docs/favicon-32x32.png HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.12 Safari/537.36"
+
+info: ::1 - - [03/Mar/2022:14:07:13 +0000] "POST /api/v1/users/login HTTP/1.1" 200 238 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.12 Safari/537.36"
+
+info: ::1 - - [03/Mar/2022:14:07:36 +0000] "GET /api/v1/note/:NoteID HTTP/1.1" 500 176 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.12 Safari/537.36"
+
+info: ::1 - - [03/Mar/2022:14:08:08 +0000] "GET /api/v1/note/62209723003c341d9c015747 HTTP/1.1" 200 64 "-" "PostmanRuntime/7.29.0"
+
+info: ::1 - - [03/Mar/2022:14:11:02 +0000] "GET /api/v1/note/:NoteID HTTP/1.1" 500 176 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.12 Safari/537.36"
+
+info: ::1 - - [03/Mar/2022:14:18:24 +0000] "GET /api/v1/note/:NoteID HTTP/1.1" 500 176 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.12 Safari/537.36"
+
+info: ::1 - - [03/Mar/2022:14:18:43 +0000] "GET /api-docs/ HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.12 Safari/537.36"
+
+info: ::1 - - [03/Mar/2022:14:18:43 +0000] "GET /api-docs/swagger-ui.css HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.12 Safari/537.36"
+
+info: ::1 - - [03/Mar/2022:14:18:43 +0000] "GET /api-docs/swagger-ui-init.js HTTP/1.1" 200 11370 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.12 Safari/537.36"
+
+info: ::1 - - [03/Mar/2022:14:18:43 +0000] "GET /api-docs/swagger-ui-bundle.js HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.12 Safari/537.36"
+
+info: ::1 - - [03/Mar/2022:14:18:43 +0000] "GET /api-docs/swagger-ui-standalone-preset.js HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.12 Safari/537.36"
+
+info: ::1 - - [03/Mar/2022:14:18:44 +0000] "GET /api-docs/favicon-32x32.png HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.12 Safari/537.36"
+
+info: ::1 - - [03/Mar/2022:14:19:38 +0000] "GET /api/v1/note/:_id HTTP/1.1" 500 173 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.12 Safari/537.36"
+
+info: ::1 - - [03/Mar/2022:14:20:47 +0000] "GET /api/v1/note/:_id HTTP/1.1" 500 126 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.12 Safari/537.36"
+
+info: ::1 - - [03/Mar/2022:14:22:05 +0000] "GET /api/v1/note/:_id HTTP/1.1" 500 173 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.12 Safari/537.36"
+
+info: ::1 - - [03/Mar/2022:14:22:52 +0000] "GET /api/v1/note/:_id HTTP/1.1" 500 173 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.12 Safari/537.36"
+
+info: ::1 - - [03/Mar/2022:14:23:25 +0000] "PUT /api/v1/note/archive/:NoteID HTTP/1.1" 500 159 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.12 Safari/537.36"
+
+info: ::1 - - [03/Mar/2022:14:24:57 +0000] "GET /api-docs/ HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.12 Safari/537.36"
+
+info: ::1 - - [03/Mar/2022:14:24:57 +0000] "GET /api-docs/swagger-ui.css HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.12 Safari/537.36"
+
+info: ::1 - - [03/Mar/2022:14:24:57 +0000] "GET /api-docs/swagger-ui-bundle.js HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.12 Safari/537.36"
+
+info: ::1 - - [03/Mar/2022:14:24:57 +0000] "GET /api-docs/swagger-ui-init.js HTTP/1.1" 200 11364 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.12 Safari/537.36"
+
+info: ::1 - - [03/Mar/2022:14:24:57 +0000] "GET /api-docs/swagger-ui-standalone-preset.js HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.12 Safari/537.36"
+
+info: ::1 - - [03/Mar/2022:14:24:57 +0000] "GET /api-docs/favicon-32x32.png HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.12 Safari/537.36"
+
+info: ::1 - - [03/Mar/2022:14:25:48 +0000] "PUT /api/v1/note/archive/:_id HTTP/1.1" 500 156 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.12 Safari/537.36"
+
+info: ::1 - - [03/Mar/2022:14:30:36 +0000] "GET /api-docs/ HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.12 Safari/537.36"
+
+info: ::1 - - [03/Mar/2022:14:30:36 +0000] "GET /api-docs/swagger-ui.css HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.12 Safari/537.36"
+
+info: ::1 - - [03/Mar/2022:14:30:36 +0000] "GET /api-docs/swagger-ui-bundle.js HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.12 Safari/537.36"
+
+info: ::1 - - [03/Mar/2022:14:30:36 +0000] "GET /api-docs/swagger-ui-init.js HTTP/1.1" 200 11361 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.12 Safari/537.36"
+
+info: ::1 - - [03/Mar/2022:14:30:36 +0000] "GET /api-docs/swagger-ui-standalone-preset.js HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.12 Safari/537.36"
+
+info: ::1 - - [03/Mar/2022:14:30:37 +0000] "GET /api-docs/favicon-32x32.png HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.12 Safari/537.36"
+
+info: ::1 - - [03/Mar/2022:14:31:05 +0000] "PUT /api/v1/note/archive/6220ca82fa064505e46160ab HTTP/1.1" 200 277 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.12 Safari/537.36"
+
+info: ::1 - - [03/Mar/2022:14:34:38 +0000] "GET /api-docs/ HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.12 Safari/537.36"
+
+info: ::1 - - [03/Mar/2022:14:34:38 +0000] "GET /api-docs/swagger-ui.css HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.12 Safari/537.36"
+
+info: ::1 - - [03/Mar/2022:14:34:38 +0000] "GET /api-docs/swagger-ui-bundle.js HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.12 Safari/537.36"
+
+info: ::1 - - [03/Mar/2022:14:34:38 +0000] "GET /api-docs/swagger-ui-init.js HTTP/1.1" 200 11353 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.12 Safari/537.36"
+
+info: ::1 - - [03/Mar/2022:14:34:38 +0000] "GET /api-docs/swagger-ui-standalone-preset.js HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.12 Safari/537.36"
+
+info: ::1 - - [03/Mar/2022:14:34:38 +0000] "GET /api-docs/favicon-32x32.png HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.12 Safari/537.36"
+
+info: ::1 - - [03/Mar/2022:14:35:23 +0000] "GET /api/v1/note/6220ca82fa064505e46160ab HTTP/1.1" 200 306 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.12 Safari/537.36"
+
+info: ::1 - - [03/Mar/2022:14:36:12 +0000] "PUT /api/v1/note/6220ca82fa064505e46160ab HTTP/1.1" 200 346 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.12 Safari/537.36"
+
+info: ::1 - - [03/Mar/2022:14:36:31 +0000] "PUT /api/v1/note/archive/6220ca82fa064505e46160ab HTTP/1.1" 200 301 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.12 Safari/537.36"
+
+info: ::1 - - [03/Mar/2022:14:36:43 +0000] "PUT /api/v1/note/trash/6220ca82fa064505e46160ab HTTP/1.1" 200 300 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.12 Safari/537.36"
+
+info: ::1 - - [03/Mar/2022:14:36:55 +0000] "PUT /api/v1/note/trash/6220ca82fa064505e46160ab HTTP/1.1" 200 317 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.12 Safari/537.36"
+
+info: ::1 - - [03/Mar/2022:14:37:08 +0000] "DELETE /api/v1/note/%7B_id%7D HTTP/1.1" 500 157 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.12 Safari/537.36"
+

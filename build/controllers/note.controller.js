@@ -7,7 +7,7 @@ var _typeof = require("@babel/runtime/helpers/typeof");
 Object.defineProperty(exports, "__esModule", {
   value: true
 });
-exports.updateById = exports.getUserById = exports.deleteUser = exports.create = exports.MakeArchive = exports.DeleteNote = exports.AllUsers = void 0;
+exports.updateById = exports.getUserById = exports.deleteUser = exports.create = exports.TrashNote = exports.MakeArchive = exports.AllUsers = void 0;
 
 var _regenerator = _interopRequireDefault(require("@babel/runtime/regenerator"));
 
@@ -38,33 +38,31 @@ var create = /*#__PURE__*/function () {
         switch (_context.prev = _context.next) {
           case 0:
             _context.prev = 0;
-            req.body.UserID = req.body.data.id; //its a user id automatically created one
-
             console.log(req.body.UserID);
-            _context.next = 5;
+            _context.next = 4;
             return NoteService.createNotes(req.body);
 
-          case 5:
+          case 4:
             tokenToCreatedData = _context.sent;
             res.status(_httpStatusCodes["default"].OK).json({
               code: _httpStatusCodes["default"].OK,
               data: tokenToCreatedData,
               message: 'note added'
             });
-            _context.next = 12;
+            _context.next = 11;
             break;
 
-          case 9:
-            _context.prev = 9;
+          case 8:
+            _context.prev = 8;
             _context.t0 = _context["catch"](0);
             next(_context.t0);
 
-          case 12:
+          case 11:
           case "end":
             return _context.stop();
         }
       }
-    }, _callee, null, [[0, 9]]);
+    }, _callee, null, [[0, 8]]);
   }));
 
   return function create(_x, _x2, _x3) {
@@ -168,30 +166,31 @@ var updateById = /*#__PURE__*/function () {
         switch (_context4.prev = _context4.next) {
           case 0:
             _context4.prev = 0;
-            _context4.next = 3;
+            req.body.UserID = req.body.data.id;
+            _context4.next = 4;
             return NoteService.updateById(req.params._id, req.body);
 
-          case 3:
+          case 4:
             updatedData = _context4.sent;
             res.status(_httpStatusCodes["default"].OK).json({
               code: _httpStatusCodes["default"].OK,
               data: updatedData,
               message: "note with id ".concat(req.params._id, " is Updated Successfully")
             });
-            _context4.next = 10;
+            _context4.next = 11;
             break;
 
-          case 7:
-            _context4.prev = 7;
+          case 8:
+            _context4.prev = 8;
             _context4.t0 = _context4["catch"](0);
             next(_context4.t0);
 
-          case 10:
+          case 11:
           case "end":
             return _context4.stop();
         }
       }
-    }, _callee4, null, [[0, 7]]);
+    }, _callee4, null, [[0, 8]]);
   }));
 
   return function updateById(_x10, _x11, _x12) {
@@ -251,7 +250,7 @@ var MakeArchive = /*#__PURE__*/function () {
           case 0:
             _context6.prev = 0;
             _context6.next = 3;
-            return NoteService.MakeArchive(req.params._id);
+            return NoteService.MakeArchive(req.body);
 
           case 3:
             returnData = _context6.sent;
@@ -283,7 +282,7 @@ var MakeArchive = /*#__PURE__*/function () {
 
 exports.MakeArchive = MakeArchive;
 
-var DeleteNote = /*#__PURE__*/function () {
+var TrashNote = /*#__PURE__*/function () {
   var _ref7 = (0, _asyncToGenerator2["default"])( /*#__PURE__*/_regenerator["default"].mark(function _callee7(req, res, next) {
     var CheckChanges;
     return _regenerator["default"].wrap(function _callee7$(_context7) {
@@ -291,35 +290,36 @@ var DeleteNote = /*#__PURE__*/function () {
         switch (_context7.prev = _context7.next) {
           case 0:
             _context7.prev = 0;
-            _context7.next = 3;
-            return NoteService.DeleteNote(req.params._id);
+            req.body.UserID = req.body.data.id;
+            _context7.next = 4;
+            return NoteService.TrashNote(req.body);
 
-          case 3:
+          case 4:
             CheckChanges = _context7.sent;
             res.status(_httpStatusCodes["default"].OK).json({
               code: _httpStatusCodes["default"].OK,
               data: CheckChanges,
-              message: "Note is Deleted"
+              message: "Note is trashed"
             });
-            _context7.next = 10;
+            _context7.next = 11;
             break;
 
-          case 7:
-            _context7.prev = 7;
+          case 8:
+            _context7.prev = 8;
             _context7.t0 = _context7["catch"](0);
             next(_context7.t0);
 
-          case 10:
+          case 11:
           case "end":
             return _context7.stop();
         }
       }
-    }, _callee7, null, [[0, 7]]);
+    }, _callee7, null, [[0, 8]]);
   }));
 
-  return function DeleteNote(_x19, _x20, _x21) {
+  return function TrashNote(_x19, _x20, _x21) {
     return _ref7.apply(this, arguments);
   };
 }();
 
-exports.DeleteNote = DeleteNote;
+exports.TrashNote = TrashNote;

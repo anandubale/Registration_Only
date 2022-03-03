@@ -26,13 +26,10 @@ export const userRegistration = async (body) => {
                       //emailID + password = body
 export const login = async  (body)=>{ 
   const user = await User.findOne({emailID: body.emailID})
-  console.log("UserPAssword : " + user.password);
-  console.log("bodyPAssword : " +  body.password);
   if(user != null){
    const validPassword = bcrypt.compareSync(body.password, user.password);
-   console.log(validPassword);
    if(validPassword ){
-    const token = jwt.sign({"emailID": user.emailID,"id":user._id}, process.env.FORGET_PASS_CODE);
+    const token = jwt.sign({"emailID": user.emailID,"id":user._id}, process.env.NOTE_SECRET_CODE);
     return token;
    }
    else{

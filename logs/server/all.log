@@ -7879,3 +7879,1400 @@ SyntaxError: C:\Users\anand\Desktop\fundoo-Notes\src\services\note.service.js: U
     at C:\Users\anand\Desktop\fundoo-Notes\node_modules\@babel\parser\src\parser\expression.js:257:12 {"date":"Thu Mar 03 2022 08:39:10 GMT+0530 (India Standard Time)","error":{"code":"BABEL_PARSE_ERROR","loc":{"column":8,"index":1533,"line":73},"pos":1533,"reasonCode":"UnexpectedToken"},"exception":true,"os":{"loadavg":[0,0,0],"uptime":64189},"process":{"argv":["node","C:\\Users\\anand\\Desktop\\fundoo-Notes\\src\\index.js"],"cwd":"C:\\Users\\anand\\Desktop\\fundoo-Notes","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18294994,"external":26977973,"heapTotal":134934528,"heapUsed":112541888,"rss":170463232},"pid":5360,"uid":null,"version":"v16.13.2"},"stack":"SyntaxError: C:\\Users\\anand\\Desktop\\fundoo-Notes\\src\\services\\note.service.js: Unexpected token (73:8)\n\n\u001b[0m \u001b[90m 71 |\u001b[39m     \u001b[36mconst\u001b[39m \u001b[33mTrashingIt\u001b[39m \u001b[33m=\u001b[39m \u001b[36mawait\u001b[39m \u001b[33mNote\u001b[39m\u001b[33m.\u001b[39mfindByIdAndUpdate({\u001b[33mUserID\u001b[39m \u001b[33m:\u001b[39m body\u001b[33m.\u001b[39m\u001b[33mUserID\u001b[39m\u001b[33m,\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 72 |\u001b[39m         body\u001b[33m,\u001b[39m\u001b[0m\n\u001b[0m\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 73 |\u001b[39m         {   \u001b[0m\n\u001b[0m \u001b[90m    |\u001b[39m         \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 74 |\u001b[39m             $set\u001b[33m:\u001b[39m { isDeleted\u001b[33m:\u001b[39m \u001b[36mtrue\u001b[39m }\u001b[0m\n\u001b[0m \u001b[90m 75 |\u001b[39m         }\u001b[0m\n\u001b[0m \u001b[90m 76 |\u001b[39m\u001b[0m\n    at Parser._raise (C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\@babel\\parser\\src\\parser\\error.js:150:45)\n    at Parser.raiseWithData (C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\@babel\\parser\\src\\parser\\error.js:145:17)\n    at Parser.raise (C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\@babel\\parser\\src\\parser\\error.js:89:17)\n    at Parser.unexpected (C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\@babel\\parser\\src\\parser\\util.js:174:16)\n    at Parser.parsePropertyName (C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\@babel\\parser\\src\\parser\\expression.js:2306:24)\n    at Parser.parsePropertyDefinition (C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\@babel\\parser\\src\\parser\\expression.js:2053:22)\n    at Parser.parseObjectLike (C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\@babel\\parser\\src\\parser\\expression.js:1958:21)\n    at Parser.parseExprAtom (C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\@babel\\parser\\src\\parser\\expression.js:1150:21)\n    at Parser.parseExprSubscripts (C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\@babel\\parser\\src\\parser\\expression.js:682:23)\n    at Parser.parseUpdate (C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\@babel\\parser\\src\\parser\\expression.js:662:21)\n    at Parser.parseMaybeUnary (C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\@babel\\parser\\src\\parser\\expression.js:633:23)\n    at Parser.parseMaybeUnaryOrPrivate (C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\@babel\\parser\\src\\parser\\expression.js:388:14)\n    at Parser.parseExprOps (C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\@babel\\parser\\src\\parser\\expression.js:398:23)\n    at Parser.parseMaybeConditional (C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\@babel\\parser\\src\\parser\\expression.js:356:23)\n    at Parser.parseMaybeAssign (C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\@babel\\parser\\src\\parser\\expression.js:303:21)\n    at C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\@babel\\parser\\src\\parser\\expression.js:257:12","timestamp":"2022-03-03T03:09:10.548Z","trace":[{"column":45,"file":"C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\@babel\\parser\\src\\parser\\error.js","function":"Parser._raise","line":150,"method":"_raise","native":false},{"column":17,"file":"C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\@babel\\parser\\src\\parser\\error.js","function":"Parser.raiseWithData","line":145,"method":"raiseWithData","native":false},{"column":17,"file":"C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\@babel\\parser\\src\\parser\\error.js","function":"Parser.raise","line":89,"method":"raise","native":false},{"column":16,"file":"C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\@babel\\parser\\src\\parser\\util.js","function":"Parser.unexpected","line":174,"method":"unexpected","native":false},{"column":24,"file":"C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\@babel\\parser\\src\\parser\\expression.js","function":"Parser.parsePropertyName","line":2306,"method":"parsePropertyName","native":false},{"column":22,"file":"C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\@babel\\parser\\src\\parser\\expression.js","function":"Parser.parsePropertyDefinition","line":2053,"method":"parsePropertyDefinition","native":false},{"column":21,"file":"C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\@babel\\parser\\src\\parser\\expression.js","function":"Parser.parseObjectLike","line":1958,"method":"parseObjectLike","native":false},{"column":21,"file":"C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\@babel\\parser\\src\\parser\\expression.js","function":"Parser.parseExprAtom","line":1150,"method":"parseExprAtom","native":false},{"column":23,"file":"C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\@babel\\parser\\src\\parser\\expression.js","function":"Parser.parseExprSubscripts","line":682,"method":"parseExprSubscripts","native":false},{"column":21,"file":"C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\@babel\\parser\\src\\parser\\expression.js","function":"Parser.parseUpdate","line":662,"method":"parseUpdate","native":false},{"column":23,"file":"C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\@babel\\parser\\src\\parser\\expression.js","function":"Parser.parseMaybeUnary","line":633,"method":"parseMaybeUnary","native":false},{"column":14,"file":"C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\@babel\\parser\\src\\parser\\expression.js","function":"Parser.parseMaybeUnaryOrPrivate","line":388,"method":"parseMaybeUnaryOrPrivate","native":false},{"column":23,"file":"C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\@babel\\parser\\src\\parser\\expression.js","function":"Parser.parseExprOps","line":398,"method":"parseExprOps","native":false},{"column":23,"file":"C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\@babel\\parser\\src\\parser\\expression.js","function":"Parser.parseMaybeConditional","line":356,"method":"parseMaybeConditional","native":false},{"column":21,"file":"C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\@babel\\parser\\src\\parser\\expression.js","function":"Parser.parseMaybeAssign","line":303,"method":"parseMaybeAssign","native":false},{"column":12,"file":"C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\@babel\\parser\\src\\parser\\expression.js","function":null,"line":257,"method":null,"native":false}]}
 info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-03-03T03:09:29.572Z"}
 info: Connected to the database. {"timestamp":"2022-03-03T03:09:29.600Z"}
+info: undefined {"accepted":["anandubale11@gmail.com"],"envelope":{"from":"","to":["anandubale11@gmail.com"]},"envelopeTime":904,"messageId":"<14661246-a29d-0b12-19c3-385e58491bd4@LAPTOP>","messageSize":549,"messageTime":699,"rejected":[],"response":"250 2.0.0 OK  1646277223 t12-20020a056a0021cc00b004e105f259e8sm588719pfj.152 - gsmtp","timestamp":"2022-03-03T03:16:08.575Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-03-03T03:26:40.160Z"}
+info: Connected to the database. {"timestamp":"2022-03-03T03:26:40.189Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-03-03T04:03:32.931Z"}
+info: Connected to the database. {"timestamp":"2022-03-03T04:03:32.958Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-03-03T04:08:50.878Z"}
+info: Connected to the database. {"timestamp":"2022-03-03T04:08:50.903Z"}
+error: uncaughtException: listen EADDRINUSE: address already in use :::3000
+Error: listen EADDRINUSE: address already in use :::3000
+    at Server.setupListenHandle [as _listen2] (node:net:1334:16)
+    at listenInCluster (node:net:1382:12)
+    at Server.listen (node:net:1469:7)
+    at Function.listen (C:\Users\anand\Desktop\fundoo-Notes\node_modules\express\lib\application.js:618:24)
+    at Object.<anonymous> (C:\Users\anand\Desktop\fundoo-Notes\src\/index.js:41:5)
+    at Module._compile (node:internal/modules/cjs/loader:1101:14)
+    at Module._compile (C:\Users\anand\Desktop\fundoo-Notes\node_modules\pirates\lib\index.js:136:24)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1153:10)
+    at Object.newLoader [as .js] (C:\Users\anand\Desktop\fundoo-Notes\node_modules\pirates\lib\index.js:141:7)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)
+    at Object.<anonymous> (C:\Users\anand\Desktop\fundoo-Notes\node_modules\@babel\node\lib\_babel-node.js:176:21)
+    at Module._compile (node:internal/modules/cjs/loader:1101:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1153:10)
+    at Module.load (node:internal/modules/cjs/loader:981:32) {"date":"Thu Mar 03 2022 09:38:51 GMT+0530 (India Standard Time)","error":{"address":"::","code":"EADDRINUSE","errno":-4091,"port":3000,"syscall":"listen"},"exception":true,"os":{"loadavg":[0,0,0],"uptime":67769},"process":{"argv":["node","C:\\Users\\anand\\Desktop\\fundoo-Notes\\src\\index.js"],"cwd":"C:\\Users\\anand\\Desktop\\fundoo-Notes","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18377953,"external":25396212,"heapTotal":125239296,"heapUsed":103899768,"rss":162684928},"pid":15144,"uid":null,"version":"v16.13.2"},"stack":"Error: listen EADDRINUSE: address already in use :::3000\n    at Server.setupListenHandle [as _listen2] (node:net:1334:16)\n    at listenInCluster (node:net:1382:12)\n    at Server.listen (node:net:1469:7)\n    at Function.listen (C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\express\\lib\\application.js:618:24)\n    at Object.<anonymous> (C:\\Users\\anand\\Desktop\\fundoo-Notes\\src\\/index.js:41:5)\n    at Module._compile (node:internal/modules/cjs/loader:1101:14)\n    at Module._compile (C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\pirates\\lib\\index.js:136:24)\n    at Module._extensions..js (node:internal/modules/cjs/loader:1153:10)\n    at Object.newLoader [as .js] (C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\pirates\\lib\\index.js:141:7)\n    at Module.load (node:internal/modules/cjs/loader:981:32)\n    at Function.Module._load (node:internal/modules/cjs/loader:822:12)\n    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)\n    at Object.<anonymous> (C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\@babel\\node\\lib\\_babel-node.js:176:21)\n    at Module._compile (node:internal/modules/cjs/loader:1101:14)\n    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1153:10)\n    at Module.load (node:internal/modules/cjs/loader:981:32)","timestamp":"2022-03-03T04:08:51.111Z","trace":[{"column":16,"file":"node:net","function":"Server.setupListenHandle [as _listen2]","line":1334,"method":"setupListenHandle [as _listen2]","native":false},{"column":12,"file":"node:net","function":"listenInCluster","line":1382,"method":null,"native":false},{"column":7,"file":"node:net","function":"Server.listen","line":1469,"method":"listen","native":false},{"column":24,"file":"C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\express\\lib\\application.js","function":"Function.listen","line":618,"method":"listen","native":false},{"column":5,"file":"C:\\Users\\anand\\Desktop\\fundoo-Notes\\src\\/index.js","function":null,"line":41,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1101,"method":"_compile","native":false},{"column":24,"file":"C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\pirates\\lib\\index.js","function":"Module._compile","line":136,"method":"_compile","native":false},{"column":10,"file":"node:internal/modules/cjs/loader","function":"Module._extensions..js","line":1153,"method":".js","native":false},{"column":7,"file":"C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\pirates\\lib\\index.js","function":"Object.newLoader [as .js]","line":141,"method":"js]","native":false},{"column":32,"file":"node:internal/modules/cjs/loader","function":"Module.load","line":981,"method":"load","native":false},{"column":12,"file":"node:internal/modules/cjs/loader","function":"Module._load","line":822,"method":"_load","native":false},{"column":12,"file":"node:internal/modules/run_main","function":"Function.executeUserEntryPoint [as runMain]","line":81,"method":"executeUserEntryPoint [as runMain]","native":false},{"column":21,"file":"C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\@babel\\node\\lib\\_babel-node.js","function":null,"line":176,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1101,"method":"_compile","native":false},{"column":10,"file":"node:internal/modules/cjs/loader","function":"Module._extensions..js","line":1153,"method":".js","native":false},{"column":32,"file":"node:internal/modules/cjs/loader","function":"Module.load","line":981,"method":"load","native":false}]}
+error: uncaughtException: listen EADDRINUSE: address already in use :::3000
+Error: listen EADDRINUSE: address already in use :::3000
+    at Server.setupListenHandle [as _listen2] (node:net:1334:16)
+    at listenInCluster (node:net:1382:12)
+    at Server.listen (node:net:1469:7)
+    at Function.listen (C:\Users\anand\Desktop\fundoo-Notes\node_modules\express\lib\application.js:618:24)
+    at Object.<anonymous> (C:\Users\anand\Desktop\fundoo-Notes\src\/index.js:41:5)
+    at Module._compile (node:internal/modules/cjs/loader:1101:14)
+    at Module._compile (C:\Users\anand\Desktop\fundoo-Notes\node_modules\pirates\lib\index.js:136:24)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1153:10)
+    at Object.newLoader [as .js] (C:\Users\anand\Desktop\fundoo-Notes\node_modules\pirates\lib\index.js:141:7)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)
+    at Object.<anonymous> (C:\Users\anand\Desktop\fundoo-Notes\node_modules\@babel\node\lib\_babel-node.js:176:21)
+    at Module._compile (node:internal/modules/cjs/loader:1101:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1153:10)
+    at Module.load (node:internal/modules/cjs/loader:981:32) {"date":"Thu Mar 03 2022 09:39:58 GMT+0530 (India Standard Time)","error":{"address":"::","code":"EADDRINUSE","errno":-4091,"port":3000,"syscall":"listen"},"exception":true,"os":{"loadavg":[0,0,0],"uptime":67836},"process":{"argv":["node","C:\\Users\\anand\\Desktop\\fundoo-Notes\\src\\index.js"],"cwd":"C:\\Users\\anand\\Desktop\\fundoo-Notes","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18386145,"external":25396212,"heapTotal":126025728,"heapUsed":103778296,"rss":165482496},"pid":16468,"uid":null,"version":"v16.13.2"},"stack":"Error: listen EADDRINUSE: address already in use :::3000\n    at Server.setupListenHandle [as _listen2] (node:net:1334:16)\n    at listenInCluster (node:net:1382:12)\n    at Server.listen (node:net:1469:7)\n    at Function.listen (C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\express\\lib\\application.js:618:24)\n    at Object.<anonymous> (C:\\Users\\anand\\Desktop\\fundoo-Notes\\src\\/index.js:41:5)\n    at Module._compile (node:internal/modules/cjs/loader:1101:14)\n    at Module._compile (C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\pirates\\lib\\index.js:136:24)\n    at Module._extensions..js (node:internal/modules/cjs/loader:1153:10)\n    at Object.newLoader [as .js] (C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\pirates\\lib\\index.js:141:7)\n    at Module.load (node:internal/modules/cjs/loader:981:32)\n    at Function.Module._load (node:internal/modules/cjs/loader:822:12)\n    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)\n    at Object.<anonymous> (C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\@babel\\node\\lib\\_babel-node.js:176:21)\n    at Module._compile (node:internal/modules/cjs/loader:1101:14)\n    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1153:10)\n    at Module.load (node:internal/modules/cjs/loader:981:32)","timestamp":"2022-03-03T04:09:58.188Z","trace":[{"column":16,"file":"node:net","function":"Server.setupListenHandle [as _listen2]","line":1334,"method":"setupListenHandle [as _listen2]","native":false},{"column":12,"file":"node:net","function":"listenInCluster","line":1382,"method":null,"native":false},{"column":7,"file":"node:net","function":"Server.listen","line":1469,"method":"listen","native":false},{"column":24,"file":"C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\express\\lib\\application.js","function":"Function.listen","line":618,"method":"listen","native":false},{"column":5,"file":"C:\\Users\\anand\\Desktop\\fundoo-Notes\\src\\/index.js","function":null,"line":41,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1101,"method":"_compile","native":false},{"column":24,"file":"C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\pirates\\lib\\index.js","function":"Module._compile","line":136,"method":"_compile","native":false},{"column":10,"file":"node:internal/modules/cjs/loader","function":"Module._extensions..js","line":1153,"method":".js","native":false},{"column":7,"file":"C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\pirates\\lib\\index.js","function":"Object.newLoader [as .js]","line":141,"method":"js]","native":false},{"column":32,"file":"node:internal/modules/cjs/loader","function":"Module.load","line":981,"method":"load","native":false},{"column":12,"file":"node:internal/modules/cjs/loader","function":"Module._load","line":822,"method":"_load","native":false},{"column":12,"file":"node:internal/modules/run_main","function":"Function.executeUserEntryPoint [as runMain]","line":81,"method":"executeUserEntryPoint [as runMain]","native":false},{"column":21,"file":"C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\@babel\\node\\lib\\_babel-node.js","function":null,"line":176,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1101,"method":"_compile","native":false},{"column":10,"file":"node:internal/modules/cjs/loader","function":"Module._extensions..js","line":1153,"method":".js","native":false},{"column":32,"file":"node:internal/modules/cjs/loader","function":"Module.load","line":981,"method":"load","native":false}]}
+error: 
+    status - 500 
+    message - CastError: Cast to ObjectId failed for value "{ _id: 'reset' }" (type Object) at path "_id" for model "User"
+    at model.Query.exec (c:\Users\anand\Desktop\fundoo-Notes\node_modules\mongoose\lib\query.js:4498:21)
+    at model.Query.Query.then (c:\Users\anand\Desktop\fundoo-Notes\node_modules\mongoose\lib\query.js:4592:15)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/users/reset 
+    method - PUT 
+    IP - ::1
+   {"timestamp":"2022-03-03T04:11:07.060Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-03-03T04:17:56.422Z"}
+info: Connected to the database. {"timestamp":"2022-03-03T04:17:56.462Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-03-03T06:19:04.490Z"}
+info: Connected to the database. {"timestamp":"2022-03-03T06:19:04.514Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-03-03T06:19:32.304Z"}
+info: Connected to the database. {"timestamp":"2022-03-03T06:19:32.332Z"}
+error: uncaughtException: listen EADDRINUSE: address already in use :::3000
+Error: listen EADDRINUSE: address already in use :::3000
+    at Server.setupListenHandle [as _listen2] (node:net:1334:16)
+    at listenInCluster (node:net:1382:12)
+    at Server.listen (node:net:1469:7)
+    at Function.listen (C:\Users\anand\Desktop\fundoo-Notes\node_modules\express\lib\application.js:618:24)
+    at Object.<anonymous> (C:\Users\anand\Desktop\fundoo-Notes\src\/index.js:41:5)
+    at Module._compile (node:internal/modules/cjs/loader:1101:14)
+    at Module._compile (C:\Users\anand\Desktop\fundoo-Notes\node_modules\pirates\lib\index.js:136:24)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1153:10)
+    at Object.newLoader [as .js] (C:\Users\anand\Desktop\fundoo-Notes\node_modules\pirates\lib\index.js:141:7)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)
+    at Object.<anonymous> (C:\Users\anand\Desktop\fundoo-Notes\node_modules\@babel\node\lib\_babel-node.js:176:21)
+    at Module._compile (node:internal/modules/cjs/loader:1101:14)
+    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1153:10)
+    at Module.load (node:internal/modules/cjs/loader:981:32) {"date":"Thu Mar 03 2022 11:49:35 GMT+0530 (India Standard Time)","error":{"address":"::","code":"EADDRINUSE","errno":-4091,"port":3000,"syscall":"listen"},"exception":true,"os":{"loadavg":[0,0,0],"uptime":75613},"process":{"argv":["node","C:\\Users\\anand\\Desktop\\fundoo-Notes\\src\\index.js"],"cwd":"C:\\Users\\anand\\Desktop\\fundoo-Notes","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18369761,"external":25012849,"heapTotal":130965504,"heapUsed":105699792,"rss":169050112},"pid":3028,"uid":null,"version":"v16.13.2"},"stack":"Error: listen EADDRINUSE: address already in use :::3000\n    at Server.setupListenHandle [as _listen2] (node:net:1334:16)\n    at listenInCluster (node:net:1382:12)\n    at Server.listen (node:net:1469:7)\n    at Function.listen (C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\express\\lib\\application.js:618:24)\n    at Object.<anonymous> (C:\\Users\\anand\\Desktop\\fundoo-Notes\\src\\/index.js:41:5)\n    at Module._compile (node:internal/modules/cjs/loader:1101:14)\n    at Module._compile (C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\pirates\\lib\\index.js:136:24)\n    at Module._extensions..js (node:internal/modules/cjs/loader:1153:10)\n    at Object.newLoader [as .js] (C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\pirates\\lib\\index.js:141:7)\n    at Module.load (node:internal/modules/cjs/loader:981:32)\n    at Function.Module._load (node:internal/modules/cjs/loader:822:12)\n    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)\n    at Object.<anonymous> (C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\@babel\\node\\lib\\_babel-node.js:176:21)\n    at Module._compile (node:internal/modules/cjs/loader:1101:14)\n    at Object.Module._extensions..js (node:internal/modules/cjs/loader:1153:10)\n    at Module.load (node:internal/modules/cjs/loader:981:32)","timestamp":"2022-03-03T06:19:35.097Z","trace":[{"column":16,"file":"node:net","function":"Server.setupListenHandle [as _listen2]","line":1334,"method":"setupListenHandle [as _listen2]","native":false},{"column":12,"file":"node:net","function":"listenInCluster","line":1382,"method":null,"native":false},{"column":7,"file":"node:net","function":"Server.listen","line":1469,"method":"listen","native":false},{"column":24,"file":"C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\express\\lib\\application.js","function":"Function.listen","line":618,"method":"listen","native":false},{"column":5,"file":"C:\\Users\\anand\\Desktop\\fundoo-Notes\\src\\/index.js","function":null,"line":41,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1101,"method":"_compile","native":false},{"column":24,"file":"C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\pirates\\lib\\index.js","function":"Module._compile","line":136,"method":"_compile","native":false},{"column":10,"file":"node:internal/modules/cjs/loader","function":"Module._extensions..js","line":1153,"method":".js","native":false},{"column":7,"file":"C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\pirates\\lib\\index.js","function":"Object.newLoader [as .js]","line":141,"method":"js]","native":false},{"column":32,"file":"node:internal/modules/cjs/loader","function":"Module.load","line":981,"method":"load","native":false},{"column":12,"file":"node:internal/modules/cjs/loader","function":"Module._load","line":822,"method":"_load","native":false},{"column":12,"file":"node:internal/modules/run_main","function":"Function.executeUserEntryPoint [as runMain]","line":81,"method":"executeUserEntryPoint [as runMain]","native":false},{"column":21,"file":"C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\@babel\\node\\lib\\_babel-node.js","function":null,"line":176,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1101,"method":"_compile","native":false},{"column":10,"file":"node:internal/modules/cjs/loader","function":"Module._extensions..js","line":1153,"method":".js","native":false},{"column":32,"file":"node:internal/modules/cjs/loader","function":"Module.load","line":981,"method":"load","native":false}]}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-03-03T06:20:03.158Z"}
+info: Connected to the database. {"timestamp":"2022-03-03T06:20:03.193Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-03-03T06:20:28.132Z"}
+info: Connected to the database. {"timestamp":"2022-03-03T06:20:28.165Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-03-03T06:20:41.514Z"}
+info: Connected to the database. {"timestamp":"2022-03-03T06:20:41.543Z"}
+error: 
+      status - 400
+      message - Authorization token is incorrect 
+      url - /api/v1/note 
+      method - POST 
+      IP - ::1
+     {"timestamp":"2022-03-03T06:22:02.835Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-03-03T06:23:20.155Z"}
+info: Connected to the database. {"timestamp":"2022-03-03T06:23:20.260Z"}
+error: 
+      status - 400
+      message - Authorization token is incorrect 
+      url - /api/v1/note 
+      method - POST 
+      IP - ::1
+     {"timestamp":"2022-03-03T06:23:23.858Z"}
+error: 
+      status - 400
+      message - Authorization token is incorrect 
+      url - /api/v1/note 
+      method - POST 
+      IP - ::1
+     {"timestamp":"2022-03-03T06:23:25.108Z"}
+error: 
+      status - 400
+      message - Authorization token is incorrect 
+      url - /api/v1/note 
+      method - POST 
+      IP - ::1
+     {"timestamp":"2022-03-03T06:23:26.273Z"}
+error: 
+      status - 400
+      message - Authorization token is incorrect 
+      url - /api/v1/note 
+      method - POST 
+      IP - ::1
+     {"timestamp":"2022-03-03T06:23:27.304Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-03-03T06:24:32.731Z"}
+info: Connected to the database. {"timestamp":"2022-03-03T06:24:32.770Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-03-03T06:24:49.403Z"}
+info: Connected to the database. {"timestamp":"2022-03-03T06:24:49.453Z"}
+error: 
+    status - 500 
+    message - ValidationError: Note validation failed: Descreption: Path `Descreption` is required., Title: Path `Title` is required.
+    at model.Document.invalidate (C:\Users\anand\Desktop\fundoo-Notes\node_modules\mongoose\lib\document.js:2782:32)
+    at C:\Users\anand\Desktop\fundoo-Notes\node_modules\mongoose\lib\document.js:2574:17
+    at C:\Users\anand\Desktop\fundoo-Notes\node_modules\mongoose\lib\schematype.js:1273:9
+    at processTicksAndRejections (node:internal/process/task_queues:78:11) 
+    url - /api/v1/note 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-03-03T06:25:02.985Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-03-03T06:26:30.132Z"}
+info: Connected to the database. {"timestamp":"2022-03-03T06:26:30.185Z"}
+error: 
+    status - 500 
+    message - ValidationError: Note validation failed: Descreption: Path `Descreption` is required., Title: Path `Title` is required.
+    at model.Document.invalidate (C:\Users\anand\Desktop\fundoo-Notes\node_modules\mongoose\lib\document.js:2782:32)
+    at C:\Users\anand\Desktop\fundoo-Notes\node_modules\mongoose\lib\document.js:2574:17
+    at C:\Users\anand\Desktop\fundoo-Notes\node_modules\mongoose\lib\schematype.js:1273:9
+    at processTicksAndRejections (node:internal/process/task_queues:78:11) 
+    url - /api/v1/note 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-03-03T06:27:15.623Z"}
+error: 
+    status - 500 
+    message - Error: User is not Registered
+    at _callee3$ (C:\Users\anand\Desktop\fundoo-Notes\src\services\/user.service.js:40:9)
+    at tryCatch (C:\Users\anand\Desktop\fundoo-Notes\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (C:\Users\anand\Desktop\fundoo-Notes\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (C:\Users\anand\Desktop\fundoo-Notes\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (C:\Users\anand\Desktop\fundoo-Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\anand\Desktop\fundoo-Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/users/login 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2022-03-03T06:28:14.073Z"}
+error: 
+      status - 11000
+      message - E11000 duplicate key error collection: user.users index: emailID_1 dup key: { emailID: "monty@gmail.com" } 
+      url - /api/v1/users/register 
+      method - POST 
+      IP - ::1
+     {"timestamp":"2022-03-03T06:30:12.995Z"}
+error: 
+    status - 500 
+    message - RangeError: Invalid status code: 11000
+    at new NodeError (node:internal/errors:371:5)
+    at ServerResponse.writeHead (node:_http_server:274:11)
+    at ServerResponse.writeHead (C:\Users\anand\Desktop\fundoo-Notes\node_modules\on-headers\index.js:44:26)
+    at ServerResponse._implicitHeader (node:_http_server:265:8)
+    at write_ (node:_http_outgoing:766:9)
+    at ServerResponse.end (node:_http_outgoing:855:5)
+    at ServerResponse.send (C:\Users\anand\Desktop\fundoo-Notes\node_modules\express\lib\response.js:221:10)
+    at ServerResponse.json (C:\Users\anand\Desktop\fundoo-Notes\node_modules\express\lib\response.js:267:15)
+    at appErrorHandler (C:\Users\anand\Desktop\fundoo-Notes\src\middlewares\/error.middleware.js:36:26)
+    at Layer.handle_error (C:\Users\anand\Desktop\fundoo-Notes\node_modules\express\lib\router\layer.js:71:5)
+    at trim_prefix (C:\Users\anand\Desktop\fundoo-Notes\node_modules\express\lib\router\index.js:321:13)
+    at C:\Users\anand\Desktop\fundoo-Notes\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (C:\Users\anand\Desktop\fundoo-Notes\node_modules\express\lib\router\index.js:341:12)
+    at next (C:\Users\anand\Desktop\fundoo-Notes\node_modules\express\lib\router\index.js:275:10)
+    at C:\Users\anand\Desktop\fundoo-Notes\node_modules\express\lib\router\index.js:641:15
+    at next (C:\Users\anand\Desktop\fundoo-Notes\node_modules\express\lib\router\index.js:260:14) 
+    url - /api/v1/users/register 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-03-03T06:30:13.026Z"}
+error: 
+    status - 500 
+    message - ValidationError: Note validation failed: Descreption: Path `Descreption` is required., Title: Path `Title` is required.
+    at model.Document.invalidate (C:\Users\anand\Desktop\fundoo-Notes\node_modules\mongoose\lib\document.js:2782:32)
+    at C:\Users\anand\Desktop\fundoo-Notes\node_modules\mongoose\lib\document.js:2574:17
+    at C:\Users\anand\Desktop\fundoo-Notes\node_modules\mongoose\lib\schematype.js:1273:9
+    at processTicksAndRejections (node:internal/process/task_queues:78:11) 
+    url - /api/v1/note 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-03-03T06:34:14.138Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-03-03T06:37:13.583Z"}
+info: Connected to the database. {"timestamp":"2022-03-03T06:37:13.608Z"}
+error: 
+    status - 500 
+    message - ValidationError: Note validation failed: Descreption: Path `Descreption` is required., Title: Path `Title` is required.
+    at model.Document.invalidate (C:\Users\anand\Desktop\fundoo-Notes\node_modules\mongoose\lib\document.js:2782:32)
+    at C:\Users\anand\Desktop\fundoo-Notes\node_modules\mongoose\lib\document.js:2574:17
+    at C:\Users\anand\Desktop\fundoo-Notes\node_modules\mongoose\lib\schematype.js:1273:9
+    at processTicksAndRejections (node:internal/process/task_queues:78:11) 
+    url - /api/v1/note 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-03-03T06:37:17.610Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-03-03T06:37:45.645Z"}
+info: Connected to the database. {"timestamp":"2022-03-03T06:37:45.675Z"}
+error: 
+    status - 500 
+    message - ValidationError: Note validation failed: Descreption: Path `Descreption` is required., Title: Path `Title` is required.
+    at model.Document.invalidate (C:\Users\anand\Desktop\fundoo-Notes\node_modules\mongoose\lib\document.js:2782:32)
+    at C:\Users\anand\Desktop\fundoo-Notes\node_modules\mongoose\lib\document.js:2574:17
+    at C:\Users\anand\Desktop\fundoo-Notes\node_modules\mongoose\lib\schematype.js:1273:9
+    at processTicksAndRejections (node:internal/process/task_queues:78:11) 
+    url - /api/v1/note 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-03-03T06:37:47.560Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-03-03T06:38:13.649Z"}
+info: Connected to the database. {"timestamp":"2022-03-03T06:38:13.676Z"}
+error: 
+    status - 500 
+    message - ValidationError: Note validation failed: Descreption: Path `Descreption` is required., Title: Path `Title` is required.
+    at model.Document.invalidate (C:\Users\anand\Desktop\fundoo-Notes\node_modules\mongoose\lib\document.js:2782:32)
+    at C:\Users\anand\Desktop\fundoo-Notes\node_modules\mongoose\lib\document.js:2574:17
+    at C:\Users\anand\Desktop\fundoo-Notes\node_modules\mongoose\lib\schematype.js:1273:9
+    at processTicksAndRejections (node:internal/process/task_queues:78:11) 
+    url - /api/v1/note 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-03-03T06:38:17.083Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-03-03T06:39:02.793Z"}
+info: Connected to the database. {"timestamp":"2022-03-03T06:39:02.822Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-03-03T06:41:31.654Z"}
+info: Connected to the database. {"timestamp":"2022-03-03T06:41:31.687Z"}
+error: 
+    status - 500 
+    message - ValidationError: Note validation failed: Descreption: Path `Descreption` is required., Title: Path `Title` is required.
+    at model.Document.invalidate (C:\Users\anand\Desktop\fundoo-Notes\node_modules\mongoose\lib\document.js:2782:32)
+    at C:\Users\anand\Desktop\fundoo-Notes\node_modules\mongoose\lib\document.js:2574:17
+    at C:\Users\anand\Desktop\fundoo-Notes\node_modules\mongoose\lib\schematype.js:1273:9
+    at processTicksAndRejections (node:internal/process/task_queues:78:11) 
+    url - /api/v1/note 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-03-03T06:41:34.714Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-03-03T06:45:07.012Z"}
+info: Connected to the database. {"timestamp":"2022-03-03T06:45:07.038Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-03-03T06:49:59.920Z"}
+info: Connected to the database. {"timestamp":"2022-03-03T06:49:59.946Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-03-03T06:50:34.103Z"}
+info: Connected to the database. {"timestamp":"2022-03-03T06:50:34.131Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-03-03T06:50:39.421Z"}
+info: Connected to the database. {"timestamp":"2022-03-03T06:50:39.448Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-03-03T06:51:23.624Z"}
+info: Connected to the database. {"timestamp":"2022-03-03T06:51:23.650Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-03-03T06:52:02.898Z"}
+info: Connected to the database. {"timestamp":"2022-03-03T06:52:02.977Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-03-03T06:52:17.898Z"}
+info: Connected to the database. {"timestamp":"2022-03-03T06:52:17.926Z"}
+error: 
+    status - 500 
+    message - Error: Can't use $set
+    at ObjectId.SchemaType.castForQuery (C:\Users\anand\Desktop\fundoo-Notes\node_modules\mongoose\lib\schematype.js:1586:13)
+    at ObjectId.SchemaType.castForQueryWrapper (C:\Users\anand\Desktop\fundoo-Notes\node_modules\mongoose\lib\schematype.js:1558:22)
+    at cast (C:\Users\anand\Desktop\fundoo-Notes\node_modules\mongoose\lib\cast.js:311:39)
+    at model.Query.Query.cast (C:\Users\anand\Desktop\fundoo-Notes\node_modules\mongoose\lib\query.js:4937:12)
+    at castQuery (C:\Users\anand\Desktop\fundoo-Notes\node_modules\mongoose\lib\query.js:4738:18)
+    at model.Query.Query._findAndModify (C:\Users\anand\Desktop\fundoo-Notes\node_modules\mongoose\lib\query.js:3598:23)
+    at model.Query.<anonymous> (C:\Users\anand\Desktop\fundoo-Notes\node_modules\mongoose\lib\query.js:3164:8)
+    at model.Query._wrappedThunk [as _findOneAndUpdate] (C:\Users\anand\Desktop\fundoo-Notes\node_modules\mongoose\lib\helpers\query\wrapThunk.js:16:8)
+    at C:\Users\anand\Desktop\fundoo-Notes\node_modules\kareem\index.js:279:20
+    at _next (C:\Users\anand\Desktop\fundoo-Notes\node_modules\kareem\index.js:103:16)
+    at C:\Users\anand\Desktop\fundoo-Notes\node_modules\kareem\index.js:508:38
+    at processTicksAndRejections (node:internal/process/task_queues:78:11) 
+    url - /api/v1/note/archive/62206571f0e8862498d77ee9 
+    method - PUT 
+    IP - ::1
+   {"timestamp":"2022-03-03T06:56:26.912Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-03-03T06:57:15.145Z"}
+info: Connected to the database. {"timestamp":"2022-03-03T06:57:15.166Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-03-03T06:57:37.940Z"}
+info: Connected to the database. {"timestamp":"2022-03-03T06:57:37.966Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-03-03T06:57:49.833Z"}
+info: Connected to the database. {"timestamp":"2022-03-03T06:57:49.865Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-03-03T06:58:08.083Z"}
+info: Connected to the database. {"timestamp":"2022-03-03T06:58:08.109Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-03-03T06:59:23.478Z"}
+info: Connected to the database. {"timestamp":"2022-03-03T06:59:23.501Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-03-03T07:00:41.695Z"}
+info: Connected to the database. {"timestamp":"2022-03-03T07:00:41.720Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-03-03T07:01:04.627Z"}
+info: Connected to the database. {"timestamp":"2022-03-03T07:01:04.660Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-03-03T07:01:30.314Z"}
+info: Connected to the database. {"timestamp":"2022-03-03T07:01:30.353Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-03-03T07:02:22.983Z"}
+info: Connected to the database. {"timestamp":"2022-03-03T07:02:23.009Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-03-03T07:05:44.314Z"}
+info: Connected to the database. {"timestamp":"2022-03-03T07:05:44.339Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-03-03T07:06:07.395Z"}
+info: Connected to the database. {"timestamp":"2022-03-03T07:06:07.424Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-03-03T07:07:58.629Z"}
+info: Connected to the database. {"timestamp":"2022-03-03T07:07:58.653Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-03-03T07:08:10.077Z"}
+info: Connected to the database. {"timestamp":"2022-03-03T07:08:10.101Z"}
+error: 
+    status - 500 
+    message - ReferenceError: body is not defined
+    at _callee6$ (C:\Users\anand\Desktop\fundoo-Notes\src\services\/note.service.js:56:17)
+    at tryCatch (C:\Users\anand\Desktop\fundoo-Notes\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (C:\Users\anand\Desktop\fundoo-Notes\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (C:\Users\anand\Desktop\fundoo-Notes\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (C:\Users\anand\Desktop\fundoo-Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\anand\Desktop\fundoo-Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at C:\Users\anand\Desktop\fundoo-Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at Object.<anonymous> (C:\Users\anand\Desktop\fundoo-Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12)
+    at Object.MakeArchive (C:\Users\anand\Desktop\fundoo-Notes\src\services\/note.service.js:55:25)
+    at _callee6$ (C:\Users\anand\Desktop\fundoo-Notes\src\controllers\/note.controller.js:98:42)
+    at tryCatch (C:\Users\anand\Desktop\fundoo-Notes\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (C:\Users\anand\Desktop\fundoo-Notes\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (C:\Users\anand\Desktop\fundoo-Notes\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (C:\Users\anand\Desktop\fundoo-Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\anand\Desktop\fundoo-Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9) 
+    url - /api/v1/note/archive/62206571f0e8862498d77ee9 
+    method - PUT 
+    IP - ::1
+   {"timestamp":"2022-03-03T07:08:14.758Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-03-03T07:08:28.400Z"}
+info: Connected to the database. {"timestamp":"2022-03-03T07:08:28.423Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-03-03T07:09:09.230Z"}
+info: Connected to the database. {"timestamp":"2022-03-03T07:09:09.261Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-03-03T07:12:30.621Z"}
+info: Connected to the database. {"timestamp":"2022-03-03T07:12:30.644Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-03-03T07:13:11.203Z"}
+info: Connected to the database. {"timestamp":"2022-03-03T07:13:11.228Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-03-03T07:13:23.137Z"}
+info: Connected to the database. {"timestamp":"2022-03-03T07:13:23.168Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-03-03T07:13:52.482Z"}
+info: Connected to the database. {"timestamp":"2022-03-03T07:13:52.507Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-03-03T07:15:04.080Z"}
+info: Connected to the database. {"timestamp":"2022-03-03T07:15:04.106Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-03-03T07:22:00.203Z"}
+info: Connected to the database. {"timestamp":"2022-03-03T07:22:00.234Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-03-03T07:22:39.846Z"}
+info: Connected to the database. {"timestamp":"2022-03-03T07:22:39.878Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-03-03T07:40:21.638Z"}
+info: Connected to the database. {"timestamp":"2022-03-03T07:40:21.695Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-03-03T07:40:27.828Z"}
+info: Connected to the database. {"timestamp":"2022-03-03T07:40:27.858Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-03-03T07:40:38.913Z"}
+info: Connected to the database. {"timestamp":"2022-03-03T07:40:38.964Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read properties of null (reading '1')
+    at firstchar (C:\Users\anand\Desktop\fundoo-Notes\node_modules\body-parser\lib\types\json.js:176:37)
+    at parse (C:\Users\anand\Desktop\fundoo-Notes\node_modules\body-parser\lib\types\json.js:79:19)
+    at C:\Users\anand\Desktop\fundoo-Notes\node_modules\body-parser\lib\read.js:121:18
+    at invokeCallback (C:\Users\anand\Desktop\fundoo-Notes\node_modules\raw-body\index.js:224:16)
+    at done (C:\Users\anand\Desktop\fundoo-Notes\node_modules\raw-body\index.js:213:7)
+    at IncomingMessage.onEnd (C:\Users\anand\Desktop\fundoo-Notes\node_modules\raw-body\index.js:273:7)
+    at IncomingMessage.emit (node:events:402:35)
+    at IncomingMessage.emit (node:domain:475:12)
+    at endReadableNT (node:internal/streams/readable:1343:12)
+    at processTicksAndRejections (node:internal/process/task_queues:83:21) 
+    url - /api/v1/note/archive/62206571f0e8862498d77ee9 
+    method - PUT 
+    IP - ::1
+   {"timestamp":"2022-03-03T07:40:43.460Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read properties of null (reading '1')
+    at firstchar (C:\Users\anand\Desktop\fundoo-Notes\node_modules\body-parser\lib\types\json.js:176:37)
+    at parse (C:\Users\anand\Desktop\fundoo-Notes\node_modules\body-parser\lib\types\json.js:79:19)
+    at C:\Users\anand\Desktop\fundoo-Notes\node_modules\body-parser\lib\read.js:121:18
+    at invokeCallback (C:\Users\anand\Desktop\fundoo-Notes\node_modules\raw-body\index.js:224:16)
+    at done (C:\Users\anand\Desktop\fundoo-Notes\node_modules\raw-body\index.js:213:7)
+    at IncomingMessage.onEnd (C:\Users\anand\Desktop\fundoo-Notes\node_modules\raw-body\index.js:273:7)
+    at IncomingMessage.emit (node:events:402:35)
+    at IncomingMessage.emit (node:domain:475:12)
+    at endReadableNT (node:internal/streams/readable:1343:12)
+    at processTicksAndRejections (node:internal/process/task_queues:83:21) 
+    url - /api/v1/note/archive/62206571f0e8862498d77ee9 
+    method - PUT 
+    IP - ::1
+   {"timestamp":"2022-03-03T07:40:48.043Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-03-03T07:41:14.567Z"}
+info: Connected to the database. {"timestamp":"2022-03-03T07:41:14.600Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read properties of null (reading '1')
+    at firstchar (C:\Users\anand\Desktop\fundoo-Notes\node_modules\body-parser\lib\types\json.js:176:37)
+    at parse (C:\Users\anand\Desktop\fundoo-Notes\node_modules\body-parser\lib\types\json.js:79:19)
+    at C:\Users\anand\Desktop\fundoo-Notes\node_modules\body-parser\lib\read.js:121:18
+    at invokeCallback (C:\Users\anand\Desktop\fundoo-Notes\node_modules\raw-body\index.js:224:16)
+    at done (C:\Users\anand\Desktop\fundoo-Notes\node_modules\raw-body\index.js:213:7)
+    at IncomingMessage.onEnd (C:\Users\anand\Desktop\fundoo-Notes\node_modules\raw-body\index.js:273:7)
+    at IncomingMessage.emit (node:events:402:35)
+    at IncomingMessage.emit (node:domain:475:12)
+    at endReadableNT (node:internal/streams/readable:1343:12)
+    at processTicksAndRejections (node:internal/process/task_queues:83:21) 
+    url - /api/v1/note/archive/62206571f0e8862498d77ee9 
+    method - PUT 
+    IP - ::1
+   {"timestamp":"2022-03-03T07:41:18.950Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-03-03T07:41:48.906Z"}
+info: Connected to the database. {"timestamp":"2022-03-03T07:41:48.932Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-03-03T07:42:08.124Z"}
+info: Connected to the database. {"timestamp":"2022-03-03T07:42:08.165Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-03-03T07:42:18.609Z"}
+info: Connected to the database. {"timestamp":"2022-03-03T07:42:18.637Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read properties of null (reading '1')
+    at firstchar (C:\Users\anand\Desktop\fundoo-Notes\node_modules\body-parser\lib\types\json.js:176:37)
+    at parse (C:\Users\anand\Desktop\fundoo-Notes\node_modules\body-parser\lib\types\json.js:79:19)
+    at C:\Users\anand\Desktop\fundoo-Notes\node_modules\body-parser\lib\read.js:121:18
+    at invokeCallback (C:\Users\anand\Desktop\fundoo-Notes\node_modules\raw-body\index.js:224:16)
+    at done (C:\Users\anand\Desktop\fundoo-Notes\node_modules\raw-body\index.js:213:7)
+    at IncomingMessage.onEnd (C:\Users\anand\Desktop\fundoo-Notes\node_modules\raw-body\index.js:273:7)
+    at IncomingMessage.emit (node:events:402:35)
+    at IncomingMessage.emit (node:domain:475:12)
+    at endReadableNT (node:internal/streams/readable:1343:12)
+    at processTicksAndRejections (node:internal/process/task_queues:83:21) 
+    url - /api/v1/note/archive/62206571f0e8862498d77ee9 
+    method - PUT 
+    IP - ::1
+   {"timestamp":"2022-03-03T07:42:21.822Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-03-03T07:42:36.887Z"}
+info: Connected to the database. {"timestamp":"2022-03-03T07:42:36.915Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-03-03T07:42:50.309Z"}
+info: Connected to the database. {"timestamp":"2022-03-03T07:42:50.338Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-03-03T07:43:34.436Z"}
+info: Connected to the database. {"timestamp":"2022-03-03T07:43:34.467Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read properties of null (reading '1')
+    at firstchar (C:\Users\anand\Desktop\fundoo-Notes\node_modules\body-parser\lib\types\json.js:176:37)
+    at parse (C:\Users\anand\Desktop\fundoo-Notes\node_modules\body-parser\lib\types\json.js:79:19)
+    at C:\Users\anand\Desktop\fundoo-Notes\node_modules\body-parser\lib\read.js:121:18
+    at invokeCallback (C:\Users\anand\Desktop\fundoo-Notes\node_modules\raw-body\index.js:224:16)
+    at done (C:\Users\anand\Desktop\fundoo-Notes\node_modules\raw-body\index.js:213:7)
+    at IncomingMessage.onEnd (C:\Users\anand\Desktop\fundoo-Notes\node_modules\raw-body\index.js:273:7)
+    at IncomingMessage.emit (node:events:402:35)
+    at IncomingMessage.emit (node:domain:475:12)
+    at endReadableNT (node:internal/streams/readable:1343:12)
+    at processTicksAndRejections (node:internal/process/task_queues:83:21) 
+    url - /api/v1/note/archive/62206571f0e8862498d77ee9 
+    method - PUT 
+    IP - ::1
+   {"timestamp":"2022-03-03T07:43:42.414Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read properties of null (reading '1')
+    at firstchar (C:\Users\anand\Desktop\fundoo-Notes\node_modules\body-parser\lib\types\json.js:176:37)
+    at parse (C:\Users\anand\Desktop\fundoo-Notes\node_modules\body-parser\lib\types\json.js:79:19)
+    at C:\Users\anand\Desktop\fundoo-Notes\node_modules\body-parser\lib\read.js:121:18
+    at invokeCallback (C:\Users\anand\Desktop\fundoo-Notes\node_modules\raw-body\index.js:224:16)
+    at done (C:\Users\anand\Desktop\fundoo-Notes\node_modules\raw-body\index.js:213:7)
+    at IncomingMessage.onEnd (C:\Users\anand\Desktop\fundoo-Notes\node_modules\raw-body\index.js:273:7)
+    at IncomingMessage.emit (node:events:402:35)
+    at IncomingMessage.emit (node:domain:475:12)
+    at endReadableNT (node:internal/streams/readable:1343:12)
+    at processTicksAndRejections (node:internal/process/task_queues:83:21) 
+    url - /api/v1/note/archive/62206571f0e8862498d77ee9 
+    method - PUT 
+    IP - ::1
+   {"timestamp":"2022-03-03T07:43:43.433Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read properties of null (reading '1')
+    at firstchar (C:\Users\anand\Desktop\fundoo-Notes\node_modules\body-parser\lib\types\json.js:176:37)
+    at parse (C:\Users\anand\Desktop\fundoo-Notes\node_modules\body-parser\lib\types\json.js:79:19)
+    at C:\Users\anand\Desktop\fundoo-Notes\node_modules\body-parser\lib\read.js:121:18
+    at invokeCallback (C:\Users\anand\Desktop\fundoo-Notes\node_modules\raw-body\index.js:224:16)
+    at done (C:\Users\anand\Desktop\fundoo-Notes\node_modules\raw-body\index.js:213:7)
+    at IncomingMessage.onEnd (C:\Users\anand\Desktop\fundoo-Notes\node_modules\raw-body\index.js:273:7)
+    at IncomingMessage.emit (node:events:402:35)
+    at IncomingMessage.emit (node:domain:475:12)
+    at endReadableNT (node:internal/streams/readable:1343:12)
+    at processTicksAndRejections (node:internal/process/task_queues:83:21) 
+    url - /api/v1/note/archive/62206571f0e8862498d77ee9 
+    method - PUT 
+    IP - ::1
+   {"timestamp":"2022-03-03T07:43:44.347Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-03-03T07:44:05.122Z"}
+info: Connected to the database. {"timestamp":"2022-03-03T07:44:05.150Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read properties of null (reading '1')
+    at firstchar (C:\Users\anand\Desktop\fundoo-Notes\node_modules\body-parser\lib\types\json.js:176:37)
+    at parse (C:\Users\anand\Desktop\fundoo-Notes\node_modules\body-parser\lib\types\json.js:79:19)
+    at C:\Users\anand\Desktop\fundoo-Notes\node_modules\body-parser\lib\read.js:121:18
+    at invokeCallback (C:\Users\anand\Desktop\fundoo-Notes\node_modules\raw-body\index.js:224:16)
+    at done (C:\Users\anand\Desktop\fundoo-Notes\node_modules\raw-body\index.js:213:7)
+    at IncomingMessage.onEnd (C:\Users\anand\Desktop\fundoo-Notes\node_modules\raw-body\index.js:273:7)
+    at IncomingMessage.emit (node:events:402:35)
+    at IncomingMessage.emit (node:domain:475:12)
+    at endReadableNT (node:internal/streams/readable:1343:12)
+    at processTicksAndRejections (node:internal/process/task_queues:83:21) 
+    url - /api/v1/note/archive/62206571f0e8862498d77ee9 
+    method - PUT 
+    IP - ::1
+   {"timestamp":"2022-03-03T07:44:36.019Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-03-03T07:45:11.338Z"}
+info: Connected to the database. {"timestamp":"2022-03-03T07:45:11.372Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-03-03T07:45:22.047Z"}
+info: Connected to the database. {"timestamp":"2022-03-03T07:45:22.073Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-03-03T07:45:34.079Z"}
+info: Connected to the database. {"timestamp":"2022-03-03T07:45:34.118Z"}
+error: uncaughtException: C:\Users\anand\Desktop\fundoo-Notes\src\services\note.service.js: Unexpected token, expected "," (59:22)
+
+[0m [90m 57 |[39m     [36mconst[39m [33mSendingItToArchieve[39m [33m=[39m [36mawait[39m [33mNote[39m[33m.[39mfindByIdAndUpdate({_id} [33m,[39m[0m
+[0m [90m 58 |[39m       {[0m
+[0m[31m[1m>[22m[39m[90m 59 |[39m           $set [33m:[39m {body[33m.[39misArchived [33m:[39m[36mtrue[39m}[0m
+[0m [90m    |[39m                       [31m[1m^[22m[39m[0m
+[0m [90m 60 |[39m       }  [0m
+[0m [90m 61 |[39m     )[33m;[39m[0m
+[0m [90m 62 |[39m     [36mreturn[39m [33mSendingItToArchieve[39m [33m;[39m[0m
+SyntaxError: C:\Users\anand\Desktop\fundoo-Notes\src\services\note.service.js: Unexpected token, expected "," (59:22)
+
+[0m [90m 57 |[39m     [36mconst[39m [33mSendingItToArchieve[39m [33m=[39m [36mawait[39m [33mNote[39m[33m.[39mfindByIdAndUpdate({_id} [33m,[39m[0m
+[0m [90m 58 |[39m       {[0m
+[0m[31m[1m>[22m[39m[90m 59 |[39m           $set [33m:[39m {body[33m.[39misArchived [33m:[39m[36mtrue[39m}[0m
+[0m [90m    |[39m                       [31m[1m^[22m[39m[0m
+[0m [90m 60 |[39m       }  [0m
+[0m [90m 61 |[39m     )[33m;[39m[0m
+[0m [90m 62 |[39m     [36mreturn[39m [33mSendingItToArchieve[39m [33m;[39m[0m
+    at Parser._raise (C:\Users\anand\Desktop\fundoo-Notes\node_modules\@babel\parser\src\parser\error.js:150:45)
+    at Parser.raiseWithData (C:\Users\anand\Desktop\fundoo-Notes\node_modules\@babel\parser\src\parser\error.js:145:17)
+    at Parser.raise (C:\Users\anand\Desktop\fundoo-Notes\node_modules\@babel\parser\src\parser\error.js:89:17)
+    at Parser.unexpected (C:\Users\anand\Desktop\fundoo-Notes\node_modules\@babel\parser\src\parser\util.js:174:16)
+    at Parser.expect (C:\Users\anand\Desktop\fundoo-Notes\node_modules\@babel\parser\src\parser\util.js:150:28)
+    at Parser.parseObjectLike (C:\Users\anand\Desktop\fundoo-Notes\node_modules\@babel\parser\src\parser\expression.js:1947:14)
+    at Parser.parseExprAtom (C:\Users\anand\Desktop\fundoo-Notes\node_modules\@babel\parser\src\parser\expression.js:1150:21)
+    at Parser.parseExprSubscripts (C:\Users\anand\Desktop\fundoo-Notes\node_modules\@babel\parser\src\parser\expression.js:682:23)
+    at Parser.parseUpdate (C:\Users\anand\Desktop\fundoo-Notes\node_modules\@babel\parser\src\parser\expression.js:662:21)
+    at Parser.parseMaybeUnary (C:\Users\anand\Desktop\fundoo-Notes\node_modules\@babel\parser\src\parser\expression.js:633:23)
+    at Parser.parseMaybeUnaryOrPrivate (C:\Users\anand\Desktop\fundoo-Notes\node_modules\@babel\parser\src\parser\expression.js:388:14)
+    at Parser.parseExprOps (C:\Users\anand\Desktop\fundoo-Notes\node_modules\@babel\parser\src\parser\expression.js:398:23)
+    at Parser.parseMaybeConditional (C:\Users\anand\Desktop\fundoo-Notes\node_modules\@babel\parser\src\parser\expression.js:356:23)
+    at Parser.parseMaybeAssign (C:\Users\anand\Desktop\fundoo-Notes\node_modules\@babel\parser\src\parser\expression.js:303:21)
+    at callback (C:\Users\anand\Desktop\fundoo-Notes\node_modules\@babel\parser\src\parser\expression.js:257:12)
+    at Parser.allowInAnd (C:\Users\anand\Desktop\fundoo-Notes\node_modules\@babel\parser\src\parser\expression.js:2963:12) {"date":"Thu Mar 03 2022 13:15:45 GMT+0530 (India Standard Time)","error":{"code":"BABEL_PARSE_ERROR","loc":{"column":22,"index":1250,"line":59},"pos":1250,"reasonCode":"UnexpectedToken"},"exception":true,"os":{"loadavg":[0,0,0],"uptime":80783},"process":{"argv":["node","C:\\Users\\anand\\Desktop\\fundoo-Notes\\src\\index.js"],"cwd":"C:\\Users\\anand\\Desktop\\fundoo-Notes","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18294994,"external":26961470,"heapTotal":134934528,"heapUsed":112720032,"rss":173092864},"pid":13908,"uid":null,"version":"v16.13.2"},"stack":"SyntaxError: C:\\Users\\anand\\Desktop\\fundoo-Notes\\src\\services\\note.service.js: Unexpected token, expected \",\" (59:22)\n\n\u001b[0m \u001b[90m 57 |\u001b[39m     \u001b[36mconst\u001b[39m \u001b[33mSendingItToArchieve\u001b[39m \u001b[33m=\u001b[39m \u001b[36mawait\u001b[39m \u001b[33mNote\u001b[39m\u001b[33m.\u001b[39mfindByIdAndUpdate({_id} \u001b[33m,\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 58 |\u001b[39m       {\u001b[0m\n\u001b[0m\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 59 |\u001b[39m           $set \u001b[33m:\u001b[39m {body\u001b[33m.\u001b[39misArchived \u001b[33m:\u001b[39m\u001b[36mtrue\u001b[39m}\u001b[0m\n\u001b[0m \u001b[90m    |\u001b[39m                       \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 60 |\u001b[39m       }  \u001b[0m\n\u001b[0m \u001b[90m 61 |\u001b[39m     )\u001b[33m;\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 62 |\u001b[39m     \u001b[36mreturn\u001b[39m \u001b[33mSendingItToArchieve\u001b[39m \u001b[33m;\u001b[39m\u001b[0m\n    at Parser._raise (C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\@babel\\parser\\src\\parser\\error.js:150:45)\n    at Parser.raiseWithData (C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\@babel\\parser\\src\\parser\\error.js:145:17)\n    at Parser.raise (C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\@babel\\parser\\src\\parser\\error.js:89:17)\n    at Parser.unexpected (C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\@babel\\parser\\src\\parser\\util.js:174:16)\n    at Parser.expect (C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\@babel\\parser\\src\\parser\\util.js:150:28)\n    at Parser.parseObjectLike (C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\@babel\\parser\\src\\parser\\expression.js:1947:14)\n    at Parser.parseExprAtom (C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\@babel\\parser\\src\\parser\\expression.js:1150:21)\n    at Parser.parseExprSubscripts (C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\@babel\\parser\\src\\parser\\expression.js:682:23)\n    at Parser.parseUpdate (C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\@babel\\parser\\src\\parser\\expression.js:662:21)\n    at Parser.parseMaybeUnary (C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\@babel\\parser\\src\\parser\\expression.js:633:23)\n    at Parser.parseMaybeUnaryOrPrivate (C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\@babel\\parser\\src\\parser\\expression.js:388:14)\n    at Parser.parseExprOps (C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\@babel\\parser\\src\\parser\\expression.js:398:23)\n    at Parser.parseMaybeConditional (C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\@babel\\parser\\src\\parser\\expression.js:356:23)\n    at Parser.parseMaybeAssign (C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\@babel\\parser\\src\\parser\\expression.js:303:21)\n    at callback (C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\@babel\\parser\\src\\parser\\expression.js:257:12)\n    at Parser.allowInAnd (C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\@babel\\parser\\src\\parser\\expression.js:2963:12)","timestamp":"2022-03-03T07:45:45.107Z","trace":[{"column":45,"file":"C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\@babel\\parser\\src\\parser\\error.js","function":"Parser._raise","line":150,"method":"_raise","native":false},{"column":17,"file":"C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\@babel\\parser\\src\\parser\\error.js","function":"Parser.raiseWithData","line":145,"method":"raiseWithData","native":false},{"column":17,"file":"C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\@babel\\parser\\src\\parser\\error.js","function":"Parser.raise","line":89,"method":"raise","native":false},{"column":16,"file":"C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\@babel\\parser\\src\\parser\\util.js","function":"Parser.unexpected","line":174,"method":"unexpected","native":false},{"column":28,"file":"C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\@babel\\parser\\src\\parser\\util.js","function":"Parser.expect","line":150,"method":"expect","native":false},{"column":14,"file":"C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\@babel\\parser\\src\\parser\\expression.js","function":"Parser.parseObjectLike","line":1947,"method":"parseObjectLike","native":false},{"column":21,"file":"C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\@babel\\parser\\src\\parser\\expression.js","function":"Parser.parseExprAtom","line":1150,"method":"parseExprAtom","native":false},{"column":23,"file":"C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\@babel\\parser\\src\\parser\\expression.js","function":"Parser.parseExprSubscripts","line":682,"method":"parseExprSubscripts","native":false},{"column":21,"file":"C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\@babel\\parser\\src\\parser\\expression.js","function":"Parser.parseUpdate","line":662,"method":"parseUpdate","native":false},{"column":23,"file":"C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\@babel\\parser\\src\\parser\\expression.js","function":"Parser.parseMaybeUnary","line":633,"method":"parseMaybeUnary","native":false},{"column":14,"file":"C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\@babel\\parser\\src\\parser\\expression.js","function":"Parser.parseMaybeUnaryOrPrivate","line":388,"method":"parseMaybeUnaryOrPrivate","native":false},{"column":23,"file":"C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\@babel\\parser\\src\\parser\\expression.js","function":"Parser.parseExprOps","line":398,"method":"parseExprOps","native":false},{"column":23,"file":"C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\@babel\\parser\\src\\parser\\expression.js","function":"Parser.parseMaybeConditional","line":356,"method":"parseMaybeConditional","native":false},{"column":21,"file":"C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\@babel\\parser\\src\\parser\\expression.js","function":"Parser.parseMaybeAssign","line":303,"method":"parseMaybeAssign","native":false},{"column":12,"file":"C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\@babel\\parser\\src\\parser\\expression.js","function":"callback","line":257,"method":null,"native":false},{"column":12,"file":"C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\@babel\\parser\\src\\parser\\expression.js","function":"Parser.allowInAnd","line":2963,"method":"allowInAnd","native":false}]}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-03-03T07:46:07.518Z"}
+info: Connected to the database. {"timestamp":"2022-03-03T07:46:07.552Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read properties of null (reading '1')
+    at firstchar (C:\Users\anand\Desktop\fundoo-Notes\node_modules\body-parser\lib\types\json.js:176:37)
+    at parse (C:\Users\anand\Desktop\fundoo-Notes\node_modules\body-parser\lib\types\json.js:79:19)
+    at C:\Users\anand\Desktop\fundoo-Notes\node_modules\body-parser\lib\read.js:121:18
+    at invokeCallback (C:\Users\anand\Desktop\fundoo-Notes\node_modules\raw-body\index.js:224:16)
+    at done (C:\Users\anand\Desktop\fundoo-Notes\node_modules\raw-body\index.js:213:7)
+    at IncomingMessage.onEnd (C:\Users\anand\Desktop\fundoo-Notes\node_modules\raw-body\index.js:273:7)
+    at IncomingMessage.emit (node:events:402:35)
+    at IncomingMessage.emit (node:domain:475:12)
+    at endReadableNT (node:internal/streams/readable:1343:12)
+    at processTicksAndRejections (node:internal/process/task_queues:83:21) 
+    url - /api/v1/note/archive/62206571f0e8862498d77ee9 
+    method - PUT 
+    IP - ::1
+   {"timestamp":"2022-03-03T07:46:10.298Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-03-03T08:28:14.125Z"}
+info: Connected to the database. {"timestamp":"2022-03-03T08:28:14.152Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-03-03T08:29:16.448Z"}
+info: Connected to the database. {"timestamp":"2022-03-03T08:29:16.471Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-03-03T08:29:40.608Z"}
+info: Connected to the database. {"timestamp":"2022-03-03T08:29:40.641Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-03-03T08:30:03.843Z"}
+info: Connected to the database. {"timestamp":"2022-03-03T08:30:03.869Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-03-03T08:31:37.318Z"}
+info: Connected to the database. {"timestamp":"2022-03-03T08:31:37.349Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-03-03T08:31:54.607Z"}
+info: Connected to the database. {"timestamp":"2022-03-03T08:31:54.633Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-03-03T08:32:44.435Z"}
+info: Connected to the database. {"timestamp":"2022-03-03T08:32:44.469Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-03-03T08:33:11.528Z"}
+info: Connected to the database. {"timestamp":"2022-03-03T08:33:11.555Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-03-03T08:33:18.624Z"}
+info: Connected to the database. {"timestamp":"2022-03-03T08:33:18.648Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-03-03T08:36:37.962Z"}
+info: Connected to the database. {"timestamp":"2022-03-03T08:36:37.993Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-03-03T08:36:55.190Z"}
+info: Connected to the database. {"timestamp":"2022-03-03T08:36:55.211Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-03-03T08:36:59.564Z"}
+info: Connected to the database. {"timestamp":"2022-03-03T08:36:59.588Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-03-03T08:37:09.227Z"}
+info: Connected to the database. {"timestamp":"2022-03-03T08:37:09.258Z"}
+info: undefined {"accepted":["shelarswapnil@gmail.com"],"envelope":{"from":"","to":["shelarswapnil@gmail.com"]},"envelopeTime":1365,"messageId":"<a5ed663d-7d41-5474-af12-1c5b7ff15edb@LAPTOP>","messageSize":552,"messageTime":1195,"rejected":[],"response":"250 2.0.0 OK  1646296548 x15-20020a056e02194f00b002c609855ea5sm897594ilu.34 - gsmtp","timestamp":"2022-03-03T08:38:13.321Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-03-03T08:39:47.038Z"}
+info: Connected to the database. {"timestamp":"2022-03-03T08:39:47.060Z"}
+error: 
+      status - 400
+      message - Authorization token is incorrect 
+      url - /api/v1/users/reset 
+      method - PUT 
+      IP - ::1
+     {"timestamp":"2022-03-03T08:41:04.126Z"}
+info: undefined {"accepted":["shelarswapnil@gmail.com"],"envelope":{"from":"","to":["shelarswapnil@gmail.com"]},"envelopeTime":986,"messageId":"<d91cfd85-7185-23ea-fc05-5543ad18bea9@LAPTOP>","messageSize":552,"messageTime":769,"rejected":[],"response":"250 2.0.0 OK  1646296777 t15-20020a92dc0f000000b002c2258e154fsm1441962iln.1 - gsmtp","timestamp":"2022-03-03T08:42:02.364Z"}
+info: undefined {"accepted":["shelarswapnil@gmail.com"],"envelope":{"from":"","to":["shelarswapnil@gmail.com"]},"envelopeTime":959,"messageId":"<05b01895-b057-e109-fe17-0b15d604fc0b@LAPTOP>","messageSize":552,"messageTime":723,"rejected":[],"response":"250 2.0.0 OK  1646296779 r9-20020a056e0219c900b002c5ffafa701sm1448089ill.79 - gsmtp","timestamp":"2022-03-03T08:42:04.522Z"}
+error: 
+      status - 400
+      message - Authorization token is incorrect 
+      url - /api/v1/users/reset 
+      method - PUT 
+      IP - ::1
+     {"timestamp":"2022-03-03T08:43:38.288Z"}
+error: 
+    status - 500 
+    message - Error: password does not match
+    at _callee3$ (C:\Users\anand\Desktop\fundoo-Notes\src\services\/user.service.js:36:12)
+    at tryCatch (C:\Users\anand\Desktop\fundoo-Notes\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (C:\Users\anand\Desktop\fundoo-Notes\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (C:\Users\anand\Desktop\fundoo-Notes\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (C:\Users\anand\Desktop\fundoo-Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\anand\Desktop\fundoo-Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/users/login 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-03-03T08:45:35.155Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-03-03T08:47:31.677Z"}
+info: Connected to the database. {"timestamp":"2022-03-03T08:47:31.704Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-03-03T08:55:05.358Z"}
+info: Connected to the database. {"timestamp":"2022-03-03T08:55:05.384Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-03-03T09:04:54.566Z"}
+info: Connected to the database. {"timestamp":"2022-03-03T09:04:54.586Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-03-03T09:10:43.150Z"}
+info: Connected to the database. {"timestamp":"2022-03-03T09:10:43.174Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-03-03T09:23:32.036Z"}
+info: Connected to the database. {"timestamp":"2022-03-03T09:23:40.362Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-03-03T09:34:41.727Z"}
+error: uncaughtException: Cannot read properties of undefined (reading 'statusCode')
+TypeError: Cannot read properties of undefined (reading 'statusCode')
+    at Test.<anonymous> (C:\Users\anand\Desktop\fundoo-Notes\tests\integration\/user.test.js:47:22)
+    at Test.assert (C:\Users\anand\Desktop\fundoo-Notes\node_modules\supertest\lib\test.js:181:6)
+    at Server.localAssert (C:\Users\anand\Desktop\fundoo-Notes\node_modules\supertest\lib\test.js:131:12)
+    at Object.onceWrapper (node:events:509:28)
+    at Server.emit (node:events:390:28)
+    at emitCloseNT (node:net:1681:8)
+    at processTicksAndRejections (node:internal/process/task_queues:82:21) {"date":"Thu Mar 03 2022 15:04:46 GMT+0530 (India Standard Time)","error":{},"exception":true,"os":{"loadavg":[0,0,0],"uptime":87325},"process":{"argv":["C:\\Program Files\\nodejs\\node.exe","C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\mocha\\bin\\mocha","--exit","--recursive","--require","@babel/register","--timeout=5000","tests/**/*.js"],"cwd":"C:\\Users\\anand\\Desktop\\fundoo-Notes","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18336685,"external":21755593,"heapTotal":156794880,"heapUsed":125423384,"rss":190038016},"pid":700,"uid":null,"version":"v16.13.2"},"stack":"TypeError: Cannot read properties of undefined (reading 'statusCode')\n    at Test.<anonymous> (C:\\Users\\anand\\Desktop\\fundoo-Notes\\tests\\integration\\/user.test.js:47:22)\n    at Test.assert (C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\supertest\\lib\\test.js:181:6)\n    at Server.localAssert (C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\supertest\\lib\\test.js:131:12)\n    at Object.onceWrapper (node:events:509:28)\n    at Server.emit (node:events:390:28)\n    at emitCloseNT (node:net:1681:8)\n    at processTicksAndRejections (node:internal/process/task_queues:82:21)","timestamp":"2022-03-03T09:34:46.791Z","trace":[{"column":22,"file":"C:\\Users\\anand\\Desktop\\fundoo-Notes\\tests\\integration\\/user.test.js","function":null,"line":47,"method":null,"native":false},{"column":6,"file":"C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\supertest\\lib\\test.js","function":"Test.assert","line":181,"method":"assert","native":false},{"column":12,"file":"C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\supertest\\lib\\test.js","function":"Server.localAssert","line":131,"method":"localAssert","native":false},{"column":28,"file":"node:events","function":"Object.onceWrapper","line":509,"method":"onceWrapper","native":false},{"column":28,"file":"node:events","function":"Server.emit","line":390,"method":"emit","native":false},{"column":8,"file":"node:net","function":"emitCloseNT","line":1681,"method":null,"native":false},{"column":21,"file":"node:internal/process/task_queues","function":"processTicksAndRejections","line":82,"method":null,"native":false}]}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-03-03T09:35:34.651Z"}
+error: uncaughtException: Cannot read properties of undefined (reading 'statusCode')
+TypeError: Cannot read properties of undefined (reading 'statusCode')
+    at Test.<anonymous> (C:\Users\anand\Desktop\fundoo-Notes\tests\integration\/user.test.js:47:22)
+    at Test.assert (C:\Users\anand\Desktop\fundoo-Notes\node_modules\supertest\lib\test.js:181:6)
+    at Server.localAssert (C:\Users\anand\Desktop\fundoo-Notes\node_modules\supertest\lib\test.js:131:12)
+    at Object.onceWrapper (node:events:509:28)
+    at Server.emit (node:events:390:28)
+    at emitCloseNT (node:net:1681:8)
+    at processTicksAndRejections (node:internal/process/task_queues:82:21) {"date":"Thu Mar 03 2022 15:05:39 GMT+0530 (India Standard Time)","error":{},"exception":true,"os":{"loadavg":[0,0,0],"uptime":87378},"process":{"argv":["C:\\Program Files\\nodejs\\node.exe","C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\mocha\\bin\\mocha","--exit","--recursive","--require","@babel/register","--timeout=5000","tests/**/*.js"],"cwd":"C:\\Users\\anand\\Desktop\\fundoo-Notes","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18336685,"external":21755593,"heapTotal":157442048,"heapUsed":127666264,"rss":191942656},"pid":12720,"uid":null,"version":"v16.13.2"},"stack":"TypeError: Cannot read properties of undefined (reading 'statusCode')\n    at Test.<anonymous> (C:\\Users\\anand\\Desktop\\fundoo-Notes\\tests\\integration\\/user.test.js:47:22)\n    at Test.assert (C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\supertest\\lib\\test.js:181:6)\n    at Server.localAssert (C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\supertest\\lib\\test.js:131:12)\n    at Object.onceWrapper (node:events:509:28)\n    at Server.emit (node:events:390:28)\n    at emitCloseNT (node:net:1681:8)\n    at processTicksAndRejections (node:internal/process/task_queues:82:21)","timestamp":"2022-03-03T09:35:39.735Z","trace":[{"column":22,"file":"C:\\Users\\anand\\Desktop\\fundoo-Notes\\tests\\integration\\/user.test.js","function":null,"line":47,"method":null,"native":false},{"column":6,"file":"C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\supertest\\lib\\test.js","function":"Test.assert","line":181,"method":"assert","native":false},{"column":12,"file":"C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\supertest\\lib\\test.js","function":"Server.localAssert","line":131,"method":"localAssert","native":false},{"column":28,"file":"node:events","function":"Object.onceWrapper","line":509,"method":"onceWrapper","native":false},{"column":28,"file":"node:events","function":"Server.emit","line":390,"method":"emit","native":false},{"column":8,"file":"node:net","function":"emitCloseNT","line":1681,"method":null,"native":false},{"column":21,"file":"node:internal/process/task_queues","function":"processTicksAndRejections","line":82,"method":null,"native":false}]}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-03-03T09:36:13.451Z"}
+error: uncaughtException: Cannot read properties of undefined (reading 'statusCode')
+TypeError: Cannot read properties of undefined (reading 'statusCode')
+    at Test.<anonymous> (C:\Users\anand\Desktop\fundoo-Notes\tests\integration\/user.test.js:34:22)
+    at Test.assert (C:\Users\anand\Desktop\fundoo-Notes\node_modules\supertest\lib\test.js:181:6)
+    at Server.localAssert (C:\Users\anand\Desktop\fundoo-Notes\node_modules\supertest\lib\test.js:131:12)
+    at Object.onceWrapper (node:events:509:28)
+    at Server.emit (node:events:390:28)
+    at emitCloseNT (node:net:1681:8)
+    at processTicksAndRejections (node:internal/process/task_queues:82:21) {"date":"Thu Mar 03 2022 15:06:13 GMT+0530 (India Standard Time)","error":{},"exception":true,"os":{"loadavg":[0,0,0],"uptime":87411},"process":{"argv":["C:\\Program Files\\nodejs\\node.exe","C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\mocha\\bin\\mocha","--exit","--recursive","--require","@babel/register","--timeout=5000","tests/**/*.js"],"cwd":"C:\\Users\\anand\\Desktop\\fundoo-Notes","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18358912,"external":21729330,"heapTotal":156917760,"heapUsed":129186248,"rss":189345792},"pid":16760,"uid":null,"version":"v16.13.2"},"stack":"TypeError: Cannot read properties of undefined (reading 'statusCode')\n    at Test.<anonymous> (C:\\Users\\anand\\Desktop\\fundoo-Notes\\tests\\integration\\/user.test.js:34:22)\n    at Test.assert (C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\supertest\\lib\\test.js:181:6)\n    at Server.localAssert (C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\supertest\\lib\\test.js:131:12)\n    at Object.onceWrapper (node:events:509:28)\n    at Server.emit (node:events:390:28)\n    at emitCloseNT (node:net:1681:8)\n    at processTicksAndRejections (node:internal/process/task_queues:82:21)","timestamp":"2022-03-03T09:36:13.488Z","trace":[{"column":22,"file":"C:\\Users\\anand\\Desktop\\fundoo-Notes\\tests\\integration\\/user.test.js","function":null,"line":34,"method":null,"native":false},{"column":6,"file":"C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\supertest\\lib\\test.js","function":"Test.assert","line":181,"method":"assert","native":false},{"column":12,"file":"C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\supertest\\lib\\test.js","function":"Server.localAssert","line":131,"method":"localAssert","native":false},{"column":28,"file":"node:events","function":"Object.onceWrapper","line":509,"method":"onceWrapper","native":false},{"column":28,"file":"node:events","function":"Server.emit","line":390,"method":"emit","native":false},{"column":8,"file":"node:net","function":"emitCloseNT","line":1681,"method":null,"native":false},{"column":21,"file":"node:internal/process/task_queues","function":"processTicksAndRejections","line":82,"method":null,"native":false}]}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-03-03T09:36:45.524Z"}
+error: uncaughtException: expected 404 to equal 200
+AssertionError: expected 404 to equal 200
+    at Test.<anonymous> (C:\Users\anand\Desktop\fundoo-Notes\tests\integration\/user.test.js:34:40)
+    at Test.assert (C:\Users\anand\Desktop\fundoo-Notes\node_modules\supertest\lib\test.js:181:6)
+    at Server.localAssert (C:\Users\anand\Desktop\fundoo-Notes\node_modules\supertest\lib\test.js:131:12)
+    at Object.onceWrapper (node:events:509:28)
+    at Server.emit (node:events:390:28)
+    at emitCloseNT (node:net:1681:8)
+    at processTicksAndRejections (node:internal/process/task_queues:82:21) {"date":"Thu Mar 03 2022 15:06:45 GMT+0530 (India Standard Time)","error":{"actual":404,"expected":200,"message":"expected 404 to equal 200","name":"AssertionError","operator":"strictEqual","showDiff":true,"stack":"AssertionError: expected 404 to equal 200\n    at Test.<anonymous> (C:\\Users\\anand\\Desktop\\fundoo-Notes\\tests\\integration\\/user.test.js:34:40)\n    at Test.assert (C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\supertest\\lib\\test.js:181:6)\n    at Server.localAssert (C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\supertest\\lib\\test.js:131:12)\n    at Object.onceWrapper (node:events:509:28)\n    at Server.emit (node:events:390:28)\n    at emitCloseNT (node:net:1681:8)\n    at processTicksAndRejections (node:internal/process/task_queues:82:21)"},"exception":true,"os":{"loadavg":[0,0,0],"uptime":87444},"process":{"argv":["C:\\Program Files\\nodejs\\node.exe","C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\mocha\\bin\\mocha","--exit","--recursive","--require","@babel/register","--timeout=5000","tests/**/*.js"],"cwd":"C:\\Users\\anand\\Desktop\\fundoo-Notes","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18446758,"external":21817176,"heapTotal":157179904,"heapUsed":130353688,"rss":190107648},"pid":12968,"uid":null,"version":"v16.13.2"},"stack":"AssertionError: expected 404 to equal 200\n    at Test.<anonymous> (C:\\Users\\anand\\Desktop\\fundoo-Notes\\tests\\integration\\/user.test.js:34:40)\n    at Test.assert (C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\supertest\\lib\\test.js:181:6)\n    at Server.localAssert (C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\supertest\\lib\\test.js:131:12)\n    at Object.onceWrapper (node:events:509:28)\n    at Server.emit (node:events:390:28)\n    at emitCloseNT (node:net:1681:8)\n    at processTicksAndRejections (node:internal/process/task_queues:82:21)","timestamp":"2022-03-03T09:36:45.606Z","trace":[{"column":40,"file":"C:\\Users\\anand\\Desktop\\fundoo-Notes\\tests\\integration\\/user.test.js","function":null,"line":34,"method":null,"native":false},{"column":6,"file":"C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\supertest\\lib\\test.js","function":"Test.assert","line":181,"method":"assert","native":false},{"column":12,"file":"C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\supertest\\lib\\test.js","function":"Server.localAssert","line":131,"method":"localAssert","native":false},{"column":28,"file":"node:events","function":"Object.onceWrapper","line":509,"method":"onceWrapper","native":false},{"column":28,"file":"node:events","function":"Server.emit","line":390,"method":"emit","native":false},{"column":8,"file":"node:net","function":"emitCloseNT","line":1681,"method":null,"native":false},{"column":21,"file":"node:internal/process/task_queues","function":"processTicksAndRejections","line":82,"method":null,"native":false}]}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-03-03T09:37:53.016Z"}
+info: Connected to the database. {"timestamp":"2022-03-03T09:38:01.212Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-03-03T09:45:17.838Z"}
+info: Connected to the database. {"timestamp":"2022-03-03T09:45:25.804Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-03-03T10:17:49.599Z"}
+info: Connected to the database. {"timestamp":"2022-03-03T10:17:49.626Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read properties of null (reading '1')
+    at firstchar (C:\Users\anand\Desktop\fundoo-Notes\node_modules\body-parser\lib\types\json.js:176:37)
+    at parse (C:\Users\anand\Desktop\fundoo-Notes\node_modules\body-parser\lib\types\json.js:79:19)
+    at C:\Users\anand\Desktop\fundoo-Notes\node_modules\body-parser\lib\read.js:121:18
+    at invokeCallback (C:\Users\anand\Desktop\fundoo-Notes\node_modules\raw-body\index.js:224:16)
+    at done (C:\Users\anand\Desktop\fundoo-Notes\node_modules\raw-body\index.js:213:7)
+    at IncomingMessage.onEnd (C:\Users\anand\Desktop\fundoo-Notes\node_modules\raw-body\index.js:273:7)
+    at IncomingMessage.emit (node:events:402:35)
+    at IncomingMessage.emit (node:domain:475:12)
+    at endReadableNT (node:internal/streams/readable:1343:12)
+    at processTicksAndRejections (node:internal/process/task_queues:83:21) 
+    url - /api/v1/note/archive/62206571f0e8862498d77ee9 
+    method - PUT 
+    IP - ::1
+   {"timestamp":"2022-03-03T10:17:59.951Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read properties of null (reading '1')
+    at firstchar (C:\Users\anand\Desktop\fundoo-Notes\node_modules\body-parser\lib\types\json.js:176:37)
+    at parse (C:\Users\anand\Desktop\fundoo-Notes\node_modules\body-parser\lib\types\json.js:79:19)
+    at C:\Users\anand\Desktop\fundoo-Notes\node_modules\body-parser\lib\read.js:121:18
+    at invokeCallback (C:\Users\anand\Desktop\fundoo-Notes\node_modules\raw-body\index.js:224:16)
+    at done (C:\Users\anand\Desktop\fundoo-Notes\node_modules\raw-body\index.js:213:7)
+    at IncomingMessage.onEnd (C:\Users\anand\Desktop\fundoo-Notes\node_modules\raw-body\index.js:273:7)
+    at IncomingMessage.emit (node:events:402:35)
+    at IncomingMessage.emit (node:domain:475:12)
+    at endReadableNT (node:internal/streams/readable:1343:12)
+    at processTicksAndRejections (node:internal/process/task_queues:83:21) 
+    url - /api/v1/note/archive/62206571f0e8862498d77ee9 
+    method - PUT 
+    IP - ::1
+   {"timestamp":"2022-03-03T10:18:01.312Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-03-03T10:18:24.783Z"}
+info: Connected to the database. {"timestamp":"2022-03-03T10:18:24.808Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read properties of null (reading '1')
+    at firstchar (C:\Users\anand\Desktop\fundoo-Notes\node_modules\body-parser\lib\types\json.js:176:37)
+    at parse (C:\Users\anand\Desktop\fundoo-Notes\node_modules\body-parser\lib\types\json.js:79:19)
+    at C:\Users\anand\Desktop\fundoo-Notes\node_modules\body-parser\lib\read.js:121:18
+    at invokeCallback (C:\Users\anand\Desktop\fundoo-Notes\node_modules\raw-body\index.js:224:16)
+    at done (C:\Users\anand\Desktop\fundoo-Notes\node_modules\raw-body\index.js:213:7)
+    at IncomingMessage.onEnd (C:\Users\anand\Desktop\fundoo-Notes\node_modules\raw-body\index.js:273:7)
+    at IncomingMessage.emit (node:events:402:35)
+    at IncomingMessage.emit (node:domain:475:12)
+    at endReadableNT (node:internal/streams/readable:1343:12)
+    at processTicksAndRejections (node:internal/process/task_queues:83:21) 
+    url - /api/v1/note/archive/62206571f0e8862498d77ee9 
+    method - PUT 
+    IP - ::1
+   {"timestamp":"2022-03-03T10:18:26.764Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-03-03T10:18:53.101Z"}
+info: Connected to the database. {"timestamp":"2022-03-03T10:18:53.142Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-03-03T10:19:06.020Z"}
+info: Connected to the database. {"timestamp":"2022-03-03T10:19:06.059Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-03-03T10:20:25.771Z"}
+info: Connected to the database. {"timestamp":"2022-03-03T10:20:25.800Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read properties of null (reading '1')
+    at firstchar (C:\Users\anand\Desktop\fundoo-Notes\node_modules\body-parser\lib\types\json.js:176:37)
+    at parse (C:\Users\anand\Desktop\fundoo-Notes\node_modules\body-parser\lib\types\json.js:79:19)
+    at C:\Users\anand\Desktop\fundoo-Notes\node_modules\body-parser\lib\read.js:121:18
+    at invokeCallback (C:\Users\anand\Desktop\fundoo-Notes\node_modules\raw-body\index.js:224:16)
+    at done (C:\Users\anand\Desktop\fundoo-Notes\node_modules\raw-body\index.js:213:7)
+    at IncomingMessage.onEnd (C:\Users\anand\Desktop\fundoo-Notes\node_modules\raw-body\index.js:273:7)
+    at IncomingMessage.emit (node:events:402:35)
+    at IncomingMessage.emit (node:domain:475:12)
+    at endReadableNT (node:internal/streams/readable:1343:12)
+    at processTicksAndRejections (node:internal/process/task_queues:83:21) 
+    url - /api/v1/note/archive/62206571f0e8862498d77ee9 
+    method - PUT 
+    IP - ::1
+   {"timestamp":"2022-03-03T10:20:30.975Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read properties of null (reading '1')
+    at firstchar (C:\Users\anand\Desktop\fundoo-Notes\node_modules\body-parser\lib\types\json.js:176:37)
+    at parse (C:\Users\anand\Desktop\fundoo-Notes\node_modules\body-parser\lib\types\json.js:79:19)
+    at C:\Users\anand\Desktop\fundoo-Notes\node_modules\body-parser\lib\read.js:121:18
+    at invokeCallback (C:\Users\anand\Desktop\fundoo-Notes\node_modules\raw-body\index.js:224:16)
+    at done (C:\Users\anand\Desktop\fundoo-Notes\node_modules\raw-body\index.js:213:7)
+    at IncomingMessage.onEnd (C:\Users\anand\Desktop\fundoo-Notes\node_modules\raw-body\index.js:273:7)
+    at IncomingMessage.emit (node:events:402:35)
+    at IncomingMessage.emit (node:domain:475:12)
+    at endReadableNT (node:internal/streams/readable:1343:12)
+    at processTicksAndRejections (node:internal/process/task_queues:83:21) 
+    url - /api/v1/note/archive/62206571f0e8862498d77ee9 
+    method - PUT 
+    IP - ::1
+   {"timestamp":"2022-03-03T10:20:33.019Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-03-03T10:21:32.931Z"}
+info: Connected to the database. {"timestamp":"2022-03-03T10:21:32.965Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-03-03T10:21:40.305Z"}
+info: Connected to the database. {"timestamp":"2022-03-03T10:21:40.339Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-03-03T10:21:48.803Z"}
+info: Connected to the database. {"timestamp":"2022-03-03T10:21:48.837Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read properties of null (reading '1')
+    at firstchar (C:\Users\anand\Desktop\fundoo-Notes\node_modules\body-parser\lib\types\json.js:176:37)
+    at parse (C:\Users\anand\Desktop\fundoo-Notes\node_modules\body-parser\lib\types\json.js:79:19)
+    at C:\Users\anand\Desktop\fundoo-Notes\node_modules\body-parser\lib\read.js:121:18
+    at invokeCallback (C:\Users\anand\Desktop\fundoo-Notes\node_modules\raw-body\index.js:224:16)
+    at done (C:\Users\anand\Desktop\fundoo-Notes\node_modules\raw-body\index.js:213:7)
+    at IncomingMessage.onEnd (C:\Users\anand\Desktop\fundoo-Notes\node_modules\raw-body\index.js:273:7)
+    at IncomingMessage.emit (node:events:402:35)
+    at IncomingMessage.emit (node:domain:475:12)
+    at endReadableNT (node:internal/streams/readable:1343:12)
+    at processTicksAndRejections (node:internal/process/task_queues:83:21) 
+    url - /api/v1/note/archive/62206571f0e8862498d77ee9 
+    method - PUT 
+    IP - ::1
+   {"timestamp":"2022-03-03T10:21:52.376Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-03-03T10:22:36.755Z"}
+info: Connected to the database. {"timestamp":"2022-03-03T10:22:36.789Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read properties of null (reading '1')
+    at firstchar (C:\Users\anand\Desktop\fundoo-Notes\node_modules\body-parser\lib\types\json.js:176:37)
+    at parse (C:\Users\anand\Desktop\fundoo-Notes\node_modules\body-parser\lib\types\json.js:79:19)
+    at C:\Users\anand\Desktop\fundoo-Notes\node_modules\body-parser\lib\read.js:121:18
+    at invokeCallback (C:\Users\anand\Desktop\fundoo-Notes\node_modules\raw-body\index.js:224:16)
+    at done (C:\Users\anand\Desktop\fundoo-Notes\node_modules\raw-body\index.js:213:7)
+    at IncomingMessage.onEnd (C:\Users\anand\Desktop\fundoo-Notes\node_modules\raw-body\index.js:273:7)
+    at IncomingMessage.emit (node:events:402:35)
+    at IncomingMessage.emit (node:domain:475:12)
+    at endReadableNT (node:internal/streams/readable:1343:12)
+    at processTicksAndRejections (node:internal/process/task_queues:83:21) 
+    url - /api/v1/note/archive/62206571f0e8862498d77ee9 
+    method - PUT 
+    IP - ::1
+   {"timestamp":"2022-03-03T10:22:37.712Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-03-03T10:25:17.996Z"}
+info: Connected to the database. {"timestamp":"2022-03-03T10:25:18.024Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-03-03T10:25:51.766Z"}
+info: Connected to the database. {"timestamp":"2022-03-03T10:25:51.794Z"}
+error: 
+    status - 500 
+    message - Error: Can't use $set
+    at ObjectId.SchemaType.castForQuery (C:\Users\anand\Desktop\fundoo-Notes\node_modules\mongoose\lib\schematype.js:1586:13)
+    at ObjectId.SchemaType.castForQueryWrapper (C:\Users\anand\Desktop\fundoo-Notes\node_modules\mongoose\lib\schematype.js:1558:22)
+    at cast (C:\Users\anand\Desktop\fundoo-Notes\node_modules\mongoose\lib\cast.js:311:39)
+    at model.Query.Query.cast (C:\Users\anand\Desktop\fundoo-Notes\node_modules\mongoose\lib\query.js:4937:12)
+    at castQuery (C:\Users\anand\Desktop\fundoo-Notes\node_modules\mongoose\lib\query.js:4738:18)
+    at model.Query.Query._findAndModify (C:\Users\anand\Desktop\fundoo-Notes\node_modules\mongoose\lib\query.js:3598:23)
+    at model.Query.<anonymous> (C:\Users\anand\Desktop\fundoo-Notes\node_modules\mongoose\lib\query.js:3164:8)
+    at model.Query._wrappedThunk [as _findOneAndUpdate] (C:\Users\anand\Desktop\fundoo-Notes\node_modules\mongoose\lib\helpers\query\wrapThunk.js:16:8)
+    at C:\Users\anand\Desktop\fundoo-Notes\node_modules\kareem\index.js:279:20
+    at _next (C:\Users\anand\Desktop\fundoo-Notes\node_modules\kareem\index.js:103:16)
+    at C:\Users\anand\Desktop\fundoo-Notes\node_modules\kareem\index.js:508:38
+    at processTicksAndRejections (node:internal/process/task_queues:78:11) 
+    url - /api/v1/note/archive/62209723003c341d9c015747 
+    method - PUT 
+    IP - ::1
+   {"timestamp":"2022-03-03T10:27:03.648Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-03-03T10:27:30.798Z"}
+info: Connected to the database. {"timestamp":"2022-03-03T10:27:30.824Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-03-03T10:28:26.351Z"}
+info: Connected to the database. {"timestamp":"2022-03-03T10:28:26.380Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-03-03T10:28:44.372Z"}
+info: Connected to the database. {"timestamp":"2022-03-03T10:28:44.394Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-03-03T10:29:02.325Z"}
+info: Connected to the database. {"timestamp":"2022-03-03T10:29:02.353Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-03-03T10:29:32.819Z"}
+info: Connected to the database. {"timestamp":"2022-03-03T10:29:32.845Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-03-03T10:30:42.769Z"}
+info: Connected to the database. {"timestamp":"2022-03-03T10:30:42.831Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-03-03T10:30:58.775Z"}
+info: Connected to the database. {"timestamp":"2022-03-03T10:30:58.801Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-03-03T10:31:14.722Z"}
+info: Connected to the database. {"timestamp":"2022-03-03T10:31:14.753Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-03-03T10:31:28.130Z"}
+info: Connected to the database. {"timestamp":"2022-03-03T10:31:28.159Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-03-03T10:32:00.430Z"}
+info: Connected to the database. {"timestamp":"2022-03-03T10:32:00.456Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-03-03T10:32:54.730Z"}
+info: Connected to the database. {"timestamp":"2022-03-03T10:32:54.756Z"}
+error: uncaughtException: Route.delete() requires a callback function but got a [object Undefined]
+Error: Route.delete() requires a callback function but got a [object Undefined]
+    at Route.<computed> [as delete] (C:\Users\anand\Desktop\fundoo-Notes\node_modules\express\lib\router\route.js:202:15)
+    at Function.proto.<computed> [as delete] (C:\Users\anand\Desktop\fundoo-Notes\node_modules\express\lib\router\index.js:516:19)
+    at Object.<anonymous> (C:\Users\anand\Desktop\fundoo-Notes\src\routes\/note.route.js:23:1)
+    at Module._compile (node:internal/modules/cjs/loader:1101:14)
+    at Module._compile (C:\Users\anand\Desktop\fundoo-Notes\node_modules\pirates\lib\index.js:136:24)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1153:10)
+    at Object.newLoader [as .js] (C:\Users\anand\Desktop\fundoo-Notes\node_modules\pirates\lib\index.js:141:7)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at Object.<anonymous> (C:\Users\anand\Desktop\fundoo-Notes\src\routes\/index.js:5:1)
+    at Module._compile (node:internal/modules/cjs/loader:1101:14)
+    at Module._compile (C:\Users\anand\Desktop\fundoo-Notes\node_modules\pirates\lib\index.js:136:24)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1153:10)
+    at Object.newLoader [as .js] (C:\Users\anand\Desktop\fundoo-Notes\node_modules\pirates\lib\index.js:141:7) {"date":"Thu Mar 03 2022 16:03:29 GMT+0530 (India Standard Time)","error":{},"exception":true,"os":{"loadavg":[0,0,0],"uptime":90848},"process":{"argv":["node","C:\\Users\\anand\\Desktop\\fundoo-Notes\\src\\index.js"],"cwd":"C:\\Users\\anand\\Desktop\\fundoo-Notes","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18326915,"external":25350516,"heapTotal":125763584,"heapUsed":95933792,"rss":162340864},"pid":12788,"uid":null,"version":"v16.13.2"},"stack":"Error: Route.delete() requires a callback function but got a [object Undefined]\n    at Route.<computed> [as delete] (C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\express\\lib\\router\\route.js:202:15)\n    at Function.proto.<computed> [as delete] (C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\express\\lib\\router\\index.js:516:19)\n    at Object.<anonymous> (C:\\Users\\anand\\Desktop\\fundoo-Notes\\src\\routes\\/note.route.js:23:1)\n    at Module._compile (node:internal/modules/cjs/loader:1101:14)\n    at Module._compile (C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\pirates\\lib\\index.js:136:24)\n    at Module._extensions..js (node:internal/modules/cjs/loader:1153:10)\n    at Object.newLoader [as .js] (C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\pirates\\lib\\index.js:141:7)\n    at Module.load (node:internal/modules/cjs/loader:981:32)\n    at Function.Module._load (node:internal/modules/cjs/loader:822:12)\n    at Module.require (node:internal/modules/cjs/loader:1005:19)\n    at require (node:internal/modules/cjs/helpers:102:18)\n    at Object.<anonymous> (C:\\Users\\anand\\Desktop\\fundoo-Notes\\src\\routes\\/index.js:5:1)\n    at Module._compile (node:internal/modules/cjs/loader:1101:14)\n    at Module._compile (C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\pirates\\lib\\index.js:136:24)\n    at Module._extensions..js (node:internal/modules/cjs/loader:1153:10)\n    at Object.newLoader [as .js] (C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\pirates\\lib\\index.js:141:7)","timestamp":"2022-03-03T10:33:29.714Z","trace":[{"column":15,"file":"C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\express\\lib\\router\\route.js","function":"Route.<computed> [as delete]","line":202,"method":"<computed> [as delete]","native":false},{"column":19,"file":"C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\express\\lib\\router\\index.js","function":"Function.proto.<computed> [as delete]","line":516,"method":"<computed> [as delete]","native":false},{"column":1,"file":"C:\\Users\\anand\\Desktop\\fundoo-Notes\\src\\routes\\/note.route.js","function":null,"line":23,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1101,"method":"_compile","native":false},{"column":24,"file":"C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\pirates\\lib\\index.js","function":"Module._compile","line":136,"method":"_compile","native":false},{"column":10,"file":"node:internal/modules/cjs/loader","function":"Module._extensions..js","line":1153,"method":".js","native":false},{"column":7,"file":"C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\pirates\\lib\\index.js","function":"Object.newLoader [as .js]","line":141,"method":"js]","native":false},{"column":32,"file":"node:internal/modules/cjs/loader","function":"Module.load","line":981,"method":"load","native":false},{"column":12,"file":"node:internal/modules/cjs/loader","function":"Module._load","line":822,"method":"_load","native":false},{"column":19,"file":"node:internal/modules/cjs/loader","function":"Module.require","line":1005,"method":"require","native":false},{"column":18,"file":"node:internal/modules/cjs/helpers","function":"require","line":102,"method":null,"native":false},{"column":1,"file":"C:\\Users\\anand\\Desktop\\fundoo-Notes\\src\\routes\\/index.js","function":null,"line":5,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1101,"method":"_compile","native":false},{"column":24,"file":"C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\pirates\\lib\\index.js","function":"Module._compile","line":136,"method":"_compile","native":false},{"column":10,"file":"node:internal/modules/cjs/loader","function":"Module._extensions..js","line":1153,"method":".js","native":false},{"column":7,"file":"C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\pirates\\lib\\index.js","function":"Object.newLoader [as .js]","line":141,"method":"js]","native":false}]}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-03-03T10:33:43.022Z"}
+info: Connected to the database. {"timestamp":"2022-03-03T10:33:43.058Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-03-03T10:33:54.627Z"}
+info: Connected to the database. {"timestamp":"2022-03-03T10:33:54.654Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-03-03T10:43:16.304Z"}
+info: Connected to the database. {"timestamp":"2022-03-03T10:43:16.331Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-03-03T10:55:05.476Z"}
+info: Connected to the database. {"timestamp":"2022-03-03T10:55:05.499Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-03-03T11:12:36.828Z"}
+info: Connected to the database. {"timestamp":"2022-03-03T11:12:36.855Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-03-03T11:15:38.336Z"}
+info: Connected to the database. {"timestamp":"2022-03-03T11:15:38.371Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-03-03T11:15:55.762Z"}
+error: uncaughtException: Cannot read properties of undefined (reading 'statusCode')
+TypeError: Cannot read properties of undefined (reading 'statusCode')
+    at Test.<anonymous> (C:\Users\anand\Desktop\fundoo-Notes\tests\integration\/user.test.js:54:22)
+    at Test.assert (C:\Users\anand\Desktop\fundoo-Notes\node_modules\supertest\lib\test.js:181:6)
+    at Server.localAssert (C:\Users\anand\Desktop\fundoo-Notes\node_modules\supertest\lib\test.js:131:12)
+    at Object.onceWrapper (node:events:509:28)
+    at Server.emit (node:events:390:28)
+    at emitCloseNT (node:net:1681:8)
+    at processTicksAndRejections (node:internal/process/task_queues:82:21) {"date":"Thu Mar 03 2022 16:46:00 GMT+0530 (India Standard Time)","error":{},"exception":true,"os":{"loadavg":[0,0,0],"uptime":93399},"process":{"argv":["C:\\Program Files\\nodejs\\node.exe","C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\mocha\\bin\\mocha","--exit","--recursive","--require","@babel/register","--timeout=5000","tests/**/*.js"],"cwd":"C:\\Users\\anand\\Desktop\\fundoo-Notes","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18385175,"external":21755978,"heapTotal":156917760,"heapUsed":130719888,"rss":190070784},"pid":4964,"uid":null,"version":"v16.13.2"},"stack":"TypeError: Cannot read properties of undefined (reading 'statusCode')\n    at Test.<anonymous> (C:\\Users\\anand\\Desktop\\fundoo-Notes\\tests\\integration\\/user.test.js:54:22)\n    at Test.assert (C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\supertest\\lib\\test.js:181:6)\n    at Server.localAssert (C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\supertest\\lib\\test.js:131:12)\n    at Object.onceWrapper (node:events:509:28)\n    at Server.emit (node:events:390:28)\n    at emitCloseNT (node:net:1681:8)\n    at processTicksAndRejections (node:internal/process/task_queues:82:21)","timestamp":"2022-03-03T11:16:00.828Z","trace":[{"column":22,"file":"C:\\Users\\anand\\Desktop\\fundoo-Notes\\tests\\integration\\/user.test.js","function":null,"line":54,"method":null,"native":false},{"column":6,"file":"C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\supertest\\lib\\test.js","function":"Test.assert","line":181,"method":"assert","native":false},{"column":12,"file":"C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\supertest\\lib\\test.js","function":"Server.localAssert","line":131,"method":"localAssert","native":false},{"column":28,"file":"node:events","function":"Object.onceWrapper","line":509,"method":"onceWrapper","native":false},{"column":28,"file":"node:events","function":"Server.emit","line":390,"method":"emit","native":false},{"column":8,"file":"node:net","function":"emitCloseNT","line":1681,"method":null,"native":false},{"column":21,"file":"node:internal/process/task_queues","function":"processTicksAndRejections","line":82,"method":null,"native":false}]}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-03-03T11:16:29.884Z"}
+error: uncaughtException: Cannot read properties of undefined (reading 'statusCode')
+TypeError: Cannot read properties of undefined (reading 'statusCode')
+    at Test.<anonymous> (C:\Users\anand\Desktop\fundoo-Notes\tests\integration\/user.test.js:54:22)
+    at Test.assert (C:\Users\anand\Desktop\fundoo-Notes\node_modules\supertest\lib\test.js:181:6)
+    at Server.localAssert (C:\Users\anand\Desktop\fundoo-Notes\node_modules\supertest\lib\test.js:131:12)
+    at Object.onceWrapper (node:events:509:28)
+    at Server.emit (node:events:390:28)
+    at emitCloseNT (node:net:1681:8)
+    at processTicksAndRejections (node:internal/process/task_queues:82:21) {"date":"Thu Mar 03 2022 16:46:29 GMT+0530 (India Standard Time)","error":{},"exception":true,"os":{"loadavg":[0,0,0],"uptime":93428},"process":{"argv":["C:\\Program Files\\nodejs\\node.exe","C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\mocha\\bin\\mocha","--exit","--recursive","--require","@babel/register","--timeout=5000","tests/**/*.js"],"cwd":"C:\\Users\\anand\\Desktop\\fundoo-Notes","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18302230,"external":21729715,"heapTotal":157319168,"heapUsed":123939528,"rss":191422464},"pid":11768,"uid":null,"version":"v16.13.2"},"stack":"TypeError: Cannot read properties of undefined (reading 'statusCode')\n    at Test.<anonymous> (C:\\Users\\anand\\Desktop\\fundoo-Notes\\tests\\integration\\/user.test.js:54:22)\n    at Test.assert (C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\supertest\\lib\\test.js:181:6)\n    at Server.localAssert (C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\supertest\\lib\\test.js:131:12)\n    at Object.onceWrapper (node:events:509:28)\n    at Server.emit (node:events:390:28)\n    at emitCloseNT (node:net:1681:8)\n    at processTicksAndRejections (node:internal/process/task_queues:82:21)","timestamp":"2022-03-03T11:16:29.930Z","trace":[{"column":22,"file":"C:\\Users\\anand\\Desktop\\fundoo-Notes\\tests\\integration\\/user.test.js","function":null,"line":54,"method":null,"native":false},{"column":6,"file":"C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\supertest\\lib\\test.js","function":"Test.assert","line":181,"method":"assert","native":false},{"column":12,"file":"C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\supertest\\lib\\test.js","function":"Server.localAssert","line":131,"method":"localAssert","native":false},{"column":28,"file":"node:events","function":"Object.onceWrapper","line":509,"method":"onceWrapper","native":false},{"column":28,"file":"node:events","function":"Server.emit","line":390,"method":"emit","native":false},{"column":8,"file":"node:net","function":"emitCloseNT","line":1681,"method":null,"native":false},{"column":21,"file":"node:internal/process/task_queues","function":"processTicksAndRejections","line":82,"method":null,"native":false}]}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-03-03T11:18:58.271Z"}
+error: uncaughtException: Cannot read properties of undefined (reading 'statusCode')
+TypeError: Cannot read properties of undefined (reading 'statusCode')
+    at Test.<anonymous> (C:\Users\anand\Desktop\fundoo-Notes\tests\integration\/user.test.js:54:22)
+    at Test.assert (C:\Users\anand\Desktop\fundoo-Notes\node_modules\supertest\lib\test.js:181:6)
+    at Server.localAssert (C:\Users\anand\Desktop\fundoo-Notes\node_modules\supertest\lib\test.js:131:12)
+    at Object.onceWrapper (node:events:509:28)
+    at Server.emit (node:events:390:28)
+    at emitCloseNT (node:net:1681:8)
+    at processTicksAndRejections (node:internal/process/task_queues:82:21) {"date":"Thu Mar 03 2022 16:48:58 GMT+0530 (India Standard Time)","error":{},"exception":true,"os":{"loadavg":[0,0,0],"uptime":93576},"process":{"argv":["C:\\Program Files\\nodejs\\node.exe","C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\mocha\\bin\\mocha","--exit","--recursive","--require","@babel/register","--timeout=5000","tests/**/*.js"],"cwd":"C:\\Users\\anand\\Desktop\\fundoo-Notes","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18302230,"external":21729715,"heapTotal":157843456,"heapUsed":123947400,"rss":189476864},"pid":8576,"uid":null,"version":"v16.13.2"},"stack":"TypeError: Cannot read properties of undefined (reading 'statusCode')\n    at Test.<anonymous> (C:\\Users\\anand\\Desktop\\fundoo-Notes\\tests\\integration\\/user.test.js:54:22)\n    at Test.assert (C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\supertest\\lib\\test.js:181:6)\n    at Server.localAssert (C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\supertest\\lib\\test.js:131:12)\n    at Object.onceWrapper (node:events:509:28)\n    at Server.emit (node:events:390:28)\n    at emitCloseNT (node:net:1681:8)\n    at processTicksAndRejections (node:internal/process/task_queues:82:21)","timestamp":"2022-03-03T11:18:58.346Z","trace":[{"column":22,"file":"C:\\Users\\anand\\Desktop\\fundoo-Notes\\tests\\integration\\/user.test.js","function":null,"line":54,"method":null,"native":false},{"column":6,"file":"C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\supertest\\lib\\test.js","function":"Test.assert","line":181,"method":"assert","native":false},{"column":12,"file":"C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\supertest\\lib\\test.js","function":"Server.localAssert","line":131,"method":"localAssert","native":false},{"column":28,"file":"node:events","function":"Object.onceWrapper","line":509,"method":"onceWrapper","native":false},{"column":28,"file":"node:events","function":"Server.emit","line":390,"method":"emit","native":false},{"column":8,"file":"node:net","function":"emitCloseNT","line":1681,"method":null,"native":false},{"column":21,"file":"node:internal/process/task_queues","function":"processTicksAndRejections","line":82,"method":null,"native":false}]}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-03-03T11:53:05.140Z"}
+info: Connected to the database. {"timestamp":"2022-03-03T11:53:05.168Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-03-03T11:53:45.791Z"}
+info: Connected to the database. {"timestamp":"2022-03-03T11:53:45.819Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-03-03T11:56:35.517Z"}
+info: Connected to the database. {"timestamp":"2022-03-03T11:56:35.545Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-03-03T11:56:59.800Z"}
+info: Connected to the database. {"timestamp":"2022-03-03T11:56:59.836Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-03-03T11:57:38.421Z"}
+info: Connected to the database. {"timestamp":"2022-03-03T11:57:38.450Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-03-03T11:59:42.003Z"}
+info: Connected to the database. {"timestamp":"2022-03-03T11:59:42.033Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-03-03T12:01:18.682Z"}
+info: Connected to the database. {"timestamp":"2022-03-03T12:01:18.711Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-03-03T12:03:05.112Z"}
+info: Connected to the database. {"timestamp":"2022-03-03T12:03:05.136Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-03-03T12:03:52.868Z"}
+info: Connected to the database. {"timestamp":"2022-03-03T12:03:52.893Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-03-03T12:05:18.983Z"}
+info: Connected to the database. {"timestamp":"2022-03-03T12:05:19.009Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-03-03T12:13:58.039Z"}
+info: Connected to the database. {"timestamp":"2022-03-03T12:13:58.066Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-03-03T12:15:39.454Z"}
+info: Connected to the database. {"timestamp":"2022-03-03T12:15:39.482Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-03-03T13:35:11.872Z"}
+info: Connected to the database. {"timestamp":"2022-03-03T13:35:11.905Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-03-03T13:35:37.612Z"}
+info: Connected to the database. {"timestamp":"2022-03-03T13:35:37.651Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-03-03T13:36:07.783Z"}
+info: Connected to the database. {"timestamp":"2022-03-03T13:36:07.812Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-03-03T13:36:19.308Z"}
+error: Could not connect to the database. querySrv ECONNREFUSED _mongodb._tcp.demo.aoloa.mongodb.net {"code":"ECONNREFUSED","hostname":"_mongodb._tcp.demo.aoloa.mongodb.net","stack":"Error: querySrv ECONNREFUSED _mongodb._tcp.demo.aoloa.mongodb.net\n    at QueryReqWrap.onresolve [as oncomplete] (node:dns:213:19)","syscall":"querySrv","timestamp":"2022-03-03T13:36:19.397Z"}
+error: uncaughtException: expected 404 to equal 200
+AssertionError: expected 404 to equal 200
+    at Test.<anonymous> (C:\Users\anand\Desktop\fundoo-Notes\tests\integration\/user.test.js:56:40)
+    at Test.assert (C:\Users\anand\Desktop\fundoo-Notes\node_modules\supertest\lib\test.js:181:6)
+    at Server.localAssert (C:\Users\anand\Desktop\fundoo-Notes\node_modules\supertest\lib\test.js:131:12)
+    at Object.onceWrapper (node:events:509:28)
+    at Server.emit (node:events:390:28)
+    at emitCloseNT (node:net:1681:8)
+    at processTicksAndRejections (node:internal/process/task_queues:82:21) {"date":"Thu Mar 03 2022 19:06:19 GMT+0530 (India Standard Time)","error":{"actual":404,"expected":200,"message":"expected 404 to equal 200","name":"AssertionError","operator":"strictEqual","showDiff":true,"stack":"AssertionError: expected 404 to equal 200\n    at Test.<anonymous> (C:\\Users\\anand\\Desktop\\fundoo-Notes\\tests\\integration\\/user.test.js:56:40)\n    at Test.assert (C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\supertest\\lib\\test.js:181:6)\n    at Server.localAssert (C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\supertest\\lib\\test.js:131:12)\n    at Object.onceWrapper (node:events:509:28)\n    at Server.emit (node:events:390:28)\n    at emitCloseNT (node:net:1681:8)\n    at processTicksAndRejections (node:internal/process/task_queues:82:21)"},"exception":true,"os":{"loadavg":[0,0,0],"uptime":101817},"process":{"argv":["C:\\Program Files\\nodejs\\node.exe","C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\mocha\\bin\\mocha","--exit","--recursive","--require","@babel/register","--timeout=5000","tests/**/*.js"],"cwd":"C:\\Users\\anand\\Desktop\\fundoo-Notes","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18390154,"external":21817811,"heapTotal":157581312,"heapUsed":125022344,"rss":190337024},"pid":15056,"uid":null,"version":"v16.13.2"},"stack":"AssertionError: expected 404 to equal 200\n    at Test.<anonymous> (C:\\Users\\anand\\Desktop\\fundoo-Notes\\tests\\integration\\/user.test.js:56:40)\n    at Test.assert (C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\supertest\\lib\\test.js:181:6)\n    at Server.localAssert (C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\supertest\\lib\\test.js:131:12)\n    at Object.onceWrapper (node:events:509:28)\n    at Server.emit (node:events:390:28)\n    at emitCloseNT (node:net:1681:8)\n    at processTicksAndRejections (node:internal/process/task_queues:82:21)","timestamp":"2022-03-03T13:36:19.466Z","trace":[{"column":40,"file":"C:\\Users\\anand\\Desktop\\fundoo-Notes\\tests\\integration\\/user.test.js","function":null,"line":56,"method":null,"native":false},{"column":6,"file":"C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\supertest\\lib\\test.js","function":"Test.assert","line":181,"method":"assert","native":false},{"column":12,"file":"C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\supertest\\lib\\test.js","function":"Server.localAssert","line":131,"method":"localAssert","native":false},{"column":28,"file":"node:events","function":"Object.onceWrapper","line":509,"method":"onceWrapper","native":false},{"column":28,"file":"node:events","function":"Server.emit","line":390,"method":"emit","native":false},{"column":8,"file":"node:net","function":"emitCloseNT","line":1681,"method":null,"native":false},{"column":21,"file":"node:internal/process/task_queues","function":"processTicksAndRejections","line":82,"method":null,"native":false}]}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-03-03T13:37:16.224Z"}
+error: Could not connect to the database. querySrv ECONNREFUSED _mongodb._tcp.demo.aoloa.mongodb.net {"code":"ECONNREFUSED","hostname":"_mongodb._tcp.demo.aoloa.mongodb.net","stack":"Error: querySrv ECONNREFUSED _mongodb._tcp.demo.aoloa.mongodb.net\n    at QueryReqWrap.onresolve [as oncomplete] (node:dns:213:19)","syscall":"querySrv","timestamp":"2022-03-03T13:37:16.243Z"}
+error: uncaughtException: expected 404 to equal 200
+AssertionError: expected 404 to equal 200
+    at Test.<anonymous> (C:\Users\anand\Desktop\fundoo-Notes\tests\integration\/user.test.js:56:40)
+    at Test.assert (C:\Users\anand\Desktop\fundoo-Notes\node_modules\supertest\lib\test.js:181:6)
+    at Server.localAssert (C:\Users\anand\Desktop\fundoo-Notes\node_modules\supertest\lib\test.js:131:12)
+    at Object.onceWrapper (node:events:509:28)
+    at Server.emit (node:events:390:28)
+    at emitCloseNT (node:net:1681:8)
+    at processTicksAndRejections (node:internal/process/task_queues:82:21) {"date":"Thu Mar 03 2022 19:07:16 GMT+0530 (India Standard Time)","error":{"actual":404,"expected":200,"message":"expected 404 to equal 200","name":"AssertionError","operator":"strictEqual","showDiff":true,"stack":"AssertionError: expected 404 to equal 200\n    at Test.<anonymous> (C:\\Users\\anand\\Desktop\\fundoo-Notes\\tests\\integration\\/user.test.js:56:40)\n    at Test.assert (C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\supertest\\lib\\test.js:181:6)\n    at Server.localAssert (C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\supertest\\lib\\test.js:131:12)\n    at Object.onceWrapper (node:events:509:28)\n    at Server.emit (node:events:390:28)\n    at emitCloseNT (node:net:1681:8)\n    at processTicksAndRejections (node:internal/process/task_queues:82:21)"},"exception":true,"os":{"loadavg":[0,0,0],"uptime":101874},"process":{"argv":["C:\\Program Files\\nodejs\\node.exe","C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\mocha\\bin\\mocha","--exit","--recursive","--require","@babel/register","--timeout=5000","tests/**/*.js"],"cwd":"C:\\Users\\anand\\Desktop\\fundoo-Notes","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18390154,"external":21817811,"heapTotal":157843456,"heapUsed":125023600,"rss":190595072},"pid":13736,"uid":null,"version":"v16.13.2"},"stack":"AssertionError: expected 404 to equal 200\n    at Test.<anonymous> (C:\\Users\\anand\\Desktop\\fundoo-Notes\\tests\\integration\\/user.test.js:56:40)\n    at Test.assert (C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\supertest\\lib\\test.js:181:6)\n    at Server.localAssert (C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\supertest\\lib\\test.js:131:12)\n    at Object.onceWrapper (node:events:509:28)\n    at Server.emit (node:events:390:28)\n    at emitCloseNT (node:net:1681:8)\n    at processTicksAndRejections (node:internal/process/task_queues:82:21)","timestamp":"2022-03-03T13:37:16.308Z","trace":[{"column":40,"file":"C:\\Users\\anand\\Desktop\\fundoo-Notes\\tests\\integration\\/user.test.js","function":null,"line":56,"method":null,"native":false},{"column":6,"file":"C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\supertest\\lib\\test.js","function":"Test.assert","line":181,"method":"assert","native":false},{"column":12,"file":"C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\supertest\\lib\\test.js","function":"Server.localAssert","line":131,"method":"localAssert","native":false},{"column":28,"file":"node:events","function":"Object.onceWrapper","line":509,"method":"onceWrapper","native":false},{"column":28,"file":"node:events","function":"Server.emit","line":390,"method":"emit","native":false},{"column":8,"file":"node:net","function":"emitCloseNT","line":1681,"method":null,"native":false},{"column":21,"file":"node:internal/process/task_queues","function":"processTicksAndRejections","line":82,"method":null,"native":false}]}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-03-03T13:38:15.390Z"}
+error: uncaughtException: expected 404 to equal 200
+AssertionError: expected 404 to equal 200
+    at Test.<anonymous> (C:\Users\anand\Desktop\fundoo-Notes\tests\integration\/user.test.js:57:40)
+    at Test.assert (C:\Users\anand\Desktop\fundoo-Notes\node_modules\supertest\lib\test.js:181:6)
+    at Server.localAssert (C:\Users\anand\Desktop\fundoo-Notes\node_modules\supertest\lib\test.js:131:12)
+    at Object.onceWrapper (node:events:509:28)
+    at Server.emit (node:events:390:28)
+    at emitCloseNT (node:net:1681:8)
+    at processTicksAndRejections (node:internal/process/task_queues:82:21) {"date":"Thu Mar 03 2022 19:08:15 GMT+0530 (India Standard Time)","error":{"actual":404,"expected":200,"message":"expected 404 to equal 200","name":"AssertionError","operator":"strictEqual","showDiff":true,"stack":"AssertionError: expected 404 to equal 200\n    at Test.<anonymous> (C:\\Users\\anand\\Desktop\\fundoo-Notes\\tests\\integration\\/user.test.js:57:40)\n    at Test.assert (C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\supertest\\lib\\test.js:181:6)\n    at Server.localAssert (C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\supertest\\lib\\test.js:131:12)\n    at Object.onceWrapper (node:events:509:28)\n    at Server.emit (node:events:390:28)\n    at emitCloseNT (node:net:1681:8)\n    at processTicksAndRejections (node:internal/process/task_queues:82:21)"},"exception":true,"os":{"loadavg":[0,0,0],"uptime":101933},"process":{"argv":["C:\\Program Files\\nodejs\\node.exe","C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\mocha\\bin\\mocha","--exit","--recursive","--require","@babel/register","--timeout=5000","tests/**/*.js"],"cwd":"C:\\Users\\anand\\Desktop\\fundoo-Notes","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18390154,"external":21817811,"heapTotal":157581312,"heapUsed":125028200,"rss":190418944},"pid":14828,"uid":null,"version":"v16.13.2"},"stack":"AssertionError: expected 404 to equal 200\n    at Test.<anonymous> (C:\\Users\\anand\\Desktop\\fundoo-Notes\\tests\\integration\\/user.test.js:57:40)\n    at Test.assert (C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\supertest\\lib\\test.js:181:6)\n    at Server.localAssert (C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\supertest\\lib\\test.js:131:12)\n    at Object.onceWrapper (node:events:509:28)\n    at Server.emit (node:events:390:28)\n    at emitCloseNT (node:net:1681:8)\n    at processTicksAndRejections (node:internal/process/task_queues:82:21)","timestamp":"2022-03-03T13:38:15.479Z","trace":[{"column":40,"file":"C:\\Users\\anand\\Desktop\\fundoo-Notes\\tests\\integration\\/user.test.js","function":null,"line":57,"method":null,"native":false},{"column":6,"file":"C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\supertest\\lib\\test.js","function":"Test.assert","line":181,"method":"assert","native":false},{"column":12,"file":"C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\supertest\\lib\\test.js","function":"Server.localAssert","line":131,"method":"localAssert","native":false},{"column":28,"file":"node:events","function":"Object.onceWrapper","line":509,"method":"onceWrapper","native":false},{"column":28,"file":"node:events","function":"Server.emit","line":390,"method":"emit","native":false},{"column":8,"file":"node:net","function":"emitCloseNT","line":1681,"method":null,"native":false},{"column":21,"file":"node:internal/process/task_queues","function":"processTicksAndRejections","line":82,"method":null,"native":false}]}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-03-03T13:41:11.342Z"}
+error: uncaughtException: expected 404 to equal 200
+AssertionError: expected 404 to equal 200
+    at Test.<anonymous> (C:\Users\anand\Desktop\fundoo-Notes\tests\integration\/user.test.js:45:40)
+    at Test.assert (C:\Users\anand\Desktop\fundoo-Notes\node_modules\supertest\lib\test.js:181:6)
+    at Server.localAssert (C:\Users\anand\Desktop\fundoo-Notes\node_modules\supertest\lib\test.js:131:12)
+    at Object.onceWrapper (node:events:509:28)
+    at Server.emit (node:events:390:28)
+    at emitCloseNT (node:net:1681:8)
+    at processTicksAndRejections (node:internal/process/task_queues:82:21) {"date":"Thu Mar 03 2022 19:11:11 GMT+0530 (India Standard Time)","error":{"actual":404,"expected":200,"message":"expected 404 to equal 200","name":"AssertionError","operator":"strictEqual","showDiff":true,"stack":"AssertionError: expected 404 to equal 200\n    at Test.<anonymous> (C:\\Users\\anand\\Desktop\\fundoo-Notes\\tests\\integration\\/user.test.js:45:40)\n    at Test.assert (C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\supertest\\lib\\test.js:181:6)\n    at Server.localAssert (C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\supertest\\lib\\test.js:131:12)\n    at Object.onceWrapper (node:events:509:28)\n    at Server.emit (node:events:390:28)\n    at emitCloseNT (node:net:1681:8)\n    at processTicksAndRejections (node:internal/process/task_queues:82:21)"},"exception":true,"os":{"loadavg":[0,0,0],"uptime":102109},"process":{"argv":["C:\\Program Files\\nodejs\\node.exe","C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\mocha\\bin\\mocha","--exit","--recursive","--require","@babel/register","--timeout=5000","tests/**/*.js"],"cwd":"C:\\Users\\anand\\Desktop\\fundoo-Notes","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18390154,"external":21817811,"heapTotal":157581312,"heapUsed":124836248,"rss":191827968},"pid":716,"uid":null,"version":"v16.13.2"},"stack":"AssertionError: expected 404 to equal 200\n    at Test.<anonymous> (C:\\Users\\anand\\Desktop\\fundoo-Notes\\tests\\integration\\/user.test.js:45:40)\n    at Test.assert (C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\supertest\\lib\\test.js:181:6)\n    at Server.localAssert (C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\supertest\\lib\\test.js:131:12)\n    at Object.onceWrapper (node:events:509:28)\n    at Server.emit (node:events:390:28)\n    at emitCloseNT (node:net:1681:8)\n    at processTicksAndRejections (node:internal/process/task_queues:82:21)","timestamp":"2022-03-03T13:41:11.416Z","trace":[{"column":40,"file":"C:\\Users\\anand\\Desktop\\fundoo-Notes\\tests\\integration\\/user.test.js","function":null,"line":45,"method":null,"native":false},{"column":6,"file":"C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\supertest\\lib\\test.js","function":"Test.assert","line":181,"method":"assert","native":false},{"column":12,"file":"C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\supertest\\lib\\test.js","function":"Server.localAssert","line":131,"method":"localAssert","native":false},{"column":28,"file":"node:events","function":"Object.onceWrapper","line":509,"method":"onceWrapper","native":false},{"column":28,"file":"node:events","function":"Server.emit","line":390,"method":"emit","native":false},{"column":8,"file":"node:net","function":"emitCloseNT","line":1681,"method":null,"native":false},{"column":21,"file":"node:internal/process/task_queues","function":"processTicksAndRejections","line":82,"method":null,"native":false}]}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-03-03T13:44:52.427Z"}
+error: uncaughtException: expected 404 to equal 200
+AssertionError: expected 404 to equal 200
+    at Test.<anonymous> (C:\Users\anand\Desktop\fundoo-Notes\tests\integration\/user.test.js:45:40)
+    at Test.assert (C:\Users\anand\Desktop\fundoo-Notes\node_modules\supertest\lib\test.js:181:6)
+    at Server.localAssert (C:\Users\anand\Desktop\fundoo-Notes\node_modules\supertest\lib\test.js:131:12)
+    at Object.onceWrapper (node:events:509:28)
+    at Server.emit (node:events:390:28)
+    at emitCloseNT (node:net:1681:8)
+    at processTicksAndRejections (node:internal/process/task_queues:82:21) {"date":"Thu Mar 03 2022 19:14:52 GMT+0530 (India Standard Time)","error":{"actual":404,"expected":200,"message":"expected 404 to equal 200","name":"AssertionError","operator":"strictEqual","showDiff":true,"stack":"AssertionError: expected 404 to equal 200\n    at Test.<anonymous> (C:\\Users\\anand\\Desktop\\fundoo-Notes\\tests\\integration\\/user.test.js:45:40)\n    at Test.assert (C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\supertest\\lib\\test.js:181:6)\n    at Server.localAssert (C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\supertest\\lib\\test.js:131:12)\n    at Object.onceWrapper (node:events:509:28)\n    at Server.emit (node:events:390:28)\n    at emitCloseNT (node:net:1681:8)\n    at processTicksAndRejections (node:internal/process/task_queues:82:21)"},"exception":true,"os":{"loadavg":[0,0,0],"uptime":102331},"process":{"argv":["C:\\Program Files\\nodejs\\node.exe","C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\mocha\\bin\\mocha","--exit","--recursive","--require","@babel/register","--timeout=5000","tests/**/*.js"],"cwd":"C:\\Users\\anand\\Desktop\\fundoo-Notes","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18390148,"external":21817805,"heapTotal":157581312,"heapUsed":124927800,"rss":189820928},"pid":18392,"uid":null,"version":"v16.13.2"},"stack":"AssertionError: expected 404 to equal 200\n    at Test.<anonymous> (C:\\Users\\anand\\Desktop\\fundoo-Notes\\tests\\integration\\/user.test.js:45:40)\n    at Test.assert (C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\supertest\\lib\\test.js:181:6)\n    at Server.localAssert (C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\supertest\\lib\\test.js:131:12)\n    at Object.onceWrapper (node:events:509:28)\n    at Server.emit (node:events:390:28)\n    at emitCloseNT (node:net:1681:8)\n    at processTicksAndRejections (node:internal/process/task_queues:82:21)","timestamp":"2022-03-03T13:44:52.587Z","trace":[{"column":40,"file":"C:\\Users\\anand\\Desktop\\fundoo-Notes\\tests\\integration\\/user.test.js","function":null,"line":45,"method":null,"native":false},{"column":6,"file":"C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\supertest\\lib\\test.js","function":"Test.assert","line":181,"method":"assert","native":false},{"column":12,"file":"C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\supertest\\lib\\test.js","function":"Server.localAssert","line":131,"method":"localAssert","native":false},{"column":28,"file":"node:events","function":"Object.onceWrapper","line":509,"method":"onceWrapper","native":false},{"column":28,"file":"node:events","function":"Server.emit","line":390,"method":"emit","native":false},{"column":8,"file":"node:net","function":"emitCloseNT","line":1681,"method":null,"native":false},{"column":21,"file":"node:internal/process/task_queues","function":"processTicksAndRejections","line":82,"method":null,"native":false}]}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-03-03T13:47:44.268Z"}
+error: uncaughtException: expected 404 to equal 200
+AssertionError: expected 404 to equal 200
+    at Test.<anonymous> (C:\Users\anand\Desktop\fundoo-Notes\tests\integration\/user.test.js:45:40)
+    at Test.assert (C:\Users\anand\Desktop\fundoo-Notes\node_modules\supertest\lib\test.js:181:6)
+    at Server.localAssert (C:\Users\anand\Desktop\fundoo-Notes\node_modules\supertest\lib\test.js:131:12)
+    at Object.onceWrapper (node:events:509:28)
+    at Server.emit (node:events:390:28)
+    at emitCloseNT (node:net:1681:8)
+    at processTicksAndRejections (node:internal/process/task_queues:82:21) {"date":"Thu Mar 03 2022 19:17:44 GMT+0530 (India Standard Time)","error":{"actual":404,"expected":200,"message":"expected 404 to equal 200","name":"AssertionError","operator":"strictEqual","showDiff":true,"stack":"AssertionError: expected 404 to equal 200\n    at Test.<anonymous> (C:\\Users\\anand\\Desktop\\fundoo-Notes\\tests\\integration\\/user.test.js:45:40)\n    at Test.assert (C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\supertest\\lib\\test.js:181:6)\n    at Server.localAssert (C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\supertest\\lib\\test.js:131:12)\n    at Object.onceWrapper (node:events:509:28)\n    at Server.emit (node:events:390:28)\n    at emitCloseNT (node:net:1681:8)\n    at processTicksAndRejections (node:internal/process/task_queues:82:21)"},"exception":true,"os":{"loadavg":[0,0,0],"uptime":102502},"process":{"argv":["C:\\Program Files\\nodejs\\node.exe","C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\mocha\\bin\\mocha","--exit","--recursive","--require","@babel/register","--timeout=5000","tests/**/*.js"],"cwd":"C:\\Users\\anand\\Desktop\\fundoo-Notes","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18390176,"external":21817833,"heapTotal":157581312,"heapUsed":124855968,"rss":189554688},"pid":16500,"uid":null,"version":"v16.13.2"},"stack":"AssertionError: expected 404 to equal 200\n    at Test.<anonymous> (C:\\Users\\anand\\Desktop\\fundoo-Notes\\tests\\integration\\/user.test.js:45:40)\n    at Test.assert (C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\supertest\\lib\\test.js:181:6)\n    at Server.localAssert (C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\supertest\\lib\\test.js:131:12)\n    at Object.onceWrapper (node:events:509:28)\n    at Server.emit (node:events:390:28)\n    at emitCloseNT (node:net:1681:8)\n    at processTicksAndRejections (node:internal/process/task_queues:82:21)","timestamp":"2022-03-03T13:47:44.345Z","trace":[{"column":40,"file":"C:\\Users\\anand\\Desktop\\fundoo-Notes\\tests\\integration\\/user.test.js","function":null,"line":45,"method":null,"native":false},{"column":6,"file":"C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\supertest\\lib\\test.js","function":"Test.assert","line":181,"method":"assert","native":false},{"column":12,"file":"C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\supertest\\lib\\test.js","function":"Server.localAssert","line":131,"method":"localAssert","native":false},{"column":28,"file":"node:events","function":"Object.onceWrapper","line":509,"method":"onceWrapper","native":false},{"column":28,"file":"node:events","function":"Server.emit","line":390,"method":"emit","native":false},{"column":8,"file":"node:net","function":"emitCloseNT","line":1681,"method":null,"native":false},{"column":21,"file":"node:internal/process/task_queues","function":"processTicksAndRejections","line":82,"method":null,"native":false}]}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-03-03T13:49:21.723Z"}
+info: Connected to the database. {"timestamp":"2022-03-03T13:49:21.751Z"}
+info: undefined {"accepted":["mayur@gmail.com"],"envelope":{"from":"","to":["mayur@gmail.com"]},"envelopeTime":1425,"messageId":"<ab2240b7-2a6e-84c1-b14a-72c740b0b67a@LAPTOP>","messageSize":532,"messageTime":1024,"rejected":[],"response":"250 2.0.0 OK  1646315896 p2-20020a92d682000000b002c291ae0e1bsm2324907iln.23 - gsmtp","timestamp":"2022-03-03T14:00:40.168Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-03-03T14:05:13.760Z"}
+info: Connected to the database. {"timestamp":"2022-03-03T14:05:13.788Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-03-03T14:05:29.004Z"}
+info: Connected to the database. {"timestamp":"2022-03-03T14:05:29.033Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-03-03T14:06:23.375Z"}
+info: Connected to the database. {"timestamp":"2022-03-03T14:06:23.399Z"}
+error: 
+    status - 500 
+    message - CastError: Cast to ObjectId failed for value "{ _id: ':NoteID', UserID: '6220c9bbfa064505e46160a5' }" (type Object) at path "_id" for model "Note"
+    at model.Query.exec (C:\Users\anand\Desktop\fundoo-Notes\node_modules\mongoose\lib\query.js:4498:21)
+    at model.Query.Query.then (C:\Users\anand\Desktop\fundoo-Notes\node_modules\mongoose\lib\query.js:4592:15)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/note/:NoteID 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2022-03-03T14:07:36.575Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read properties of null (reading '1')
+    at firstchar (C:\Users\anand\Desktop\fundoo-Notes\node_modules\body-parser\lib\types\json.js:176:37)
+    at parse (C:\Users\anand\Desktop\fundoo-Notes\node_modules\body-parser\lib\types\json.js:79:19)
+    at C:\Users\anand\Desktop\fundoo-Notes\node_modules\body-parser\lib\read.js:121:18
+    at invokeCallback (C:\Users\anand\Desktop\fundoo-Notes\node_modules\raw-body\index.js:224:16)
+    at done (C:\Users\anand\Desktop\fundoo-Notes\node_modules\raw-body\index.js:213:7)
+    at IncomingMessage.onEnd (C:\Users\anand\Desktop\fundoo-Notes\node_modules\raw-body\index.js:273:7)
+    at IncomingMessage.emit (node:events:402:35)
+    at IncomingMessage.emit (node:domain:475:12)
+    at endReadableNT (node:internal/streams/readable:1343:12)
+    at processTicksAndRejections (node:internal/process/task_queues:83:21) 
+    url - /api/v1/note/62209723003c341d9c015747 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2022-03-03T14:08:15.912Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read properties of null (reading '1')
+    at firstchar (C:\Users\anand\Desktop\fundoo-Notes\node_modules\body-parser\lib\types\json.js:176:37)
+    at parse (C:\Users\anand\Desktop\fundoo-Notes\node_modules\body-parser\lib\types\json.js:79:19)
+    at C:\Users\anand\Desktop\fundoo-Notes\node_modules\body-parser\lib\read.js:121:18
+    at invokeCallback (C:\Users\anand\Desktop\fundoo-Notes\node_modules\raw-body\index.js:224:16)
+    at done (C:\Users\anand\Desktop\fundoo-Notes\node_modules\raw-body\index.js:213:7)
+    at IncomingMessage.onEnd (C:\Users\anand\Desktop\fundoo-Notes\node_modules\raw-body\index.js:273:7)
+    at IncomingMessage.emit (node:events:402:35)
+    at IncomingMessage.emit (node:domain:475:12)
+    at endReadableNT (node:internal/streams/readable:1343:12)
+    at processTicksAndRejections (node:internal/process/task_queues:83:21) 
+    url - /api/v1/note/6220ca82fa064505e46160ab 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2022-03-03T14:08:50.594Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-03-03T14:09:18.862Z"}
+info: Connected to the database. {"timestamp":"2022-03-03T14:09:18.893Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-03-03T14:09:49.866Z"}
+info: Connected to the database. {"timestamp":"2022-03-03T14:09:49.894Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read properties of null (reading '1')
+    at firstchar (C:\Users\anand\Desktop\fundoo-Notes\node_modules\body-parser\lib\types\json.js:176:37)
+    at parse (C:\Users\anand\Desktop\fundoo-Notes\node_modules\body-parser\lib\types\json.js:79:19)
+    at C:\Users\anand\Desktop\fundoo-Notes\node_modules\body-parser\lib\read.js:121:18
+    at invokeCallback (C:\Users\anand\Desktop\fundoo-Notes\node_modules\raw-body\index.js:224:16)
+    at done (C:\Users\anand\Desktop\fundoo-Notes\node_modules\raw-body\index.js:213:7)
+    at IncomingMessage.onEnd (C:\Users\anand\Desktop\fundoo-Notes\node_modules\raw-body\index.js:273:7)
+    at IncomingMessage.emit (node:events:402:35)
+    at IncomingMessage.emit (node:domain:475:12)
+    at endReadableNT (node:internal/streams/readable:1343:12)
+    at processTicksAndRejections (node:internal/process/task_queues:83:21) 
+    url - /api/v1/note/6220ca82fa064505e46160ab 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2022-03-03T14:09:50.628Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read properties of null (reading '1')
+    at firstchar (C:\Users\anand\Desktop\fundoo-Notes\node_modules\body-parser\lib\types\json.js:176:37)
+    at parse (C:\Users\anand\Desktop\fundoo-Notes\node_modules\body-parser\lib\types\json.js:79:19)
+    at C:\Users\anand\Desktop\fundoo-Notes\node_modules\body-parser\lib\read.js:121:18
+    at invokeCallback (C:\Users\anand\Desktop\fundoo-Notes\node_modules\raw-body\index.js:224:16)
+    at done (C:\Users\anand\Desktop\fundoo-Notes\node_modules\raw-body\index.js:213:7)
+    at IncomingMessage.onEnd (C:\Users\anand\Desktop\fundoo-Notes\node_modules\raw-body\index.js:273:7)
+    at IncomingMessage.emit (node:events:402:35)
+    at IncomingMessage.emit (node:domain:475:12)
+    at endReadableNT (node:internal/streams/readable:1343:12)
+    at processTicksAndRejections (node:internal/process/task_queues:83:21) 
+    url - /api/v1/note/6220ca82fa064505e46160ab 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2022-03-03T14:09:51.712Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read properties of null (reading '1')
+    at firstchar (C:\Users\anand\Desktop\fundoo-Notes\node_modules\body-parser\lib\types\json.js:176:37)
+    at parse (C:\Users\anand\Desktop\fundoo-Notes\node_modules\body-parser\lib\types\json.js:79:19)
+    at C:\Users\anand\Desktop\fundoo-Notes\node_modules\body-parser\lib\read.js:121:18
+    at invokeCallback (C:\Users\anand\Desktop\fundoo-Notes\node_modules\raw-body\index.js:224:16)
+    at done (C:\Users\anand\Desktop\fundoo-Notes\node_modules\raw-body\index.js:213:7)
+    at IncomingMessage.onEnd (C:\Users\anand\Desktop\fundoo-Notes\node_modules\raw-body\index.js:273:7)
+    at IncomingMessage.emit (node:events:402:35)
+    at IncomingMessage.emit (node:domain:475:12)
+    at endReadableNT (node:internal/streams/readable:1343:12)
+    at processTicksAndRejections (node:internal/process/task_queues:83:21) 
+    url - /api/v1/note/6220ca82fa064505e46160ab 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2022-03-03T14:09:52.897Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-03-03T14:10:13.118Z"}
+info: Connected to the database. {"timestamp":"2022-03-03T14:10:13.151Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-03-03T14:10:36.542Z"}
+info: Connected to the database. {"timestamp":"2022-03-03T14:10:36.584Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read properties of null (reading '1')
+    at firstchar (C:\Users\anand\Desktop\fundoo-Notes\node_modules\body-parser\lib\types\json.js:176:37)
+    at parse (C:\Users\anand\Desktop\fundoo-Notes\node_modules\body-parser\lib\types\json.js:79:19)
+    at C:\Users\anand\Desktop\fundoo-Notes\node_modules\body-parser\lib\read.js:121:18
+    at invokeCallback (C:\Users\anand\Desktop\fundoo-Notes\node_modules\raw-body\index.js:224:16)
+    at done (C:\Users\anand\Desktop\fundoo-Notes\node_modules\raw-body\index.js:213:7)
+    at IncomingMessage.onEnd (C:\Users\anand\Desktop\fundoo-Notes\node_modules\raw-body\index.js:273:7)
+    at IncomingMessage.emit (node:events:402:35)
+    at IncomingMessage.emit (node:domain:475:12)
+    at endReadableNT (node:internal/streams/readable:1343:12)
+    at processTicksAndRejections (node:internal/process/task_queues:83:21) 
+    url - /api/v1/note/6220ca82fa064505e46160ab 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2022-03-03T14:10:39.632Z"}
+error: 
+    status - 500 
+    message - CastError: Cast to ObjectId failed for value "{ _id: ':NoteID', UserID: '6220c9bbfa064505e46160a5' }" (type Object) at path "_id" for model "Note"
+    at model.Query.exec (C:\Users\anand\Desktop\fundoo-Notes\node_modules\mongoose\lib\query.js:4498:21)
+    at model.Query.Query.then (C:\Users\anand\Desktop\fundoo-Notes\node_modules\mongoose\lib\query.js:4592:15)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/note/:NoteID 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2022-03-03T14:11:02.192Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-03-03T14:12:11.203Z"}
+info: Connected to the database. {"timestamp":"2022-03-03T14:12:11.248Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read properties of null (reading '1')
+    at firstchar (C:\Users\anand\Desktop\fundoo-Notes\node_modules\body-parser\lib\types\json.js:176:37)
+    at parse (C:\Users\anand\Desktop\fundoo-Notes\node_modules\body-parser\lib\types\json.js:79:19)
+    at C:\Users\anand\Desktop\fundoo-Notes\node_modules\body-parser\lib\read.js:121:18
+    at invokeCallback (C:\Users\anand\Desktop\fundoo-Notes\node_modules\raw-body\index.js:224:16)
+    at done (C:\Users\anand\Desktop\fundoo-Notes\node_modules\raw-body\index.js:213:7)
+    at IncomingMessage.onEnd (C:\Users\anand\Desktop\fundoo-Notes\node_modules\raw-body\index.js:273:7)
+    at IncomingMessage.emit (node:events:402:35)
+    at IncomingMessage.emit (node:domain:475:12)
+    at endReadableNT (node:internal/streams/readable:1343:12)
+    at processTicksAndRejections (node:internal/process/task_queues:83:21) 
+    url - /api/v1/note/6220ca82fa064505e46160ab 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2022-03-03T14:12:12.587Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read properties of null (reading '1')
+    at firstchar (C:\Users\anand\Desktop\fundoo-Notes\node_modules\body-parser\lib\types\json.js:176:37)
+    at parse (C:\Users\anand\Desktop\fundoo-Notes\node_modules\body-parser\lib\types\json.js:79:19)
+    at C:\Users\anand\Desktop\fundoo-Notes\node_modules\body-parser\lib\read.js:121:18
+    at invokeCallback (C:\Users\anand\Desktop\fundoo-Notes\node_modules\raw-body\index.js:224:16)
+    at done (C:\Users\anand\Desktop\fundoo-Notes\node_modules\raw-body\index.js:213:7)
+    at IncomingMessage.onEnd (C:\Users\anand\Desktop\fundoo-Notes\node_modules\raw-body\index.js:273:7)
+    at IncomingMessage.emit (node:events:402:35)
+    at IncomingMessage.emit (node:domain:475:12)
+    at endReadableNT (node:internal/streams/readable:1343:12)
+    at processTicksAndRejections (node:internal/process/task_queues:83:21) 
+    url - /api/v1/note/6220ca82fa064505e46160ab 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2022-03-03T14:14:49.392Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-03-03T14:15:30.170Z"}
+info: Connected to the database. {"timestamp":"2022-03-03T14:15:30.242Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read properties of null (reading '1')
+    at firstchar (C:\Users\anand\Desktop\fundoo-Notes\node_modules\body-parser\lib\types\json.js:176:37)
+    at parse (C:\Users\anand\Desktop\fundoo-Notes\node_modules\body-parser\lib\types\json.js:79:19)
+    at C:\Users\anand\Desktop\fundoo-Notes\node_modules\body-parser\lib\read.js:121:18
+    at invokeCallback (C:\Users\anand\Desktop\fundoo-Notes\node_modules\raw-body\index.js:224:16)
+    at done (C:\Users\anand\Desktop\fundoo-Notes\node_modules\raw-body\index.js:213:7)
+    at IncomingMessage.onEnd (C:\Users\anand\Desktop\fundoo-Notes\node_modules\raw-body\index.js:273:7)
+    at IncomingMessage.emit (node:events:402:35)
+    at IncomingMessage.emit (node:domain:475:12)
+    at endReadableNT (node:internal/streams/readable:1343:12)
+    at processTicksAndRejections (node:internal/process/task_queues:83:21) 
+    url - /api/v1/note/6220ca82fa064505e46160ab 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2022-03-03T14:15:36.143Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-03-03T14:15:58.600Z"}
+info: Connected to the database. {"timestamp":"2022-03-03T14:15:58.626Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-03-03T14:17:30.535Z"}
+info: Connected to the database. {"timestamp":"2022-03-03T14:17:30.560Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-03-03T14:17:40.503Z"}
+info: Connected to the database. {"timestamp":"2022-03-03T14:17:40.529Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-03-03T14:17:55.477Z"}
+info: Connected to the database. {"timestamp":"2022-03-03T14:17:55.508Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read properties of null (reading '1')
+    at firstchar (C:\Users\anand\Desktop\fundoo-Notes\node_modules\body-parser\lib\types\json.js:176:37)
+    at parse (C:\Users\anand\Desktop\fundoo-Notes\node_modules\body-parser\lib\types\json.js:79:19)
+    at C:\Users\anand\Desktop\fundoo-Notes\node_modules\body-parser\lib\read.js:121:18
+    at invokeCallback (C:\Users\anand\Desktop\fundoo-Notes\node_modules\raw-body\index.js:224:16)
+    at done (C:\Users\anand\Desktop\fundoo-Notes\node_modules\raw-body\index.js:213:7)
+    at IncomingMessage.onEnd (C:\Users\anand\Desktop\fundoo-Notes\node_modules\raw-body\index.js:273:7)
+    at IncomingMessage.emit (node:events:402:35)
+    at IncomingMessage.emit (node:domain:475:12)
+    at endReadableNT (node:internal/streams/readable:1343:12)
+    at processTicksAndRejections (node:internal/process/task_queues:83:21) 
+    url - /api/v1/note/6220ca82fa064505e46160ab 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2022-03-03T14:18:01.956Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read properties of null (reading '1')
+    at firstchar (C:\Users\anand\Desktop\fundoo-Notes\node_modules\body-parser\lib\types\json.js:176:37)
+    at parse (C:\Users\anand\Desktop\fundoo-Notes\node_modules\body-parser\lib\types\json.js:79:19)
+    at C:\Users\anand\Desktop\fundoo-Notes\node_modules\body-parser\lib\read.js:121:18
+    at invokeCallback (C:\Users\anand\Desktop\fundoo-Notes\node_modules\raw-body\index.js:224:16)
+    at done (C:\Users\anand\Desktop\fundoo-Notes\node_modules\raw-body\index.js:213:7)
+    at IncomingMessage.onEnd (C:\Users\anand\Desktop\fundoo-Notes\node_modules\raw-body\index.js:273:7)
+    at IncomingMessage.emit (node:events:402:35)
+    at IncomingMessage.emit (node:domain:475:12)
+    at endReadableNT (node:internal/streams/readable:1343:12)
+    at processTicksAndRejections (node:internal/process/task_queues:83:21) 
+    url - /api/v1/note/6220ca82fa064505e46160ab 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2022-03-03T14:18:12.722Z"}
+error: 
+    status - 500 
+    message - CastError: Cast to ObjectId failed for value "{ _id: ':NoteID', UserID: '6220c9bbfa064505e46160a5' }" (type Object) at path "_id" for model "Note"
+    at model.Query.exec (C:\Users\anand\Desktop\fundoo-Notes\node_modules\mongoose\lib\query.js:4498:21)
+    at model.Query.Query.then (C:\Users\anand\Desktop\fundoo-Notes\node_modules\mongoose\lib\query.js:4592:15)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/note/:NoteID 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2022-03-03T14:18:24.435Z"}
+error: 
+    status - 500 
+    message - CastError: Cast to ObjectId failed for value "{ _id: ':_id', UserID: '6220c9bbfa064505e46160a5' }" (type Object) at path "_id" for model "Note"
+    at model.Query.exec (C:\Users\anand\Desktop\fundoo-Notes\node_modules\mongoose\lib\query.js:4498:21)
+    at model.Query.Query.then (C:\Users\anand\Desktop\fundoo-Notes\node_modules\mongoose\lib\query.js:4592:15)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/note/:_id 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2022-03-03T14:19:38.605Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-03-03T14:20:34.333Z"}
+info: Connected to the database. {"timestamp":"2022-03-03T14:20:34.370Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-03-03T14:20:41.904Z"}
+info: Connected to the database. {"timestamp":"2022-03-03T14:20:41.930Z"}
+error: 
+    status - 500 
+    message - CastError: Cast to ObjectId failed for value ":_id" (type string) at path "_id" for model "Note"
+    at model.Query.exec (C:\Users\anand\Desktop\fundoo-Notes\node_modules\mongoose\lib\query.js:4498:21)
+    at model.Query.Query.then (C:\Users\anand\Desktop\fundoo-Notes\node_modules\mongoose\lib\query.js:4592:15)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/note/:_id 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2022-03-03T14:20:47.671Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-03-03T14:21:28.841Z"}
+info: Connected to the database. {"timestamp":"2022-03-03T14:21:28.872Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read properties of null (reading '1')
+    at firstchar (C:\Users\anand\Desktop\fundoo-Notes\node_modules\body-parser\lib\types\json.js:176:37)
+    at parse (C:\Users\anand\Desktop\fundoo-Notes\node_modules\body-parser\lib\types\json.js:79:19)
+    at C:\Users\anand\Desktop\fundoo-Notes\node_modules\body-parser\lib\read.js:121:18
+    at invokeCallback (C:\Users\anand\Desktop\fundoo-Notes\node_modules\raw-body\index.js:224:16)
+    at done (C:\Users\anand\Desktop\fundoo-Notes\node_modules\raw-body\index.js:213:7)
+    at IncomingMessage.onEnd (C:\Users\anand\Desktop\fundoo-Notes\node_modules\raw-body\index.js:273:7)
+    at IncomingMessage.emit (node:events:402:35)
+    at IncomingMessage.emit (node:domain:475:12)
+    at endReadableNT (node:internal/streams/readable:1343:12)
+    at processTicksAndRejections (node:internal/process/task_queues:83:21) 
+    url - /api/v1/note/6220ca82fa064505e46160ab 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2022-03-03T14:21:38.963Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read properties of null (reading '1')
+    at firstchar (C:\Users\anand\Desktop\fundoo-Notes\node_modules\body-parser\lib\types\json.js:176:37)
+    at parse (C:\Users\anand\Desktop\fundoo-Notes\node_modules\body-parser\lib\types\json.js:79:19)
+    at C:\Users\anand\Desktop\fundoo-Notes\node_modules\body-parser\lib\read.js:121:18
+    at invokeCallback (C:\Users\anand\Desktop\fundoo-Notes\node_modules\raw-body\index.js:224:16)
+    at done (C:\Users\anand\Desktop\fundoo-Notes\node_modules\raw-body\index.js:213:7)
+    at IncomingMessage.onEnd (C:\Users\anand\Desktop\fundoo-Notes\node_modules\raw-body\index.js:273:7)
+    at IncomingMessage.emit (node:events:402:35)
+    at IncomingMessage.emit (node:domain:475:12)
+    at endReadableNT (node:internal/streams/readable:1343:12)
+    at processTicksAndRejections (node:internal/process/task_queues:83:21) 
+    url - /api/v1/note/6220ca82fa064505e46160ab 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2022-03-03T14:21:51.466Z"}
+error: 
+    status - 500 
+    message - CastError: Cast to ObjectId failed for value "{ _id: ':_id', UserID: '6220c9bbfa064505e46160a5' }" (type Object) at path "_id" for model "Note"
+    at model.Query.exec (C:\Users\anand\Desktop\fundoo-Notes\node_modules\mongoose\lib\query.js:4498:21)
+    at model.Query.Query.then (C:\Users\anand\Desktop\fundoo-Notes\node_modules\mongoose\lib\query.js:4592:15)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/note/:_id 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2022-03-03T14:22:05.444Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-03-03T14:22:49.625Z"}
+info: Connected to the database. {"timestamp":"2022-03-03T14:22:49.650Z"}
+error: 
+    status - 500 
+    message - CastError: Cast to ObjectId failed for value "{ _id: ':_id', UserID: '6220c9bbfa064505e46160a5' }" (type Object) at path "_id" for model "Note"
+    at model.Query.exec (C:\Users\anand\Desktop\fundoo-Notes\node_modules\mongoose\lib\query.js:4498:21)
+    at model.Query.Query.then (C:\Users\anand\Desktop\fundoo-Notes\node_modules\mongoose\lib\query.js:4592:15)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/note/:_id 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2022-03-03T14:22:52.405Z"}
+error: 
+    status - 500 
+    message - CastError: Cast to ObjectId failed for value "{ _id: ':NoteID', UserID: undefined }" (type Object) at path "_id" for model "Note"
+    at model.Query.exec (C:\Users\anand\Desktop\fundoo-Notes\node_modules\mongoose\lib\query.js:4498:21)
+    at model.Query.Query.then (C:\Users\anand\Desktop\fundoo-Notes\node_modules\mongoose\lib\query.js:4592:15)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/note/archive/:NoteID 
+    method - PUT 
+    IP - ::1
+   {"timestamp":"2022-03-03T14:23:25.914Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-03-03T14:24:35.855Z"}
+info: Connected to the database. {"timestamp":"2022-03-03T14:24:35.883Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-03-03T14:24:44.382Z"}
+info: Connected to the database. {"timestamp":"2022-03-03T14:24:44.421Z"}
+error: 
+    status - 500 
+    message - CastError: Cast to ObjectId failed for value "{ _id: ':_id', UserID: undefined }" (type Object) at path "_id" for model "Note"
+    at model.Query.exec (C:\Users\anand\Desktop\fundoo-Notes\node_modules\mongoose\lib\query.js:4498:21)
+    at model.Query.Query.then (C:\Users\anand\Desktop\fundoo-Notes\node_modules\mongoose\lib\query.js:4592:15)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/note/archive/:_id 
+    method - PUT 
+    IP - ::1
+   {"timestamp":"2022-03-03T14:25:48.217Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-03-03T14:29:39.484Z"}
+info: Connected to the database. {"timestamp":"2022-03-03T14:29:39.508Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-03-03T14:29:58.316Z"}
+info: Connected to the database. {"timestamp":"2022-03-03T14:29:58.344Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-03-03T14:30:03.048Z"}
+info: Connected to the database. {"timestamp":"2022-03-03T14:30:03.073Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-03-03T14:33:11.266Z"}
+info: Connected to the database. {"timestamp":"2022-03-03T14:33:11.292Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-03-03T14:33:19.766Z"}
+info: Connected to the database. {"timestamp":"2022-03-03T14:33:19.799Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-03-03T14:33:44.796Z"}
+info: Connected to the database. {"timestamp":"2022-03-03T14:33:44.823Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-03-03T14:34:08.692Z"}
+info: Connected to the database. {"timestamp":"2022-03-03T14:34:08.720Z"}
+error: 
+    status - 500 
+    message - CastError: Cast to ObjectId failed for value "{ _id: '{_id}', UserID: undefined }" (type Object) at path "_id" for model "Note"
+    at model.Query.exec (C:\Users\anand\Desktop\fundoo-Notes\node_modules\mongoose\lib\query.js:4498:21)
+    at model.Query.Query.then (C:\Users\anand\Desktop\fundoo-Notes\node_modules\mongoose\lib\query.js:4592:15)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/note/%7B_id%7D 
+    method - DELETE 
+    IP - ::1
+   {"timestamp":"2022-03-03T14:37:08.883Z"}

@@ -20,7 +20,7 @@ noteRouter.put('/:_id', NoteAuthentication,noteController.updateById);
 
 //delete by id:
 
-noteRouter.delete('/:_id', NoteAuthentication,noteController.deleteUser);
+noteRouter.delete('/:_id', NoteAuthentication,noteController.deleteNote);
 
 //have to change is arcive to true by id
 noteRouter.put('/archive/:_id',NoteAuthentication,noteController.MakeArchive)
@@ -30,24 +30,4 @@ noteRouter.put('/trash/:_id',NoteAuthentication,noteController.TrashNote)
 
 export default noteRouter;
 
-
-
-
-
-// export const resetPassword = async (body) => {
-// const resetPass = await User.findByIdAndUpdate( body.UserID,
-//   body,
-//     {
-//         $set: { password: body.password },
-//     }
-//   );
-// body,
-// {
-//   new :true
-// }
-// console.log("Changed Password: " + resetPass.password);
-//   const hashP = bcrypt.hashSync(resetPass.password ,10);
-//   resetPass.password = hashP;
-//   return resetPass;
-// }
 

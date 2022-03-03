@@ -5,7 +5,7 @@ var _interopRequireDefault = require("@babel/runtime/helpers/interopRequireDefau
 Object.defineProperty(exports, "__esModule", {
   value: true
 });
-exports.userAuth = void 0;
+exports.PassAuth = exports.NoteAuthentication = void 0;
 
 var _regenerator = _interopRequireDefault(require("@babel/runtime/regenerator"));
 
@@ -26,7 +26,7 @@ var _winston = require("winston");
  * @param {Function} next
  */
 //need to generate token first:
-var userAuth = /*#__PURE__*/function () {
+var NoteAuthentication = /*#__PURE__*/function () {
   var _ref = (0, _asyncToGenerator2["default"])( /*#__PURE__*/_regenerator["default"].mark(function _callee(req, res, next) {
     var bearerToken;
     return _regenerator["default"].wrap(function _callee$(_context) {
@@ -34,11 +34,10 @@ var userAuth = /*#__PURE__*/function () {
         switch (_context.prev = _context.next) {
           case 0:
             _context.prev = 0;
-            bearerToken = req.header('Authorization');
-            console.log("before" + bearerToken); //checking if bearer is not defined 
+            bearerToken = req.header('Authorization'); //checking if bearer is not defined 
 
             if (bearerToken) {
-              _context.next = 5;
+              _context.next = 4;
               break;
             }
 
@@ -47,12 +46,72 @@ var userAuth = /*#__PURE__*/function () {
               message: 'Authorization token is required'
             };
 
-          case 5:
+          case 4:
             //choosing the second from string - second thing will have SECRET_CODE
-            bearerToken = bearerToken.split(' ')[1];
-            console.log("after : " + bearerToken); // + creditials + secret 
+            bearerToken = bearerToken.split(' ')[1]; // header + creditials + secret 
 
-            _jsonwebtoken["default"].verify(bearerToken, process.env.SECRET_CODE, function (err, verifedtoken) {
+            _jsonwebtoken["default"].verify(bearerToken, process.env.FORGET_PASS_CODE, function (err, verifedtoken) {
+              if (err) throw {
+                code: _httpStatusCodes["default"].BAD_REQUEST,
+                message: 'Authorization token is incorrect'
+              };else {
+                // req.body['data'] = verifedtoken; //this verified token will have email id ,id
+                // console.log(req.body.data);
+                req.body = verifedtoken;
+                req.body['UserID'] = verifedtoken.id;
+                console.log(req.body.UserID);
+                next();
+              }
+            });
+
+            _context.next = 11;
+            break;
+
+          case 8:
+            _context.prev = 8;
+            _context.t0 = _context["catch"](0);
+            next(_context.t0);
+
+          case 11:
+          case "end":
+            return _context.stop();
+        }
+      }
+    }, _callee, null, [[0, 8]]);
+  }));
+
+  return function NoteAuthentication(_x, _x2, _x3) {
+    return _ref.apply(this, arguments);
+  };
+}();
+
+exports.NoteAuthentication = NoteAuthentication;
+
+var PassAuth = /*#__PURE__*/function () {
+  var _ref2 = (0, _asyncToGenerator2["default"])( /*#__PURE__*/_regenerator["default"].mark(function _callee2(req, res, next) {
+    var bearerToken;
+    return _regenerator["default"].wrap(function _callee2$(_context2) {
+      while (1) {
+        switch (_context2.prev = _context2.next) {
+          case 0:
+            _context2.prev = 0;
+            bearerToken = req.header('Authorization'); //checking if bearer is not defined 
+
+            if (bearerToken) {
+              _context2.next = 4;
+              break;
+            }
+
+            throw {
+              code: _httpStatusCodes["default"].BAD_REQUEST,
+              message: 'Authorization token is required'
+            };
+
+          case 4:
+            //choosing the second from string - second thing will have SECRET_CODE
+            bearerToken = bearerToken.split(' ')[1]; // alg + creditials + secret 
+
+            _jsonwebtoken["default"].verify(bearerToken, process.env.FORGET_PASS_CODE, function (err, verifedtoken) {
               if (err) throw {
                 code: _httpStatusCodes["default"].BAD_REQUEST,
                 message: 'Authorization token is incorrect'
@@ -63,25 +122,25 @@ var userAuth = /*#__PURE__*/function () {
               }
             });
 
-            _context.next = 13;
+            _context2.next = 11;
             break;
 
-          case 10:
-            _context.prev = 10;
-            _context.t0 = _context["catch"](0);
-            next(_context.t0);
+          case 8:
+            _context2.prev = 8;
+            _context2.t0 = _context2["catch"](0);
+            next(_context2.t0);
 
-          case 13:
+          case 11:
           case "end":
-            return _context.stop();
+            return _context2.stop();
         }
       }
-    }, _callee, null, [[0, 10]]);
+    }, _callee2, null, [[0, 8]]);
   }));
 
-  return function userAuth(_x, _x2, _x3) {
-    return _ref.apply(this, arguments);
+  return function PassAuth(_x4, _x5, _x6) {
+    return _ref2.apply(this, arguments);
   };
 }();
 
-exports.userAuth = userAuth;
+exports.PassAuth = PassAuth;

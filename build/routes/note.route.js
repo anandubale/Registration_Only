@@ -24,23 +24,34 @@ function _interopRequireWildcard(obj, nodeInterop) { if (!nodeInterop && obj && 
 var noteRouter = _express["default"].Router(); //create note:
 
 
-noteRouter.post('', _auth.userAuth, noteController.create); //get all notes 
+noteRouter.post('', _auth.NoteAuthentication, noteController.create); //get all notes 
 
-noteRouter.get('/auth', _auth.userAuth, noteController.AllUsers); //get note by id
+noteRouter.get('', _auth.NoteAuthentication, noteController.AllUsers); //get note by id
 
-noteRouter.get('/auth/:_id', _auth.userAuth, noteController.getUserById); //update using put
+noteRouter.get('/:_id', _auth.NoteAuthentication, noteController.getUserById); //update using put
 
-noteRouter.put('/auth/:_id', _auth.userAuth, noteController.updateById); //delete by id:
+noteRouter.put('/:_id', _auth.NoteAuthentication, noteController.updateById); //delete by id:
 
-noteRouter["delete"]('/auth/:_id', _auth.userAuth, noteController.deleteUser); //understadinf user authentification:
-// noteRouter.get('/auth/:_id',noteController.getUser, userAuth );
-//have to change is arcive to true by id
+noteRouter["delete"]('/:_id', _auth.NoteAuthentication, noteController.deleteUser); //have to change is arcive to true by id
 
-noteRouter.put('/archive/:_id', noteController.MakeArchive);
-noteRouter.put('/delete/:_id', noteController.DeleteNote);
-var _default = noteRouter; //functions that have access to the 
-//request object ( req )
-//the response object ( res )
-//next middleware function in the application's request-response cycle.
+noteRouter.put('/archive/:_id', _auth.NoteAuthentication, noteController.MakeArchive); //have to change is trash to true by id
+
+noteRouter.put('/trash/:_id', _auth.NoteAuthentication, noteController.TrashNote);
+var _default = noteRouter; // export const resetPassword = async (body) => {
+// const resetPass = await User.findByIdAndUpdate( body.UserID,
+//   body,
+//     {
+//         $set: { password: body.password },
+//     }
+//   );
+// body,
+// {
+//   new :true
+// }
+// console.log("Changed Password: " + resetPass.password);
+//   const hashP = bcrypt.hashSync(resetPass.password ,10);
+//   resetPass.password = hashP;
+//   return resetPass;
+// }
 
 exports["default"] = _default;
