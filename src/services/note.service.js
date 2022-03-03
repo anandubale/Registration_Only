@@ -47,33 +47,32 @@ export const updateById = async(_id,body)=>{
 //delete user using id: working
 
 export const deleteUser = async(ID)=>{
-    await Note.findByIdAndDelete(ID);                   //difference between find by id and Remove.
+    await Note.findByIdAndDelete(ID);                   
 }
 
 
 
 export const MakeArchive = async(body)=>{
-    const SendingItToArchieve = await Note.findByIdAndUpdate({ 
+    const SendingItToArchieve = await Note.findByIdAndUpdate({UserID :body.UserID,
+        body,
+            $set: { isDeleted: true }
         
-
-
-
-        
-    
     });
+    body,
+    {
+        new : true
+    } 
+
     return SendingItToArchieve ;
 }
    
 
-//delete true --> working
 export const TrashNote = async(body)=>{
-    const TrashingIt = await Note.findByIdAndUpdate(body.UserID,
+    const TrashingIt = await Note.findByIdAndUpdate({UserID : body.UserID,
         body,
-        {   
-            $set: { isDeleted: true }
-        }
-
-    );
+        $set: { isDeleted: true }
+    
+    });
     body,
     {
         new : true

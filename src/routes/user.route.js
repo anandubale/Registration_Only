@@ -25,8 +25,3 @@ router.put('/reset',PassAuth,userController.resetPassword)
 
 export default router;
 
-//ajit@gmail.com
-//1234567890
-//_noteID = 621f1b34980bd41d60b1aa4d
-//token1 = eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbElEIjoiYWppdEBnbWFpbC5jb20iLCJpZCI6IjYyMWYxYTJhOTA1YzI4MjgxNGJiZjhhMyIsImlhdCI6MTY0NjIwNTUxOX0.hsbE8L9tmXVV9wXkIxZLIqMvUXTiXeyKGLB64yhwdgA
-
