@@ -13,7 +13,7 @@ import { log } from 'winston';
 //need to generate token first:
 
 
-export const userAuth1 = async (req, res, next) => {
+export const NoteAuthentication = async (req, res, next) => {
   try {
     let bearerToken = req.header('Authorization')
     //checking if bearer is not defined 
@@ -28,17 +28,23 @@ export const userAuth1 = async (req, res, next) => {
       
     bearerToken = bearerToken.split(' ')[1]
 
-    // + creditials + secret 
+    // header + creditials + secret 
 
-    jwt.verify(bearerToken, process.env.SECRET_CODE1,(err,verifedtoken)=>{
+    jwt.verify(bearerToken, process.env.FORGET_PASS_CODE,(err,verifedtoken)=>{
       if (err)
       throw {
         code: HttpStatus.BAD_REQUEST,
         message: 'Authorization token is incorrect'
       };
       else{
-        req.body['data'] = verifedtoken; //this verified token will have email id ,id
+        // req.body['data'] = verifedtoken; //this verified token will have email id ,id
+        // console.log(req.body.data);
+
+        req.body = verifedtoken;
+        req.body['UserID'] = verifedtoken.id;
+        console.log(req.body.UserID);
         next();
+
       }
     });
   } catch (error) {
@@ -50,10 +56,9 @@ export const userAuth1 = async (req, res, next) => {
 
 
 
-export const userAuth2 = async (req, res, next) => {
+export const PassAuth = async (req, res, next) => {
   try {
     let bearerToken = req.header('Authorization')
-    console.log("before"+bearerToken);
     //checking if bearer is not defined 
     if (!bearerToken)
       throw {
@@ -65,11 +70,10 @@ export const userAuth2 = async (req, res, next) => {
       //choosing the second from string - second thing will have SECRET_CODE
       
     bearerToken = bearerToken.split(' ')[1]
-    console.log("after : "+ bearerToken);
 
-    // + creditials + secret 
+    // alg + creditials + secret 
 
-    jwt.verify(bearerToken, process.env.SECRET_CODE2,(err,verifedtoken)=>{
+    jwt.verify(bearerToken, process.env.FORGET_PASS_CODE,(err,verifedtoken)=>{
       if (err)
       throw {
         code: HttpStatus.BAD_REQUEST,

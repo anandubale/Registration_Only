@@ -24,13 +24,15 @@ export const userRegistration = async (body) => {
 // login user;
 
                       //emailID + password = body
-export const login = async  (body)=>{                            
+export const login = async  (body)=>{ 
   const user = await User.findOne({emailID: body.emailID})
- 
+  console.log("UserPAssword : " + user.password);
+  console.log("bodyPAssword : " +  body.password);
   if(user != null){
-   const validPassword = bcrypt.compareSync(body.password,user.password);
+   const validPassword = bcrypt.compareSync(body.password, user.password);
+   console.log(validPassword);
    if(validPassword ){
-    const token = jwt.sign({"emailID": user.emailID,"id":user._id}, process.env.SECRET_CODE1);
+    const token = jwt.sign({"emailID": user.emailID,"id":user._id}, process.env.FORGET_PASS_CODE);
     return token;
    }
    else{
@@ -38,19 +40,18 @@ export const login = async  (body)=>{
    }
  }
  else{
-  throw new Error('User is not Registered');
-
+  throw new Error('User is not Registered');  
 }
 }
 
 
 
 
-export const forgetPassword = async (body) => {
+export const forgetPassword = async (emailID) => {
 
-  const storedData = await User.findOne({email: body.emailID})
+  const storedData = await User.findOne({emailID})  //problem is in here use proper Query
   if(storedData.emailID != null ){
-    const token = jwt.sign({"emailID": storedData.emailID,"id":storedData._id},process.env.SECRET_CODE2 );
+    const token = jwt.sign({"emailID": storedData.emailID,"id":storedData._id},process.env.FORGET_PASS_CODE );
     const generateMail = sendMailTo(storedData.emailID, token);
     return generateMail;
   }
@@ -62,21 +63,15 @@ export const forgetPassword = async (body) => {
 
 
 export const resetPassword = async (body) => {
-const resetPass = await User.findByIdAndUpdate( body.UserID,
-  body,
-    {
-        $set: { password: body.password },
-    }
-  );
+  const hashP = bcrypt.hashSync(body.password ,10);
+  body.password = hashP;
+  const resetPass = await User.findByIdAndUpdate( body.UserID,
   body,
   {
-    new :true 
+    new :true
+  });
+    return resetPass;
   }
-console.log("Changed Password: " + resetPass.password);
-  const hashP = bcrypt.hashSync(resetPass.password ,10);
-  resetPass.password = hashP;
-  return resetPass;
-}
 
 
 

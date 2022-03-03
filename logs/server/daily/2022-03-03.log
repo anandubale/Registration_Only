@@ -1,0 +1,26 @@
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-03-03T02:40:17.743Z"}
+info: Connected to the database. {"timestamp":"2022-03-03T02:40:17.843Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-03-03T02:42:06.273Z"}
+info: Connected to the database. {"timestamp":"2022-03-03T02:42:06.377Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-03-03T02:43:32.040Z"}
+info: Connected to the database. {"timestamp":"2022-03-03T02:43:32.072Z"}
+error: 
+    status - 500 
+    message - ValidationError: "password" length must be at least 10 characters long 
+    url - /api/v1/users/register 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-03-03T02:43:58.769Z"}
+error: 
+    status - 500 
+    message - ValidationError: "password" length must be at least 10 characters long 
+    url - /api/v1/users/register 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-03-03T02:44:01.216Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-03-03T02:46:19.324Z"}
+info: Connected to the database. {"timestamp":"2022-03-03T02:46:19.353Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-03-03T02:50:04.155Z"}
+info: Connected to the database. {"timestamp":"2022-03-03T02:50:04.180Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-03-03T02:50:41.763Z"}
+info: Connected to the database. {"timestamp":"2022-03-03T02:50:41.871Z"}

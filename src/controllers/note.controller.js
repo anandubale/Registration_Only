@@ -14,7 +14,6 @@ import * as NoteService from '../services/note.service';
 
 export const create = async (req, res, next) => {
   try {
-    req.body.UserID = req.body.data.id; //its a user id automatically created one
     console.log(req.body.UserID)
     const tokenToCreatedData = await NoteService.createNotes(req.body);
     res.status(HttpStatus.OK).json({
@@ -95,7 +94,6 @@ export const deleteUser = async(req,res,next)=>{
 
 export const MakeArchive = async(req,res,next)=>{
   try {
-    req.body.UserID = req.body.data.id;
     const returnData = await NoteService.MakeArchive(req.body);
     res.status(HttpStatus.OK).json({
       code:HttpStatus.OK,

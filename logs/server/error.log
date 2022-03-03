@@ -5615,3 +5615,762 @@ Error: Route.put() requires a callback function but got a [object Undefined]
     at Module._compile (C:\Users\anand\Desktop\fundoo-Notes\node_modules\pirates\lib\index.js:136:24)
     at Module._extensions..js (node:internal/modules/cjs/loader:1153:10)
     at Object.newLoader [as .js] (C:\Users\anand\Desktop\fundoo-Notes\node_modules\pirates\lib\index.js:141:7) {"date":"Wed Mar 02 2022 08:43:04 GMT+0530 (India Standard Time)","error":{},"exception":true,"os":{"loadavg":[0,0,0],"uptime":33900},"process":{"argv":["node","C:\\Users\\anand\\Desktop\\fundoo-Notes\\src\\index.js"],"cwd":"C:\\Users\\anand\\Desktop\\fundoo-Notes","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18393848,"external":19971666,"heapTotal":95940608,"heapUsed":55648584,"rss":128348160},"pid":10644,"uid":null,"version":"v16.13.2"},"stack":"Error: Route.put() requires a callback function but got a [object Undefined]\n    at Route.<computed> [as put] (C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\express\\lib\\router\\route.js:202:15)\n    at Function.put (C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\express\\lib\\router\\index.js:516:19)\n    at Object.<anonymous> (C:\\Users\\anand\\Desktop\\fundoo-Notes\\src\\routes\\/user.route.js:23:8)\n    at Module._compile (node:internal/modules/cjs/loader:1101:14)\n    at Module._compile (C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\pirates\\lib\\index.js:136:24)\n    at Module._extensions..js (node:internal/modules/cjs/loader:1153:10)\n    at Object.newLoader [as .js] (C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\pirates\\lib\\index.js:141:7)\n    at Module.load (node:internal/modules/cjs/loader:981:32)\n    at Function.Module._load (node:internal/modules/cjs/loader:822:12)\n    at Module.require (node:internal/modules/cjs/loader:1005:19)\n    at require (node:internal/modules/cjs/helpers:102:18)\n    at Object.<anonymous> (C:\\Users\\anand\\Desktop\\fundoo-Notes\\src\\routes\\/index.js:4:1)\n    at Module._compile (node:internal/modules/cjs/loader:1101:14)\n    at Module._compile (C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\pirates\\lib\\index.js:136:24)\n    at Module._extensions..js (node:internal/modules/cjs/loader:1153:10)\n    at Object.newLoader [as .js] (C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\pirates\\lib\\index.js:141:7)","timestamp":"2022-03-02T03:13:04.935Z","trace":[{"column":15,"file":"C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\express\\lib\\router\\route.js","function":"Route.<computed> [as put]","line":202,"method":"<computed> [as put]","native":false},{"column":19,"file":"C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\express\\lib\\router\\index.js","function":"Function.put","line":516,"method":"put","native":false},{"column":8,"file":"C:\\Users\\anand\\Desktop\\fundoo-Notes\\src\\routes\\/user.route.js","function":null,"line":23,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1101,"method":"_compile","native":false},{"column":24,"file":"C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\pirates\\lib\\index.js","function":"Module._compile","line":136,"method":"_compile","native":false},{"column":10,"file":"node:internal/modules/cjs/loader","function":"Module._extensions..js","line":1153,"method":".js","native":false},{"column":7,"file":"C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\pirates\\lib\\index.js","function":"Object.newLoader [as .js]","line":141,"method":"js]","native":false},{"column":32,"file":"node:internal/modules/cjs/loader","function":"Module.load","line":981,"method":"load","native":false},{"column":12,"file":"node:internal/modules/cjs/loader","function":"Module._load","line":822,"method":"_load","native":false},{"column":19,"file":"node:internal/modules/cjs/loader","function":"Module.require","line":1005,"method":"require","native":false},{"column":18,"file":"node:internal/modules/cjs/helpers","function":"require","line":102,"method":null,"native":false},{"column":1,"file":"C:\\Users\\anand\\Desktop\\fundoo-Notes\\src\\routes\\/index.js","function":null,"line":4,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1101,"method":"_compile","native":false},{"column":24,"file":"C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\pirates\\lib\\index.js","function":"Module._compile","line":136,"method":"_compile","native":false},{"column":10,"file":"node:internal/modules/cjs/loader","function":"Module._extensions..js","line":1153,"method":".js","native":false},{"column":7,"file":"C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\pirates\\lib\\index.js","function":"Object.newLoader [as .js]","line":141,"method":"js]","native":false}]}
+error: Could not connect to the database. connect ECONNREFUSED 127.0.0.1:27017 {"reason":{"commonWireVersion":null,"compatibilityError":null,"compatible":true,"heartbeatFrequencyMS":10000,"localThresholdMS":15,"logicalSessionTimeoutMinutes":null,"maxElectionId":null,"maxSetVersion":null,"servers":{},"setName":null,"stale":false,"type":"Single"},"stack":"MongooseServerSelectionError: connect ECONNREFUSED 127.0.0.1:27017\n    at NativeConnection.Connection.openUri (C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\mongoose\\lib\\connection.js:847:32)\n    at C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\mongoose\\lib\\index.js:351:10\n    at C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\mongoose\\lib\\helpers\\promiseOrCallback.js:32:5\n    at new Promise (<anonymous>)\n    at promiseOrCallback (C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\mongoose\\lib\\helpers\\promiseOrCallback.js:31:10)\n    at Mongoose._promiseOrCallback (C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\mongoose\\lib\\index.js:1149:10)\n    at Mongoose.connect (C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\mongoose\\lib\\index.js:350:20)\n    at _callee$ (C:\\Users\\anand\\Desktop\\fundoo-Notes\\src\\config\\/database.js:12:20)\n    at tryCatch (C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\regenerator-runtime\\runtime.js:63:40)\n    at Generator.invoke [as _invoke] (C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\regenerator-runtime\\runtime.js:294:22)\n    at Generator.next (C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\regenerator-runtime\\runtime.js:119:21)\n    at asyncGeneratorStep (C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js:3:24)\n    at _next (C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js:25:9)\n    at C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js:32:7\n    at new Promise (<anonymous>)\n    at C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js:21:12","timestamp":"2022-03-02T03:14:10.960Z"}
+error: Could not connect to the database. connect ECONNREFUSED 127.0.0.1:27017 {"reason":{"commonWireVersion":null,"compatibilityError":null,"compatible":true,"heartbeatFrequencyMS":10000,"localThresholdMS":15,"logicalSessionTimeoutMinutes":null,"maxElectionId":null,"maxSetVersion":null,"servers":{},"setName":null,"stale":false,"type":"Single"},"stack":"MongooseServerSelectionError: connect ECONNREFUSED 127.0.0.1:27017\n    at NativeConnection.Connection.openUri (C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\mongoose\\lib\\connection.js:847:32)\n    at C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\mongoose\\lib\\index.js:351:10\n    at C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\mongoose\\lib\\helpers\\promiseOrCallback.js:32:5\n    at new Promise (<anonymous>)\n    at promiseOrCallback (C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\mongoose\\lib\\helpers\\promiseOrCallback.js:31:10)\n    at Mongoose._promiseOrCallback (C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\mongoose\\lib\\index.js:1149:10)\n    at Mongoose.connect (C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\mongoose\\lib\\index.js:350:20)\n    at _callee$ (C:\\Users\\anand\\Desktop\\fundoo-Notes\\src\\config\\/database.js:12:20)\n    at tryCatch (C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\regenerator-runtime\\runtime.js:63:40)\n    at Generator.invoke [as _invoke] (C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\regenerator-runtime\\runtime.js:294:22)\n    at Generator.next (C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\regenerator-runtime\\runtime.js:119:21)\n    at asyncGeneratorStep (C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js:3:24)\n    at _next (C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js:25:9)\n    at C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js:32:7\n    at new Promise (<anonymous>)\n    at C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js:21:12","timestamp":"2022-03-02T07:06:25.832Z"}
+error: 
+    status - 500 
+    message - ValidationError: Note validation failed: Descreption: Path `Descreption` is required.
+    at model.Document.invalidate (C:\Users\anand\Desktop\fundoo-Notes\node_modules\mongoose\lib\document.js:2782:32)
+    at C:\Users\anand\Desktop\fundoo-Notes\node_modules\mongoose\lib\document.js:2574:17
+    at C:\Users\anand\Desktop\fundoo-Notes\node_modules\mongoose\lib\schematype.js:1273:9
+    at processTicksAndRejections (node:internal/process/task_queues:78:11) 
+    url - /api/v1/note 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-03-02T07:21:50.714Z"}
+error: uncaughtException: C:\Users\anand\Desktop\fundoo-Notes\src\services\note.service.js: Unexpected token, expected "," (71:68)
+
+[0m [90m 69 |[39m [36mexport[39m [36mconst[39m [33mMakeArchive[39m [33m=[39m [36masync[39m(body)[33m=>[39m{[0m
+[0m [90m 70 |[39m[0m
+[0m[31m[1m>[22m[39m[90m 71 |[39m     [36mconst[39m [33mSendingItToArchieve[39m [33m=[39m [36mawait[39m [33mNote[39m[33m.[39mfindByIdAndUpdate([33mUserID[39m [33m:[39m body[33m.[39m[33mUserID[39m[33m,[39m[0m
+[0m [90m    |[39m                                                                     [31m[1m^[22m[39m[0m
+[0m [90m 72 |[39m         body[33m,[39m[0m
+[0m [90m 73 |[39m         {[0m
+[0m [90m 74 |[39m             isArchived [33m:[39m [36mtrue[39m[0m
+SyntaxError: C:\Users\anand\Desktop\fundoo-Notes\src\services\note.service.js: Unexpected token, expected "," (71:68)
+
+[0m [90m 69 |[39m [36mexport[39m [36mconst[39m [33mMakeArchive[39m [33m=[39m [36masync[39m(body)[33m=>[39m{[0m
+[0m [90m 70 |[39m[0m
+[0m[31m[1m>[22m[39m[90m 71 |[39m     [36mconst[39m [33mSendingItToArchieve[39m [33m=[39m [36mawait[39m [33mNote[39m[33m.[39mfindByIdAndUpdate([33mUserID[39m [33m:[39m body[33m.[39m[33mUserID[39m[33m,[39m[0m
+[0m [90m    |[39m                                                                     [31m[1m^[22m[39m[0m
+[0m [90m 72 |[39m         body[33m,[39m[0m
+[0m [90m 73 |[39m         {[0m
+[0m [90m 74 |[39m             isArchived [33m:[39m [36mtrue[39m[0m
+    at Parser._raise (C:\Users\anand\Desktop\fundoo-Notes\node_modules\@babel\parser\src\parser\error.js:150:45)
+    at Parser.raiseWithData (C:\Users\anand\Desktop\fundoo-Notes\node_modules\@babel\parser\src\parser\error.js:145:17)
+    at Parser.raise (C:\Users\anand\Desktop\fundoo-Notes\node_modules\@babel\parser\src\parser\error.js:89:17)
+    at Parser.unexpected (C:\Users\anand\Desktop\fundoo-Notes\node_modules\@babel\parser\src\parser\util.js:174:16)
+    at Parser.expect (C:\Users\anand\Desktop\fundoo-Notes\node_modules\@babel\parser\src\parser\util.js:150:28)
+    at Parser.parseCallExpressionArguments (C:\Users\anand\Desktop\fundoo-Notes\node_modules\@babel\parser\src\parser\expression.js:987:14)
+    at Parser.parseCoverCallAndAsyncArrowHead (C:\Users\anand\Desktop\fundoo-Notes\node_modules\@babel\parser\src\parser\expression.js:862:29)
+    at Parser.parseSubscript (C:\Users\anand\Desktop\fundoo-Notes\node_modules\@babel\parser\src\parser\expression.js:747:19)
+    at Parser.parseSubscripts (C:\Users\anand\Desktop\fundoo-Notes\node_modules\@babel\parser\src\parser\expression.js:703:19)
+    at Parser.parseExprSubscripts (C:\Users\anand\Desktop\fundoo-Notes\node_modules\@babel\parser\src\parser\expression.js:688:17)
+    at Parser.parseUpdate (C:\Users\anand\Desktop\fundoo-Notes\node_modules\@babel\parser\src\parser\expression.js:662:21)
+    at Parser.parseMaybeUnary (C:\Users\anand\Desktop\fundoo-Notes\node_modules\@babel\parser\src\parser\expression.js:633:23)
+    at Parser.parseAwait (C:\Users\anand\Desktop\fundoo-Notes\node_modules\@babel\parser\src\parser\expression.js:2757:28)
+    at Parser.parseMaybeUnary (C:\Users\anand\Desktop\fundoo-Notes\node_modules\@babel\parser\src\parser\expression.js:597:25)
+    at Parser.parseMaybeUnaryOrPrivate (C:\Users\anand\Desktop\fundoo-Notes\node_modules\@babel\parser\src\parser\expression.js:388:14)
+    at Parser.parseExprOps (C:\Users\anand\Desktop\fundoo-Notes\node_modules\@babel\parser\src\parser\expression.js:398:23) {"date":"Wed Mar 02 2022 12:59:28 GMT+0530 (India Standard Time)","error":{"code":"BABEL_PARSE_ERROR","loc":{"column":68,"index":1627,"line":71},"pos":1627,"reasonCode":"UnexpectedToken"},"exception":true,"os":{"loadavg":[0,0,0],"uptime":49283},"process":{"argv":["node","C:\\Users\\anand\\Desktop\\fundoo-Notes\\src\\index.js"],"cwd":"C:\\Users\\anand\\Desktop\\fundoo-Notes","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18327762,"external":32520563,"heapTotal":104095744,"heapUsed":72722624,"rss":136323072},"pid":8232,"uid":null,"version":"v16.13.2"},"stack":"SyntaxError: C:\\Users\\anand\\Desktop\\fundoo-Notes\\src\\services\\note.service.js: Unexpected token, expected \",\" (71:68)\n\n\u001b[0m \u001b[90m 69 |\u001b[39m \u001b[36mexport\u001b[39m \u001b[36mconst\u001b[39m \u001b[33mMakeArchive\u001b[39m \u001b[33m=\u001b[39m \u001b[36masync\u001b[39m(body)\u001b[33m=>\u001b[39m{\u001b[0m\n\u001b[0m \u001b[90m 70 |\u001b[39m\u001b[0m\n\u001b[0m\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 71 |\u001b[39m     \u001b[36mconst\u001b[39m \u001b[33mSendingItToArchieve\u001b[39m \u001b[33m=\u001b[39m \u001b[36mawait\u001b[39m \u001b[33mNote\u001b[39m\u001b[33m.\u001b[39mfindByIdAndUpdate(\u001b[33mUserID\u001b[39m \u001b[33m:\u001b[39m body\u001b[33m.\u001b[39m\u001b[33mUserID\u001b[39m\u001b[33m,\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m    |\u001b[39m                                                                     \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 72 |\u001b[39m         body\u001b[33m,\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 73 |\u001b[39m         {\u001b[0m\n\u001b[0m \u001b[90m 74 |\u001b[39m             isArchived \u001b[33m:\u001b[39m \u001b[36mtrue\u001b[39m\u001b[0m\n    at Parser._raise (C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\@babel\\parser\\src\\parser\\error.js:150:45)\n    at Parser.raiseWithData (C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\@babel\\parser\\src\\parser\\error.js:145:17)\n    at Parser.raise (C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\@babel\\parser\\src\\parser\\error.js:89:17)\n    at Parser.unexpected (C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\@babel\\parser\\src\\parser\\util.js:174:16)\n    at Parser.expect (C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\@babel\\parser\\src\\parser\\util.js:150:28)\n    at Parser.parseCallExpressionArguments (C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\@babel\\parser\\src\\parser\\expression.js:987:14)\n    at Parser.parseCoverCallAndAsyncArrowHead (C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\@babel\\parser\\src\\parser\\expression.js:862:29)\n    at Parser.parseSubscript (C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\@babel\\parser\\src\\parser\\expression.js:747:19)\n    at Parser.parseSubscripts (C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\@babel\\parser\\src\\parser\\expression.js:703:19)\n    at Parser.parseExprSubscripts (C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\@babel\\parser\\src\\parser\\expression.js:688:17)\n    at Parser.parseUpdate (C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\@babel\\parser\\src\\parser\\expression.js:662:21)\n    at Parser.parseMaybeUnary (C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\@babel\\parser\\src\\parser\\expression.js:633:23)\n    at Parser.parseAwait (C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\@babel\\parser\\src\\parser\\expression.js:2757:28)\n    at Parser.parseMaybeUnary (C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\@babel\\parser\\src\\parser\\expression.js:597:25)\n    at Parser.parseMaybeUnaryOrPrivate (C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\@babel\\parser\\src\\parser\\expression.js:388:14)\n    at Parser.parseExprOps (C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\@babel\\parser\\src\\parser\\expression.js:398:23)","timestamp":"2022-03-02T07:29:28.101Z","trace":[{"column":45,"file":"C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\@babel\\parser\\src\\parser\\error.js","function":"Parser._raise","line":150,"method":"_raise","native":false},{"column":17,"file":"C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\@babel\\parser\\src\\parser\\error.js","function":"Parser.raiseWithData","line":145,"method":"raiseWithData","native":false},{"column":17,"file":"C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\@babel\\parser\\src\\parser\\error.js","function":"Parser.raise","line":89,"method":"raise","native":false},{"column":16,"file":"C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\@babel\\parser\\src\\parser\\util.js","function":"Parser.unexpected","line":174,"method":"unexpected","native":false},{"column":28,"file":"C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\@babel\\parser\\src\\parser\\util.js","function":"Parser.expect","line":150,"method":"expect","native":false},{"column":14,"file":"C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\@babel\\parser\\src\\parser\\expression.js","function":"Parser.parseCallExpressionArguments","line":987,"method":"parseCallExpressionArguments","native":false},{"column":29,"file":"C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\@babel\\parser\\src\\parser\\expression.js","function":"Parser.parseCoverCallAndAsyncArrowHead","line":862,"method":"parseCoverCallAndAsyncArrowHead","native":false},{"column":19,"file":"C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\@babel\\parser\\src\\parser\\expression.js","function":"Parser.parseSubscript","line":747,"method":"parseSubscript","native":false},{"column":19,"file":"C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\@babel\\parser\\src\\parser\\expression.js","function":"Parser.parseSubscripts","line":703,"method":"parseSubscripts","native":false},{"column":17,"file":"C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\@babel\\parser\\src\\parser\\expression.js","function":"Parser.parseExprSubscripts","line":688,"method":"parseExprSubscripts","native":false},{"column":21,"file":"C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\@babel\\parser\\src\\parser\\expression.js","function":"Parser.parseUpdate","line":662,"method":"parseUpdate","native":false},{"column":23,"file":"C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\@babel\\parser\\src\\parser\\expression.js","function":"Parser.parseMaybeUnary","line":633,"method":"parseMaybeUnary","native":false},{"column":28,"file":"C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\@babel\\parser\\src\\parser\\expression.js","function":"Parser.parseAwait","line":2757,"method":"parseAwait","native":false},{"column":25,"file":"C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\@babel\\parser\\src\\parser\\expression.js","function":"Parser.parseMaybeUnary","line":597,"method":"parseMaybeUnary","native":false},{"column":14,"file":"C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\@babel\\parser\\src\\parser\\expression.js","function":"Parser.parseMaybeUnaryOrPrivate","line":388,"method":"parseMaybeUnaryOrPrivate","native":false},{"column":23,"file":"C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\@babel\\parser\\src\\parser\\expression.js","function":"Parser.parseExprOps","line":398,"method":"parseExprOps","native":false}]}
+error: uncaughtException: C:\Users\anand\Desktop\fundoo-Notes\src\services\note.service.js: Unexpected token, expected "," (71:68)
+
+[0m [90m 69 |[39m [36mexport[39m [36mconst[39m [33mMakeArchive[39m [33m=[39m [36masync[39m(body)[33m=>[39m{[0m
+[0m [90m 70 |[39m[0m
+[0m[31m[1m>[22m[39m[90m 71 |[39m     [36mconst[39m [33mSendingItToArchieve[39m [33m=[39m [36mawait[39m [33mNote[39m[33m.[39mfindByIdAndUpdate([33mUserID[39m [33m:[39m [32m"body.UserID"[39m[33m,[39m[0m
+[0m [90m    |[39m                                                                     [31m[1m^[22m[39m[0m
+[0m [90m 72 |[39m         body[33m,[39m[0m
+[0m [90m 73 |[39m         {[0m
+[0m [90m 74 |[39m             isArchived [33m:[39m [36mtrue[39m[0m
+SyntaxError: C:\Users\anand\Desktop\fundoo-Notes\src\services\note.service.js: Unexpected token, expected "," (71:68)
+
+[0m [90m 69 |[39m [36mexport[39m [36mconst[39m [33mMakeArchive[39m [33m=[39m [36masync[39m(body)[33m=>[39m{[0m
+[0m [90m 70 |[39m[0m
+[0m[31m[1m>[22m[39m[90m 71 |[39m     [36mconst[39m [33mSendingItToArchieve[39m [33m=[39m [36mawait[39m [33mNote[39m[33m.[39mfindByIdAndUpdate([33mUserID[39m [33m:[39m [32m"body.UserID"[39m[33m,[39m[0m
+[0m [90m    |[39m                                                                     [31m[1m^[22m[39m[0m
+[0m [90m 72 |[39m         body[33m,[39m[0m
+[0m [90m 73 |[39m         {[0m
+[0m [90m 74 |[39m             isArchived [33m:[39m [36mtrue[39m[0m
+    at Parser._raise (C:\Users\anand\Desktop\fundoo-Notes\node_modules\@babel\parser\src\parser\error.js:150:45)
+    at Parser.raiseWithData (C:\Users\anand\Desktop\fundoo-Notes\node_modules\@babel\parser\src\parser\error.js:145:17)
+    at Parser.raise (C:\Users\anand\Desktop\fundoo-Notes\node_modules\@babel\parser\src\parser\error.js:89:17)
+    at Parser.unexpected (C:\Users\anand\Desktop\fundoo-Notes\node_modules\@babel\parser\src\parser\util.js:174:16)
+    at Parser.expect (C:\Users\anand\Desktop\fundoo-Notes\node_modules\@babel\parser\src\parser\util.js:150:28)
+    at Parser.parseCallExpressionArguments (C:\Users\anand\Desktop\fundoo-Notes\node_modules\@babel\parser\src\parser\expression.js:987:14)
+    at Parser.parseCoverCallAndAsyncArrowHead (C:\Users\anand\Desktop\fundoo-Notes\node_modules\@babel\parser\src\parser\expression.js:862:29)
+    at Parser.parseSubscript (C:\Users\anand\Desktop\fundoo-Notes\node_modules\@babel\parser\src\parser\expression.js:747:19)
+    at Parser.parseSubscripts (C:\Users\anand\Desktop\fundoo-Notes\node_modules\@babel\parser\src\parser\expression.js:703:19)
+    at Parser.parseExprSubscripts (C:\Users\anand\Desktop\fundoo-Notes\node_modules\@babel\parser\src\parser\expression.js:688:17)
+    at Parser.parseUpdate (C:\Users\anand\Desktop\fundoo-Notes\node_modules\@babel\parser\src\parser\expression.js:662:21)
+    at Parser.parseMaybeUnary (C:\Users\anand\Desktop\fundoo-Notes\node_modules\@babel\parser\src\parser\expression.js:633:23)
+    at Parser.parseAwait (C:\Users\anand\Desktop\fundoo-Notes\node_modules\@babel\parser\src\parser\expression.js:2757:28)
+    at Parser.parseMaybeUnary (C:\Users\anand\Desktop\fundoo-Notes\node_modules\@babel\parser\src\parser\expression.js:597:25)
+    at Parser.parseMaybeUnaryOrPrivate (C:\Users\anand\Desktop\fundoo-Notes\node_modules\@babel\parser\src\parser\expression.js:388:14)
+    at Parser.parseExprOps (C:\Users\anand\Desktop\fundoo-Notes\node_modules\@babel\parser\src\parser\expression.js:398:23) {"date":"Wed Mar 02 2022 13:00:11 GMT+0530 (India Standard Time)","error":{"code":"BABEL_PARSE_ERROR","loc":{"column":68,"index":1627,"line":71},"pos":1627,"reasonCode":"UnexpectedToken"},"exception":true,"os":{"loadavg":[0,0,0],"uptime":49327},"process":{"argv":["node","C:\\Users\\anand\\Desktop\\fundoo-Notes\\src\\index.js"],"cwd":"C:\\Users\\anand\\Desktop\\fundoo-Notes","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18368722,"external":26936491,"heapTotal":103366656,"heapUsed":75496456,"rss":136790016},"pid":16352,"uid":null,"version":"v16.13.2"},"stack":"SyntaxError: C:\\Users\\anand\\Desktop\\fundoo-Notes\\src\\services\\note.service.js: Unexpected token, expected \",\" (71:68)\n\n\u001b[0m \u001b[90m 69 |\u001b[39m \u001b[36mexport\u001b[39m \u001b[36mconst\u001b[39m \u001b[33mMakeArchive\u001b[39m \u001b[33m=\u001b[39m \u001b[36masync\u001b[39m(body)\u001b[33m=>\u001b[39m{\u001b[0m\n\u001b[0m \u001b[90m 70 |\u001b[39m\u001b[0m\n\u001b[0m\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 71 |\u001b[39m     \u001b[36mconst\u001b[39m \u001b[33mSendingItToArchieve\u001b[39m \u001b[33m=\u001b[39m \u001b[36mawait\u001b[39m \u001b[33mNote\u001b[39m\u001b[33m.\u001b[39mfindByIdAndUpdate(\u001b[33mUserID\u001b[39m \u001b[33m:\u001b[39m \u001b[32m\"body.UserID\"\u001b[39m\u001b[33m,\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m    |\u001b[39m                                                                     \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 72 |\u001b[39m         body\u001b[33m,\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 73 |\u001b[39m         {\u001b[0m\n\u001b[0m \u001b[90m 74 |\u001b[39m             isArchived \u001b[33m:\u001b[39m \u001b[36mtrue\u001b[39m\u001b[0m\n    at Parser._raise (C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\@babel\\parser\\src\\parser\\error.js:150:45)\n    at Parser.raiseWithData (C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\@babel\\parser\\src\\parser\\error.js:145:17)\n    at Parser.raise (C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\@babel\\parser\\src\\parser\\error.js:89:17)\n    at Parser.unexpected (C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\@babel\\parser\\src\\parser\\util.js:174:16)\n    at Parser.expect (C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\@babel\\parser\\src\\parser\\util.js:150:28)\n    at Parser.parseCallExpressionArguments (C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\@babel\\parser\\src\\parser\\expression.js:987:14)\n    at Parser.parseCoverCallAndAsyncArrowHead (C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\@babel\\parser\\src\\parser\\expression.js:862:29)\n    at Parser.parseSubscript (C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\@babel\\parser\\src\\parser\\expression.js:747:19)\n    at Parser.parseSubscripts (C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\@babel\\parser\\src\\parser\\expression.js:703:19)\n    at Parser.parseExprSubscripts (C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\@babel\\parser\\src\\parser\\expression.js:688:17)\n    at Parser.parseUpdate (C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\@babel\\parser\\src\\parser\\expression.js:662:21)\n    at Parser.parseMaybeUnary (C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\@babel\\parser\\src\\parser\\expression.js:633:23)\n    at Parser.parseAwait (C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\@babel\\parser\\src\\parser\\expression.js:2757:28)\n    at Parser.parseMaybeUnary (C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\@babel\\parser\\src\\parser\\expression.js:597:25)\n    at Parser.parseMaybeUnaryOrPrivate (C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\@babel\\parser\\src\\parser\\expression.js:388:14)\n    at Parser.parseExprOps (C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\@babel\\parser\\src\\parser\\expression.js:398:23)","timestamp":"2022-03-02T07:30:11.662Z","trace":[{"column":45,"file":"C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\@babel\\parser\\src\\parser\\error.js","function":"Parser._raise","line":150,"method":"_raise","native":false},{"column":17,"file":"C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\@babel\\parser\\src\\parser\\error.js","function":"Parser.raiseWithData","line":145,"method":"raiseWithData","native":false},{"column":17,"file":"C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\@babel\\parser\\src\\parser\\error.js","function":"Parser.raise","line":89,"method":"raise","native":false},{"column":16,"file":"C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\@babel\\parser\\src\\parser\\util.js","function":"Parser.unexpected","line":174,"method":"unexpected","native":false},{"column":28,"file":"C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\@babel\\parser\\src\\parser\\util.js","function":"Parser.expect","line":150,"method":"expect","native":false},{"column":14,"file":"C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\@babel\\parser\\src\\parser\\expression.js","function":"Parser.parseCallExpressionArguments","line":987,"method":"parseCallExpressionArguments","native":false},{"column":29,"file":"C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\@babel\\parser\\src\\parser\\expression.js","function":"Parser.parseCoverCallAndAsyncArrowHead","line":862,"method":"parseCoverCallAndAsyncArrowHead","native":false},{"column":19,"file":"C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\@babel\\parser\\src\\parser\\expression.js","function":"Parser.parseSubscript","line":747,"method":"parseSubscript","native":false},{"column":19,"file":"C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\@babel\\parser\\src\\parser\\expression.js","function":"Parser.parseSubscripts","line":703,"method":"parseSubscripts","native":false},{"column":17,"file":"C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\@babel\\parser\\src\\parser\\expression.js","function":"Parser.parseExprSubscripts","line":688,"method":"parseExprSubscripts","native":false},{"column":21,"file":"C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\@babel\\parser\\src\\parser\\expression.js","function":"Parser.parseUpdate","line":662,"method":"parseUpdate","native":false},{"column":23,"file":"C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\@babel\\parser\\src\\parser\\expression.js","function":"Parser.parseMaybeUnary","line":633,"method":"parseMaybeUnary","native":false},{"column":28,"file":"C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\@babel\\parser\\src\\parser\\expression.js","function":"Parser.parseAwait","line":2757,"method":"parseAwait","native":false},{"column":25,"file":"C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\@babel\\parser\\src\\parser\\expression.js","function":"Parser.parseMaybeUnary","line":597,"method":"parseMaybeUnary","native":false},{"column":14,"file":"C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\@babel\\parser\\src\\parser\\expression.js","function":"Parser.parseMaybeUnaryOrPrivate","line":388,"method":"parseMaybeUnaryOrPrivate","native":false},{"column":23,"file":"C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\@babel\\parser\\src\\parser\\expression.js","function":"Parser.parseExprOps","line":398,"method":"parseExprOps","native":false}]}
+error: 
+    status - 500 
+    message - TypeError: Cannot read properties of null (reading 'isArchived')
+    at _callee6$ (C:\Users\anand\Desktop\fundoo-Notes\src\services\/note.service.js:81:37)
+    at tryCatch (C:\Users\anand\Desktop\fundoo-Notes\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (C:\Users\anand\Desktop\fundoo-Notes\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (C:\Users\anand\Desktop\fundoo-Notes\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (C:\Users\anand\Desktop\fundoo-Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\anand\Desktop\fundoo-Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/note/archive/621f1b34980bd41d60b1aa4d 
+    method - PUT 
+    IP - ::1
+   {"timestamp":"2022-03-02T07:34:00.828Z"}
+error: uncaughtException: Route.post() requires a callback function but got a [object Undefined]
+Error: Route.post() requires a callback function but got a [object Undefined]
+    at Route.<computed> [as post] (C:\Users\anand\Desktop\fundoo-Notes\node_modules\express\lib\router\route.js:202:15)
+    at Function.post (C:\Users\anand\Desktop\fundoo-Notes\node_modules\express\lib\router\index.js:516:19)
+    at Object.<anonymous> (C:\Users\anand\Desktop\fundoo-Notes\src\routes\/note.route.js:10:12)
+    at Module._compile (node:internal/modules/cjs/loader:1101:14)
+    at Module._compile (C:\Users\anand\Desktop\fundoo-Notes\node_modules\pirates\lib\index.js:136:24)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1153:10)
+    at Object.newLoader [as .js] (C:\Users\anand\Desktop\fundoo-Notes\node_modules\pirates\lib\index.js:141:7)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at Object.<anonymous> (C:\Users\anand\Desktop\fundoo-Notes\src\routes\/index.js:5:1)
+    at Module._compile (node:internal/modules/cjs/loader:1101:14)
+    at Module._compile (C:\Users\anand\Desktop\fundoo-Notes\node_modules\pirates\lib\index.js:136:24)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1153:10)
+    at Object.newLoader [as .js] (C:\Users\anand\Desktop\fundoo-Notes\node_modules\pirates\lib\index.js:141:7) {"date":"Wed Mar 02 2022 13:07:47 GMT+0530 (India Standard Time)","error":{},"exception":true,"os":{"loadavg":[0,0,0],"uptime":49783},"process":{"argv":["node","C:\\Users\\anand\\Desktop\\fundoo-Notes\\src\\index.js"],"cwd":"C:\\Users\\anand\\Desktop\\fundoo-Notes","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18384930,"external":25301302,"heapTotal":94105600,"heapUsed":59836424,"rss":127197184},"pid":16260,"uid":null,"version":"v16.13.2"},"stack":"Error: Route.post() requires a callback function but got a [object Undefined]\n    at Route.<computed> [as post] (C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\express\\lib\\router\\route.js:202:15)\n    at Function.post (C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\express\\lib\\router\\index.js:516:19)\n    at Object.<anonymous> (C:\\Users\\anand\\Desktop\\fundoo-Notes\\src\\routes\\/note.route.js:10:12)\n    at Module._compile (node:internal/modules/cjs/loader:1101:14)\n    at Module._compile (C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\pirates\\lib\\index.js:136:24)\n    at Module._extensions..js (node:internal/modules/cjs/loader:1153:10)\n    at Object.newLoader [as .js] (C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\pirates\\lib\\index.js:141:7)\n    at Module.load (node:internal/modules/cjs/loader:981:32)\n    at Function.Module._load (node:internal/modules/cjs/loader:822:12)\n    at Module.require (node:internal/modules/cjs/loader:1005:19)\n    at require (node:internal/modules/cjs/helpers:102:18)\n    at Object.<anonymous> (C:\\Users\\anand\\Desktop\\fundoo-Notes\\src\\routes\\/index.js:5:1)\n    at Module._compile (node:internal/modules/cjs/loader:1101:14)\n    at Module._compile (C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\pirates\\lib\\index.js:136:24)\n    at Module._extensions..js (node:internal/modules/cjs/loader:1153:10)\n    at Object.newLoader [as .js] (C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\pirates\\lib\\index.js:141:7)","timestamp":"2022-03-02T07:37:47.641Z","trace":[{"column":15,"file":"C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\express\\lib\\router\\route.js","function":"Route.<computed> [as post]","line":202,"method":"<computed> [as post]","native":false},{"column":19,"file":"C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\express\\lib\\router\\index.js","function":"Function.post","line":516,"method":"post","native":false},{"column":12,"file":"C:\\Users\\anand\\Desktop\\fundoo-Notes\\src\\routes\\/note.route.js","function":null,"line":10,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1101,"method":"_compile","native":false},{"column":24,"file":"C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\pirates\\lib\\index.js","function":"Module._compile","line":136,"method":"_compile","native":false},{"column":10,"file":"node:internal/modules/cjs/loader","function":"Module._extensions..js","line":1153,"method":".js","native":false},{"column":7,"file":"C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\pirates\\lib\\index.js","function":"Object.newLoader [as .js]","line":141,"method":"js]","native":false},{"column":32,"file":"node:internal/modules/cjs/loader","function":"Module.load","line":981,"method":"load","native":false},{"column":12,"file":"node:internal/modules/cjs/loader","function":"Module._load","line":822,"method":"_load","native":false},{"column":19,"file":"node:internal/modules/cjs/loader","function":"Module.require","line":1005,"method":"require","native":false},{"column":18,"file":"node:internal/modules/cjs/helpers","function":"require","line":102,"method":null,"native":false},{"column":1,"file":"C:\\Users\\anand\\Desktop\\fundoo-Notes\\src\\routes\\/index.js","function":null,"line":5,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1101,"method":"_compile","native":false},{"column":24,"file":"C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\pirates\\lib\\index.js","function":"Module._compile","line":136,"method":"_compile","native":false},{"column":10,"file":"node:internal/modules/cjs/loader","function":"Module._extensions..js","line":1153,"method":".js","native":false},{"column":7,"file":"C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\pirates\\lib\\index.js","function":"Object.newLoader [as .js]","line":141,"method":"js]","native":false}]}
+error: 
+    status - 500 
+    message - TypeError: _note.default.findByOneAndUpdate is not a function
+    at _callee6$ (C:\Users\anand\Desktop\fundoo-Notes\src\services\/note.service.js:71:44)
+    at tryCatch (C:\Users\anand\Desktop\fundoo-Notes\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (C:\Users\anand\Desktop\fundoo-Notes\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (C:\Users\anand\Desktop\fundoo-Notes\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (C:\Users\anand\Desktop\fundoo-Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\anand\Desktop\fundoo-Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at C:\Users\anand\Desktop\fundoo-Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at Object.<anonymous> (C:\Users\anand\Desktop\fundoo-Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12)
+    at Object.MakeArchive (C:\Users\anand\Desktop\fundoo-Notes\src\services\/note.service.js:69:25)
+    at _callee6$ (C:\Users\anand\Desktop\fundoo-Notes\src\controllers\/note.controller.js:100:42)
+    at tryCatch (C:\Users\anand\Desktop\fundoo-Notes\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (C:\Users\anand\Desktop\fundoo-Notes\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (C:\Users\anand\Desktop\fundoo-Notes\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (C:\Users\anand\Desktop\fundoo-Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\anand\Desktop\fundoo-Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9) 
+    url - /api/v1/note/archive/621f1b34980bd41d60b1aa4d 
+    method - PUT 
+    IP - ::1
+   {"timestamp":"2022-03-02T07:58:54.148Z"}
+error: uncaughtException: C:\Users\anand\Desktop\fundoo-Notes\src\services\note.service.js: Unexpected token, expected "," (71:12)
+
+[0m [90m 69 |[39m [36mexport[39m [36mconst[39m [33mMakeArchive[39m [33m=[39m [36masync[39m(body)[33m=>[39m{[0m
+[0m [90m 70 |[39m     [36mconst[39m [33mSendingItToArchieve[39m [33m=[39m [36mawait[39m [33mNote[39m[33m.[39mfindByIdAndUpdate( body[33m.[39m[33mUserID[39m[33m,[39m[0m
+[0m[31m[1m>[22m[39m[90m 71 |[39m         body{[0m
+[0m [90m    |[39m             [31m[1m^[22m[39m[0m
+[0m [90m 72 |[39m             $set[33m:[39m [0m
+[0m [90m 73 |[39m             {[0m
+[0m [90m 74 |[39m                 isArchived [33m:[39m [36mtrue[39m[0m
+SyntaxError: C:\Users\anand\Desktop\fundoo-Notes\src\services\note.service.js: Unexpected token, expected "," (71:12)
+
+[0m [90m 69 |[39m [36mexport[39m [36mconst[39m [33mMakeArchive[39m [33m=[39m [36masync[39m(body)[33m=>[39m{[0m
+[0m [90m 70 |[39m     [36mconst[39m [33mSendingItToArchieve[39m [33m=[39m [36mawait[39m [33mNote[39m[33m.[39mfindByIdAndUpdate( body[33m.[39m[33mUserID[39m[33m,[39m[0m
+[0m[31m[1m>[22m[39m[90m 71 |[39m         body{[0m
+[0m [90m    |[39m             [31m[1m^[22m[39m[0m
+[0m [90m 72 |[39m             $set[33m:[39m [0m
+[0m [90m 73 |[39m             {[0m
+[0m [90m 74 |[39m                 isArchived [33m:[39m [36mtrue[39m[0m
+    at Parser._raise (C:\Users\anand\Desktop\fundoo-Notes\node_modules\@babel\parser\src\parser\error.js:150:45)
+    at Parser.raiseWithData (C:\Users\anand\Desktop\fundoo-Notes\node_modules\@babel\parser\src\parser\error.js:145:17)
+    at Parser.raise (C:\Users\anand\Desktop\fundoo-Notes\node_modules\@babel\parser\src\parser\error.js:89:17)
+    at Parser.unexpected (C:\Users\anand\Desktop\fundoo-Notes\node_modules\@babel\parser\src\parser\util.js:174:16)
+    at Parser.expect (C:\Users\anand\Desktop\fundoo-Notes\node_modules\@babel\parser\src\parser\util.js:150:28)
+    at Parser.parseCallExpressionArguments (C:\Users\anand\Desktop\fundoo-Notes\node_modules\@babel\parser\src\parser\expression.js:987:14)
+    at Parser.parseCoverCallAndAsyncArrowHead (C:\Users\anand\Desktop\fundoo-Notes\node_modules\@babel\parser\src\parser\expression.js:862:29)
+    at Parser.parseSubscript (C:\Users\anand\Desktop\fundoo-Notes\node_modules\@babel\parser\src\parser\expression.js:747:19)
+    at Parser.parseSubscripts (C:\Users\anand\Desktop\fundoo-Notes\node_modules\@babel\parser\src\parser\expression.js:703:19)
+    at Parser.parseExprSubscripts (C:\Users\anand\Desktop\fundoo-Notes\node_modules\@babel\parser\src\parser\expression.js:688:17)
+    at Parser.parseUpdate (C:\Users\anand\Desktop\fundoo-Notes\node_modules\@babel\parser\src\parser\expression.js:662:21)
+    at Parser.parseMaybeUnary (C:\Users\anand\Desktop\fundoo-Notes\node_modules\@babel\parser\src\parser\expression.js:633:23)
+    at Parser.parseAwait (C:\Users\anand\Desktop\fundoo-Notes\node_modules\@babel\parser\src\parser\expression.js:2757:28)
+    at Parser.parseMaybeUnary (C:\Users\anand\Desktop\fundoo-Notes\node_modules\@babel\parser\src\parser\expression.js:597:25)
+    at Parser.parseMaybeUnaryOrPrivate (C:\Users\anand\Desktop\fundoo-Notes\node_modules\@babel\parser\src\parser\expression.js:388:14)
+    at Parser.parseExprOps (C:\Users\anand\Desktop\fundoo-Notes\node_modules\@babel\parser\src\parser\expression.js:398:23) {"date":"Wed Mar 02 2022 13:36:44 GMT+0530 (India Standard Time)","error":{"code":"BABEL_PARSE_ERROR","loc":{"column":12,"index":1645,"line":71},"pos":1645,"reasonCode":"UnexpectedToken"},"exception":true,"os":{"loadavg":[0,0,0],"uptime":51520},"process":{"argv":["node","C:\\Users\\anand\\Desktop\\fundoo-Notes\\src\\index.js"],"cwd":"C:\\Users\\anand\\Desktop\\fundoo-Notes","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18286802,"external":21909592,"heapTotal":100540416,"heapUsed":64230080,"rss":131538944},"pid":15012,"uid":null,"version":"v16.13.2"},"stack":"SyntaxError: C:\\Users\\anand\\Desktop\\fundoo-Notes\\src\\services\\note.service.js: Unexpected token, expected \",\" (71:12)\n\n\u001b[0m \u001b[90m 69 |\u001b[39m \u001b[36mexport\u001b[39m \u001b[36mconst\u001b[39m \u001b[33mMakeArchive\u001b[39m \u001b[33m=\u001b[39m \u001b[36masync\u001b[39m(body)\u001b[33m=>\u001b[39m{\u001b[0m\n\u001b[0m \u001b[90m 70 |\u001b[39m     \u001b[36mconst\u001b[39m \u001b[33mSendingItToArchieve\u001b[39m \u001b[33m=\u001b[39m \u001b[36mawait\u001b[39m \u001b[33mNote\u001b[39m\u001b[33m.\u001b[39mfindByIdAndUpdate( body\u001b[33m.\u001b[39m\u001b[33mUserID\u001b[39m\u001b[33m,\u001b[39m\u001b[0m\n\u001b[0m\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 71 |\u001b[39m         body{\u001b[0m\n\u001b[0m \u001b[90m    |\u001b[39m             \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 72 |\u001b[39m             $set\u001b[33m:\u001b[39m \u001b[0m\n\u001b[0m \u001b[90m 73 |\u001b[39m             {\u001b[0m\n\u001b[0m \u001b[90m 74 |\u001b[39m                 isArchived \u001b[33m:\u001b[39m \u001b[36mtrue\u001b[39m\u001b[0m\n    at Parser._raise (C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\@babel\\parser\\src\\parser\\error.js:150:45)\n    at Parser.raiseWithData (C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\@babel\\parser\\src\\parser\\error.js:145:17)\n    at Parser.raise (C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\@babel\\parser\\src\\parser\\error.js:89:17)\n    at Parser.unexpected (C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\@babel\\parser\\src\\parser\\util.js:174:16)\n    at Parser.expect (C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\@babel\\parser\\src\\parser\\util.js:150:28)\n    at Parser.parseCallExpressionArguments (C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\@babel\\parser\\src\\parser\\expression.js:987:14)\n    at Parser.parseCoverCallAndAsyncArrowHead (C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\@babel\\parser\\src\\parser\\expression.js:862:29)\n    at Parser.parseSubscript (C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\@babel\\parser\\src\\parser\\expression.js:747:19)\n    at Parser.parseSubscripts (C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\@babel\\parser\\src\\parser\\expression.js:703:19)\n    at Parser.parseExprSubscripts (C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\@babel\\parser\\src\\parser\\expression.js:688:17)\n    at Parser.parseUpdate (C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\@babel\\parser\\src\\parser\\expression.js:662:21)\n    at Parser.parseMaybeUnary (C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\@babel\\parser\\src\\parser\\expression.js:633:23)\n    at Parser.parseAwait (C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\@babel\\parser\\src\\parser\\expression.js:2757:28)\n    at Parser.parseMaybeUnary (C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\@babel\\parser\\src\\parser\\expression.js:597:25)\n    at Parser.parseMaybeUnaryOrPrivate (C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\@babel\\parser\\src\\parser\\expression.js:388:14)\n    at Parser.parseExprOps (C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\@babel\\parser\\src\\parser\\expression.js:398:23)","timestamp":"2022-03-02T08:06:44.786Z","trace":[{"column":45,"file":"C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\@babel\\parser\\src\\parser\\error.js","function":"Parser._raise","line":150,"method":"_raise","native":false},{"column":17,"file":"C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\@babel\\parser\\src\\parser\\error.js","function":"Parser.raiseWithData","line":145,"method":"raiseWithData","native":false},{"column":17,"file":"C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\@babel\\parser\\src\\parser\\error.js","function":"Parser.raise","line":89,"method":"raise","native":false},{"column":16,"file":"C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\@babel\\parser\\src\\parser\\util.js","function":"Parser.unexpected","line":174,"method":"unexpected","native":false},{"column":28,"file":"C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\@babel\\parser\\src\\parser\\util.js","function":"Parser.expect","line":150,"method":"expect","native":false},{"column":14,"file":"C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\@babel\\parser\\src\\parser\\expression.js","function":"Parser.parseCallExpressionArguments","line":987,"method":"parseCallExpressionArguments","native":false},{"column":29,"file":"C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\@babel\\parser\\src\\parser\\expression.js","function":"Parser.parseCoverCallAndAsyncArrowHead","line":862,"method":"parseCoverCallAndAsyncArrowHead","native":false},{"column":19,"file":"C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\@babel\\parser\\src\\parser\\expression.js","function":"Parser.parseSubscript","line":747,"method":"parseSubscript","native":false},{"column":19,"file":"C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\@babel\\parser\\src\\parser\\expression.js","function":"Parser.parseSubscripts","line":703,"method":"parseSubscripts","native":false},{"column":17,"file":"C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\@babel\\parser\\src\\parser\\expression.js","function":"Parser.parseExprSubscripts","line":688,"method":"parseExprSubscripts","native":false},{"column":21,"file":"C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\@babel\\parser\\src\\parser\\expression.js","function":"Parser.parseUpdate","line":662,"method":"parseUpdate","native":false},{"column":23,"file":"C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\@babel\\parser\\src\\parser\\expression.js","function":"Parser.parseMaybeUnary","line":633,"method":"parseMaybeUnary","native":false},{"column":28,"file":"C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\@babel\\parser\\src\\parser\\expression.js","function":"Parser.parseAwait","line":2757,"method":"parseAwait","native":false},{"column":25,"file":"C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\@babel\\parser\\src\\parser\\expression.js","function":"Parser.parseMaybeUnary","line":597,"method":"parseMaybeUnary","native":false},{"column":14,"file":"C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\@babel\\parser\\src\\parser\\expression.js","function":"Parser.parseMaybeUnaryOrPrivate","line":388,"method":"parseMaybeUnaryOrPrivate","native":false},{"column":23,"file":"C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\@babel\\parser\\src\\parser\\expression.js","function":"Parser.parseExprOps","line":398,"method":"parseExprOps","native":false}]}
+error: 
+    status - 500 
+    message - CastError: Cast to ObjectId failed for value "{ UserID: '621f1a2a905c282814bbf8a3', isArchieved: true }" (type Object) at path "_id" for model "Note"
+    at model.Query.exec (C:\Users\anand\Desktop\fundoo-Notes\node_modules\mongoose\lib\query.js:4498:21)
+    at model.Query.Query.then (C:\Users\anand\Desktop\fundoo-Notes\node_modules\mongoose\lib\query.js:4592:15)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/note/archive/621f2469ffc1423c705855ef 
+    method - PUT 
+    IP - ::1
+   {"timestamp":"2022-03-02T08:13:50.365Z"}
+error: 
+    status - 500 
+    message - CastError: Cast to ObjectId failed for value "{ UserID: 'body.UserID', isArchieved: true }" (type Object) at path "_id" for model "Note"
+    at model.Query.exec (C:\Users\anand\Desktop\fundoo-Notes\node_modules\mongoose\lib\query.js:4498:21)
+    at model.Query.Query.then (C:\Users\anand\Desktop\fundoo-Notes\node_modules\mongoose\lib\query.js:4592:15)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/note/archive/621f2469ffc1423c705855ef 
+    method - PUT 
+    IP - ::1
+   {"timestamp":"2022-03-02T08:14:23.059Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read properties of undefined (reading 'id')
+    at _callee6$ (C:\Users\anand\Desktop\fundoo-Notes\src\controllers\/note.controller.js:98:37)
+    at tryCatch (C:\Users\anand\Desktop\fundoo-Notes\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (C:\Users\anand\Desktop\fundoo-Notes\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (C:\Users\anand\Desktop\fundoo-Notes\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (C:\Users\anand\Desktop\fundoo-Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\anand\Desktop\fundoo-Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at C:\Users\anand\Desktop\fundoo-Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at C:\Users\anand\Desktop\fundoo-Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12
+    at MakeArchive (C:\Users\anand\Desktop\fundoo-Notes\src\controllers\/note.controller.js:96:25)
+    at Layer.handle [as handle_request] (C:\Users\anand\Desktop\fundoo-Notes\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\anand\Desktop\fundoo-Notes\node_modules\express\lib\router\route.js:137:13)
+    at C:\Users\anand\Desktop\fundoo-Notes\src\middlewares\/auth.middleware.js:46:9
+    at C:\Users\anand\Desktop\fundoo-Notes\node_modules\jsonwebtoken\verify.js:223:12
+    at getSecret (C:\Users\anand\Desktop\fundoo-Notes\node_modules\jsonwebtoken\verify.js:90:14)
+    at Object.module.exports [as verify] (C:\Users\anand\Desktop\fundoo-Notes\node_modules\jsonwebtoken\verify.js:94:10) 
+    url - /api/v1/note/archive/621f2469ffc1423c705855ef 
+    method - PUT 
+    IP - ::1
+   {"timestamp":"2022-03-02T08:18:02.955Z"}
+error: 
+    status - 500 
+    message - CastError: Cast to ObjectId failed for value "{ UserID: '621f1a2a905c282814bbf8a3', isArchieved: true }" (type Object) at path "_id" for model "Note"
+    at model.Query.exec (C:\Users\anand\Desktop\fundoo-Notes\node_modules\mongoose\lib\query.js:4498:21)
+    at model.Query.Query.then (C:\Users\anand\Desktop\fundoo-Notes\node_modules\mongoose\lib\query.js:4592:15)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/note/archive/621f2469ffc1423c705855ef 
+    method - PUT 
+    IP - ::1
+   {"timestamp":"2022-03-02T08:19:49.645Z"}
+error: 
+    status - 500 
+    message - ReferenceError: body is not defined
+    at _callee6$ (C:\Users\anand\Desktop\fundoo-Notes\src\services\/note.service.js:71:18)
+    at tryCatch (C:\Users\anand\Desktop\fundoo-Notes\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (C:\Users\anand\Desktop\fundoo-Notes\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (C:\Users\anand\Desktop\fundoo-Notes\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (C:\Users\anand\Desktop\fundoo-Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\anand\Desktop\fundoo-Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at C:\Users\anand\Desktop\fundoo-Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at Object.<anonymous> (C:\Users\anand\Desktop\fundoo-Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12)
+    at Object.MakeArchive (C:\Users\anand\Desktop\fundoo-Notes\src\services\/note.service.js:69:25)
+    at _callee6$ (C:\Users\anand\Desktop\fundoo-Notes\src\controllers\/note.controller.js:98:42)
+    at tryCatch (C:\Users\anand\Desktop\fundoo-Notes\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (C:\Users\anand\Desktop\fundoo-Notes\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (C:\Users\anand\Desktop\fundoo-Notes\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (C:\Users\anand\Desktop\fundoo-Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\anand\Desktop\fundoo-Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9) 
+    url - /api/v1/note/archive/621f2469ffc1423c705855ef 
+    method - PUT 
+    IP - ::1
+   {"timestamp":"2022-03-02T08:21:21.127Z"}
+error: 
+    status - 500 
+    message - CastError: Cast to ObjectId failed for value "{ UserID: '621f1a2a905c282814bbf8a3', isArchieved: true }" (type Object) at path "_id" for model "Note"
+    at model.Query.exec (C:\Users\anand\Desktop\fundoo-Notes\node_modules\mongoose\lib\query.js:4498:21)
+    at model.Query.Query.then (C:\Users\anand\Desktop\fundoo-Notes\node_modules\mongoose\lib\query.js:4592:15)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/note/archive/621f2469ffc1423c705855ef 
+    method - PUT 
+    IP - ::1
+   {"timestamp":"2022-03-02T08:22:24.336Z"}
+error: uncaughtException: C:\Users\anand\Desktop\fundoo-Notes\src\services\note.service.js: Unexpected token (72:8)
+
+[0m [90m 70 |[39m     [36mconst[39m [33mSendingItToArchieve[39m [33m=[39m [36mawait[39m [33mNote[39m[33m.[39mfindByIdAndUpdate({ [0m
+[0m [90m 71 |[39m         [33mUserID[39m[33m,[39m[0m
+[0m[31m[1m>[22m[39m[90m 72 |[39m         {[0m
+[0m [90m    |[39m         [31m[1m^[22m[39m[0m
+[0m [90m 73 |[39m             $set[33m:[39m {  isArchieved [33m:[39m [36mtrue[39m }[0m
+[0m [90m 74 |[39m         }[0m
+[0m [90m 75 |[39m     [0m
+SyntaxError: C:\Users\anand\Desktop\fundoo-Notes\src\services\note.service.js: Unexpected token (72:8)
+
+[0m [90m 70 |[39m     [36mconst[39m [33mSendingItToArchieve[39m [33m=[39m [36mawait[39m [33mNote[39m[33m.[39mfindByIdAndUpdate({ [0m
+[0m [90m 71 |[39m         [33mUserID[39m[33m,[39m[0m
+[0m[31m[1m>[22m[39m[90m 72 |[39m         {[0m
+[0m [90m    |[39m         [31m[1m^[22m[39m[0m
+[0m [90m 73 |[39m             $set[33m:[39m {  isArchieved [33m:[39m [36mtrue[39m }[0m
+[0m [90m 74 |[39m         }[0m
+[0m [90m 75 |[39m     [0m
+    at Parser._raise (C:\Users\anand\Desktop\fundoo-Notes\node_modules\@babel\parser\src\parser\error.js:150:45)
+    at Parser.raiseWithData (C:\Users\anand\Desktop\fundoo-Notes\node_modules\@babel\parser\src\parser\error.js:145:17)
+    at Parser.raise (C:\Users\anand\Desktop\fundoo-Notes\node_modules\@babel\parser\src\parser\error.js:89:17)
+    at Parser.unexpected (C:\Users\anand\Desktop\fundoo-Notes\node_modules\@babel\parser\src\parser\util.js:174:16)
+    at Parser.parsePropertyName (C:\Users\anand\Desktop\fundoo-Notes\node_modules\@babel\parser\src\parser\expression.js:2306:24)
+    at Parser.parsePropertyDefinition (C:\Users\anand\Desktop\fundoo-Notes\node_modules\@babel\parser\src\parser\expression.js:2053:22)
+    at Parser.parseObjectLike (C:\Users\anand\Desktop\fundoo-Notes\node_modules\@babel\parser\src\parser\expression.js:1958:21)
+    at Parser.parseExprAtom (C:\Users\anand\Desktop\fundoo-Notes\node_modules\@babel\parser\src\parser\expression.js:1150:21)
+    at Parser.parseExprSubscripts (C:\Users\anand\Desktop\fundoo-Notes\node_modules\@babel\parser\src\parser\expression.js:682:23)
+    at Parser.parseUpdate (C:\Users\anand\Desktop\fundoo-Notes\node_modules\@babel\parser\src\parser\expression.js:662:21)
+    at Parser.parseMaybeUnary (C:\Users\anand\Desktop\fundoo-Notes\node_modules\@babel\parser\src\parser\expression.js:633:23)
+    at Parser.parseMaybeUnaryOrPrivate (C:\Users\anand\Desktop\fundoo-Notes\node_modules\@babel\parser\src\parser\expression.js:388:14)
+    at Parser.parseExprOps (C:\Users\anand\Desktop\fundoo-Notes\node_modules\@babel\parser\src\parser\expression.js:398:23)
+    at Parser.parseMaybeConditional (C:\Users\anand\Desktop\fundoo-Notes\node_modules\@babel\parser\src\parser\expression.js:356:23)
+    at Parser.parseMaybeAssign (C:\Users\anand\Desktop\fundoo-Notes\node_modules\@babel\parser\src\parser\expression.js:303:21)
+    at C:\Users\anand\Desktop\fundoo-Notes\node_modules\@babel\parser\src\parser\expression.js:257:12 {"date":"Wed Mar 02 2022 13:53:36 GMT+0530 (India Standard Time)","error":{"code":"BABEL_PARSE_ERROR","loc":{"column":8,"index":1647,"line":72},"pos":1647,"reasonCode":"UnexpectedToken"},"exception":true,"os":{"loadavg":[0,0,0],"uptime":52531},"process":{"argv":["node","C:\\Users\\anand\\Desktop\\fundoo-Notes\\src\\index.js"],"cwd":"C:\\Users\\anand\\Desktop\\fundoo-Notes","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18303186,"external":32520640,"heapTotal":105201664,"heapUsed":75636552,"rss":137752576},"pid":5012,"uid":null,"version":"v16.13.2"},"stack":"SyntaxError: C:\\Users\\anand\\Desktop\\fundoo-Notes\\src\\services\\note.service.js: Unexpected token (72:8)\n\n\u001b[0m \u001b[90m 70 |\u001b[39m     \u001b[36mconst\u001b[39m \u001b[33mSendingItToArchieve\u001b[39m \u001b[33m=\u001b[39m \u001b[36mawait\u001b[39m \u001b[33mNote\u001b[39m\u001b[33m.\u001b[39mfindByIdAndUpdate({ \u001b[0m\n\u001b[0m \u001b[90m 71 |\u001b[39m         \u001b[33mUserID\u001b[39m\u001b[33m,\u001b[39m\u001b[0m\n\u001b[0m\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 72 |\u001b[39m         {\u001b[0m\n\u001b[0m \u001b[90m    |\u001b[39m         \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 73 |\u001b[39m             $set\u001b[33m:\u001b[39m {  isArchieved \u001b[33m:\u001b[39m \u001b[36mtrue\u001b[39m }\u001b[0m\n\u001b[0m \u001b[90m 74 |\u001b[39m         }\u001b[0m\n\u001b[0m \u001b[90m 75 |\u001b[39m     \u001b[0m\n    at Parser._raise (C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\@babel\\parser\\src\\parser\\error.js:150:45)\n    at Parser.raiseWithData (C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\@babel\\parser\\src\\parser\\error.js:145:17)\n    at Parser.raise (C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\@babel\\parser\\src\\parser\\error.js:89:17)\n    at Parser.unexpected (C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\@babel\\parser\\src\\parser\\util.js:174:16)\n    at Parser.parsePropertyName (C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\@babel\\parser\\src\\parser\\expression.js:2306:24)\n    at Parser.parsePropertyDefinition (C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\@babel\\parser\\src\\parser\\expression.js:2053:22)\n    at Parser.parseObjectLike (C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\@babel\\parser\\src\\parser\\expression.js:1958:21)\n    at Parser.parseExprAtom (C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\@babel\\parser\\src\\parser\\expression.js:1150:21)\n    at Parser.parseExprSubscripts (C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\@babel\\parser\\src\\parser\\expression.js:682:23)\n    at Parser.parseUpdate (C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\@babel\\parser\\src\\parser\\expression.js:662:21)\n    at Parser.parseMaybeUnary (C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\@babel\\parser\\src\\parser\\expression.js:633:23)\n    at Parser.parseMaybeUnaryOrPrivate (C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\@babel\\parser\\src\\parser\\expression.js:388:14)\n    at Parser.parseExprOps (C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\@babel\\parser\\src\\parser\\expression.js:398:23)\n    at Parser.parseMaybeConditional (C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\@babel\\parser\\src\\parser\\expression.js:356:23)\n    at Parser.parseMaybeAssign (C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\@babel\\parser\\src\\parser\\expression.js:303:21)\n    at C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\@babel\\parser\\src\\parser\\expression.js:257:12","timestamp":"2022-03-02T08:23:36.095Z","trace":[{"column":45,"file":"C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\@babel\\parser\\src\\parser\\error.js","function":"Parser._raise","line":150,"method":"_raise","native":false},{"column":17,"file":"C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\@babel\\parser\\src\\parser\\error.js","function":"Parser.raiseWithData","line":145,"method":"raiseWithData","native":false},{"column":17,"file":"C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\@babel\\parser\\src\\parser\\error.js","function":"Parser.raise","line":89,"method":"raise","native":false},{"column":16,"file":"C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\@babel\\parser\\src\\parser\\util.js","function":"Parser.unexpected","line":174,"method":"unexpected","native":false},{"column":24,"file":"C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\@babel\\parser\\src\\parser\\expression.js","function":"Parser.parsePropertyName","line":2306,"method":"parsePropertyName","native":false},{"column":22,"file":"C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\@babel\\parser\\src\\parser\\expression.js","function":"Parser.parsePropertyDefinition","line":2053,"method":"parsePropertyDefinition","native":false},{"column":21,"file":"C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\@babel\\parser\\src\\parser\\expression.js","function":"Parser.parseObjectLike","line":1958,"method":"parseObjectLike","native":false},{"column":21,"file":"C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\@babel\\parser\\src\\parser\\expression.js","function":"Parser.parseExprAtom","line":1150,"method":"parseExprAtom","native":false},{"column":23,"file":"C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\@babel\\parser\\src\\parser\\expression.js","function":"Parser.parseExprSubscripts","line":682,"method":"parseExprSubscripts","native":false},{"column":21,"file":"C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\@babel\\parser\\src\\parser\\expression.js","function":"Parser.parseUpdate","line":662,"method":"parseUpdate","native":false},{"column":23,"file":"C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\@babel\\parser\\src\\parser\\expression.js","function":"Parser.parseMaybeUnary","line":633,"method":"parseMaybeUnary","native":false},{"column":14,"file":"C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\@babel\\parser\\src\\parser\\expression.js","function":"Parser.parseMaybeUnaryOrPrivate","line":388,"method":"parseMaybeUnaryOrPrivate","native":false},{"column":23,"file":"C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\@babel\\parser\\src\\parser\\expression.js","function":"Parser.parseExprOps","line":398,"method":"parseExprOps","native":false},{"column":23,"file":"C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\@babel\\parser\\src\\parser\\expression.js","function":"Parser.parseMaybeConditional","line":356,"method":"parseMaybeConditional","native":false},{"column":21,"file":"C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\@babel\\parser\\src\\parser\\expression.js","function":"Parser.parseMaybeAssign","line":303,"method":"parseMaybeAssign","native":false},{"column":12,"file":"C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\@babel\\parser\\src\\parser\\expression.js","function":null,"line":257,"method":null,"native":false}]}
+error: uncaughtException: C:\Users\anand\Desktop\fundoo-Notes\src\services\note.service.js: Unexpected token (72:8)
+
+[0m [90m 70 |[39m     [36mconst[39m [33mSendingItToArchieve[39m [33m=[39m [36mawait[39m [33mNote[39m[33m.[39mfindByIdAndUpdate({ [0m
+[0m [90m 71 |[39m         [33mUserID[39m[33m,[39m[0m
+[0m[31m[1m>[22m[39m[90m 72 |[39m         {[0m
+[0m [90m    |[39m         [31m[1m^[22m[39m[0m
+[0m [90m 73 |[39m             $set[33m:[39m {  isArchieved [33m:[39m [36mtrue[39m }[0m
+[0m [90m 74 |[39m         }[0m
+[0m [90m 75 |[39m     [0m
+SyntaxError: C:\Users\anand\Desktop\fundoo-Notes\src\services\note.service.js: Unexpected token (72:8)
+
+[0m [90m 70 |[39m     [36mconst[39m [33mSendingItToArchieve[39m [33m=[39m [36mawait[39m [33mNote[39m[33m.[39mfindByIdAndUpdate({ [0m
+[0m [90m 71 |[39m         [33mUserID[39m[33m,[39m[0m
+[0m[31m[1m>[22m[39m[90m 72 |[39m         {[0m
+[0m [90m    |[39m         [31m[1m^[22m[39m[0m
+[0m [90m 73 |[39m             $set[33m:[39m {  isArchieved [33m:[39m [36mtrue[39m }[0m
+[0m [90m 74 |[39m         }[0m
+[0m [90m 75 |[39m     [0m
+    at Parser._raise (C:\Users\anand\Desktop\fundoo-Notes\node_modules\@babel\parser\src\parser\error.js:150:45)
+    at Parser.raiseWithData (C:\Users\anand\Desktop\fundoo-Notes\node_modules\@babel\parser\src\parser\error.js:145:17)
+    at Parser.raise (C:\Users\anand\Desktop\fundoo-Notes\node_modules\@babel\parser\src\parser\error.js:89:17)
+    at Parser.unexpected (C:\Users\anand\Desktop\fundoo-Notes\node_modules\@babel\parser\src\parser\util.js:174:16)
+    at Parser.parsePropertyName (C:\Users\anand\Desktop\fundoo-Notes\node_modules\@babel\parser\src\parser\expression.js:2306:24)
+    at Parser.parsePropertyDefinition (C:\Users\anand\Desktop\fundoo-Notes\node_modules\@babel\parser\src\parser\expression.js:2053:22)
+    at Parser.parseObjectLike (C:\Users\anand\Desktop\fundoo-Notes\node_modules\@babel\parser\src\parser\expression.js:1958:21)
+    at Parser.parseExprAtom (C:\Users\anand\Desktop\fundoo-Notes\node_modules\@babel\parser\src\parser\expression.js:1150:21)
+    at Parser.parseExprSubscripts (C:\Users\anand\Desktop\fundoo-Notes\node_modules\@babel\parser\src\parser\expression.js:682:23)
+    at Parser.parseUpdate (C:\Users\anand\Desktop\fundoo-Notes\node_modules\@babel\parser\src\parser\expression.js:662:21)
+    at Parser.parseMaybeUnary (C:\Users\anand\Desktop\fundoo-Notes\node_modules\@babel\parser\src\parser\expression.js:633:23)
+    at Parser.parseMaybeUnaryOrPrivate (C:\Users\anand\Desktop\fundoo-Notes\node_modules\@babel\parser\src\parser\expression.js:388:14)
+    at Parser.parseExprOps (C:\Users\anand\Desktop\fundoo-Notes\node_modules\@babel\parser\src\parser\expression.js:398:23)
+    at Parser.parseMaybeConditional (C:\Users\anand\Desktop\fundoo-Notes\node_modules\@babel\parser\src\parser\expression.js:356:23)
+    at Parser.parseMaybeAssign (C:\Users\anand\Desktop\fundoo-Notes\node_modules\@babel\parser\src\parser\expression.js:303:21)
+    at C:\Users\anand\Desktop\fundoo-Notes\node_modules\@babel\parser\src\parser\expression.js:257:12 {"date":"Wed Mar 02 2022 13:53:48 GMT+0530 (India Standard Time)","error":{"code":"BABEL_PARSE_ERROR","loc":{"column":8,"index":1647,"line":72},"pos":1647,"reasonCode":"UnexpectedToken"},"exception":true,"os":{"loadavg":[0,0,0],"uptime":52544},"process":{"argv":["node","C:\\Users\\anand\\Desktop\\fundoo-Notes\\src\\index.js"],"cwd":"C:\\Users\\anand\\Desktop\\fundoo-Notes","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18286802,"external":32520622,"heapTotal":102875136,"heapUsed":71901224,"rss":134778880},"pid":9684,"uid":null,"version":"v16.13.2"},"stack":"SyntaxError: C:\\Users\\anand\\Desktop\\fundoo-Notes\\src\\services\\note.service.js: Unexpected token (72:8)\n\n\u001b[0m \u001b[90m 70 |\u001b[39m     \u001b[36mconst\u001b[39m \u001b[33mSendingItToArchieve\u001b[39m \u001b[33m=\u001b[39m \u001b[36mawait\u001b[39m \u001b[33mNote\u001b[39m\u001b[33m.\u001b[39mfindByIdAndUpdate({ \u001b[0m\n\u001b[0m \u001b[90m 71 |\u001b[39m         \u001b[33mUserID\u001b[39m\u001b[33m,\u001b[39m\u001b[0m\n\u001b[0m\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 72 |\u001b[39m         {\u001b[0m\n\u001b[0m \u001b[90m    |\u001b[39m         \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 73 |\u001b[39m             $set\u001b[33m:\u001b[39m {  isArchieved \u001b[33m:\u001b[39m \u001b[36mtrue\u001b[39m }\u001b[0m\n\u001b[0m \u001b[90m 74 |\u001b[39m         }\u001b[0m\n\u001b[0m \u001b[90m 75 |\u001b[39m     \u001b[0m\n    at Parser._raise (C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\@babel\\parser\\src\\parser\\error.js:150:45)\n    at Parser.raiseWithData (C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\@babel\\parser\\src\\parser\\error.js:145:17)\n    at Parser.raise (C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\@babel\\parser\\src\\parser\\error.js:89:17)\n    at Parser.unexpected (C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\@babel\\parser\\src\\parser\\util.js:174:16)\n    at Parser.parsePropertyName (C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\@babel\\parser\\src\\parser\\expression.js:2306:24)\n    at Parser.parsePropertyDefinition (C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\@babel\\parser\\src\\parser\\expression.js:2053:22)\n    at Parser.parseObjectLike (C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\@babel\\parser\\src\\parser\\expression.js:1958:21)\n    at Parser.parseExprAtom (C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\@babel\\parser\\src\\parser\\expression.js:1150:21)\n    at Parser.parseExprSubscripts (C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\@babel\\parser\\src\\parser\\expression.js:682:23)\n    at Parser.parseUpdate (C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\@babel\\parser\\src\\parser\\expression.js:662:21)\n    at Parser.parseMaybeUnary (C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\@babel\\parser\\src\\parser\\expression.js:633:23)\n    at Parser.parseMaybeUnaryOrPrivate (C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\@babel\\parser\\src\\parser\\expression.js:388:14)\n    at Parser.parseExprOps (C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\@babel\\parser\\src\\parser\\expression.js:398:23)\n    at Parser.parseMaybeConditional (C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\@babel\\parser\\src\\parser\\expression.js:356:23)\n    at Parser.parseMaybeAssign (C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\@babel\\parser\\src\\parser\\expression.js:303:21)\n    at C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\@babel\\parser\\src\\parser\\expression.js:257:12","timestamp":"2022-03-02T08:23:48.539Z","trace":[{"column":45,"file":"C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\@babel\\parser\\src\\parser\\error.js","function":"Parser._raise","line":150,"method":"_raise","native":false},{"column":17,"file":"C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\@babel\\parser\\src\\parser\\error.js","function":"Parser.raiseWithData","line":145,"method":"raiseWithData","native":false},{"column":17,"file":"C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\@babel\\parser\\src\\parser\\error.js","function":"Parser.raise","line":89,"method":"raise","native":false},{"column":16,"file":"C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\@babel\\parser\\src\\parser\\util.js","function":"Parser.unexpected","line":174,"method":"unexpected","native":false},{"column":24,"file":"C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\@babel\\parser\\src\\parser\\expression.js","function":"Parser.parsePropertyName","line":2306,"method":"parsePropertyName","native":false},{"column":22,"file":"C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\@babel\\parser\\src\\parser\\expression.js","function":"Parser.parsePropertyDefinition","line":2053,"method":"parsePropertyDefinition","native":false},{"column":21,"file":"C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\@babel\\parser\\src\\parser\\expression.js","function":"Parser.parseObjectLike","line":1958,"method":"parseObjectLike","native":false},{"column":21,"file":"C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\@babel\\parser\\src\\parser\\expression.js","function":"Parser.parseExprAtom","line":1150,"method":"parseExprAtom","native":false},{"column":23,"file":"C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\@babel\\parser\\src\\parser\\expression.js","function":"Parser.parseExprSubscripts","line":682,"method":"parseExprSubscripts","native":false},{"column":21,"file":"C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\@babel\\parser\\src\\parser\\expression.js","function":"Parser.parseUpdate","line":662,"method":"parseUpdate","native":false},{"column":23,"file":"C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\@babel\\parser\\src\\parser\\expression.js","function":"Parser.parseMaybeUnary","line":633,"method":"parseMaybeUnary","native":false},{"column":14,"file":"C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\@babel\\parser\\src\\parser\\expression.js","function":"Parser.parseMaybeUnaryOrPrivate","line":388,"method":"parseMaybeUnaryOrPrivate","native":false},{"column":23,"file":"C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\@babel\\parser\\src\\parser\\expression.js","function":"Parser.parseExprOps","line":398,"method":"parseExprOps","native":false},{"column":23,"file":"C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\@babel\\parser\\src\\parser\\expression.js","function":"Parser.parseMaybeConditional","line":356,"method":"parseMaybeConditional","native":false},{"column":21,"file":"C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\@babel\\parser\\src\\parser\\expression.js","function":"Parser.parseMaybeAssign","line":303,"method":"parseMaybeAssign","native":false},{"column":12,"file":"C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\@babel\\parser\\src\\parser\\expression.js","function":null,"line":257,"method":null,"native":false}]}
+error: uncaughtException: C:\Users\anand\Desktop\fundoo-Notes\src\services\note.service.js: Unexpected token (73:8)
+
+[0m [90m 71 |[39m         [33mUserID[39m[33m:[39m body[33m.[39m[33mUserID[39m[33m,[39m[0m
+[0m [90m 72 |[39m         body[33m,[39m[0m
+[0m[31m[1m>[22m[39m[90m 73 |[39m         {[0m
+[0m [90m    |[39m         [31m[1m^[22m[39m[0m
+[0m [90m 74 |[39m             $set[33m:[39m {  isArchieved [33m:[39m [36mtrue[39m }[0m
+[0m [90m 75 |[39m         }[0m
+[0m [90m 76 |[39m     [0m
+SyntaxError: C:\Users\anand\Desktop\fundoo-Notes\src\services\note.service.js: Unexpected token (73:8)
+
+[0m [90m 71 |[39m         [33mUserID[39m[33m:[39m body[33m.[39m[33mUserID[39m[33m,[39m[0m
+[0m [90m 72 |[39m         body[33m,[39m[0m
+[0m[31m[1m>[22m[39m[90m 73 |[39m         {[0m
+[0m [90m    |[39m         [31m[1m^[22m[39m[0m
+[0m [90m 74 |[39m             $set[33m:[39m {  isArchieved [33m:[39m [36mtrue[39m }[0m
+[0m [90m 75 |[39m         }[0m
+[0m [90m 76 |[39m     [0m
+    at Parser._raise (C:\Users\anand\Desktop\fundoo-Notes\node_modules\@babel\parser\src\parser\error.js:150:45)
+    at Parser.raiseWithData (C:\Users\anand\Desktop\fundoo-Notes\node_modules\@babel\parser\src\parser\error.js:145:17)
+    at Parser.raise (C:\Users\anand\Desktop\fundoo-Notes\node_modules\@babel\parser\src\parser\error.js:89:17)
+    at Parser.unexpected (C:\Users\anand\Desktop\fundoo-Notes\node_modules\@babel\parser\src\parser\util.js:174:16)
+    at Parser.parsePropertyName (C:\Users\anand\Desktop\fundoo-Notes\node_modules\@babel\parser\src\parser\expression.js:2306:24)
+    at Parser.parsePropertyDefinition (C:\Users\anand\Desktop\fundoo-Notes\node_modules\@babel\parser\src\parser\expression.js:2053:22)
+    at Parser.parseObjectLike (C:\Users\anand\Desktop\fundoo-Notes\node_modules\@babel\parser\src\parser\expression.js:1958:21)
+    at Parser.parseExprAtom (C:\Users\anand\Desktop\fundoo-Notes\node_modules\@babel\parser\src\parser\expression.js:1150:21)
+    at Parser.parseExprSubscripts (C:\Users\anand\Desktop\fundoo-Notes\node_modules\@babel\parser\src\parser\expression.js:682:23)
+    at Parser.parseUpdate (C:\Users\anand\Desktop\fundoo-Notes\node_modules\@babel\parser\src\parser\expression.js:662:21)
+    at Parser.parseMaybeUnary (C:\Users\anand\Desktop\fundoo-Notes\node_modules\@babel\parser\src\parser\expression.js:633:23)
+    at Parser.parseMaybeUnaryOrPrivate (C:\Users\anand\Desktop\fundoo-Notes\node_modules\@babel\parser\src\parser\expression.js:388:14)
+    at Parser.parseExprOps (C:\Users\anand\Desktop\fundoo-Notes\node_modules\@babel\parser\src\parser\expression.js:398:23)
+    at Parser.parseMaybeConditional (C:\Users\anand\Desktop\fundoo-Notes\node_modules\@babel\parser\src\parser\expression.js:356:23)
+    at Parser.parseMaybeAssign (C:\Users\anand\Desktop\fundoo-Notes\node_modules\@babel\parser\src\parser\expression.js:303:21)
+    at C:\Users\anand\Desktop\fundoo-Notes\node_modules\@babel\parser\src\parser\expression.js:257:12 {"date":"Wed Mar 02 2022 13:54:25 GMT+0530 (India Standard Time)","error":{"code":"BABEL_PARSE_ERROR","loc":{"column":8,"index":1675,"line":73},"pos":1675,"reasonCode":"UnexpectedToken"},"exception":true,"os":{"loadavg":[0,0,0],"uptime":52581},"process":{"argv":["node","C:\\Users\\anand\\Desktop\\fundoo-Notes\\src\\index.js"],"cwd":"C:\\Users\\anand\\Desktop\\fundoo-Notes","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18303186,"external":32520622,"heapTotal":104939520,"heapUsed":75452464,"rss":137461760},"pid":1808,"uid":null,"version":"v16.13.2"},"stack":"SyntaxError: C:\\Users\\anand\\Desktop\\fundoo-Notes\\src\\services\\note.service.js: Unexpected token (73:8)\n\n\u001b[0m \u001b[90m 71 |\u001b[39m         \u001b[33mUserID\u001b[39m\u001b[33m:\u001b[39m body\u001b[33m.\u001b[39m\u001b[33mUserID\u001b[39m\u001b[33m,\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 72 |\u001b[39m         body\u001b[33m,\u001b[39m\u001b[0m\n\u001b[0m\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 73 |\u001b[39m         {\u001b[0m\n\u001b[0m \u001b[90m    |\u001b[39m         \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 74 |\u001b[39m             $set\u001b[33m:\u001b[39m {  isArchieved \u001b[33m:\u001b[39m \u001b[36mtrue\u001b[39m }\u001b[0m\n\u001b[0m \u001b[90m 75 |\u001b[39m         }\u001b[0m\n\u001b[0m \u001b[90m 76 |\u001b[39m     \u001b[0m\n    at Parser._raise (C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\@babel\\parser\\src\\parser\\error.js:150:45)\n    at Parser.raiseWithData (C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\@babel\\parser\\src\\parser\\error.js:145:17)\n    at Parser.raise (C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\@babel\\parser\\src\\parser\\error.js:89:17)\n    at Parser.unexpected (C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\@babel\\parser\\src\\parser\\util.js:174:16)\n    at Parser.parsePropertyName (C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\@babel\\parser\\src\\parser\\expression.js:2306:24)\n    at Parser.parsePropertyDefinition (C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\@babel\\parser\\src\\parser\\expression.js:2053:22)\n    at Parser.parseObjectLike (C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\@babel\\parser\\src\\parser\\expression.js:1958:21)\n    at Parser.parseExprAtom (C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\@babel\\parser\\src\\parser\\expression.js:1150:21)\n    at Parser.parseExprSubscripts (C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\@babel\\parser\\src\\parser\\expression.js:682:23)\n    at Parser.parseUpdate (C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\@babel\\parser\\src\\parser\\expression.js:662:21)\n    at Parser.parseMaybeUnary (C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\@babel\\parser\\src\\parser\\expression.js:633:23)\n    at Parser.parseMaybeUnaryOrPrivate (C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\@babel\\parser\\src\\parser\\expression.js:388:14)\n    at Parser.parseExprOps (C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\@babel\\parser\\src\\parser\\expression.js:398:23)\n    at Parser.parseMaybeConditional (C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\@babel\\parser\\src\\parser\\expression.js:356:23)\n    at Parser.parseMaybeAssign (C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\@babel\\parser\\src\\parser\\expression.js:303:21)\n    at C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\@babel\\parser\\src\\parser\\expression.js:257:12","timestamp":"2022-03-02T08:24:25.766Z","trace":[{"column":45,"file":"C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\@babel\\parser\\src\\parser\\error.js","function":"Parser._raise","line":150,"method":"_raise","native":false},{"column":17,"file":"C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\@babel\\parser\\src\\parser\\error.js","function":"Parser.raiseWithData","line":145,"method":"raiseWithData","native":false},{"column":17,"file":"C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\@babel\\parser\\src\\parser\\error.js","function":"Parser.raise","line":89,"method":"raise","native":false},{"column":16,"file":"C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\@babel\\parser\\src\\parser\\util.js","function":"Parser.unexpected","line":174,"method":"unexpected","native":false},{"column":24,"file":"C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\@babel\\parser\\src\\parser\\expression.js","function":"Parser.parsePropertyName","line":2306,"method":"parsePropertyName","native":false},{"column":22,"file":"C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\@babel\\parser\\src\\parser\\expression.js","function":"Parser.parsePropertyDefinition","line":2053,"method":"parsePropertyDefinition","native":false},{"column":21,"file":"C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\@babel\\parser\\src\\parser\\expression.js","function":"Parser.parseObjectLike","line":1958,"method":"parseObjectLike","native":false},{"column":21,"file":"C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\@babel\\parser\\src\\parser\\expression.js","function":"Parser.parseExprAtom","line":1150,"method":"parseExprAtom","native":false},{"column":23,"file":"C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\@babel\\parser\\src\\parser\\expression.js","function":"Parser.parseExprSubscripts","line":682,"method":"parseExprSubscripts","native":false},{"column":21,"file":"C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\@babel\\parser\\src\\parser\\expression.js","function":"Parser.parseUpdate","line":662,"method":"parseUpdate","native":false},{"column":23,"file":"C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\@babel\\parser\\src\\parser\\expression.js","function":"Parser.parseMaybeUnary","line":633,"method":"parseMaybeUnary","native":false},{"column":14,"file":"C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\@babel\\parser\\src\\parser\\expression.js","function":"Parser.parseMaybeUnaryOrPrivate","line":388,"method":"parseMaybeUnaryOrPrivate","native":false},{"column":23,"file":"C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\@babel\\parser\\src\\parser\\expression.js","function":"Parser.parseExprOps","line":398,"method":"parseExprOps","native":false},{"column":23,"file":"C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\@babel\\parser\\src\\parser\\expression.js","function":"Parser.parseMaybeConditional","line":356,"method":"parseMaybeConditional","native":false},{"column":21,"file":"C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\@babel\\parser\\src\\parser\\expression.js","function":"Parser.parseMaybeAssign","line":303,"method":"parseMaybeAssign","native":false},{"column":12,"file":"C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\@babel\\parser\\src\\parser\\expression.js","function":null,"line":257,"method":null,"native":false}]}
+error: 
+    status - 500 
+    message - Error: Can't use $set
+    at ObjectId.SchemaType.castForQuery (C:\Users\anand\Desktop\fundoo-Notes\node_modules\mongoose\lib\schematype.js:1586:13)
+    at ObjectId.SchemaType.castForQueryWrapper (C:\Users\anand\Desktop\fundoo-Notes\node_modules\mongoose\lib\schematype.js:1558:22)
+    at cast (C:\Users\anand\Desktop\fundoo-Notes\node_modules\mongoose\lib\cast.js:311:39)
+    at model.Query.Query.cast (C:\Users\anand\Desktop\fundoo-Notes\node_modules\mongoose\lib\query.js:4937:12)
+    at castQuery (C:\Users\anand\Desktop\fundoo-Notes\node_modules\mongoose\lib\query.js:4738:18)
+    at model.Query.Query._findAndModify (C:\Users\anand\Desktop\fundoo-Notes\node_modules\mongoose\lib\query.js:3598:23)
+    at model.Query.<anonymous> (C:\Users\anand\Desktop\fundoo-Notes\node_modules\mongoose\lib\query.js:3164:8)
+    at model.Query._wrappedThunk [as _findOneAndUpdate] (C:\Users\anand\Desktop\fundoo-Notes\node_modules\mongoose\lib\helpers\query\wrapThunk.js:16:8)
+    at C:\Users\anand\Desktop\fundoo-Notes\node_modules\kareem\index.js:279:20
+    at _next (C:\Users\anand\Desktop\fundoo-Notes\node_modules\kareem\index.js:103:16)
+    at C:\Users\anand\Desktop\fundoo-Notes\node_modules\kareem\index.js:508:38
+    at processTicksAndRejections (node:internal/process/task_queues:78:11) 
+    url - /api/v1/note/archive/621f2469ffc1423c705855ef 
+    method - PUT 
+    IP - ::1
+   {"timestamp":"2022-03-02T08:25:03.897Z"}
+error: uncaughtException: Route.put() requires a callback function but got a [object Undefined]
+Error: Route.put() requires a callback function but got a [object Undefined]
+    at Route.<computed> [as put] (C:\Users\anand\Desktop\fundoo-Notes\node_modules\express\lib\router\route.js:202:15)
+    at Function.put (C:\Users\anand\Desktop\fundoo-Notes\node_modules\express\lib\router\index.js:516:19)
+    at Object.<anonymous> (C:\Users\anand\Desktop\fundoo-Notes\src\routes\/user.route.js:23:8)
+    at Module._compile (node:internal/modules/cjs/loader:1101:14)
+    at Module._compile (C:\Users\anand\Desktop\fundoo-Notes\node_modules\pirates\lib\index.js:136:24)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1153:10)
+    at Object.newLoader [as .js] (C:\Users\anand\Desktop\fundoo-Notes\node_modules\pirates\lib\index.js:141:7)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at Object.<anonymous> (C:\Users\anand\Desktop\fundoo-Notes\src\routes\/index.js:4:1)
+    at Module._compile (node:internal/modules/cjs/loader:1101:14)
+    at Module._compile (C:\Users\anand\Desktop\fundoo-Notes\node_modules\pirates\lib\index.js:136:24)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1153:10)
+    at Object.newLoader [as .js] (C:\Users\anand\Desktop\fundoo-Notes\node_modules\pirates\lib\index.js:141:7) {"date":"Wed Mar 02 2022 14:05:24 GMT+0530 (India Standard Time)","error":{},"exception":true,"os":{"loadavg":[0,0,0],"uptime":53240},"process":{"argv":["node","C:\\Users\\anand\\Desktop\\fundoo-Notes\\src\\index.js"],"cwd":"C:\\Users\\anand\\Desktop\\fundoo-Notes","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18505431,"external":22468569,"heapTotal":94769152,"heapUsed":71868904,"rss":127299584},"pid":13980,"uid":null,"version":"v16.13.2"},"stack":"Error: Route.put() requires a callback function but got a [object Undefined]\n    at Route.<computed> [as put] (C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\express\\lib\\router\\route.js:202:15)\n    at Function.put (C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\express\\lib\\router\\index.js:516:19)\n    at Object.<anonymous> (C:\\Users\\anand\\Desktop\\fundoo-Notes\\src\\routes\\/user.route.js:23:8)\n    at Module._compile (node:internal/modules/cjs/loader:1101:14)\n    at Module._compile (C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\pirates\\lib\\index.js:136:24)\n    at Module._extensions..js (node:internal/modules/cjs/loader:1153:10)\n    at Object.newLoader [as .js] (C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\pirates\\lib\\index.js:141:7)\n    at Module.load (node:internal/modules/cjs/loader:981:32)\n    at Function.Module._load (node:internal/modules/cjs/loader:822:12)\n    at Module.require (node:internal/modules/cjs/loader:1005:19)\n    at require (node:internal/modules/cjs/helpers:102:18)\n    at Object.<anonymous> (C:\\Users\\anand\\Desktop\\fundoo-Notes\\src\\routes\\/index.js:4:1)\n    at Module._compile (node:internal/modules/cjs/loader:1101:14)\n    at Module._compile (C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\pirates\\lib\\index.js:136:24)\n    at Module._extensions..js (node:internal/modules/cjs/loader:1153:10)\n    at Object.newLoader [as .js] (C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\pirates\\lib\\index.js:141:7)","timestamp":"2022-03-02T08:35:24.565Z","trace":[{"column":15,"file":"C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\express\\lib\\router\\route.js","function":"Route.<computed> [as put]","line":202,"method":"<computed> [as put]","native":false},{"column":19,"file":"C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\express\\lib\\router\\index.js","function":"Function.put","line":516,"method":"put","native":false},{"column":8,"file":"C:\\Users\\anand\\Desktop\\fundoo-Notes\\src\\routes\\/user.route.js","function":null,"line":23,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1101,"method":"_compile","native":false},{"column":24,"file":"C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\pirates\\lib\\index.js","function":"Module._compile","line":136,"method":"_compile","native":false},{"column":10,"file":"node:internal/modules/cjs/loader","function":"Module._extensions..js","line":1153,"method":".js","native":false},{"column":7,"file":"C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\pirates\\lib\\index.js","function":"Object.newLoader [as .js]","line":141,"method":"js]","native":false},{"column":32,"file":"node:internal/modules/cjs/loader","function":"Module.load","line":981,"method":"load","native":false},{"column":12,"file":"node:internal/modules/cjs/loader","function":"Module._load","line":822,"method":"_load","native":false},{"column":19,"file":"node:internal/modules/cjs/loader","function":"Module.require","line":1005,"method":"require","native":false},{"column":18,"file":"node:internal/modules/cjs/helpers","function":"require","line":102,"method":null,"native":false},{"column":1,"file":"C:\\Users\\anand\\Desktop\\fundoo-Notes\\src\\routes\\/index.js","function":null,"line":4,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1101,"method":"_compile","native":false},{"column":24,"file":"C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\pirates\\lib\\index.js","function":"Module._compile","line":136,"method":"_compile","native":false},{"column":10,"file":"node:internal/modules/cjs/loader","function":"Module._extensions..js","line":1153,"method":".js","native":false},{"column":7,"file":"C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\pirates\\lib\\index.js","function":"Object.newLoader [as .js]","line":141,"method":"js]","native":false}]}
+error: uncaughtException: Route.put() requires a callback function but got a [object Undefined]
+Error: Route.put() requires a callback function but got a [object Undefined]
+    at Route.<computed> [as put] (C:\Users\anand\Desktop\fundoo-Notes\node_modules\express\lib\router\route.js:202:15)
+    at Function.put (C:\Users\anand\Desktop\fundoo-Notes\node_modules\express\lib\router\index.js:516:19)
+    at Object.<anonymous> (C:\Users\anand\Desktop\fundoo-Notes\src\routes\/user.route.js:23:8)
+    at Module._compile (node:internal/modules/cjs/loader:1101:14)
+    at Module._compile (C:\Users\anand\Desktop\fundoo-Notes\node_modules\pirates\lib\index.js:136:24)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1153:10)
+    at Object.newLoader [as .js] (C:\Users\anand\Desktop\fundoo-Notes\node_modules\pirates\lib\index.js:141:7)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at Object.<anonymous> (C:\Users\anand\Desktop\fundoo-Notes\src\routes\/index.js:4:1)
+    at Module._compile (node:internal/modules/cjs/loader:1101:14)
+    at Module._compile (C:\Users\anand\Desktop\fundoo-Notes\node_modules\pirates\lib\index.js:136:24)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1153:10)
+    at Object.newLoader [as .js] (C:\Users\anand\Desktop\fundoo-Notes\node_modules\pirates\lib\index.js:141:7) {"date":"Wed Mar 02 2022 14:06:58 GMT+0530 (India Standard Time)","error":{},"exception":true,"os":{"loadavg":[0,0,0],"uptime":53334},"process":{"argv":["node","C:\\Users\\anand\\Desktop\\fundoo-Notes\\src\\index.js"],"cwd":"C:\\Users\\anand\\Desktop\\fundoo-Notes","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18513623,"external":20059400,"heapTotal":94244864,"heapUsed":71794424,"rss":127303680},"pid":9472,"uid":null,"version":"v16.13.2"},"stack":"Error: Route.put() requires a callback function but got a [object Undefined]\n    at Route.<computed> [as put] (C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\express\\lib\\router\\route.js:202:15)\n    at Function.put (C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\express\\lib\\router\\index.js:516:19)\n    at Object.<anonymous> (C:\\Users\\anand\\Desktop\\fundoo-Notes\\src\\routes\\/user.route.js:23:8)\n    at Module._compile (node:internal/modules/cjs/loader:1101:14)\n    at Module._compile (C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\pirates\\lib\\index.js:136:24)\n    at Module._extensions..js (node:internal/modules/cjs/loader:1153:10)\n    at Object.newLoader [as .js] (C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\pirates\\lib\\index.js:141:7)\n    at Module.load (node:internal/modules/cjs/loader:981:32)\n    at Function.Module._load (node:internal/modules/cjs/loader:822:12)\n    at Module.require (node:internal/modules/cjs/loader:1005:19)\n    at require (node:internal/modules/cjs/helpers:102:18)\n    at Object.<anonymous> (C:\\Users\\anand\\Desktop\\fundoo-Notes\\src\\routes\\/index.js:4:1)\n    at Module._compile (node:internal/modules/cjs/loader:1101:14)\n    at Module._compile (C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\pirates\\lib\\index.js:136:24)\n    at Module._extensions..js (node:internal/modules/cjs/loader:1153:10)\n    at Object.newLoader [as .js] (C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\pirates\\lib\\index.js:141:7)","timestamp":"2022-03-02T08:36:58.580Z","trace":[{"column":15,"file":"C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\express\\lib\\router\\route.js","function":"Route.<computed> [as put]","line":202,"method":"<computed> [as put]","native":false},{"column":19,"file":"C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\express\\lib\\router\\index.js","function":"Function.put","line":516,"method":"put","native":false},{"column":8,"file":"C:\\Users\\anand\\Desktop\\fundoo-Notes\\src\\routes\\/user.route.js","function":null,"line":23,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1101,"method":"_compile","native":false},{"column":24,"file":"C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\pirates\\lib\\index.js","function":"Module._compile","line":136,"method":"_compile","native":false},{"column":10,"file":"node:internal/modules/cjs/loader","function":"Module._extensions..js","line":1153,"method":".js","native":false},{"column":7,"file":"C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\pirates\\lib\\index.js","function":"Object.newLoader [as .js]","line":141,"method":"js]","native":false},{"column":32,"file":"node:internal/modules/cjs/loader","function":"Module.load","line":981,"method":"load","native":false},{"column":12,"file":"node:internal/modules/cjs/loader","function":"Module._load","line":822,"method":"_load","native":false},{"column":19,"file":"node:internal/modules/cjs/loader","function":"Module.require","line":1005,"method":"require","native":false},{"column":18,"file":"node:internal/modules/cjs/helpers","function":"require","line":102,"method":null,"native":false},{"column":1,"file":"C:\\Users\\anand\\Desktop\\fundoo-Notes\\src\\routes\\/index.js","function":null,"line":4,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1101,"method":"_compile","native":false},{"column":24,"file":"C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\pirates\\lib\\index.js","function":"Module._compile","line":136,"method":"_compile","native":false},{"column":10,"file":"node:internal/modules/cjs/loader","function":"Module._extensions..js","line":1153,"method":".js","native":false},{"column":7,"file":"C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\pirates\\lib\\index.js","function":"Object.newLoader [as .js]","line":141,"method":"js]","native":false}]}
+error: 
+    status - 500 
+    message - Error: secretOrPrivateKey must have a value
+    at Object.sign (C:\Users\anand\Desktop\fundoo-Notes\node_modules\jsonwebtoken\sign.js:107:20)
+    at _callee3$ (C:\Users\anand\Desktop\fundoo-Notes\src\services\/user.service.js:33:23)
+    at tryCatch (C:\Users\anand\Desktop\fundoo-Notes\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (C:\Users\anand\Desktop\fundoo-Notes\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (C:\Users\anand\Desktop\fundoo-Notes\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (C:\Users\anand\Desktop\fundoo-Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\anand\Desktop\fundoo-Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/users/login 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2022-03-02T08:41:34.523Z"}
+error: 
+      status - 400
+      message - Authorization token is incorrect 
+      url - /api/v1/users/reset 
+      method - PUT 
+      IP - ::1
+     {"timestamp":"2022-03-02T08:53:16.764Z"}
+error: Could not connect to the database. connect ECONNREFUSED 127.0.0.1:27017 {"reason":{"commonWireVersion":null,"compatibilityError":null,"compatible":true,"heartbeatFrequencyMS":10000,"localThresholdMS":15,"logicalSessionTimeoutMinutes":null,"maxElectionId":null,"maxSetVersion":null,"servers":{},"setName":null,"stale":false,"type":"Single"},"stack":"MongooseServerSelectionError: connect ECONNREFUSED 127.0.0.1:27017\n    at NativeConnection.Connection.openUri (C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\mongoose\\lib\\connection.js:847:32)\n    at C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\mongoose\\lib\\index.js:351:10\n    at C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\mongoose\\lib\\helpers\\promiseOrCallback.js:32:5\n    at new Promise (<anonymous>)\n    at promiseOrCallback (C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\mongoose\\lib\\helpers\\promiseOrCallback.js:31:10)\n    at Mongoose._promiseOrCallback (C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\mongoose\\lib\\index.js:1149:10)\n    at Mongoose.connect (C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\mongoose\\lib\\index.js:350:20)\n    at _callee$ (C:\\Users\\anand\\Desktop\\fundoo-Notes\\src\\config\\/database.js:12:20)\n    at tryCatch (C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\regenerator-runtime\\runtime.js:63:40)\n    at Generator.invoke [as _invoke] (C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\regenerator-runtime\\runtime.js:294:22)\n    at Generator.next (C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\regenerator-runtime\\runtime.js:119:21)\n    at asyncGeneratorStep (C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js:3:24)\n    at _next (C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js:25:9)\n    at C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js:32:7\n    at new Promise (<anonymous>)\n    at C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js:21:12","timestamp":"2022-03-02T10:12:21.900Z"}
+error: Could not connect to the database. connect ECONNREFUSED 127.0.0.1:27017 {"reason":{"commonWireVersion":null,"compatibilityError":null,"compatible":true,"heartbeatFrequencyMS":10000,"localThresholdMS":15,"logicalSessionTimeoutMinutes":null,"maxElectionId":null,"maxSetVersion":null,"servers":{},"setName":null,"stale":false,"type":"Single"},"stack":"MongooseServerSelectionError: connect ECONNREFUSED 127.0.0.1:27017\n    at NativeConnection.Connection.openUri (C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\mongoose\\lib\\connection.js:847:32)\n    at C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\mongoose\\lib\\index.js:351:10\n    at C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\mongoose\\lib\\helpers\\promiseOrCallback.js:32:5\n    at new Promise (<anonymous>)\n    at promiseOrCallback (C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\mongoose\\lib\\helpers\\promiseOrCallback.js:31:10)\n    at Mongoose._promiseOrCallback (C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\mongoose\\lib\\index.js:1149:10)\n    at Mongoose.connect (C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\mongoose\\lib\\index.js:350:20)\n    at _callee$ (C:\\Users\\anand\\Desktop\\fundoo-Notes\\src\\config\\/database.js:12:20)\n    at tryCatch (C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\regenerator-runtime\\runtime.js:63:40)\n    at Generator.invoke [as _invoke] (C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\regenerator-runtime\\runtime.js:294:22)\n    at Generator.next (C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\regenerator-runtime\\runtime.js:119:21)\n    at asyncGeneratorStep (C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js:3:24)\n    at _next (C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js:25:9)\n    at C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js:32:7\n    at new Promise (<anonymous>)\n    at C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js:21:12","timestamp":"2022-03-02T10:13:30.134Z"}
+error: Could not connect to the database. connect ECONNREFUSED 127.0.0.1:27017 {"reason":{"commonWireVersion":null,"compatibilityError":null,"compatible":true,"heartbeatFrequencyMS":10000,"localThresholdMS":15,"logicalSessionTimeoutMinutes":null,"maxElectionId":null,"maxSetVersion":null,"servers":{},"setName":null,"stale":false,"type":"Single"},"stack":"MongooseServerSelectionError: connect ECONNREFUSED 127.0.0.1:27017\n    at NativeConnection.Connection.openUri (C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\mongoose\\lib\\connection.js:847:32)\n    at C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\mongoose\\lib\\index.js:351:10\n    at C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\mongoose\\lib\\helpers\\promiseOrCallback.js:32:5\n    at new Promise (<anonymous>)\n    at promiseOrCallback (C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\mongoose\\lib\\helpers\\promiseOrCallback.js:31:10)\n    at Mongoose._promiseOrCallback (C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\mongoose\\lib\\index.js:1149:10)\n    at Mongoose.connect (C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\mongoose\\lib\\index.js:350:20)\n    at _callee$ (C:\\Users\\anand\\Desktop\\fundoo-Notes\\src\\config\\/database.js:12:20)\n    at tryCatch (C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\regenerator-runtime\\runtime.js:63:40)\n    at Generator.invoke [as _invoke] (C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\regenerator-runtime\\runtime.js:294:22)\n    at Generator.next (C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\regenerator-runtime\\runtime.js:119:21)\n    at asyncGeneratorStep (C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js:3:24)\n    at _next (C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js:25:9)\n    at C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js:32:7\n    at new Promise (<anonymous>)\n    at C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\@babel\\runtime\\helpers\\asyncToGenerator.js:21:12","timestamp":"2022-03-02T10:14:38.954Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read properties of null (reading 'emailID')
+    at _callee4$ (C:\Users\anand\Desktop\fundoo-Notes\src\services\/user.service.js:52:26)
+    at tryCatch (C:\Users\anand\Desktop\fundoo-Notes\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (C:\Users\anand\Desktop\fundoo-Notes\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (C:\Users\anand\Desktop\fundoo-Notes\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (C:\Users\anand\Desktop\fundoo-Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\anand\Desktop\fundoo-Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/users/forget 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2022-03-02T10:31:34.897Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read properties of null (reading 'emailID')
+    at _callee4$ (C:\Users\anand\Desktop\fundoo-Notes\src\services\/user.service.js:52:26)
+    at tryCatch (C:\Users\anand\Desktop\fundoo-Notes\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (C:\Users\anand\Desktop\fundoo-Notes\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (C:\Users\anand\Desktop\fundoo-Notes\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (C:\Users\anand\Desktop\fundoo-Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\anand\Desktop\fundoo-Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/users/forget 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2022-03-02T10:32:48.497Z"}
+error: 
+    status - 500 
+    message - ObjectParameterError: Parameter "filter" to findOne() must be an object, got autesting@gmail.com
+    at model.Query.Query.findOne (C:\Users\anand\Desktop\fundoo-Notes\node_modules\mongoose\lib\query.js:2321:16)
+    at Function.findOne (C:\Users\anand\Desktop\fundoo-Notes\node_modules\mongoose\lib\model.js:2267:13)
+    at _callee4$ (C:\Users\anand\Desktop\fundoo-Notes\src\services\/user.service.js:51:33)
+    at tryCatch (C:\Users\anand\Desktop\fundoo-Notes\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (C:\Users\anand\Desktop\fundoo-Notes\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (C:\Users\anand\Desktop\fundoo-Notes\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (C:\Users\anand\Desktop\fundoo-Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\anand\Desktop\fundoo-Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at C:\Users\anand\Desktop\fundoo-Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at Object.<anonymous> (C:\Users\anand\Desktop\fundoo-Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12)
+    at Object.forgetPassword (C:\Users\anand\Desktop\fundoo-Notes\src\services\/user.service.js:49:28)
+    at _callee4$ (C:\Users\anand\Desktop\fundoo-Notes\src\controllers\/user.controller.js:58:36)
+    at tryCatch (C:\Users\anand\Desktop\fundoo-Notes\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (C:\Users\anand\Desktop\fundoo-Notes\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (C:\Users\anand\Desktop\fundoo-Notes\node_modules\regenerator-runtime\runtime.js:119:21) 
+    url - /api/v1/users/forget 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2022-03-02T10:34:49.279Z"}
+error: 
+    status - 500 
+    message - Error: password does not match
+    at _callee3$ (C:\Users\anand\Desktop\fundoo-Notes\src\services\/user.service.js:38:12)
+    at tryCatch (C:\Users\anand\Desktop\fundoo-Notes\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (C:\Users\anand\Desktop\fundoo-Notes\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (C:\Users\anand\Desktop\fundoo-Notes\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (C:\Users\anand\Desktop\fundoo-Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\anand\Desktop\fundoo-Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/users/login 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2022-03-02T10:40:28.189Z"}
+error: 
+    status - 500 
+    message - Error: password does not match
+    at _callee3$ (C:\Users\anand\Desktop\fundoo-Notes\src\services\/user.service.js:38:12)
+    at tryCatch (C:\Users\anand\Desktop\fundoo-Notes\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (C:\Users\anand\Desktop\fundoo-Notes\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (C:\Users\anand\Desktop\fundoo-Notes\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (C:\Users\anand\Desktop\fundoo-Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\anand\Desktop\fundoo-Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/users/login 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2022-03-02T10:43:26.189Z"}
+error: 
+    status - 500 
+    message - Error: password does not match
+    at _callee3$ (C:\Users\anand\Desktop\fundoo-Notes\src\services\/user.service.js:38:12)
+    at tryCatch (C:\Users\anand\Desktop\fundoo-Notes\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (C:\Users\anand\Desktop\fundoo-Notes\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (C:\Users\anand\Desktop\fundoo-Notes\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (C:\Users\anand\Desktop\fundoo-Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\anand\Desktop\fundoo-Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/users/login 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2022-03-02T10:49:22.129Z"}
+error: 
+    status - 500 
+    message - Error: password does not match
+    at _callee3$ (C:\Users\anand\Desktop\fundoo-Notes\src\services\/user.service.js:38:12)
+    at tryCatch (C:\Users\anand\Desktop\fundoo-Notes\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (C:\Users\anand\Desktop\fundoo-Notes\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (C:\Users\anand\Desktop\fundoo-Notes\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (C:\Users\anand\Desktop\fundoo-Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\anand\Desktop\fundoo-Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/users/login 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2022-03-02T10:55:48.720Z"}
+error: 
+    status - 500 
+    message - Error: password does not match
+    at _callee3$ (C:\Users\anand\Desktop\fundoo-Notes\src\services\/user.service.js:39:12)
+    at tryCatch (C:\Users\anand\Desktop\fundoo-Notes\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (C:\Users\anand\Desktop\fundoo-Notes\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (C:\Users\anand\Desktop\fundoo-Notes\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (C:\Users\anand\Desktop\fundoo-Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\anand\Desktop\fundoo-Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/users/login 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2022-03-02T10:57:47.020Z"}
+error: 
+    status - 500 
+    message - Error: password does not match
+    at _callee3$ (C:\Users\anand\Desktop\fundoo-Notes\src\services\/user.service.js:39:12)
+    at tryCatch (C:\Users\anand\Desktop\fundoo-Notes\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (C:\Users\anand\Desktop\fundoo-Notes\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (C:\Users\anand\Desktop\fundoo-Notes\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (C:\Users\anand\Desktop\fundoo-Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\anand\Desktop\fundoo-Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/users/login 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2022-03-02T10:59:12.821Z"}
+error: 
+    status - 500 
+    message - Error: password does not match
+    at _callee3$ (C:\Users\anand\Desktop\fundoo-Notes\src\services\/user.service.js:40:12)
+    at tryCatch (C:\Users\anand\Desktop\fundoo-Notes\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (C:\Users\anand\Desktop\fundoo-Notes\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (C:\Users\anand\Desktop\fundoo-Notes\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (C:\Users\anand\Desktop\fundoo-Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\anand\Desktop\fundoo-Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/users/login 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2022-03-02T10:59:53.513Z"}
+error: 
+    status - 500 
+    message - Error: password does not match
+    at _callee3$ (C:\Users\anand\Desktop\fundoo-Notes\src\services\/user.service.js:39:12)
+    at tryCatch (C:\Users\anand\Desktop\fundoo-Notes\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (C:\Users\anand\Desktop\fundoo-Notes\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (C:\Users\anand\Desktop\fundoo-Notes\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (C:\Users\anand\Desktop\fundoo-Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\anand\Desktop\fundoo-Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/users/login 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2022-03-02T11:24:46.769Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read properties of undefined (reading 'id')
+    at _callee$ (C:\Users\anand\Desktop\fundoo-Notes\src\controllers\/note.controller.js:17:37)
+    at tryCatch (C:\Users\anand\Desktop\fundoo-Notes\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (C:\Users\anand\Desktop\fundoo-Notes\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (C:\Users\anand\Desktop\fundoo-Notes\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (C:\Users\anand\Desktop\fundoo-Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\anand\Desktop\fundoo-Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at C:\Users\anand\Desktop\fundoo-Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at C:\Users\anand\Desktop\fundoo-Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12
+    at create (C:\Users\anand\Desktop\fundoo-Notes\src\controllers\/note.controller.js:15:20)
+    at Layer.handle [as handle_request] (C:\Users\anand\Desktop\fundoo-Notes\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\anand\Desktop\fundoo-Notes\node_modules\express\lib\router\route.js:137:13)
+    at C:\Users\anand\Desktop\fundoo-Notes\src\middlewares\/auth.middleware.js:46:9
+    at C:\Users\anand\Desktop\fundoo-Notes\node_modules\jsonwebtoken\verify.js:223:12
+    at getSecret (C:\Users\anand\Desktop\fundoo-Notes\node_modules\jsonwebtoken\verify.js:90:14)
+    at Object.module.exports [as verify] (C:\Users\anand\Desktop\fundoo-Notes\node_modules\jsonwebtoken\verify.js:94:10) 
+    url - /api/v1/note 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-03-02T11:29:26.096Z"}
+error: 
+    status - 500 
+    message - Error: password does not match
+    at _callee3$ (C:\Users\anand\Desktop\fundoo-Notes\src\services\/user.service.js:39:12)
+    at tryCatch (C:\Users\anand\Desktop\fundoo-Notes\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (C:\Users\anand\Desktop\fundoo-Notes\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (C:\Users\anand\Desktop\fundoo-Notes\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (C:\Users\anand\Desktop\fundoo-Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\anand\Desktop\fundoo-Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/users/login 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2022-03-02T11:43:16.157Z"}
+error: 
+      status - 400
+      message - Authorization token is incorrect 
+      url - /api/v1/note 
+      method - POST 
+      IP - ::1
+     {"timestamp":"2022-03-02T12:11:07.743Z"}
+error: 
+      status - 400
+      message - Authorization token is incorrect 
+      url - /api/v1/note 
+      method - POST 
+      IP - ::1
+     {"timestamp":"2022-03-02T12:12:17.662Z"}
+error: 
+      status - 400
+      message - Authorization token is incorrect 
+      url - /api/v1/note 
+      method - POST 
+      IP - ::1
+     {"timestamp":"2022-03-02T12:12:19.893Z"}
+error: 
+      status - 400
+      message - Authorization token is incorrect 
+      url - /api/v1/note 
+      method - POST 
+      IP - ::1
+     {"timestamp":"2022-03-02T12:20:57.813Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read properties of undefined (reading 'id')
+    at _callee$ (C:\Users\anand\Desktop\fundoo-Notes\src\controllers\/note.controller.js:17:37)
+    at tryCatch (C:\Users\anand\Desktop\fundoo-Notes\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (C:\Users\anand\Desktop\fundoo-Notes\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (C:\Users\anand\Desktop\fundoo-Notes\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (C:\Users\anand\Desktop\fundoo-Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\anand\Desktop\fundoo-Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at C:\Users\anand\Desktop\fundoo-Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at C:\Users\anand\Desktop\fundoo-Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12
+    at create (C:\Users\anand\Desktop\fundoo-Notes\src\controllers\/note.controller.js:15:20)
+    at Layer.handle [as handle_request] (C:\Users\anand\Desktop\fundoo-Notes\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\anand\Desktop\fundoo-Notes\node_modules\express\lib\router\route.js:137:13)
+    at C:\Users\anand\Desktop\fundoo-Notes\src\middlewares\/auth.middleware.js:46:9
+    at C:\Users\anand\Desktop\fundoo-Notes\node_modules\jsonwebtoken\verify.js:223:12
+    at getSecret (C:\Users\anand\Desktop\fundoo-Notes\node_modules\jsonwebtoken\verify.js:90:14)
+    at Object.module.exports [as verify] (C:\Users\anand\Desktop\fundoo-Notes\node_modules\jsonwebtoken\verify.js:94:10) 
+    url - /api/v1/note 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-03-02T12:23:11.351Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read properties of undefined (reading 'id')
+    at _callee$ (C:\Users\anand\Desktop\fundoo-Notes\src\controllers\/note.controller.js:17:37)
+    at tryCatch (C:\Users\anand\Desktop\fundoo-Notes\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (C:\Users\anand\Desktop\fundoo-Notes\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (C:\Users\anand\Desktop\fundoo-Notes\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (C:\Users\anand\Desktop\fundoo-Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\anand\Desktop\fundoo-Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at C:\Users\anand\Desktop\fundoo-Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at C:\Users\anand\Desktop\fundoo-Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12
+    at create (C:\Users\anand\Desktop\fundoo-Notes\src\controllers\/note.controller.js:15:20)
+    at Layer.handle [as handle_request] (C:\Users\anand\Desktop\fundoo-Notes\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\anand\Desktop\fundoo-Notes\node_modules\express\lib\router\route.js:137:13)
+    at C:\Users\anand\Desktop\fundoo-Notes\src\middlewares\/auth.middleware.js:46:9
+    at C:\Users\anand\Desktop\fundoo-Notes\node_modules\jsonwebtoken\verify.js:223:12
+    at getSecret (C:\Users\anand\Desktop\fundoo-Notes\node_modules\jsonwebtoken\verify.js:90:14)
+    at Object.module.exports [as verify] (C:\Users\anand\Desktop\fundoo-Notes\node_modules\jsonwebtoken\verify.js:94:10) 
+    url - /api/v1/note 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-03-02T12:23:13.482Z"}
+error: 
+    status - 500 
+    message - ValidationError: Note validation failed: Descreption: Path `Descreption` is required., Title: Path `Title` is required.
+    at model.Document.invalidate (C:\Users\anand\Desktop\fundoo-Notes\node_modules\mongoose\lib\document.js:2782:32)
+    at C:\Users\anand\Desktop\fundoo-Notes\node_modules\mongoose\lib\document.js:2574:17
+    at C:\Users\anand\Desktop\fundoo-Notes\node_modules\mongoose\lib\schematype.js:1273:9
+    at processTicksAndRejections (node:internal/process/task_queues:78:11) 
+    url - /api/v1/note 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-03-02T12:23:39.359Z"}
+error: 
+    status - 500 
+    message - ValidationError: Note validation failed: Descreption: Path `Descreption` is required., Title: Path `Title` is required.
+    at model.Document.invalidate (C:\Users\anand\Desktop\fundoo-Notes\node_modules\mongoose\lib\document.js:2782:32)
+    at C:\Users\anand\Desktop\fundoo-Notes\node_modules\mongoose\lib\document.js:2574:17
+    at C:\Users\anand\Desktop\fundoo-Notes\node_modules\mongoose\lib\schematype.js:1273:9
+    at processTicksAndRejections (node:internal/process/task_queues:78:11) 
+    url - /api/v1/note 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-03-02T12:24:12.241Z"}
+error: 
+    status - 500 
+    message - ValidationError: Note validation failed: Descreption: Path `Descreption` is required., Title: Path `Title` is required.
+    at model.Document.invalidate (C:\Users\anand\Desktop\fundoo-Notes\node_modules\mongoose\lib\document.js:2782:32)
+    at C:\Users\anand\Desktop\fundoo-Notes\node_modules\mongoose\lib\document.js:2574:17
+    at C:\Users\anand\Desktop\fundoo-Notes\node_modules\mongoose\lib\schematype.js:1273:9
+    at processTicksAndRejections (node:internal/process/task_queues:78:11) 
+    url - /api/v1/note 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-03-02T12:24:33.831Z"}
+error: 
+    status - 500 
+    message - ValidationError: "password" length must be at least 10 characters long 
+    url - /api/v1/users/register 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-03-03T02:43:58.769Z"}
+error: 
+    status - 500 
+    message - ValidationError: "password" length must be at least 10 characters long 
+    url - /api/v1/users/register 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-03-03T02:44:01.216Z"}

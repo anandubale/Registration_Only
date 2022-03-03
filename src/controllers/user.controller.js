@@ -41,7 +41,7 @@ export const userRegistration = async (req, res, next) => {
 
 export const login = async (req, res, next) => {
   try {
-    console.log(req.body);
+    console.log(req.body.emailID)
     const data = await UserService.login(req.body);  
     res.status(HttpStatus.OK).json({
       code: HttpStatus.OK,
@@ -55,6 +55,7 @@ export const login = async (req, res, next) => {
 
 export const forgetPassword = async (req,res,next)=>{
   try {
+    console.log(req.body)
     const data = await UserService.forgetPassword(req.body.emailID);
     res.status(HttpStatus.OK).json({
       code:HttpStatus.OK,
@@ -72,7 +73,6 @@ export const forgetPassword = async (req,res,next)=>{
 export const resetPassword = async (req,res,next) => {
   try {
     req.body.UserID = req.body.data.id;
-    console.log(req.body);
     console.log(req.body.password);
     const resetPasswordData = await UserService.resetPassword(req.body);
     res.status(HttpStatus.OK).json({

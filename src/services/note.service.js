@@ -52,33 +52,15 @@ export const deleteUser = async(ID)=>{
 
 
 
-//archive using Id; -working
-// export const MakeArchive = async(_id,UserID,body)=>{
-//     const SendingItToArchieve = await Note.findByIdAndUpdate(
-//         {_id},{ UserID},
-//         {
-//          $set: { isArchived: true },
-//         }
-//     );
-//         body,{
-//             new : true
-//         }
-//     return SendingItToArchieve ;
-// }
-   
 export const MakeArchive = async(body)=>{
+    const SendingItToArchieve = await Note.findByIdAndUpdate({ 
+        
 
-    const SendingItToArchieve = await Note.findByIdAndUpdate(body.UserID,
-        body,
-        {
-            isArchived : true
-        }
-    );
-    body,
-    {
-        new : true
-    }
 
+
+        
+    
+    });
     return SendingItToArchieve ;
 }
    

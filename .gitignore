@@ -1,2 +1,19 @@
 /node_modules
 /.env
+
+{
+    "Title" : "Title1",
+    "Descreption" : "This is Descreption",
+    "color" : "red",
+    "isArchived" : false,
+    "isDeleted" : false
+}
+
+{   
+    "firstName" : "anand",
+    "lastName" : "Ubale",
+    "emailID" : "autesting@gmail.com",
+    "password" : "asdfg@12345"
+}
+
+//token for notes : eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbElEIjoiYXV0ZXN0aW5nQGdtYWlsLmNvbSIsImlkIjoiNjIxZjQ1NmRkMjE1MzYzMDA4OGM1ZWVhIiwiaWF0IjoxNjQ2MjE2NjA5fQ.zC6MkgT5KxRM4gRs6aiyZTfibCtde9rAb9-Cs1Sp-rQ

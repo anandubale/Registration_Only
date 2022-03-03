@@ -1,7 +1,7 @@
 import express from 'express';
 import * as userController from '../controllers/user.controller';
 import { newUserValidator } from '../validators/user.validator';
-import { userAuth2 } from '../middlewares/auth.middleware';
+import { PassAuth } from '../middlewares/auth.middleware';
 
 const router = express.Router();
  
@@ -20,9 +20,13 @@ router.get('/login', userController.login);
 router.get('/forget',userController.forgetPassword)
 
 
-router.put('/reset',userAuth2,userController.resetPassword)
+router.put('/reset',PassAuth,userController.resetPassword)
 
 
 export default router;
 
+//ajit@gmail.com
+//1234567890
+//_noteID = 621f1b34980bd41d60b1aa4d
+//token1 = eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbElEIjoiYWppdEBnbWFpbC5jb20iLCJpZCI6IjYyMWYxYTJhOTA1YzI4MjgxNGJiZjhhMyIsImlhdCI6MTY0NjIwNTUxOX0.hsbE8L9tmXVV9wXkIxZLIqMvUXTiXeyKGLB64yhwdgA
 
