@@ -14,8 +14,12 @@ export const createNotes = async(body)=> {
 
 export const AllUsers = async (UserID) => {
     const AllUserdata = await Note.find({UserID}); 
-    console.log(AllUserdata);
-    return AllUserdata;
+    if(AllUserdata.length == 0){
+        throw new Error("user dont have any notes")
+    }else{
+        return AllUserdata;
+    }
+    
 };
 
 

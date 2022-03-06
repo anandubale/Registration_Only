@@ -47,9 +47,11 @@ export const login = async  (body)=>{
 export const forgetPassword = async (emailID) => {
 
   const storedData = await User.findOne({emailID})  //problem is in here use proper Query
+  console.log(storedData);
   if(storedData.emailID != null ){
     const token = jwt.sign({"emailID": storedData.emailID,"id":storedData._id},process.env.FORGET_PASS_CODE );
     const generateMail = sendMailTo(storedData.emailID, token);
+    console.log("After sending mail" + generateMail);
     return generateMail;
   }
   else{
