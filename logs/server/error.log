@@ -7651,3 +7651,888 @@ error:
     method - DELETE 
     IP - ::1
    {"timestamp":"2022-03-03T14:37:08.883Z"}
+error: Could not connect to the database. querySrv ECONNREFUSED _mongodb._tcp.demo.aoloa.mongodb.net {"code":"ECONNREFUSED","hostname":"_mongodb._tcp.demo.aoloa.mongodb.net","stack":"Error: querySrv ECONNREFUSED _mongodb._tcp.demo.aoloa.mongodb.net\n    at QueryReqWrap.onresolve [as oncomplete] (node:dns:213:19)","syscall":"querySrv","timestamp":"2022-03-03T17:33:56.659Z"}
+error: uncaughtException: Cannot read properties of undefined (reading 'statusCode')
+TypeError: Cannot read properties of undefined (reading 'statusCode')
+    at Test.<anonymous> (C:\Users\anand\Desktop\fundoo-Notes\tests\integration\/user.test.js:45:22)
+    at Test.assert (C:\Users\anand\Desktop\fundoo-Notes\node_modules\supertest\lib\test.js:181:6)
+    at Server.localAssert (C:\Users\anand\Desktop\fundoo-Notes\node_modules\supertest\lib\test.js:131:12)
+    at Object.onceWrapper (node:events:509:28)
+    at Server.emit (node:events:390:28)
+    at emitCloseNT (node:net:1681:8)
+    at processTicksAndRejections (node:internal/process/task_queues:82:21) {"date":"Thu Mar 03 2022 23:03:56 GMT+0530 (India Standard Time)","error":{},"exception":true,"os":{"loadavg":[0,0,0],"uptime":116075},"process":{"argv":["C:\\Program Files\\nodejs\\node.exe","C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\mocha\\bin\\mocha","--exit","--recursive","--require","@babel/register","--timeout=5000","tests/**/*.js"],"cwd":"C:\\Users\\anand\\Desktop\\fundoo-Notes","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18302230,"external":21730140,"heapTotal":157319168,"heapUsed":124054816,"rss":190414848},"pid":6756,"uid":null,"version":"v16.13.2"},"stack":"TypeError: Cannot read properties of undefined (reading 'statusCode')\n    at Test.<anonymous> (C:\\Users\\anand\\Desktop\\fundoo-Notes\\tests\\integration\\/user.test.js:45:22)\n    at Test.assert (C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\supertest\\lib\\test.js:181:6)\n    at Server.localAssert (C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\supertest\\lib\\test.js:131:12)\n    at Object.onceWrapper (node:events:509:28)\n    at Server.emit (node:events:390:28)\n    at emitCloseNT (node:net:1681:8)\n    at processTicksAndRejections (node:internal/process/task_queues:82:21)","timestamp":"2022-03-03T17:33:56.697Z","trace":[{"column":22,"file":"C:\\Users\\anand\\Desktop\\fundoo-Notes\\tests\\integration\\/user.test.js","function":null,"line":45,"method":null,"native":false},{"column":6,"file":"C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\supertest\\lib\\test.js","function":"Test.assert","line":181,"method":"assert","native":false},{"column":12,"file":"C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\supertest\\lib\\test.js","function":"Server.localAssert","line":131,"method":"localAssert","native":false},{"column":28,"file":"node:events","function":"Object.onceWrapper","line":509,"method":"onceWrapper","native":false},{"column":28,"file":"node:events","function":"Server.emit","line":390,"method":"emit","native":false},{"column":8,"file":"node:net","function":"emitCloseNT","line":1681,"method":null,"native":false},{"column":21,"file":"node:internal/process/task_queues","function":"processTicksAndRejections","line":82,"method":null,"native":false}]}
+error: uncaughtException: Cannot read properties of undefined (reading 'statusCode')
+TypeError: Cannot read properties of undefined (reading 'statusCode')
+    at Test.<anonymous> (C:\Users\anand\Desktop\fundoo-Notes\tests\integration\/user.test.js:45:22)
+    at Test.assert (C:\Users\anand\Desktop\fundoo-Notes\node_modules\supertest\lib\test.js:181:6)
+    at Server.localAssert (C:\Users\anand\Desktop\fundoo-Notes\node_modules\supertest\lib\test.js:131:12)
+    at Object.onceWrapper (node:events:509:28)
+    at Server.emit (node:events:390:28)
+    at emitCloseNT (node:net:1681:8)
+    at processTicksAndRejections (node:internal/process/task_queues:82:21) {"date":"Fri Mar 04 2022 08:14:49 GMT+0530 (India Standard Time)","error":{},"exception":true,"os":{"loadavg":[0,0,0],"uptime":149127},"process":{"argv":["C:\\Program Files\\nodejs\\node.exe","C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\mocha\\bin\\mocha","--exit","--recursive","--require","@babel/register","--timeout=5000","tests/**/*.js"],"cwd":"C:\\Users\\anand\\Desktop\\fundoo-Notes","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18302230,"external":21730140,"heapTotal":157319168,"heapUsed":124104200,"rss":188731392},"pid":18412,"uid":null,"version":"v16.13.2"},"stack":"TypeError: Cannot read properties of undefined (reading 'statusCode')\n    at Test.<anonymous> (C:\\Users\\anand\\Desktop\\fundoo-Notes\\tests\\integration\\/user.test.js:45:22)\n    at Test.assert (C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\supertest\\lib\\test.js:181:6)\n    at Server.localAssert (C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\supertest\\lib\\test.js:131:12)\n    at Object.onceWrapper (node:events:509:28)\n    at Server.emit (node:events:390:28)\n    at emitCloseNT (node:net:1681:8)\n    at processTicksAndRejections (node:internal/process/task_queues:82:21)","timestamp":"2022-03-04T02:44:49.399Z","trace":[{"column":22,"file":"C:\\Users\\anand\\Desktop\\fundoo-Notes\\tests\\integration\\/user.test.js","function":null,"line":45,"method":null,"native":false},{"column":6,"file":"C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\supertest\\lib\\test.js","function":"Test.assert","line":181,"method":"assert","native":false},{"column":12,"file":"C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\supertest\\lib\\test.js","function":"Server.localAssert","line":131,"method":"localAssert","native":false},{"column":28,"file":"node:events","function":"Object.onceWrapper","line":509,"method":"onceWrapper","native":false},{"column":28,"file":"node:events","function":"Server.emit","line":390,"method":"emit","native":false},{"column":8,"file":"node:net","function":"emitCloseNT","line":1681,"method":null,"native":false},{"column":21,"file":"node:internal/process/task_queues","function":"processTicksAndRejections","line":82,"method":null,"native":false}]}
+error: uncaughtException: Cannot read properties of undefined (reading 'statusCode')
+TypeError: Cannot read properties of undefined (reading 'statusCode')
+    at Test.<anonymous> (C:\Users\anand\Desktop\fundoo-Notes\tests\integration\/user.test.js:46:22)
+    at Test.assert (C:\Users\anand\Desktop\fundoo-Notes\node_modules\supertest\lib\test.js:181:6)
+    at Server.localAssert (C:\Users\anand\Desktop\fundoo-Notes\node_modules\supertest\lib\test.js:131:12)
+    at Object.onceWrapper (node:events:509:28)
+    at Server.emit (node:events:390:28)
+    at emitCloseNT (node:net:1681:8)
+    at processTicksAndRejections (node:internal/process/task_queues:82:21) {"date":"Fri Mar 04 2022 08:23:23 GMT+0530 (India Standard Time)","error":{},"exception":true,"os":{"loadavg":[0,0,0],"uptime":149642},"process":{"argv":["C:\\Program Files\\nodejs\\node.exe","C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\mocha\\bin\\mocha","--exit","--recursive","--require","@babel/register","--timeout=5000","tests/**/*.js"],"cwd":"C:\\Users\\anand\\Desktop\\fundoo-Notes","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18303835,"external":21673000,"heapTotal":157319168,"heapUsed":124732856,"rss":190865408},"pid":2620,"uid":null,"version":"v16.13.2"},"stack":"TypeError: Cannot read properties of undefined (reading 'statusCode')\n    at Test.<anonymous> (C:\\Users\\anand\\Desktop\\fundoo-Notes\\tests\\integration\\/user.test.js:46:22)\n    at Test.assert (C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\supertest\\lib\\test.js:181:6)\n    at Server.localAssert (C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\supertest\\lib\\test.js:131:12)\n    at Object.onceWrapper (node:events:509:28)\n    at Server.emit (node:events:390:28)\n    at emitCloseNT (node:net:1681:8)\n    at processTicksAndRejections (node:internal/process/task_queues:82:21)","timestamp":"2022-03-04T02:53:23.564Z","trace":[{"column":22,"file":"C:\\Users\\anand\\Desktop\\fundoo-Notes\\tests\\integration\\/user.test.js","function":null,"line":46,"method":null,"native":false},{"column":6,"file":"C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\supertest\\lib\\test.js","function":"Test.assert","line":181,"method":"assert","native":false},{"column":12,"file":"C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\supertest\\lib\\test.js","function":"Server.localAssert","line":131,"method":"localAssert","native":false},{"column":28,"file":"node:events","function":"Object.onceWrapper","line":509,"method":"onceWrapper","native":false},{"column":28,"file":"node:events","function":"Server.emit","line":390,"method":"emit","native":false},{"column":8,"file":"node:net","function":"emitCloseNT","line":1681,"method":null,"native":false},{"column":21,"file":"node:internal/process/task_queues","function":"processTicksAndRejections","line":82,"method":null,"native":false}]}
+error: uncaughtException: expected 200 to equal 201
+AssertionError: expected 200 to equal 201
+    at Test.<anonymous> (C:\Users\anand\Desktop\fundoo-Notes\tests\integration\/user.test.js:47:45)
+    at Test.assert (C:\Users\anand\Desktop\fundoo-Notes\node_modules\supertest\lib\test.js:181:6)
+    at Server.localAssert (C:\Users\anand\Desktop\fundoo-Notes\node_modules\supertest\lib\test.js:131:12)
+    at Object.onceWrapper (node:events:509:28)
+    at Server.emit (node:events:390:28)
+    at emitCloseNT (node:net:1681:8)
+    at processTicksAndRejections (node:internal/process/task_queues:82:21) {"date":"Fri Mar 04 2022 08:27:17 GMT+0530 (India Standard Time)","error":{"actual":200,"expected":201,"message":"expected 200 to equal 201","name":"AssertionError","operator":"strictEqual","showDiff":true,"stack":"AssertionError: expected 200 to equal 201\n    at Test.<anonymous> (C:\\Users\\anand\\Desktop\\fundoo-Notes\\tests\\integration\\/user.test.js:47:45)\n    at Test.assert (C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\supertest\\lib\\test.js:181:6)\n    at Server.localAssert (C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\supertest\\lib\\test.js:131:12)\n    at Object.onceWrapper (node:events:509:28)\n    at Server.emit (node:events:390:28)\n    at emitCloseNT (node:net:1681:8)\n    at processTicksAndRejections (node:internal/process/task_queues:82:21)"},"exception":true,"os":{"loadavg":[0,0,0],"uptime":149876},"process":{"argv":["C:\\Program Files\\nodejs\\node.exe","C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\mocha\\bin\\mocha","--exit","--recursive","--require","@babel/register","--timeout=5000","tests/**/*.js"],"cwd":"C:\\Users\\anand\\Desktop\\fundoo-Notes","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18303835,"external":21673000,"heapTotal":158367744,"heapUsed":126611176,"rss":191143936},"pid":6180,"uid":null,"version":"v16.13.2"},"stack":"AssertionError: expected 200 to equal 201\n    at Test.<anonymous> (C:\\Users\\anand\\Desktop\\fundoo-Notes\\tests\\integration\\/user.test.js:47:45)\n    at Test.assert (C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\supertest\\lib\\test.js:181:6)\n    at Server.localAssert (C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\supertest\\lib\\test.js:131:12)\n    at Object.onceWrapper (node:events:509:28)\n    at Server.emit (node:events:390:28)\n    at emitCloseNT (node:net:1681:8)\n    at processTicksAndRejections (node:internal/process/task_queues:82:21)","timestamp":"2022-03-04T02:57:17.678Z","trace":[{"column":45,"file":"C:\\Users\\anand\\Desktop\\fundoo-Notes\\tests\\integration\\/user.test.js","function":null,"line":47,"method":null,"native":false},{"column":6,"file":"C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\supertest\\lib\\test.js","function":"Test.assert","line":181,"method":"assert","native":false},{"column":12,"file":"C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\supertest\\lib\\test.js","function":"Server.localAssert","line":131,"method":"localAssert","native":false},{"column":28,"file":"node:events","function":"Object.onceWrapper","line":509,"method":"onceWrapper","native":false},{"column":28,"file":"node:events","function":"Server.emit","line":390,"method":"emit","native":false},{"column":8,"file":"node:net","function":"emitCloseNT","line":1681,"method":null,"native":false},{"column":21,"file":"node:internal/process/task_queues","function":"processTicksAndRejections","line":82,"method":null,"native":false}]}
+error: uncaughtException: Cannot read properties of undefined (reading 'statusCode')
+TypeError: Cannot read properties of undefined (reading 'statusCode')
+    at Test.<anonymous> (C:\Users\anand\Desktop\fundoo-Notes\tests\integration\/user.test.js:47:27)
+    at Test.assert (C:\Users\anand\Desktop\fundoo-Notes\node_modules\supertest\lib\test.js:181:6)
+    at Server.localAssert (C:\Users\anand\Desktop\fundoo-Notes\node_modules\supertest\lib\test.js:131:12)
+    at Object.onceWrapper (node:events:509:28)
+    at Server.emit (node:events:390:28)
+    at emitCloseNT (node:net:1681:8)
+    at processTicksAndRejections (node:internal/process/task_queues:82:21) {"date":"Fri Mar 04 2022 09:19:14 GMT+0530 (India Standard Time)","error":{},"exception":true,"os":{"loadavg":[0,0,0],"uptime":152993},"process":{"argv":["C:\\Program Files\\nodejs\\node.exe","C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\mocha\\bin\\mocha","--exit","--recursive","--require","@babel/register","--timeout=5000","tests/**/*.js"],"cwd":"C:\\Users\\anand\\Desktop\\fundoo-Notes","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18312027,"external":21673000,"heapTotal":157704192,"heapUsed":128980680,"rss":190947328},"pid":6676,"uid":null,"version":"v16.13.2"},"stack":"TypeError: Cannot read properties of undefined (reading 'statusCode')\n    at Test.<anonymous> (C:\\Users\\anand\\Desktop\\fundoo-Notes\\tests\\integration\\/user.test.js:47:27)\n    at Test.assert (C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\supertest\\lib\\test.js:181:6)\n    at Server.localAssert (C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\supertest\\lib\\test.js:131:12)\n    at Object.onceWrapper (node:events:509:28)\n    at Server.emit (node:events:390:28)\n    at emitCloseNT (node:net:1681:8)\n    at processTicksAndRejections (node:internal/process/task_queues:82:21)","timestamp":"2022-03-04T03:49:14.805Z","trace":[{"column":27,"file":"C:\\Users\\anand\\Desktop\\fundoo-Notes\\tests\\integration\\/user.test.js","function":null,"line":47,"method":null,"native":false},{"column":6,"file":"C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\supertest\\lib\\test.js","function":"Test.assert","line":181,"method":"assert","native":false},{"column":12,"file":"C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\supertest\\lib\\test.js","function":"Server.localAssert","line":131,"method":"localAssert","native":false},{"column":28,"file":"node:events","function":"Object.onceWrapper","line":509,"method":"onceWrapper","native":false},{"column":28,"file":"node:events","function":"Server.emit","line":390,"method":"emit","native":false},{"column":8,"file":"node:net","function":"emitCloseNT","line":1681,"method":null,"native":false},{"column":21,"file":"node:internal/process/task_queues","function":"processTicksAndRejections","line":82,"method":null,"native":false}]}
+error: uncaughtException: Cannot read properties of undefined (reading 'statusCode')
+TypeError: Cannot read properties of undefined (reading 'statusCode')
+    at Test.<anonymous> (C:\Users\anand\Desktop\fundoo-Notes\tests\integration\/user.test.js:47:22)
+    at Test.assert (C:\Users\anand\Desktop\fundoo-Notes\node_modules\supertest\lib\test.js:181:6)
+    at Server.localAssert (C:\Users\anand\Desktop\fundoo-Notes\node_modules\supertest\lib\test.js:131:12)
+    at Object.onceWrapper (node:events:509:28)
+    at Server.emit (node:events:390:28)
+    at emitCloseNT (node:net:1681:8)
+    at processTicksAndRejections (node:internal/process/task_queues:82:21) {"date":"Fri Mar 04 2022 09:20:02 GMT+0530 (India Standard Time)","error":{},"exception":true,"os":{"loadavg":[0,0,0],"uptime":153041},"process":{"argv":["C:\\Program Files\\nodejs\\node.exe","C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\mocha\\bin\\mocha","--exit","--recursive","--require","@babel/register","--timeout=5000","tests/**/*.js"],"cwd":"C:\\Users\\anand\\Desktop\\fundoo-Notes","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18369230,"external":21681713,"heapTotal":157442048,"heapUsed":130079304,"rss":190386176},"pid":904,"uid":null,"version":"v16.13.2"},"stack":"TypeError: Cannot read properties of undefined (reading 'statusCode')\n    at Test.<anonymous> (C:\\Users\\anand\\Desktop\\fundoo-Notes\\tests\\integration\\/user.test.js:47:22)\n    at Test.assert (C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\supertest\\lib\\test.js:181:6)\n    at Server.localAssert (C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\supertest\\lib\\test.js:131:12)\n    at Object.onceWrapper (node:events:509:28)\n    at Server.emit (node:events:390:28)\n    at emitCloseNT (node:net:1681:8)\n    at processTicksAndRejections (node:internal/process/task_queues:82:21)","timestamp":"2022-03-04T03:50:02.708Z","trace":[{"column":22,"file":"C:\\Users\\anand\\Desktop\\fundoo-Notes\\tests\\integration\\/user.test.js","function":null,"line":47,"method":null,"native":false},{"column":6,"file":"C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\supertest\\lib\\test.js","function":"Test.assert","line":181,"method":"assert","native":false},{"column":12,"file":"C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\supertest\\lib\\test.js","function":"Server.localAssert","line":131,"method":"localAssert","native":false},{"column":28,"file":"node:events","function":"Object.onceWrapper","line":509,"method":"onceWrapper","native":false},{"column":28,"file":"node:events","function":"Server.emit","line":390,"method":"emit","native":false},{"column":8,"file":"node:net","function":"emitCloseNT","line":1681,"method":null,"native":false},{"column":21,"file":"node:internal/process/task_queues","function":"processTicksAndRejections","line":82,"method":null,"native":false}]}
+error: uncaughtException: Cannot read properties of undefined (reading 'statusCode')
+TypeError: Cannot read properties of undefined (reading 'statusCode')
+    at Test.<anonymous> (C:\Users\anand\Desktop\fundoo-Notes\tests\integration\/user.test.js:68:22)
+    at Test.assert (C:\Users\anand\Desktop\fundoo-Notes\node_modules\supertest\lib\test.js:181:6)
+    at Server.localAssert (C:\Users\anand\Desktop\fundoo-Notes\node_modules\supertest\lib\test.js:131:12)
+    at Object.onceWrapper (node:events:509:28)
+    at Server.emit (node:events:390:28)
+    at emitCloseNT (node:net:1681:8)
+    at processTicksAndRejections (node:internal/process/task_queues:82:21) {"date":"Fri Mar 04 2022 09:25:35 GMT+0530 (India Standard Time)","error":{},"exception":true,"os":{"loadavg":[0,0,0],"uptime":153373},"process":{"argv":["C:\\Program Files\\nodejs\\node.exe","C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\mocha\\bin\\mocha","--exit","--recursive","--require","@babel/register","--timeout=5000","tests/**/*.js"],"cwd":"C:\\Users\\anand\\Desktop\\fundoo-Notes","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18303835,"external":21673000,"heapTotal":156794880,"heapUsed":127022936,"rss":192040960},"pid":7580,"uid":null,"version":"v16.13.2"},"stack":"TypeError: Cannot read properties of undefined (reading 'statusCode')\n    at Test.<anonymous> (C:\\Users\\anand\\Desktop\\fundoo-Notes\\tests\\integration\\/user.test.js:68:22)\n    at Test.assert (C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\supertest\\lib\\test.js:181:6)\n    at Server.localAssert (C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\supertest\\lib\\test.js:131:12)\n    at Object.onceWrapper (node:events:509:28)\n    at Server.emit (node:events:390:28)\n    at emitCloseNT (node:net:1681:8)\n    at processTicksAndRejections (node:internal/process/task_queues:82:21)","timestamp":"2022-03-04T03:55:35.457Z","trace":[{"column":22,"file":"C:\\Users\\anand\\Desktop\\fundoo-Notes\\tests\\integration\\/user.test.js","function":null,"line":68,"method":null,"native":false},{"column":6,"file":"C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\supertest\\lib\\test.js","function":"Test.assert","line":181,"method":"assert","native":false},{"column":12,"file":"C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\supertest\\lib\\test.js","function":"Server.localAssert","line":131,"method":"localAssert","native":false},{"column":28,"file":"node:events","function":"Object.onceWrapper","line":509,"method":"onceWrapper","native":false},{"column":28,"file":"node:events","function":"Server.emit","line":390,"method":"emit","native":false},{"column":8,"file":"node:net","function":"emitCloseNT","line":1681,"method":null,"native":false},{"column":21,"file":"node:internal/process/task_queues","function":"processTicksAndRejections","line":82,"method":null,"native":false}]}
+error: uncaughtException: Cannot read properties of undefined (reading 'statusCode')
+TypeError: Cannot read properties of undefined (reading 'statusCode')
+    at Test.<anonymous> (C:\Users\anand\Desktop\fundoo-Notes\tests\integration\/user.test.js:68:22)
+    at Test.assert (C:\Users\anand\Desktop\fundoo-Notes\node_modules\supertest\lib\test.js:181:6)
+    at Server.localAssert (C:\Users\anand\Desktop\fundoo-Notes\node_modules\supertest\lib\test.js:131:12)
+    at Object.onceWrapper (node:events:509:28)
+    at Server.emit (node:events:390:28)
+    at emitCloseNT (node:net:1681:8)
+    at processTicksAndRejections (node:internal/process/task_queues:82:21) {"date":"Fri Mar 04 2022 09:26:20 GMT+0530 (India Standard Time)","error":{},"exception":true,"os":{"loadavg":[0,0,0],"uptime":153419},"process":{"argv":["C:\\Program Files\\nodejs\\node.exe","C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\mocha\\bin\\mocha","--exit","--recursive","--require","@babel/register","--timeout=5000","tests/**/*.js"],"cwd":"C:\\Users\\anand\\Desktop\\fundoo-Notes","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18303835,"external":21673000,"heapTotal":157057024,"heapUsed":127051792,"rss":190042112},"pid":14244,"uid":null,"version":"v16.13.2"},"stack":"TypeError: Cannot read properties of undefined (reading 'statusCode')\n    at Test.<anonymous> (C:\\Users\\anand\\Desktop\\fundoo-Notes\\tests\\integration\\/user.test.js:68:22)\n    at Test.assert (C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\supertest\\lib\\test.js:181:6)\n    at Server.localAssert (C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\supertest\\lib\\test.js:131:12)\n    at Object.onceWrapper (node:events:509:28)\n    at Server.emit (node:events:390:28)\n    at emitCloseNT (node:net:1681:8)\n    at processTicksAndRejections (node:internal/process/task_queues:82:21)","timestamp":"2022-03-04T03:56:20.726Z","trace":[{"column":22,"file":"C:\\Users\\anand\\Desktop\\fundoo-Notes\\tests\\integration\\/user.test.js","function":null,"line":68,"method":null,"native":false},{"column":6,"file":"C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\supertest\\lib\\test.js","function":"Test.assert","line":181,"method":"assert","native":false},{"column":12,"file":"C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\supertest\\lib\\test.js","function":"Server.localAssert","line":131,"method":"localAssert","native":false},{"column":28,"file":"node:events","function":"Object.onceWrapper","line":509,"method":"onceWrapper","native":false},{"column":28,"file":"node:events","function":"Server.emit","line":390,"method":"emit","native":false},{"column":8,"file":"node:net","function":"emitCloseNT","line":1681,"method":null,"native":false},{"column":21,"file":"node:internal/process/task_queues","function":"processTicksAndRejections","line":82,"method":null,"native":false}]}
+error: uncaughtException: Cannot read properties of undefined (reading 'statusCode')
+TypeError: Cannot read properties of undefined (reading 'statusCode')
+    at Test.<anonymous> (C:\Users\anand\Desktop\fundoo-Notes\tests\integration\/user.test.js:47:22)
+    at Test.assert (C:\Users\anand\Desktop\fundoo-Notes\node_modules\supertest\lib\test.js:181:6)
+    at Server.localAssert (C:\Users\anand\Desktop\fundoo-Notes\node_modules\supertest\lib\test.js:131:12)
+    at Object.onceWrapper (node:events:509:28)
+    at Server.emit (node:events:390:28)
+    at emitCloseNT (node:net:1681:8)
+    at processTicksAndRejections (node:internal/process/task_queues:82:21) {"date":"Fri Mar 04 2022 09:26:51 GMT+0530 (India Standard Time)","error":{},"exception":true,"os":{"loadavg":[0,0,0],"uptime":153449},"process":{"argv":["C:\\Program Files\\nodejs\\node.exe","C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\mocha\\bin\\mocha","--exit","--recursive","--require","@babel/register","--timeout=5000","tests/**/*.js"],"cwd":"C:\\Users\\anand\\Desktop\\fundoo-Notes","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18352325,"external":21673000,"heapTotal":157704192,"heapUsed":129593240,"rss":190484480},"pid":15496,"uid":null,"version":"v16.13.2"},"stack":"TypeError: Cannot read properties of undefined (reading 'statusCode')\n    at Test.<anonymous> (C:\\Users\\anand\\Desktop\\fundoo-Notes\\tests\\integration\\/user.test.js:47:22)\n    at Test.assert (C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\supertest\\lib\\test.js:181:6)\n    at Server.localAssert (C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\supertest\\lib\\test.js:131:12)\n    at Object.onceWrapper (node:events:509:28)\n    at Server.emit (node:events:390:28)\n    at emitCloseNT (node:net:1681:8)\n    at processTicksAndRejections (node:internal/process/task_queues:82:21)","timestamp":"2022-03-04T03:56:51.282Z","trace":[{"column":22,"file":"C:\\Users\\anand\\Desktop\\fundoo-Notes\\tests\\integration\\/user.test.js","function":null,"line":47,"method":null,"native":false},{"column":6,"file":"C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\supertest\\lib\\test.js","function":"Test.assert","line":181,"method":"assert","native":false},{"column":12,"file":"C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\supertest\\lib\\test.js","function":"Server.localAssert","line":131,"method":"localAssert","native":false},{"column":28,"file":"node:events","function":"Object.onceWrapper","line":509,"method":"onceWrapper","native":false},{"column":28,"file":"node:events","function":"Server.emit","line":390,"method":"emit","native":false},{"column":8,"file":"node:net","function":"emitCloseNT","line":1681,"method":null,"native":false},{"column":21,"file":"node:internal/process/task_queues","function":"processTicksAndRejections","line":82,"method":null,"native":false}]}
+error: uncaughtException: Cannot read properties of undefined (reading 'statusCode')
+TypeError: Cannot read properties of undefined (reading 'statusCode')
+    at Test.<anonymous> (C:\Users\anand\Desktop\fundoo-Notes\tests\integration\/user.test.js:47:22)
+    at Test.assert (C:\Users\anand\Desktop\fundoo-Notes\node_modules\supertest\lib\test.js:181:6)
+    at Server.localAssert (C:\Users\anand\Desktop\fundoo-Notes\node_modules\supertest\lib\test.js:131:12)
+    at Object.onceWrapper (node:events:509:28)
+    at Server.emit (node:events:390:28)
+    at emitCloseNT (node:net:1681:8)
+    at processTicksAndRejections (node:internal/process/task_queues:82:21) {"date":"Fri Mar 04 2022 09:27:48 GMT+0530 (India Standard Time)","error":{},"exception":true,"os":{"loadavg":[0,0,0],"uptime":153506},"process":{"argv":["C:\\Program Files\\nodejs\\node.exe","C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\mocha\\bin\\mocha","--exit","--recursive","--require","@babel/register","--timeout=5000","tests/**/*.js"],"cwd":"C:\\Users\\anand\\Desktop\\fundoo-Notes","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18369230,"external":21681713,"heapTotal":157442048,"heapUsed":130102576,"rss":190689280},"pid":3496,"uid":null,"version":"v16.13.2"},"stack":"TypeError: Cannot read properties of undefined (reading 'statusCode')\n    at Test.<anonymous> (C:\\Users\\anand\\Desktop\\fundoo-Notes\\tests\\integration\\/user.test.js:47:22)\n    at Test.assert (C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\supertest\\lib\\test.js:181:6)\n    at Server.localAssert (C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\supertest\\lib\\test.js:131:12)\n    at Object.onceWrapper (node:events:509:28)\n    at Server.emit (node:events:390:28)\n    at emitCloseNT (node:net:1681:8)\n    at processTicksAndRejections (node:internal/process/task_queues:82:21)","timestamp":"2022-03-04T03:57:48.331Z","trace":[{"column":22,"file":"C:\\Users\\anand\\Desktop\\fundoo-Notes\\tests\\integration\\/user.test.js","function":null,"line":47,"method":null,"native":false},{"column":6,"file":"C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\supertest\\lib\\test.js","function":"Test.assert","line":181,"method":"assert","native":false},{"column":12,"file":"C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\supertest\\lib\\test.js","function":"Server.localAssert","line":131,"method":"localAssert","native":false},{"column":28,"file":"node:events","function":"Object.onceWrapper","line":509,"method":"onceWrapper","native":false},{"column":28,"file":"node:events","function":"Server.emit","line":390,"method":"emit","native":false},{"column":8,"file":"node:net","function":"emitCloseNT","line":1681,"method":null,"native":false},{"column":21,"file":"node:internal/process/task_queues","function":"processTicksAndRejections","line":82,"method":null,"native":false}]}
+error: uncaughtException: Cannot read properties of undefined (reading 'statusCode')
+TypeError: Cannot read properties of undefined (reading 'statusCode')
+    at Test.<anonymous> (C:\Users\anand\Desktop\fundoo-Notes\tests\integration\/user.test.js:47:22)
+    at Test.assert (C:\Users\anand\Desktop\fundoo-Notes\node_modules\supertest\lib\test.js:181:6)
+    at Server.localAssert (C:\Users\anand\Desktop\fundoo-Notes\node_modules\supertest\lib\test.js:131:12)
+    at Object.onceWrapper (node:events:509:28)
+    at Server.emit (node:events:390:28)
+    at emitCloseNT (node:net:1681:8)
+    at processTicksAndRejections (node:internal/process/task_queues:82:21) {"date":"Fri Mar 04 2022 09:29:07 GMT+0530 (India Standard Time)","error":{},"exception":true,"os":{"loadavg":[0,0,0],"uptime":153586},"process":{"argv":["C:\\Program Files\\nodejs\\node.exe","C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\mocha\\bin\\mocha","--exit","--recursive","--require","@babel/register","--timeout=5000","tests/**/*.js"],"cwd":"C:\\Users\\anand\\Desktop\\fundoo-Notes","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18303835,"external":21673000,"heapTotal":157843456,"heapUsed":124138344,"rss":190750720},"pid":14724,"uid":null,"version":"v16.13.2"},"stack":"TypeError: Cannot read properties of undefined (reading 'statusCode')\n    at Test.<anonymous> (C:\\Users\\anand\\Desktop\\fundoo-Notes\\tests\\integration\\/user.test.js:47:22)\n    at Test.assert (C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\supertest\\lib\\test.js:181:6)\n    at Server.localAssert (C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\supertest\\lib\\test.js:131:12)\n    at Object.onceWrapper (node:events:509:28)\n    at Server.emit (node:events:390:28)\n    at emitCloseNT (node:net:1681:8)\n    at processTicksAndRejections (node:internal/process/task_queues:82:21)","timestamp":"2022-03-04T03:59:07.678Z","trace":[{"column":22,"file":"C:\\Users\\anand\\Desktop\\fundoo-Notes\\tests\\integration\\/user.test.js","function":null,"line":47,"method":null,"native":false},{"column":6,"file":"C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\supertest\\lib\\test.js","function":"Test.assert","line":181,"method":"assert","native":false},{"column":12,"file":"C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\supertest\\lib\\test.js","function":"Server.localAssert","line":131,"method":"localAssert","native":false},{"column":28,"file":"node:events","function":"Object.onceWrapper","line":509,"method":"onceWrapper","native":false},{"column":28,"file":"node:events","function":"Server.emit","line":390,"method":"emit","native":false},{"column":8,"file":"node:net","function":"emitCloseNT","line":1681,"method":null,"native":false},{"column":21,"file":"node:internal/process/task_queues","function":"processTicksAndRejections","line":82,"method":null,"native":false}]}
+error: uncaughtException: expected 200 to equal 201
+AssertionError: expected 200 to equal 201
+    at Test.<anonymous> (C:\Users\anand\Desktop\fundoo-Notes\tests\integration\/user.test.js:47:45)
+    at Test.assert (C:\Users\anand\Desktop\fundoo-Notes\node_modules\supertest\lib\test.js:181:6)
+    at Server.localAssert (C:\Users\anand\Desktop\fundoo-Notes\node_modules\supertest\lib\test.js:131:12)
+    at Object.onceWrapper (node:events:509:28)
+    at Server.emit (node:events:390:28)
+    at emitCloseNT (node:net:1681:8)
+    at processTicksAndRejections (node:internal/process/task_queues:82:21) {"date":"Fri Mar 04 2022 09:29:36 GMT+0530 (India Standard Time)","error":{"actual":200,"expected":201,"message":"expected 200 to equal 201","name":"AssertionError","operator":"strictEqual","showDiff":true,"stack":"AssertionError: expected 200 to equal 201\n    at Test.<anonymous> (C:\\Users\\anand\\Desktop\\fundoo-Notes\\tests\\integration\\/user.test.js:47:45)\n    at Test.assert (C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\supertest\\lib\\test.js:181:6)\n    at Server.localAssert (C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\supertest\\lib\\test.js:131:12)\n    at Object.onceWrapper (node:events:509:28)\n    at Server.emit (node:events:390:28)\n    at emitCloseNT (node:net:1681:8)\n    at processTicksAndRejections (node:internal/process/task_queues:82:21)"},"exception":true,"os":{"loadavg":[0,0,0],"uptime":153614},"process":{"argv":["C:\\Program Files\\nodejs\\node.exe","C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\mocha\\bin\\mocha","--exit","--recursive","--require","@babel/register","--timeout=5000","tests/**/*.js"],"cwd":"C:\\Users\\anand\\Desktop\\fundoo-Notes","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18303835,"external":21673000,"heapTotal":157057024,"heapUsed":124046744,"rss":190386176},"pid":2928,"uid":null,"version":"v16.13.2"},"stack":"AssertionError: expected 200 to equal 201\n    at Test.<anonymous> (C:\\Users\\anand\\Desktop\\fundoo-Notes\\tests\\integration\\/user.test.js:47:45)\n    at Test.assert (C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\supertest\\lib\\test.js:181:6)\n    at Server.localAssert (C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\supertest\\lib\\test.js:131:12)\n    at Object.onceWrapper (node:events:509:28)\n    at Server.emit (node:events:390:28)\n    at emitCloseNT (node:net:1681:8)\n    at processTicksAndRejections (node:internal/process/task_queues:82:21)","timestamp":"2022-03-04T03:59:36.316Z","trace":[{"column":45,"file":"C:\\Users\\anand\\Desktop\\fundoo-Notes\\tests\\integration\\/user.test.js","function":null,"line":47,"method":null,"native":false},{"column":6,"file":"C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\supertest\\lib\\test.js","function":"Test.assert","line":181,"method":"assert","native":false},{"column":12,"file":"C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\supertest\\lib\\test.js","function":"Server.localAssert","line":131,"method":"localAssert","native":false},{"column":28,"file":"node:events","function":"Object.onceWrapper","line":509,"method":"onceWrapper","native":false},{"column":28,"file":"node:events","function":"Server.emit","line":390,"method":"emit","native":false},{"column":8,"file":"node:net","function":"emitCloseNT","line":1681,"method":null,"native":false},{"column":21,"file":"node:internal/process/task_queues","function":"processTicksAndRejections","line":82,"method":null,"native":false}]}
+error: uncaughtException: Cannot read properties of undefined (reading 'statusCode')
+TypeError: Cannot read properties of undefined (reading 'statusCode')
+    at Test.<anonymous> (C:\Users\anand\Desktop\fundoo-Notes\tests\integration\/user.test.js:48:22)
+    at Test.assert (C:\Users\anand\Desktop\fundoo-Notes\node_modules\supertest\lib\test.js:181:6)
+    at Server.localAssert (C:\Users\anand\Desktop\fundoo-Notes\node_modules\supertest\lib\test.js:131:12)
+    at Object.onceWrapper (node:events:509:28)
+    at Server.emit (node:events:390:28)
+    at emitCloseNT (node:net:1681:8)
+    at processTicksAndRejections (node:internal/process/task_queues:82:21) {"date":"Fri Mar 04 2022 09:31:43 GMT+0530 (India Standard Time)","error":{},"exception":true,"os":{"loadavg":[0,0,0],"uptime":153741},"process":{"argv":["C:\\Program Files\\nodejs\\node.exe","C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\mocha\\bin\\mocha","--exit","--recursive","--require","@babel/register","--timeout=5000","tests/**/*.js"],"cwd":"C:\\Users\\anand\\Desktop\\fundoo-Notes","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18304356,"external":21673521,"heapTotal":157057024,"heapUsed":124017880,"rss":190369792},"pid":8996,"uid":null,"version":"v16.13.2"},"stack":"TypeError: Cannot read properties of undefined (reading 'statusCode')\n    at Test.<anonymous> (C:\\Users\\anand\\Desktop\\fundoo-Notes\\tests\\integration\\/user.test.js:48:22)\n    at Test.assert (C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\supertest\\lib\\test.js:181:6)\n    at Server.localAssert (C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\supertest\\lib\\test.js:131:12)\n    at Object.onceWrapper (node:events:509:28)\n    at Server.emit (node:events:390:28)\n    at emitCloseNT (node:net:1681:8)\n    at processTicksAndRejections (node:internal/process/task_queues:82:21)","timestamp":"2022-03-04T04:01:43.358Z","trace":[{"column":22,"file":"C:\\Users\\anand\\Desktop\\fundoo-Notes\\tests\\integration\\/user.test.js","function":null,"line":48,"method":null,"native":false},{"column":6,"file":"C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\supertest\\lib\\test.js","function":"Test.assert","line":181,"method":"assert","native":false},{"column":12,"file":"C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\supertest\\lib\\test.js","function":"Server.localAssert","line":131,"method":"localAssert","native":false},{"column":28,"file":"node:events","function":"Object.onceWrapper","line":509,"method":"onceWrapper","native":false},{"column":28,"file":"node:events","function":"Server.emit","line":390,"method":"emit","native":false},{"column":8,"file":"node:net","function":"emitCloseNT","line":1681,"method":null,"native":false},{"column":21,"file":"node:internal/process/task_queues","function":"processTicksAndRejections","line":82,"method":null,"native":false}]}
+error: uncaughtException: Cannot read properties of undefined (reading 'statusCode')
+TypeError: Cannot read properties of undefined (reading 'statusCode')
+    at Test.<anonymous> (C:\Users\anand\Desktop\fundoo-Notes\tests\integration\/user.test.js:49:22)
+    at Test.assert (C:\Users\anand\Desktop\fundoo-Notes\node_modules\supertest\lib\test.js:181:6)
+    at Server.localAssert (C:\Users\anand\Desktop\fundoo-Notes\node_modules\supertest\lib\test.js:131:12)
+    at Object.onceWrapper (node:events:509:28)
+    at Server.emit (node:events:390:28)
+    at emitCloseNT (node:net:1681:8)
+    at processTicksAndRejections (node:internal/process/task_queues:82:21) {"date":"Fri Mar 04 2022 09:38:36 GMT+0530 (India Standard Time)","error":{},"exception":true,"os":{"loadavg":[0,0,0],"uptime":154154},"process":{"argv":["C:\\Program Files\\nodejs\\node.exe","C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\mocha\\bin\\mocha","--exit","--recursive","--require","@babel/register","--timeout=5000","tests/**/*.js"],"cwd":"C:\\Users\\anand\\Desktop\\fundoo-Notes","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18303835,"external":21673000,"heapTotal":157057024,"heapUsed":124126704,"rss":190160896},"pid":17552,"uid":null,"version":"v16.13.2"},"stack":"TypeError: Cannot read properties of undefined (reading 'statusCode')\n    at Test.<anonymous> (C:\\Users\\anand\\Desktop\\fundoo-Notes\\tests\\integration\\/user.test.js:49:22)\n    at Test.assert (C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\supertest\\lib\\test.js:181:6)\n    at Server.localAssert (C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\supertest\\lib\\test.js:131:12)\n    at Object.onceWrapper (node:events:509:28)\n    at Server.emit (node:events:390:28)\n    at emitCloseNT (node:net:1681:8)\n    at processTicksAndRejections (node:internal/process/task_queues:82:21)","timestamp":"2022-03-04T04:08:36.448Z","trace":[{"column":22,"file":"C:\\Users\\anand\\Desktop\\fundoo-Notes\\tests\\integration\\/user.test.js","function":null,"line":49,"method":null,"native":false},{"column":6,"file":"C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\supertest\\lib\\test.js","function":"Test.assert","line":181,"method":"assert","native":false},{"column":12,"file":"C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\supertest\\lib\\test.js","function":"Server.localAssert","line":131,"method":"localAssert","native":false},{"column":28,"file":"node:events","function":"Object.onceWrapper","line":509,"method":"onceWrapper","native":false},{"column":28,"file":"node:events","function":"Server.emit","line":390,"method":"emit","native":false},{"column":8,"file":"node:net","function":"emitCloseNT","line":1681,"method":null,"native":false},{"column":21,"file":"node:internal/process/task_queues","function":"processTicksAndRejections","line":82,"method":null,"native":false}]}
+error: 
+    status - 500 
+    message - Error: password does not match
+    at _callee3$ (C:\Users\anand\Desktop\fundoo-Notes\src\services\/user.service.js:36:12)
+    at tryCatch (C:\Users\anand\Desktop\fundoo-Notes\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (C:\Users\anand\Desktop\fundoo-Notes\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (C:\Users\anand\Desktop\fundoo-Notes\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (C:\Users\anand\Desktop\fundoo-Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\anand\Desktop\fundoo-Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/users/login 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-03-04T04:10:33.617Z"}
+error: uncaughtException: expected 500 to equal 200
+AssertionError: expected 500 to equal 200
+    at Test.<anonymous> (C:\Users\anand\Desktop\fundoo-Notes\tests\integration\/user.test.js:70:40)
+    at Test.assert (C:\Users\anand\Desktop\fundoo-Notes\node_modules\supertest\lib\test.js:181:6)
+    at Server.localAssert (C:\Users\anand\Desktop\fundoo-Notes\node_modules\supertest\lib\test.js:131:12)
+    at Object.onceWrapper (node:events:509:28)
+    at Server.emit (node:events:390:28)
+    at emitCloseNT (node:net:1681:8)
+    at processTicksAndRejections (node:internal/process/task_queues:82:21) {"date":"Fri Mar 04 2022 09:40:33 GMT+0530 (India Standard Time)","error":{"actual":500,"expected":200,"message":"expected 500 to equal 200","name":"AssertionError","operator":"strictEqual","showDiff":true,"stack":"AssertionError: expected 500 to equal 200\n    at Test.<anonymous> (C:\\Users\\anand\\Desktop\\fundoo-Notes\\tests\\integration\\/user.test.js:70:40)\n    at Test.assert (C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\supertest\\lib\\test.js:181:6)\n    at Server.localAssert (C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\supertest\\lib\\test.js:131:12)\n    at Object.onceWrapper (node:events:509:28)\n    at Server.emit (node:events:390:28)\n    at emitCloseNT (node:net:1681:8)\n    at processTicksAndRejections (node:internal/process/task_queues:82:21)"},"exception":true,"os":{"loadavg":[0,0,0],"uptime":154272},"process":{"argv":["C:\\Program Files\\nodejs\\node.exe","C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\mocha\\bin\\mocha","--exit","--recursive","--require","@babel/register","--timeout=5000","tests/**/*.js"],"cwd":"C:\\Users\\anand\\Desktop\\fundoo-Notes","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18437551,"external":21798524,"heapTotal":158752768,"heapUsed":128618288,"rss":192147456},"pid":14820,"uid":null,"version":"v16.13.2"},"stack":"AssertionError: expected 500 to equal 200\n    at Test.<anonymous> (C:\\Users\\anand\\Desktop\\fundoo-Notes\\tests\\integration\\/user.test.js:70:40)\n    at Test.assert (C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\supertest\\lib\\test.js:181:6)\n    at Server.localAssert (C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\supertest\\lib\\test.js:131:12)\n    at Object.onceWrapper (node:events:509:28)\n    at Server.emit (node:events:390:28)\n    at emitCloseNT (node:net:1681:8)\n    at processTicksAndRejections (node:internal/process/task_queues:82:21)","timestamp":"2022-03-04T04:10:33.652Z","trace":[{"column":40,"file":"C:\\Users\\anand\\Desktop\\fundoo-Notes\\tests\\integration\\/user.test.js","function":null,"line":70,"method":null,"native":false},{"column":6,"file":"C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\supertest\\lib\\test.js","function":"Test.assert","line":181,"method":"assert","native":false},{"column":12,"file":"C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\supertest\\lib\\test.js","function":"Server.localAssert","line":131,"method":"localAssert","native":false},{"column":28,"file":"node:events","function":"Object.onceWrapper","line":509,"method":"onceWrapper","native":false},{"column":28,"file":"node:events","function":"Server.emit","line":390,"method":"emit","native":false},{"column":8,"file":"node:net","function":"emitCloseNT","line":1681,"method":null,"native":false},{"column":21,"file":"node:internal/process/task_queues","function":"processTicksAndRejections","line":82,"method":null,"native":false}]}
+error: 
+    status - 500 
+    message - ReferenceError: Joimin is not defined
+    at newUserValidator (C:\Users\anand\Desktop\fundoo-Notes\src\validators\/user.validator.js:7:35)
+    at Layer.handle [as handle_request] (C:\Users\anand\Desktop\fundoo-Notes\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\anand\Desktop\fundoo-Notes\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (C:\Users\anand\Desktop\fundoo-Notes\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (C:\Users\anand\Desktop\fundoo-Notes\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\anand\Desktop\fundoo-Notes\node_modules\express\lib\router\index.js:281:22
+    at Function.process_params (C:\Users\anand\Desktop\fundoo-Notes\node_modules\express\lib\router\index.js:341:12)
+    at next (C:\Users\anand\Desktop\fundoo-Notes\node_modules\express\lib\router\index.js:275:10)
+    at Function.handle (C:\Users\anand\Desktop\fundoo-Notes\node_modules\express\lib\router\index.js:174:3)
+    at router (C:\Users\anand\Desktop\fundoo-Notes\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (C:\Users\anand\Desktop\fundoo-Notes\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\anand\Desktop\fundoo-Notes\node_modules\express\lib\router\index.js:323:13)
+    at C:\Users\anand\Desktop\fundoo-Notes\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (C:\Users\anand\Desktop\fundoo-Notes\node_modules\express\lib\router\index.js:341:12)
+    at next (C:\Users\anand\Desktop\fundoo-Notes\node_modules\express\lib\router\index.js:275:10)
+    at Function.handle (C:\Users\anand\Desktop\fundoo-Notes\node_modules\express\lib\router\index.js:174:3)
+    at router (C:\Users\anand\Desktop\fundoo-Notes\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (C:\Users\anand\Desktop\fundoo-Notes\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\anand\Desktop\fundoo-Notes\node_modules\express\lib\router\index.js:323:13)
+    at C:\Users\anand\Desktop\fundoo-Notes\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (C:\Users\anand\Desktop\fundoo-Notes\node_modules\express\lib\router\index.js:341:12)
+    at next (C:\Users\anand\Desktop\fundoo-Notes\node_modules\express\lib\router\index.js:275:10)
+    at logger (C:\Users\anand\Desktop\fundoo-Notes\node_modules\morgan\index.js:144:5)
+    at Layer.handle [as handle_request] (C:\Users\anand\Desktop\fundoo-Notes\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\anand\Desktop\fundoo-Notes\node_modules\express\lib\router\index.js:323:13)
+    at C:\Users\anand\Desktop\fundoo-Notes\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (C:\Users\anand\Desktop\fundoo-Notes\node_modules\express\lib\router\index.js:341:12)
+    at next (C:\Users\anand\Desktop\fundoo-Notes\node_modules\express\lib\router\index.js:275:10)
+    at C:\Users\anand\Desktop\fundoo-Notes\node_modules\body-parser\lib\read.js:130:5
+    at invokeCallback (C:\Users\anand\Desktop\fundoo-Notes\node_modules\raw-body\index.js:224:16)
+    at done (C:\Users\anand\Desktop\fundoo-Notes\node_modules\raw-body\index.js:213:7)
+    at IncomingMessage.onEnd (C:\Users\anand\Desktop\fundoo-Notes\node_modules\raw-body\index.js:273:7)
+    at IncomingMessage.emit (node:events:402:35)
+    at endReadableNT (node:internal/streams/readable:1343:12)
+    at processTicksAndRejections (node:internal/process/task_queues:83:21) 
+    url - /api/v1/users/register 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-03-04T08:12:54.791Z"}
+error: uncaughtException: expected 500 to equal 201
+AssertionError: expected 500 to equal 201
+    at Test.<anonymous> (C:\Users\anand\Desktop\fundoo-Notes\tests\integration\/user.test.js:49:40)
+    at Test.assert (C:\Users\anand\Desktop\fundoo-Notes\node_modules\supertest\lib\test.js:181:6)
+    at Server.localAssert (C:\Users\anand\Desktop\fundoo-Notes\node_modules\supertest\lib\test.js:131:12)
+    at Object.onceWrapper (node:events:509:28)
+    at Server.emit (node:events:390:28)
+    at emitCloseNT (node:net:1681:8)
+    at processTicksAndRejections (node:internal/process/task_queues:82:21) {"date":"Fri Mar 04 2022 13:42:54 GMT+0530 (India Standard Time)","error":{"actual":500,"expected":201,"message":"expected 500 to equal 201","name":"AssertionError","operator":"strictEqual","showDiff":true,"stack":"AssertionError: expected 500 to equal 201\n    at Test.<anonymous> (C:\\Users\\anand\\Desktop\\fundoo-Notes\\tests\\integration\\/user.test.js:49:40)\n    at Test.assert (C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\supertest\\lib\\test.js:181:6)\n    at Server.localAssert (C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\supertest\\lib\\test.js:131:12)\n    at Object.onceWrapper (node:events:509:28)\n    at Server.emit (node:events:390:28)\n    at emitCloseNT (node:net:1681:8)\n    at processTicksAndRejections (node:internal/process/task_queues:82:21)"},"exception":true,"os":{"loadavg":[0,0,0],"uptime":168813},"process":{"argv":["C:\\Program Files\\nodejs\\node.exe","C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\mocha\\bin\\mocha","--exit","--recursive","--require","@babel/register","--timeout=5000","tests/**/*.js"],"cwd":"C:\\Users\\anand\\Desktop\\fundoo-Notes","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18518616,"external":21978555,"heapTotal":131809280,"heapUsed":106736704,"rss":165392384},"pid":12680,"uid":null,"version":"v16.13.2"},"stack":"AssertionError: expected 500 to equal 201\n    at Test.<anonymous> (C:\\Users\\anand\\Desktop\\fundoo-Notes\\tests\\integration\\/user.test.js:49:40)\n    at Test.assert (C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\supertest\\lib\\test.js:181:6)\n    at Server.localAssert (C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\supertest\\lib\\test.js:131:12)\n    at Object.onceWrapper (node:events:509:28)\n    at Server.emit (node:events:390:28)\n    at emitCloseNT (node:net:1681:8)\n    at processTicksAndRejections (node:internal/process/task_queues:82:21)","timestamp":"2022-03-04T08:12:54.933Z","trace":[{"column":40,"file":"C:\\Users\\anand\\Desktop\\fundoo-Notes\\tests\\integration\\/user.test.js","function":null,"line":49,"method":null,"native":false},{"column":6,"file":"C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\supertest\\lib\\test.js","function":"Test.assert","line":181,"method":"assert","native":false},{"column":12,"file":"C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\supertest\\lib\\test.js","function":"Server.localAssert","line":131,"method":"localAssert","native":false},{"column":28,"file":"node:events","function":"Object.onceWrapper","line":509,"method":"onceWrapper","native":false},{"column":28,"file":"node:events","function":"Server.emit","line":390,"method":"emit","native":false},{"column":8,"file":"node:net","function":"emitCloseNT","line":1681,"method":null,"native":false},{"column":21,"file":"node:internal/process/task_queues","function":"processTicksAndRejections","line":82,"method":null,"native":false}]}
+error: 
+    status - 500 
+    message - TypeError: _joi.default.min is not a function
+    at newUserValidator (C:\Users\anand\Desktop\fundoo-Notes\src\validators\/user.validator.js:7:18)
+    at Layer.handle [as handle_request] (C:\Users\anand\Desktop\fundoo-Notes\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\anand\Desktop\fundoo-Notes\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (C:\Users\anand\Desktop\fundoo-Notes\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (C:\Users\anand\Desktop\fundoo-Notes\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\anand\Desktop\fundoo-Notes\node_modules\express\lib\router\index.js:281:22
+    at Function.process_params (C:\Users\anand\Desktop\fundoo-Notes\node_modules\express\lib\router\index.js:341:12)
+    at next (C:\Users\anand\Desktop\fundoo-Notes\node_modules\express\lib\router\index.js:275:10)
+    at Function.handle (C:\Users\anand\Desktop\fundoo-Notes\node_modules\express\lib\router\index.js:174:3)
+    at router (C:\Users\anand\Desktop\fundoo-Notes\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (C:\Users\anand\Desktop\fundoo-Notes\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\anand\Desktop\fundoo-Notes\node_modules\express\lib\router\index.js:323:13)
+    at C:\Users\anand\Desktop\fundoo-Notes\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (C:\Users\anand\Desktop\fundoo-Notes\node_modules\express\lib\router\index.js:341:12)
+    at next (C:\Users\anand\Desktop\fundoo-Notes\node_modules\express\lib\router\index.js:275:10)
+    at Function.handle (C:\Users\anand\Desktop\fundoo-Notes\node_modules\express\lib\router\index.js:174:3)
+    at router (C:\Users\anand\Desktop\fundoo-Notes\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (C:\Users\anand\Desktop\fundoo-Notes\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\anand\Desktop\fundoo-Notes\node_modules\express\lib\router\index.js:323:13)
+    at C:\Users\anand\Desktop\fundoo-Notes\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (C:\Users\anand\Desktop\fundoo-Notes\node_modules\express\lib\router\index.js:341:12)
+    at next (C:\Users\anand\Desktop\fundoo-Notes\node_modules\express\lib\router\index.js:275:10)
+    at logger (C:\Users\anand\Desktop\fundoo-Notes\node_modules\morgan\index.js:144:5)
+    at Layer.handle [as handle_request] (C:\Users\anand\Desktop\fundoo-Notes\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\anand\Desktop\fundoo-Notes\node_modules\express\lib\router\index.js:323:13)
+    at C:\Users\anand\Desktop\fundoo-Notes\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (C:\Users\anand\Desktop\fundoo-Notes\node_modules\express\lib\router\index.js:341:12)
+    at next (C:\Users\anand\Desktop\fundoo-Notes\node_modules\express\lib\router\index.js:275:10)
+    at C:\Users\anand\Desktop\fundoo-Notes\node_modules\body-parser\lib\read.js:130:5
+    at invokeCallback (C:\Users\anand\Desktop\fundoo-Notes\node_modules\raw-body\index.js:224:16)
+    at done (C:\Users\anand\Desktop\fundoo-Notes\node_modules\raw-body\index.js:213:7)
+    at IncomingMessage.onEnd (C:\Users\anand\Desktop\fundoo-Notes\node_modules\raw-body\index.js:273:7)
+    at IncomingMessage.emit (node:events:402:35)
+    at endReadableNT (node:internal/streams/readable:1343:12)
+    at processTicksAndRejections (node:internal/process/task_queues:83:21) 
+    url - /api/v1/users/register 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-03-04T08:17:21.908Z"}
+error: uncaughtException: expected 500 to equal 201
+AssertionError: expected 500 to equal 201
+    at Test.<anonymous> (C:\Users\anand\Desktop\fundoo-Notes\tests\integration\/user.test.js:49:40)
+    at Test.assert (C:\Users\anand\Desktop\fundoo-Notes\node_modules\supertest\lib\test.js:181:6)
+    at Server.localAssert (C:\Users\anand\Desktop\fundoo-Notes\node_modules\supertest\lib\test.js:131:12)
+    at Object.onceWrapper (node:events:509:28)
+    at Server.emit (node:events:390:28)
+    at emitCloseNT (node:net:1681:8)
+    at processTicksAndRejections (node:internal/process/task_queues:82:21) {"date":"Fri Mar 04 2022 13:47:21 GMT+0530 (India Standard Time)","error":{"actual":500,"expected":201,"message":"expected 500 to equal 201","name":"AssertionError","operator":"strictEqual","showDiff":true,"stack":"AssertionError: expected 500 to equal 201\n    at Test.<anonymous> (C:\\Users\\anand\\Desktop\\fundoo-Notes\\tests\\integration\\/user.test.js:49:40)\n    at Test.assert (C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\supertest\\lib\\test.js:181:6)\n    at Server.localAssert (C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\supertest\\lib\\test.js:131:12)\n    at Object.onceWrapper (node:events:509:28)\n    at Server.emit (node:events:390:28)\n    at emitCloseNT (node:net:1681:8)\n    at processTicksAndRejections (node:internal/process/task_queues:82:21)"},"exception":true,"os":{"loadavg":[0,0,0],"uptime":169080},"process":{"argv":["C:\\Program Files\\nodejs\\node.exe","C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\mocha\\bin\\mocha","--exit","--recursive","--require","@babel/register","--timeout=5000","tests/**/*.js"],"cwd":"C:\\Users\\anand\\Desktop\\fundoo-Notes","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18518629,"external":21831112,"heapTotal":157966336,"heapUsed":129191904,"rss":190492672},"pid":1068,"uid":null,"version":"v16.13.2"},"stack":"AssertionError: expected 500 to equal 201\n    at Test.<anonymous> (C:\\Users\\anand\\Desktop\\fundoo-Notes\\tests\\integration\\/user.test.js:49:40)\n    at Test.assert (C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\supertest\\lib\\test.js:181:6)\n    at Server.localAssert (C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\supertest\\lib\\test.js:131:12)\n    at Object.onceWrapper (node:events:509:28)\n    at Server.emit (node:events:390:28)\n    at emitCloseNT (node:net:1681:8)\n    at processTicksAndRejections (node:internal/process/task_queues:82:21)","timestamp":"2022-03-04T08:17:21.956Z","trace":[{"column":40,"file":"C:\\Users\\anand\\Desktop\\fundoo-Notes\\tests\\integration\\/user.test.js","function":null,"line":49,"method":null,"native":false},{"column":6,"file":"C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\supertest\\lib\\test.js","function":"Test.assert","line":181,"method":"assert","native":false},{"column":12,"file":"C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\supertest\\lib\\test.js","function":"Server.localAssert","line":131,"method":"localAssert","native":false},{"column":28,"file":"node:events","function":"Object.onceWrapper","line":509,"method":"onceWrapper","native":false},{"column":28,"file":"node:events","function":"Server.emit","line":390,"method":"emit","native":false},{"column":8,"file":"node:net","function":"emitCloseNT","line":1681,"method":null,"native":false},{"column":21,"file":"node:internal/process/task_queues","function":"processTicksAndRejections","line":82,"method":null,"native":false}]}
+error: 
+    status - 500 
+    message - TypeError: _joi.default.min is not a function
+    at newUserValidator (C:\Users\anand\Desktop\fundoo-Notes\src\validators\/user.validator.js:7:18)
+    at Layer.handle [as handle_request] (C:\Users\anand\Desktop\fundoo-Notes\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\anand\Desktop\fundoo-Notes\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (C:\Users\anand\Desktop\fundoo-Notes\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (C:\Users\anand\Desktop\fundoo-Notes\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\anand\Desktop\fundoo-Notes\node_modules\express\lib\router\index.js:281:22
+    at Function.process_params (C:\Users\anand\Desktop\fundoo-Notes\node_modules\express\lib\router\index.js:341:12)
+    at next (C:\Users\anand\Desktop\fundoo-Notes\node_modules\express\lib\router\index.js:275:10)
+    at Function.handle (C:\Users\anand\Desktop\fundoo-Notes\node_modules\express\lib\router\index.js:174:3)
+    at router (C:\Users\anand\Desktop\fundoo-Notes\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (C:\Users\anand\Desktop\fundoo-Notes\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\anand\Desktop\fundoo-Notes\node_modules\express\lib\router\index.js:323:13)
+    at C:\Users\anand\Desktop\fundoo-Notes\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (C:\Users\anand\Desktop\fundoo-Notes\node_modules\express\lib\router\index.js:341:12)
+    at next (C:\Users\anand\Desktop\fundoo-Notes\node_modules\express\lib\router\index.js:275:10)
+    at Function.handle (C:\Users\anand\Desktop\fundoo-Notes\node_modules\express\lib\router\index.js:174:3)
+    at router (C:\Users\anand\Desktop\fundoo-Notes\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (C:\Users\anand\Desktop\fundoo-Notes\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\anand\Desktop\fundoo-Notes\node_modules\express\lib\router\index.js:323:13)
+    at C:\Users\anand\Desktop\fundoo-Notes\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (C:\Users\anand\Desktop\fundoo-Notes\node_modules\express\lib\router\index.js:341:12)
+    at next (C:\Users\anand\Desktop\fundoo-Notes\node_modules\express\lib\router\index.js:275:10)
+    at logger (C:\Users\anand\Desktop\fundoo-Notes\node_modules\morgan\index.js:144:5)
+    at Layer.handle [as handle_request] (C:\Users\anand\Desktop\fundoo-Notes\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\anand\Desktop\fundoo-Notes\node_modules\express\lib\router\index.js:323:13)
+    at C:\Users\anand\Desktop\fundoo-Notes\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (C:\Users\anand\Desktop\fundoo-Notes\node_modules\express\lib\router\index.js:341:12)
+    at next (C:\Users\anand\Desktop\fundoo-Notes\node_modules\express\lib\router\index.js:275:10)
+    at C:\Users\anand\Desktop\fundoo-Notes\node_modules\body-parser\lib\read.js:130:5
+    at invokeCallback (C:\Users\anand\Desktop\fundoo-Notes\node_modules\raw-body\index.js:224:16)
+    at done (C:\Users\anand\Desktop\fundoo-Notes\node_modules\raw-body\index.js:213:7)
+    at IncomingMessage.onEnd (C:\Users\anand\Desktop\fundoo-Notes\node_modules\raw-body\index.js:273:7)
+    at IncomingMessage.emit (node:events:402:35)
+    at endReadableNT (node:internal/streams/readable:1343:12)
+    at processTicksAndRejections (node:internal/process/task_queues:83:21) 
+    url - /api/v1/users/register 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-03-04T08:18:11.673Z"}
+error: uncaughtException: expected 500 to equal 201
+AssertionError: expected 500 to equal 201
+    at Test.<anonymous> (C:\Users\anand\Desktop\fundoo-Notes\tests\integration\/user.test.js:49:40)
+    at Test.assert (C:\Users\anand\Desktop\fundoo-Notes\node_modules\supertest\lib\test.js:181:6)
+    at Server.localAssert (C:\Users\anand\Desktop\fundoo-Notes\node_modules\supertest\lib\test.js:131:12)
+    at Object.onceWrapper (node:events:509:28)
+    at Server.emit (node:events:390:28)
+    at emitCloseNT (node:net:1681:8)
+    at processTicksAndRejections (node:internal/process/task_queues:82:21) {"date":"Fri Mar 04 2022 13:48:11 GMT+0530 (India Standard Time)","error":{"actual":500,"expected":201,"message":"expected 500 to equal 201","name":"AssertionError","operator":"strictEqual","showDiff":true,"stack":"AssertionError: expected 500 to equal 201\n    at Test.<anonymous> (C:\\Users\\anand\\Desktop\\fundoo-Notes\\tests\\integration\\/user.test.js:49:40)\n    at Test.assert (C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\supertest\\lib\\test.js:181:6)\n    at Server.localAssert (C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\supertest\\lib\\test.js:131:12)\n    at Object.onceWrapper (node:events:509:28)\n    at Server.emit (node:events:390:28)\n    at emitCloseNT (node:net:1681:8)\n    at processTicksAndRejections (node:internal/process/task_queues:82:21)"},"exception":true,"os":{"loadavg":[0,0,0],"uptime":169130},"process":{"argv":["C:\\Program Files\\nodejs\\node.exe","C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\mocha\\bin\\mocha","--exit","--recursive","--require","@babel/register","--timeout=5000","tests/**/*.js"],"cwd":"C:\\Users\\anand\\Desktop\\fundoo-Notes","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18473040,"external":21823081,"heapTotal":157966336,"heapUsed":127737128,"rss":192397312},"pid":12220,"uid":null,"version":"v16.13.2"},"stack":"AssertionError: expected 500 to equal 201\n    at Test.<anonymous> (C:\\Users\\anand\\Desktop\\fundoo-Notes\\tests\\integration\\/user.test.js:49:40)\n    at Test.assert (C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\supertest\\lib\\test.js:181:6)\n    at Server.localAssert (C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\supertest\\lib\\test.js:131:12)\n    at Object.onceWrapper (node:events:509:28)\n    at Server.emit (node:events:390:28)\n    at emitCloseNT (node:net:1681:8)\n    at processTicksAndRejections (node:internal/process/task_queues:82:21)","timestamp":"2022-03-04T08:18:11.723Z","trace":[{"column":40,"file":"C:\\Users\\anand\\Desktop\\fundoo-Notes\\tests\\integration\\/user.test.js","function":null,"line":49,"method":null,"native":false},{"column":6,"file":"C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\supertest\\lib\\test.js","function":"Test.assert","line":181,"method":"assert","native":false},{"column":12,"file":"C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\supertest\\lib\\test.js","function":"Server.localAssert","line":131,"method":"localAssert","native":false},{"column":28,"file":"node:events","function":"Object.onceWrapper","line":509,"method":"onceWrapper","native":false},{"column":28,"file":"node:events","function":"Server.emit","line":390,"method":"emit","native":false},{"column":8,"file":"node:net","function":"emitCloseNT","line":1681,"method":null,"native":false},{"column":21,"file":"node:internal/process/task_queues","function":"processTicksAndRejections","line":82,"method":null,"native":false}]}
+error: 
+    status - 500 
+    message - TypeError: _joi.default.alphanum is not a function
+    at newUserValidator (C:\Users\anand\Desktop\fundoo-Notes\src\validators\/user.validator.js:7:18)
+    at Layer.handle [as handle_request] (C:\Users\anand\Desktop\fundoo-Notes\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\anand\Desktop\fundoo-Notes\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (C:\Users\anand\Desktop\fundoo-Notes\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (C:\Users\anand\Desktop\fundoo-Notes\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\anand\Desktop\fundoo-Notes\node_modules\express\lib\router\index.js:281:22
+    at Function.process_params (C:\Users\anand\Desktop\fundoo-Notes\node_modules\express\lib\router\index.js:341:12)
+    at next (C:\Users\anand\Desktop\fundoo-Notes\node_modules\express\lib\router\index.js:275:10)
+    at Function.handle (C:\Users\anand\Desktop\fundoo-Notes\node_modules\express\lib\router\index.js:174:3)
+    at router (C:\Users\anand\Desktop\fundoo-Notes\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (C:\Users\anand\Desktop\fundoo-Notes\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\anand\Desktop\fundoo-Notes\node_modules\express\lib\router\index.js:323:13)
+    at C:\Users\anand\Desktop\fundoo-Notes\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (C:\Users\anand\Desktop\fundoo-Notes\node_modules\express\lib\router\index.js:341:12)
+    at next (C:\Users\anand\Desktop\fundoo-Notes\node_modules\express\lib\router\index.js:275:10)
+    at Function.handle (C:\Users\anand\Desktop\fundoo-Notes\node_modules\express\lib\router\index.js:174:3)
+    at router (C:\Users\anand\Desktop\fundoo-Notes\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (C:\Users\anand\Desktop\fundoo-Notes\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\anand\Desktop\fundoo-Notes\node_modules\express\lib\router\index.js:323:13)
+    at C:\Users\anand\Desktop\fundoo-Notes\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (C:\Users\anand\Desktop\fundoo-Notes\node_modules\express\lib\router\index.js:341:12)
+    at next (C:\Users\anand\Desktop\fundoo-Notes\node_modules\express\lib\router\index.js:275:10)
+    at logger (C:\Users\anand\Desktop\fundoo-Notes\node_modules\morgan\index.js:144:5)
+    at Layer.handle [as handle_request] (C:\Users\anand\Desktop\fundoo-Notes\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\anand\Desktop\fundoo-Notes\node_modules\express\lib\router\index.js:323:13)
+    at C:\Users\anand\Desktop\fundoo-Notes\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (C:\Users\anand\Desktop\fundoo-Notes\node_modules\express\lib\router\index.js:341:12)
+    at next (C:\Users\anand\Desktop\fundoo-Notes\node_modules\express\lib\router\index.js:275:10)
+    at C:\Users\anand\Desktop\fundoo-Notes\node_modules\body-parser\lib\read.js:130:5
+    at invokeCallback (C:\Users\anand\Desktop\fundoo-Notes\node_modules\raw-body\index.js:224:16)
+    at done (C:\Users\anand\Desktop\fundoo-Notes\node_modules\raw-body\index.js:213:7)
+    at IncomingMessage.onEnd (C:\Users\anand\Desktop\fundoo-Notes\node_modules\raw-body\index.js:273:7)
+    at IncomingMessage.emit (node:events:402:35)
+    at endReadableNT (node:internal/streams/readable:1343:12)
+    at processTicksAndRejections (node:internal/process/task_queues:83:21) 
+    url - /api/v1/users/register 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-03-04T08:19:24.547Z"}
+error: uncaughtException: expected 500 to equal 201
+AssertionError: expected 500 to equal 201
+    at Test.<anonymous> (C:\Users\anand\Desktop\fundoo-Notes\tests\integration\/user.test.js:49:40)
+    at Test.assert (C:\Users\anand\Desktop\fundoo-Notes\node_modules\supertest\lib\test.js:181:6)
+    at Server.localAssert (C:\Users\anand\Desktop\fundoo-Notes\node_modules\supertest\lib\test.js:131:12)
+    at Object.onceWrapper (node:events:509:28)
+    at Server.emit (node:events:390:28)
+    at emitCloseNT (node:net:1681:8)
+    at processTicksAndRejections (node:internal/process/task_queues:82:21) {"date":"Fri Mar 04 2022 13:49:24 GMT+0530 (India Standard Time)","error":{"actual":500,"expected":201,"message":"expected 500 to equal 201","name":"AssertionError","operator":"strictEqual","showDiff":true,"stack":"AssertionError: expected 500 to equal 201\n    at Test.<anonymous> (C:\\Users\\anand\\Desktop\\fundoo-Notes\\tests\\integration\\/user.test.js:49:40)\n    at Test.assert (C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\supertest\\lib\\test.js:181:6)\n    at Server.localAssert (C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\supertest\\lib\\test.js:131:12)\n    at Object.onceWrapper (node:events:509:28)\n    at Server.emit (node:events:390:28)\n    at emitCloseNT (node:net:1681:8)\n    at processTicksAndRejections (node:internal/process/task_queues:82:21)"},"exception":true,"os":{"loadavg":[0,0,0],"uptime":169203},"process":{"argv":["C:\\Program Files\\nodejs\\node.exe","C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\mocha\\bin\\mocha","--exit","--recursive","--require","@babel/register","--timeout=5000","tests/**/*.js"],"cwd":"C:\\Users\\anand\\Desktop\\fundoo-Notes","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18462114,"external":21823087,"heapTotal":158228480,"heapUsed":127513536,"rss":191672320},"pid":9668,"uid":null,"version":"v16.13.2"},"stack":"AssertionError: expected 500 to equal 201\n    at Test.<anonymous> (C:\\Users\\anand\\Desktop\\fundoo-Notes\\tests\\integration\\/user.test.js:49:40)\n    at Test.assert (C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\supertest\\lib\\test.js:181:6)\n    at Server.localAssert (C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\supertest\\lib\\test.js:131:12)\n    at Object.onceWrapper (node:events:509:28)\n    at Server.emit (node:events:390:28)\n    at emitCloseNT (node:net:1681:8)\n    at processTicksAndRejections (node:internal/process/task_queues:82:21)","timestamp":"2022-03-04T08:19:24.590Z","trace":[{"column":40,"file":"C:\\Users\\anand\\Desktop\\fundoo-Notes\\tests\\integration\\/user.test.js","function":null,"line":49,"method":null,"native":false},{"column":6,"file":"C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\supertest\\lib\\test.js","function":"Test.assert","line":181,"method":"assert","native":false},{"column":12,"file":"C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\supertest\\lib\\test.js","function":"Server.localAssert","line":131,"method":"localAssert","native":false},{"column":28,"file":"node:events","function":"Object.onceWrapper","line":509,"method":"onceWrapper","native":false},{"column":28,"file":"node:events","function":"Server.emit","line":390,"method":"emit","native":false},{"column":8,"file":"node:net","function":"emitCloseNT","line":1681,"method":null,"native":false},{"column":21,"file":"node:internal/process/task_queues","function":"processTicksAndRejections","line":82,"method":null,"native":false}]}
+error: 
+    status - 500 
+    message - TypeError: _joi.default.alphanum is not a function
+    at newUserValidator (C:\Users\anand\Desktop\fundoo-Notes\src\validators\/user.validator.js:7:18)
+    at Layer.handle [as handle_request] (C:\Users\anand\Desktop\fundoo-Notes\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\anand\Desktop\fundoo-Notes\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (C:\Users\anand\Desktop\fundoo-Notes\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (C:\Users\anand\Desktop\fundoo-Notes\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\anand\Desktop\fundoo-Notes\node_modules\express\lib\router\index.js:281:22
+    at Function.process_params (C:\Users\anand\Desktop\fundoo-Notes\node_modules\express\lib\router\index.js:341:12)
+    at next (C:\Users\anand\Desktop\fundoo-Notes\node_modules\express\lib\router\index.js:275:10)
+    at Function.handle (C:\Users\anand\Desktop\fundoo-Notes\node_modules\express\lib\router\index.js:174:3)
+    at router (C:\Users\anand\Desktop\fundoo-Notes\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (C:\Users\anand\Desktop\fundoo-Notes\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\anand\Desktop\fundoo-Notes\node_modules\express\lib\router\index.js:323:13)
+    at C:\Users\anand\Desktop\fundoo-Notes\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (C:\Users\anand\Desktop\fundoo-Notes\node_modules\express\lib\router\index.js:341:12)
+    at next (C:\Users\anand\Desktop\fundoo-Notes\node_modules\express\lib\router\index.js:275:10)
+    at Function.handle (C:\Users\anand\Desktop\fundoo-Notes\node_modules\express\lib\router\index.js:174:3)
+    at router (C:\Users\anand\Desktop\fundoo-Notes\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (C:\Users\anand\Desktop\fundoo-Notes\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\anand\Desktop\fundoo-Notes\node_modules\express\lib\router\index.js:323:13)
+    at C:\Users\anand\Desktop\fundoo-Notes\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (C:\Users\anand\Desktop\fundoo-Notes\node_modules\express\lib\router\index.js:341:12)
+    at next (C:\Users\anand\Desktop\fundoo-Notes\node_modules\express\lib\router\index.js:275:10)
+    at logger (C:\Users\anand\Desktop\fundoo-Notes\node_modules\morgan\index.js:144:5)
+    at Layer.handle [as handle_request] (C:\Users\anand\Desktop\fundoo-Notes\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\anand\Desktop\fundoo-Notes\node_modules\express\lib\router\index.js:323:13)
+    at C:\Users\anand\Desktop\fundoo-Notes\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (C:\Users\anand\Desktop\fundoo-Notes\node_modules\express\lib\router\index.js:341:12)
+    at next (C:\Users\anand\Desktop\fundoo-Notes\node_modules\express\lib\router\index.js:275:10)
+    at C:\Users\anand\Desktop\fundoo-Notes\node_modules\body-parser\lib\read.js:130:5
+    at invokeCallback (C:\Users\anand\Desktop\fundoo-Notes\node_modules\raw-body\index.js:224:16)
+    at done (C:\Users\anand\Desktop\fundoo-Notes\node_modules\raw-body\index.js:213:7)
+    at IncomingMessage.onEnd (C:\Users\anand\Desktop\fundoo-Notes\node_modules\raw-body\index.js:273:7)
+    at IncomingMessage.emit (node:events:402:35)
+    at endReadableNT (node:internal/streams/readable:1343:12)
+    at processTicksAndRejections (node:internal/process/task_queues:83:21) 
+    url - /api/v1/users/register 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-03-04T08:19:43.686Z"}
+error: uncaughtException: expected 500 to equal 201
+AssertionError: expected 500 to equal 201
+    at Test.<anonymous> (C:\Users\anand\Desktop\fundoo-Notes\tests\integration\/user.test.js:49:40)
+    at Test.assert (C:\Users\anand\Desktop\fundoo-Notes\node_modules\supertest\lib\test.js:181:6)
+    at Server.localAssert (C:\Users\anand\Desktop\fundoo-Notes\node_modules\supertest\lib\test.js:131:12)
+    at Object.onceWrapper (node:events:509:28)
+    at Server.emit (node:events:390:28)
+    at emitCloseNT (node:net:1681:8)
+    at processTicksAndRejections (node:internal/process/task_queues:82:21) {"date":"Fri Mar 04 2022 13:49:43 GMT+0530 (India Standard Time)","error":{"actual":500,"expected":201,"message":"expected 500 to equal 201","name":"AssertionError","operator":"strictEqual","showDiff":true,"stack":"AssertionError: expected 500 to equal 201\n    at Test.<anonymous> (C:\\Users\\anand\\Desktop\\fundoo-Notes\\tests\\integration\\/user.test.js:49:40)\n    at Test.assert (C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\supertest\\lib\\test.js:181:6)\n    at Server.localAssert (C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\supertest\\lib\\test.js:131:12)\n    at Object.onceWrapper (node:events:509:28)\n    at Server.emit (node:events:390:28)\n    at emitCloseNT (node:net:1681:8)\n    at processTicksAndRejections (node:internal/process/task_queues:82:21)"},"exception":true,"os":{"loadavg":[0,0,0],"uptime":169222},"process":{"argv":["C:\\Program Files\\nodejs\\node.exe","C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\mocha\\bin\\mocha","--exit","--recursive","--require","@babel/register","--timeout=5000","tests/**/*.js"],"cwd":"C:\\Users\\anand\\Desktop\\fundoo-Notes","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18453922,"external":21823087,"heapTotal":157581312,"heapUsed":125892088,"rss":191348736},"pid":9484,"uid":null,"version":"v16.13.2"},"stack":"AssertionError: expected 500 to equal 201\n    at Test.<anonymous> (C:\\Users\\anand\\Desktop\\fundoo-Notes\\tests\\integration\\/user.test.js:49:40)\n    at Test.assert (C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\supertest\\lib\\test.js:181:6)\n    at Server.localAssert (C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\supertest\\lib\\test.js:131:12)\n    at Object.onceWrapper (node:events:509:28)\n    at Server.emit (node:events:390:28)\n    at emitCloseNT (node:net:1681:8)\n    at processTicksAndRejections (node:internal/process/task_queues:82:21)","timestamp":"2022-03-04T08:19:43.735Z","trace":[{"column":40,"file":"C:\\Users\\anand\\Desktop\\fundoo-Notes\\tests\\integration\\/user.test.js","function":null,"line":49,"method":null,"native":false},{"column":6,"file":"C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\supertest\\lib\\test.js","function":"Test.assert","line":181,"method":"assert","native":false},{"column":12,"file":"C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\supertest\\lib\\test.js","function":"Server.localAssert","line":131,"method":"localAssert","native":false},{"column":28,"file":"node:events","function":"Object.onceWrapper","line":509,"method":"onceWrapper","native":false},{"column":28,"file":"node:events","function":"Server.emit","line":390,"method":"emit","native":false},{"column":8,"file":"node:net","function":"emitCloseNT","line":1681,"method":null,"native":false},{"column":21,"file":"node:internal/process/task_queues","function":"processTicksAndRejections","line":82,"method":null,"native":false}]}
+error: 
+    status - 500 
+    message - TypeError: _joi.default.min is not a function
+    at newUserValidator (C:\Users\anand\Desktop\fundoo-Notes\src\validators\/user.validator.js:7:18)
+    at Layer.handle [as handle_request] (C:\Users\anand\Desktop\fundoo-Notes\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\anand\Desktop\fundoo-Notes\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (C:\Users\anand\Desktop\fundoo-Notes\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (C:\Users\anand\Desktop\fundoo-Notes\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\anand\Desktop\fundoo-Notes\node_modules\express\lib\router\index.js:281:22
+    at Function.process_params (C:\Users\anand\Desktop\fundoo-Notes\node_modules\express\lib\router\index.js:341:12)
+    at next (C:\Users\anand\Desktop\fundoo-Notes\node_modules\express\lib\router\index.js:275:10)
+    at Function.handle (C:\Users\anand\Desktop\fundoo-Notes\node_modules\express\lib\router\index.js:174:3)
+    at router (C:\Users\anand\Desktop\fundoo-Notes\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (C:\Users\anand\Desktop\fundoo-Notes\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\anand\Desktop\fundoo-Notes\node_modules\express\lib\router\index.js:323:13)
+    at C:\Users\anand\Desktop\fundoo-Notes\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (C:\Users\anand\Desktop\fundoo-Notes\node_modules\express\lib\router\index.js:341:12)
+    at next (C:\Users\anand\Desktop\fundoo-Notes\node_modules\express\lib\router\index.js:275:10)
+    at Function.handle (C:\Users\anand\Desktop\fundoo-Notes\node_modules\express\lib\router\index.js:174:3)
+    at router (C:\Users\anand\Desktop\fundoo-Notes\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (C:\Users\anand\Desktop\fundoo-Notes\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\anand\Desktop\fundoo-Notes\node_modules\express\lib\router\index.js:323:13)
+    at C:\Users\anand\Desktop\fundoo-Notes\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (C:\Users\anand\Desktop\fundoo-Notes\node_modules\express\lib\router\index.js:341:12)
+    at next (C:\Users\anand\Desktop\fundoo-Notes\node_modules\express\lib\router\index.js:275:10)
+    at logger (C:\Users\anand\Desktop\fundoo-Notes\node_modules\morgan\index.js:144:5)
+    at Layer.handle [as handle_request] (C:\Users\anand\Desktop\fundoo-Notes\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\anand\Desktop\fundoo-Notes\node_modules\express\lib\router\index.js:323:13)
+    at C:\Users\anand\Desktop\fundoo-Notes\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (C:\Users\anand\Desktop\fundoo-Notes\node_modules\express\lib\router\index.js:341:12)
+    at next (C:\Users\anand\Desktop\fundoo-Notes\node_modules\express\lib\router\index.js:275:10)
+    at C:\Users\anand\Desktop\fundoo-Notes\node_modules\body-parser\lib\read.js:130:5
+    at invokeCallback (C:\Users\anand\Desktop\fundoo-Notes\node_modules\raw-body\index.js:224:16)
+    at done (C:\Users\anand\Desktop\fundoo-Notes\node_modules\raw-body\index.js:213:7)
+    at IncomingMessage.onEnd (C:\Users\anand\Desktop\fundoo-Notes\node_modules\raw-body\index.js:273:7)
+    at IncomingMessage.emit (node:events:402:35)
+    at endReadableNT (node:internal/streams/readable:1343:12)
+    at processTicksAndRejections (node:internal/process/task_queues:83:21) 
+    url - /api/v1/users/register 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-03-04T08:20:06.358Z"}
+error: uncaughtException: expected 500 to equal 201
+AssertionError: expected 500 to equal 201
+    at Test.<anonymous> (C:\Users\anand\Desktop\fundoo-Notes\tests\integration\/user.test.js:49:40)
+    at Test.assert (C:\Users\anand\Desktop\fundoo-Notes\node_modules\supertest\lib\test.js:181:6)
+    at Server.localAssert (C:\Users\anand\Desktop\fundoo-Notes\node_modules\supertest\lib\test.js:131:12)
+    at Object.onceWrapper (node:events:509:28)
+    at Server.emit (node:events:390:28)
+    at emitCloseNT (node:net:1681:8)
+    at processTicksAndRejections (node:internal/process/task_queues:82:21) {"date":"Fri Mar 04 2022 13:50:06 GMT+0530 (India Standard Time)","error":{"actual":500,"expected":201,"message":"expected 500 to equal 201","name":"AssertionError","operator":"strictEqual","showDiff":true,"stack":"AssertionError: expected 500 to equal 201\n    at Test.<anonymous> (C:\\Users\\anand\\Desktop\\fundoo-Notes\\tests\\integration\\/user.test.js:49:40)\n    at Test.assert (C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\supertest\\lib\\test.js:181:6)\n    at Server.localAssert (C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\supertest\\lib\\test.js:131:12)\n    at Object.onceWrapper (node:events:509:28)\n    at Server.emit (node:events:390:28)\n    at emitCloseNT (node:net:1681:8)\n    at processTicksAndRejections (node:internal/process/task_queues:82:21)"},"exception":true,"os":{"loadavg":[0,0,0],"uptime":169244},"process":{"argv":["C:\\Program Files\\nodejs\\node.exe","C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\mocha\\bin\\mocha","--exit","--recursive","--require","@babel/register","--timeout=5000","tests/**/*.js"],"cwd":"C:\\Users\\anand\\Desktop\\fundoo-Notes","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18461947,"external":21831112,"heapTotal":157433856,"heapUsed":125770576,"rss":191258624},"pid":10988,"uid":null,"version":"v16.13.2"},"stack":"AssertionError: expected 500 to equal 201\n    at Test.<anonymous> (C:\\Users\\anand\\Desktop\\fundoo-Notes\\tests\\integration\\/user.test.js:49:40)\n    at Test.assert (C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\supertest\\lib\\test.js:181:6)\n    at Server.localAssert (C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\supertest\\lib\\test.js:131:12)\n    at Object.onceWrapper (node:events:509:28)\n    at Server.emit (node:events:390:28)\n    at emitCloseNT (node:net:1681:8)\n    at processTicksAndRejections (node:internal/process/task_queues:82:21)","timestamp":"2022-03-04T08:20:06.405Z","trace":[{"column":40,"file":"C:\\Users\\anand\\Desktop\\fundoo-Notes\\tests\\integration\\/user.test.js","function":null,"line":49,"method":null,"native":false},{"column":6,"file":"C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\supertest\\lib\\test.js","function":"Test.assert","line":181,"method":"assert","native":false},{"column":12,"file":"C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\supertest\\lib\\test.js","function":"Server.localAssert","line":131,"method":"localAssert","native":false},{"column":28,"file":"node:events","function":"Object.onceWrapper","line":509,"method":"onceWrapper","native":false},{"column":28,"file":"node:events","function":"Server.emit","line":390,"method":"emit","native":false},{"column":8,"file":"node:net","function":"emitCloseNT","line":1681,"method":null,"native":false},{"column":21,"file":"node:internal/process/task_queues","function":"processTicksAndRejections","line":82,"method":null,"native":false}]}
+error: 
+    status - 500 
+    message - Error: password does not match
+    at _callee3$ (C:\Users\anand\Desktop\fundoo-Notes\src\services\/user.service.js:36:12)
+    at tryCatch (C:\Users\anand\Desktop\fundoo-Notes\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (C:\Users\anand\Desktop\fundoo-Notes\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (C:\Users\anand\Desktop\fundoo-Notes\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (C:\Users\anand\Desktop\fundoo-Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\anand\Desktop\fundoo-Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/users/login 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-03-04T08:22:07.826Z"}
+error: uncaughtException: expected 500 to equal 200
+AssertionError: expected 500 to equal 200
+    at Test.<anonymous> (C:\Users\anand\Desktop\fundoo-Notes\tests\integration\/user.test.js:91:40)
+    at Test.assert (C:\Users\anand\Desktop\fundoo-Notes\node_modules\supertest\lib\test.js:181:6)
+    at Server.localAssert (C:\Users\anand\Desktop\fundoo-Notes\node_modules\supertest\lib\test.js:131:12)
+    at Object.onceWrapper (node:events:509:28)
+    at Server.emit (node:events:390:28)
+    at emitCloseNT (node:net:1681:8)
+    at processTicksAndRejections (node:internal/process/task_queues:82:21) {"date":"Fri Mar 04 2022 13:52:07 GMT+0530 (India Standard Time)","error":{"actual":500,"expected":200,"message":"expected 500 to equal 200","name":"AssertionError","operator":"strictEqual","showDiff":true,"stack":"AssertionError: expected 500 to equal 200\n    at Test.<anonymous> (C:\\Users\\anand\\Desktop\\fundoo-Notes\\tests\\integration\\/user.test.js:91:40)\n    at Test.assert (C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\supertest\\lib\\test.js:181:6)\n    at Server.localAssert (C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\supertest\\lib\\test.js:131:12)\n    at Object.onceWrapper (node:events:509:28)\n    at Server.emit (node:events:390:28)\n    at emitCloseNT (node:net:1681:8)\n    at processTicksAndRejections (node:internal/process/task_queues:82:21)"},"exception":true,"os":{"loadavg":[0,0,0],"uptime":169366},"process":{"argv":["C:\\Program Files\\nodejs\\node.exe","C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\mocha\\bin\\mocha","--exit","--recursive","--require","@babel/register","--timeout=5000","tests/**/*.js"],"cwd":"C:\\Users\\anand\\Desktop\\fundoo-Notes","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18439386,"external":21808551,"heapTotal":159014912,"heapUsed":128476456,"rss":192479232},"pid":12832,"uid":null,"version":"v16.13.2"},"stack":"AssertionError: expected 500 to equal 200\n    at Test.<anonymous> (C:\\Users\\anand\\Desktop\\fundoo-Notes\\tests\\integration\\/user.test.js:91:40)\n    at Test.assert (C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\supertest\\lib\\test.js:181:6)\n    at Server.localAssert (C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\supertest\\lib\\test.js:131:12)\n    at Object.onceWrapper (node:events:509:28)\n    at Server.emit (node:events:390:28)\n    at emitCloseNT (node:net:1681:8)\n    at processTicksAndRejections (node:internal/process/task_queues:82:21)","timestamp":"2022-03-04T08:22:07.855Z","trace":[{"column":40,"file":"C:\\Users\\anand\\Desktop\\fundoo-Notes\\tests\\integration\\/user.test.js","function":null,"line":91,"method":null,"native":false},{"column":6,"file":"C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\supertest\\lib\\test.js","function":"Test.assert","line":181,"method":"assert","native":false},{"column":12,"file":"C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\supertest\\lib\\test.js","function":"Server.localAssert","line":131,"method":"localAssert","native":false},{"column":28,"file":"node:events","function":"Object.onceWrapper","line":509,"method":"onceWrapper","native":false},{"column":28,"file":"node:events","function":"Server.emit","line":390,"method":"emit","native":false},{"column":8,"file":"node:net","function":"emitCloseNT","line":1681,"method":null,"native":false},{"column":21,"file":"node:internal/process/task_queues","function":"processTicksAndRejections","line":82,"method":null,"native":false}]}
+error: 
+    status - 500 
+    message - Error: password does not match
+    at _callee3$ (C:\Users\anand\Desktop\fundoo-Notes\src\services\/user.service.js:36:12)
+    at tryCatch (C:\Users\anand\Desktop\fundoo-Notes\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (C:\Users\anand\Desktop\fundoo-Notes\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (C:\Users\anand\Desktop\fundoo-Notes\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (C:\Users\anand\Desktop\fundoo-Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\anand\Desktop\fundoo-Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/users/login 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-03-04T08:23:53.144Z"}
+error: uncaughtException: expected 500 to equal 200
+AssertionError: expected 500 to equal 200
+    at Test.<anonymous> (C:\Users\anand\Desktop\fundoo-Notes\tests\integration\/user.test.js:91:40)
+    at Test.assert (C:\Users\anand\Desktop\fundoo-Notes\node_modules\supertest\lib\test.js:181:6)
+    at Server.localAssert (C:\Users\anand\Desktop\fundoo-Notes\node_modules\supertest\lib\test.js:131:12)
+    at Object.onceWrapper (node:events:509:28)
+    at Server.emit (node:events:390:28)
+    at emitCloseNT (node:net:1681:8)
+    at processTicksAndRejections (node:internal/process/task_queues:82:21) {"date":"Fri Mar 04 2022 13:53:53 GMT+0530 (India Standard Time)","error":{"actual":500,"expected":200,"message":"expected 500 to equal 200","name":"AssertionError","operator":"strictEqual","showDiff":true,"stack":"AssertionError: expected 500 to equal 200\n    at Test.<anonymous> (C:\\Users\\anand\\Desktop\\fundoo-Notes\\tests\\integration\\/user.test.js:91:40)\n    at Test.assert (C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\supertest\\lib\\test.js:181:6)\n    at Server.localAssert (C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\supertest\\lib\\test.js:131:12)\n    at Object.onceWrapper (node:events:509:28)\n    at Server.emit (node:events:390:28)\n    at emitCloseNT (node:net:1681:8)\n    at processTicksAndRejections (node:internal/process/task_queues:82:21)"},"exception":true,"os":{"loadavg":[0,0,0],"uptime":169471},"process":{"argv":["C:\\Program Files\\nodejs\\node.exe","C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\mocha\\bin\\mocha","--exit","--recursive","--require","@babel/register","--timeout=5000","tests/**/*.js"],"cwd":"C:\\Users\\anand\\Desktop\\fundoo-Notes","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18447578,"external":21808551,"heapTotal":157171712,"heapUsed":128089104,"rss":190095360},"pid":13784,"uid":null,"version":"v16.13.2"},"stack":"AssertionError: expected 500 to equal 200\n    at Test.<anonymous> (C:\\Users\\anand\\Desktop\\fundoo-Notes\\tests\\integration\\/user.test.js:91:40)\n    at Test.assert (C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\supertest\\lib\\test.js:181:6)\n    at Server.localAssert (C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\supertest\\lib\\test.js:131:12)\n    at Object.onceWrapper (node:events:509:28)\n    at Server.emit (node:events:390:28)\n    at emitCloseNT (node:net:1681:8)\n    at processTicksAndRejections (node:internal/process/task_queues:82:21)","timestamp":"2022-03-04T08:23:53.173Z","trace":[{"column":40,"file":"C:\\Users\\anand\\Desktop\\fundoo-Notes\\tests\\integration\\/user.test.js","function":null,"line":91,"method":null,"native":false},{"column":6,"file":"C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\supertest\\lib\\test.js","function":"Test.assert","line":181,"method":"assert","native":false},{"column":12,"file":"C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\supertest\\lib\\test.js","function":"Server.localAssert","line":131,"method":"localAssert","native":false},{"column":28,"file":"node:events","function":"Object.onceWrapper","line":509,"method":"onceWrapper","native":false},{"column":28,"file":"node:events","function":"Server.emit","line":390,"method":"emit","native":false},{"column":8,"file":"node:net","function":"emitCloseNT","line":1681,"method":null,"native":false},{"column":21,"file":"node:internal/process/task_queues","function":"processTicksAndRejections","line":82,"method":null,"native":false}]}
+error: 
+    status - 500 
+    message - Error: password does not match
+    at _callee3$ (C:\Users\anand\Desktop\fundoo-Notes\src\services\/user.service.js:36:12)
+    at tryCatch (C:\Users\anand\Desktop\fundoo-Notes\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (C:\Users\anand\Desktop\fundoo-Notes\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (C:\Users\anand\Desktop\fundoo-Notes\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (C:\Users\anand\Desktop\fundoo-Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\anand\Desktop\fundoo-Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/users/login 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-03-04T08:24:36.448Z"}
+error: uncaughtException: expected 500 to equal 200
+AssertionError: expected 500 to equal 200
+    at Test.<anonymous> (C:\Users\anand\Desktop\fundoo-Notes\tests\integration\/user.test.js:91:40)
+    at Test.assert (C:\Users\anand\Desktop\fundoo-Notes\node_modules\supertest\lib\test.js:181:6)
+    at Server.localAssert (C:\Users\anand\Desktop\fundoo-Notes\node_modules\supertest\lib\test.js:131:12)
+    at Object.onceWrapper (node:events:509:28)
+    at Server.emit (node:events:390:28)
+    at emitCloseNT (node:net:1681:8)
+    at processTicksAndRejections (node:internal/process/task_queues:82:21) {"date":"Fri Mar 04 2022 13:54:36 GMT+0530 (India Standard Time)","error":{"actual":500,"expected":200,"message":"expected 500 to equal 200","name":"AssertionError","operator":"strictEqual","showDiff":true,"stack":"AssertionError: expected 500 to equal 200\n    at Test.<anonymous> (C:\\Users\\anand\\Desktop\\fundoo-Notes\\tests\\integration\\/user.test.js:91:40)\n    at Test.assert (C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\supertest\\lib\\test.js:181:6)\n    at Server.localAssert (C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\supertest\\lib\\test.js:131:12)\n    at Object.onceWrapper (node:events:509:28)\n    at Server.emit (node:events:390:28)\n    at emitCloseNT (node:net:1681:8)\n    at processTicksAndRejections (node:internal/process/task_queues:82:21)"},"exception":true,"os":{"loadavg":[0,0,0],"uptime":169514},"process":{"argv":["C:\\Program Files\\nodejs\\node.exe","C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\mocha\\bin\\mocha","--exit","--recursive","--require","@babel/register","--timeout=5000","tests/**/*.js"],"cwd":"C:\\Users\\anand\\Desktop\\fundoo-Notes","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18447578,"external":21808551,"heapTotal":157171712,"heapUsed":128115040,"rss":190382080},"pid":7468,"uid":null,"version":"v16.13.2"},"stack":"AssertionError: expected 500 to equal 200\n    at Test.<anonymous> (C:\\Users\\anand\\Desktop\\fundoo-Notes\\tests\\integration\\/user.test.js:91:40)\n    at Test.assert (C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\supertest\\lib\\test.js:181:6)\n    at Server.localAssert (C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\supertest\\lib\\test.js:131:12)\n    at Object.onceWrapper (node:events:509:28)\n    at Server.emit (node:events:390:28)\n    at emitCloseNT (node:net:1681:8)\n    at processTicksAndRejections (node:internal/process/task_queues:82:21)","timestamp":"2022-03-04T08:24:36.474Z","trace":[{"column":40,"file":"C:\\Users\\anand\\Desktop\\fundoo-Notes\\tests\\integration\\/user.test.js","function":null,"line":91,"method":null,"native":false},{"column":6,"file":"C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\supertest\\lib\\test.js","function":"Test.assert","line":181,"method":"assert","native":false},{"column":12,"file":"C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\supertest\\lib\\test.js","function":"Server.localAssert","line":131,"method":"localAssert","native":false},{"column":28,"file":"node:events","function":"Object.onceWrapper","line":509,"method":"onceWrapper","native":false},{"column":28,"file":"node:events","function":"Server.emit","line":390,"method":"emit","native":false},{"column":8,"file":"node:net","function":"emitCloseNT","line":1681,"method":null,"native":false},{"column":21,"file":"node:internal/process/task_queues","function":"processTicksAndRejections","line":82,"method":null,"native":false}]}
+error: 
+    status - 500 
+    message - Error: password does not match
+    at _callee3$ (C:\Users\anand\Desktop\fundoo-Notes\src\services\/user.service.js:36:12)
+    at tryCatch (C:\Users\anand\Desktop\fundoo-Notes\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (C:\Users\anand\Desktop\fundoo-Notes\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (C:\Users\anand\Desktop\fundoo-Notes\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (C:\Users\anand\Desktop\fundoo-Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\anand\Desktop\fundoo-Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/users/login 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-03-04T08:25:54.241Z"}
+error: uncaughtException: expected 500 to equal 200
+AssertionError: expected 500 to equal 200
+    at Test.<anonymous> (C:\Users\anand\Desktop\fundoo-Notes\tests\integration\/user.test.js:91:40)
+    at Test.assert (C:\Users\anand\Desktop\fundoo-Notes\node_modules\supertest\lib\test.js:181:6)
+    at Server.localAssert (C:\Users\anand\Desktop\fundoo-Notes\node_modules\supertest\lib\test.js:131:12)
+    at Object.onceWrapper (node:events:509:28)
+    at Server.emit (node:events:390:28)
+    at emitCloseNT (node:net:1681:8)
+    at processTicksAndRejections (node:internal/process/task_queues:82:21) {"date":"Fri Mar 04 2022 13:55:54 GMT+0530 (India Standard Time)","error":{"actual":500,"expected":200,"message":"expected 500 to equal 200","name":"AssertionError","operator":"strictEqual","showDiff":true,"stack":"AssertionError: expected 500 to equal 200\n    at Test.<anonymous> (C:\\Users\\anand\\Desktop\\fundoo-Notes\\tests\\integration\\/user.test.js:91:40)\n    at Test.assert (C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\supertest\\lib\\test.js:181:6)\n    at Server.localAssert (C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\supertest\\lib\\test.js:131:12)\n    at Object.onceWrapper (node:events:509:28)\n    at Server.emit (node:events:390:28)\n    at emitCloseNT (node:net:1681:8)\n    at processTicksAndRejections (node:internal/process/task_queues:82:21)"},"exception":true,"os":{"loadavg":[0,0,0],"uptime":169592},"process":{"argv":["C:\\Program Files\\nodejs\\node.exe","C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\mocha\\bin\\mocha","--exit","--recursive","--require","@babel/register","--timeout=5000","tests/**/*.js"],"cwd":"C:\\Users\\anand\\Desktop\\fundoo-Notes","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18496068,"external":21808551,"heapTotal":158228480,"heapUsed":130298168,"rss":191705088},"pid":9656,"uid":null,"version":"v16.13.2"},"stack":"AssertionError: expected 500 to equal 200\n    at Test.<anonymous> (C:\\Users\\anand\\Desktop\\fundoo-Notes\\tests\\integration\\/user.test.js:91:40)\n    at Test.assert (C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\supertest\\lib\\test.js:181:6)\n    at Server.localAssert (C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\supertest\\lib\\test.js:131:12)\n    at Object.onceWrapper (node:events:509:28)\n    at Server.emit (node:events:390:28)\n    at emitCloseNT (node:net:1681:8)\n    at processTicksAndRejections (node:internal/process/task_queues:82:21)","timestamp":"2022-03-04T08:25:54.270Z","trace":[{"column":40,"file":"C:\\Users\\anand\\Desktop\\fundoo-Notes\\tests\\integration\\/user.test.js","function":null,"line":91,"method":null,"native":false},{"column":6,"file":"C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\supertest\\lib\\test.js","function":"Test.assert","line":181,"method":"assert","native":false},{"column":12,"file":"C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\supertest\\lib\\test.js","function":"Server.localAssert","line":131,"method":"localAssert","native":false},{"column":28,"file":"node:events","function":"Object.onceWrapper","line":509,"method":"onceWrapper","native":false},{"column":28,"file":"node:events","function":"Server.emit","line":390,"method":"emit","native":false},{"column":8,"file":"node:net","function":"emitCloseNT","line":1681,"method":null,"native":false},{"column":21,"file":"node:internal/process/task_queues","function":"processTicksAndRejections","line":82,"method":null,"native":false}]}
+error: 
+    status - 500 
+    message - Error: password does not match
+    at _callee3$ (C:\Users\anand\Desktop\fundoo-Notes\src\services\/user.service.js:36:12)
+    at tryCatch (C:\Users\anand\Desktop\fundoo-Notes\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (C:\Users\anand\Desktop\fundoo-Notes\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (C:\Users\anand\Desktop\fundoo-Notes\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (C:\Users\anand\Desktop\fundoo-Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\anand\Desktop\fundoo-Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/users/login 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-03-04T08:27:13.720Z"}
+error: uncaughtException: expected 500 to equal 200
+AssertionError: expected 500 to equal 200
+    at Test.<anonymous> (C:\Users\anand\Desktop\fundoo-Notes\tests\integration\/user.test.js:91:40)
+    at Test.assert (C:\Users\anand\Desktop\fundoo-Notes\node_modules\supertest\lib\test.js:181:6)
+    at Server.localAssert (C:\Users\anand\Desktop\fundoo-Notes\node_modules\supertest\lib\test.js:131:12)
+    at Object.onceWrapper (node:events:509:28)
+    at Server.emit (node:events:390:28)
+    at emitCloseNT (node:net:1681:8)
+    at processTicksAndRejections (node:internal/process/task_queues:82:21) {"date":"Fri Mar 04 2022 13:57:13 GMT+0530 (India Standard Time)","error":{"actual":500,"expected":200,"message":"expected 500 to equal 200","name":"AssertionError","operator":"strictEqual","showDiff":true,"stack":"AssertionError: expected 500 to equal 200\n    at Test.<anonymous> (C:\\Users\\anand\\Desktop\\fundoo-Notes\\tests\\integration\\/user.test.js:91:40)\n    at Test.assert (C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\supertest\\lib\\test.js:181:6)\n    at Server.localAssert (C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\supertest\\lib\\test.js:131:12)\n    at Object.onceWrapper (node:events:509:28)\n    at Server.emit (node:events:390:28)\n    at emitCloseNT (node:net:1681:8)\n    at processTicksAndRejections (node:internal/process/task_queues:82:21)"},"exception":true,"os":{"loadavg":[0,0,0],"uptime":169672},"process":{"argv":["C:\\Program Files\\nodejs\\node.exe","C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\mocha\\bin\\mocha","--exit","--recursive","--require","@babel/register","--timeout=5000","tests/**/*.js"],"cwd":"C:\\Users\\anand\\Desktop\\fundoo-Notes","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18496068,"external":21808551,"heapTotal":158228480,"heapUsed":130390120,"rss":191348736},"pid":6772,"uid":null,"version":"v16.13.2"},"stack":"AssertionError: expected 500 to equal 200\n    at Test.<anonymous> (C:\\Users\\anand\\Desktop\\fundoo-Notes\\tests\\integration\\/user.test.js:91:40)\n    at Test.assert (C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\supertest\\lib\\test.js:181:6)\n    at Server.localAssert (C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\supertest\\lib\\test.js:131:12)\n    at Object.onceWrapper (node:events:509:28)\n    at Server.emit (node:events:390:28)\n    at emitCloseNT (node:net:1681:8)\n    at processTicksAndRejections (node:internal/process/task_queues:82:21)","timestamp":"2022-03-04T08:27:13.749Z","trace":[{"column":40,"file":"C:\\Users\\anand\\Desktop\\fundoo-Notes\\tests\\integration\\/user.test.js","function":null,"line":91,"method":null,"native":false},{"column":6,"file":"C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\supertest\\lib\\test.js","function":"Test.assert","line":181,"method":"assert","native":false},{"column":12,"file":"C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\supertest\\lib\\test.js","function":"Server.localAssert","line":131,"method":"localAssert","native":false},{"column":28,"file":"node:events","function":"Object.onceWrapper","line":509,"method":"onceWrapper","native":false},{"column":28,"file":"node:events","function":"Server.emit","line":390,"method":"emit","native":false},{"column":8,"file":"node:net","function":"emitCloseNT","line":1681,"method":null,"native":false},{"column":21,"file":"node:internal/process/task_queues","function":"processTicksAndRejections","line":82,"method":null,"native":false}]}
+error: 
+    status - 500 
+    message - ValidationError: "firstName" length must be at least 4 characters long 
+    url - /api/v1/users/register 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-03-04T08:37:52.516Z"}
+error: uncaughtException: expected 500 to equal 201
+AssertionError: expected 500 to equal 201
+    at Test.<anonymous> (C:\Users\anand\Desktop\fundoo-Notes\tests\integration\/user.test.js:69:40)
+    at Test.assert (C:\Users\anand\Desktop\fundoo-Notes\node_modules\supertest\lib\test.js:181:6)
+    at Server.localAssert (C:\Users\anand\Desktop\fundoo-Notes\node_modules\supertest\lib\test.js:131:12)
+    at Object.onceWrapper (node:events:509:28)
+    at Server.emit (node:events:390:28)
+    at emitCloseNT (node:net:1681:8)
+    at processTicksAndRejections (node:internal/process/task_queues:82:21) {"date":"Fri Mar 04 2022 14:07:52 GMT+0530 (India Standard Time)","error":{"actual":500,"expected":201,"message":"expected 500 to equal 201","name":"AssertionError","operator":"strictEqual","showDiff":true,"stack":"AssertionError: expected 500 to equal 201\n    at Test.<anonymous> (C:\\Users\\anand\\Desktop\\fundoo-Notes\\tests\\integration\\/user.test.js:69:40)\n    at Test.assert (C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\supertest\\lib\\test.js:181:6)\n    at Server.localAssert (C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\supertest\\lib\\test.js:131:12)\n    at Object.onceWrapper (node:events:509:28)\n    at Server.emit (node:events:390:28)\n    at emitCloseNT (node:net:1681:8)\n    at processTicksAndRejections (node:internal/process/task_queues:82:21)"},"exception":true,"os":{"loadavg":[0,0,0],"uptime":170311},"process":{"argv":["C:\\Program Files\\nodejs\\node.exe","C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\mocha\\bin\\mocha","--exit","--recursive","--require","@babel/register","--timeout=5000","tests/**/*.js"],"cwd":"C:\\Users\\anand\\Desktop\\fundoo-Notes","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18460755,"external":21773238,"heapTotal":157171712,"heapUsed":131973952,"rss":190824448},"pid":16524,"uid":null,"version":"v16.13.2"},"stack":"AssertionError: expected 500 to equal 201\n    at Test.<anonymous> (C:\\Users\\anand\\Desktop\\fundoo-Notes\\tests\\integration\\/user.test.js:69:40)\n    at Test.assert (C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\supertest\\lib\\test.js:181:6)\n    at Server.localAssert (C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\supertest\\lib\\test.js:131:12)\n    at Object.onceWrapper (node:events:509:28)\n    at Server.emit (node:events:390:28)\n    at emitCloseNT (node:net:1681:8)\n    at processTicksAndRejections (node:internal/process/task_queues:82:21)","timestamp":"2022-03-04T08:37:52.540Z","trace":[{"column":40,"file":"C:\\Users\\anand\\Desktop\\fundoo-Notes\\tests\\integration\\/user.test.js","function":null,"line":69,"method":null,"native":false},{"column":6,"file":"C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\supertest\\lib\\test.js","function":"Test.assert","line":181,"method":"assert","native":false},{"column":12,"file":"C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\supertest\\lib\\test.js","function":"Server.localAssert","line":131,"method":"localAssert","native":false},{"column":28,"file":"node:events","function":"Object.onceWrapper","line":509,"method":"onceWrapper","native":false},{"column":28,"file":"node:events","function":"Server.emit","line":390,"method":"emit","native":false},{"column":8,"file":"node:net","function":"emitCloseNT","line":1681,"method":null,"native":false},{"column":21,"file":"node:internal/process/task_queues","function":"processTicksAndRejections","line":82,"method":null,"native":false}]}
+error: 
+    status - 500 
+    message - Error: User is not Registered
+    at _callee3$ (C:\Users\anand\Desktop\fundoo-Notes\src\services\/user.service.js:40:9)
+    at tryCatch (C:\Users\anand\Desktop\fundoo-Notes\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (C:\Users\anand\Desktop\fundoo-Notes\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (C:\Users\anand\Desktop\fundoo-Notes\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (C:\Users\anand\Desktop\fundoo-Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\anand\Desktop\fundoo-Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/users/login 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-03-04T08:40:30.347Z"}
+error: uncaughtException: expected 500 to equal 200
+AssertionError: expected 500 to equal 200
+    at Test.<anonymous> (C:\Users\anand\Desktop\fundoo-Notes\tests\integration\/user.test.js:203:38)
+    at Test.assert (C:\Users\anand\Desktop\fundoo-Notes\node_modules\supertest\lib\test.js:181:6)
+    at Server.localAssert (C:\Users\anand\Desktop\fundoo-Notes\node_modules\supertest\lib\test.js:131:12)
+    at Object.onceWrapper (node:events:509:28)
+    at Server.emit (node:events:390:28)
+    at emitCloseNT (node:net:1681:8)
+    at processTicksAndRejections (node:internal/process/task_queues:82:21) {"date":"Fri Mar 04 2022 14:10:30 GMT+0530 (India Standard Time)","error":{"actual":500,"expected":200,"message":"expected 500 to equal 200","name":"AssertionError","operator":"strictEqual","showDiff":true,"stack":"AssertionError: expected 500 to equal 200\n    at Test.<anonymous> (C:\\Users\\anand\\Desktop\\fundoo-Notes\\tests\\integration\\/user.test.js:203:38)\n    at Test.assert (C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\supertest\\lib\\test.js:181:6)\n    at Server.localAssert (C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\supertest\\lib\\test.js:131:12)\n    at Object.onceWrapper (node:events:509:28)\n    at Server.emit (node:events:390:28)\n    at emitCloseNT (node:net:1681:8)\n    at processTicksAndRejections (node:internal/process/task_queues:82:21)"},"exception":true,"os":{"loadavg":[0,0,0],"uptime":170468},"process":{"argv":["C:\\Program Files\\nodejs\\node.exe","C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\mocha\\bin\\mocha","--exit","--recursive","--require","@babel/register","--timeout=5000","tests/**/*.js"],"cwd":"C:\\Users\\anand\\Desktop\\fundoo-Notes","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18483959,"external":21796442,"heapTotal":157171712,"heapUsed":132132208,"rss":190828544},"pid":18196,"uid":null,"version":"v16.13.2"},"stack":"AssertionError: expected 500 to equal 200\n    at Test.<anonymous> (C:\\Users\\anand\\Desktop\\fundoo-Notes\\tests\\integration\\/user.test.js:203:38)\n    at Test.assert (C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\supertest\\lib\\test.js:181:6)\n    at Server.localAssert (C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\supertest\\lib\\test.js:131:12)\n    at Object.onceWrapper (node:events:509:28)\n    at Server.emit (node:events:390:28)\n    at emitCloseNT (node:net:1681:8)\n    at processTicksAndRejections (node:internal/process/task_queues:82:21)","timestamp":"2022-03-04T08:40:30.389Z","trace":[{"column":38,"file":"C:\\Users\\anand\\Desktop\\fundoo-Notes\\tests\\integration\\/user.test.js","function":null,"line":203,"method":null,"native":false},{"column":6,"file":"C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\supertest\\lib\\test.js","function":"Test.assert","line":181,"method":"assert","native":false},{"column":12,"file":"C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\supertest\\lib\\test.js","function":"Server.localAssert","line":131,"method":"localAssert","native":false},{"column":28,"file":"node:events","function":"Object.onceWrapper","line":509,"method":"onceWrapper","native":false},{"column":28,"file":"node:events","function":"Server.emit","line":390,"method":"emit","native":false},{"column":8,"file":"node:net","function":"emitCloseNT","line":1681,"method":null,"native":false},{"column":21,"file":"node:internal/process/task_queues","function":"processTicksAndRejections","line":82,"method":null,"native":false}]}
+error: 
+    status - 500 
+    message - Error: User is not Registered
+    at _callee3$ (C:\Users\anand\Desktop\fundoo-Notes\src\services\/user.service.js:40:9)
+    at tryCatch (C:\Users\anand\Desktop\fundoo-Notes\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (C:\Users\anand\Desktop\fundoo-Notes\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (C:\Users\anand\Desktop\fundoo-Notes\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (C:\Users\anand\Desktop\fundoo-Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\anand\Desktop\fundoo-Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/users/login 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-03-04T08:46:00.040Z"}
+error: uncaughtException: expected 500 to equal 200
+AssertionError: expected 500 to equal 200
+    at Test.<anonymous> (C:\Users\anand\Desktop\fundoo-Notes\tests\integration\/user.test.js:203:38)
+    at Test.assert (C:\Users\anand\Desktop\fundoo-Notes\node_modules\supertest\lib\test.js:181:6)
+    at Server.localAssert (C:\Users\anand\Desktop\fundoo-Notes\node_modules\supertest\lib\test.js:131:12)
+    at Object.onceWrapper (node:events:509:28)
+    at Server.emit (node:events:390:28)
+    at emitCloseNT (node:net:1681:8)
+    at processTicksAndRejections (node:internal/process/task_queues:82:21) {"date":"Fri Mar 04 2022 14:16:00 GMT+0530 (India Standard Time)","error":{"actual":500,"expected":200,"message":"expected 500 to equal 200","name":"AssertionError","operator":"strictEqual","showDiff":true,"stack":"AssertionError: expected 500 to equal 200\n    at Test.<anonymous> (C:\\Users\\anand\\Desktop\\fundoo-Notes\\tests\\integration\\/user.test.js:203:38)\n    at Test.assert (C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\supertest\\lib\\test.js:181:6)\n    at Server.localAssert (C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\supertest\\lib\\test.js:131:12)\n    at Object.onceWrapper (node:events:509:28)\n    at Server.emit (node:events:390:28)\n    at emitCloseNT (node:net:1681:8)\n    at processTicksAndRejections (node:internal/process/task_queues:82:21)"},"exception":true,"os":{"loadavg":[0,0,0],"uptime":170798},"process":{"argv":["C:\\Program Files\\nodejs\\node.exe","C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\mocha\\bin\\mocha","--exit","--recursive","--require","@babel/register","--timeout=5000","tests/**/*.js"],"cwd":"C:\\Users\\anand\\Desktop\\fundoo-Notes","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18483959,"external":21083279,"heapTotal":157433856,"heapUsed":130671712,"rss":190812160},"pid":4804,"uid":null,"version":"v16.13.2"},"stack":"AssertionError: expected 500 to equal 200\n    at Test.<anonymous> (C:\\Users\\anand\\Desktop\\fundoo-Notes\\tests\\integration\\/user.test.js:203:38)\n    at Test.assert (C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\supertest\\lib\\test.js:181:6)\n    at Server.localAssert (C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\supertest\\lib\\test.js:131:12)\n    at Object.onceWrapper (node:events:509:28)\n    at Server.emit (node:events:390:28)\n    at emitCloseNT (node:net:1681:8)\n    at processTicksAndRejections (node:internal/process/task_queues:82:21)","timestamp":"2022-03-04T08:46:00.079Z","trace":[{"column":38,"file":"C:\\Users\\anand\\Desktop\\fundoo-Notes\\tests\\integration\\/user.test.js","function":null,"line":203,"method":null,"native":false},{"column":6,"file":"C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\supertest\\lib\\test.js","function":"Test.assert","line":181,"method":"assert","native":false},{"column":12,"file":"C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\supertest\\lib\\test.js","function":"Server.localAssert","line":131,"method":"localAssert","native":false},{"column":28,"file":"node:events","function":"Object.onceWrapper","line":509,"method":"onceWrapper","native":false},{"column":28,"file":"node:events","function":"Server.emit","line":390,"method":"emit","native":false},{"column":8,"file":"node:net","function":"emitCloseNT","line":1681,"method":null,"native":false},{"column":21,"file":"node:internal/process/task_queues","function":"processTicksAndRejections","line":82,"method":null,"native":false}]}
+error: 
+    status - 500 
+    message - ValidationError: "firstName" length must be at least 4 characters long 
+    url - /api/v1/users/register 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-03-04T08:47:48.123Z"}
+error: uncaughtException: expected 500 to equal 201
+AssertionError: expected 500 to equal 201
+    at Test.<anonymous> (C:\Users\anand\Desktop\fundoo-Notes\tests\integration\/user.test.js:69:40)
+    at Test.assert (C:\Users\anand\Desktop\fundoo-Notes\node_modules\supertest\lib\test.js:181:6)
+    at Server.localAssert (C:\Users\anand\Desktop\fundoo-Notes\node_modules\supertest\lib\test.js:131:12)
+    at Object.onceWrapper (node:events:509:28)
+    at Server.emit (node:events:390:28)
+    at emitCloseNT (node:net:1681:8)
+    at processTicksAndRejections (node:internal/process/task_queues:82:21) {"date":"Fri Mar 04 2022 14:17:48 GMT+0530 (India Standard Time)","error":{"actual":500,"expected":201,"message":"expected 500 to equal 201","name":"AssertionError","operator":"strictEqual","showDiff":true,"stack":"AssertionError: expected 500 to equal 201\n    at Test.<anonymous> (C:\\Users\\anand\\Desktop\\fundoo-Notes\\tests\\integration\\/user.test.js:69:40)\n    at Test.assert (C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\supertest\\lib\\test.js:181:6)\n    at Server.localAssert (C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\supertest\\lib\\test.js:131:12)\n    at Object.onceWrapper (node:events:509:28)\n    at Server.emit (node:events:390:28)\n    at emitCloseNT (node:net:1681:8)\n    at processTicksAndRejections (node:internal/process/task_queues:82:21)"},"exception":true,"os":{"loadavg":[0,0,0],"uptime":170906},"process":{"argv":["C:\\Program Files\\nodejs\\node.exe","C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\mocha\\bin\\mocha","--exit","--recursive","--require","@babel/register","--timeout=5000","tests/**/*.js"],"cwd":"C:\\Users\\anand\\Desktop\\fundoo-Notes","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18460755,"external":21773238,"heapTotal":157433856,"heapUsed":132057168,"rss":190763008},"pid":4224,"uid":null,"version":"v16.13.2"},"stack":"AssertionError: expected 500 to equal 201\n    at Test.<anonymous> (C:\\Users\\anand\\Desktop\\fundoo-Notes\\tests\\integration\\/user.test.js:69:40)\n    at Test.assert (C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\supertest\\lib\\test.js:181:6)\n    at Server.localAssert (C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\supertest\\lib\\test.js:131:12)\n    at Object.onceWrapper (node:events:509:28)\n    at Server.emit (node:events:390:28)\n    at emitCloseNT (node:net:1681:8)\n    at processTicksAndRejections (node:internal/process/task_queues:82:21)","timestamp":"2022-03-04T08:47:48.154Z","trace":[{"column":40,"file":"C:\\Users\\anand\\Desktop\\fundoo-Notes\\tests\\integration\\/user.test.js","function":null,"line":69,"method":null,"native":false},{"column":6,"file":"C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\supertest\\lib\\test.js","function":"Test.assert","line":181,"method":"assert","native":false},{"column":12,"file":"C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\supertest\\lib\\test.js","function":"Server.localAssert","line":131,"method":"localAssert","native":false},{"column":28,"file":"node:events","function":"Object.onceWrapper","line":509,"method":"onceWrapper","native":false},{"column":28,"file":"node:events","function":"Server.emit","line":390,"method":"emit","native":false},{"column":8,"file":"node:net","function":"emitCloseNT","line":1681,"method":null,"native":false},{"column":21,"file":"node:internal/process/task_queues","function":"processTicksAndRejections","line":82,"method":null,"native":false}]}
+error: 
+    status - 500 
+    message - ValidationError: "firstName" length must be at least 4 characters long 
+    url - /api/v1/users/register 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-03-04T08:49:09.103Z"}
+error: uncaughtException: expected 500 to equal 201
+AssertionError: expected 500 to equal 201
+    at Test.<anonymous> (C:\Users\anand\Desktop\fundoo-Notes\tests\integration\/user.test.js:69:40)
+    at Test.assert (C:\Users\anand\Desktop\fundoo-Notes\node_modules\supertest\lib\test.js:181:6)
+    at Server.localAssert (C:\Users\anand\Desktop\fundoo-Notes\node_modules\supertest\lib\test.js:131:12)
+    at Object.onceWrapper (node:events:509:28)
+    at Server.emit (node:events:390:28)
+    at emitCloseNT (node:net:1681:8)
+    at processTicksAndRejections (node:internal/process/task_queues:82:21) {"date":"Fri Mar 04 2022 14:19:09 GMT+0530 (India Standard Time)","error":{"actual":500,"expected":201,"message":"expected 500 to equal 201","name":"AssertionError","operator":"strictEqual","showDiff":true,"stack":"AssertionError: expected 500 to equal 201\n    at Test.<anonymous> (C:\\Users\\anand\\Desktop\\fundoo-Notes\\tests\\integration\\/user.test.js:69:40)\n    at Test.assert (C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\supertest\\lib\\test.js:181:6)\n    at Server.localAssert (C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\supertest\\lib\\test.js:131:12)\n    at Object.onceWrapper (node:events:509:28)\n    at Server.emit (node:events:390:28)\n    at emitCloseNT (node:net:1681:8)\n    at processTicksAndRejections (node:internal/process/task_queues:82:21)"},"exception":true,"os":{"loadavg":[0,0,0],"uptime":170987},"process":{"argv":["C:\\Program Files\\nodejs\\node.exe","C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\mocha\\bin\\mocha","--exit","--recursive","--require","@babel/register","--timeout=5000","tests/**/*.js"],"cwd":"C:\\Users\\anand\\Desktop\\fundoo-Notes","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18452563,"external":21773238,"heapTotal":157171712,"heapUsed":128251368,"rss":189886464},"pid":6160,"uid":null,"version":"v16.13.2"},"stack":"AssertionError: expected 500 to equal 201\n    at Test.<anonymous> (C:\\Users\\anand\\Desktop\\fundoo-Notes\\tests\\integration\\/user.test.js:69:40)\n    at Test.assert (C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\supertest\\lib\\test.js:181:6)\n    at Server.localAssert (C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\supertest\\lib\\test.js:131:12)\n    at Object.onceWrapper (node:events:509:28)\n    at Server.emit (node:events:390:28)\n    at emitCloseNT (node:net:1681:8)\n    at processTicksAndRejections (node:internal/process/task_queues:82:21)","timestamp":"2022-03-04T08:49:09.133Z","trace":[{"column":40,"file":"C:\\Users\\anand\\Desktop\\fundoo-Notes\\tests\\integration\\/user.test.js","function":null,"line":69,"method":null,"native":false},{"column":6,"file":"C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\supertest\\lib\\test.js","function":"Test.assert","line":181,"method":"assert","native":false},{"column":12,"file":"C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\supertest\\lib\\test.js","function":"Server.localAssert","line":131,"method":"localAssert","native":false},{"column":28,"file":"node:events","function":"Object.onceWrapper","line":509,"method":"onceWrapper","native":false},{"column":28,"file":"node:events","function":"Server.emit","line":390,"method":"emit","native":false},{"column":8,"file":"node:net","function":"emitCloseNT","line":1681,"method":null,"native":false},{"column":21,"file":"node:internal/process/task_queues","function":"processTicksAndRejections","line":82,"method":null,"native":false}]}
+error: 
+    status - 500 
+    message - ValidationError: "firstName" length must be at least 4 characters long 
+    url - /api/v1/users/register 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-03-04T08:50:34.297Z"}
+error: uncaughtException: expected 500 to equal 201
+AssertionError: expected 500 to equal 201
+    at Test.<anonymous> (C:\Users\anand\Desktop\fundoo-Notes\tests\integration\/user.test.js:69:40)
+    at Test.assert (C:\Users\anand\Desktop\fundoo-Notes\node_modules\supertest\lib\test.js:181:6)
+    at Server.localAssert (C:\Users\anand\Desktop\fundoo-Notes\node_modules\supertest\lib\test.js:131:12)
+    at Object.onceWrapper (node:events:509:28)
+    at Server.emit (node:events:390:28)
+    at emitCloseNT (node:net:1681:8)
+    at processTicksAndRejections (node:internal/process/task_queues:82:21) {"date":"Fri Mar 04 2022 14:20:34 GMT+0530 (India Standard Time)","error":{"actual":500,"expected":201,"message":"expected 500 to equal 201","name":"AssertionError","operator":"strictEqual","showDiff":true,"stack":"AssertionError: expected 500 to equal 201\n    at Test.<anonymous> (C:\\Users\\anand\\Desktop\\fundoo-Notes\\tests\\integration\\/user.test.js:69:40)\n    at Test.assert (C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\supertest\\lib\\test.js:181:6)\n    at Server.localAssert (C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\supertest\\lib\\test.js:131:12)\n    at Object.onceWrapper (node:events:509:28)\n    at Server.emit (node:events:390:28)\n    at emitCloseNT (node:net:1681:8)\n    at processTicksAndRejections (node:internal/process/task_queues:82:21)"},"exception":true,"os":{"loadavg":[0,0,0],"uptime":171072},"process":{"argv":["C:\\Program Files\\nodejs\\node.exe","C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\mocha\\bin\\mocha","--exit","--recursive","--require","@babel/register","--timeout=5000","tests/**/*.js"],"cwd":"C:\\Users\\anand\\Desktop\\fundoo-Notes","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18460755,"external":21773238,"heapTotal":157966336,"heapUsed":130109280,"rss":191594496},"pid":3808,"uid":null,"version":"v16.13.2"},"stack":"AssertionError: expected 500 to equal 201\n    at Test.<anonymous> (C:\\Users\\anand\\Desktop\\fundoo-Notes\\tests\\integration\\/user.test.js:69:40)\n    at Test.assert (C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\supertest\\lib\\test.js:181:6)\n    at Server.localAssert (C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\supertest\\lib\\test.js:131:12)\n    at Object.onceWrapper (node:events:509:28)\n    at Server.emit (node:events:390:28)\n    at emitCloseNT (node:net:1681:8)\n    at processTicksAndRejections (node:internal/process/task_queues:82:21)","timestamp":"2022-03-04T08:50:34.320Z","trace":[{"column":40,"file":"C:\\Users\\anand\\Desktop\\fundoo-Notes\\tests\\integration\\/user.test.js","function":null,"line":69,"method":null,"native":false},{"column":6,"file":"C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\supertest\\lib\\test.js","function":"Test.assert","line":181,"method":"assert","native":false},{"column":12,"file":"C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\supertest\\lib\\test.js","function":"Server.localAssert","line":131,"method":"localAssert","native":false},{"column":28,"file":"node:events","function":"Object.onceWrapper","line":509,"method":"onceWrapper","native":false},{"column":28,"file":"node:events","function":"Server.emit","line":390,"method":"emit","native":false},{"column":8,"file":"node:net","function":"emitCloseNT","line":1681,"method":null,"native":false},{"column":21,"file":"node:internal/process/task_queues","function":"processTicksAndRejections","line":82,"method":null,"native":false}]}
+error: 
+    status - 500 
+    message - ValidationError: "firstName" length must be at least 4 characters long 
+    url - /api/v1/users/register 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-03-04T08:56:09.397Z"}
+error: uncaughtException: expected 500 to equal 201
+AssertionError: expected 500 to equal 201
+    at Test.<anonymous> (C:\Users\anand\Desktop\fundoo-Notes\tests\integration\/user.test.js:69:40)
+    at Test.assert (C:\Users\anand\Desktop\fundoo-Notes\node_modules\supertest\lib\test.js:181:6)
+    at Server.localAssert (C:\Users\anand\Desktop\fundoo-Notes\node_modules\supertest\lib\test.js:131:12)
+    at Object.onceWrapper (node:events:509:28)
+    at Server.emit (node:events:390:28)
+    at emitCloseNT (node:net:1681:8)
+    at processTicksAndRejections (node:internal/process/task_queues:82:21) {"date":"Fri Mar 04 2022 14:26:09 GMT+0530 (India Standard Time)","error":{"actual":500,"expected":201,"message":"expected 500 to equal 201","name":"AssertionError","operator":"strictEqual","showDiff":true,"stack":"AssertionError: expected 500 to equal 201\n    at Test.<anonymous> (C:\\Users\\anand\\Desktop\\fundoo-Notes\\tests\\integration\\/user.test.js:69:40)\n    at Test.assert (C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\supertest\\lib\\test.js:181:6)\n    at Server.localAssert (C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\supertest\\lib\\test.js:131:12)\n    at Object.onceWrapper (node:events:509:28)\n    at Server.emit (node:events:390:28)\n    at emitCloseNT (node:net:1681:8)\n    at processTicksAndRejections (node:internal/process/task_queues:82:21)"},"exception":true,"os":{"loadavg":[0,0,0],"uptime":171407},"process":{"argv":["C:\\Program Files\\nodejs\\node.exe","C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\mocha\\bin\\mocha","--exit","--recursive","--require","@babel/register","--timeout=5000","tests/**/*.js"],"cwd":"C:\\Users\\anand\\Desktop\\fundoo-Notes","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18460755,"external":21773238,"heapTotal":157966336,"heapUsed":129851520,"rss":191791104},"pid":8128,"uid":null,"version":"v16.13.2"},"stack":"AssertionError: expected 500 to equal 201\n    at Test.<anonymous> (C:\\Users\\anand\\Desktop\\fundoo-Notes\\tests\\integration\\/user.test.js:69:40)\n    at Test.assert (C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\supertest\\lib\\test.js:181:6)\n    at Server.localAssert (C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\supertest\\lib\\test.js:131:12)\n    at Object.onceWrapper (node:events:509:28)\n    at Server.emit (node:events:390:28)\n    at emitCloseNT (node:net:1681:8)\n    at processTicksAndRejections (node:internal/process/task_queues:82:21)","timestamp":"2022-03-04T08:56:09.425Z","trace":[{"column":40,"file":"C:\\Users\\anand\\Desktop\\fundoo-Notes\\tests\\integration\\/user.test.js","function":null,"line":69,"method":null,"native":false},{"column":6,"file":"C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\supertest\\lib\\test.js","function":"Test.assert","line":181,"method":"assert","native":false},{"column":12,"file":"C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\supertest\\lib\\test.js","function":"Server.localAssert","line":131,"method":"localAssert","native":false},{"column":28,"file":"node:events","function":"Object.onceWrapper","line":509,"method":"onceWrapper","native":false},{"column":28,"file":"node:events","function":"Server.emit","line":390,"method":"emit","native":false},{"column":8,"file":"node:net","function":"emitCloseNT","line":1681,"method":null,"native":false},{"column":21,"file":"node:internal/process/task_queues","function":"processTicksAndRejections","line":82,"method":null,"native":false}]}
+error: 
+      status - 400
+      message - Authorization token is required 
+      url - /api/v1/note 
+      method - GET 
+      IP - ::1
+     {"timestamp":"2022-03-04T09:32:50.992Z"}
+error: 
+      status - 11000
+      message - E11000 duplicate key error collection: user.users index: emailID_1 dup key: { emailID: "pratik@gmail.com" } 
+      url - /api/v1/users/register 
+      method - POST 
+      IP - ::1
+     {"timestamp":"2022-03-04T09:35:34.481Z"}
+error: 
+    status - 500 
+    message - RangeError: Invalid status code: 11000
+    at new NodeError (node:internal/errors:371:5)
+    at ServerResponse.writeHead (node:_http_server:274:11)
+    at ServerResponse.writeHead (C:\Users\anand\Desktop\fundoo-Notes\node_modules\on-headers\index.js:44:26)
+    at ServerResponse._implicitHeader (node:_http_server:265:8)
+    at write_ (node:_http_outgoing:766:9)
+    at ServerResponse.end (node:_http_outgoing:855:5)
+    at ServerResponse.send (C:\Users\anand\Desktop\fundoo-Notes\node_modules\express\lib\response.js:221:10)
+    at ServerResponse.json (C:\Users\anand\Desktop\fundoo-Notes\node_modules\express\lib\response.js:267:15)
+    at appErrorHandler (C:\Users\anand\Desktop\fundoo-Notes\src\middlewares\/error.middleware.js:36:26)
+    at Layer.handle_error (C:\Users\anand\Desktop\fundoo-Notes\node_modules\express\lib\router\layer.js:71:5)
+    at trim_prefix (C:\Users\anand\Desktop\fundoo-Notes\node_modules\express\lib\router\index.js:321:13)
+    at C:\Users\anand\Desktop\fundoo-Notes\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (C:\Users\anand\Desktop\fundoo-Notes\node_modules\express\lib\router\index.js:341:12)
+    at next (C:\Users\anand\Desktop\fundoo-Notes\node_modules\express\lib\router\index.js:275:10)
+    at C:\Users\anand\Desktop\fundoo-Notes\node_modules\express\lib\router\index.js:641:15
+    at next (C:\Users\anand\Desktop\fundoo-Notes\node_modules\express\lib\router\index.js:260:14) 
+    url - /api/v1/users/register 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-03-04T09:35:34.505Z"}
+error: 
+    status - 500 
+    message - Error: User is not Registered
+    at _callee3$ (C:\Users\anand\Desktop\fundoo-Notes\src\services\/user.service.js:40:9)
+    at tryCatch (C:\Users\anand\Desktop\fundoo-Notes\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (C:\Users\anand\Desktop\fundoo-Notes\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (C:\Users\anand\Desktop\fundoo-Notes\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (C:\Users\anand\Desktop\fundoo-Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\anand\Desktop\fundoo-Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/users/login 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-03-04T09:36:31.360Z"}
+error: uncaughtException: C:\Users\anand\Desktop\fundoo-Notes\src\controllers\note.controller.js: Unexpected token (44:6)
+
+[0m [90m 42 |[39m         message[33m:[39m [32m'All notes fetched successfully'[39m[0m
+[0m [90m 43 |[39m       })[33m;[39m[0m
+[0m[31m[1m>[22m[39m[90m 44 |[39m     } [36mcatch[39m (error) {[0m
+[0m [90m    |[39m       [31m[1m^[22m[39m[0m
+[0m [90m 45 |[39m       next(error)[33m;[39m[0m
+[0m [90m 46 |[39m     }[0m
+[0m [90m 47 |[39m   }[33m;[39m[0m
+SyntaxError: C:\Users\anand\Desktop\fundoo-Notes\src\controllers\note.controller.js: Unexpected token (44:6)
+
+[0m [90m 42 |[39m         message[33m:[39m [32m'All notes fetched successfully'[39m[0m
+[0m [90m 43 |[39m       })[33m;[39m[0m
+[0m[31m[1m>[22m[39m[90m 44 |[39m     } [36mcatch[39m (error) {[0m
+[0m [90m    |[39m       [31m[1m^[22m[39m[0m
+[0m [90m 45 |[39m       next(error)[33m;[39m[0m
+[0m [90m 46 |[39m     }[0m
+[0m [90m 47 |[39m   }[33m;[39m[0m
+    at Parser._raise (C:\Users\anand\Desktop\fundoo-Notes\node_modules\@babel\parser\src\parser\error.js:150:45)
+    at Parser.raiseWithData (C:\Users\anand\Desktop\fundoo-Notes\node_modules\@babel\parser\src\parser\error.js:145:17)
+    at Parser.raise (C:\Users\anand\Desktop\fundoo-Notes\node_modules\@babel\parser\src\parser\error.js:89:17)
+    at Parser.unexpected (C:\Users\anand\Desktop\fundoo-Notes\node_modules\@babel\parser\src\parser\util.js:174:16)
+    at Parser.parseExprAtom (C:\Users\anand\Desktop\fundoo-Notes\node_modules\@babel\parser\src\parser\expression.js:1309:22)
+    at Parser.parseExprSubscripts (C:\Users\anand\Desktop\fundoo-Notes\node_modules\@babel\parser\src\parser\expression.js:682:23)
+    at Parser.parseUpdate (C:\Users\anand\Desktop\fundoo-Notes\node_modules\@babel\parser\src\parser\expression.js:662:21)
+    at Parser.parseMaybeUnary (C:\Users\anand\Desktop\fundoo-Notes\node_modules\@babel\parser\src\parser\expression.js:633:23)
+    at Parser.parseMaybeUnaryOrPrivate (C:\Users\anand\Desktop\fundoo-Notes\node_modules\@babel\parser\src\parser\expression.js:388:14)
+    at Parser.parseExprOps (C:\Users\anand\Desktop\fundoo-Notes\node_modules\@babel\parser\src\parser\expression.js:398:23)
+    at Parser.parseMaybeConditional (C:\Users\anand\Desktop\fundoo-Notes\node_modules\@babel\parser\src\parser\expression.js:356:23)
+    at Parser.parseMaybeAssign (C:\Users\anand\Desktop\fundoo-Notes\node_modules\@babel\parser\src\parser\expression.js:303:21)
+    at Parser.parseExpressionBase (C:\Users\anand\Desktop\fundoo-Notes\node_modules\@babel\parser\src\parser\expression.js:228:23)
+    at callback (C:\Users\anand\Desktop\fundoo-Notes\node_modules\@babel\parser\src\parser\expression.js:221:39)
+    at Parser.allowInAnd (C:\Users\anand\Desktop\fundoo-Notes\node_modules\@babel\parser\src\parser\expression.js:2958:16)
+    at Parser.parseExpression (C:\Users\anand\Desktop\fundoo-Notes\node_modules\@babel\parser\src\parser\expression.js:221:17) {"date":"Fri Mar 04 2022 15:08:42 GMT+0530 (India Standard Time)","error":{"code":"BABEL_PARSE_ERROR","loc":{"column":6,"index":1203,"line":44},"pos":1203,"reasonCode":"UnexpectedToken"},"exception":true,"os":{"loadavg":[0,0,0],"uptime":173961},"process":{"argv":["node","C:\\Users\\anand\\Desktop\\fundoo-Notes\\src\\index.js"],"cwd":"C:\\Users\\anand\\Desktop\\fundoo-Notes","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18294994,"external":26937127,"heapTotal":132788224,"heapUsed":111958128,"rss":168484864},"pid":8624,"uid":null,"version":"v16.13.2"},"stack":"SyntaxError: C:\\Users\\anand\\Desktop\\fundoo-Notes\\src\\controllers\\note.controller.js: Unexpected token (44:6)\n\n\u001b[0m \u001b[90m 42 |\u001b[39m         message\u001b[33m:\u001b[39m \u001b[32m'All notes fetched successfully'\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 43 |\u001b[39m       })\u001b[33m;\u001b[39m\u001b[0m\n\u001b[0m\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 44 |\u001b[39m     } \u001b[36mcatch\u001b[39m (error) {\u001b[0m\n\u001b[0m \u001b[90m    |\u001b[39m       \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 45 |\u001b[39m       next(error)\u001b[33m;\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 46 |\u001b[39m     }\u001b[0m\n\u001b[0m \u001b[90m 47 |\u001b[39m   }\u001b[33m;\u001b[39m\u001b[0m\n    at Parser._raise (C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\@babel\\parser\\src\\parser\\error.js:150:45)\n    at Parser.raiseWithData (C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\@babel\\parser\\src\\parser\\error.js:145:17)\n    at Parser.raise (C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\@babel\\parser\\src\\parser\\error.js:89:17)\n    at Parser.unexpected (C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\@babel\\parser\\src\\parser\\util.js:174:16)\n    at Parser.parseExprAtom (C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\@babel\\parser\\src\\parser\\expression.js:1309:22)\n    at Parser.parseExprSubscripts (C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\@babel\\parser\\src\\parser\\expression.js:682:23)\n    at Parser.parseUpdate (C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\@babel\\parser\\src\\parser\\expression.js:662:21)\n    at Parser.parseMaybeUnary (C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\@babel\\parser\\src\\parser\\expression.js:633:23)\n    at Parser.parseMaybeUnaryOrPrivate (C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\@babel\\parser\\src\\parser\\expression.js:388:14)\n    at Parser.parseExprOps (C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\@babel\\parser\\src\\parser\\expression.js:398:23)\n    at Parser.parseMaybeConditional (C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\@babel\\parser\\src\\parser\\expression.js:356:23)\n    at Parser.parseMaybeAssign (C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\@babel\\parser\\src\\parser\\expression.js:303:21)\n    at Parser.parseExpressionBase (C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\@babel\\parser\\src\\parser\\expression.js:228:23)\n    at callback (C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\@babel\\parser\\src\\parser\\expression.js:221:39)\n    at Parser.allowInAnd (C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\@babel\\parser\\src\\parser\\expression.js:2958:16)\n    at Parser.parseExpression (C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\@babel\\parser\\src\\parser\\expression.js:221:17)","timestamp":"2022-03-04T09:38:42.506Z","trace":[{"column":45,"file":"C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\@babel\\parser\\src\\parser\\error.js","function":"Parser._raise","line":150,"method":"_raise","native":false},{"column":17,"file":"C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\@babel\\parser\\src\\parser\\error.js","function":"Parser.raiseWithData","line":145,"method":"raiseWithData","native":false},{"column":17,"file":"C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\@babel\\parser\\src\\parser\\error.js","function":"Parser.raise","line":89,"method":"raise","native":false},{"column":16,"file":"C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\@babel\\parser\\src\\parser\\util.js","function":"Parser.unexpected","line":174,"method":"unexpected","native":false},{"column":22,"file":"C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\@babel\\parser\\src\\parser\\expression.js","function":"Parser.parseExprAtom","line":1309,"method":"parseExprAtom","native":false},{"column":23,"file":"C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\@babel\\parser\\src\\parser\\expression.js","function":"Parser.parseExprSubscripts","line":682,"method":"parseExprSubscripts","native":false},{"column":21,"file":"C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\@babel\\parser\\src\\parser\\expression.js","function":"Parser.parseUpdate","line":662,"method":"parseUpdate","native":false},{"column":23,"file":"C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\@babel\\parser\\src\\parser\\expression.js","function":"Parser.parseMaybeUnary","line":633,"method":"parseMaybeUnary","native":false},{"column":14,"file":"C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\@babel\\parser\\src\\parser\\expression.js","function":"Parser.parseMaybeUnaryOrPrivate","line":388,"method":"parseMaybeUnaryOrPrivate","native":false},{"column":23,"file":"C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\@babel\\parser\\src\\parser\\expression.js","function":"Parser.parseExprOps","line":398,"method":"parseExprOps","native":false},{"column":23,"file":"C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\@babel\\parser\\src\\parser\\expression.js","function":"Parser.parseMaybeConditional","line":356,"method":"parseMaybeConditional","native":false},{"column":21,"file":"C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\@babel\\parser\\src\\parser\\expression.js","function":"Parser.parseMaybeAssign","line":303,"method":"parseMaybeAssign","native":false},{"column":23,"file":"C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\@babel\\parser\\src\\parser\\expression.js","function":"Parser.parseExpressionBase","line":228,"method":"parseExpressionBase","native":false},{"column":39,"file":"C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\@babel\\parser\\src\\parser\\expression.js","function":"callback","line":221,"method":null,"native":false},{"column":16,"file":"C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\@babel\\parser\\src\\parser\\expression.js","function":"Parser.allowInAnd","line":2958,"method":"allowInAnd","native":false},{"column":17,"file":"C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\@babel\\parser\\src\\parser\\expression.js","function":"Parser.parseExpression","line":221,"method":"parseExpression","native":false}]}
+error: 
+    status - 500 
+    message - Error: user dont have any notes
+    at _callee2$ (C:\Users\anand\Desktop\fundoo-Notes\src\services\/note.service.js:18:15)
+    at tryCatch (C:\Users\anand\Desktop\fundoo-Notes\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (C:\Users\anand\Desktop\fundoo-Notes\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (C:\Users\anand\Desktop\fundoo-Notes\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (C:\Users\anand\Desktop\fundoo-Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\anand\Desktop\fundoo-Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/note 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2022-03-04T09:41:08.599Z"}
+error: 
+      status - 11000
+      message - E11000 duplicate key error collection: TEST_DATABASE.users index: emailID_1 dup key: { emailID: "anandubale11@gmail.com" } 
+      url - /api/v1/users/register 
+      method - POST 
+      IP - ::ffff:127.0.0.1
+     {"timestamp":"2022-03-04T12:04:45.515Z"}
+error: 
+    status - 500 
+    message - RangeError: Invalid status code: 11000
+    at new NodeError (node:internal/errors:371:5)
+    at ServerResponse.writeHead (node:_http_server:274:11)
+    at ServerResponse.writeHead (C:\Users\anand\Desktop\fundoo-Notes\node_modules\on-headers\index.js:44:26)
+    at ServerResponse._implicitHeader (node:_http_server:265:8)
+    at write_ (node:_http_outgoing:766:9)
+    at ServerResponse.end (node:_http_outgoing:855:5)
+    at ServerResponse.send (C:\Users\anand\Desktop\fundoo-Notes\node_modules\express\lib\response.js:221:10)
+    at ServerResponse.json (C:\Users\anand\Desktop\fundoo-Notes\node_modules\express\lib\response.js:267:15)
+    at appErrorHandler (C:\Users\anand\Desktop\fundoo-Notes\src\middlewares\/error.middleware.js:36:26)
+    at Layer.handle_error (C:\Users\anand\Desktop\fundoo-Notes\node_modules\express\lib\router\layer.js:71:5)
+    at trim_prefix (C:\Users\anand\Desktop\fundoo-Notes\node_modules\express\lib\router\index.js:321:13)
+    at C:\Users\anand\Desktop\fundoo-Notes\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (C:\Users\anand\Desktop\fundoo-Notes\node_modules\express\lib\router\index.js:341:12)
+    at next (C:\Users\anand\Desktop\fundoo-Notes\node_modules\express\lib\router\index.js:275:10)
+    at C:\Users\anand\Desktop\fundoo-Notes\node_modules\express\lib\router\index.js:641:15
+    at next (C:\Users\anand\Desktop\fundoo-Notes\node_modules\express\lib\router\index.js:260:14)
+    at C:\Users\anand\Desktop\fundoo-Notes\node_modules\express\lib\router\index.js:641:15
+    at next (C:\Users\anand\Desktop\fundoo-Notes\node_modules\express\lib\router\index.js:260:14)
+    at next (C:\Users\anand\Desktop\fundoo-Notes\node_modules\express\lib\router\route.js:127:14)
+    at _callee2$ (C:\Users\anand\Desktop\fundoo-Notes\src\controllers\/user.controller.js:37:5)
+    at tryCatch (C:\Users\anand\Desktop\fundoo-Notes\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (C:\Users\anand\Desktop\fundoo-Notes\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.throw (C:\Users\anand\Desktop\fundoo-Notes\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (C:\Users\anand\Desktop\fundoo-Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _throw (C:\Users\anand\Desktop\fundoo-Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:29:9)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/users/register 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-03-04T12:04:45.567Z"}
+error: uncaughtException: expected 500 to equal 201
+AssertionError: expected 500 to equal 201
+    at Test.<anonymous> (C:\Users\anand\Desktop\fundoo-Notes\tests\integration\/user.test.js:50:40)
+    at Test.assert (C:\Users\anand\Desktop\fundoo-Notes\node_modules\supertest\lib\test.js:181:6)
+    at Server.localAssert (C:\Users\anand\Desktop\fundoo-Notes\node_modules\supertest\lib\test.js:131:12)
+    at Object.onceWrapper (node:events:509:28)
+    at Server.emit (node:events:390:28)
+    at emitCloseNT (node:net:1681:8)
+    at processTicksAndRejections (node:internal/process/task_queues:82:21) {"date":"Fri Mar 04 2022 17:34:45 GMT+0530 (India Standard Time)","error":{"actual":500,"expected":201,"message":"expected 500 to equal 201","name":"AssertionError","operator":"strictEqual","showDiff":true,"stack":"AssertionError: expected 500 to equal 201\n    at Test.<anonymous> (C:\\Users\\anand\\Desktop\\fundoo-Notes\\tests\\integration\\/user.test.js:50:40)\n    at Test.assert (C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\supertest\\lib\\test.js:181:6)\n    at Server.localAssert (C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\supertest\\lib\\test.js:131:12)\n    at Object.onceWrapper (node:events:509:28)\n    at Server.emit (node:events:390:28)\n    at emitCloseNT (node:net:1681:8)\n    at processTicksAndRejections (node:internal/process/task_queues:82:21)"},"exception":true,"os":{"loadavg":[0,0,0],"uptime":182724},"process":{"argv":["C:\\Program Files\\nodejs\\node.exe","C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\mocha\\bin\\mocha","--exit","--recursive","--require","@babel/register","--timeout=5000","tests/**/*.js"],"cwd":"C:\\Users\\anand\\Desktop\\fundoo-Notes","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18498756,"external":21868067,"heapTotal":157843456,"heapUsed":126900888,"rss":191504384},"pid":8436,"uid":null,"version":"v16.13.2"},"stack":"AssertionError: expected 500 to equal 201\n    at Test.<anonymous> (C:\\Users\\anand\\Desktop\\fundoo-Notes\\tests\\integration\\/user.test.js:50:40)\n    at Test.assert (C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\supertest\\lib\\test.js:181:6)\n    at Server.localAssert (C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\supertest\\lib\\test.js:131:12)\n    at Object.onceWrapper (node:events:509:28)\n    at Server.emit (node:events:390:28)\n    at emitCloseNT (node:net:1681:8)\n    at processTicksAndRejections (node:internal/process/task_queues:82:21)","timestamp":"2022-03-04T12:04:45.605Z","trace":[{"column":40,"file":"C:\\Users\\anand\\Desktop\\fundoo-Notes\\tests\\integration\\/user.test.js","function":null,"line":50,"method":null,"native":false},{"column":6,"file":"C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\supertest\\lib\\test.js","function":"Test.assert","line":181,"method":"assert","native":false},{"column":12,"file":"C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\supertest\\lib\\test.js","function":"Server.localAssert","line":131,"method":"localAssert","native":false},{"column":28,"file":"node:events","function":"Object.onceWrapper","line":509,"method":"onceWrapper","native":false},{"column":28,"file":"node:events","function":"Server.emit","line":390,"method":"emit","native":false},{"column":8,"file":"node:net","function":"emitCloseNT","line":1681,"method":null,"native":false},{"column":21,"file":"node:internal/process/task_queues","function":"processTicksAndRejections","line":82,"method":null,"native":false}]}
+error: 
+    status - 500 
+    message - ReferenceError: promise is not defined
+    at sendMailTo (C:\Users\anand\Desktop\fundoo-Notes\src\utils\/helper.js:29:5)
+    at _callee4$ (C:\Users\anand\Desktop\fundoo-Notes\src\services\/user.service.js:53:26)
+    at tryCatch (C:\Users\anand\Desktop\fundoo-Notes\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (C:\Users\anand\Desktop\fundoo-Notes\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (C:\Users\anand\Desktop\fundoo-Notes\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (C:\Users\anand\Desktop\fundoo-Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\anand\Desktop\fundoo-Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/users/forget 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-03-04T12:23:07.418Z"}
+error: uncaughtException: expected 500 to equal 200
+AssertionError: expected 500 to equal 200
+    at Test.<anonymous> (C:\Users\anand\Desktop\fundoo-Notes\tests\integration\/user.test.js:171:42)
+    at Test.assert (C:\Users\anand\Desktop\fundoo-Notes\node_modules\supertest\lib\test.js:181:6)
+    at Server.localAssert (C:\Users\anand\Desktop\fundoo-Notes\node_modules\supertest\lib\test.js:131:12)
+    at Object.onceWrapper (node:events:509:28)
+    at Server.emit (node:events:390:28)
+    at emitCloseNT (node:net:1681:8)
+    at processTicksAndRejections (node:internal/process/task_queues:82:21) {"date":"Fri Mar 04 2022 17:53:07 GMT+0530 (India Standard Time)","error":{"actual":500,"expected":200,"message":"expected 500 to equal 200","name":"AssertionError","operator":"strictEqual","showDiff":true,"stack":"AssertionError: expected 500 to equal 200\n    at Test.<anonymous> (C:\\Users\\anand\\Desktop\\fundoo-Notes\\tests\\integration\\/user.test.js:171:42)\n    at Test.assert (C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\supertest\\lib\\test.js:181:6)\n    at Server.localAssert (C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\supertest\\lib\\test.js:131:12)\n    at Object.onceWrapper (node:events:509:28)\n    at Server.emit (node:events:390:28)\n    at emitCloseNT (node:net:1681:8)\n    at processTicksAndRejections (node:internal/process/task_queues:82:21)"},"exception":true,"os":{"loadavg":[0,0,0],"uptime":183825},"process":{"argv":["C:\\Program Files\\nodejs\\node.exe","C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\mocha\\bin\\mocha","--exit","--recursive","--require","@babel/register","--timeout=5000","tests/**/*.js"],"cwd":"C:\\Users\\anand\\Desktop\\fundoo-Notes","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18496057,"external":21808965,"heapTotal":157958144,"heapUsed":129088872,"rss":191578112},"pid":9424,"uid":null,"version":"v16.13.2"},"stack":"AssertionError: expected 500 to equal 200\n    at Test.<anonymous> (C:\\Users\\anand\\Desktop\\fundoo-Notes\\tests\\integration\\/user.test.js:171:42)\n    at Test.assert (C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\supertest\\lib\\test.js:181:6)\n    at Server.localAssert (C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\supertest\\lib\\test.js:131:12)\n    at Object.onceWrapper (node:events:509:28)\n    at Server.emit (node:events:390:28)\n    at emitCloseNT (node:net:1681:8)\n    at processTicksAndRejections (node:internal/process/task_queues:82:21)","timestamp":"2022-03-04T12:23:07.446Z","trace":[{"column":42,"file":"C:\\Users\\anand\\Desktop\\fundoo-Notes\\tests\\integration\\/user.test.js","function":null,"line":171,"method":null,"native":false},{"column":6,"file":"C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\supertest\\lib\\test.js","function":"Test.assert","line":181,"method":"assert","native":false},{"column":12,"file":"C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\supertest\\lib\\test.js","function":"Server.localAssert","line":131,"method":"localAssert","native":false},{"column":28,"file":"node:events","function":"Object.onceWrapper","line":509,"method":"onceWrapper","native":false},{"column":28,"file":"node:events","function":"Server.emit","line":390,"method":"emit","native":false},{"column":8,"file":"node:net","function":"emitCloseNT","line":1681,"method":null,"native":false},{"column":21,"file":"node:internal/process/task_queues","function":"processTicksAndRejections","line":82,"method":null,"native":false}]}
+error: 
+      status - 400
+      message - Authorization token is incorrect 
+      url - /api/v1/users/reset 
+      method - PUT 
+      IP - ::ffff:127.0.0.1
+     {"timestamp":"2022-03-04T12:56:19.564Z"}
+error: uncaughtException: expected 400 to equal 200
+AssertionError: expected 400 to equal 200
+    at Test.<anonymous> (C:\Users\anand\Desktop\fundoo-Notes\tests\integration\/user.test.js:191:42)
+    at Test.assert (C:\Users\anand\Desktop\fundoo-Notes\node_modules\supertest\lib\test.js:181:6)
+    at Server.localAssert (C:\Users\anand\Desktop\fundoo-Notes\node_modules\supertest\lib\test.js:131:12)
+    at Object.onceWrapper (node:events:509:28)
+    at Server.emit (node:events:390:28)
+    at emitCloseNT (node:net:1681:8)
+    at processTicksAndRejections (node:internal/process/task_queues:82:21) {"date":"Fri Mar 04 2022 18:26:19 GMT+0530 (India Standard Time)","error":{"actual":400,"expected":200,"message":"expected 400 to equal 200","name":"AssertionError","operator":"strictEqual","showDiff":true,"stack":"AssertionError: expected 400 to equal 200\n    at Test.<anonymous> (C:\\Users\\anand\\Desktop\\fundoo-Notes\\tests\\integration\\/user.test.js:191:42)\n    at Test.assert (C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\supertest\\lib\\test.js:181:6)\n    at Server.localAssert (C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\supertest\\lib\\test.js:131:12)\n    at Object.onceWrapper (node:events:509:28)\n    at Server.emit (node:events:390:28)\n    at emitCloseNT (node:net:1681:8)\n    at processTicksAndRejections (node:internal/process/task_queues:82:21)"},"exception":true,"os":{"loadavg":[0,0,0],"uptime":185818},"process":{"argv":["C:\\Program Files\\nodejs\\node.exe","C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\mocha\\bin\\mocha","--exit","--recursive","--require","@babel/register","--timeout=5000","tests/**/*.js"],"cwd":"C:\\Users\\anand\\Desktop\\fundoo-Notes","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18404173,"external":21773763,"heapTotal":157581312,"heapUsed":126775480,"rss":191008768},"pid":7712,"uid":null,"version":"v16.13.2"},"stack":"AssertionError: expected 400 to equal 200\n    at Test.<anonymous> (C:\\Users\\anand\\Desktop\\fundoo-Notes\\tests\\integration\\/user.test.js:191:42)\n    at Test.assert (C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\supertest\\lib\\test.js:181:6)\n    at Server.localAssert (C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\supertest\\lib\\test.js:131:12)\n    at Object.onceWrapper (node:events:509:28)\n    at Server.emit (node:events:390:28)\n    at emitCloseNT (node:net:1681:8)\n    at processTicksAndRejections (node:internal/process/task_queues:82:21)","timestamp":"2022-03-04T12:56:19.595Z","trace":[{"column":42,"file":"C:\\Users\\anand\\Desktop\\fundoo-Notes\\tests\\integration\\/user.test.js","function":null,"line":191,"method":null,"native":false},{"column":6,"file":"C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\supertest\\lib\\test.js","function":"Test.assert","line":181,"method":"assert","native":false},{"column":12,"file":"C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\supertest\\lib\\test.js","function":"Server.localAssert","line":131,"method":"localAssert","native":false},{"column":28,"file":"node:events","function":"Object.onceWrapper","line":509,"method":"onceWrapper","native":false},{"column":28,"file":"node:events","function":"Server.emit","line":390,"method":"emit","native":false},{"column":8,"file":"node:net","function":"emitCloseNT","line":1681,"method":null,"native":false},{"column":21,"file":"node:internal/process/task_queues","function":"processTicksAndRejections","line":82,"method":null,"native":false}]}

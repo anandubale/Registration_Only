@@ -26,15 +26,21 @@ export const sendMailTo = (sendtoID ,token) => {
     }
 
     //3.send mail with defined transport object
-    transport.sendMail(formatedMail,(err,info)=> {
-        if(err){
-           logger.log('error',err)
-        }
-        else{
-          logger.log('info',info);
-        }
-    })
+    return new Promise((resolve,reject) => {
 
+        transport.sendMail(formatedMail,(err,info)=> {
+            if(err){
+               logger.log('error',err)
+               return reject;
+            }
+            else{
+              logger.log('info',info);
+              return resolve("check email for token");
+            }
+        })
+
+    })
 }
+
 
 

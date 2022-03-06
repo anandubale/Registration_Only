@@ -1209,3 +1209,9 @@ error:
     method - DELETE 
     IP - ::1
    {"timestamp":"2022-03-03T14:37:08.883Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-03-03T14:37:47.201Z"}
+info: Connected to the database. {"timestamp":"2022-03-03T14:37:47.226Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-03-03T15:03:01.486Z"}
+info: Connected to the database. {"timestamp":"2022-03-03T15:03:01.519Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-03-03T17:33:56.637Z"}
+error: Could not connect to the database. querySrv ECONNREFUSED _mongodb._tcp.demo.aoloa.mongodb.net {"code":"ECONNREFUSED","hostname":"_mongodb._tcp.demo.aoloa.mongodb.net","stack":"Error: querySrv ECONNREFUSED _mongodb._tcp.demo.aoloa.mongodb.net\n    at QueryReqWrap.onresolve [as oncomplete] (node:dns:213:19)","syscall":"querySrv","timestamp":"2022-03-03T17:33:56.659Z"}
