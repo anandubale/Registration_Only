@@ -28,12 +28,11 @@ export const create = async (req, res, next) => {
 };
 
 
- export const AllUsers = async (req, res, next) => {
+ export const AllNotes = async (req, res, next) => {
     try {
       
       req.body.UserID = req.body.data.id;
-
-      const AllUserdata = await NoteService.AllUsers(req.body.UserID);
+      const AllUserdata = await NoteService.AllNotes(req.body.UserID);
       res.status(HttpStatus.OK).json({
         code: HttpStatus.OK,
         data: AllUserdata,                
@@ -47,11 +46,11 @@ export const create = async (req, res, next) => {
 
 //get user by id
 
-export const getUserById = async(req,res,next)=>{
+export const getNoteById = async(req,res,next)=>{
   try {
     req.body.UserID = req.body.data.id; //its a user id automatically created one
-    console.log(req.params._id)
-    const dataById = await NoteService.getUserById(req.params._id, req.body.UserID);
+
+    const dataById = await NoteService.getNoteById(req.params._id, req.body.UserID);
     res.status(HttpStatus.OK).json({
       code:HttpStatus.OK,
       data: dataById,
@@ -126,4 +125,15 @@ export const TrashNote = async(req,res,next)=>{
   }
 }
 
+
+
+//"emailID": "sheldon@gmail.com" id : 62271432208644320c3b2179
+//
+//token : eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbElEIjoic2hlbGRvbkBnbWFpbC5jb20iLCJpZCI6IjYyMjcxNDMyMjA4NjQ0MzIwYzNiMjE3OSIsImlhdCI6MTY0NjcyODMxMH0.owuuvYAcGNi4UNNGeWCzjqmebTTb2RbVlEsDYpvQRp8
+//id :6227150d7c781846d0cae3ce
+
+
+// "emailID": "leonard@gmail.com",
+//"password": "asdfg@12345"
+//token : eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbElEIjoibGVvbmFyZEBnbWFpbC5jb20iLCJpZCI6IjYyMjcxNTQwYjdlNWVhMjk0MDQzNjZiNiIsImlhdCI6MTY0NjcyODU4OX0.oMpuoNzjkT4R2-KUv1Os1AMfpvJsDQgLfSeHaSIVaJw
 

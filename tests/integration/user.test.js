@@ -34,23 +34,23 @@ describe('User APIs Test', () => {
 
   describe(`POST /users`, () => {
 
-    it('should register user.1', (done) => {
+    // it('should register user.1', (done) => {
 
-      const obj1 = {
-        firstName : "Anand",
-        lastName : "Ubale",
-        emailID : "anandubale11@gmail.com",
-        password : "1234567890"
-       };
+    //   const obj1 = {
+    //     firstName : "Anand",
+    //     lastName : "Ubale",
+    //     emailID : "anandubale11@gmail.com",
+    //     password : "1234567890"
+    //    };
 
-      request(app)
-        .post('/api/v1/users/register')
-        .send(obj1)
-        .end((err, res) => {
-          expect(res.statusCode).to.be.equal(HttpStatus.CREATED);
-          done();
-        });
-    });
+    //   request(app)
+    //     .post('/api/v1/users/register')
+    //     .send(obj1)
+    //     .end((err, res) => {
+    //       expect(res.statusCode).to.be.equal(HttpStatus.CREATED);
+    //       done();
+    //     });
+    // });
 
 
     it('A)firstName is wrong', (done) => {

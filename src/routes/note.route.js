@@ -8,13 +8,13 @@ import {cached_data_Redis} from '../middlewares/reddis.middleware';
 const noteRouter = express.Router();
 
 //create note:
-noteRouter.post('', NoteAuthentication,noteController.create);
+noteRouter.post('', newNoteValidator, NoteAuthentication,noteController.create);
 
 //get all notes 
-noteRouter.get('', NoteAuthentication, cached_data_Redis,  noteController.AllUsers);
+noteRouter.get('', NoteAuthentication, cached_data_Redis,  noteController.AllNotes);
 
 //get note by id
-noteRouter.get('/:_id',NoteAuthentication,noteController.getUserById);
+noteRouter.get('/:_id',NoteAuthentication,noteController.getNoteById);
 
 //update using put
 noteRouter.put('/:_id', NoteAuthentication,noteController.updateById);

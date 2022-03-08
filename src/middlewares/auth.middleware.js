@@ -34,7 +34,7 @@ export const NoteAuthentication = async (req, res, next) => {
       if (err)
       throw {
         code: HttpStatus.BAD_REQUEST,
-        message: 'Authorization token is incorrect'
+        message: 'User dont have access to this NoteID '
       };
       else{
         // req.body.data = verifedtoken; //this verified token will have email id ,id
@@ -43,7 +43,6 @@ export const NoteAuthentication = async (req, res, next) => {
         req.body['data'] = verifedtoken;  //this verified token will have email id ,id
         console.log(req.body.data);
         next();
-        console.log("done with authentication");
       }
     });
   } catch (error) {

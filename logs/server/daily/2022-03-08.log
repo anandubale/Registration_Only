@@ -49,3 +49,583 @@ info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-03-08T0
 info: Connected to the database. {"timestamp":"2022-03-08T03:31:29.836Z"}
 info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-03-08T03:32:16.762Z"}
 info: Connected to the database. {"timestamp":"2022-03-08T03:32:16.789Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-03-08T06:56:02.227Z"}
+info: Connected to the database. {"timestamp":"2022-03-08T06:56:02.264Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-03-08T06:56:12.160Z"}
+info: Connected to the database. {"timestamp":"2022-03-08T06:56:12.187Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-03-08T06:56:50.448Z"}
+info: Connected to the database. {"timestamp":"2022-03-08T06:56:50.488Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-03-08T06:57:17.543Z"}
+info: Connected to the database. {"timestamp":"2022-03-08T06:57:17.579Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-03-08T06:58:23.841Z"}
+info: Connected to the database. {"timestamp":"2022-03-08T06:58:23.885Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-03-08T06:58:32.638Z"}
+info: Connected to the database. {"timestamp":"2022-03-08T06:58:32.672Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-03-08T06:58:40.531Z"}
+info: Connected to the database. {"timestamp":"2022-03-08T06:58:40.584Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-03-08T06:59:10.076Z"}
+info: Connected to the database. {"timestamp":"2022-03-08T06:59:10.104Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-03-08T07:00:29.908Z"}
+info: Connected to the database. {"timestamp":"2022-03-08T07:00:29.954Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-03-08T07:00:53.441Z"}
+info: Connected to the database. {"timestamp":"2022-03-08T07:00:53.471Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-03-08T07:01:47.031Z"}
+info: Connected to the database. {"timestamp":"2022-03-08T07:01:47.070Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-03-08T07:01:54.807Z"}
+info: Connected to the database. {"timestamp":"2022-03-08T07:01:54.852Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-03-08T07:04:59.144Z"}
+info: Connected to the database. {"timestamp":"2022-03-08T07:04:59.174Z"}
+error: 
+    status - 500 
+    message - Error: The client is closed
+    at Commander._RedisClient_sendCommand (C:\Users\anand\Desktop\fundoo-Notes\node_modules\@node-redis\client\dist\lib\client\index.js:408:31)
+    at Commander.commandsExecutor (C:\Users\anand\Desktop\fundoo-Notes\node_modules\@node-redis\client\dist\lib\client\index.js:166:154)
+    at Commander.del (C:\Users\anand\Desktop\fundoo-Notes\node_modules\@node-redis\client\dist\lib\commander.js:8:29)
+    at _callee$ (C:\Users\anand\Desktop\fundoo-Notes\src\services\/note.service.js:12:22)
+    at tryCatch (C:\Users\anand\Desktop\fundoo-Notes\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (C:\Users\anand\Desktop\fundoo-Notes\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (C:\Users\anand\Desktop\fundoo-Notes\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (C:\Users\anand\Desktop\fundoo-Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\anand\Desktop\fundoo-Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/note 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-03-08T07:05:31.872Z"}
+error: 
+    status - 500 
+    message - Error: The client is closed
+    at Commander._RedisClient_sendCommand (C:\Users\anand\Desktop\fundoo-Notes\node_modules\@node-redis\client\dist\lib\client\index.js:408:31)
+    at Commander.commandsExecutor (C:\Users\anand\Desktop\fundoo-Notes\node_modules\@node-redis\client\dist\lib\client\index.js:166:154)
+    at Commander.del (C:\Users\anand\Desktop\fundoo-Notes\node_modules\@node-redis\client\dist\lib\commander.js:8:29)
+    at _callee$ (C:\Users\anand\Desktop\fundoo-Notes\src\services\/note.service.js:12:22)
+    at tryCatch (C:\Users\anand\Desktop\fundoo-Notes\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (C:\Users\anand\Desktop\fundoo-Notes\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (C:\Users\anand\Desktop\fundoo-Notes\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (C:\Users\anand\Desktop\fundoo-Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\anand\Desktop\fundoo-Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/note 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-03-08T07:11:22.573Z"}
+error: 
+    status - 500 
+    message - Error: The client is closed
+    at Commander._RedisClient_sendCommand (C:\Users\anand\Desktop\fundoo-Notes\node_modules\@node-redis\client\dist\lib\client\index.js:408:31)
+    at Commander.commandsExecutor (C:\Users\anand\Desktop\fundoo-Notes\node_modules\@node-redis\client\dist\lib\client\index.js:166:154)
+    at Commander.del (C:\Users\anand\Desktop\fundoo-Notes\node_modules\@node-redis\client\dist\lib\commander.js:8:29)
+    at _callee$ (C:\Users\anand\Desktop\fundoo-Notes\src\services\/note.service.js:12:22)
+    at tryCatch (C:\Users\anand\Desktop\fundoo-Notes\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (C:\Users\anand\Desktop\fundoo-Notes\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (C:\Users\anand\Desktop\fundoo-Notes\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (C:\Users\anand\Desktop\fundoo-Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\anand\Desktop\fundoo-Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/note 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-03-08T07:11:51.590Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-03-08T07:12:10.627Z"}
+info: Connected to the database. {"timestamp":"2022-03-08T07:12:10.662Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-03-08T07:14:09.257Z"}
+info: Connected to the database. {"timestamp":"2022-03-08T07:14:09.300Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-03-08T07:17:00.435Z"}
+info: Connected to the database. {"timestamp":"2022-03-08T07:17:00.465Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-03-08T07:25:09.199Z"}
+info: Connected to the database. {"timestamp":"2022-03-08T07:25:09.221Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-03-08T07:25:58.929Z"}
+info: Connected to the database. {"timestamp":"2022-03-08T07:25:58.956Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-03-08T07:26:49.493Z"}
+info: Connected to the database. {"timestamp":"2022-03-08T07:26:49.515Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-03-08T07:28:07.867Z"}
+info: Connected to the database. {"timestamp":"2022-03-08T07:28:07.901Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-03-08T07:30:19.428Z"}
+info: Connected to the database. {"timestamp":"2022-03-08T07:30:19.450Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-03-08T07:30:58.785Z"}
+info: Connected to the database. {"timestamp":"2022-03-08T07:30:58.812Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-03-08T07:33:37.009Z"}
+info: Connected to the database. {"timestamp":"2022-03-08T07:33:37.040Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-03-08T07:37:20.431Z"}
+info: Connected to the database. {"timestamp":"2022-03-08T07:37:20.466Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-03-08T07:38:37.018Z"}
+info: Connected to the database. {"timestamp":"2022-03-08T07:38:37.057Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-03-08T07:43:21.347Z"}
+info: Connected to the database. {"timestamp":"2022-03-08T07:43:21.388Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-03-08T07:46:03.997Z"}
+info: Connected to the database. {"timestamp":"2022-03-08T07:46:04.053Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-03-08T07:49:03.312Z"}
+info: Connected to the database. {"timestamp":"2022-03-08T07:49:03.349Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-03-08T07:50:10.031Z"}
+info: Connected to the database. {"timestamp":"2022-03-08T07:50:10.151Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-03-08T07:51:44.314Z"}
+info: Connected to the database. {"timestamp":"2022-03-08T07:51:44.340Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-03-08T07:51:56.317Z"}
+info: Connected to the database. {"timestamp":"2022-03-08T07:51:56.343Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-03-08T07:52:20.355Z"}
+info: Connected to the database. {"timestamp":"2022-03-08T07:52:20.380Z"}
+error: 
+    status - 500 
+    message - ReferenceError: sender is not defined
+    at _callee2$ (C:\Users\anand\Desktop\fundoo-Notes\src\services\/user.service.js:25:3)
+    at tryCatch (C:\Users\anand\Desktop\fundoo-Notes\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (C:\Users\anand\Desktop\fundoo-Notes\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (C:\Users\anand\Desktop\fundoo-Notes\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (C:\Users\anand\Desktop\fundoo-Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\anand\Desktop\fundoo-Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/users/register 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-03-08T07:52:51.112Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-03-08T07:53:17.556Z"}
+info: Connected to the database. {"timestamp":"2022-03-08T07:53:17.581Z"}
+error: 
+      status - 11000
+      message - E11000 duplicate key error collection: user.users index: emailID_1 dup key: { emailID: "bodke@gmail.com" } 
+      url - /api/v1/users/register 
+      method - POST 
+      IP - ::1
+     {"timestamp":"2022-03-08T07:53:25.827Z"}
+error: 
+    status - 500 
+    message - RangeError: Invalid status code: 11000
+    at new NodeError (node:internal/errors:371:5)
+    at ServerResponse.writeHead (node:_http_server:274:11)
+    at ServerResponse.writeHead (C:\Users\anand\Desktop\fundoo-Notes\node_modules\on-headers\index.js:44:26)
+    at ServerResponse._implicitHeader (node:_http_server:265:8)
+    at write_ (node:_http_outgoing:766:9)
+    at ServerResponse.end (node:_http_outgoing:855:5)
+    at ServerResponse.send (C:\Users\anand\Desktop\fundoo-Notes\node_modules\express\lib\response.js:221:10)
+    at ServerResponse.json (C:\Users\anand\Desktop\fundoo-Notes\node_modules\express\lib\response.js:267:15)
+    at appErrorHandler (C:\Users\anand\Desktop\fundoo-Notes\src\middlewares\/error.middleware.js:36:26)
+    at Layer.handle_error (C:\Users\anand\Desktop\fundoo-Notes\node_modules\express\lib\router\layer.js:71:5)
+    at trim_prefix (C:\Users\anand\Desktop\fundoo-Notes\node_modules\express\lib\router\index.js:321:13)
+    at C:\Users\anand\Desktop\fundoo-Notes\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (C:\Users\anand\Desktop\fundoo-Notes\node_modules\express\lib\router\index.js:341:12)
+    at next (C:\Users\anand\Desktop\fundoo-Notes\node_modules\express\lib\router\index.js:275:10)
+    at C:\Users\anand\Desktop\fundoo-Notes\node_modules\express\lib\router\index.js:641:15
+    at next (C:\Users\anand\Desktop\fundoo-Notes\node_modules\express\lib\router\index.js:260:14)
+    at C:\Users\anand\Desktop\fundoo-Notes\node_modules\express\lib\router\index.js:641:15
+    at next (C:\Users\anand\Desktop\fundoo-Notes\node_modules\express\lib\router\index.js:260:14)
+    at next (C:\Users\anand\Desktop\fundoo-Notes\node_modules\express\lib\router\route.js:127:14)
+    at _callee2$ (C:\Users\anand\Desktop\fundoo-Notes\src\controllers\/user.controller.js:38:5)
+    at tryCatch (C:\Users\anand\Desktop\fundoo-Notes\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (C:\Users\anand\Desktop\fundoo-Notes\node_modules\regenerator-runtime\runtime.js:294:22) 
+    url - /api/v1/users/register 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-03-08T07:53:25.838Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-03-08T07:54:44.171Z"}
+info: Connected to the database. {"timestamp":"2022-03-08T07:54:44.195Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-03-08T07:55:11.600Z"}
+info: Connected to the database. {"timestamp":"2022-03-08T07:55:11.623Z"}
+error: 
+      status - 11000
+      message - E11000 duplicate key error collection: user.users index: emailID_1 dup key: { emailID: "bodke@gmail.com" } 
+      url - /api/v1/users/register 
+      method - POST 
+      IP - ::1
+     {"timestamp":"2022-03-08T07:55:19.941Z"}
+error: 
+    status - 500 
+    message - RangeError: Invalid status code: 11000
+    at new NodeError (node:internal/errors:371:5)
+    at ServerResponse.writeHead (node:_http_server:274:11)
+    at ServerResponse.writeHead (C:\Users\anand\Desktop\fundoo-Notes\node_modules\on-headers\index.js:44:26)
+    at ServerResponse._implicitHeader (node:_http_server:265:8)
+    at write_ (node:_http_outgoing:766:9)
+    at ServerResponse.end (node:_http_outgoing:855:5)
+    at ServerResponse.send (C:\Users\anand\Desktop\fundoo-Notes\node_modules\express\lib\response.js:221:10)
+    at ServerResponse.json (C:\Users\anand\Desktop\fundoo-Notes\node_modules\express\lib\response.js:267:15)
+    at appErrorHandler (C:\Users\anand\Desktop\fundoo-Notes\src\middlewares\/error.middleware.js:36:26)
+    at Layer.handle_error (C:\Users\anand\Desktop\fundoo-Notes\node_modules\express\lib\router\layer.js:71:5)
+    at trim_prefix (C:\Users\anand\Desktop\fundoo-Notes\node_modules\express\lib\router\index.js:321:13)
+    at C:\Users\anand\Desktop\fundoo-Notes\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (C:\Users\anand\Desktop\fundoo-Notes\node_modules\express\lib\router\index.js:341:12)
+    at next (C:\Users\anand\Desktop\fundoo-Notes\node_modules\express\lib\router\index.js:275:10)
+    at C:\Users\anand\Desktop\fundoo-Notes\node_modules\express\lib\router\index.js:641:15
+    at next (C:\Users\anand\Desktop\fundoo-Notes\node_modules\express\lib\router\index.js:260:14)
+    at C:\Users\anand\Desktop\fundoo-Notes\node_modules\express\lib\router\index.js:641:15
+    at next (C:\Users\anand\Desktop\fundoo-Notes\node_modules\express\lib\router\index.js:260:14)
+    at next (C:\Users\anand\Desktop\fundoo-Notes\node_modules\express\lib\router\route.js:127:14)
+    at _callee2$ (C:\Users\anand\Desktop\fundoo-Notes\src\controllers\/user.controller.js:38:5)
+    at tryCatch (C:\Users\anand\Desktop\fundoo-Notes\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (C:\Users\anand\Desktop\fundoo-Notes\node_modules\regenerator-runtime\runtime.js:294:22) 
+    url - /api/v1/users/register 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-03-08T07:55:19.951Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-03-08T07:55:52.860Z"}
+info: Connected to the database. {"timestamp":"2022-03-08T07:55:52.896Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-03-08T08:24:32.854Z"}
+info: Connected to the database. {"timestamp":"2022-03-08T08:24:32.953Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-03-08T08:25:40.591Z"}
+info: Connected to the database. {"timestamp":"2022-03-08T08:25:40.620Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-03-08T08:26:08.566Z"}
+info: Connected to the database. {"timestamp":"2022-03-08T08:26:08.589Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-03-08T08:27:37.249Z"}
+info: Connected to the database. {"timestamp":"2022-03-08T08:27:37.271Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-03-08T08:28:22.107Z"}
+info: Connected to the database. {"timestamp":"2022-03-08T08:28:22.137Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-03-08T08:28:41.139Z"}
+info: Connected to the database. {"timestamp":"2022-03-08T08:28:41.174Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-03-08T08:31:34.203Z"}
+info: Connected to the database. {"timestamp":"2022-03-08T08:31:34.227Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-03-08T08:33:04.115Z"}
+info: Connected to the database. {"timestamp":"2022-03-08T08:33:04.140Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-03-08T08:34:46.584Z"}
+info: Connected to the database. {"timestamp":"2022-03-08T08:34:46.611Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-03-08T08:36:21.745Z"}
+info: Connected to the database. {"timestamp":"2022-03-08T08:36:21.770Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-03-08T08:37:30.634Z"}
+info: Connected to the database. {"timestamp":"2022-03-08T08:37:30.667Z"}
+error: 
+    status - 500 
+    message - Error: user dont have any notes
+    at _callee2$ (C:\Users\anand\Desktop\fundoo-Notes\src\services\/note.service.js:23:15)
+    at tryCatch (C:\Users\anand\Desktop\fundoo-Notes\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (C:\Users\anand\Desktop\fundoo-Notes\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (C:\Users\anand\Desktop\fundoo-Notes\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (C:\Users\anand\Desktop\fundoo-Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\anand\Desktop\fundoo-Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/note 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2022-03-08T08:38:06.298Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-03-08T08:38:46.872Z"}
+info: Connected to the database. {"timestamp":"2022-03-08T08:38:46.900Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-03-08T08:39:31.378Z"}
+info: Connected to the database. {"timestamp":"2022-03-08T08:39:31.434Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-03-08T08:39:52.155Z"}
+info: Connected to the database. {"timestamp":"2022-03-08T08:39:52.189Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-03-08T08:40:14.794Z"}
+info: Connected to the database. {"timestamp":"2022-03-08T08:40:14.818Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-03-08T08:40:20.699Z"}
+info: Connected to the database. {"timestamp":"2022-03-08T08:40:20.725Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-03-08T08:40:33.077Z"}
+info: Connected to the database. {"timestamp":"2022-03-08T08:40:33.109Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-03-08T08:40:41.757Z"}
+info: Connected to the database. {"timestamp":"2022-03-08T08:40:41.786Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-03-08T08:40:52.663Z"}
+info: Connected to the database. {"timestamp":"2022-03-08T08:40:52.693Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-03-08T08:41:37.080Z"}
+info: Connected to the database. {"timestamp":"2022-03-08T08:41:37.107Z"}
+error: 
+    status - 500 
+    message - Error: user dont have any notes
+    at _callee2$ (C:\Users\anand\Desktop\fundoo-Notes\src\services\/note.service.js:23:15)
+    at tryCatch (C:\Users\anand\Desktop\fundoo-Notes\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (C:\Users\anand\Desktop\fundoo-Notes\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (C:\Users\anand\Desktop\fundoo-Notes\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (C:\Users\anand\Desktop\fundoo-Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\anand\Desktop\fundoo-Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/note 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2022-03-08T08:43:28.105Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-03-08T08:46:31.592Z"}
+info: Connected to the database. {"timestamp":"2022-03-08T08:46:31.620Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-03-08T08:47:03.727Z"}
+info: Connected to the database. {"timestamp":"2022-03-08T08:47:03.749Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-03-08T08:48:01.847Z"}
+info: Connected to the database. {"timestamp":"2022-03-08T08:48:01.872Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-03-08T08:49:04.698Z"}
+info: Connected to the database. {"timestamp":"2022-03-08T08:49:04.723Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-03-08T08:49:18.190Z"}
+info: Connected to the database. {"timestamp":"2022-03-08T08:49:18.217Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-03-08T08:49:25.099Z"}
+info: Connected to the database. {"timestamp":"2022-03-08T08:49:25.127Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-03-08T08:49:40.641Z"}
+info: Connected to the database. {"timestamp":"2022-03-08T08:49:40.677Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-03-08T08:49:46.623Z"}
+info: Connected to the database. {"timestamp":"2022-03-08T08:49:46.659Z"}
+error: 
+    status - 500 
+    message - Error: This not Right user to Access This Note
+    at _callee3$ (C:\Users\anand\Desktop\fundoo-Notes\src\services\/note.service.js:40:15)
+    at tryCatch (C:\Users\anand\Desktop\fundoo-Notes\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (C:\Users\anand\Desktop\fundoo-Notes\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (C:\Users\anand\Desktop\fundoo-Notes\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (C:\Users\anand\Desktop\fundoo-Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\anand\Desktop\fundoo-Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/note/6227150d7c781846d0cae3ce 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2022-03-08T08:49:57.929Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-03-08T08:51:33.929Z"}
+info: Connected to the database. {"timestamp":"2022-03-08T08:51:33.952Z"}
+error: 
+    status - 500 
+    message - ReferenceError: dataById is not defined
+    at _callee4$ (C:\Users\anand\Desktop\fundoo-Notes\src\services\/note.service.js:52:27)
+    at tryCatch (C:\Users\anand\Desktop\fundoo-Notes\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (C:\Users\anand\Desktop\fundoo-Notes\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (C:\Users\anand\Desktop\fundoo-Notes\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (C:\Users\anand\Desktop\fundoo-Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\anand\Desktop\fundoo-Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/note/6227150d7c781846d0cae3ce 
+    method - PUT 
+    IP - ::1
+   {"timestamp":"2022-03-08T08:51:45.892Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-03-08T08:52:15.259Z"}
+info: Connected to the database. {"timestamp":"2022-03-08T08:52:15.293Z"}
+error: 
+    status - 500 
+    message - ReferenceError: UserID is not defined
+    at _callee4$ (C:\Users\anand\Desktop\fundoo-Notes\src\services\/note.service.js:62:30)
+    at tryCatch (C:\Users\anand\Desktop\fundoo-Notes\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (C:\Users\anand\Desktop\fundoo-Notes\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (C:\Users\anand\Desktop\fundoo-Notes\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (C:\Users\anand\Desktop\fundoo-Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\anand\Desktop\fundoo-Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/note/6227150d7c781846d0cae3ce 
+    method - PUT 
+    IP - ::1
+   {"timestamp":"2022-03-08T08:52:15.548Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-03-08T08:52:59.928Z"}
+info: Connected to the database. {"timestamp":"2022-03-08T08:52:59.953Z"}
+error: 
+    status - 500 
+    message - ReferenceError: UserID is not defined
+    at _callee4$ (C:\Users\anand\Desktop\fundoo-Notes\src\services\/note.service.js:63:18)
+    at tryCatch (C:\Users\anand\Desktop\fundoo-Notes\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (C:\Users\anand\Desktop\fundoo-Notes\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (C:\Users\anand\Desktop\fundoo-Notes\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (C:\Users\anand\Desktop\fundoo-Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\anand\Desktop\fundoo-Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/note/6227150d7c781846d0cae3ce 
+    method - PUT 
+    IP - ::1
+   {"timestamp":"2022-03-08T08:53:10.701Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-03-08T08:53:31.836Z"}
+info: Connected to the database. {"timestamp":"2022-03-08T08:53:31.863Z"}
+error: 
+      status - 400
+      message - Authorization token is incorrect 
+      url - /api/v1/note/6227150d7c781846d0cae3ce 
+      method - PUT 
+      IP - ::1
+     {"timestamp":"2022-03-08T08:54:36.641Z"}
+error: 
+      status - 400
+      message - Authorization token is incorrect 
+      url - /api/v1/note/6227150d7c781846d0cae3ce 
+      method - GET 
+      IP - ::1
+     {"timestamp":"2022-03-08T08:55:00.160Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-03-08T08:55:35.148Z"}
+info: Connected to the database. {"timestamp":"2022-03-08T08:55:35.170Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-03-08T08:55:45.421Z"}
+info: Connected to the database. {"timestamp":"2022-03-08T08:55:45.448Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-03-08T08:55:55.309Z"}
+info: Connected to the database. {"timestamp":"2022-03-08T08:55:55.333Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-03-08T08:56:11.527Z"}
+info: Connected to the database. {"timestamp":"2022-03-08T08:56:11.551Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-03-08T08:56:50.546Z"}
+info: Connected to the database. {"timestamp":"2022-03-08T08:56:50.571Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-03-08T08:58:07.371Z"}
+info: Connected to the database. {"timestamp":"2022-03-08T08:58:07.395Z"}
+error: 
+      status - 400
+      message - User dont have access to this NoteID  
+      url - /api/v1/note/6227150d7c781846d0cae3ce 
+      method - GET 
+      IP - ::1
+     {"timestamp":"2022-03-08T08:58:08.215Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-03-08T08:58:43.471Z"}
+info: Connected to the database. {"timestamp":"2022-03-08T08:58:43.497Z"}
+error: 
+      status - 400
+      message - User dont have access to this NoteID  
+      url - /api/v1/note/6227150d7c781846d0cae3ce 
+      method - PUT 
+      IP - ::1
+     {"timestamp":"2022-03-08T08:58:48.573Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-03-08T09:32:23.280Z"}
+info: Connected to the database. {"timestamp":"2022-03-08T09:32:23.311Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-03-08T09:41:54.544Z"}
+info: Connected to the database. {"timestamp":"2022-03-08T09:41:54.574Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-03-08T09:42:39.246Z"}
+info: Connected to the database. {"timestamp":"2022-03-08T09:42:39.280Z"}
+error: 
+    status - 500 
+    message - TypeError: req.status is not a function
+    at newUserValidator (C:\Users\anand\Desktop\fundoo-Notes\src\validators\/user.validator.js:17:9)
+    at Layer.handle [as handle_request] (C:\Users\anand\Desktop\fundoo-Notes\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\anand\Desktop\fundoo-Notes\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (C:\Users\anand\Desktop\fundoo-Notes\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (C:\Users\anand\Desktop\fundoo-Notes\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\anand\Desktop\fundoo-Notes\node_modules\express\lib\router\index.js:281:22
+    at Function.process_params (C:\Users\anand\Desktop\fundoo-Notes\node_modules\express\lib\router\index.js:341:12)
+    at next (C:\Users\anand\Desktop\fundoo-Notes\node_modules\express\lib\router\index.js:275:10)
+    at Function.handle (C:\Users\anand\Desktop\fundoo-Notes\node_modules\express\lib\router\index.js:174:3)
+    at router (C:\Users\anand\Desktop\fundoo-Notes\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (C:\Users\anand\Desktop\fundoo-Notes\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\anand\Desktop\fundoo-Notes\node_modules\express\lib\router\index.js:323:13)
+    at C:\Users\anand\Desktop\fundoo-Notes\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (C:\Users\anand\Desktop\fundoo-Notes\node_modules\express\lib\router\index.js:341:12)
+    at next (C:\Users\anand\Desktop\fundoo-Notes\node_modules\express\lib\router\index.js:275:10)
+    at Function.handle (C:\Users\anand\Desktop\fundoo-Notes\node_modules\express\lib\router\index.js:174:3)
+    at router (C:\Users\anand\Desktop\fundoo-Notes\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (C:\Users\anand\Desktop\fundoo-Notes\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\anand\Desktop\fundoo-Notes\node_modules\express\lib\router\index.js:323:13)
+    at C:\Users\anand\Desktop\fundoo-Notes\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (C:\Users\anand\Desktop\fundoo-Notes\node_modules\express\lib\router\index.js:341:12)
+    at next (C:\Users\anand\Desktop\fundoo-Notes\node_modules\express\lib\router\index.js:275:10)
+    at logger (C:\Users\anand\Desktop\fundoo-Notes\node_modules\morgan\index.js:144:5)
+    at Layer.handle [as handle_request] (C:\Users\anand\Desktop\fundoo-Notes\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\anand\Desktop\fundoo-Notes\node_modules\express\lib\router\index.js:323:13)
+    at C:\Users\anand\Desktop\fundoo-Notes\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (C:\Users\anand\Desktop\fundoo-Notes\node_modules\express\lib\router\index.js:341:12)
+    at next (C:\Users\anand\Desktop\fundoo-Notes\node_modules\express\lib\router\index.js:275:10)
+    at C:\Users\anand\Desktop\fundoo-Notes\node_modules\body-parser\lib\read.js:130:5
+    at invokeCallback (C:\Users\anand\Desktop\fundoo-Notes\node_modules\raw-body\index.js:224:16)
+    at done (C:\Users\anand\Desktop\fundoo-Notes\node_modules\raw-body\index.js:213:7)
+    at IncomingMessage.onEnd (C:\Users\anand\Desktop\fundoo-Notes\node_modules\raw-body\index.js:273:7)
+    at IncomingMessage.emit (node:events:402:35)
+    at endReadableNT (node:internal/streams/readable:1343:12)
+    at processTicksAndRejections (node:internal/process/task_queues:83:21) 
+    url - /api/v1/users/register 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-03-08T09:42:39.325Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-03-08T09:44:03.319Z"}
+info: Connected to the database. {"timestamp":"2022-03-08T09:44:03.354Z"}
+error: 
+    status - 500 
+    message - TypeError: req.status is not a function
+    at newUserValidator (C:\Users\anand\Desktop\fundoo-Notes\src\validators\/user.validator.js:17:9)
+    at Layer.handle [as handle_request] (C:\Users\anand\Desktop\fundoo-Notes\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\anand\Desktop\fundoo-Notes\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (C:\Users\anand\Desktop\fundoo-Notes\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (C:\Users\anand\Desktop\fundoo-Notes\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\anand\Desktop\fundoo-Notes\node_modules\express\lib\router\index.js:281:22
+    at Function.process_params (C:\Users\anand\Desktop\fundoo-Notes\node_modules\express\lib\router\index.js:341:12)
+    at next (C:\Users\anand\Desktop\fundoo-Notes\node_modules\express\lib\router\index.js:275:10)
+    at Function.handle (C:\Users\anand\Desktop\fundoo-Notes\node_modules\express\lib\router\index.js:174:3)
+    at router (C:\Users\anand\Desktop\fundoo-Notes\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (C:\Users\anand\Desktop\fundoo-Notes\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\anand\Desktop\fundoo-Notes\node_modules\express\lib\router\index.js:323:13)
+    at C:\Users\anand\Desktop\fundoo-Notes\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (C:\Users\anand\Desktop\fundoo-Notes\node_modules\express\lib\router\index.js:341:12)
+    at next (C:\Users\anand\Desktop\fundoo-Notes\node_modules\express\lib\router\index.js:275:10)
+    at Function.handle (C:\Users\anand\Desktop\fundoo-Notes\node_modules\express\lib\router\index.js:174:3)
+    at router (C:\Users\anand\Desktop\fundoo-Notes\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (C:\Users\anand\Desktop\fundoo-Notes\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\anand\Desktop\fundoo-Notes\node_modules\express\lib\router\index.js:323:13)
+    at C:\Users\anand\Desktop\fundoo-Notes\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (C:\Users\anand\Desktop\fundoo-Notes\node_modules\express\lib\router\index.js:341:12)
+    at next (C:\Users\anand\Desktop\fundoo-Notes\node_modules\express\lib\router\index.js:275:10)
+    at logger (C:\Users\anand\Desktop\fundoo-Notes\node_modules\morgan\index.js:144:5)
+    at Layer.handle [as handle_request] (C:\Users\anand\Desktop\fundoo-Notes\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\anand\Desktop\fundoo-Notes\node_modules\express\lib\router\index.js:323:13)
+    at C:\Users\anand\Desktop\fundoo-Notes\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (C:\Users\anand\Desktop\fundoo-Notes\node_modules\express\lib\router\index.js:341:12)
+    at next (C:\Users\anand\Desktop\fundoo-Notes\node_modules\express\lib\router\index.js:275:10)
+    at C:\Users\anand\Desktop\fundoo-Notes\node_modules\body-parser\lib\read.js:130:5
+    at invokeCallback (C:\Users\anand\Desktop\fundoo-Notes\node_modules\raw-body\index.js:224:16)
+    at done (C:\Users\anand\Desktop\fundoo-Notes\node_modules\raw-body\index.js:213:7)
+    at IncomingMessage.onEnd (C:\Users\anand\Desktop\fundoo-Notes\node_modules\raw-body\index.js:273:7)
+    at IncomingMessage.emit (node:events:402:35)
+    at endReadableNT (node:internal/streams/readable:1343:12)
+    at processTicksAndRejections (node:internal/process/task_queues:83:21) 
+    url - /api/v1/users/register 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-03-08T09:44:03.399Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-03-08T09:49:02.254Z"}
+info: Connected to the database. {"timestamp":"2022-03-08T09:49:02.298Z"}
+error: 
+      status - 400
+      message - Authorization token is required 
+      url - /api/v1/note 
+      method - POST 
+      IP - ::1
+     {"timestamp":"2022-03-08T09:50:38.876Z"}
+error: 
+    status - 500 
+    message - TypeError: req.status is not a function
+    at newUserValidator (C:\Users\anand\Desktop\fundoo-Notes\src\validators\/user.validator.js:16:9)
+    at Layer.handle [as handle_request] (C:\Users\anand\Desktop\fundoo-Notes\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\anand\Desktop\fundoo-Notes\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (C:\Users\anand\Desktop\fundoo-Notes\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (C:\Users\anand\Desktop\fundoo-Notes\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\anand\Desktop\fundoo-Notes\node_modules\express\lib\router\index.js:281:22
+    at Function.process_params (C:\Users\anand\Desktop\fundoo-Notes\node_modules\express\lib\router\index.js:341:12)
+    at next (C:\Users\anand\Desktop\fundoo-Notes\node_modules\express\lib\router\index.js:275:10)
+    at Function.handle (C:\Users\anand\Desktop\fundoo-Notes\node_modules\express\lib\router\index.js:174:3)
+    at router (C:\Users\anand\Desktop\fundoo-Notes\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (C:\Users\anand\Desktop\fundoo-Notes\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\anand\Desktop\fundoo-Notes\node_modules\express\lib\router\index.js:323:13)
+    at C:\Users\anand\Desktop\fundoo-Notes\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (C:\Users\anand\Desktop\fundoo-Notes\node_modules\express\lib\router\index.js:341:12)
+    at next (C:\Users\anand\Desktop\fundoo-Notes\node_modules\express\lib\router\index.js:275:10)
+    at Function.handle (C:\Users\anand\Desktop\fundoo-Notes\node_modules\express\lib\router\index.js:174:3)
+    at router (C:\Users\anand\Desktop\fundoo-Notes\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (C:\Users\anand\Desktop\fundoo-Notes\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\anand\Desktop\fundoo-Notes\node_modules\express\lib\router\index.js:323:13)
+    at C:\Users\anand\Desktop\fundoo-Notes\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (C:\Users\anand\Desktop\fundoo-Notes\node_modules\express\lib\router\index.js:341:12)
+    at next (C:\Users\anand\Desktop\fundoo-Notes\node_modules\express\lib\router\index.js:275:10) 
+    url - /api/v1/users/register 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-03-08T09:51:28.692Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-03-08T09:52:30.657Z"}
+info: Connected to the database. {"timestamp":"2022-03-08T09:52:30.708Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-03-08T09:58:41.498Z"}
+info: Connected to the database. {"timestamp":"2022-03-08T09:58:41.528Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-03-08T10:02:27.326Z"}
+info: Connected to the database. {"timestamp":"2022-03-08T10:02:27.358Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-03-08T10:02:59.690Z"}
+info: Connected to the database. {"timestamp":"2022-03-08T10:02:59.732Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-03-08T10:03:07.006Z"}
+info: Connected to the database. {"timestamp":"2022-03-08T10:03:07.035Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-03-08T10:04:26.952Z"}
+info: Connected to the database. {"timestamp":"2022-03-08T10:04:26.979Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-03-08T10:04:52.911Z"}
+info: Connected to the database. {"timestamp":"2022-03-08T10:04:53.004Z"}
+error: 
+    status - 500 
+    message - ReferenceError: HttpStatus is not defined
+    at newNoteValidator (C:\Users\anand\Desktop\fundoo-Notes\src\validators\/note.validator.js:16:18)
+    at Layer.handle [as handle_request] (C:\Users\anand\Desktop\fundoo-Notes\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\anand\Desktop\fundoo-Notes\node_modules\express\lib\router\route.js:137:13)
+    at C:\Users\anand\Desktop\fundoo-Notes\src\middlewares\/auth.middleware.js:45:9
+    at C:\Users\anand\Desktop\fundoo-Notes\node_modules\jsonwebtoken\verify.js:223:12
+    at getSecret (C:\Users\anand\Desktop\fundoo-Notes\node_modules\jsonwebtoken\verify.js:90:14)
+    at Object.verify (C:\Users\anand\Desktop\fundoo-Notes\node_modules\jsonwebtoken\verify.js:94:10)
+    at _callee$ (C:\Users\anand\Desktop\fundoo-Notes\src\middlewares\/auth.middleware.js:33:9)
+    at tryCatch (C:\Users\anand\Desktop\fundoo-Notes\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (C:\Users\anand\Desktop\fundoo-Notes\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (C:\Users\anand\Desktop\fundoo-Notes\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (C:\Users\anand\Desktop\fundoo-Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\anand\Desktop\fundoo-Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at C:\Users\anand\Desktop\fundoo-Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at C:\Users\anand\Desktop\fundoo-Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12
+    at NoteAuthentication (C:\Users\anand\Desktop\fundoo-Notes\src\middlewares\/auth.middleware.js:16:32)
+    at Layer.handle [as handle_request] (C:\Users\anand\Desktop\fundoo-Notes\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\anand\Desktop\fundoo-Notes\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (C:\Users\anand\Desktop\fundoo-Notes\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (C:\Users\anand\Desktop\fundoo-Notes\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\anand\Desktop\fundoo-Notes\node_modules\express\lib\router\index.js:281:22 
+    url - /api/v1/note 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-03-08T10:05:05.876Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-03-08T10:05:41.108Z"}
+info: Connected to the database. {"timestamp":"2022-03-08T10:05:41.137Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-03-08T10:07:15.617Z"}
+info: Connected to the database. {"timestamp":"2022-03-08T10:07:15.638Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-03-08T10:08:19.849Z"}
+info: Connected to the database. {"timestamp":"2022-03-08T10:08:19.876Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-03-08T10:18:37.121Z"}
+info: Connected to the database. {"timestamp":"2022-03-08T10:18:37.153Z"}
