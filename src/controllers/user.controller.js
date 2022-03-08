@@ -16,6 +16,7 @@ export const getallUsers = async (req,res,next) =>{
     next(error);
   }
 }
+
 /**
  * Controller to create a new user
  * @param  {object} req - request object

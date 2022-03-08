@@ -53,24 +53,23 @@ describe('User APIs Test', () => {
     });
 
 
-    // it('A)firstName is wrong', (done) => {
+    it('A)firstName is wrong', (done) => {
 
-    //   const obj1 = {
-    //     firstName : "A",
-    //     lastName : "Ubale",
-    //     emailID : "anandubale11@gmail.com",
-    //     password : "1234567890"
-    //    };
+      const obj1 = {
+        firstName : "A",
+        lastName : "Ubale",
+        emailID : "anandubale11@gmail.com",
+        password : "1234567890"
+       };
 
-    //   request(app)
-    //     .post('/api/v1/users/register')
-    //     .send(obj1)
-    //     .end((err, res) => {
-    //       expect(res.statusCode).to.be.equal(HttpStatus.CREATED);
-    //       done();
-    //     });
-
-    // });
+      request(app)
+        .post('/api/v1/users/register')
+        .send(obj1)
+        .end((err, res) => {
+          expect(res.statusCode).to.be.equal(HttpStatus.CREATED);
+          done();
+        });
+    });
 
     // it('B)lastName is wrong', (done) => {
 
@@ -175,24 +174,24 @@ describe('User APIs Test', () => {
 
   
     
-    describe(`PUT/Reset`, () => {
-      it('A )Right email Ok test.3', (done) => {
-        const obj2 = {
-          password : "asdfg@gmail.com"
+    // describe(`PUT/Reset`, () => {
+    //   it('A )Right email Ok test.3', (done) => {
+    //     const obj2 = {
+    //       password : "asdfg@gmail.com"
 
-        };
-        const jwtToken = "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbElEIjoiYW5hbmR1YmFsZTExQGdtYWlsLmNvbSIsImlkIjoiNjIyMjA1NWEwNTg1MDg0NWUwMWJmMjM0IiwiaWF0IjoxNjQ2Mzk2NzYyfQ.Bnjs7VGcl8JVhutBMPmoExm3tI_ebS0bv-N_z8ack7s"
+    //     };
+    //     const jwtToken = "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbElEIjoiYW5hbmR1YmFsZTExQGdtYWlsLmNvbSIsImlkIjoiNjIyMjA1NWEwNTg1MDg0NWUwMWJmMjM0IiwiaWF0IjoxNjQ2Mzk2NzYyfQ.Bnjs7VGcl8JVhutBMPmoExm3tI_ebS0bv-N_z8ack7s"
 
-        request(app)
-          .put('/api/v1/users/reset')
-          .set('Authorization',`${jwtToken}`)
-          .send(obj2)
-          .end((err, res) => {
-            expect(res.statusCode).to.be.equal(HttpStatus.OK);
-            done();
-          });
-      });
-  });
+    //     request(app)
+    //       .put('/api/v1/users/reset')
+    //       .set('Authorization',`${jwtToken}`)
+    //       .send(obj2)
+    //       .end((err, res) => {
+    //         expect(res.statusCode).to.be.equal(HttpStatus.OK);
+    //         done();
+    //       });
+    //   });
+  // });
 
 });
 

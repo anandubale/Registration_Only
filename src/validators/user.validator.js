@@ -1,11 +1,12 @@
 import Joi from '@hapi/joi';
+import HttpStatus from 'http-status-codes';
 
 export const newUserValidator = (req, res, next) => {
   const schema = Joi.object({
     firstName: Joi.string().min(4).required(),
     lastName: Joi.string().min(4).required(),
     emailID: Joi.string().min(5).required(),
-    password: Joi.string().min(10).required()
+    password: Joi.string().min(10).required(),
 
   });
 
@@ -13,8 +14,8 @@ export const newUserValidator = (req, res, next) => {
                                                     
   if (error) {
     next(error);
-  } else {
-    req.validatedBody = value;                 //true or false
+  } else { 
+    // req.validatedBody = value;                 //true or false
     next();
   }
 };
