@@ -21,5 +21,6 @@ router.post('/forget',userController.forgetPassword)
 
 router.put('/reset',PassAuth,userController.resetPassword)
 
+
 export default router;
 

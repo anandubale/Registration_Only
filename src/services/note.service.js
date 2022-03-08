@@ -1,15 +1,14 @@
 import { boolean } from '@hapi/joi';
 import Note from '../models/note.model';
-import {client} from '../config/redis'
+import {client} from '../config/redis';
 
 
 //to create user using Note.create()
 
 export const createNotes = async(body)=> {
     const Notebody = await Note.create(body);
-    console.log("3")
     if(Notebody){
-        await client.del('allnotes');  //deleting before create
+        await client.del('allnotes');
         return Notebody;
     }
 }
@@ -17,27 +16,27 @@ export const createNotes = async(body)=> {
 
 //to get all users using Note.find()-->working
 
-export const AllUsers = async (UserID) => {
-    const AllUserdata = await Note.find({UserID}); 
+export const AllNotes = async (UserID) => {
+    const AllNotedata = await Note.find({UserID}); 
 
-    if(AllUserdata.length == 0){
+    if(AllNotedata.length == 0){
         throw new Error("user dont have any notes")
     }
     else
     {
-        await client.set('allnotes',JSON.stringify(AllUserdata))  //assigning to redis server
-        return AllUserdata;
+        await client.set('allnotes',JSON.stringify(AllNotedata))  //assigning to redis server
+        return AllNotedata;
     }    
 };
 
 
 
 //Using tow Parameters ->working
-export const getUserById = async(_id,UserID)=>{
+export const getNoteById = async(_id,UserID)=>{
     const dataById = await Note.findById({_id, UserID});
-    console.log(dataById)
-    return dataById; 
+    return dataById;  
 }
+
 
 
 
@@ -53,7 +52,9 @@ export const updateById = async(_id,body)=>{
             new :true
         }
     );
-    return updatedData;
+   
+        return updatedData;
+    
 };
 
 //delete user using id: working

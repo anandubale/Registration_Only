@@ -2,6 +2,8 @@ import User from '../models/user.model';
 import bcrypt from "bcrypt";
 import jwt from 'jsonwebtoken';
 import {sendMailTo} from '../utils/helper.js';
+import {sender} from '../utils/rabitMQ';
+
 
 //get all users
 
@@ -21,9 +23,9 @@ export const userRegistration = async (body) => {
   const saltRounds = 10;
   const hasedPassword = bcrypt.hashSync(body.password,saltRounds); //if use await - then use bcrypt.hashSync
   body.password = hasedPassword;
-  const data = await User.create(body);  
+  const data = await User.create(body); 
+  sender(data);
   return data;   
-  
 }; 
 
 

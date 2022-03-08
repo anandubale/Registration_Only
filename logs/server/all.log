@@ -11980,3 +11980,823 @@ info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-03-08T0
 info: Connected to the database. {"timestamp":"2022-03-08T03:31:29.836Z"}
 info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-03-08T03:32:16.762Z"}
 info: Connected to the database. {"timestamp":"2022-03-08T03:32:16.789Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-03-08T06:56:02.227Z"}
+info: Connected to the database. {"timestamp":"2022-03-08T06:56:02.264Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-03-08T06:56:12.160Z"}
+info: Connected to the database. {"timestamp":"2022-03-08T06:56:12.187Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-03-08T06:56:50.448Z"}
+info: Connected to the database. {"timestamp":"2022-03-08T06:56:50.488Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-03-08T06:57:17.543Z"}
+info: Connected to the database. {"timestamp":"2022-03-08T06:57:17.579Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-03-08T06:58:23.841Z"}
+info: Connected to the database. {"timestamp":"2022-03-08T06:58:23.885Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-03-08T06:58:32.638Z"}
+info: Connected to the database. {"timestamp":"2022-03-08T06:58:32.672Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-03-08T06:58:40.531Z"}
+info: Connected to the database. {"timestamp":"2022-03-08T06:58:40.584Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-03-08T06:59:10.076Z"}
+info: Connected to the database. {"timestamp":"2022-03-08T06:59:10.104Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-03-08T07:00:29.908Z"}
+info: Connected to the database. {"timestamp":"2022-03-08T07:00:29.954Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-03-08T07:00:53.441Z"}
+info: Connected to the database. {"timestamp":"2022-03-08T07:00:53.471Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-03-08T07:01:47.031Z"}
+info: Connected to the database. {"timestamp":"2022-03-08T07:01:47.070Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-03-08T07:01:54.807Z"}
+info: Connected to the database. {"timestamp":"2022-03-08T07:01:54.852Z"}
+error: uncaughtException: C:\Users\anand\Desktop\fundoo-Notes\src\services\note.service.js: Unexpected token, expected "from" (9:0)
+
+[0m [90m  7 |[39m [90m//to create user using Note.create()[39m[0m
+[0m [90m  8 |[39m[0m
+[0m[31m[1m>[22m[39m[90m  9 |[39m [36mexport[39m [36mconst[39m createNotes [33m=[39m [36masync[39m(body)[33m=>[39m {[0m
+[0m [90m    |[39m [31m[1m^[22m[39m[0m
+[0m [90m 10 |[39m     [36mconst[39m [33mNotebody[39m [33m=[39m [36mawait[39m [33mNote[39m[33m.[39mcreate(body)[33m;[39m[0m
+[0m [90m 11 |[39m     [36mif[39m([33mNotebody[39m){[0m
+[0m [90m 12 |[39m         [36mawait[39m client[33m.[39mdel([32m'allnotes'[39m)[33m;[39m[0m
+SyntaxError: C:\Users\anand\Desktop\fundoo-Notes\src\services\note.service.js: Unexpected token, expected "from" (9:0)
+
+[0m [90m  7 |[39m [90m//to create user using Note.create()[39m[0m
+[0m [90m  8 |[39m[0m
+[0m[31m[1m>[22m[39m[90m  9 |[39m [36mexport[39m [36mconst[39m createNotes [33m=[39m [36masync[39m(body)[33m=>[39m {[0m
+[0m [90m    |[39m [31m[1m^[22m[39m[0m
+[0m [90m 10 |[39m     [36mconst[39m [33mNotebody[39m [33m=[39m [36mawait[39m [33mNote[39m[33m.[39mcreate(body)[33m;[39m[0m
+[0m [90m 11 |[39m     [36mif[39m([33mNotebody[39m){[0m
+[0m [90m 12 |[39m         [36mawait[39m client[33m.[39mdel([32m'allnotes'[39m)[33m;[39m[0m
+    at Parser._raise (C:\Users\anand\Desktop\fundoo-Notes\node_modules\@babel\parser\src\parser\error.js:150:45)
+    at Parser.raiseWithData (C:\Users\anand\Desktop\fundoo-Notes\node_modules\@babel\parser\src\parser\error.js:145:17)
+    at Parser.raise (C:\Users\anand\Desktop\fundoo-Notes\node_modules\@babel\parser\src\parser\error.js:89:17)
+    at Parser.unexpected (C:\Users\anand\Desktop\fundoo-Notes\node_modules\@babel\parser\src\parser\util.js:174:16)
+    at Parser.expectContextual (C:\Users\anand\Desktop\fundoo-Notes\node_modules\@babel\parser\src\parser\util.js:107:18)
+    at Parser.parseImport (C:\Users\anand\Desktop\fundoo-Notes\node_modules\@babel\parser\src\parser\statement.js:2426:12)
+    at Parser.parseStatementContent (C:\Users\anand\Desktop\fundoo-Notes\node_modules\@babel\parser\src\parser\statement.js:422:25)
+    at Parser.parseStatement (C:\Users\anand\Desktop\fundoo-Notes\node_modules\@babel\parser\src\parser\statement.js:329:17)
+    at Parser.parseBlockOrModuleBlockBody (C:\Users\anand\Desktop\fundoo-Notes\node_modules\@babel\parser\src\parser\statement.js:1073:25)
+    at Parser.parseBlockBody (C:\Users\anand\Desktop\fundoo-Notes\node_modules\@babel\parser\src\parser\statement.js:1049:10)
+    at Parser.parseProgram (C:\Users\anand\Desktop\fundoo-Notes\node_modules\@babel\parser\src\parser\statement.js:214:10)
+    at Parser.parseTopLevel (C:\Users\anand\Desktop\fundoo-Notes\node_modules\@babel\parser\src\parser\statement.js:197:25)
+    at Parser.parse (C:\Users\anand\Desktop\fundoo-Notes\node_modules\@babel\parser\src\parser\index.js:41:10)
+    at parse (C:\Users\anand\Desktop\fundoo-Notes\node_modules\@babel\parser\src\index.js:58:38)
+    at parser (C:\Users\anand\Desktop\fundoo-Notes\node_modules\@babel\core\lib\parser\index.js:52:34)
+    at parser.next (<anonymous>) {"date":"Tue Mar 08 2022 12:32:32 GMT+0530 (India Standard Time)","error":{"code":"BABEL_PARSE_ERROR","loc":{"column":0,"index":183,"line":9},"pos":183,"reasonCode":"UnexpectedToken"},"exception":true,"os":{"loadavg":[0,0,0],"uptime":510190},"process":{"argv":["node","C:\\Users\\anand\\Desktop\\fundoo-Notes\\src\\index.js"],"cwd":"C:\\Users\\anand\\Desktop\\fundoo-Notes","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18294994,"external":26945988,"heapTotal":135024640,"heapUsed":114350984,"rss":171892736},"pid":12824,"uid":null,"version":"v16.13.2"},"stack":"SyntaxError: C:\\Users\\anand\\Desktop\\fundoo-Notes\\src\\services\\note.service.js: Unexpected token, expected \"from\" (9:0)\n\n\u001b[0m \u001b[90m  7 |\u001b[39m \u001b[90m//to create user using Note.create()\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m  8 |\u001b[39m\u001b[0m\n\u001b[0m\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m  9 |\u001b[39m \u001b[36mexport\u001b[39m \u001b[36mconst\u001b[39m createNotes \u001b[33m=\u001b[39m \u001b[36masync\u001b[39m(body)\u001b[33m=>\u001b[39m {\u001b[0m\n\u001b[0m \u001b[90m    |\u001b[39m \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 10 |\u001b[39m     \u001b[36mconst\u001b[39m \u001b[33mNotebody\u001b[39m \u001b[33m=\u001b[39m \u001b[36mawait\u001b[39m \u001b[33mNote\u001b[39m\u001b[33m.\u001b[39mcreate(body)\u001b[33m;\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 11 |\u001b[39m     \u001b[36mif\u001b[39m(\u001b[33mNotebody\u001b[39m){\u001b[0m\n\u001b[0m \u001b[90m 12 |\u001b[39m         \u001b[36mawait\u001b[39m client\u001b[33m.\u001b[39mdel(\u001b[32m'allnotes'\u001b[39m)\u001b[33m;\u001b[39m\u001b[0m\n    at Parser._raise (C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\@babel\\parser\\src\\parser\\error.js:150:45)\n    at Parser.raiseWithData (C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\@babel\\parser\\src\\parser\\error.js:145:17)\n    at Parser.raise (C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\@babel\\parser\\src\\parser\\error.js:89:17)\n    at Parser.unexpected (C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\@babel\\parser\\src\\parser\\util.js:174:16)\n    at Parser.expectContextual (C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\@babel\\parser\\src\\parser\\util.js:107:18)\n    at Parser.parseImport (C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\@babel\\parser\\src\\parser\\statement.js:2426:12)\n    at Parser.parseStatementContent (C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\@babel\\parser\\src\\parser\\statement.js:422:25)\n    at Parser.parseStatement (C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\@babel\\parser\\src\\parser\\statement.js:329:17)\n    at Parser.parseBlockOrModuleBlockBody (C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\@babel\\parser\\src\\parser\\statement.js:1073:25)\n    at Parser.parseBlockBody (C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\@babel\\parser\\src\\parser\\statement.js:1049:10)\n    at Parser.parseProgram (C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\@babel\\parser\\src\\parser\\statement.js:214:10)\n    at Parser.parseTopLevel (C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\@babel\\parser\\src\\parser\\statement.js:197:25)\n    at Parser.parse (C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\@babel\\parser\\src\\parser\\index.js:41:10)\n    at parse (C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\@babel\\parser\\src\\index.js:58:38)\n    at parser (C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\@babel\\core\\lib\\parser\\index.js:52:34)\n    at parser.next (<anonymous>)","timestamp":"2022-03-08T07:02:32.463Z","trace":[{"column":45,"file":"C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\@babel\\parser\\src\\parser\\error.js","function":"Parser._raise","line":150,"method":"_raise","native":false},{"column":17,"file":"C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\@babel\\parser\\src\\parser\\error.js","function":"Parser.raiseWithData","line":145,"method":"raiseWithData","native":false},{"column":17,"file":"C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\@babel\\parser\\src\\parser\\error.js","function":"Parser.raise","line":89,"method":"raise","native":false},{"column":16,"file":"C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\@babel\\parser\\src\\parser\\util.js","function":"Parser.unexpected","line":174,"method":"unexpected","native":false},{"column":18,"file":"C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\@babel\\parser\\src\\parser\\util.js","function":"Parser.expectContextual","line":107,"method":"expectContextual","native":false},{"column":12,"file":"C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\@babel\\parser\\src\\parser\\statement.js","function":"Parser.parseImport","line":2426,"method":"parseImport","native":false},{"column":25,"file":"C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\@babel\\parser\\src\\parser\\statement.js","function":"Parser.parseStatementContent","line":422,"method":"parseStatementContent","native":false},{"column":17,"file":"C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\@babel\\parser\\src\\parser\\statement.js","function":"Parser.parseStatement","line":329,"method":"parseStatement","native":false},{"column":25,"file":"C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\@babel\\parser\\src\\parser\\statement.js","function":"Parser.parseBlockOrModuleBlockBody","line":1073,"method":"parseBlockOrModuleBlockBody","native":false},{"column":10,"file":"C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\@babel\\parser\\src\\parser\\statement.js","function":"Parser.parseBlockBody","line":1049,"method":"parseBlockBody","native":false},{"column":10,"file":"C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\@babel\\parser\\src\\parser\\statement.js","function":"Parser.parseProgram","line":214,"method":"parseProgram","native":false},{"column":25,"file":"C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\@babel\\parser\\src\\parser\\statement.js","function":"Parser.parseTopLevel","line":197,"method":"parseTopLevel","native":false},{"column":10,"file":"C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\@babel\\parser\\src\\parser\\index.js","function":"Parser.parse","line":41,"method":"parse","native":false},{"column":38,"file":"C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\@babel\\parser\\src\\index.js","function":"parse","line":58,"method":null,"native":false},{"column":34,"file":"C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\@babel\\core\\lib\\parser\\index.js","function":"parser","line":52,"method":null,"native":false},{"column":null,"file":null,"function":"parser.next","line":null,"method":"next","native":false}]}
+error: uncaughtException: Cannot find module 'amqplib/callback_api'
+Require stack:
+- C:\Users\anand\Desktop\fundoo-Notes\src\utils\rabitMQ.js
+- C:\Users\anand\Desktop\fundoo-Notes\src\services\note.service.js
+- C:\Users\anand\Desktop\fundoo-Notes\src\controllers\note.controller.js
+- C:\Users\anand\Desktop\fundoo-Notes\src\routes\note.route.js
+- C:\Users\anand\Desktop\fundoo-Notes\src\routes\index.js
+- C:\Users\anand\Desktop\fundoo-Notes\src\index.js
+Error: Cannot find module 'amqplib/callback_api'
+Require stack:
+- C:\Users\anand\Desktop\fundoo-Notes\src\utils\rabitMQ.js
+- C:\Users\anand\Desktop\fundoo-Notes\src\services\note.service.js
+- C:\Users\anand\Desktop\fundoo-Notes\src\controllers\note.controller.js
+- C:\Users\anand\Desktop\fundoo-Notes\src\routes\note.route.js
+- C:\Users\anand\Desktop\fundoo-Notes\src\routes\index.js
+- C:\Users\anand\Desktop\fundoo-Notes\src\index.js
+    at Function.Module._resolveFilename (node:internal/modules/cjs/loader:933:15)
+    at Function.Module._load (node:internal/modules/cjs/loader:778:27)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at Object.<anonymous> (C:\Users\anand\Desktop\fundoo-Notes\src\utils\/rabitMQ.js:1:12)
+    at Module._compile (node:internal/modules/cjs/loader:1101:14)
+    at Module._compile (C:\Users\anand\Desktop\fundoo-Notes\node_modules\pirates\lib\index.js:136:24)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1153:10)
+    at Object.newLoader [as .js] (C:\Users\anand\Desktop\fundoo-Notes\node_modules\pirates\lib\index.js:141:7)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at Object.<anonymous> (C:\Users\anand\Desktop\fundoo-Notes\src\services\/note.service.js:4:1)
+    at Module._compile (node:internal/modules/cjs/loader:1101:14)
+    at Module._compile (C:\Users\anand\Desktop\fundoo-Notes\node_modules\pirates\lib\index.js:136:24) {"date":"Tue Mar 08 2022 12:33:02 GMT+0530 (India Standard Time)","error":{"code":"MODULE_NOT_FOUND","requireStack":["C:\\Users\\anand\\Desktop\\fundoo-Notes\\src\\utils\\rabitMQ.js","C:\\Users\\anand\\Desktop\\fundoo-Notes\\src\\services\\note.service.js","C:\\Users\\anand\\Desktop\\fundoo-Notes\\src\\controllers\\note.controller.js","C:\\Users\\anand\\Desktop\\fundoo-Notes\\src\\routes\\note.route.js","C:\\Users\\anand\\Desktop\\fundoo-Notes\\src\\routes\\index.js","C:\\Users\\anand\\Desktop\\fundoo-Notes\\src\\index.js"]},"exception":true,"os":{"loadavg":[0,0,0],"uptime":510220},"process":{"argv":["node","C:\\Users\\anand\\Desktop\\fundoo-Notes\\src\\index.js"],"cwd":"C:\\Users\\anand\\Desktop\\fundoo-Notes","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18414630,"external":25784692,"heapTotal":136249344,"heapUsed":110720216,"rss":173826048},"pid":15116,"uid":null,"version":"v16.13.2"},"stack":"Error: Cannot find module 'amqplib/callback_api'\nRequire stack:\n- C:\\Users\\anand\\Desktop\\fundoo-Notes\\src\\utils\\rabitMQ.js\n- C:\\Users\\anand\\Desktop\\fundoo-Notes\\src\\services\\note.service.js\n- C:\\Users\\anand\\Desktop\\fundoo-Notes\\src\\controllers\\note.controller.js\n- C:\\Users\\anand\\Desktop\\fundoo-Notes\\src\\routes\\note.route.js\n- C:\\Users\\anand\\Desktop\\fundoo-Notes\\src\\routes\\index.js\n- C:\\Users\\anand\\Desktop\\fundoo-Notes\\src\\index.js\n    at Function.Module._resolveFilename (node:internal/modules/cjs/loader:933:15)\n    at Function.Module._load (node:internal/modules/cjs/loader:778:27)\n    at Module.require (node:internal/modules/cjs/loader:1005:19)\n    at require (node:internal/modules/cjs/helpers:102:18)\n    at Object.<anonymous> (C:\\Users\\anand\\Desktop\\fundoo-Notes\\src\\utils\\/rabitMQ.js:1:12)\n    at Module._compile (node:internal/modules/cjs/loader:1101:14)\n    at Module._compile (C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\pirates\\lib\\index.js:136:24)\n    at Module._extensions..js (node:internal/modules/cjs/loader:1153:10)\n    at Object.newLoader [as .js] (C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\pirates\\lib\\index.js:141:7)\n    at Module.load (node:internal/modules/cjs/loader:981:32)\n    at Function.Module._load (node:internal/modules/cjs/loader:822:12)\n    at Module.require (node:internal/modules/cjs/loader:1005:19)\n    at require (node:internal/modules/cjs/helpers:102:18)\n    at Object.<anonymous> (C:\\Users\\anand\\Desktop\\fundoo-Notes\\src\\services\\/note.service.js:4:1)\n    at Module._compile (node:internal/modules/cjs/loader:1101:14)\n    at Module._compile (C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\pirates\\lib\\index.js:136:24)","timestamp":"2022-03-08T07:03:02.215Z","trace":[{"column":15,"file":"node:internal/modules/cjs/loader","function":"Module._resolveFilename","line":933,"method":"_resolveFilename","native":false},{"column":27,"file":"node:internal/modules/cjs/loader","function":"Module._load","line":778,"method":"_load","native":false},{"column":19,"file":"node:internal/modules/cjs/loader","function":"Module.require","line":1005,"method":"require","native":false},{"column":18,"file":"node:internal/modules/cjs/helpers","function":"require","line":102,"method":null,"native":false},{"column":12,"file":"C:\\Users\\anand\\Desktop\\fundoo-Notes\\src\\utils\\/rabitMQ.js","function":null,"line":1,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1101,"method":"_compile","native":false},{"column":24,"file":"C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\pirates\\lib\\index.js","function":"Module._compile","line":136,"method":"_compile","native":false},{"column":10,"file":"node:internal/modules/cjs/loader","function":"Module._extensions..js","line":1153,"method":".js","native":false},{"column":7,"file":"C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\pirates\\lib\\index.js","function":"Object.newLoader [as .js]","line":141,"method":"js]","native":false},{"column":32,"file":"node:internal/modules/cjs/loader","function":"Module.load","line":981,"method":"load","native":false},{"column":12,"file":"node:internal/modules/cjs/loader","function":"Module._load","line":822,"method":"_load","native":false},{"column":19,"file":"node:internal/modules/cjs/loader","function":"Module.require","line":1005,"method":"require","native":false},{"column":18,"file":"node:internal/modules/cjs/helpers","function":"require","line":102,"method":null,"native":false},{"column":1,"file":"C:\\Users\\anand\\Desktop\\fundoo-Notes\\src\\services\\/note.service.js","function":null,"line":4,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1101,"method":"_compile","native":false},{"column":24,"file":"C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\pirates\\lib\\index.js","function":"Module._compile","line":136,"method":"_compile","native":false}]}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-03-08T07:04:59.144Z"}
+info: Connected to the database. {"timestamp":"2022-03-08T07:04:59.174Z"}
+error: 
+    status - 500 
+    message - Error: The client is closed
+    at Commander._RedisClient_sendCommand (C:\Users\anand\Desktop\fundoo-Notes\node_modules\@node-redis\client\dist\lib\client\index.js:408:31)
+    at Commander.commandsExecutor (C:\Users\anand\Desktop\fundoo-Notes\node_modules\@node-redis\client\dist\lib\client\index.js:166:154)
+    at Commander.del (C:\Users\anand\Desktop\fundoo-Notes\node_modules\@node-redis\client\dist\lib\commander.js:8:29)
+    at _callee$ (C:\Users\anand\Desktop\fundoo-Notes\src\services\/note.service.js:12:22)
+    at tryCatch (C:\Users\anand\Desktop\fundoo-Notes\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (C:\Users\anand\Desktop\fundoo-Notes\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (C:\Users\anand\Desktop\fundoo-Notes\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (C:\Users\anand\Desktop\fundoo-Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\anand\Desktop\fundoo-Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/note 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-03-08T07:05:31.872Z"}
+error: 
+    status - 500 
+    message - Error: The client is closed
+    at Commander._RedisClient_sendCommand (C:\Users\anand\Desktop\fundoo-Notes\node_modules\@node-redis\client\dist\lib\client\index.js:408:31)
+    at Commander.commandsExecutor (C:\Users\anand\Desktop\fundoo-Notes\node_modules\@node-redis\client\dist\lib\client\index.js:166:154)
+    at Commander.del (C:\Users\anand\Desktop\fundoo-Notes\node_modules\@node-redis\client\dist\lib\commander.js:8:29)
+    at _callee$ (C:\Users\anand\Desktop\fundoo-Notes\src\services\/note.service.js:12:22)
+    at tryCatch (C:\Users\anand\Desktop\fundoo-Notes\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (C:\Users\anand\Desktop\fundoo-Notes\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (C:\Users\anand\Desktop\fundoo-Notes\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (C:\Users\anand\Desktop\fundoo-Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\anand\Desktop\fundoo-Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/note 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-03-08T07:11:22.573Z"}
+error: 
+    status - 500 
+    message - Error: The client is closed
+    at Commander._RedisClient_sendCommand (C:\Users\anand\Desktop\fundoo-Notes\node_modules\@node-redis\client\dist\lib\client\index.js:408:31)
+    at Commander.commandsExecutor (C:\Users\anand\Desktop\fundoo-Notes\node_modules\@node-redis\client\dist\lib\client\index.js:166:154)
+    at Commander.del (C:\Users\anand\Desktop\fundoo-Notes\node_modules\@node-redis\client\dist\lib\commander.js:8:29)
+    at _callee$ (C:\Users\anand\Desktop\fundoo-Notes\src\services\/note.service.js:12:22)
+    at tryCatch (C:\Users\anand\Desktop\fundoo-Notes\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (C:\Users\anand\Desktop\fundoo-Notes\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (C:\Users\anand\Desktop\fundoo-Notes\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (C:\Users\anand\Desktop\fundoo-Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\anand\Desktop\fundoo-Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/note 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-03-08T07:11:51.590Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-03-08T07:12:10.627Z"}
+info: Connected to the database. {"timestamp":"2022-03-08T07:12:10.662Z"}
+error: uncaughtException: connect ECONNREFUSED 127.0.0.1:5672
+Error: connect ECONNREFUSED 127.0.0.1:5672
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1161:16) {"date":"Tue Mar 08 2022 12:42:16 GMT+0530 (India Standard Time)","error":{"address":"127.0.0.1","code":"ECONNREFUSED","errno":-4078,"port":5672,"syscall":"connect"},"exception":true,"os":{"loadavg":[0,0,0],"uptime":510774},"process":{"argv":["node","C:\\Users\\anand\\Desktop\\fundoo-Notes\\src\\index.js"],"cwd":"C:\\Users\\anand\\Desktop\\fundoo-Notes","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18581138,"external":26613648,"heapTotal":143466496,"heapUsed":119346984,"rss":180838400},"pid":15480,"uid":null,"version":"v16.13.2"},"stack":"Error: connect ECONNREFUSED 127.0.0.1:5672\n    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1161:16)","timestamp":"2022-03-08T07:12:16.371Z","trace":[{"column":16,"file":"node:net","function":"TCPConnectWrap.afterConnect [as oncomplete]","line":1161,"method":"afterConnect [as oncomplete]","native":false}]}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-03-08T07:14:09.257Z"}
+info: Connected to the database. {"timestamp":"2022-03-08T07:14:09.300Z"}
+error: uncaughtException: connect ECONNREFUSED 127.0.0.1:5672
+Error: connect ECONNREFUSED 127.0.0.1:5672
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1161:16)
+    at TCPConnectWrap.callbackTrampoline (node:internal/async_hooks:130:17) {"date":"Tue Mar 08 2022 12:45:47 GMT+0530 (India Standard Time)","error":{"address":"127.0.0.1","code":"ECONNREFUSED","errno":-4078,"port":5672,"syscall":"connect"},"exception":true,"os":{"loadavg":[0,0,0],"uptime":510985},"process":{"argv":["node","C:\\Users\\anand\\Desktop\\fundoo-Notes\\src\\index.js"],"cwd":"C:\\Users\\anand\\Desktop\\fundoo-Notes","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18516907,"external":26655731,"heapTotal":153395200,"heapUsed":126082808,"rss":196767744},"pid":1452,"uid":null,"version":"v16.13.2"},"stack":"Error: connect ECONNREFUSED 127.0.0.1:5672\n    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1161:16)\n    at TCPConnectWrap.callbackTrampoline (node:internal/async_hooks:130:17)","timestamp":"2022-03-08T07:15:47.326Z","trace":[{"column":16,"file":"node:net","function":"TCPConnectWrap.afterConnect [as oncomplete]","line":1161,"method":"afterConnect [as oncomplete]","native":false},{"column":17,"file":"node:internal/async_hooks","function":"TCPConnectWrap.callbackTrampoline","line":130,"method":"callbackTrampoline","native":false}]}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-03-08T07:17:00.435Z"}
+info: Connected to the database. {"timestamp":"2022-03-08T07:17:00.465Z"}
+error: uncaughtException: connect ECONNREFUSED 127.0.0.1:5672
+Error: connect ECONNREFUSED 127.0.0.1:5672
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1161:16)
+    at TCPConnectWrap.callbackTrampoline (node:internal/async_hooks:130:17) {"date":"Tue Mar 08 2022 12:50:31 GMT+0530 (India Standard Time)","error":{"address":"127.0.0.1","code":"ECONNREFUSED","errno":-4078,"port":5672,"syscall":"connect"},"exception":true,"os":{"loadavg":[0,0,0],"uptime":511269},"process":{"argv":["node","C:\\Users\\anand\\Desktop\\fundoo-Notes\\src\\index.js"],"cwd":"C:\\Users\\anand\\Desktop\\fundoo-Notes","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18423428,"external":19996755,"heapTotal":96108544,"heapUsed":91724544,"rss":134377472},"pid":12136,"uid":null,"version":"v16.13.2"},"stack":"Error: connect ECONNREFUSED 127.0.0.1:5672\n    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1161:16)\n    at TCPConnectWrap.callbackTrampoline (node:internal/async_hooks:130:17)","timestamp":"2022-03-08T07:20:31.402Z","trace":[{"column":16,"file":"node:net","function":"TCPConnectWrap.afterConnect [as oncomplete]","line":1161,"method":"afterConnect [as oncomplete]","native":false},{"column":17,"file":"node:internal/async_hooks","function":"TCPConnectWrap.callbackTrampoline","line":130,"method":"callbackTrampoline","native":false}]}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-03-08T07:25:09.199Z"}
+info: Connected to the database. {"timestamp":"2022-03-08T07:25:09.221Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-03-08T07:25:58.929Z"}
+info: Connected to the database. {"timestamp":"2022-03-08T07:25:58.956Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-03-08T07:26:49.493Z"}
+info: Connected to the database. {"timestamp":"2022-03-08T07:26:49.515Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-03-08T07:28:07.867Z"}
+info: Connected to the database. {"timestamp":"2022-03-08T07:28:07.901Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-03-08T07:30:19.428Z"}
+info: Connected to the database. {"timestamp":"2022-03-08T07:30:19.450Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-03-08T07:30:58.785Z"}
+info: Connected to the database. {"timestamp":"2022-03-08T07:30:58.812Z"}
+error: uncaughtException: connect ECONNREFUSED 127.0.0.1:5672
+Error: connect ECONNREFUSED 127.0.0.1:5672
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1161:16) {"date":"Tue Mar 08 2022 13:02:09 GMT+0530 (India Standard Time)","error":{"address":"127.0.0.1","code":"ECONNREFUSED","errno":-4078,"port":5672,"syscall":"connect"},"exception":true,"os":{"loadavg":[0,0,0],"uptime":511967},"process":{"argv":["node","C:\\Users\\anand\\Desktop\\fundoo-Notes\\src\\index.js"],"cwd":"C:\\Users\\anand\\Desktop\\fundoo-Notes","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18393667,"external":20054063,"heapTotal":86802432,"heapUsed":81685472,"rss":125063168},"pid":1208,"uid":null,"version":"v16.13.2"},"stack":"Error: connect ECONNREFUSED 127.0.0.1:5672\n    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1161:16)","timestamp":"2022-03-08T07:32:09.457Z","trace":[{"column":16,"file":"node:net","function":"TCPConnectWrap.afterConnect [as oncomplete]","line":1161,"method":"afterConnect [as oncomplete]","native":false}]}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-03-08T07:33:37.009Z"}
+info: Connected to the database. {"timestamp":"2022-03-08T07:33:37.040Z"}
+error: uncaughtException: connect ECONNREFUSED 127.0.0.1:5672
+Error: connect ECONNREFUSED 127.0.0.1:5672
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1161:16)
+    at TCPConnectWrap.callbackTrampoline (node:internal/async_hooks:130:17) {"date":"Tue Mar 08 2022 13:04:28 GMT+0530 (India Standard Time)","error":{"address":"127.0.0.1","code":"ECONNREFUSED","errno":-4078,"port":5672,"syscall":"connect"},"exception":true,"os":{"loadavg":[0,0,0],"uptime":512106},"process":{"argv":["node","C:\\Users\\anand\\Desktop\\fundoo-Notes\\src\\index.js"],"cwd":"C:\\Users\\anand\\Desktop\\fundoo-Notes","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18533673,"external":26696744,"heapTotal":151298048,"heapUsed":119681624,"rss":193081344},"pid":15620,"uid":null,"version":"v16.13.2"},"stack":"Error: connect ECONNREFUSED 127.0.0.1:5672\n    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1161:16)\n    at TCPConnectWrap.callbackTrampoline (node:internal/async_hooks:130:17)","timestamp":"2022-03-08T07:34:28.065Z","trace":[{"column":16,"file":"node:net","function":"TCPConnectWrap.afterConnect [as oncomplete]","line":1161,"method":"afterConnect [as oncomplete]","native":false},{"column":17,"file":"node:internal/async_hooks","function":"TCPConnectWrap.callbackTrampoline","line":130,"method":"callbackTrampoline","native":false}]}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-03-08T07:37:20.431Z"}
+info: Connected to the database. {"timestamp":"2022-03-08T07:37:20.466Z"}
+error: uncaughtException: connect ECONNREFUSED 127.0.0.1:5672
+Error: connect ECONNREFUSED 127.0.0.1:5672
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1161:16) {"date":"Tue Mar 08 2022 13:07:34 GMT+0530 (India Standard Time)","error":{"address":"127.0.0.1","code":"ECONNREFUSED","errno":-4078,"port":5672,"syscall":"connect"},"exception":true,"os":{"loadavg":[0,0,0],"uptime":512292},"process":{"argv":["node","C:\\Users\\anand\\Desktop\\fundoo-Notes\\src\\index.js"],"cwd":"C:\\Users\\anand\\Desktop\\fundoo-Notes","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18492733,"external":26201673,"heapTotal":149463040,"heapUsed":116988328,"rss":190906368},"pid":12272,"uid":null,"version":"v16.13.2"},"stack":"Error: connect ECONNREFUSED 127.0.0.1:5672\n    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1161:16)","timestamp":"2022-03-08T07:37:34.187Z","trace":[{"column":16,"file":"node:net","function":"TCPConnectWrap.afterConnect [as oncomplete]","line":1161,"method":"afterConnect [as oncomplete]","native":false}]}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-03-08T07:38:37.018Z"}
+info: Connected to the database. {"timestamp":"2022-03-08T07:38:37.057Z"}
+error: uncaughtException: connect ECONNREFUSED 127.0.0.1:5672
+Error: connect ECONNREFUSED 127.0.0.1:5672
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1161:16)
+    at TCPConnectWrap.callbackTrampoline (node:internal/async_hooks:130:17) {"date":"Tue Mar 08 2022 13:09:46 GMT+0530 (India Standard Time)","error":{"address":"127.0.0.1","code":"ECONNREFUSED","errno":-4078,"port":5672,"syscall":"connect"},"exception":true,"os":{"loadavg":[0,0,0],"uptime":512425},"process":{"argv":["node","C:\\Users\\anand\\Desktop\\fundoo-Notes\\src\\index.js"],"cwd":"C:\\Users\\anand\\Desktop\\fundoo-Notes","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18393342,"external":19966669,"heapTotal":92438528,"heapUsed":86440744,"rss":133345280},"pid":17772,"uid":null,"version":"v16.13.2"},"stack":"Error: connect ECONNREFUSED 127.0.0.1:5672\n    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1161:16)\n    at TCPConnectWrap.callbackTrampoline (node:internal/async_hooks:130:17)","timestamp":"2022-03-08T07:39:46.824Z","trace":[{"column":16,"file":"node:net","function":"TCPConnectWrap.afterConnect [as oncomplete]","line":1161,"method":"afterConnect [as oncomplete]","native":false},{"column":17,"file":"node:internal/async_hooks","function":"TCPConnectWrap.callbackTrampoline","line":130,"method":"callbackTrampoline","native":false}]}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-03-08T07:43:21.347Z"}
+info: Connected to the database. {"timestamp":"2022-03-08T07:43:21.388Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-03-08T07:46:03.997Z"}
+info: Connected to the database. {"timestamp":"2022-03-08T07:46:04.053Z"}
+error: uncaughtException: C:\Users\anand\Desktop\fundoo-Notes\src\validators\user.validator.js: Unexpected token, expected "," (25:2)
+
+[0m [90m 23 |[39m[0m
+[0m [90m 24 |[39m[0m
+[0m[31m[1m>[22m[39m[90m 25 |[39m   } [36melse[39m { [0m
+[0m [90m    |[39m   [31m[1m^[22m[39m[0m
+[0m [90m 26 |[39m     [90m// req.validatedBody = value;                 //true or false[39m[0m
+[0m [90m 27 |[39m     next()[33m;[39m[0m
+[0m [90m 28 |[39m   }[0m
+SyntaxError: C:\Users\anand\Desktop\fundoo-Notes\src\validators\user.validator.js: Unexpected token, expected "," (25:2)
+
+[0m [90m 23 |[39m[0m
+[0m [90m 24 |[39m[0m
+[0m[31m[1m>[22m[39m[90m 25 |[39m   } [36melse[39m { [0m
+[0m [90m    |[39m   [31m[1m^[22m[39m[0m
+[0m [90m 26 |[39m     [90m// req.validatedBody = value;                 //true or false[39m[0m
+[0m [90m 27 |[39m     next()[33m;[39m[0m
+[0m [90m 28 |[39m   }[0m
+    at Parser._raise (C:\Users\anand\Desktop\fundoo-Notes\node_modules\@babel\parser\src\parser\error.js:150:45)
+    at Parser.raiseWithData (C:\Users\anand\Desktop\fundoo-Notes\node_modules\@babel\parser\src\parser\error.js:145:17)
+    at Parser.raise (C:\Users\anand\Desktop\fundoo-Notes\node_modules\@babel\parser\src\parser\error.js:89:17)
+    at Parser.unexpected (C:\Users\anand\Desktop\fundoo-Notes\node_modules\@babel\parser\src\parser\util.js:174:16)
+    at Parser.expect (C:\Users\anand\Desktop\fundoo-Notes\node_modules\@babel\parser\src\parser\util.js:150:28)
+    at Parser.parseCallExpressionArguments (C:\Users\anand\Desktop\fundoo-Notes\node_modules\@babel\parser\src\parser\expression.js:987:14)
+    at Parser.parseCoverCallAndAsyncArrowHead (C:\Users\anand\Desktop\fundoo-Notes\node_modules\@babel\parser\src\parser\expression.js:862:29)
+    at Parser.parseSubscript (C:\Users\anand\Desktop\fundoo-Notes\node_modules\@babel\parser\src\parser\expression.js:747:19)
+    at Parser.parseSubscripts (C:\Users\anand\Desktop\fundoo-Notes\node_modules\@babel\parser\src\parser\expression.js:703:19)
+    at Parser.parseExprSubscripts (C:\Users\anand\Desktop\fundoo-Notes\node_modules\@babel\parser\src\parser\expression.js:688:17)
+    at Parser.parseUpdate (C:\Users\anand\Desktop\fundoo-Notes\node_modules\@babel\parser\src\parser\expression.js:662:21)
+    at Parser.parseMaybeUnary (C:\Users\anand\Desktop\fundoo-Notes\node_modules\@babel\parser\src\parser\expression.js:633:23)
+    at Parser.parseMaybeUnaryOrPrivate (C:\Users\anand\Desktop\fundoo-Notes\node_modules\@babel\parser\src\parser\expression.js:388:14)
+    at Parser.parseExprOps (C:\Users\anand\Desktop\fundoo-Notes\node_modules\@babel\parser\src\parser\expression.js:398:23)
+    at Parser.parseMaybeConditional (C:\Users\anand\Desktop\fundoo-Notes\node_modules\@babel\parser\src\parser\expression.js:356:23)
+    at Parser.parseMaybeAssign (C:\Users\anand\Desktop\fundoo-Notes\node_modules\@babel\parser\src\parser\expression.js:303:21) {"date":"Tue Mar 08 2022 13:17:40 GMT+0530 (India Standard Time)","error":{"code":"BABEL_PARSE_ERROR","loc":{"column":2,"index":635,"line":25},"pos":635,"reasonCode":"UnexpectedToken"},"exception":true,"os":{"loadavg":[0,0,0],"uptime":512899},"process":{"argv":["node","C:\\Users\\anand\\Desktop\\fundoo-Notes\\src\\index.js"],"cwd":"C:\\Users\\anand\\Desktop\\fundoo-Notes","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18278610,"external":26168912,"heapTotal":141979648,"heapUsed":107536112,"rss":178331648},"pid":12684,"uid":null,"version":"v16.13.2"},"stack":"SyntaxError: C:\\Users\\anand\\Desktop\\fundoo-Notes\\src\\validators\\user.validator.js: Unexpected token, expected \",\" (25:2)\n\n\u001b[0m \u001b[90m 23 |\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 24 |\u001b[39m\u001b[0m\n\u001b[0m\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 25 |\u001b[39m   } \u001b[36melse\u001b[39m { \u001b[0m\n\u001b[0m \u001b[90m    |\u001b[39m   \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 26 |\u001b[39m     \u001b[90m// req.validatedBody = value;                 //true or false\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 27 |\u001b[39m     next()\u001b[33m;\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 28 |\u001b[39m   }\u001b[0m\n    at Parser._raise (C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\@babel\\parser\\src\\parser\\error.js:150:45)\n    at Parser.raiseWithData (C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\@babel\\parser\\src\\parser\\error.js:145:17)\n    at Parser.raise (C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\@babel\\parser\\src\\parser\\error.js:89:17)\n    at Parser.unexpected (C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\@babel\\parser\\src\\parser\\util.js:174:16)\n    at Parser.expect (C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\@babel\\parser\\src\\parser\\util.js:150:28)\n    at Parser.parseCallExpressionArguments (C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\@babel\\parser\\src\\parser\\expression.js:987:14)\n    at Parser.parseCoverCallAndAsyncArrowHead (C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\@babel\\parser\\src\\parser\\expression.js:862:29)\n    at Parser.parseSubscript (C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\@babel\\parser\\src\\parser\\expression.js:747:19)\n    at Parser.parseSubscripts (C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\@babel\\parser\\src\\parser\\expression.js:703:19)\n    at Parser.parseExprSubscripts (C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\@babel\\parser\\src\\parser\\expression.js:688:17)\n    at Parser.parseUpdate (C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\@babel\\parser\\src\\parser\\expression.js:662:21)\n    at Parser.parseMaybeUnary (C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\@babel\\parser\\src\\parser\\expression.js:633:23)\n    at Parser.parseMaybeUnaryOrPrivate (C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\@babel\\parser\\src\\parser\\expression.js:388:14)\n    at Parser.parseExprOps (C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\@babel\\parser\\src\\parser\\expression.js:398:23)\n    at Parser.parseMaybeConditional (C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\@babel\\parser\\src\\parser\\expression.js:356:23)\n    at Parser.parseMaybeAssign (C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\@babel\\parser\\src\\parser\\expression.js:303:21)","timestamp":"2022-03-08T07:47:40.995Z","trace":[{"column":45,"file":"C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\@babel\\parser\\src\\parser\\error.js","function":"Parser._raise","line":150,"method":"_raise","native":false},{"column":17,"file":"C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\@babel\\parser\\src\\parser\\error.js","function":"Parser.raiseWithData","line":145,"method":"raiseWithData","native":false},{"column":17,"file":"C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\@babel\\parser\\src\\parser\\error.js","function":"Parser.raise","line":89,"method":"raise","native":false},{"column":16,"file":"C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\@babel\\parser\\src\\parser\\util.js","function":"Parser.unexpected","line":174,"method":"unexpected","native":false},{"column":28,"file":"C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\@babel\\parser\\src\\parser\\util.js","function":"Parser.expect","line":150,"method":"expect","native":false},{"column":14,"file":"C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\@babel\\parser\\src\\parser\\expression.js","function":"Parser.parseCallExpressionArguments","line":987,"method":"parseCallExpressionArguments","native":false},{"column":29,"file":"C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\@babel\\parser\\src\\parser\\expression.js","function":"Parser.parseCoverCallAndAsyncArrowHead","line":862,"method":"parseCoverCallAndAsyncArrowHead","native":false},{"column":19,"file":"C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\@babel\\parser\\src\\parser\\expression.js","function":"Parser.parseSubscript","line":747,"method":"parseSubscript","native":false},{"column":19,"file":"C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\@babel\\parser\\src\\parser\\expression.js","function":"Parser.parseSubscripts","line":703,"method":"parseSubscripts","native":false},{"column":17,"file":"C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\@babel\\parser\\src\\parser\\expression.js","function":"Parser.parseExprSubscripts","line":688,"method":"parseExprSubscripts","native":false},{"column":21,"file":"C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\@babel\\parser\\src\\parser\\expression.js","function":"Parser.parseUpdate","line":662,"method":"parseUpdate","native":false},{"column":23,"file":"C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\@babel\\parser\\src\\parser\\expression.js","function":"Parser.parseMaybeUnary","line":633,"method":"parseMaybeUnary","native":false},{"column":14,"file":"C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\@babel\\parser\\src\\parser\\expression.js","function":"Parser.parseMaybeUnaryOrPrivate","line":388,"method":"parseMaybeUnaryOrPrivate","native":false},{"column":23,"file":"C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\@babel\\parser\\src\\parser\\expression.js","function":"Parser.parseExprOps","line":398,"method":"parseExprOps","native":false},{"column":23,"file":"C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\@babel\\parser\\src\\parser\\expression.js","function":"Parser.parseMaybeConditional","line":356,"method":"parseMaybeConditional","native":false},{"column":21,"file":"C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\@babel\\parser\\src\\parser\\expression.js","function":"Parser.parseMaybeAssign","line":303,"method":"parseMaybeAssign","native":false}]}
+error: uncaughtException: C:\Users\anand\Desktop\fundoo-Notes\src\validators\user.validator.js: Unexpected token, expected "," (20:2)
+
+[0m [90m 18 |[39m       code [33m:[39m [33mHttpStatus[39m[33m.[39m[33mBAD_REQUEST[39m[33m,[39m[0m
+[0m [90m 19 |[39m       message [33m:[39m error})[0m
+[0m[31m[1m>[22m[39m[90m 20 |[39m   } [0m
+[0m [90m    |[39m   [31m[1m^[22m[39m[0m
+[0m [90m 21 |[39m   [36melse[39m { [0m
+[0m [90m 22 |[39m     [90m// req.validatedBody = value;                 //true or false[39m[0m
+[0m [90m 23 |[39m     next()[33m;[39m[0m
+SyntaxError: C:\Users\anand\Desktop\fundoo-Notes\src\validators\user.validator.js: Unexpected token, expected "," (20:2)
+
+[0m [90m 18 |[39m       code [33m:[39m [33mHttpStatus[39m[33m.[39m[33mBAD_REQUEST[39m[33m,[39m[0m
+[0m [90m 19 |[39m       message [33m:[39m error})[0m
+[0m[31m[1m>[22m[39m[90m 20 |[39m   } [0m
+[0m [90m    |[39m   [31m[1m^[22m[39m[0m
+[0m [90m 21 |[39m   [36melse[39m { [0m
+[0m [90m 22 |[39m     [90m// req.validatedBody = value;                 //true or false[39m[0m
+[0m [90m 23 |[39m     next()[33m;[39m[0m
+    at Parser._raise (C:\Users\anand\Desktop\fundoo-Notes\node_modules\@babel\parser\src\parser\error.js:150:45)
+    at Parser.raiseWithData (C:\Users\anand\Desktop\fundoo-Notes\node_modules\@babel\parser\src\parser\error.js:145:17)
+    at Parser.raise (C:\Users\anand\Desktop\fundoo-Notes\node_modules\@babel\parser\src\parser\error.js:89:17)
+    at Parser.unexpected (C:\Users\anand\Desktop\fundoo-Notes\node_modules\@babel\parser\src\parser\util.js:174:16)
+    at Parser.expect (C:\Users\anand\Desktop\fundoo-Notes\node_modules\@babel\parser\src\parser\util.js:150:28)
+    at Parser.parseCallExpressionArguments (C:\Users\anand\Desktop\fundoo-Notes\node_modules\@babel\parser\src\parser\expression.js:987:14)
+    at Parser.parseCoverCallAndAsyncArrowHead (C:\Users\anand\Desktop\fundoo-Notes\node_modules\@babel\parser\src\parser\expression.js:862:29)
+    at Parser.parseSubscript (C:\Users\anand\Desktop\fundoo-Notes\node_modules\@babel\parser\src\parser\expression.js:747:19)
+    at Parser.parseSubscripts (C:\Users\anand\Desktop\fundoo-Notes\node_modules\@babel\parser\src\parser\expression.js:703:19)
+    at Parser.parseExprSubscripts (C:\Users\anand\Desktop\fundoo-Notes\node_modules\@babel\parser\src\parser\expression.js:688:17)
+    at Parser.parseUpdate (C:\Users\anand\Desktop\fundoo-Notes\node_modules\@babel\parser\src\parser\expression.js:662:21)
+    at Parser.parseMaybeUnary (C:\Users\anand\Desktop\fundoo-Notes\node_modules\@babel\parser\src\parser\expression.js:633:23)
+    at Parser.parseMaybeUnaryOrPrivate (C:\Users\anand\Desktop\fundoo-Notes\node_modules\@babel\parser\src\parser\expression.js:388:14)
+    at Parser.parseExprOps (C:\Users\anand\Desktop\fundoo-Notes\node_modules\@babel\parser\src\parser\expression.js:398:23)
+    at Parser.parseMaybeConditional (C:\Users\anand\Desktop\fundoo-Notes\node_modules\@babel\parser\src\parser\expression.js:356:23)
+    at Parser.parseMaybeAssign (C:\Users\anand\Desktop\fundoo-Notes\node_modules\@babel\parser\src\parser\expression.js:303:21) {"date":"Tue Mar 08 2022 13:18:22 GMT+0530 (India Standard Time)","error":{"code":"BABEL_PARSE_ERROR","loc":{"column":2,"index":628,"line":20},"pos":628,"reasonCode":"UnexpectedToken"},"exception":true,"os":{"loadavg":[0,0,0],"uptime":512941},"process":{"argv":["node","C:\\Users\\anand\\Desktop\\fundoo-Notes\\src\\index.js"],"cwd":"C:\\Users\\anand\\Desktop\\fundoo-Notes","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18278610,"external":26177104,"heapTotal":137261056,"heapUsed":107532480,"rss":173928448},"pid":7448,"uid":null,"version":"v16.13.2"},"stack":"SyntaxError: C:\\Users\\anand\\Desktop\\fundoo-Notes\\src\\validators\\user.validator.js: Unexpected token, expected \",\" (20:2)\n\n\u001b[0m \u001b[90m 18 |\u001b[39m       code \u001b[33m:\u001b[39m \u001b[33mHttpStatus\u001b[39m\u001b[33m.\u001b[39m\u001b[33mBAD_REQUEST\u001b[39m\u001b[33m,\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 19 |\u001b[39m       message \u001b[33m:\u001b[39m error})\u001b[0m\n\u001b[0m\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 20 |\u001b[39m   } \u001b[0m\n\u001b[0m \u001b[90m    |\u001b[39m   \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 21 |\u001b[39m   \u001b[36melse\u001b[39m { \u001b[0m\n\u001b[0m \u001b[90m 22 |\u001b[39m     \u001b[90m// req.validatedBody = value;                 //true or false\u001b[39m\u001b[0m\n\u001b[0m \u001b[90m 23 |\u001b[39m     next()\u001b[33m;\u001b[39m\u001b[0m\n    at Parser._raise (C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\@babel\\parser\\src\\parser\\error.js:150:45)\n    at Parser.raiseWithData (C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\@babel\\parser\\src\\parser\\error.js:145:17)\n    at Parser.raise (C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\@babel\\parser\\src\\parser\\error.js:89:17)\n    at Parser.unexpected (C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\@babel\\parser\\src\\parser\\util.js:174:16)\n    at Parser.expect (C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\@babel\\parser\\src\\parser\\util.js:150:28)\n    at Parser.parseCallExpressionArguments (C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\@babel\\parser\\src\\parser\\expression.js:987:14)\n    at Parser.parseCoverCallAndAsyncArrowHead (C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\@babel\\parser\\src\\parser\\expression.js:862:29)\n    at Parser.parseSubscript (C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\@babel\\parser\\src\\parser\\expression.js:747:19)\n    at Parser.parseSubscripts (C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\@babel\\parser\\src\\parser\\expression.js:703:19)\n    at Parser.parseExprSubscripts (C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\@babel\\parser\\src\\parser\\expression.js:688:17)\n    at Parser.parseUpdate (C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\@babel\\parser\\src\\parser\\expression.js:662:21)\n    at Parser.parseMaybeUnary (C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\@babel\\parser\\src\\parser\\expression.js:633:23)\n    at Parser.parseMaybeUnaryOrPrivate (C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\@babel\\parser\\src\\parser\\expression.js:388:14)\n    at Parser.parseExprOps (C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\@babel\\parser\\src\\parser\\expression.js:398:23)\n    at Parser.parseMaybeConditional (C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\@babel\\parser\\src\\parser\\expression.js:356:23)\n    at Parser.parseMaybeAssign (C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\@babel\\parser\\src\\parser\\expression.js:303:21)","timestamp":"2022-03-08T07:48:22.604Z","trace":[{"column":45,"file":"C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\@babel\\parser\\src\\parser\\error.js","function":"Parser._raise","line":150,"method":"_raise","native":false},{"column":17,"file":"C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\@babel\\parser\\src\\parser\\error.js","function":"Parser.raiseWithData","line":145,"method":"raiseWithData","native":false},{"column":17,"file":"C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\@babel\\parser\\src\\parser\\error.js","function":"Parser.raise","line":89,"method":"raise","native":false},{"column":16,"file":"C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\@babel\\parser\\src\\parser\\util.js","function":"Parser.unexpected","line":174,"method":"unexpected","native":false},{"column":28,"file":"C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\@babel\\parser\\src\\parser\\util.js","function":"Parser.expect","line":150,"method":"expect","native":false},{"column":14,"file":"C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\@babel\\parser\\src\\parser\\expression.js","function":"Parser.parseCallExpressionArguments","line":987,"method":"parseCallExpressionArguments","native":false},{"column":29,"file":"C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\@babel\\parser\\src\\parser\\expression.js","function":"Parser.parseCoverCallAndAsyncArrowHead","line":862,"method":"parseCoverCallAndAsyncArrowHead","native":false},{"column":19,"file":"C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\@babel\\parser\\src\\parser\\expression.js","function":"Parser.parseSubscript","line":747,"method":"parseSubscript","native":false},{"column":19,"file":"C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\@babel\\parser\\src\\parser\\expression.js","function":"Parser.parseSubscripts","line":703,"method":"parseSubscripts","native":false},{"column":17,"file":"C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\@babel\\parser\\src\\parser\\expression.js","function":"Parser.parseExprSubscripts","line":688,"method":"parseExprSubscripts","native":false},{"column":21,"file":"C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\@babel\\parser\\src\\parser\\expression.js","function":"Parser.parseUpdate","line":662,"method":"parseUpdate","native":false},{"column":23,"file":"C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\@babel\\parser\\src\\parser\\expression.js","function":"Parser.parseMaybeUnary","line":633,"method":"parseMaybeUnary","native":false},{"column":14,"file":"C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\@babel\\parser\\src\\parser\\expression.js","function":"Parser.parseMaybeUnaryOrPrivate","line":388,"method":"parseMaybeUnaryOrPrivate","native":false},{"column":23,"file":"C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\@babel\\parser\\src\\parser\\expression.js","function":"Parser.parseExprOps","line":398,"method":"parseExprOps","native":false},{"column":23,"file":"C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\@babel\\parser\\src\\parser\\expression.js","function":"Parser.parseMaybeConditional","line":356,"method":"parseMaybeConditional","native":false},{"column":21,"file":"C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\@babel\\parser\\src\\parser\\expression.js","function":"Parser.parseMaybeAssign","line":303,"method":"parseMaybeAssign","native":false}]}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-03-08T07:49:03.312Z"}
+info: Connected to the database. {"timestamp":"2022-03-08T07:49:03.349Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-03-08T07:50:10.031Z"}
+info: Connected to the database. {"timestamp":"2022-03-08T07:50:10.151Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-03-08T07:51:44.314Z"}
+info: Connected to the database. {"timestamp":"2022-03-08T07:51:44.340Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-03-08T07:51:56.317Z"}
+info: Connected to the database. {"timestamp":"2022-03-08T07:51:56.343Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-03-08T07:52:20.355Z"}
+info: Connected to the database. {"timestamp":"2022-03-08T07:52:20.380Z"}
+error: 
+    status - 500 
+    message - ReferenceError: sender is not defined
+    at _callee2$ (C:\Users\anand\Desktop\fundoo-Notes\src\services\/user.service.js:25:3)
+    at tryCatch (C:\Users\anand\Desktop\fundoo-Notes\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (C:\Users\anand\Desktop\fundoo-Notes\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (C:\Users\anand\Desktop\fundoo-Notes\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (C:\Users\anand\Desktop\fundoo-Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\anand\Desktop\fundoo-Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/users/register 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-03-08T07:52:51.112Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-03-08T07:53:17.556Z"}
+info: Connected to the database. {"timestamp":"2022-03-08T07:53:17.581Z"}
+error: 
+      status - 11000
+      message - E11000 duplicate key error collection: user.users index: emailID_1 dup key: { emailID: "bodke@gmail.com" } 
+      url - /api/v1/users/register 
+      method - POST 
+      IP - ::1
+     {"timestamp":"2022-03-08T07:53:25.827Z"}
+error: 
+    status - 500 
+    message - RangeError: Invalid status code: 11000
+    at new NodeError (node:internal/errors:371:5)
+    at ServerResponse.writeHead (node:_http_server:274:11)
+    at ServerResponse.writeHead (C:\Users\anand\Desktop\fundoo-Notes\node_modules\on-headers\index.js:44:26)
+    at ServerResponse._implicitHeader (node:_http_server:265:8)
+    at write_ (node:_http_outgoing:766:9)
+    at ServerResponse.end (node:_http_outgoing:855:5)
+    at ServerResponse.send (C:\Users\anand\Desktop\fundoo-Notes\node_modules\express\lib\response.js:221:10)
+    at ServerResponse.json (C:\Users\anand\Desktop\fundoo-Notes\node_modules\express\lib\response.js:267:15)
+    at appErrorHandler (C:\Users\anand\Desktop\fundoo-Notes\src\middlewares\/error.middleware.js:36:26)
+    at Layer.handle_error (C:\Users\anand\Desktop\fundoo-Notes\node_modules\express\lib\router\layer.js:71:5)
+    at trim_prefix (C:\Users\anand\Desktop\fundoo-Notes\node_modules\express\lib\router\index.js:321:13)
+    at C:\Users\anand\Desktop\fundoo-Notes\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (C:\Users\anand\Desktop\fundoo-Notes\node_modules\express\lib\router\index.js:341:12)
+    at next (C:\Users\anand\Desktop\fundoo-Notes\node_modules\express\lib\router\index.js:275:10)
+    at C:\Users\anand\Desktop\fundoo-Notes\node_modules\express\lib\router\index.js:641:15
+    at next (C:\Users\anand\Desktop\fundoo-Notes\node_modules\express\lib\router\index.js:260:14)
+    at C:\Users\anand\Desktop\fundoo-Notes\node_modules\express\lib\router\index.js:641:15
+    at next (C:\Users\anand\Desktop\fundoo-Notes\node_modules\express\lib\router\index.js:260:14)
+    at next (C:\Users\anand\Desktop\fundoo-Notes\node_modules\express\lib\router\route.js:127:14)
+    at _callee2$ (C:\Users\anand\Desktop\fundoo-Notes\src\controllers\/user.controller.js:38:5)
+    at tryCatch (C:\Users\anand\Desktop\fundoo-Notes\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (C:\Users\anand\Desktop\fundoo-Notes\node_modules\regenerator-runtime\runtime.js:294:22) 
+    url - /api/v1/users/register 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-03-08T07:53:25.838Z"}
+error: uncaughtException: connect ECONNREFUSED 127.0.0.1:5672
+Error: connect ECONNREFUSED 127.0.0.1:5672
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1161:16) {"date":"Tue Mar 08 2022 13:24:04 GMT+0530 (India Standard Time)","error":{"address":"127.0.0.1","code":"ECONNREFUSED","errno":-4078,"port":5672,"syscall":"connect"},"exception":true,"os":{"loadavg":[0,0,0],"uptime":513283},"process":{"argv":["node","C:\\Users\\anand\\Desktop\\fundoo-Notes\\src\\index.js"],"cwd":"C:\\Users\\anand\\Desktop\\fundoo-Notes","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18405015,"external":19968353,"heapTotal":87105536,"heapUsed":82373272,"rss":123478016},"pid":5996,"uid":null,"version":"v16.13.2"},"stack":"Error: connect ECONNREFUSED 127.0.0.1:5672\n    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1161:16)","timestamp":"2022-03-08T07:54:04.552Z","trace":[{"column":16,"file":"node:net","function":"TCPConnectWrap.afterConnect [as oncomplete]","line":1161,"method":"afterConnect [as oncomplete]","native":false}]}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-03-08T07:54:44.171Z"}
+info: Connected to the database. {"timestamp":"2022-03-08T07:54:44.195Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-03-08T07:55:11.600Z"}
+info: Connected to the database. {"timestamp":"2022-03-08T07:55:11.623Z"}
+error: 
+      status - 11000
+      message - E11000 duplicate key error collection: user.users index: emailID_1 dup key: { emailID: "bodke@gmail.com" } 
+      url - /api/v1/users/register 
+      method - POST 
+      IP - ::1
+     {"timestamp":"2022-03-08T07:55:19.941Z"}
+error: 
+    status - 500 
+    message - RangeError: Invalid status code: 11000
+    at new NodeError (node:internal/errors:371:5)
+    at ServerResponse.writeHead (node:_http_server:274:11)
+    at ServerResponse.writeHead (C:\Users\anand\Desktop\fundoo-Notes\node_modules\on-headers\index.js:44:26)
+    at ServerResponse._implicitHeader (node:_http_server:265:8)
+    at write_ (node:_http_outgoing:766:9)
+    at ServerResponse.end (node:_http_outgoing:855:5)
+    at ServerResponse.send (C:\Users\anand\Desktop\fundoo-Notes\node_modules\express\lib\response.js:221:10)
+    at ServerResponse.json (C:\Users\anand\Desktop\fundoo-Notes\node_modules\express\lib\response.js:267:15)
+    at appErrorHandler (C:\Users\anand\Desktop\fundoo-Notes\src\middlewares\/error.middleware.js:36:26)
+    at Layer.handle_error (C:\Users\anand\Desktop\fundoo-Notes\node_modules\express\lib\router\layer.js:71:5)
+    at trim_prefix (C:\Users\anand\Desktop\fundoo-Notes\node_modules\express\lib\router\index.js:321:13)
+    at C:\Users\anand\Desktop\fundoo-Notes\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (C:\Users\anand\Desktop\fundoo-Notes\node_modules\express\lib\router\index.js:341:12)
+    at next (C:\Users\anand\Desktop\fundoo-Notes\node_modules\express\lib\router\index.js:275:10)
+    at C:\Users\anand\Desktop\fundoo-Notes\node_modules\express\lib\router\index.js:641:15
+    at next (C:\Users\anand\Desktop\fundoo-Notes\node_modules\express\lib\router\index.js:260:14)
+    at C:\Users\anand\Desktop\fundoo-Notes\node_modules\express\lib\router\index.js:641:15
+    at next (C:\Users\anand\Desktop\fundoo-Notes\node_modules\express\lib\router\index.js:260:14)
+    at next (C:\Users\anand\Desktop\fundoo-Notes\node_modules\express\lib\router\route.js:127:14)
+    at _callee2$ (C:\Users\anand\Desktop\fundoo-Notes\src\controllers\/user.controller.js:38:5)
+    at tryCatch (C:\Users\anand\Desktop\fundoo-Notes\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (C:\Users\anand\Desktop\fundoo-Notes\node_modules\regenerator-runtime\runtime.js:294:22) 
+    url - /api/v1/users/register 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-03-08T07:55:19.951Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-03-08T07:55:52.860Z"}
+info: Connected to the database. {"timestamp":"2022-03-08T07:55:52.896Z"}
+error: uncaughtException: connect ECONNREFUSED 127.0.0.1:5672
+Error: connect ECONNREFUSED 127.0.0.1:5672
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1161:16) {"date":"Tue Mar 08 2022 13:26:04 GMT+0530 (India Standard Time)","error":{"address":"127.0.0.1","code":"ECONNREFUSED","errno":-4078,"port":5672,"syscall":"connect"},"exception":true,"os":{"loadavg":[0,0,0],"uptime":513403},"process":{"argv":["node","C:\\Users\\anand\\Desktop\\fundoo-Notes\\src\\index.js"],"cwd":"C:\\Users\\anand\\Desktop\\fundoo-Notes","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18573830,"external":26614515,"heapTotal":144515072,"heapUsed":120018560,"rss":181825536},"pid":16104,"uid":null,"version":"v16.13.2"},"stack":"Error: connect ECONNREFUSED 127.0.0.1:5672\n    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1161:16)","timestamp":"2022-03-08T07:56:04.751Z","trace":[{"column":16,"file":"node:net","function":"TCPConnectWrap.afterConnect [as oncomplete]","line":1161,"method":"afterConnect [as oncomplete]","native":false}]}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-03-08T08:24:32.854Z"}
+info: Connected to the database. {"timestamp":"2022-03-08T08:24:32.953Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-03-08T08:25:40.591Z"}
+info: Connected to the database. {"timestamp":"2022-03-08T08:25:40.620Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-03-08T08:26:08.566Z"}
+info: Connected to the database. {"timestamp":"2022-03-08T08:26:08.589Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-03-08T08:27:37.249Z"}
+info: Connected to the database. {"timestamp":"2022-03-08T08:27:37.271Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-03-08T08:28:22.107Z"}
+info: Connected to the database. {"timestamp":"2022-03-08T08:28:22.137Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-03-08T08:28:41.139Z"}
+info: Connected to the database. {"timestamp":"2022-03-08T08:28:41.174Z"}
+error: uncaughtException: connect ECONNREFUSED 127.0.0.1:5672
+Error: connect ECONNREFUSED 127.0.0.1:5672
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1161:16) {"date":"Tue Mar 08 2022 14:00:42 GMT+0530 (India Standard Time)","error":{"address":"127.0.0.1","code":"ECONNREFUSED","errno":-4078,"port":5672,"syscall":"connect"},"exception":true,"os":{"loadavg":[0,0,0],"uptime":515480},"process":{"argv":["node","C:\\Users\\anand\\Desktop\\fundoo-Notes\\src\\index.js"],"cwd":"C:\\Users\\anand\\Desktop\\fundoo-Notes","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18407977,"external":20064084,"heapTotal":87760896,"heapUsed":83472688,"rss":123183104},"pid":12812,"uid":null,"version":"v16.13.2"},"stack":"Error: connect ECONNREFUSED 127.0.0.1:5672\n    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1161:16)","timestamp":"2022-03-08T08:30:42.498Z","trace":[{"column":16,"file":"node:net","function":"TCPConnectWrap.afterConnect [as oncomplete]","line":1161,"method":"afterConnect [as oncomplete]","native":false}]}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-03-08T08:31:34.203Z"}
+info: Connected to the database. {"timestamp":"2022-03-08T08:31:34.227Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-03-08T08:33:04.115Z"}
+info: Connected to the database. {"timestamp":"2022-03-08T08:33:04.140Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-03-08T08:34:46.584Z"}
+info: Connected to the database. {"timestamp":"2022-03-08T08:34:46.611Z"}
+error: uncaughtException: connect ECONNREFUSED 127.0.0.1:5672
+Error: connect ECONNREFUSED 127.0.0.1:5672
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1161:16) {"date":"Tue Mar 08 2022 14:05:12 GMT+0530 (India Standard Time)","error":{"address":"127.0.0.1","code":"ECONNREFUSED","errno":-4078,"port":5672,"syscall":"connect"},"exception":true,"os":{"loadavg":[0,0,0],"uptime":515750},"process":{"argv":["node","C:\\Users\\anand\\Desktop\\fundoo-Notes\\src\\index.js"],"cwd":"C:\\Users\\anand\\Desktop\\fundoo-Notes","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18401551,"external":20053876,"heapTotal":86581248,"heapUsed":81897808,"rss":121049088},"pid":10560,"uid":null,"version":"v16.13.2"},"stack":"Error: connect ECONNREFUSED 127.0.0.1:5672\n    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1161:16)","timestamp":"2022-03-08T08:35:12.369Z","trace":[{"column":16,"file":"node:net","function":"TCPConnectWrap.afterConnect [as oncomplete]","line":1161,"method":"afterConnect [as oncomplete]","native":false}]}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-03-08T08:36:21.745Z"}
+info: Connected to the database. {"timestamp":"2022-03-08T08:36:21.770Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-03-08T08:37:30.634Z"}
+info: Connected to the database. {"timestamp":"2022-03-08T08:37:30.667Z"}
+error: 
+    status - 500 
+    message - Error: user dont have any notes
+    at _callee2$ (C:\Users\anand\Desktop\fundoo-Notes\src\services\/note.service.js:23:15)
+    at tryCatch (C:\Users\anand\Desktop\fundoo-Notes\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (C:\Users\anand\Desktop\fundoo-Notes\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (C:\Users\anand\Desktop\fundoo-Notes\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (C:\Users\anand\Desktop\fundoo-Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\anand\Desktop\fundoo-Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/note 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2022-03-08T08:38:06.298Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-03-08T08:38:46.872Z"}
+info: Connected to the database. {"timestamp":"2022-03-08T08:38:46.900Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-03-08T08:39:31.378Z"}
+info: Connected to the database. {"timestamp":"2022-03-08T08:39:31.434Z"}
+error: uncaughtException: Route.get() requires a callback function but got a [object Undefined]
+Error: Route.get() requires a callback function but got a [object Undefined]
+    at Route.<computed> [as get] (C:\Users\anand\Desktop\fundoo-Notes\node_modules\express\lib\router\route.js:202:15)
+    at Function.get (C:\Users\anand\Desktop\fundoo-Notes\node_modules\express\lib\router\index.js:516:19)
+    at Object.<anonymous> (C:\Users\anand\Desktop\fundoo-Notes\src\routes\/note.route.js:17:12)
+    at Module._compile (node:internal/modules/cjs/loader:1101:14)
+    at Module._compile (C:\Users\anand\Desktop\fundoo-Notes\node_modules\pirates\lib\index.js:136:24)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1153:10)
+    at Object.newLoader [as .js] (C:\Users\anand\Desktop\fundoo-Notes\node_modules\pirates\lib\index.js:141:7)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at Object.<anonymous> (C:\Users\anand\Desktop\fundoo-Notes\src\routes\/index.js:5:1)
+    at Module._compile (node:internal/modules/cjs/loader:1101:14)
+    at Module._compile (C:\Users\anand\Desktop\fundoo-Notes\node_modules\pirates\lib\index.js:136:24)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1153:10)
+    at Object.newLoader [as .js] (C:\Users\anand\Desktop\fundoo-Notes\node_modules\pirates\lib\index.js:141:7)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at Object.<anonymous> (C:\Users\anand\Desktop\fundoo-Notes\src\/index.js:10:1)
+    at Module._compile (node:internal/modules/cjs/loader:1101:14) {"date":"Tue Mar 08 2022 14:09:38 GMT+0530 (India Standard Time)","error":{},"exception":true,"os":{"loadavg":[0,0,0],"uptime":516016},"process":{"argv":["node","C:\\Users\\anand\\Desktop\\fundoo-Notes\\src\\index.js"],"cwd":"C:\\Users\\anand\\Desktop\\fundoo-Notes","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18428864,"external":26491574,"heapTotal":144515072,"heapUsed":109901344,"rss":180006912},"pid":1896,"uid":null,"version":"v16.13.2"},"stack":"Error: Route.get() requires a callback function but got a [object Undefined]\n    at Route.<computed> [as get] (C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\express\\lib\\router\\route.js:202:15)\n    at Function.get (C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\express\\lib\\router\\index.js:516:19)\n    at Object.<anonymous> (C:\\Users\\anand\\Desktop\\fundoo-Notes\\src\\routes\\/note.route.js:17:12)\n    at Module._compile (node:internal/modules/cjs/loader:1101:14)\n    at Module._compile (C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\pirates\\lib\\index.js:136:24)\n    at Module._extensions..js (node:internal/modules/cjs/loader:1153:10)\n    at Object.newLoader [as .js] (C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\pirates\\lib\\index.js:141:7)\n    at Module.load (node:internal/modules/cjs/loader:981:32)\n    at Function.Module._load (node:internal/modules/cjs/loader:822:12)\n    at Module.require (node:internal/modules/cjs/loader:1005:19)\n    at require (node:internal/modules/cjs/helpers:102:18)\n    at Object.<anonymous> (C:\\Users\\anand\\Desktop\\fundoo-Notes\\src\\routes\\/index.js:5:1)\n    at Module._compile (node:internal/modules/cjs/loader:1101:14)\n    at Module._compile (C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\pirates\\lib\\index.js:136:24)\n    at Module._extensions..js (node:internal/modules/cjs/loader:1153:10)\n    at Object.newLoader [as .js] (C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\pirates\\lib\\index.js:141:7)\n    at Module.load (node:internal/modules/cjs/loader:981:32)\n    at Function.Module._load (node:internal/modules/cjs/loader:822:12)\n    at Module.require (node:internal/modules/cjs/loader:1005:19)\n    at require (node:internal/modules/cjs/helpers:102:18)\n    at Object.<anonymous> (C:\\Users\\anand\\Desktop\\fundoo-Notes\\src\\/index.js:10:1)\n    at Module._compile (node:internal/modules/cjs/loader:1101:14)","timestamp":"2022-03-08T08:39:38.499Z","trace":[{"column":15,"file":"C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\express\\lib\\router\\route.js","function":"Route.<computed> [as get]","line":202,"method":"<computed> [as get]","native":false},{"column":19,"file":"C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\express\\lib\\router\\index.js","function":"Function.get","line":516,"method":"get","native":false},{"column":12,"file":"C:\\Users\\anand\\Desktop\\fundoo-Notes\\src\\routes\\/note.route.js","function":null,"line":17,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1101,"method":"_compile","native":false},{"column":24,"file":"C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\pirates\\lib\\index.js","function":"Module._compile","line":136,"method":"_compile","native":false},{"column":10,"file":"node:internal/modules/cjs/loader","function":"Module._extensions..js","line":1153,"method":".js","native":false},{"column":7,"file":"C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\pirates\\lib\\index.js","function":"Object.newLoader [as .js]","line":141,"method":"js]","native":false},{"column":32,"file":"node:internal/modules/cjs/loader","function":"Module.load","line":981,"method":"load","native":false},{"column":12,"file":"node:internal/modules/cjs/loader","function":"Module._load","line":822,"method":"_load","native":false},{"column":19,"file":"node:internal/modules/cjs/loader","function":"Module.require","line":1005,"method":"require","native":false},{"column":18,"file":"node:internal/modules/cjs/helpers","function":"require","line":102,"method":null,"native":false},{"column":1,"file":"C:\\Users\\anand\\Desktop\\fundoo-Notes\\src\\routes\\/index.js","function":null,"line":5,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1101,"method":"_compile","native":false},{"column":24,"file":"C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\pirates\\lib\\index.js","function":"Module._compile","line":136,"method":"_compile","native":false},{"column":10,"file":"node:internal/modules/cjs/loader","function":"Module._extensions..js","line":1153,"method":".js","native":false},{"column":7,"file":"C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\pirates\\lib\\index.js","function":"Object.newLoader [as .js]","line":141,"method":"js]","native":false},{"column":32,"file":"node:internal/modules/cjs/loader","function":"Module.load","line":981,"method":"load","native":false},{"column":12,"file":"node:internal/modules/cjs/loader","function":"Module._load","line":822,"method":"_load","native":false},{"column":19,"file":"node:internal/modules/cjs/loader","function":"Module.require","line":1005,"method":"require","native":false},{"column":18,"file":"node:internal/modules/cjs/helpers","function":"require","line":102,"method":null,"native":false},{"column":1,"file":"C:\\Users\\anand\\Desktop\\fundoo-Notes\\src\\/index.js","function":null,"line":10,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1101,"method":"_compile","native":false}]}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-03-08T08:39:52.155Z"}
+info: Connected to the database. {"timestamp":"2022-03-08T08:39:52.189Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-03-08T08:40:14.794Z"}
+info: Connected to the database. {"timestamp":"2022-03-08T08:40:14.818Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-03-08T08:40:20.699Z"}
+info: Connected to the database. {"timestamp":"2022-03-08T08:40:20.725Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-03-08T08:40:33.077Z"}
+info: Connected to the database. {"timestamp":"2022-03-08T08:40:33.109Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-03-08T08:40:41.757Z"}
+info: Connected to the database. {"timestamp":"2022-03-08T08:40:41.786Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-03-08T08:40:52.663Z"}
+info: Connected to the database. {"timestamp":"2022-03-08T08:40:52.693Z"}
+error: uncaughtException: Route.get() requires a callback function but got a [object Undefined]
+Error: Route.get() requires a callback function but got a [object Undefined]
+    at Route.<computed> [as get] (C:\Users\anand\Desktop\fundoo-Notes\node_modules\express\lib\router\route.js:202:15)
+    at Function.get (C:\Users\anand\Desktop\fundoo-Notes\node_modules\express\lib\router\index.js:516:19)
+    at Object.<anonymous> (C:\Users\anand\Desktop\fundoo-Notes\src\routes\/note.route.js:14:12)
+    at Module._compile (node:internal/modules/cjs/loader:1101:14)
+    at Module._compile (C:\Users\anand\Desktop\fundoo-Notes\node_modules\pirates\lib\index.js:136:24)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1153:10)
+    at Object.newLoader [as .js] (C:\Users\anand\Desktop\fundoo-Notes\node_modules\pirates\lib\index.js:141:7)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at Object.<anonymous> (C:\Users\anand\Desktop\fundoo-Notes\src\routes\/index.js:5:1)
+    at Module._compile (node:internal/modules/cjs/loader:1101:14)
+    at Module._compile (C:\Users\anand\Desktop\fundoo-Notes\node_modules\pirates\lib\index.js:136:24)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1153:10)
+    at Object.newLoader [as .js] (C:\Users\anand\Desktop\fundoo-Notes\node_modules\pirates\lib\index.js:141:7)
+    at Module.load (node:internal/modules/cjs/loader:981:32)
+    at Function.Module._load (node:internal/modules/cjs/loader:822:12)
+    at Module.require (node:internal/modules/cjs/loader:1005:19)
+    at require (node:internal/modules/cjs/helpers:102:18)
+    at Object.<anonymous> (C:\Users\anand\Desktop\fundoo-Notes\src\/index.js:10:1)
+    at Module._compile (node:internal/modules/cjs/loader:1101:14) {"date":"Tue Mar 08 2022 14:11:24 GMT+0530 (India Standard Time)","error":{},"exception":true,"os":{"loadavg":[0,0,0],"uptime":516123},"process":{"argv":["node","C:\\Users\\anand\\Desktop\\fundoo-Notes\\src\\index.js"],"cwd":"C:\\Users\\anand\\Desktop\\fundoo-Notes","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18437056,"external":26458806,"heapTotal":143466496,"heapUsed":111622408,"rss":181227520},"pid":17772,"uid":null,"version":"v16.13.2"},"stack":"Error: Route.get() requires a callback function but got a [object Undefined]\n    at Route.<computed> [as get] (C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\express\\lib\\router\\route.js:202:15)\n    at Function.get (C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\express\\lib\\router\\index.js:516:19)\n    at Object.<anonymous> (C:\\Users\\anand\\Desktop\\fundoo-Notes\\src\\routes\\/note.route.js:14:12)\n    at Module._compile (node:internal/modules/cjs/loader:1101:14)\n    at Module._compile (C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\pirates\\lib\\index.js:136:24)\n    at Module._extensions..js (node:internal/modules/cjs/loader:1153:10)\n    at Object.newLoader [as .js] (C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\pirates\\lib\\index.js:141:7)\n    at Module.load (node:internal/modules/cjs/loader:981:32)\n    at Function.Module._load (node:internal/modules/cjs/loader:822:12)\n    at Module.require (node:internal/modules/cjs/loader:1005:19)\n    at require (node:internal/modules/cjs/helpers:102:18)\n    at Object.<anonymous> (C:\\Users\\anand\\Desktop\\fundoo-Notes\\src\\routes\\/index.js:5:1)\n    at Module._compile (node:internal/modules/cjs/loader:1101:14)\n    at Module._compile (C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\pirates\\lib\\index.js:136:24)\n    at Module._extensions..js (node:internal/modules/cjs/loader:1153:10)\n    at Object.newLoader [as .js] (C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\pirates\\lib\\index.js:141:7)\n    at Module.load (node:internal/modules/cjs/loader:981:32)\n    at Function.Module._load (node:internal/modules/cjs/loader:822:12)\n    at Module.require (node:internal/modules/cjs/loader:1005:19)\n    at require (node:internal/modules/cjs/helpers:102:18)\n    at Object.<anonymous> (C:\\Users\\anand\\Desktop\\fundoo-Notes\\src\\/index.js:10:1)\n    at Module._compile (node:internal/modules/cjs/loader:1101:14)","timestamp":"2022-03-08T08:41:24.796Z","trace":[{"column":15,"file":"C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\express\\lib\\router\\route.js","function":"Route.<computed> [as get]","line":202,"method":"<computed> [as get]","native":false},{"column":19,"file":"C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\express\\lib\\router\\index.js","function":"Function.get","line":516,"method":"get","native":false},{"column":12,"file":"C:\\Users\\anand\\Desktop\\fundoo-Notes\\src\\routes\\/note.route.js","function":null,"line":14,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1101,"method":"_compile","native":false},{"column":24,"file":"C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\pirates\\lib\\index.js","function":"Module._compile","line":136,"method":"_compile","native":false},{"column":10,"file":"node:internal/modules/cjs/loader","function":"Module._extensions..js","line":1153,"method":".js","native":false},{"column":7,"file":"C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\pirates\\lib\\index.js","function":"Object.newLoader [as .js]","line":141,"method":"js]","native":false},{"column":32,"file":"node:internal/modules/cjs/loader","function":"Module.load","line":981,"method":"load","native":false},{"column":12,"file":"node:internal/modules/cjs/loader","function":"Module._load","line":822,"method":"_load","native":false},{"column":19,"file":"node:internal/modules/cjs/loader","function":"Module.require","line":1005,"method":"require","native":false},{"column":18,"file":"node:internal/modules/cjs/helpers","function":"require","line":102,"method":null,"native":false},{"column":1,"file":"C:\\Users\\anand\\Desktop\\fundoo-Notes\\src\\routes\\/index.js","function":null,"line":5,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1101,"method":"_compile","native":false},{"column":24,"file":"C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\pirates\\lib\\index.js","function":"Module._compile","line":136,"method":"_compile","native":false},{"column":10,"file":"node:internal/modules/cjs/loader","function":"Module._extensions..js","line":1153,"method":".js","native":false},{"column":7,"file":"C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\pirates\\lib\\index.js","function":"Object.newLoader [as .js]","line":141,"method":"js]","native":false},{"column":32,"file":"node:internal/modules/cjs/loader","function":"Module.load","line":981,"method":"load","native":false},{"column":12,"file":"node:internal/modules/cjs/loader","function":"Module._load","line":822,"method":"_load","native":false},{"column":19,"file":"node:internal/modules/cjs/loader","function":"Module.require","line":1005,"method":"require","native":false},{"column":18,"file":"node:internal/modules/cjs/helpers","function":"require","line":102,"method":null,"native":false},{"column":1,"file":"C:\\Users\\anand\\Desktop\\fundoo-Notes\\src\\/index.js","function":null,"line":10,"method":null,"native":false},{"column":14,"file":"node:internal/modules/cjs/loader","function":"Module._compile","line":1101,"method":"_compile","native":false}]}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-03-08T08:41:37.080Z"}
+info: Connected to the database. {"timestamp":"2022-03-08T08:41:37.107Z"}
+error: 
+    status - 500 
+    message - Error: user dont have any notes
+    at _callee2$ (C:\Users\anand\Desktop\fundoo-Notes\src\services\/note.service.js:23:15)
+    at tryCatch (C:\Users\anand\Desktop\fundoo-Notes\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (C:\Users\anand\Desktop\fundoo-Notes\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (C:\Users\anand\Desktop\fundoo-Notes\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (C:\Users\anand\Desktop\fundoo-Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\anand\Desktop\fundoo-Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/note 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2022-03-08T08:43:28.105Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-03-08T08:46:31.592Z"}
+info: Connected to the database. {"timestamp":"2022-03-08T08:46:31.620Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-03-08T08:47:03.727Z"}
+info: Connected to the database. {"timestamp":"2022-03-08T08:47:03.749Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-03-08T08:48:01.847Z"}
+info: Connected to the database. {"timestamp":"2022-03-08T08:48:01.872Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-03-08T08:49:04.698Z"}
+info: Connected to the database. {"timestamp":"2022-03-08T08:49:04.723Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-03-08T08:49:18.190Z"}
+info: Connected to the database. {"timestamp":"2022-03-08T08:49:18.217Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-03-08T08:49:25.099Z"}
+info: Connected to the database. {"timestamp":"2022-03-08T08:49:25.127Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-03-08T08:49:40.641Z"}
+info: Connected to the database. {"timestamp":"2022-03-08T08:49:40.677Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-03-08T08:49:46.623Z"}
+info: Connected to the database. {"timestamp":"2022-03-08T08:49:46.659Z"}
+error: 
+    status - 500 
+    message - Error: This not Right user to Access This Note
+    at _callee3$ (C:\Users\anand\Desktop\fundoo-Notes\src\services\/note.service.js:40:15)
+    at tryCatch (C:\Users\anand\Desktop\fundoo-Notes\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (C:\Users\anand\Desktop\fundoo-Notes\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (C:\Users\anand\Desktop\fundoo-Notes\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (C:\Users\anand\Desktop\fundoo-Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\anand\Desktop\fundoo-Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/note/6227150d7c781846d0cae3ce 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2022-03-08T08:49:57.929Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-03-08T08:51:33.929Z"}
+info: Connected to the database. {"timestamp":"2022-03-08T08:51:33.952Z"}
+error: 
+    status - 500 
+    message - ReferenceError: dataById is not defined
+    at _callee4$ (C:\Users\anand\Desktop\fundoo-Notes\src\services\/note.service.js:52:27)
+    at tryCatch (C:\Users\anand\Desktop\fundoo-Notes\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (C:\Users\anand\Desktop\fundoo-Notes\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (C:\Users\anand\Desktop\fundoo-Notes\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (C:\Users\anand\Desktop\fundoo-Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\anand\Desktop\fundoo-Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/note/6227150d7c781846d0cae3ce 
+    method - PUT 
+    IP - ::1
+   {"timestamp":"2022-03-08T08:51:45.892Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-03-08T08:52:15.259Z"}
+info: Connected to the database. {"timestamp":"2022-03-08T08:52:15.293Z"}
+error: 
+    status - 500 
+    message - ReferenceError: UserID is not defined
+    at _callee4$ (C:\Users\anand\Desktop\fundoo-Notes\src\services\/note.service.js:62:30)
+    at tryCatch (C:\Users\anand\Desktop\fundoo-Notes\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (C:\Users\anand\Desktop\fundoo-Notes\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (C:\Users\anand\Desktop\fundoo-Notes\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (C:\Users\anand\Desktop\fundoo-Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\anand\Desktop\fundoo-Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/note/6227150d7c781846d0cae3ce 
+    method - PUT 
+    IP - ::1
+   {"timestamp":"2022-03-08T08:52:15.548Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-03-08T08:52:59.928Z"}
+info: Connected to the database. {"timestamp":"2022-03-08T08:52:59.953Z"}
+error: 
+    status - 500 
+    message - ReferenceError: UserID is not defined
+    at _callee4$ (C:\Users\anand\Desktop\fundoo-Notes\src\services\/note.service.js:63:18)
+    at tryCatch (C:\Users\anand\Desktop\fundoo-Notes\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (C:\Users\anand\Desktop\fundoo-Notes\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (C:\Users\anand\Desktop\fundoo-Notes\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (C:\Users\anand\Desktop\fundoo-Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\anand\Desktop\fundoo-Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/note/6227150d7c781846d0cae3ce 
+    method - PUT 
+    IP - ::1
+   {"timestamp":"2022-03-08T08:53:10.701Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-03-08T08:53:31.836Z"}
+info: Connected to the database. {"timestamp":"2022-03-08T08:53:31.863Z"}
+error: 
+      status - 400
+      message - Authorization token is incorrect 
+      url - /api/v1/note/6227150d7c781846d0cae3ce 
+      method - PUT 
+      IP - ::1
+     {"timestamp":"2022-03-08T08:54:36.641Z"}
+error: 
+      status - 400
+      message - Authorization token is incorrect 
+      url - /api/v1/note/6227150d7c781846d0cae3ce 
+      method - GET 
+      IP - ::1
+     {"timestamp":"2022-03-08T08:55:00.160Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-03-08T08:55:35.148Z"}
+info: Connected to the database. {"timestamp":"2022-03-08T08:55:35.170Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-03-08T08:55:45.421Z"}
+info: Connected to the database. {"timestamp":"2022-03-08T08:55:45.448Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-03-08T08:55:55.309Z"}
+info: Connected to the database. {"timestamp":"2022-03-08T08:55:55.333Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-03-08T08:56:11.527Z"}
+info: Connected to the database. {"timestamp":"2022-03-08T08:56:11.551Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-03-08T08:56:50.546Z"}
+info: Connected to the database. {"timestamp":"2022-03-08T08:56:50.571Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-03-08T08:58:07.371Z"}
+info: Connected to the database. {"timestamp":"2022-03-08T08:58:07.395Z"}
+error: 
+      status - 400
+      message - User dont have access to this NoteID  
+      url - /api/v1/note/6227150d7c781846d0cae3ce 
+      method - GET 
+      IP - ::1
+     {"timestamp":"2022-03-08T08:58:08.215Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-03-08T08:58:43.471Z"}
+info: Connected to the database. {"timestamp":"2022-03-08T08:58:43.497Z"}
+error: 
+      status - 400
+      message - User dont have access to this NoteID  
+      url - /api/v1/note/6227150d7c781846d0cae3ce 
+      method - PUT 
+      IP - ::1
+     {"timestamp":"2022-03-08T08:58:48.573Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-03-08T09:32:23.280Z"}
+info: Connected to the database. {"timestamp":"2022-03-08T09:32:23.311Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-03-08T09:41:54.544Z"}
+info: Connected to the database. {"timestamp":"2022-03-08T09:41:54.574Z"}
+error: uncaughtException: connect ECONNREFUSED 127.0.0.1:5672
+Error: connect ECONNREFUSED 127.0.0.1:5672
+    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1161:16) {"date":"Tue Mar 08 2022 15:11:54 GMT+0530 (India Standard Time)","error":{"address":"127.0.0.1","code":"ECONNREFUSED","errno":-4078,"port":5672,"syscall":"connect"},"exception":true,"os":{"loadavg":[0,0,0],"uptime":519753},"process":{"argv":["C:\\Program Files\\nodejs\\node.exe","C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\mocha\\bin\\mocha","--exit","--recursive","--require","@babel/register","--timeout=5000","tests/**/*.js"],"cwd":"C:\\Users\\anand\\Desktop\\fundoo-Notes","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18566992,"external":22913825,"heapTotal":169910272,"heapUsed":146868416,"rss":204595200},"pid":10180,"uid":null,"version":"v16.13.2"},"stack":"Error: connect ECONNREFUSED 127.0.0.1:5672\n    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1161:16)","timestamp":"2022-03-08T09:41:54.845Z","trace":[{"column":16,"file":"node:net","function":"TCPConnectWrap.afterConnect [as oncomplete]","line":1161,"method":"afterConnect [as oncomplete]","native":false}]}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-03-08T09:42:39.246Z"}
+info: Connected to the database. {"timestamp":"2022-03-08T09:42:39.280Z"}
+error: 
+    status - 500 
+    message - TypeError: req.status is not a function
+    at newUserValidator (C:\Users\anand\Desktop\fundoo-Notes\src\validators\/user.validator.js:17:9)
+    at Layer.handle [as handle_request] (C:\Users\anand\Desktop\fundoo-Notes\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\anand\Desktop\fundoo-Notes\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (C:\Users\anand\Desktop\fundoo-Notes\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (C:\Users\anand\Desktop\fundoo-Notes\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\anand\Desktop\fundoo-Notes\node_modules\express\lib\router\index.js:281:22
+    at Function.process_params (C:\Users\anand\Desktop\fundoo-Notes\node_modules\express\lib\router\index.js:341:12)
+    at next (C:\Users\anand\Desktop\fundoo-Notes\node_modules\express\lib\router\index.js:275:10)
+    at Function.handle (C:\Users\anand\Desktop\fundoo-Notes\node_modules\express\lib\router\index.js:174:3)
+    at router (C:\Users\anand\Desktop\fundoo-Notes\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (C:\Users\anand\Desktop\fundoo-Notes\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\anand\Desktop\fundoo-Notes\node_modules\express\lib\router\index.js:323:13)
+    at C:\Users\anand\Desktop\fundoo-Notes\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (C:\Users\anand\Desktop\fundoo-Notes\node_modules\express\lib\router\index.js:341:12)
+    at next (C:\Users\anand\Desktop\fundoo-Notes\node_modules\express\lib\router\index.js:275:10)
+    at Function.handle (C:\Users\anand\Desktop\fundoo-Notes\node_modules\express\lib\router\index.js:174:3)
+    at router (C:\Users\anand\Desktop\fundoo-Notes\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (C:\Users\anand\Desktop\fundoo-Notes\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\anand\Desktop\fundoo-Notes\node_modules\express\lib\router\index.js:323:13)
+    at C:\Users\anand\Desktop\fundoo-Notes\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (C:\Users\anand\Desktop\fundoo-Notes\node_modules\express\lib\router\index.js:341:12)
+    at next (C:\Users\anand\Desktop\fundoo-Notes\node_modules\express\lib\router\index.js:275:10)
+    at logger (C:\Users\anand\Desktop\fundoo-Notes\node_modules\morgan\index.js:144:5)
+    at Layer.handle [as handle_request] (C:\Users\anand\Desktop\fundoo-Notes\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\anand\Desktop\fundoo-Notes\node_modules\express\lib\router\index.js:323:13)
+    at C:\Users\anand\Desktop\fundoo-Notes\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (C:\Users\anand\Desktop\fundoo-Notes\node_modules\express\lib\router\index.js:341:12)
+    at next (C:\Users\anand\Desktop\fundoo-Notes\node_modules\express\lib\router\index.js:275:10)
+    at C:\Users\anand\Desktop\fundoo-Notes\node_modules\body-parser\lib\read.js:130:5
+    at invokeCallback (C:\Users\anand\Desktop\fundoo-Notes\node_modules\raw-body\index.js:224:16)
+    at done (C:\Users\anand\Desktop\fundoo-Notes\node_modules\raw-body\index.js:213:7)
+    at IncomingMessage.onEnd (C:\Users\anand\Desktop\fundoo-Notes\node_modules\raw-body\index.js:273:7)
+    at IncomingMessage.emit (node:events:402:35)
+    at endReadableNT (node:internal/streams/readable:1343:12)
+    at processTicksAndRejections (node:internal/process/task_queues:83:21) 
+    url - /api/v1/users/register 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-03-08T09:42:39.325Z"}
+error: uncaughtException: expected 500 to equal 201
+AssertionError: expected 500 to equal 201
+    at Test.<anonymous> (C:\Users\anand\Desktop\fundoo-Notes\tests\integration\/user.test.js:69:40)
+    at Test.assert (C:\Users\anand\Desktop\fundoo-Notes\node_modules\supertest\lib\test.js:181:6)
+    at Server.localAssert (C:\Users\anand\Desktop\fundoo-Notes\node_modules\supertest\lib\test.js:131:12)
+    at Object.onceWrapper (node:events:509:28)
+    at Server.emit (node:events:390:28)
+    at emitCloseNT (node:net:1681:8)
+    at processTicksAndRejections (node:internal/process/task_queues:82:21) {"date":"Tue Mar 08 2022 15:12:39 GMT+0530 (India Standard Time)","error":{"actual":500,"expected":201,"message":"expected 500 to equal 201","name":"AssertionError","operator":"strictEqual","showDiff":true,"stack":"AssertionError: expected 500 to equal 201\n    at Test.<anonymous> (C:\\Users\\anand\\Desktop\\fundoo-Notes\\tests\\integration\\/user.test.js:69:40)\n    at Test.assert (C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\supertest\\lib\\test.js:181:6)\n    at Server.localAssert (C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\supertest\\lib\\test.js:131:12)\n    at Object.onceWrapper (node:events:509:28)\n    at Server.emit (node:events:390:28)\n    at emitCloseNT (node:net:1681:8)\n    at processTicksAndRejections (node:internal/process/task_queues:82:21)"},"exception":true,"os":{"loadavg":[0,0,0],"uptime":519797},"process":{"argv":["C:\\Program Files\\nodejs\\node.exe","C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\mocha\\bin\\mocha","--exit","--recursive","--require","@babel/register","--timeout=5000","tests/**/*.js"],"cwd":"C:\\Users\\anand\\Desktop\\fundoo-Notes","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18568640,"external":22963963,"heapTotal":176275456,"heapUsed":144180960,"rss":211095552},"pid":3128,"uid":null,"version":"v16.13.2"},"stack":"AssertionError: expected 500 to equal 201\n    at Test.<anonymous> (C:\\Users\\anand\\Desktop\\fundoo-Notes\\tests\\integration\\/user.test.js:69:40)\n    at Test.assert (C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\supertest\\lib\\test.js:181:6)\n    at Server.localAssert (C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\supertest\\lib\\test.js:131:12)\n    at Object.onceWrapper (node:events:509:28)\n    at Server.emit (node:events:390:28)\n    at emitCloseNT (node:net:1681:8)\n    at processTicksAndRejections (node:internal/process/task_queues:82:21)","timestamp":"2022-03-08T09:42:39.364Z","trace":[{"column":40,"file":"C:\\Users\\anand\\Desktop\\fundoo-Notes\\tests\\integration\\/user.test.js","function":null,"line":69,"method":null,"native":false},{"column":6,"file":"C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\supertest\\lib\\test.js","function":"Test.assert","line":181,"method":"assert","native":false},{"column":12,"file":"C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\supertest\\lib\\test.js","function":"Server.localAssert","line":131,"method":"localAssert","native":false},{"column":28,"file":"node:events","function":"Object.onceWrapper","line":509,"method":"onceWrapper","native":false},{"column":28,"file":"node:events","function":"Server.emit","line":390,"method":"emit","native":false},{"column":8,"file":"node:net","function":"emitCloseNT","line":1681,"method":null,"native":false},{"column":21,"file":"node:internal/process/task_queues","function":"processTicksAndRejections","line":82,"method":null,"native":false}]}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-03-08T09:44:03.319Z"}
+info: Connected to the database. {"timestamp":"2022-03-08T09:44:03.354Z"}
+error: 
+    status - 500 
+    message - TypeError: req.status is not a function
+    at newUserValidator (C:\Users\anand\Desktop\fundoo-Notes\src\validators\/user.validator.js:17:9)
+    at Layer.handle [as handle_request] (C:\Users\anand\Desktop\fundoo-Notes\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\anand\Desktop\fundoo-Notes\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (C:\Users\anand\Desktop\fundoo-Notes\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (C:\Users\anand\Desktop\fundoo-Notes\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\anand\Desktop\fundoo-Notes\node_modules\express\lib\router\index.js:281:22
+    at Function.process_params (C:\Users\anand\Desktop\fundoo-Notes\node_modules\express\lib\router\index.js:341:12)
+    at next (C:\Users\anand\Desktop\fundoo-Notes\node_modules\express\lib\router\index.js:275:10)
+    at Function.handle (C:\Users\anand\Desktop\fundoo-Notes\node_modules\express\lib\router\index.js:174:3)
+    at router (C:\Users\anand\Desktop\fundoo-Notes\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (C:\Users\anand\Desktop\fundoo-Notes\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\anand\Desktop\fundoo-Notes\node_modules\express\lib\router\index.js:323:13)
+    at C:\Users\anand\Desktop\fundoo-Notes\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (C:\Users\anand\Desktop\fundoo-Notes\node_modules\express\lib\router\index.js:341:12)
+    at next (C:\Users\anand\Desktop\fundoo-Notes\node_modules\express\lib\router\index.js:275:10)
+    at Function.handle (C:\Users\anand\Desktop\fundoo-Notes\node_modules\express\lib\router\index.js:174:3)
+    at router (C:\Users\anand\Desktop\fundoo-Notes\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (C:\Users\anand\Desktop\fundoo-Notes\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\anand\Desktop\fundoo-Notes\node_modules\express\lib\router\index.js:323:13)
+    at C:\Users\anand\Desktop\fundoo-Notes\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (C:\Users\anand\Desktop\fundoo-Notes\node_modules\express\lib\router\index.js:341:12)
+    at next (C:\Users\anand\Desktop\fundoo-Notes\node_modules\express\lib\router\index.js:275:10)
+    at logger (C:\Users\anand\Desktop\fundoo-Notes\node_modules\morgan\index.js:144:5)
+    at Layer.handle [as handle_request] (C:\Users\anand\Desktop\fundoo-Notes\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\anand\Desktop\fundoo-Notes\node_modules\express\lib\router\index.js:323:13)
+    at C:\Users\anand\Desktop\fundoo-Notes\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (C:\Users\anand\Desktop\fundoo-Notes\node_modules\express\lib\router\index.js:341:12)
+    at next (C:\Users\anand\Desktop\fundoo-Notes\node_modules\express\lib\router\index.js:275:10)
+    at C:\Users\anand\Desktop\fundoo-Notes\node_modules\body-parser\lib\read.js:130:5
+    at invokeCallback (C:\Users\anand\Desktop\fundoo-Notes\node_modules\raw-body\index.js:224:16)
+    at done (C:\Users\anand\Desktop\fundoo-Notes\node_modules\raw-body\index.js:213:7)
+    at IncomingMessage.onEnd (C:\Users\anand\Desktop\fundoo-Notes\node_modules\raw-body\index.js:273:7)
+    at IncomingMessage.emit (node:events:402:35)
+    at endReadableNT (node:internal/streams/readable:1343:12)
+    at processTicksAndRejections (node:internal/process/task_queues:83:21) 
+    url - /api/v1/users/register 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-03-08T09:44:03.399Z"}
+error: uncaughtException: expected 500 to equal 201
+AssertionError: expected 500 to equal 201
+    at Test.<anonymous> (C:\Users\anand\Desktop\fundoo-Notes\tests\integration\/user.test.js:69:40)
+    at Test.assert (C:\Users\anand\Desktop\fundoo-Notes\node_modules\supertest\lib\test.js:181:6)
+    at Server.localAssert (C:\Users\anand\Desktop\fundoo-Notes\node_modules\supertest\lib\test.js:131:12)
+    at Object.onceWrapper (node:events:509:28)
+    at Server.emit (node:events:390:28)
+    at emitCloseNT (node:net:1681:8)
+    at processTicksAndRejections (node:internal/process/task_queues:82:21) {"date":"Tue Mar 08 2022 15:14:03 GMT+0530 (India Standard Time)","error":{"actual":500,"expected":201,"message":"expected 500 to equal 201","name":"AssertionError","operator":"strictEqual","showDiff":true,"stack":"AssertionError: expected 500 to equal 201\n    at Test.<anonymous> (C:\\Users\\anand\\Desktop\\fundoo-Notes\\tests\\integration\\/user.test.js:69:40)\n    at Test.assert (C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\supertest\\lib\\test.js:181:6)\n    at Server.localAssert (C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\supertest\\lib\\test.js:131:12)\n    at Object.onceWrapper (node:events:509:28)\n    at Server.emit (node:events:390:28)\n    at emitCloseNT (node:net:1681:8)\n    at processTicksAndRejections (node:internal/process/task_queues:82:21)"},"exception":true,"os":{"loadavg":[0,0,0],"uptime":519881},"process":{"argv":["C:\\Program Files\\nodejs\\node.exe","C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\mocha\\bin\\mocha","--exit","--recursive","--require","@babel/register","--timeout=5000","tests/**/*.js"],"cwd":"C:\\Users\\anand\\Desktop\\fundoo-Notes","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18568640,"external":22963963,"heapTotal":176275456,"heapUsed":144143040,"rss":210599936},"pid":6004,"uid":null,"version":"v16.13.2"},"stack":"AssertionError: expected 500 to equal 201\n    at Test.<anonymous> (C:\\Users\\anand\\Desktop\\fundoo-Notes\\tests\\integration\\/user.test.js:69:40)\n    at Test.assert (C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\supertest\\lib\\test.js:181:6)\n    at Server.localAssert (C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\supertest\\lib\\test.js:131:12)\n    at Object.onceWrapper (node:events:509:28)\n    at Server.emit (node:events:390:28)\n    at emitCloseNT (node:net:1681:8)\n    at processTicksAndRejections (node:internal/process/task_queues:82:21)","timestamp":"2022-03-08T09:44:03.445Z","trace":[{"column":40,"file":"C:\\Users\\anand\\Desktop\\fundoo-Notes\\tests\\integration\\/user.test.js","function":null,"line":69,"method":null,"native":false},{"column":6,"file":"C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\supertest\\lib\\test.js","function":"Test.assert","line":181,"method":"assert","native":false},{"column":12,"file":"C:\\Users\\anand\\Desktop\\fundoo-Notes\\node_modules\\supertest\\lib\\test.js","function":"Server.localAssert","line":131,"method":"localAssert","native":false},{"column":28,"file":"node:events","function":"Object.onceWrapper","line":509,"method":"onceWrapper","native":false},{"column":28,"file":"node:events","function":"Server.emit","line":390,"method":"emit","native":false},{"column":8,"file":"node:net","function":"emitCloseNT","line":1681,"method":null,"native":false},{"column":21,"file":"node:internal/process/task_queues","function":"processTicksAndRejections","line":82,"method":null,"native":false}]}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-03-08T09:49:02.254Z"}
+info: Connected to the database. {"timestamp":"2022-03-08T09:49:02.298Z"}
+error: 
+      status - 400
+      message - Authorization token is required 
+      url - /api/v1/note 
+      method - POST 
+      IP - ::1
+     {"timestamp":"2022-03-08T09:50:38.876Z"}
+error: 
+    status - 500 
+    message - TypeError: req.status is not a function
+    at newUserValidator (C:\Users\anand\Desktop\fundoo-Notes\src\validators\/user.validator.js:16:9)
+    at Layer.handle [as handle_request] (C:\Users\anand\Desktop\fundoo-Notes\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\anand\Desktop\fundoo-Notes\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (C:\Users\anand\Desktop\fundoo-Notes\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (C:\Users\anand\Desktop\fundoo-Notes\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\anand\Desktop\fundoo-Notes\node_modules\express\lib\router\index.js:281:22
+    at Function.process_params (C:\Users\anand\Desktop\fundoo-Notes\node_modules\express\lib\router\index.js:341:12)
+    at next (C:\Users\anand\Desktop\fundoo-Notes\node_modules\express\lib\router\index.js:275:10)
+    at Function.handle (C:\Users\anand\Desktop\fundoo-Notes\node_modules\express\lib\router\index.js:174:3)
+    at router (C:\Users\anand\Desktop\fundoo-Notes\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (C:\Users\anand\Desktop\fundoo-Notes\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\anand\Desktop\fundoo-Notes\node_modules\express\lib\router\index.js:323:13)
+    at C:\Users\anand\Desktop\fundoo-Notes\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (C:\Users\anand\Desktop\fundoo-Notes\node_modules\express\lib\router\index.js:341:12)
+    at next (C:\Users\anand\Desktop\fundoo-Notes\node_modules\express\lib\router\index.js:275:10)
+    at Function.handle (C:\Users\anand\Desktop\fundoo-Notes\node_modules\express\lib\router\index.js:174:3)
+    at router (C:\Users\anand\Desktop\fundoo-Notes\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (C:\Users\anand\Desktop\fundoo-Notes\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\anand\Desktop\fundoo-Notes\node_modules\express\lib\router\index.js:323:13)
+    at C:\Users\anand\Desktop\fundoo-Notes\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (C:\Users\anand\Desktop\fundoo-Notes\node_modules\express\lib\router\index.js:341:12)
+    at next (C:\Users\anand\Desktop\fundoo-Notes\node_modules\express\lib\router\index.js:275:10) 
+    url - /api/v1/users/register 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-03-08T09:51:28.692Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-03-08T09:52:30.657Z"}
+info: Connected to the database. {"timestamp":"2022-03-08T09:52:30.708Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-03-08T09:58:41.498Z"}
+info: Connected to the database. {"timestamp":"2022-03-08T09:58:41.528Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-03-08T10:02:27.326Z"}
+info: Connected to the database. {"timestamp":"2022-03-08T10:02:27.358Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-03-08T10:02:59.690Z"}
+info: Connected to the database. {"timestamp":"2022-03-08T10:02:59.732Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-03-08T10:03:07.006Z"}
+info: Connected to the database. {"timestamp":"2022-03-08T10:03:07.035Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-03-08T10:04:26.952Z"}
+info: Connected to the database. {"timestamp":"2022-03-08T10:04:26.979Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-03-08T10:04:52.911Z"}
+info: Connected to the database. {"timestamp":"2022-03-08T10:04:53.004Z"}
+error: 
+    status - 500 
+    message - ReferenceError: HttpStatus is not defined
+    at newNoteValidator (C:\Users\anand\Desktop\fundoo-Notes\src\validators\/note.validator.js:16:18)
+    at Layer.handle [as handle_request] (C:\Users\anand\Desktop\fundoo-Notes\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\anand\Desktop\fundoo-Notes\node_modules\express\lib\router\route.js:137:13)
+    at C:\Users\anand\Desktop\fundoo-Notes\src\middlewares\/auth.middleware.js:45:9
+    at C:\Users\anand\Desktop\fundoo-Notes\node_modules\jsonwebtoken\verify.js:223:12
+    at getSecret (C:\Users\anand\Desktop\fundoo-Notes\node_modules\jsonwebtoken\verify.js:90:14)
+    at Object.verify (C:\Users\anand\Desktop\fundoo-Notes\node_modules\jsonwebtoken\verify.js:94:10)
+    at _callee$ (C:\Users\anand\Desktop\fundoo-Notes\src\middlewares\/auth.middleware.js:33:9)
+    at tryCatch (C:\Users\anand\Desktop\fundoo-Notes\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (C:\Users\anand\Desktop\fundoo-Notes\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (C:\Users\anand\Desktop\fundoo-Notes\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (C:\Users\anand\Desktop\fundoo-Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\anand\Desktop\fundoo-Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at C:\Users\anand\Desktop\fundoo-Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at C:\Users\anand\Desktop\fundoo-Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12
+    at NoteAuthentication (C:\Users\anand\Desktop\fundoo-Notes\src\middlewares\/auth.middleware.js:16:32)
+    at Layer.handle [as handle_request] (C:\Users\anand\Desktop\fundoo-Notes\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\anand\Desktop\fundoo-Notes\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (C:\Users\anand\Desktop\fundoo-Notes\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (C:\Users\anand\Desktop\fundoo-Notes\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\anand\Desktop\fundoo-Notes\node_modules\express\lib\router\index.js:281:22 
+    url - /api/v1/note 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-03-08T10:05:05.876Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-03-08T10:05:41.108Z"}
+info: Connected to the database. {"timestamp":"2022-03-08T10:05:41.137Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-03-08T10:07:15.617Z"}
+info: Connected to the database. {"timestamp":"2022-03-08T10:07:15.638Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-03-08T10:08:19.849Z"}
+info: Connected to the database. {"timestamp":"2022-03-08T10:08:19.876Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-03-08T10:18:37.121Z"}
+info: Connected to the database. {"timestamp":"2022-03-08T10:18:37.153Z"}
