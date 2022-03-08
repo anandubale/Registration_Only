@@ -9,6 +9,8 @@ import swaggerDocument from '../src/swagger/swager.json';
 
 import routes from './routes';
 import database from './config/database';
+import redisDB from './config/redis';
+
 import {
   appErrorHandler,
   genericErrorHandler,
@@ -32,6 +34,7 @@ app.use(morgan('combined', { stream: logStream }));
 app.use('/api-docs', swaggerUi.serve, swaggerUi.setup(swaggerDocument));
 
 database();
+redisDB();
 
 app.use(`/api/${api_version}`, routes());
 app.use(appErrorHandler);

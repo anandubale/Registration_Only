@@ -12,7 +12,7 @@ router.get('', userController.getallUsers);
 router.post('/register', newUserValidator, userController.userRegistration);
 
 
-// // for login
+// for login
 router.post('/login', userController.login);
 
 
@@ -20,7 +20,6 @@ router.post('/forget',userController.forgetPassword)
 
 
 router.put('/reset',PassAuth,userController.resetPassword)
-
 
 export default router;
 

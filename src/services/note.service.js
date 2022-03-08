@@ -1,12 +1,17 @@
 import { boolean } from '@hapi/joi';
 import Note from '../models/note.model';
-import jwt from 'jsonwebtoken';
+import {client} from '../config/redis'
+
 
 //to create user using Note.create()
 
 export const createNotes = async(body)=> {
     const Notebody = await Note.create(body);
-    return Notebody;
+    console.log("3")
+    if(Notebody){
+        await client.del('allnotes');  //deleting before create
+        return Notebody;
+    }
 }
 
 
@@ -14,12 +19,15 @@ export const createNotes = async(body)=> {
 
 export const AllUsers = async (UserID) => {
     const AllUserdata = await Note.find({UserID}); 
+
     if(AllUserdata.length == 0){
         throw new Error("user dont have any notes")
-    }else{
-        return AllUserdata;
     }
-    
+    else
+    {
+        await client.set('allnotes',JSON.stringify(AllUserdata))  //assigning to redis server
+        return AllUserdata;
+    }    
 };
 
 

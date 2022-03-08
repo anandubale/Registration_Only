@@ -1,0 +1,51 @@
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-03-08T02:33:44.244Z"}
+info: Connected to the database. {"timestamp":"2022-03-08T02:33:44.275Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-03-08T02:35:34.446Z"}
+info: Connected to the database. {"timestamp":"2022-03-08T02:35:34.470Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-03-08T02:36:37.620Z"}
+info: Connected to the database. {"timestamp":"2022-03-08T02:36:37.658Z"}
+error: 
+    status - 500 
+    message - ValidationError: Note validation failed: Title: Path `Title` is required.
+    at model.Document.invalidate (C:\Users\anand\Desktop\fundoo-Notes\node_modules\mongoose\lib\document.js:2782:32)
+    at C:\Users\anand\Desktop\fundoo-Notes\node_modules\mongoose\lib\document.js:2574:17
+    at C:\Users\anand\Desktop\fundoo-Notes\node_modules\mongoose\lib\schematype.js:1273:9
+    at processTicksAndRejections (node:internal/process/task_queues:78:11) 
+    url - /api/v1/note 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-03-08T02:40:32.887Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-03-08T02:42:39.985Z"}
+info: Connected to the database. {"timestamp":"2022-03-08T02:42:40.151Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-03-08T02:43:47.529Z"}
+info: Connected to the database. {"timestamp":"2022-03-08T02:43:47.630Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-03-08T03:09:40.188Z"}
+info: Connected to the database. {"timestamp":"2022-03-08T03:09:40.213Z"}
+error: 
+    status - 500 
+    message - Error: User is not Registered
+    at _callee3$ (C:\Users\anand\Desktop\fundoo-Notes\src\services\/user.service.js:46:9)
+    at tryCatch (C:\Users\anand\Desktop\fundoo-Notes\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (C:\Users\anand\Desktop\fundoo-Notes\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (C:\Users\anand\Desktop\fundoo-Notes\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (C:\Users\anand\Desktop\fundoo-Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\anand\Desktop\fundoo-Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/users/login 
+    method - POST 
+    IP - ::1
+   {"timestamp":"2022-03-08T03:10:25.305Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-03-08T03:11:57.452Z"}
+info: Connected to the database. {"timestamp":"2022-03-08T03:11:57.480Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-03-08T03:12:08.293Z"}
+info: Connected to the database. {"timestamp":"2022-03-08T03:12:08.317Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-03-08T03:12:42.152Z"}
+info: Connected to the database. {"timestamp":"2022-03-08T03:12:42.214Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-03-08T03:17:12.225Z"}
+info: Connected to the database. {"timestamp":"2022-03-08T03:17:12.250Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-03-08T03:26:32.334Z"}
+info: Connected to the database. {"timestamp":"2022-03-08T03:26:32.360Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-03-08T03:31:29.807Z"}
+info: Connected to the database. {"timestamp":"2022-03-08T03:31:29.836Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-03-08T03:32:16.762Z"}
+info: Connected to the database. {"timestamp":"2022-03-08T03:32:16.789Z"}

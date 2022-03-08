@@ -7,7 +7,12 @@ import {sendMailTo} from '../utils/helper.js';
 
 export const getAllUsers = async () => {
   const data = await User.find();
-  return data;
+  if(data.length == 0){
+    throw new Error("no content")
+  }
+  else{
+    return data;
+  }
 };
 
 
@@ -16,8 +21,9 @@ export const userRegistration = async (body) => {
   const saltRounds = 10;
   const hasedPassword = bcrypt.hashSync(body.password,saltRounds); //if use await - then use bcrypt.hashSync
   body.password = hasedPassword;
-  const data = await User.create(body);       //create is mangoose query method -create(doc(s), [callback]): create document object and save it to database; callback has error and doc(s) arguments
-  return data;    //create object and save it to database
+  const data = await User.create(body);  
+  return data;   
+  
 }; 
 
 
@@ -26,19 +32,23 @@ export const userRegistration = async (body) => {
                       //emailID + password = body
 export const login = async  (body)=>{ 
   const user = await User.findOne({emailID: body.emailID})
-  if(user != null){
+  if(user != null)
+  {
    const validPassword = bcrypt.compareSync(body.password, user.password);
-   if(validPassword ){
+   if(validPassword )
+   {
     const token = jwt.sign({"emailID": user.emailID,"id":user._id}, process.env.NOTE_SECRET_CODE);
     return token;
    }
-   else{
+   else
+   {
      throw new Error('password does not match');
    }
  }
- else{
-  throw new Error('User is not Registered');  
-}
+ else
+ {
+  throw new Error('email is not Registered');  
+ }
 }
 
 

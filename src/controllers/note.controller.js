@@ -14,7 +14,8 @@ import * as NoteService from '../services/note.service';
 
 export const create = async (req, res, next) => {
   try {
-    req.body.UserID = req.body.data.id;    
+    req.body.UserID = req.body.data.id;  
+    console.log("2")
     const tokenToCreatedData = await NoteService.createNotes(req.body);
     res.status(HttpStatus.OK).json({
       code: HttpStatus.OK,
@@ -31,6 +32,7 @@ export const create = async (req, res, next) => {
     try {
       
       req.body.UserID = req.body.data.id;
+
       const AllUserdata = await NoteService.AllUsers(req.body.UserID);
       res.status(HttpStatus.OK).json({
         code: HttpStatus.OK,
