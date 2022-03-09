@@ -14,7 +14,7 @@ export const getallUsers = async (req,res,next) =>{
     })
   } catch (error) {
     next(error);
-  }
+  } 
 }
 
 /**
@@ -26,35 +26,51 @@ export const getallUsers = async (req,res,next) =>{
 
 
 
-export const userRegistration = async (req, res, next) => {
+export const userRegistration = async (req, res) => {
   try {
-    const data = await UserService.userRegistration(req.body);  //it will get the data and tell him to wait till loacding and save it in data.
+    const data = await UserService.userRegistration(req.body);  
     res.status(HttpStatus.CREATED).json({
       code: HttpStatus.CREATED,
       data: data,
       message: 'User created successfully'
     });
   } catch (error) {
-    next(error);
+    res.status(HttpStatus.CONFLICT).json({
+      code : HttpStatus.CONFLICT,
+      message :  `${error}`
+    })  
   }
 };
 
 
-export const login = async (req, res, next) => {
-  try {
+export const login = async (req, res) => {
+  try { 
+
     console.log(req.body.emailID)
-    const data = await UserService.login(req.body);  
-    res.status(HttpStatus.OK).json({
-      code: HttpStatus.OK,
-      data: data,
-      message: 'login Successfully'
-    }); 
+    const data = await UserService.login(req.body);
+    if(data == null) { 
+      res.status(HttpStatus.NOT_FOUND).json({
+        code : HttpStatus.NOT_FOUND,
+        message : `${error}`
+      })
+    }
+    else{
+      res.status(HttpStatus.OK).json({
+        code: HttpStatus.OK,
+        data: data,
+        message: 'login Successfully'
+      }); 
+    }  
+  
   } catch (error) {
-    next(error);
+    res.status(HttpStatus.BAD_REQUEST).json({
+      code : HttpStatus.BAD_REQUEST,
+      message :  `${error}`
+    })
   }
 };
 
-export const forgetPassword = async (req,res,next)=>{
+export const forgetPassword = async (req,res)=>{
   try {
     console.log(req.body)
     const data = await UserService.forgetPassword(req.body.emailID);
@@ -65,14 +81,17 @@ export const forgetPassword = async (req,res,next)=>{
       message: "password has sent Successfully to email"
     })
   } catch (error) {
-    next(error);
+    res.status(HttpStatus.NOT_FOUND).json({
+      code : HttpStatus.NOT_FOUND,
+      message : `${error}`
+    })
   }
 }
 
 
 
 
-export const resetPassword = async (req,res,next) => {
+export const resetPassword = async (req,res) => {
   try {
     req.body.UserID = req.body.data.id;
     console.log(req.body.password);
@@ -83,7 +102,10 @@ export const resetPassword = async (req,res,next) => {
       message: "password reset successfully"
     })
   } catch (error) {
-    next(error);
+    res.status(HttpStatus.BAD_REQUEST).json({
+      code : HttpStatus.BAD_REQUEST,
+      message :  `${error}`
+    })  
   }
 
 }

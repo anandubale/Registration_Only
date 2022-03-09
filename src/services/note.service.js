@@ -3,6 +3,9 @@ import Note from '../models/note.model';
 import {client} from '../config/redis';
 
 
+
+
+
 //to create user using Note.create()
 
 export const createNotes = async(body)=> {
@@ -14,7 +17,11 @@ export const createNotes = async(body)=> {
 }
 
 
-//to get all users using Note.find()-->working
+
+
+
+
+//to get all users using Note.find()
 
 export const AllNotes = async (UserID) => {
     const AllNotedata = await Note.find({UserID}); 
@@ -31,33 +38,47 @@ export const AllNotes = async (UserID) => {
 
 
 
-//Using tow Parameters ->working
+//Using tow Parameters
 export const getNoteById = async(_id,UserID)=>{
     const dataById = await Note.findById({_id, UserID});
-    return dataById;  
+    if(  dataById == null )
+    {
+        throw new Error("There is no note with this ID")
+    } 
+    else
+    {
+        return dataById;  
+    }
 }
 
 
 
 
-//update user:-> working
+//update user
 
 export const updateById = async(_id,body)=>{
-    const updatedData = await Note.findByIdAndUpdate(
-        {
-            _id
-        },
-        body,
-        {
-            new :true
-        }
-    );
-   
+    const checking = await Note.findById(_id);
+    if( checking  == null )
+    {
+        throw new Error("There is no note with this ID")    
+    } 
+    else
+    {
+        const updatedData = await Note.findByIdAndUpdate(
+            {
+                _id
+            },
+            body,
+            {
+                new :true
+            }
+        );
         return updatedData;
+    }
     
 };
 
-//delete user using id: working
+
 
 export const deleteNote = async(_id,body)=>{
     await Note.findByIdAndDelete({_id : _id,

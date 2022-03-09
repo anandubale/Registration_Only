@@ -14,7 +14,6 @@ export const sendMailTo = (sendtoID ,token) => {
         }
     })
 
-    // var transport = nodemailer.createTransport('smtps://user%40gmail.com: nanan66398@naluzotan.com');
 
 
     //2 transport object
@@ -40,6 +39,43 @@ export const sendMailTo = (sendtoID ,token) => {
         })
 
     })
+}
+
+
+export const Rabbitmq_sendMail = (sendtoID) => {
+
+    // 1 - transporter use to transfport to email
+    const transport =  nodemailer.createTransport({
+        service :"gmail",
+        auth: {
+            user : process.env.FROM_ID,
+            pass : process.env.PASSWORD
+        }
+    })
+
+    //2 transport object
+    const formatedMail = {
+        form :process.env.FROM_ID,
+        to: sendtoID,
+        subject : "rabbitmq trial",
+        html :`<h1>this is Rabbitmq mailer</h1>`
+    }
+
+    //3.send mail with defined transport object
+    return new Promise((resolve,reject) => {
+
+        transport.sendMail(formatedMail,(err,info)=> {
+            if(err){
+               logger.log('error',err)
+               return reject;
+            }
+            else{
+              logger.log('info',info);
+              return resolve("you have got mail");
+            }
+        })
+
+    }) 
 }
 
 
