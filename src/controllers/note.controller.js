@@ -15,7 +15,6 @@ import * as NoteService from '../services/note.service';
 export const create = async (req, res, next) => {
   try {
     req.body.UserID = req.body.data.id;  
-    console.log("2")
     const tokenToCreatedData = await NoteService.createNotes(req.body);
     res.status(HttpStatus.OK).json({
       code: HttpStatus.OK,
@@ -23,7 +22,9 @@ export const create = async (req, res, next) => {
       message: 'note added'
     });
   } catch (error) {
-    next(error);
+    res.status(HttpStatus.BAD_REQUEST).json({
+      
+    })
   }
 };
 
@@ -39,16 +40,15 @@ export const create = async (req, res, next) => {
         message: 'All notes fetched successfully'
       });
     } catch (error) {
-      next(error);
+      next();
     }
   };
 
 
-//get user by id
 
 export const getNoteById = async(req,res,next)=>{
   try {
-    req.body.UserID = req.body.data.id; //its a user id automatically created one
+    req.body.UserID = req.body.data.id; 
 
     const dataById = await NoteService.getNoteById(req.params._id, req.body.UserID);
     res.status(HttpStatus.OK).json({
@@ -76,7 +76,7 @@ export const updateById = async(req,res,next)=>{
     next(error);
   }
 }
-//delete note
+
 
 export const deleteNote = async(req,res,next)=>{
   try {   

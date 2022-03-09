@@ -193,6 +193,27 @@ describe('User APIs Test', () => {
     //   });
   // });
 
+
+    
+    // describe(`PUT/Reset`, () => {
+    //   it('B)Wrong Token test.3', (done) => {
+    //     const obj2 = {
+    //       password : "asdfg@gmail.com"
+
+    //     };
+    //     const jwtToken = "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbElEIjoiYW5hbmR1YmFsZTExQGdtYWlsLmNvbSIsImlkIjoiNjIyMjA1NWEwNTg1MDg0NWUwMWJmMjM0IiwiaWF0IjoxNjQ2Mzk2NzYyfQ.Bnjs7VGcl8JVhutBMPmoExm3tI_ebS0bv-N_z8ack"
+
+    //     request(app)
+    //       .put('/api/v1/users/reset')
+    //       .set('Authorization',`${jwtToken}`)
+    //       .send(obj2)
+    //       .end((err, res) => {
+    //         expect(res.statusCode).to.be.equal(HttpStatus.OK);
+    //         done();
+    //       });
+    //   });
+  // });
+
 });
 
 });
