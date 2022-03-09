@@ -38,7 +38,8 @@ export const NoteAuthentication = async (req, res, next) => {
         // req.body['UserID'] = req.body.data.id
 
         req.body['data'] = verifedtoken;  
-        console.log(req.body.data);
+        req.body.UserID = req.body.data.id;  
+
         next();
       }
     });

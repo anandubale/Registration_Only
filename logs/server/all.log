@@ -13437,3 +13437,45 @@ info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-03-09T0
 info: Connected to the database. {"timestamp":"2022-03-09T04:01:50.989Z"}
 info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-03-09T04:26:57.464Z"}
 info: Connected to the database. {"timestamp":"2022-03-09T04:26:57.493Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-03-09T17:00:24.433Z"}
+info: Connected to the database. {"timestamp":"2022-03-09T17:00:24.470Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-03-09T17:01:35.103Z"}
+info: Connected to the database. {"timestamp":"2022-03-09T17:01:35.267Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-03-09T17:02:11.614Z"}
+info: Connected to the database. {"timestamp":"2022-03-09T17:02:11.680Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-03-09T17:02:49.822Z"}
+info: Connected to the database. {"timestamp":"2022-03-09T17:02:49.877Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-03-09T17:03:07.401Z"}
+info: Connected to the database. {"timestamp":"2022-03-09T17:03:07.437Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-03-09T17:03:52.842Z"}
+info: Connected to the database. {"timestamp":"2022-03-09T17:03:52.877Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-03-09T17:05:40.023Z"}
+info: Connected to the database. {"timestamp":"2022-03-09T17:05:40.058Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-03-09T17:07:26.011Z"}
+info: Connected to the database. {"timestamp":"2022-03-09T17:07:26.041Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-03-09T17:07:47.916Z"}
+info: Connected to the database. {"timestamp":"2022-03-09T17:07:47.964Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-03-09T17:07:58.648Z"}
+info: Connected to the database. {"timestamp":"2022-03-09T17:07:58.710Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-03-09T17:08:07.658Z"}
+info: Connected to the database. {"timestamp":"2022-03-09T17:08:07.690Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-03-09T17:08:44.295Z"}
+info: Connected to the database. {"timestamp":"2022-03-09T17:08:44.331Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-03-09T17:08:56.686Z"}
+info: Connected to the database. {"timestamp":"2022-03-09T17:08:56.733Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-03-09T17:09:06.220Z"}
+info: Connected to the database. {"timestamp":"2022-03-09T17:09:06.252Z"}
+error: 
+    status - 500 
+    message - Error: There is no note with this ID
+    at _callee3$ (C:\Users\anand\Desktop\fundoo-Notes\src\services\/note.service.js:43:15)
+    at tryCatch (C:\Users\anand\Desktop\fundoo-Notes\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (C:\Users\anand\Desktop\fundoo-Notes\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (C:\Users\anand\Desktop\fundoo-Notes\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (C:\Users\anand\Desktop\fundoo-Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\anand\Desktop\fundoo-Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/note/6228df3210862339e88c184d 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2022-03-09T17:11:17.697Z"}
