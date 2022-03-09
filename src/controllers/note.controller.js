@@ -14,7 +14,6 @@ import * as NoteService from '../services/note.service';
 
 export const create = async (req, res, next) => {
   try {
-    req.body.UserID = req.body.data.id;  
     const tokenToCreatedData = await NoteService.createNotes(req.body);
     res.status(HttpStatus.OK).json({
       code: HttpStatus.OK,
@@ -23,6 +22,8 @@ export const create = async (req, res, next) => {
     });
   } catch (error) {
     res.status(HttpStatus.BAD_REQUEST).json({
+      code : HttpStatus.BAD_REQUEST,
+      message: `${error}`
       
     })
   }
@@ -32,7 +33,6 @@ export const create = async (req, res, next) => {
  export const AllNotes = async (req, res, next) => {
     try {
       
-      req.body.UserID = req.body.data.id;
       const AllUserdata = await NoteService.AllNotes(req.body.UserID);
       res.status(HttpStatus.OK).json({
         code: HttpStatus.OK,
@@ -48,7 +48,6 @@ export const create = async (req, res, next) => {
 
 export const getNoteById = async(req,res,next)=>{
   try {
-    req.body.UserID = req.body.data.id; 
 
     const dataById = await NoteService.getNoteById(req.params._id, req.body.UserID);
     res.status(HttpStatus.OK).json({
@@ -64,7 +63,6 @@ export const getNoteById = async(req,res,next)=>{
 
 export const updateById = async(req,res,next)=>{
   try { 
-    req.body.UserID = req.body.data.id; 
     const updatedData = await NoteService.updateById(req.params._id,req.body);
     res.status(HttpStatus.OK).json({
       code:HttpStatus.OK,
@@ -80,7 +78,6 @@ export const updateById = async(req,res,next)=>{
 
 export const deleteNote = async(req,res,next)=>{
   try {   
-    req.body.UserID = req.body.data.id;
    await NoteService.deleteNote(req.params._id, req.body.UserID);
    res.status(HttpStatus.OK).json({
      code:HttpStatus.OK,
@@ -96,7 +93,6 @@ export const deleteNote = async(req,res,next)=>{
 
 export const MakeArchive = async(req,res,next)=>{
   try { 
-    req.body.UserID = req.body.data.id;
     console.log(req.body.UserID)
     console.log(req.params._id)
     const returnData = await NoteService.MakeArchive(req.params._id,req.body.UserID);
@@ -113,7 +109,6 @@ export const MakeArchive = async(req,res,next)=>{
 
 export const TrashNote = async(req,res,next)=>{
   try {
-    req.body.UserID = req.body.data.id;
     const CheckChanges = await NoteService.TrashNote(req.params._id,req.body.UserID);
     res.status(HttpStatus.OK).json({ 
       code:HttpStatus.OK,

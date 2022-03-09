@@ -10,15 +10,12 @@ import {client} from '../config/redis';
 
 export const createNotes = async(body)=> {
     const Notebody = await Note.create(body);
+    console.log(Notebody);
     if(Notebody){
         await client.del('allnotes');
         return Notebody;
     }
 }
-
-
-
-
 
 
 //to get all users using Note.find()

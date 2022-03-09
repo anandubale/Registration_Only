@@ -11040,3 +11040,17 @@ error:
     method - POST 
     IP - ::1
    {"timestamp":"2022-03-09T03:45:33.665Z"}
+error: 
+    status - 500 
+    message - Error: There is no note with this ID
+    at _callee3$ (C:\Users\anand\Desktop\fundoo-Notes\src\services\/note.service.js:43:15)
+    at tryCatch (C:\Users\anand\Desktop\fundoo-Notes\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (C:\Users\anand\Desktop\fundoo-Notes\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (C:\Users\anand\Desktop\fundoo-Notes\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (C:\Users\anand\Desktop\fundoo-Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\anand\Desktop\fundoo-Notes\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/note/6228df3210862339e88c184d 
+    method - GET 
+    IP - ::1
+   {"timestamp":"2022-03-09T17:11:17.697Z"}
