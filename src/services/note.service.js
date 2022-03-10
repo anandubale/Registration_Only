@@ -61,10 +61,7 @@ export const updateById = async(_id,body)=>{
     } 
     else
     {
-        const updatedData = await Note.findByIdAndUpdate(
-            {
-                _id
-            },
+        const updatedData = await Note.findByIdAndUpdate({_id},
             body,
             {
                 new :true
@@ -78,8 +75,10 @@ export const updateById = async(_id,body)=>{
 
 
 export const deleteNote = async(_id,body)=>{
+    
     await Note.findByIdAndDelete({_id : _id,
-        UserID : body.UserID} );                   
+        UserID : body.UserID} 
+    );                   
 }
 
 
@@ -89,7 +88,7 @@ export const MakeArchive = async(_id,body)=>{
         UserID : body.UserID}, 
         {$set : {isArchived :true}}
     
-);
+    );
     return SendingItToArchieve ;
 }
    
