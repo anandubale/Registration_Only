@@ -38,7 +38,7 @@ redisDB();
 
 app.use(`/api/${api_version}`, routes());
 app.use(appErrorHandler);
-app.use(genericErrorHandler);
+app.use(genericErrorHandler); 
 app.use(notFound);
 
 app.listen(port, () => {

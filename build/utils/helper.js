@@ -7,7 +7,7 @@ var _typeof = require("@babel/runtime/helpers/typeof");
 Object.defineProperty(exports, "__esModule", {
   value: true
 });
-exports.sendMailTo = void 0;
+exports.sendMailTo = exports.Rabbitmq_sendMail = void 0;
 
 var _nodemailer = _interopRequireDefault(require("nodemailer"));
 
@@ -25,8 +25,7 @@ var sendMailTo = function sendMailTo(sendtoID, token) {
       user: process.env.FROM_ID,
       pass: process.env.PASSWORD
     }
-  }); // var transport = nodemailer.createTransport('smtps://user%40gmail.com: nanan66398@naluzotan.com');
-  //2 transport object
+  }); //2 transport object
 
 
   var formatedMail = {
@@ -36,13 +35,54 @@ var sendMailTo = function sendMailTo(sendtoID, token) {
     html: "<h1>Hii,<br>click on this link</br></h1><h1>href=http://localhost:3000/".concat(token, "</h1>")
   }; //3.send mail with defined transport object
 
-  transport.sendMail(formatedMail, function (err, info) {
-    if (err) {
-      _logger["default"].log('error', err);
-    } else {
-      _logger["default"].log('info', info);
-    }
+  return new Promise(function (resolve, reject) {
+    transport.sendMail(formatedMail, function (err, info) {
+      if (err) {
+        _logger["default"].log('error', err);
+
+        return reject;
+      } else {
+        _logger["default"].log('info', info);
+
+        return resolve("check email for token");
+      }
+    });
   });
 };
 
 exports.sendMailTo = sendMailTo;
+
+var Rabbitmq_sendMail = function Rabbitmq_sendMail(sendtoID) {
+  // 1 - transporter use to transfport to email
+  var transport = _nodemailer["default"].createTransport({
+    service: "gmail",
+    auth: {
+      user: process.env.FROM_ID,
+      pass: process.env.PASSWORD
+    }
+  }); //2 transport object
+
+
+  var formatedMail = {
+    form: process.env.FROM_ID,
+    to: sendtoID,
+    subject: "rabbitmq trial",
+    html: "<h1>this is Rabbitmq mailer</h1>"
+  }; //3.send mail with defined transport object
+
+  return new Promise(function (resolve, reject) {
+    transport.sendMail(formatedMail, function (err, info) {
+      if (err) {
+        _logger["default"].log('error', err);
+
+        return reject;
+      } else {
+        _logger["default"].log('info', info);
+
+        return resolve("you have got mail");
+      }
+    });
+  });
+};
+
+exports.Rabbitmq_sendMail = Rabbitmq_sendMail;

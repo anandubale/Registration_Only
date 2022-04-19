@@ -9,10 +9,12 @@ exports.newNoteValidator = void 0;
 
 var _joi = _interopRequireDefault(require("@hapi/joi"));
 
+var _httpStatusCodes = _interopRequireDefault(require("http-status-codes"));
+
 var newNoteValidator = function newNoteValidator(req, res, next) {
   var schema = _joi["default"].object({
-    Title: _joi["default"].string().required(),
-    Descreption: _joi["default"].string().required(),
+    Title: _joi["default"].string().min(3).required(),
+    Descreption: _joi["default"].string().min(7).required(),
     color: _joi["default"].string(),
     isArchived: _joi["default"]["boolean"](),
     isDeleted: _joi["default"]["boolean"](),
@@ -25,10 +27,12 @@ var newNoteValidator = function newNoteValidator(req, res, next) {
 
 
   if (error) {
-    next(error);
+    res.status(_httpStatusCodes["default"].BAD_REQUEST).json({
+      code: _httpStatusCodes["default"].BAD_REQUEST,
+      message: error
+    });
   } else {
-    req.validatedBody = value; //true or false
-
+    req.validatedBody = value;
     next();
   }
 };

@@ -1,0 +1,12 @@
+info: ::1 - - [07/Apr/2022:02:38:40 +0000] "POST /api/v1/users/register HTTP/1.1" 201 324 "http://localhost:8080/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.0.0 Safari/537.36"
+
+info: ::1 - - [07/Apr/2022:03:06:28 +0000] "POST /api/v1/users/login HTTP/1.1" 200 241 "http://localhost:8080/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.0.0 Safari/537.36"
+
+info: ::1 - - [07/Apr/2022:03:08:26 +0000] "POST /api/v1/users/forget HTTP/1.1" 200 95 "http://localhost:8080/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.0.0 Safari/537.36"
+
+info: ::1 - - [07/Apr/2022:03:08:52 +0000] "GET /eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbElEIjoicHJhYXRpa0BnbWFpbC5jb20iLCJpZCI6IjYyNGU0ZWIwMTNjYjJiM2Q3OGI3OTVhMyIsImlhdCI6MTY0OTMwMDkwMn0.QC81vH7lubP4kwi-OX5-S16fX8tm0W2MjwooDFIPWcU HTTP/1.1" 404 47 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.0.0 Safari/537.36"
+
+info: ::1 - - [07/Apr/2022:03:17:38 +0000] "GET /eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbElEIjoicHJhYXRpa0BnbWFpbC5jb20iLCJpZCI6IjYyNGU0ZWIwMTNjYjJiM2Q3OGI3OTVhMyIsImlhdCI6MTY0OTMwMDkwMn0.QC81vH7lubP4kwi-OX5-S16fX8tm0W2MjwooDFIPWcU HTTP/1.1" 404 47 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.0.0 Safari/537.36"
+
+info: ::1 - - [07/Apr/2022:03:20:12 +0000] "GET /eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbElEIjoicHJhYXRpa0BnbWFpbC5jb20iLCJpZCI6IjYyNGU0ZWIwMTNjYjJiM2Q3OGI3OTVhMyIsImlhdCI6MTY0OTMwMDkwMn0.QC81vH7lubP4kwi-OX5-S16fX8tm0W2MjwooDFIPWcU HTTP/1.1" 404 47 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.0.0 Safari/537.36"
+

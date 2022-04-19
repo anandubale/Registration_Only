@@ -4,7 +4,6 @@ import logger, {logStream} from '../config/logger'
 
 
 export const sendMailTo = (sendtoID ,token) => {
-
     // 1 - transporter use to transfport to email
     const transport =  nodemailer.createTransport({
         service :"gmail",
@@ -15,19 +14,20 @@ export const sendMailTo = (sendtoID ,token) => {
     })
 
 
-
+    console.log("upto2")
     //2 transport object
     const formatedMail = {
         form :process.env.FROM_ID,
         to: sendtoID,
         subject : "Password Reset Link",
-        html :`<h1>Hii,<br>click on this link</br></h1><h1>href=http://localhost:3000/${token}</h1>`
+        html :`<h1>Hii,<br>click on this link</br></h1><h1>href=http://localhost:8080/resetpassword/${token}</h1>`
     }
 
     //3.send mail with defined transport object
     return new Promise((resolve,reject) => {
 
         transport.sendMail(formatedMail,(err,info)=> {
+            console.log("upto1")
             if(err){
                logger.log('error',err)
                return reject;
@@ -35,6 +35,7 @@ export const sendMailTo = (sendtoID ,token) => {
             else{
               logger.log('info',info);
               return resolve("check email for token");
+
             }
         })
 

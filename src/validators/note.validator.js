@@ -4,7 +4,7 @@ import HttpStatus from 'http-status-codes';
 export const newNoteValidator = (req, res, next) => {
     const schema = Joi.object({
       Title: Joi.string().min(3).required(),
-      Descreption: Joi.string().min(3).required(),
+      Descreption: Joi.string().min(7).required(),
       color: Joi.string(),
       isArchived: Joi.boolean(),
       isDeleted: Joi.boolean(),

@@ -46,7 +46,6 @@ export const userRegistration = async (req, res) => {
 export const login = async (req, res) => {
   try { 
 
-    console.log(req.body.emailID)
     const data = await UserService.login(req.body);
     if(data == null) { 
       res.status(HttpStatus.NOT_FOUND).json({

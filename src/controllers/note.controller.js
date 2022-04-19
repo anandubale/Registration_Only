@@ -14,9 +14,10 @@ import * as NoteService from '../services/note.service';
 
 export const create = async (req, res, next) => {
   try {
+    console.log("we are in controller of createNOtes")
     const tokenToCreatedData = await NoteService.createNotes(req.body);
-    res.status(HttpStatus.OK).json({
-      code: HttpStatus.OK,
+    res.status(HttpStatus.CREATED).json({
+      code: HttpStatus.CREATED,
       data: tokenToCreatedData,
       message: 'note added'
     });
@@ -30,23 +31,27 @@ export const create = async (req, res, next) => {
 };
 
 
- export const AllNotes = async (req, res, next) => {
+ export const AllNotes = async (req, res) => {
     try {
-      
+      console.log("we are in controller of allnotes")
       const AllUserdata = await NoteService.AllNotes(req.body.UserID);
       res.status(HttpStatus.OK).json({
         code: HttpStatus.OK,
         data: AllUserdata,                
         message: 'All notes fetched successfully'
       });
-    } catch (error) {
-      next();
+    } catch (error){ 
+      res.status(HttpStatus.NOT_FOUND).json({
+        code: HttpStatus.NOT_FOUND,
+        message : `${error}`
+      })
+    
     }
   };
 
 
 
-export const getNoteById = async(req,res,next)=>{
+export const getNoteById = async(req,res)=>{
   try {
 
     const dataById = await NoteService.getNoteById(req.params._id, req.body.UserID);
@@ -56,13 +61,18 @@ export const getNoteById = async(req,res,next)=>{
       message: "Successfully found the note"
       })
   } catch (error) {
-    next(error);
+    res.status(HttpStatus.NOT_FOUND).json({
+      code: HttpStatus.NOT_FOUND,
+      message : `${error}`
+    })  
   }
 };
 
 
-export const updateById = async(req,res,next)=>{
+export const updateById = async(req,res)=>{
   try { 
+    console.log("we are now in controller", req.body)
+    console.log("we are now in controller", req.params._id)
     const updatedData = await NoteService.updateById(req.params._id,req.body);
     res.status(HttpStatus.OK).json({
       code:HttpStatus.OK,
@@ -71,13 +81,17 @@ export const updateById = async(req,res,next)=>{
     })
     
   } catch (error) {
-    next(error);
+    res.status(HttpStatus.NOT_FOUND).json({
+      code: HttpStatus.NOT_FOUND,
+      message : `${error}`
+    })  
   }
 }
 
 
 export const deleteNote = async(req,res,next)=>{
-  try {   
+  try {
+       
    await NoteService.deleteNote(req.params._id, req.body.UserID);
    res.status(HttpStatus.OK).json({
      code:HttpStatus.OK,
@@ -92,16 +106,25 @@ export const deleteNote = async(req,res,next)=>{
 
 
 export const MakeArchive = async(req,res,next)=>{
-  try { 
-    console.log(req.body.UserID)
-    console.log(req.params._id)
+  try 
+  { 
+    console.log(req)
     const returnData = await NoteService.MakeArchive(req.params._id,req.body.UserID);
-    res.status(HttpStatus.OK).json({
-      code:HttpStatus.OK,
-      data:returnData,
-      message:"Note is Archived"
-    })
-  } catch (error) {
+    if(returnData == null) 
+    { 
+      res.status(HttpStatus.NOT_FOUND).json({
+        code : HttpStatus.NOT_FOUND,
+        message : "No Note with this ID"
+      })
+    }
+    else{
+      res.status(HttpStatus.OK).json({
+        code:HttpStatus.OK,
+        data:returnData,
+        message:"Note is Archived"
+      })
+    }
+  }catch (error) {
     next(error)
   }
 }
@@ -110,11 +133,20 @@ export const MakeArchive = async(req,res,next)=>{
 export const TrashNote = async(req,res,next)=>{
   try {
     const CheckChanges = await NoteService.TrashNote(req.params._id,req.body.UserID);
-    res.status(HttpStatus.OK).json({ 
-      code:HttpStatus.OK,
-      data:CheckChanges,
-      message:"Note is trashed"
-    })
+    if(CheckChanges == null) 
+    { 
+      res.status(HttpStatus.NOT_FOUND).json({
+        code : HttpStatus.NOT_FOUND,
+        message : "No Note with this ID"
+      })
+    }
+    else{
+      res.status(HttpStatus.OK).json({ 
+        code:HttpStatus.OK,
+        data:CheckChanges,
+        message:"Note is trashed"
+      })
+    }
   } catch (error) {
     next(error)
   }
