@@ -15336,3 +15336,5 @@ error:
 error: uncaughtException: read ECONNRESET
 Error: read ECONNRESET
     at TCP.onStreamRead (node:internal/stream_base_commons:220:20) {"date":"Sat Apr 16 2022 17:03:55 GMT+0530 (India Standard Time)","error":{"code":"ECONNRESET","errno":-4077,"syscall":"read"},"exception":true,"os":{"loadavg":[0,0,0],"uptime":454024},"process":{"argv":["node","C:\\Users\\anand\\Desktop\\fundoo-Notes\\src\\index.js"],"cwd":"C:\\Users\\anand\\Desktop\\fundoo-Notes","execPath":"C:\\Program Files\\nodejs\\node.exe","gid":null,"memoryUsage":{"arrayBuffers":18454225,"external":20388622,"heapTotal":87367680,"heapUsed":83280080,"rss":58351616},"pid":7988,"uid":null,"version":"v16.13.2"},"stack":"Error: read ECONNRESET\n    at TCP.onStreamRead (node:internal/stream_base_commons:220:20)","timestamp":"2022-04-16T11:33:55.592Z","trace":[{"column":20,"file":"node:internal/stream_base_commons","function":"TCP.onStreamRead","line":220,"method":"onStreamRead","native":false}]}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-04-19T11:06:26.288Z"}
+info: Connected to the database. {"timestamp":"2022-04-19T11:06:27.014Z"}
