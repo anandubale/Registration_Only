@@ -1,0 +1,100 @@
+info: ::1 - - [08/Apr/2022:03:30:37 +0000] "POST /api/v1/users/register HTTP/1.1" 201 321 "http://localhost:8080/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.0.0 Safari/537.36"
+
+info: ::1 - - [08/Apr/2022:03:31:13 +0000] "POST /api/v1/users/login HTTP/1.1" 200 241 "http://localhost:8080/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.0.0 Safari/537.36"
+
+info: ::1 - - [08/Apr/2022:03:35:35 +0000] "POST /api/v1/users/forget HTTP/1.1" 200 95 "http://localhost:8080/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.0.0 Safari/537.36"
+
+info: ::1 - - [08/Apr/2022:03:38:14 +0000] "POST /api/v1/users/forget HTTP/1.1" 200 95 "http://localhost:8080/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.0.0 Safari/537.36"
+
+info: ::1 - - [08/Apr/2022:03:38:47 +0000] "POST /api/v1/users/forget HTTP/1.1" 200 95 "http://localhost:8080/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.0.0 Safari/537.36"
+
+info: ::1 - - [08/Apr/2022:03:39:04 +0000] "GET /resetpassword/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbElEIjoiYXUyNjE5OEBnbWFpbC5jb20iLCJpZCI6IjYyNGZhYzVjMDUwNjA2NTZiY2U1MWVjZSIsImlhdCI6MTY0OTM4OTEyM30.m4GKzJJ01dE61Egb1e4fk6rZQUlpqTZeSuPTfuPMRgc HTTP/1.1" 404 47 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.0.0 Safari/537.36"
+
+info: ::1 - - [08/Apr/2022:03:40:40 +0000] "GET /resetpassword/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbElEIjoiYXUyNjE5OEBnbWFpbC5jb20iLCJpZCI6IjYyNGZhYzVjMDUwNjA2NTZiY2U1MWVjZSIsImlhdCI6MTY0OTM4OTEyM30.m4GKzJJ01dE61Egb1e4fk6rZQUlpqTZeSuPTfuPMRgc HTTP/1.1" 404 47 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.0.0 Safari/537.36"
+
+info: ::1 - - [08/Apr/2022:03:42:29 +0000] "POST /api/v1/users/forget HTTP/1.1" 200 95 "http://localhost:8080/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.0.0 Safari/537.36"
+
+info: ::1 - - [08/Apr/2022:03:42:37 +0000] "GET /resetpassword/eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbElEIjoiYXUyNjE5OEBnbWFpbC5jb20iLCJpZCI6IjYyNGZhYzVjMDUwNjA2NTZiY2U1MWVjZSIsImlhdCI6MTY0OTM4OTEyM30.m4GKzJJ01dE61Egb1e4fk6rZQUlpqTZeSuPTfuPMRgc HTTP/1.1" 404 47 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.0.0 Safari/537.36"
+
+info: ::1 - - [08/Apr/2022:03:44:15 +0000] "GET /api-docs/ HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.0.0 Safari/537.36"
+
+info: ::1 - - [08/Apr/2022:03:44:18 +0000] "GET /api-docs/swagger-ui.css HTTP/1.1" 200 143858 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.0.0 Safari/537.36"
+
+info: ::1 - - [08/Apr/2022:03:44:20 +0000] "GET /api-docs/swagger-ui-bundle.js HTTP/1.1" 200 1085790 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.0.0 Safari/537.36"
+
+info: ::1 - - [08/Apr/2022:03:44:20 +0000] "GET /api-docs/swagger-ui-init.js HTTP/1.1" 200 11320 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.0.0 Safari/537.36"
+
+info: ::1 - - [08/Apr/2022:03:44:20 +0000] "GET /api-docs/swagger-ui-standalone-preset.js HTTP/1.1" 200 331274 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.0.0 Safari/537.36"
+
+info: ::1 - - [08/Apr/2022:03:44:22 +0000] "GET /api-docs/favicon-32x32.png HTTP/1.1" 200 628 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.0.0 Safari/537.36"
+
+info: ::1 - - [08/Apr/2022:03:45:22 +0000] "PUT /api/v1/users/reset HTTP/1.1" 400 57 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.0.0 Safari/537.36"
+
+info: ::1 - - [08/Apr/2022:03:50:37 +0000] "POST /api/v1/users/login HTTP/1.1" 400 55 "http://localhost:8080/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.0.0 Safari/537.36"
+
+info: ::1 - - [08/Apr/2022:03:52:14 +0000] "POST /api/v1/users/register HTTP/1.1" 201 332 "http://localhost:8080/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.0.0 Safari/537.36"
+
+info: ::1 - - [08/Apr/2022:03:52:38 +0000] "POST /api/v1/users/login HTTP/1.1" 400 87 "http://localhost:8080/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.0.0 Safari/537.36"
+
+info: ::1 - - [08/Apr/2022:03:53:10 +0000] "POST /api/v1/users/login HTTP/1.1" 400 87 "http://localhost:8080/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.0.0 Safari/537.36"
+
+info: ::1 - - [08/Apr/2022:03:53:14 +0000] "POST /api/v1/users/login HTTP/1.1" 400 87 "http://localhost:8080/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.0.0 Safari/537.36"
+
+info: ::1 - - [08/Apr/2022:03:53:21 +0000] "POST /api/v1/users/login HTTP/1.1" 400 55 "http://localhost:8080/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.0.0 Safari/537.36"
+
+info: ::1 - - [08/Apr/2022:03:53:22 +0000] "POST /api/v1/users/login HTTP/1.1" 400 55 "http://localhost:8080/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.0.0 Safari/537.36"
+
+info: ::1 - - [08/Apr/2022:03:53:23 +0000] "POST /api/v1/users/login HTTP/1.1" 400 55 "http://localhost:8080/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.0.0 Safari/537.36"
+
+info: ::1 - - [08/Apr/2022:03:54:12 +0000] "GET /api-docs/ HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.0.0 Safari/537.36"
+
+info: ::1 - - [08/Apr/2022:03:54:14 +0000] "GET /api-docs/swagger-ui.css HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.0.0 Safari/537.36"
+
+info: ::1 - - [08/Apr/2022:03:54:14 +0000] "GET /api-docs/swagger-ui-init.js HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.0.0 Safari/537.36"
+
+info: ::1 - - [08/Apr/2022:03:54:14 +0000] "GET /api-docs/swagger-ui-bundle.js HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.0.0 Safari/537.36"
+
+info: ::1 - - [08/Apr/2022:03:54:14 +0000] "GET /api-docs/swagger-ui-standalone-preset.js HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.0.0 Safari/537.36"
+
+info: ::1 - - [08/Apr/2022:03:54:33 +0000] "POST /api/v1/users/login HTTP/1.1" 400 87 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.0.0 Safari/537.36"
+
+info: ::1 - - [08/Apr/2022:04:04:34 +0000] "POST /api/v1/users/login HTTP/1.1" 400 55 "http://localhost:8080/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.0.0 Safari/537.36"
+
+info: ::1 - - [08/Apr/2022:06:58:13 +0000] "POST /api/v1/users/login HTTP/1.1" 400 55 "http://localhost:8080/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.0.0 Safari/537.36"
+
+info: ::1 - - [08/Apr/2022:06:58:21 +0000] "POST /api/v1/users/login HTTP/1.1" 200 248 "http://localhost:8080/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.0.0 Safari/537.36"
+
+info: ::1 - - [08/Apr/2022:06:59:00 +0000] "POST /api/v1/users/login HTTP/1.1" 200 248 "http://localhost:8080/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.0.0 Safari/537.36"
+
+info: ::1 - - [08/Apr/2022:06:59:28 +0000] "POST /api/v1/users/login HTTP/1.1" 200 248 "http://localhost:8080/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.0.0 Safari/537.36"
+
+info: ::1 - - [08/Apr/2022:06:59:32 +0000] "POST /api/v1/users/login HTTP/1.1" 200 248 "http://localhost:8080/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.0.0 Safari/537.36"
+
+info: ::1 - - [08/Apr/2022:06:59:50 +0000] "POST /api/v1/users/login HTTP/1.1" 200 248 "http://localhost:8080/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.0.0 Safari/537.36"
+
+info: ::1 - - [08/Apr/2022:06:59:56 +0000] "POST /api/v1/users/login HTTP/1.1" 200 248 "http://localhost:8080/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.0.0 Safari/537.36"
+
+info: ::1 - - [08/Apr/2022:07:00:13 +0000] "POST /api/v1/users/login HTTP/1.1" 200 248 "http://localhost:8080/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.0.0 Safari/537.36"
+
+info: ::1 - - [08/Apr/2022:07:12:44 +0000] "POST /api/v1/users/login HTTP/1.1" 200 248 "http://localhost:8080/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.0.0 Safari/537.36"
+
+info: ::1 - - [08/Apr/2022:07:15:53 +0000] "POST /api/v1/users/login HTTP/1.1" 200 248 "http://localhost:8080/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.0.0 Safari/537.36"
+
+info: ::1 - - [08/Apr/2022:07:16:04 +0000] "POST /api/v1/users/login HTTP/1.1" 200 248 "http://localhost:8080/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.0.0 Safari/537.36"
+
+info: ::1 - - [08/Apr/2022:07:18:12 +0000] "POST /api/v1/users/login HTTP/1.1" 200 248 "http://localhost:8080/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.0.0 Safari/537.36"
+
+info: ::1 - - [08/Apr/2022:07:18:45 +0000] "POST /api/v1/users/login HTTP/1.1" 200 248 "http://localhost:8080/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.0.0 Safari/537.36"
+
+info: ::1 - - [08/Apr/2022:07:18:49 +0000] "POST /api/v1/users/login HTTP/1.1" 200 248 "http://localhost:8080/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.0.0 Safari/537.36"
+
+info: ::1 - - [08/Apr/2022:07:20:32 +0000] "POST /api/v1/users/login HTTP/1.1" 200 248 "http://localhost:8080/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.0.0 Safari/537.36"
+
+info: ::1 - - [08/Apr/2022:07:20:34 +0000] "POST /api/v1/users/login HTTP/1.1" 200 248 "http://localhost:8080/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.0.0 Safari/537.36"
+
+info: ::1 - - [08/Apr/2022:07:20:35 +0000] "POST /api/v1/users/login HTTP/1.1" 200 248 "http://localhost:8080/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.0.0 Safari/537.36"
+
+info: ::1 - - [08/Apr/2022:07:20:59 +0000] "POST /api/v1/users/login HTTP/1.1" 200 248 "http://localhost:8080/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.0.0 Safari/537.36"
+
+info: ::1 - - [08/Apr/2022:07:25:51 +0000] "POST /api/v1/users/login HTTP/1.1" 200 248 "http://localhost:8080/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.0.0 Safari/537.36"
+

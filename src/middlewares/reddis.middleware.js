@@ -9,13 +9,13 @@ export const cached_data_Redis = async (req,res,next)=>{
     } 
     else
     {
-        res.status(HttpStatus.OK).json({
+        res.status(HttpStatus.OK).send({
             code:HttpStatus.OK,
             data : JSON.parse(data),
              Message : "All notes are fetched Successfully from cache"
         })   
     }
-    
+ 
 }
 
 

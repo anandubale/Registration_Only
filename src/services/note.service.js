@@ -3,12 +3,10 @@ import Note from '../models/note.model';
 import {client} from '../config/redis';
 
 
-
-
-
 //to create user using Note.create()
 
 export const createNotes = async(body)=> {
+    console.log("we are in service of Create")
     const Notebody = await Note.create(body);
     console.log(Notebody);
     if(Notebody){
@@ -43,12 +41,10 @@ export const getNoteById = async(_id,UserID)=>{
         throw new Error("There is no note with this ID")
     } 
     else
-    {
+    {   
         return dataById;  
     }
 }
-
-
 
 
 //update user
@@ -67,12 +63,13 @@ export const updateById = async(_id,body)=>{
                 new :true
             }
         );
-        return updatedData;
+        if(updatedData){
+            await client.del('allnotes');
+            return updatedData;
+        }
     }
     
 };
-
-
 
 export const deleteNote = async(_id,body)=>{
     

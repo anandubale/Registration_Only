@@ -5,6 +5,7 @@ export const client = createClient();  //to create client at server
 const clientRedis = async () => {
 
   try { 
+    
     await client.connect();
     console.log("Redis is connected");
   } catch (error) {

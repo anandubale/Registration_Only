@@ -14,10 +14,10 @@ import * as NoteService from '../services/note.service';
 
 export const create = async (req, res, next) => {
   try {
-    
+    console.log("we are in controller of createNOtes")
     const tokenToCreatedData = await NoteService.createNotes(req.body);
-    res.status(HttpStatus.OK).json({
-      code: HttpStatus.OK,
+    res.status(HttpStatus.CREATED).json({
+      code: HttpStatus.CREATED,
       data: tokenToCreatedData,
       message: 'note added'
     });
@@ -33,7 +33,7 @@ export const create = async (req, res, next) => {
 
  export const AllNotes = async (req, res) => {
     try {
-      
+      console.log("we are in controller of allnotes")
       const AllUserdata = await NoteService.AllNotes(req.body.UserID);
       res.status(HttpStatus.OK).json({
         code: HttpStatus.OK,
@@ -71,6 +71,8 @@ export const getNoteById = async(req,res)=>{
 
 export const updateById = async(req,res)=>{
   try { 
+    console.log("we are now in controller", req.body)
+    console.log("we are now in controller", req.params._id)
     const updatedData = await NoteService.updateById(req.params._id,req.body);
     res.status(HttpStatus.OK).json({
       code:HttpStatus.OK,
@@ -106,6 +108,7 @@ export const deleteNote = async(req,res,next)=>{
 export const MakeArchive = async(req,res,next)=>{
   try 
   { 
+    console.log(req)
     const returnData = await NoteService.MakeArchive(req.params._id,req.body.UserID);
     if(returnData == null) 
     { 

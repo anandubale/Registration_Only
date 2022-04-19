@@ -1,0 +1,52 @@
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-04-06T02:39:26.134Z"}
+info: Connected to the database. {"timestamp":"2022-04-06T02:39:26.167Z"}
+error: Invalid login: 535-5.7.8 Username and Password not accepted. Learn more at
+535 5.7.8  https://support.google.com/mail/?p=BadCredentials om16-20020a17090b3a9000b001c7bc91a89bsm3775528pjb.52 - gsmtp {"code":"EAUTH","command":"AUTH PLAIN","response":"535-5.7.8 Username and Password not accepted. Learn more at\n535 5.7.8  https://support.google.com/mail/?p=BadCredentials om16-20020a17090b3a9000b001c7bc91a89bsm3775528pjb.52 - gsmtp","responseCode":535,"timestamp":"2022-04-06T02:40:11.972Z"}
+error: Invalid login: 535-5.7.8 Username and Password not accepted. Learn more at
+535 5.7.8  https://support.google.com/mail/?p=BadCredentials b2-20020a056a000a8200b004f1111c66afsm18626972pfl.148 - gsmtp {"code":"EAUTH","command":"AUTH PLAIN","response":"535-5.7.8 Username and Password not accepted. Learn more at\n535 5.7.8  https://support.google.com/mail/?p=BadCredentials b2-20020a056a000a8200b004f1111c66afsm18626972pfl.148 - gsmtp","responseCode":535,"timestamp":"2022-04-06T02:40:19.420Z"}
+error: Invalid login: 535-5.7.8 Username and Password not accepted. Learn more at
+535 5.7.8  https://support.google.com/mail/?p=BadCredentials b16-20020a056a00115000b004f6ff260c9esm16872053pfm.207 - gsmtp {"code":"EAUTH","command":"AUTH PLAIN","response":"535-5.7.8 Username and Password not accepted. Learn more at\n535 5.7.8  https://support.google.com/mail/?p=BadCredentials b16-20020a056a00115000b004f6ff260c9esm16872053pfm.207 - gsmtp","responseCode":535,"timestamp":"2022-04-06T02:41:47.891Z"}
+error: Invalid login: 535-5.7.8 Username and Password not accepted. Learn more at
+535 5.7.8  https://support.google.com/mail/?p=BadCredentials g5-20020a056a0023c500b004fae15ab86dsm16709860pfc.52 - gsmtp {"code":"EAUTH","command":"AUTH PLAIN","response":"535-5.7.8 Username and Password not accepted. Learn more at\n535 5.7.8  https://support.google.com/mail/?p=BadCredentials g5-20020a056a0023c500b004fae15ab86dsm16709860pfc.52 - gsmtp","responseCode":535,"timestamp":"2022-04-06T02:43:01.651Z"}
+error: Invalid login: 535-5.7.8 Username and Password not accepted. Learn more at
+535 5.7.8  https://support.google.com/mail/?p=BadCredentials y15-20020a17090a1f4f00b001c7ecaf9e13sm3772045pjy.35 - gsmtp {"code":"EAUTH","command":"AUTH PLAIN","response":"535-5.7.8 Username and Password not accepted. Learn more at\n535 5.7.8  https://support.google.com/mail/?p=BadCredentials y15-20020a17090a1f4f00b001c7ecaf9e13sm3772045pjy.35 - gsmtp","responseCode":535,"timestamp":"2022-04-06T02:46:02.730Z"}
+error: Invalid login: 535-5.7.8 Username and Password not accepted. Learn more at
+535 5.7.8  https://support.google.com/mail/?p=BadCredentials b13-20020a056a00114d00b004c122b90703sm16937979pfm.27 - gsmtp {"code":"EAUTH","command":"AUTH PLAIN","response":"535-5.7.8 Username and Password not accepted. Learn more at\n535 5.7.8  https://support.google.com/mail/?p=BadCredentials b13-20020a056a00114d00b004c122b90703sm16937979pfm.27 - gsmtp","responseCode":535,"timestamp":"2022-04-06T02:47:08.207Z"}
+error: Invalid login: 535-5.7.8 Username and Password not accepted. Learn more at
+535 5.7.8  https://support.google.com/mail/?p=BadCredentials z5-20020a056a00240500b004e15d39f15fsm17161426pfh.83 - gsmtp {"code":"EAUTH","command":"AUTH PLAIN","response":"535-5.7.8 Username and Password not accepted. Learn more at\n535 5.7.8  https://support.google.com/mail/?p=BadCredentials z5-20020a056a00240500b004e15d39f15fsm17161426pfh.83 - gsmtp","responseCode":535,"timestamp":"2022-04-06T02:47:59.860Z"}
+error: Invalid login: 535-5.7.8 Username and Password not accepted. Learn more at
+535 5.7.8  https://support.google.com/mail/?p=BadCredentials f15-20020a056a0022cf00b004fb32b9e000sm17486380pfj.1 - gsmtp {"code":"EAUTH","command":"AUTH PLAIN","response":"535-5.7.8 Username and Password not accepted. Learn more at\n535 5.7.8  https://support.google.com/mail/?p=BadCredentials f15-20020a056a0022cf00b004fb32b9e000sm17486380pfj.1 - gsmtp","responseCode":535,"timestamp":"2022-04-06T02:54:39.497Z"}
+error: Invalid login: 535-5.7.8 Username and Password not accepted. Learn more at
+535 5.7.8  https://support.google.com/mail/?p=BadCredentials i187-20020a62c1c4000000b004faafada2ffsm17607204pfg.204 - gsmtp {"code":"EAUTH","command":"AUTH PLAIN","response":"535-5.7.8 Username and Password not accepted. Learn more at\n535 5.7.8  https://support.google.com/mail/?p=BadCredentials i187-20020a62c1c4000000b004faafada2ffsm17607204pfg.204 - gsmtp","responseCode":535,"timestamp":"2022-04-06T03:00:09.754Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-04-06T03:04:31.913Z"}
+info: Connected to the database. {"timestamp":"2022-04-06T03:04:31.965Z"}
+error: Invalid login: 535-5.7.8 Username and Password not accepted. Learn more at
+535 5.7.8  https://support.google.com/mail/?p=BadCredentials mi18-20020a17090b4b5200b001c9a9b60489sm3887421pjb.7 - gsmtp {"code":"EAUTH","command":"AUTH PLAIN","response":"535-5.7.8 Username and Password not accepted. Learn more at\n535 5.7.8  https://support.google.com/mail/?p=BadCredentials mi18-20020a17090b4b5200b001c9a9b60489sm3887421pjb.7 - gsmtp","responseCode":535,"timestamp":"2022-04-06T03:05:42.943Z"}
+error: Invalid login: 535-5.7.8 Username and Password not accepted. Learn more at
+535 5.7.8  https://support.google.com/mail/?p=BadCredentials l5-20020a056a0016c500b004f768db4c94sm17877653pfc.212 - gsmtp {"code":"EAUTH","command":"AUTH PLAIN","response":"535-5.7.8 Username and Password not accepted. Learn more at\n535 5.7.8  https://support.google.com/mail/?p=BadCredentials l5-20020a056a0016c500b004f768db4c94sm17877653pfc.212 - gsmtp","responseCode":535,"timestamp":"2022-04-06T03:07:21.019Z"}
+error: Invalid login: 535-5.7.8 Username and Password not accepted. Learn more at
+535 5.7.8  https://support.google.com/mail/?p=BadCredentials u62-20020a638541000000b00382791c89efsm14512124pgd.13 - gsmtp {"code":"EAUTH","command":"AUTH PLAIN","response":"535-5.7.8 Username and Password not accepted. Learn more at\n535 5.7.8  https://support.google.com/mail/?p=BadCredentials u62-20020a638541000000b00382791c89efsm14512124pgd.13 - gsmtp","responseCode":535,"timestamp":"2022-04-06T03:12:38.528Z"}
+error: Invalid login: 535-5.7.8 Username and Password not accepted. Learn more at
+535 5.7.8  https://support.google.com/mail/?p=BadCredentials bt18-20020a056a00439200b004faad3ae59esm16877498pfb.95 - gsmtp {"code":"EAUTH","command":"AUTH PLAIN","response":"535-5.7.8 Username and Password not accepted. Learn more at\n535 5.7.8  https://support.google.com/mail/?p=BadCredentials bt18-20020a056a00439200b004faad3ae59esm16877498pfb.95 - gsmtp","responseCode":535,"timestamp":"2022-04-06T04:50:07.340Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-04-06T04:53:05.640Z"}
+info: Connected to the database. {"timestamp":"2022-04-06T04:53:05.705Z"}
+error: Invalid login: 535-5.7.8 Username and Password not accepted. Learn more at
+535 5.7.8  https://support.google.com/mail/?p=BadCredentials lp4-20020a17090b4a8400b001c9ada2f28fsm4268467pjb.8 - gsmtp {"code":"EAUTH","command":"AUTH PLAIN","response":"535-5.7.8 Username and Password not accepted. Learn more at\n535 5.7.8  https://support.google.com/mail/?p=BadCredentials lp4-20020a17090b4a8400b001c9ada2f28fsm4268467pjb.8 - gsmtp","responseCode":535,"timestamp":"2022-04-06T04:53:24.118Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-04-06T04:54:01.613Z"}
+info: Connected to the database. {"timestamp":"2022-04-06T04:54:01.639Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-04-06T04:55:56.176Z"}
+info: Connected to the database. {"timestamp":"2022-04-06T04:55:56.210Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-04-06T04:56:44.078Z"}
+info: Connected to the database. {"timestamp":"2022-04-06T04:56:44.101Z"}
+error: Invalid login: 535-5.7.8 Username and Password not accepted. Learn more at
+535 5.7.8  https://support.google.com/mail/?p=BadCredentials f21-20020a056a00239500b004fb02a7a45bsm17494452pfc.214 - gsmtp {"code":"EAUTH","command":"AUTH PLAIN","response":"535-5.7.8 Username and Password not accepted. Learn more at\n535 5.7.8  https://support.google.com/mail/?p=BadCredentials f21-20020a056a00239500b004fb02a7a45bsm17494452pfc.214 - gsmtp","responseCode":535,"timestamp":"2022-04-06T04:57:13.395Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-04-06T05:14:15.689Z"}
+info: Connected to the database. {"timestamp":"2022-04-06T05:14:15.723Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-04-06T05:15:32.883Z"}
+info: Connected to the database. {"timestamp":"2022-04-06T05:15:32.907Z"}
+info: undefined {"accepted":["pratik999@gmail.com"],"envelope":{"from":"","to":["pratik999@gmail.com"]},"envelopeTime":927,"messageId":"<19047a0c-c026-6764-d9a2-f499967e7bed@LAPTOP>","messageSize":542,"messageTime":802,"rejected":[],"response":"250 2.0.0 OK  1649222161 i67-20020a636d46000000b00398344a27cfsm14954944pgc.8 - gsmtp","timestamp":"2022-04-06T05:16:01.522Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-04-06T13:21:15.522Z"}
+info: Connected to the database. {"timestamp":"2022-04-06T13:21:15.570Z"}
+info: undefined {"accepted":["howardwalowitz@gmail.com"],"envelope":{"from":"","to":["howardwalowitz@gmail.com"]},"envelopeTime":1297,"messageId":"<ad5b6269-8025-e791-287b-591ae1c06c9b@LAPTOP>","messageSize":284,"messageTime":1227,"rejected":[],"response":"250 2.0.0 OK  1649251770 u41-20020a056a0009a900b004fa831fb240sm20564601pfg.6 - gsmtp","timestamp":"2022-04-06T13:29:31.000Z"}
+error: No recipients defined {"code":"EENVELOPE","command":"API","timestamp":"2022-04-06T14:49:06.192Z"}
+info: undefined {"accepted":["pratiik@gmail.com"],"envelope":{"from":"","to":["pratiik@gmail.com"]},"envelopeTime":1037,"messageId":"<ee458212-c017-c1b8-4d8a-4cf4dc44a872@LAPTOP>","messageSize":277,"messageTime":787,"rejected":[],"response":"250 2.0.0 OK  1649256754 oj16-20020a17090b4d9000b001c709bca712sm6416056pjb.29 - gsmtp","timestamp":"2022-04-06T14:52:35.049Z"}

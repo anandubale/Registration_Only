@@ -22,15 +22,8 @@ export const sender = (data)  => {
 
             channel.sendToQueue(queue, Buffer.from(msg));                                     
 
-            console.log(" [x] Sent %s", msg);
-            
-
-
         });
-        // setTimeout(function() {
-        //     connection.close();
-        //     process.exit(0);
-        // }, 500);
+       
     
     });
 }
@@ -57,8 +50,11 @@ export const receiver = () => {
             channel.consume(queue, function(msg) {
 
                 console.log(" [x] Received %s", msg.content.toString());
+
                 const tonodmailer = JSON.parse(msg.content); //string object
+
                 console.log(tonodmailer.emailID);
+                
                 Rabbitmq_sendMail(tonodmailer.emailID);
 
             }, {

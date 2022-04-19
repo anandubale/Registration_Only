@@ -34,7 +34,6 @@ export const userRegistration = async (body) => {
     sender(data);
     return data;   
   }
-  
 }; 
 
 
@@ -68,6 +67,7 @@ export const forgetPassword = async (emailID) => {
   console.log(storedData);
   if(storedData.emailID != null ){
     const token = jwt.sign({"emailID": storedData.emailID,"id":storedData._id},process.env.FORGET_PASS_CODE );
+    console.log(token);
     const generateMail = sendMailTo(storedData.emailID, token);
     console.log("After sending mail" + generateMail);
     return generateMail;

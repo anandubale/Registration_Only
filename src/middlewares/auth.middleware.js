@@ -20,12 +20,7 @@ export const NoteAuthentication = async (req, res, next) => {
         message: 'Authorization token is required'  
 
       };
-
-      
-      
     bearerToken = bearerToken.split(' ')[1]
-
-    
 
     jwt.verify(bearerToken, process.env.NOTE_SECRET_CODE,(err,verifedtoken)=>{
       if (err)
@@ -36,10 +31,10 @@ export const NoteAuthentication = async (req, res, next) => {
       else{
         // req.body.data = verifedtoken; //this verified token will have email id ,id
         // req.body['UserID'] = req.body.data.id
-
+        console.log("we are upto this authariation")
         req.body['data'] = verifedtoken;  
         req.body.UserID = req.body.data.id;  
-
+        console.log(req.body.UserID)
         next();
       }
     });

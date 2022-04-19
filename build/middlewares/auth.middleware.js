@@ -18,14 +18,12 @@ var _jsonwebtoken = _interopRequireDefault(require("jsonwebtoken"));
 var _winston = require("winston");
 
 /**
- * Middleware to authenticate if user has a valid Authorization token
- * Authorization: Bearer <token>
+
  *
  * @param {Object} req
  * @param {Object} res
  * @param {Function} next
  */
-//need to generate token first:
 var NoteAuthentication = /*#__PURE__*/function () {
   var _ref = (0, _asyncToGenerator2["default"])( /*#__PURE__*/_regenerator["default"].mark(function _callee(req, res, next) {
     var bearerToken;
@@ -34,7 +32,7 @@ var NoteAuthentication = /*#__PURE__*/function () {
         switch (_context.prev = _context.next) {
           case 0:
             _context.prev = 0;
-            bearerToken = req.header('Authorization'); //checking if bearer is not defined 
+            bearerToken = req.header('Authorization');
 
             if (bearerToken) {
               _context.next = 4;
@@ -47,19 +45,17 @@ var NoteAuthentication = /*#__PURE__*/function () {
             };
 
           case 4:
-            //choosing the second from string - second thing will have SECRET_CODE
-            bearerToken = bearerToken.split(' ')[1]; // header + creditials + secret 
+            bearerToken = bearerToken.split(' ')[1];
 
-            _jsonwebtoken["default"].verify(bearerToken, process.env.FORGET_PASS_CODE, function (err, verifedtoken) {
+            _jsonwebtoken["default"].verify(bearerToken, process.env.NOTE_SECRET_CODE, function (err, verifedtoken) {
               if (err) throw {
-                code: _httpStatusCodes["default"].BAD_REQUEST,
-                message: 'Authorization token is incorrect'
+                code: _httpStatusCodes["default"].UNAUTHORIZED,
+                message: 'User dont have access to this NoteID '
               };else {
-                // req.body['data'] = verifedtoken; //this verified token will have email id ,id
-                // console.log(req.body.data);
-                req.body = verifedtoken;
-                req.body['UserID'] = verifedtoken.id;
-                console.log(req.body.UserID);
+                // req.body.data = verifedtoken; //this verified token will have email id ,id
+                // req.body['UserID'] = req.body.data.id
+                req.body['data'] = verifedtoken;
+                req.body.UserID = req.body.data.id;
                 next();
               }
             });
@@ -95,7 +91,7 @@ var PassAuth = /*#__PURE__*/function () {
         switch (_context2.prev = _context2.next) {
           case 0:
             _context2.prev = 0;
-            bearerToken = req.header('Authorization'); //checking if bearer is not defined 
+            bearerToken = req.header('Authorization');
 
             if (bearerToken) {
               _context2.next = 4;
@@ -108,16 +104,14 @@ var PassAuth = /*#__PURE__*/function () {
             };
 
           case 4:
-            //choosing the second from string - second thing will have SECRET_CODE
-            bearerToken = bearerToken.split(' ')[1]; // alg + creditials + secret 
+            bearerToken = bearerToken.split(' ')[1];
 
             _jsonwebtoken["default"].verify(bearerToken, process.env.FORGET_PASS_CODE, function (err, verifedtoken) {
               if (err) throw {
                 code: _httpStatusCodes["default"].BAD_REQUEST,
                 message: 'Authorization token is incorrect'
               };else {
-                req.body['data'] = verifedtoken; //this verified token will have email id ,id
-
+                req.body['data'] = verifedtoken;
                 next();
               }
             });

@@ -26,10 +26,10 @@ var router = _express["default"].Router(); //route to get all users
 
 router.get('', userController.getallUsers); //route to create a new user
 
-router.post('/register', _user2.newUserValidator, userController.userRegistration); // // for login
+router.post('/register', _user2.newUserValidator, userController.userRegistration); // for login
 
-router.get('/login', userController.login);
-router.get('/forget', userController.forgetPassword);
+router.post('/login', userController.login);
+router.post('/forget', userController.forgetPassword);
 router.put('/reset', _auth.PassAuth, userController.resetPassword);
 var _default = router;
 exports["default"] = _default;

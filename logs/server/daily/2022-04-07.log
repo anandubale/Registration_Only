@@ -1,0 +1,4 @@
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-04-07T02:34:04.311Z"}
+info: Connected to the database. {"timestamp":"2022-04-07T02:34:04.347Z"}
+info: undefined {"accepted":["praatik@gmail.com"],"envelope":{"from":"","to":["praatik@gmail.com"]},"envelopeTime":944,"messageId":"<79ad2109-5035-e66c-0b01-e2b55a968da0@LAPTOP>","messageSize":277,"messageTime":877,"rejected":[],"response":"250 2.0.0 OK  1649299124 v10-20020a63ac0a000000b0039901c45810sm14313904pge.47 - gsmtp","timestamp":"2022-04-07T02:38:44.662Z"}
+info: undefined {"accepted":["praatik@gmail.com"],"envelope":{"from":"","to":["praatik@gmail.com"]},"envelopeTime":1150,"messageId":"<c80a7820-20eb-c0fd-f464-e3fe7cd9f02e@LAPTOP>","messageSize":537,"messageTime":1288,"rejected":[],"response":"250 2.0.0 OK  1649300906 j3-20020a056a00234300b004faabba358fsm20733412pfj.14 - gsmtp","timestamp":"2022-04-07T03:08:26.800Z"}

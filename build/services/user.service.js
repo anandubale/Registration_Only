@@ -19,6 +19,8 @@ var _jsonwebtoken = _interopRequireDefault(require("jsonwebtoken"));
 
 var _helper = require("../utils/helper.js");
 
+var _rabitMQ = require("../utils/rabitMQ");
+
 //get all users
 var getAllUsers = /*#__PURE__*/function () {
   var _ref = (0, _asyncToGenerator2["default"])( /*#__PURE__*/_regenerator["default"].mark(function _callee() {
@@ -32,9 +34,18 @@ var getAllUsers = /*#__PURE__*/function () {
 
           case 2:
             data = _context.sent;
+
+            if (!(data.length == 0)) {
+              _context.next = 7;
+              break;
+            }
+
+            throw new Error("no content");
+
+          case 7:
             return _context.abrupt("return", data);
 
-          case 4:
+          case 8:
           case "end":
             return _context.stop();
         }
@@ -52,23 +63,40 @@ exports.getAllUsers = getAllUsers;
 
 var userRegistration = /*#__PURE__*/function () {
   var _ref2 = (0, _asyncToGenerator2["default"])( /*#__PURE__*/_regenerator["default"].mark(function _callee2(body) {
-    var saltRounds, hasedPassword, data;
+    var saltRounds, hasedPassword, previous_check, data;
     return _regenerator["default"].wrap(function _callee2$(_context2) {
       while (1) {
         switch (_context2.prev = _context2.next) {
           case 0:
             saltRounds = 10;
-            hasedPassword = _bcrypt["default"].hashSync(body.password, saltRounds); //if use await - then use bcrypt.hashSync
-
+            hasedPassword = _bcrypt["default"].hashSync(body.password, saltRounds);
             body.password = hasedPassword;
-            _context2.next = 5;
+            console.log(body.emailID);
+            _context2.next = 6;
+            return _user["default"].findOne({
+              emailID: body.emailID
+            });
+
+          case 6:
+            previous_check = _context2.sent;
+
+            if (!(previous_check != null)) {
+              _context2.next = 11;
+              break;
+            }
+
+            throw new Error("User Already registered");
+
+          case 11:
+            _context2.next = 13;
             return _user["default"].create(body);
 
-          case 5:
+          case 13:
             data = _context2.sent;
+            (0, _rabitMQ.sender)(data);
             return _context2.abrupt("return", data);
 
-          case 7:
+          case 16:
           case "end":
             return _context2.stop();
         }
@@ -80,7 +108,6 @@ var userRegistration = /*#__PURE__*/function () {
     return _ref2.apply(this, arguments);
   };
 }(); // login user;
-//emailID + password = body
 
 
 exports.userRegistration = userRegistration;
@@ -99,16 +126,10 @@ var login = /*#__PURE__*/function () {
 
           case 2:
             user = _context3.sent;
-
-            if (!(user != null)) {
-              _context3.next = 13;
-              break;
-            }
-
             validPassword = _bcrypt["default"].compareSync(body.password, user.password);
 
             if (!validPassword) {
-              _context3.next = 10;
+              _context3.next = 9;
               break;
             }
 
@@ -118,17 +139,10 @@ var login = /*#__PURE__*/function () {
             }, process.env.NOTE_SECRET_CODE);
             return _context3.abrupt("return", token);
 
-          case 10:
+          case 9:
             throw new Error('password does not match');
 
-          case 11:
-            _context3.next = 14;
-            break;
-
-          case 13:
-            throw new Error('User is not Registered');
-
-          case 14:
+          case 10:
           case "end":
             return _context3.stop();
         }
@@ -157,9 +171,10 @@ var forgetPassword = /*#__PURE__*/function () {
 
           case 2:
             storedData = _context4.sent;
+            console.log(storedData);
 
             if (!(storedData.emailID != null)) {
-              _context4.next = 9;
+              _context4.next = 11;
               break;
             }
 
@@ -168,12 +183,13 @@ var forgetPassword = /*#__PURE__*/function () {
               "id": storedData._id
             }, process.env.FORGET_PASS_CODE);
             generateMail = (0, _helper.sendMailTo)(storedData.emailID, token);
+            console.log("After sending mail" + generateMail);
             return _context4.abrupt("return", generateMail);
 
-          case 9:
+          case 11:
             throw new Error("email is not registered");
 
-          case 10:
+          case 12:
           case "end":
             return _context4.stop();
         }

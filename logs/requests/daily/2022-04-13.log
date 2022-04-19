@@ -1,0 +1,36 @@
+info: ::1 - - [13/Apr/2022:14:16:09 +0000] "POST /api/v1/users/login HTTP/1.1" 200 248 "http://localhost:8080/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.0.0 Safari/537.36"
+
+info: ::1 - - [13/Apr/2022:14:16:26 +0000] "GET /api/v1/note/ HTTP/1.1" 200 6559 "http://localhost:8080/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.0.0 Safari/537.36"
+
+info: ::1 - - [13/Apr/2022:14:16:48 +0000] "PUT /api/v1/note/6229c5037a00c61070f34437 HTTP/1.1" 200 310 "http://localhost:8080/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.0.0 Safari/537.36"
+
+info: ::1 - - [13/Apr/2022:14:16:54 +0000] "GET /api/v1/note/ HTTP/1.1" 200 6544 "http://localhost:8080/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.0.0 Safari/537.36"
+
+info: ::1 - - [13/Apr/2022:16:05:37 +0000] "GET /api/v1/note/ HTTP/1.1" 200 6559 "http://localhost:8080/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.0.0 Safari/537.36"
+
+info: ::1 - - [13/Apr/2022:16:07:38 +0000] "GET /api/v1/note/ HTTP/1.1" 304 - "http://localhost:8080/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.0.0 Safari/537.36"
+
+info: ::1 - - [13/Apr/2022:16:08:06 +0000] "GET /api/v1/note/ HTTP/1.1" 200 6559 "http://localhost:8080/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.0.0 Safari/537.36"
+
+info: ::1 - - [13/Apr/2022:16:14:23 +0000] "GET /api/v1/note/ HTTP/1.1" 200 6559 "http://localhost:8080/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.0.0 Safari/537.36"
+
+info: ::1 - - [13/Apr/2022:16:16:20 +0000] "GET /api/v1/note/ HTTP/1.1" 200 6559 "http://localhost:8080/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.0.0 Safari/537.36"
+
+info: ::1 - - [13/Apr/2022:16:18:49 +0000] "GET /api/v1/note/ HTTP/1.1" 200 6559 "http://localhost:8080/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.0.0 Safari/537.36"
+
+info: ::1 - - [13/Apr/2022:16:28:18 +0000] "GET /api/v1/note/ HTTP/1.1" 200 6559 "http://localhost:8080/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.0.0 Safari/537.36"
+
+info: ::1 - - [13/Apr/2022:16:29:13 +0000] "GET /api/v1/note/ HTTP/1.1" 200 6559 "http://localhost:8080/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.0.0 Safari/537.36"
+
+info: ::1 - - [13/Apr/2022:16:30:47 +0000] "GET /api/v1/note/ HTTP/1.1" 200 6559 "http://localhost:8080/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.0.0 Safari/537.36"
+
+info: ::1 - - [13/Apr/2022:16:31:04 +0000] "GET /api/v1/note/ HTTP/1.1" 200 6559 "http://localhost:8080/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.0.0 Safari/537.36"
+
+info: ::1 - - [13/Apr/2022:16:31:43 +0000] "GET /api/v1/note/ HTTP/1.1" 200 6559 "http://localhost:8080/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.0.0 Safari/537.36"
+
+info: ::1 - - [13/Apr/2022:17:51:59 +0000] "GET /api/v1/note/ HTTP/1.1" 304 - "http://localhost:8080/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.0.0 Safari/537.36"
+
+info: ::1 - - [13/Apr/2022:18:03:16 +0000] "GET /api/v1/note/ HTTP/1.1" 200 6559 "http://localhost:8080/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.0.0 Safari/537.36"
+
+info: ::1 - - [13/Apr/2022:18:04:27 +0000] "GET /api/v1/note/ HTTP/1.1" 200 6559 "http://localhost:8080/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/102.0.0.0 Safari/537.36"
+

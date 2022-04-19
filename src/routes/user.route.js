@@ -11,13 +11,10 @@ router.get('', userController.getallUsers);
 //route to create a new user
 router.post('/register', newUserValidator, userController.userRegistration);
 
-
 // for login
 router.post('/login', userController.login);
 
-
 router.post('/forget',userController.forgetPassword)
-
 
 router.put('/reset',PassAuth,userController.resetPassword)
 
